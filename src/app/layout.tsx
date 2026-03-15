@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "AITechIndia | AI & Tech News",
   description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
+  verification: {
+    google: "3H46EQM6yQLN5t6Rz23LKdbixyPRPvsCRSfst2hUOH4",
+  },
 };
 
 export default function RootLayout({
