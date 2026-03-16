@@ -29,6 +29,30 @@ const MOCK_GLOBAL_NEWS: NewsArticle[] = [
         source: { name: "Wired" },
         publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 4).toISOString(),
         url: "#"
+    },
+    {
+        title: "Google DeepMind achieves breakthrough in protein structure prediction",
+        source: { name: "Nature" },
+        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(),
+        url: "#"
+    },
+    {
+        title: "Apple announces M4 Ultra chip with Neural Engine for AI tasks",
+        source: { name: "9to5Mac" },
+        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 6).toISOString(),
+        url: "#"
+    },
+    {
+        title: "Samsung Galaxy S26 Ultra leaked specs reveal AI camera features",
+        source: { name: "SamMobile" },
+        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 7).toISOString(),
+        url: "#"
+    },
+    {
+        title: "Nvidia H300 GPU breaks all AI training speed records",
+        source: { name: "Tom's Hardware" },
+        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 8).toISOString(),
+        url: "#"
     }
 ];
 
@@ -49,6 +73,30 @@ const MOCK_LOCAL_NEWS: NewsArticle[] = [
         title: "Paytm ऐप में आए नए फीचर्स, अब UPI पेमेंट होगा और भी तेज़",
         source: { name: "Tech Updates India" },
         publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 3).toISOString(),
+        url: "#"
+    },
+    {
+        title: "ISRO ने AI सैटेलाइट लॉन्च किया, अंतरिक्ष में भारत की बड़ी छलांग",
+        source: { name: "NDTV India" },
+        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 4).toISOString(),
+        url: "#"
+    },
+    {
+        title: "Flipkart Big Savings Days: स्मार्टफोन पर 40% तक की छूट",
+        source: { name: "91Mobiles Hindi" },
+        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(),
+        url: "#"
+    },
+    {
+        title: "Tata ने भारत में पहला AI-powered EV चार्जिंग स्टेशन बनाया",
+        source: { name: "Auto Car India" },
+        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 6).toISOString(),
+        url: "#"
+    },
+    {
+        title: "WhatsApp में आया Meta AI चैटबोट, अब हिंदी में बात करो",
+        source: { name: "Hindi Tech Guide" },
+        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 7).toISOString(),
         url: "#"
     }
 ];
