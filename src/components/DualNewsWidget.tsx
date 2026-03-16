@@ -162,7 +162,7 @@ export default function DualNewsWidget() {
     const isCurrentlyLive = activeTab === 'global' ? isLiveGlobal : isLiveLocal;
 
     return (
-        <div className="rounded-2xl border border-border/30 bg-card/50 backdrop-blur p-6 sticky top-24 gradient-border">
+        <div className="rounded-2xl border border-border/30 bg-card/50 backdrop-blur p-6 gradient-border">
             <div className="flex items-center justify-between pb-4 mb-4 border-b border-border/20">
                 <div className="flex items-center gap-2">
                     <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">

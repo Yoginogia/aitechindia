@@ -143,10 +143,8 @@ export default function Home() {
             {/* Right Column: Auto News Widget & Sidebar Extras */}
             <div className="lg:col-span-4 space-y-6" id="trending">
               <DualNewsWidget />
-              <div className="sticky top-[450px]">
-                  <NewsletterWidget />
-                  <EditorsPicksWidget />
-              </div>
+              <NewsletterWidget />
+              <EditorsPicksWidget />
             </div>
 
           </div>
