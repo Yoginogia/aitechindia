@@ -13,7 +13,7 @@ export async function GET(request: Request) {
         try {
             const res = await fetch(
                 `https://gnews.io/api/v4/top-headlines?category=technology&lang=en&max=5&apikey=${apiKey}`,
-                { next: { revalidate: 3600 } }
+                { next: { revalidate: 900 } }
             );
             if (!res.ok) throw new Error('Global fetch failed');
             const data = await res.json();
@@ -39,7 +39,7 @@ export async function GET(request: Request) {
             // Using NewsData.io API for Hindi Technology news
             const res = await fetch(
                 `https://newsdata.io/api/1/latest?apikey=${apiKey}&category=technology&language=hi&size=5`,
-                { next: { revalidate: 3600 } }
+                { next: { revalidate: 900 } }
             );
             if (!res.ok) throw new Error('Local fetch failed');
             const data = await res.json();
