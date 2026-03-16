@@ -203,7 +203,7 @@ export default function DualNewsWidget() {
                 </div>
             )}
 
-            <div className={`space-y-4 transition-opacity duration-300 ${loading ? 'opacity-50' : 'opacity-100'}`}>
+            <div className={`space-y-4 transition-opacity duration-300 max-h-[500px] overflow-y-auto pr-1 ${loading ? 'opacity-50' : 'opacity-100'}`}>
                 {currentNews.map((article, index) => (
                     <a
                         key={index}
