@@ -8,57 +8,91 @@ export const metadata = {
 
 const TOP_DEALS = [
     {
-        title: "Apple MacBook Air M3 (2026 Edition)",
-        category: "Laptop",
-        description: "नया M3 चिप, 16GB RAM, और स्लिम डिज़ाइन। स्टूडेंट्स और क्रिएटर्स के लिए सबसे बेहतरीन लैपटॉप।",
-        price: "₹1,14,900",
-        discount: "10% Off (HDFC Card)",
-        rating: 4.8,
-        link: "/blog/apple-macbook-air-m3-deal",
-        tag: "Bestseller",
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=600"
+        title: "iPhone 17 (128GB) — Flipkart Big Saving Days",
+        category: "Smartphone",
+        description: "Apple का लेटेस्ट iPhone 17, 48MP कैमरा और A19 चिप। Flipkart सेल में MRP से ₹3,000 की छूट + SBI Card पर 10% इंस्टेंट डिस्काउंट।",
+        price: "₹79,990",
+        discount: "SBI Card पर 10% Off",
+        rating: 4.9,
+        link: "/blog/iphone-17-pro-max-leaks",
+        tag: "🔥 Hot Deal",
+        image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=600"
     },
     {
-        title: "Samsung Galaxy S24 Ultra",
+        title: "Samsung Galaxy S25 Edge (256GB)",
         category: "Smartphone",
-        description: "Galaxy AI फीचर्स, 200MP कैमरा और Titanium फ्रेम। फोटोग्राफी के शौकीनों के लिए बेस्ट चॉइस।",
-        price: "₹1,29,999",
-        discount: "Exchange Bonus ₹12,000",
-        rating: 4.9,
-        link: "/blog/samsung-galaxy-s24-ultra-deal", 
-        tag: "Top Pick",
+        description: "Samsung का सबसे पतला फ्लैगशिप फ़ोन। Galaxy AI, 200MP कैमरा और Titanium बॉडी। Flipkart पर बेस्ट प्राइस।",
+        price: "₹1,24,999",
+        discount: "Exchange Bonus ₹15,000",
+        rating: 4.8,
+        link: "/gadgets",
+        tag: "New Launch",
         image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+        title: "iQOO Z11x 5G (6GB+128GB) — Just Launched!",
+        category: "Budget Phone",
+        description: "सिर्फ ₹18,999 में 5G फ़ोन! Snapdragon प्रोसेसर, 6000mAh बैटरी। Amazon पर 16 March से सेल शुरू।",
+        price: "₹18,999",
+        discount: "Bank Discount + No-Cost EMI",
+        rating: 4.5,
+        link: "/gadgets",
+        tag: "🆕 Just Launched",
+        image: "https://images.unsplash.com/photo-1598327105666-5b89351cb31b?auto=format&fit=crop&q=80&w=600"
     },
     {
         title: "Sony WH-1000XM6 Wireless Headphones",
         category: "Audio",
-        description: "इंडस्ट्री-लीडिंग एक्टिव नॉइज़ कैंसलेशन (ANC) और 40 घंटे की बैटरी लाइफ। म्यूजिक लवर्स के लिए पर्फेक्ट।",
-        price: "₹29,990",
-        discount: "Flat ₹3000 Off",
-        rating: 4.7,
+        description: "दुनिया का बेस्ट ANC हेडफोन। 40 घंटे बैटरी और Hi-Res Audio। Amazon Mega Electronics Days में भारी छूट।",
+        price: "₹26,990",
+        discount: "Flat ₹6,000 Off",
+        rating: 4.8,
         link: "/gadgets",
-        tag: "Trending",
+        tag: "Bestseller",
         image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=600"
     },
     {
-        title: "ASUS ROG Zephyrus G14 (2026)",
+        title: "ASUS ROG Zephyrus G16 (2026) — Gaming Beast",
         category: "Gaming Laptop",
-        description: "AMD Ryzen 9 और RTX 4070 के साथ अल्टीमेट गेमिंग परफॉरमेंस। बेहद कॉम्पैक्ट डिज़ाइन।",
-        price: "₹1,74,990",
-        discount: "Free Gaming Mouse",
-        rating: 4.8,
+        description: "Intel Core Ultra 9, RTX 5070 GPU, 32GB DDR5 RAM। Amazon Holi Sale में फ्री गेमिंग माउस + कैरी बैग।",
+        price: "₹1,89,990",
+        discount: "Free Gaming Mouse + Bag",
+        rating: 4.7,
         link: "/gadgets",
         image: "https://images.unsplash.com/photo-1593640498182-31c70c8268f5?auto=format&fit=crop&q=80&w=600"
     },
     {
-        title: "Google Pixel 9 Pro",
+        title: "Redmi 13C 5G — Amazon Holi Store",
+        category: "Budget Phone",
+        description: "सबसे सस्ता 5G फ़ोन! 50MP कैमरा, 5000mAh बैटरी। Amazon Holi Store में 60% तक की छूट।",
+        price: "₹8,499",
+        discount: "60% Off — Limited Stock",
+        rating: 4.3,
+        link: "/gadgets",
+        tag: "Budget King",
+        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+        title: "Apple MacBook Air M4 (2026 Edition)",
+        category: "Laptop",
+        description: "M4 चिप, 16GB Unified RAM, 512GB SSD। क्रिएटर्स और प्रोफेशनल्स के लिए परफेक्ट। HDFC Card पर एक्स्ट्रा 10% Off।",
+        price: "₹1,19,900",
+        discount: "HDFC Card पर 10% Off",
+        rating: 4.9,
+        link: "/blog/apple-macbook-air-m3-deal",
+        tag: "Top Pick",
+        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=600"
+    },
+    {
+        title: "Nothing Phone (3) — Flipkart Exclusive",
         category: "Smartphone",
-        description: "Pure Android एक्सपीरियंस, नेक्स्ट-जेन AI कैमरा और 7 साल के OS अपडेट्स।",
-        price: "₹1,06,999",
-        discount: "Bank Offers Available",
+        description: "Glyph Interface 2.0, Snapdragon 8 Gen 3, 50MP कैमरा। Flipkart Big Saving Days में बेस्ट प्राइस।",
+        price: "₹37,999",
+        discount: "Exchange + Bank Offer",
         rating: 4.6,
         link: "/gadgets",
-        image: "https://images.unsplash.com/photo-1598327105666-5b89351cb31b?auto=format&fit=crop&q=80&w=600"
+        tag: "Trending",
+        image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=600"
     }
 ];
 
@@ -67,10 +101,10 @@ export default function TopDealsPage() {
         <div className="container mx-auto px-4 md:px-8 py-12 max-w-5xl">
             <div className="mb-12 text-center">
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-                    Today's <span className="gradient-text">Top Deals</span>
+                    Today's <span className="gradient-text">Top Deals</span> 🛒
                 </h1>
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                    हमारी टीम द्वारा चुने गए आज के बेस्ट गैजेट्स और भारी डिस्काउंट वाले ऑफर्स। नीचे दिए गए लिंक्स से खरीदकर आप चैनल को सपोर्ट कर सकते हैं।
+                    Amazon Holi Sale & Flipkart Big Saving Days के बेस्ट ऑफर्स! (Updated: 16 March 2026)
                 </p>
             </div>
 

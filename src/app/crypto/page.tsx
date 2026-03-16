@@ -7,84 +7,84 @@ export const metadata = {
 
 const CRYPTO_NEWS = [
     {
-        title: "Bitcoin (BTC) ने छुआ नया All-Time High, 2026 में क्या है एक्सपर्ट्स की राय?",
-        date: "Mar 13, 2026",
-        source: "CoinDesk India",
+        title: "Bitcoin (BTC) ने तोड़ा $74,000 का रेज़िस्टेंस, मार्केट में $2.6 Trillion की रैली!",
+        date: "Mar 16, 2026",
+        source: "CoinDesk",
         trend: "up",
         url: "/blog/bitcoin-all-time-high-2026",
         image: "https://images.unsplash.com/photo-1516245834210-c4c142787335?auto=format&fit=crop&q=80&w=400"
     },
     {
-        title: "Ethereum 3.0 अपडेट का ऐलान: Gas Fees में होगी भारी कटौती",
-        date: "Mar 12, 2026",
-        source: "CryptoNews",
+        title: "🔥 20 Millionth Bitcoin माइन हो गया! अब सिर्फ 1 Million BTC बाकी — Scarcity बढ़ी",
+        date: "Mar 15, 2026",
+        source: "CryptoSlate",
         trend: "up",
-        url: "/blog/ethereum-3-update-gas-fees",
-        image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&q=80&w=400"
+        url: "/blog/bitcoin-all-time-high-2026",
+        image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80&w=400"
     },
     {
-        title: "Solana (SOL) नेटवर्क फिर हुआ डाउन: इन्वेस्टर्स में घबराहट",
-        date: "Mar 11, 2026",
-        source: "AITechIndia",
-        trend: "down",
+        title: "US Fed का बड़ा फैसला आज: क्या Interest Rates होंगे कम? Crypto मार्केट की नज़र",
+        date: "Mar 16, 2026",
+        source: "Bloomberg",
+        trend: "neutral",
         url: "/latest",
-        image: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?auto=format&fit=crop&q=80&w=400"
+        image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=400"
     },
     {
-        title: "ग्लोबल Crypto Regulations: भारत सरकार जल्द ला सकती है नया ड्राफ्ट",
-        date: "Mar 10, 2026",
-        source: "Economic Times",
+        title: "SEC और CFTC ने मिलाया हाथ: 'Project Crypto' से आएगा Regulation में बड़ा बदलाव",
+        date: "Mar 14, 2026",
+        source: "Lowenstein",
         trend: "neutral",
         url: "/latest",
         image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&q=80&w=400"
     },
     {
-        title: "Binance ने भारत में शुरू की नई UPI सर्विस, ट्रेडिंग हुई और आसान",
-        date: "Mar 09, 2026",
-        source: "YourStory",
+        title: "Ethereum (ETH) 6% उछला, $3,243 पर ट्रेड हो रहा — Spot ETF Inflows बढ़े",
+        date: "Mar 16, 2026",
+        source: "CryptoNews",
         trend: "up",
-        url: "/latest",
-        image: "https://images.unsplash.com/photo-1605792657660-596af9009e82?auto=format&fit=crop&q=80&w=400"
-    },
-    {
-        title: "Top 5 Altcoins जो अप्रैल 2026 में दे सकते हैं 10x रिटर्न",
-        date: "Mar 08, 2026",
-        source: "AITechIndia",
-        trend: "up",
-        url: "/latest",
+        url: "/blog/ethereum-3-update-gas-fees",
         image: "https://images.unsplash.com/photo-1621504450181-5d356f61d307?auto=format&fit=crop&q=80&w=400"
     },
     {
-        title: "AI Crypto Tokens में उछाल: SingularityNET (AGIX) और Fetch.ai की पार्टनरशिप",
-        date: "Mar 07, 2026",
-        source: "CoinTelegraph",
+        title: "MicroStrategy (Strategy Inc.) ने खरीदे 17,000 और BTC — Total Holdings: 7,38,731 BTC!",
+        date: "Mar 15, 2026",
+        source: "The Block",
         trend: "up",
         url: "/latest",
         image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=400"
     },
     {
-        title: "US SEC ने खारिज किया नया Ethereum ETF, मार्केट में गिरावट",
-        date: "Mar 06, 2026",
-        source: "Bloomberg",
-        trend: "down",
+        title: "Solana Alpenglow अपग्रेड: 100x Finality Improvement, SOL में बड़ी तेज़ी की उम्मीद",
+        date: "Mar 14, 2026",
+        source: "AITechIndia",
+        trend: "up",
         url: "/latest",
-        image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&q=80&w=400"
+        image: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?auto=format&fit=crop&q=80&w=400"
     },
     {
-        title: "Tether (USDT) ने जारी की Transparency Report, रिज़र्व को लेकर उठे सवाल ख़त्म",
-        date: "Mar 05, 2026",
-        source: "CryptoSlate",
+        title: "Spot Bitcoin ETFs में $1.34 Billion की इनफ्लो, 5 हफ़्तों बाद Withdrawals रुकी",
+        date: "Mar 13, 2026",
+        source: "IG Markets",
+        trend: "up",
+        url: "/latest",
+        image: "https://images.unsplash.com/photo-1605792657660-596af9009e82?auto=format&fit=crop&q=80&w=400"
+    },
+    {
+        title: "Crypto Fear & Greed Index: 39 दिनों से 'Extreme Fear' — Smart Money कर रही Accumulation",
+        date: "Mar 16, 2026",
+        source: "CapitalStreetFX",
         trend: "neutral",
         url: "/latest",
         image: "https://images.unsplash.com/photo-1622630998477-20b41cd0e0ae?auto=format&fit=crop&q=80&w=400"
     },
     {
-        title: "Web3 गेमिंग का बूम: नए Play-to-Earn (P2E) टोकन्स ने मचाई धूम",
-        date: "Mar 04, 2026",
-        source: "AITechIndia",
-        trend: "up",
+        title: "Canada vs Crypto Scams: 'Operation Atlantic' से दुनिया भर में Fraud पर शिकंजा",
+        date: "Mar 12, 2026",
+        source: "CP24",
+        trend: "neutral",
         url: "/latest",
-        image: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?auto=format&fit=crop&q=80&w=400"
+        image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&q=80&w=400"
     }
 ];
 
@@ -95,7 +95,7 @@ export default function CryptoNewsPage() {
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
                     Top 10 <span className="gradient-text">Crypto News</span>
                 </h1>
-                <p className="text-muted-foreground">क्रिप्टोकरेंसी और ब्लॉकचैन दुनिया की 10 सबसे बड़ी और ताज़ा ख़बरें।</p>
+                <p className="text-muted-foreground">क्रिप्टोकरेंसी और ब्लॉकचैन दुनिया की 10 सबसे बड़ी और ताज़ा ख़बरें। (Updated: 16 March 2026)</p>
             </div>
 
             <div className="flex flex-col gap-4">
@@ -118,9 +118,9 @@ export default function CryptoNewsPage() {
                             </div>
                         </div>
                         <div className="hidden md:flex flex-shrink-0">
-                            {news.trend === 'up' && <span className="text-green-500 bg-green-500/10 px-3 py-1 rounded-full text-xs font-medium border border-green-500/20">Bullish</span>}
-                            {news.trend === 'down' && <span className="text-red-500 bg-red-500/10 px-3 py-1 rounded-full text-xs font-medium border border-red-500/20">Bearish</span>}
-                            {news.trend === 'neutral' && <span className="text-yellow-500 bg-yellow-500/10 px-3 py-1 rounded-full text-xs font-medium border border-yellow-500/20">Neutral</span>}
+                            {news.trend === 'up' && <span className="text-green-500 bg-green-500/10 px-3 py-1 rounded-full text-xs font-medium border border-green-500/20">Bullish 📈</span>}
+                            {news.trend === 'down' && <span className="text-red-500 bg-red-500/10 px-3 py-1 rounded-full text-xs font-medium border border-red-500/20">Bearish 📉</span>}
+                            {news.trend === 'neutral' && <span className="text-yellow-500 bg-yellow-500/10 px-3 py-1 rounded-full text-xs font-medium border border-yellow-500/20">Neutral ⚖️</span>}
                         </div>
                     </Link>
                 ))}
