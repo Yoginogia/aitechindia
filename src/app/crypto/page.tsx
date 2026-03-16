@@ -11,7 +11,7 @@ const CRYPTO_NEWS = [
         date: "Mar 16, 2026",
         source: "CoinDesk",
         trend: "up",
-        url: "/blog/bitcoin-all-time-high-2026",
+        url: "#",
         image: "https://images.unsplash.com/photo-1516245834210-c4c142787335?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -19,7 +19,7 @@ const CRYPTO_NEWS = [
         date: "Mar 15, 2026",
         source: "CryptoSlate",
         trend: "up",
-        url: "/blog/bitcoin-all-time-high-2026",
+        url: "#",
         image: "https://images.unsplash.com/photo-1518546305927-5a555bb7020d?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -27,7 +27,7 @@ const CRYPTO_NEWS = [
         date: "Mar 16, 2026",
         source: "Bloomberg",
         trend: "neutral",
-        url: "/latest",
+        url: "#",
         image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -35,7 +35,7 @@ const CRYPTO_NEWS = [
         date: "Mar 14, 2026",
         source: "Lowenstein",
         trend: "neutral",
-        url: "/latest",
+        url: "#",
         image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -43,7 +43,7 @@ const CRYPTO_NEWS = [
         date: "Mar 16, 2026",
         source: "CryptoNews",
         trend: "up",
-        url: "/blog/ethereum-3-update-gas-fees",
+        url: "#",
         image: "https://images.unsplash.com/photo-1621504450181-5d356f61d307?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -51,7 +51,7 @@ const CRYPTO_NEWS = [
         date: "Mar 15, 2026",
         source: "The Block",
         trend: "up",
-        url: "/latest",
+        url: "#",
         image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -59,7 +59,7 @@ const CRYPTO_NEWS = [
         date: "Mar 14, 2026",
         source: "AITechIndia",
         trend: "up",
-        url: "/latest",
+        url: "#",
         image: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -67,7 +67,7 @@ const CRYPTO_NEWS = [
         date: "Mar 13, 2026",
         source: "IG Markets",
         trend: "up",
-        url: "/latest",
+        url: "#",
         image: "https://images.unsplash.com/photo-1605792657660-596af9009e82?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -75,7 +75,7 @@ const CRYPTO_NEWS = [
         date: "Mar 16, 2026",
         source: "CapitalStreetFX",
         trend: "neutral",
-        url: "/latest",
+        url: "#",
         image: "https://images.unsplash.com/photo-1622630998477-20b41cd0e0ae?auto=format&fit=crop&q=80&w=400"
     },
     {
@@ -83,7 +83,7 @@ const CRYPTO_NEWS = [
         date: "Mar 12, 2026",
         source: "CP24",
         trend: "neutral",
-        url: "/latest",
+        url: "#",
         image: "https://images.unsplash.com/photo-1614064641938-3bbee52942c7?auto=format&fit=crop&q=80&w=400"
     }
 ];
