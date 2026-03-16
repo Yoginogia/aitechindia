@@ -213,7 +213,7 @@ export default function DualNewsWidget() {
                         className="group block space-y-2 border-b border-border/10 last:border-0 pb-4 last:pb-0 hover:bg-secondary/20 -mx-2 px-2 py-1 rounded-lg transition-colors"
                     >
                         <div className="flex items-start gap-3">
-                            <span className="text-sm font-bold text-primary mt-0.5 shrink-0">{String(index + 1).padStart(2, '0')}</span>
+                            <span className="h-7 w-7 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-xs font-bold text-white shrink-0">{String(index + 1).padStart(2, '0')}</span>
                             <div className="space-y-1.5 flex-1">
                                 <h3 className="text-sm font-semibold leading-snug group-hover:text-primary transition-colors line-clamp-2">
                                     {article.title}
