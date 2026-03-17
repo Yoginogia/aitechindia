@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'Disclaimer | AITechIndia',
-    description: 'AITechIndia का Disclaimer — हमारी content से जुड़ी ज़रूरी information.',
+    title: 'Disclaimer | AITechNews',
+    description: 'AITechNews का Disclaimer — हमारी content से जुड़ी ज़रूरी information.',
 };
 
 export default function DisclaimerPage() {
@@ -12,7 +12,7 @@ export default function DisclaimerPage() {
             <div className="prose prose-lg prose-invert max-w-none text-muted-foreground leading-relaxed space-y-6">
                 <h2 className="text-2xl font-semibold text-foreground mt-10 mb-4">1. General Information</h2>
                 <p>
-                    AITechIndia पर दी गई जानकारी सिर्फ general informational purposes के लिए है। हम पूरी कोशिश करते हैं कि content accurate हो, लेकिन हम किसी भी information की 100% accuracy की guarantee नहीं देते।
+                    AITechNews पर दी गई जानकारी सिर्फ general informational purposes के लिए है। हम पूरी कोशिश करते हैं कि content accurate हो, लेकिन हम किसी भी information की 100% accuracy की guarantee नहीं देते।
                 </p>
 
                 <h2 className="text-2xl font-semibold text-foreground mt-10 mb-4">2. External Links</h2>
@@ -30,7 +30,7 @@ export default function DisclaimerPage() {
 
                 <h2 className="text-2xl font-semibold text-foreground mt-10 mb-4">4. &quot;Live News&quot; Disclaimer</h2>
                 <p>
-                    हमारी &quot;Live Trending News&quot; widget में headlines third-party News APIs से automatically आती हैं। AITechIndia इन auto-fetched headlines को manually verify या edit नहीं करता। Source हमेशा cite किया जाता है।
+                    हमारी &quot;Live Trending News&quot; widget में headlines third-party News APIs से automatically आती हैं। AITechNews इन auto-fetched headlines को manually verify या edit नहीं करता। Source हमेशा cite किया जाता है।
                 </p>
 
                 <h2 className="text-2xl font-semibold text-foreground mt-10 mb-4">5. Professional Advice नहीं है</h2>

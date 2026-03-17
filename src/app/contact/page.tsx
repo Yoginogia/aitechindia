@@ -2,8 +2,8 @@ import { Mail } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
 
 export const metadata = {
-    title: 'संपर्क करें | AITechIndia',
-    description: 'AITechIndia team से बात करें — कोई सवाल, tip, या business inquiry हो।',
+    title: 'संपर्क करें | AITechNews',
+    description: 'AITechNews team से बात करें — कोई सवाल, tip, या business inquiry हो।',
 };
 
 export default function ContactPage() {

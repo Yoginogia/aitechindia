@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'Advertise with Us | AITechIndia',
-    description: 'AITechIndia पर advertise करें और भारत की सबसे तेज़ी से बढ़ती tech audience तक पहुंचें।',
+    title: 'Advertise with Us | AITechNews',
+    description: 'AITechNews पर advertise करें और भारत की सबसे तेज़ी से बढ़ती tech audience तक पहुंचें।',
 };
 
 export default function AdvertisePage() {
@@ -8,12 +8,12 @@ export default function AdvertisePage() {
         <div className="container mx-auto px-4 md:px-8 max-w-4xl py-12 md:py-20">
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 gradient-text">Advertise with Us</h1>
             <p className="text-lg text-muted-foreground mb-12">
-                AITechIndia के साथ जुड़ें और अपनी ब्रांड को सही टेक-सैवी (tech-savvy) ऑडियंस तक पहुंचाएं।
+                AITechNews के साथ जुड़ें और अपनी ब्रांड को सही टेक-सैवी (tech-savvy) ऑडियंस तक पहुंचाएं।
             </p>
 
             <div className="prose prose-lg prose-invert max-w-none text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                    AITechIndia भारत के सबसे तेज़ी से बढ़ते Tech और AI ब्लोग्स में से एक है। हमारी ऑडियंस गैजेट्स, AI टूल्स, और लेटेस्ट टेक न्यूज़ में बहुत दिलचस्पी रखती है।
+                    AITechNews भारत के सबसे तेज़ी से बढ़ते Tech और AI ब्लोग्स में से एक है। हमारी ऑडियंस गैजेट्स, AI टूल्स, और लेटेस्ट टेक न्यूज़ में बहुत दिलचस्पी रखती है।
                 </p>
 
                 <div className="bg-card/50 border border-border/30 rounded-2xl p-8 my-8 card-glow">

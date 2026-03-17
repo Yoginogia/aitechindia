@@ -83,7 +83,7 @@ Businesses के लिए custom AI chatbots बनाएं। बहुत �
 ## 5. AI-Powered Blog/Website — ₹10,000-50,000/month
 
 ### कैसे करें?
-एक niche blog बनाएं (जैसे यह AITechIndia!), AI से content create करें, और AdSense + affiliate marketing से earn करें।
+एक niche blog बनाएं (जैसे यह AITechNews!), AI से content create करें, और AdSense + affiliate marketing से earn करें।
 
 ### Steps:
 1. Domain + Hosting खरीदें (₹2000-3000/year)

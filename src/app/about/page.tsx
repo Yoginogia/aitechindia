@@ -1,8 +1,8 @@
 import { Sparkles, Target, Layers, Zap } from 'lucide-react';
 
 export const metadata = {
-    title: 'हमारे बारे में | AITechIndia',
-    description: 'AITechIndia के बारे में जानें — हमारा mission, हमारा vision, और हम क्या cover करते हैं।',
+    title: 'हमारे बारे में | AITechNews',
+    description: 'AITechNews के बारे में जानें — हमारा mission, हमारा vision, और हम क्या cover करते हैं।',
 };
 
 export default function AboutPage() {
@@ -14,7 +14,7 @@ export default function AboutPage() {
             <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-6 gradient-text">हमारे बारे में</h1>
 
             <p className="text-lg text-muted-foreground leading-relaxed mb-12">
-                <strong className="text-foreground">AITechIndia</strong> एक ऐसी जगह है जहाँ technology की दुनिया को simple और सीधी भाषा में समझाया जाता है। चाहे आप एक developer हो, student हो, या बस tech में interested हो — AITechIndia आपके लिए है।
+                <strong className="text-foreground">AITechNews</strong> एक ऐसी जगह है जहाँ technology की दुनिया को simple और सीधी भाषा में समझाया जाता है। चाहे आप एक developer हो, student हो, या बस tech में interested हो — AITechNews आपके लिए है।
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
@@ -44,7 +44,7 @@ export default function AboutPage() {
             <div className="prose prose-lg prose-invert max-w-none text-muted-foreground leading-relaxed space-y-6">
                 <h2 className="text-2xl font-semibold text-foreground">हमारी कहानी</h2>
                 <p>
-                    जब tech की दुनिया में रोज़ नए-नए tools और products आते हैं, तो सब कुछ समझना मुश्किल हो जाता है। AITechIndia इसलिए बना है — ताकि हम noise को cut करके आपको सिर्फ वो जानकारी दें जो ज़रूरी है।
+                    जब tech की दुनिया में रोज़ नए-नए tools और products आते हैं, तो सब कुछ समझना मुश्किल हो जाता है। AITechNews इसलिए बना है — ताकि हम noise को cut करके आपको सिर्फ वो जानकारी दें जो ज़रूरी है।
                 </p>
                 <p>
                     हम AI technology को खुद अपने काम में इस्तेमाल करते हैं। हमारा &quot;Live Trending News&quot; section दुनिया भर से ताज़ा खबरें automatically fetch करता है, जबकि हमारी editorial team regularly deep-dive articles लिखती है जो unique और valuable हैं।

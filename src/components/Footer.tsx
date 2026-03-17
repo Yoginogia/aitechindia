@@ -14,7 +14,7 @@ export default function Footer() {
                                 <Zap className="h-4 w-4 text-white" />
                             </div>
                             <span className="font-bold text-xl tracking-tight gradient-text">
-                                AITechIndia
+                                AITechNews
                             </span>
                         </Link>
                         <p className="text-sm text-muted-foreground leading-relaxed">
@@ -63,7 +63,7 @@ export default function Footer() {
 
                 <div className="mt-10 flex flex-col sm:flex-row items-center justify-between border-t border-border/30 pt-8">
                     <p className="text-sm text-muted-foreground">
-                        © {currentYear} AITechIndia Media. All rights reserved.
+                        © {currentYear} AITechNews Media. All rights reserved.
                     </p>
                     <p className="text-sm text-muted-foreground mt-2 sm:mt-0 flex items-center gap-1">
                         Made with <Heart className="h-3 w-3 text-pink-500 fill-pink-500" /> in India

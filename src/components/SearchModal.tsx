@@ -125,7 +125,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                     )}
                 </div>
                 <div className="bg-secondary/30 px-4 py-2 border-t border-border/50 text-xs text-muted-foreground flex justify-between items-center">
-                    <span>Search powered by AITechIndia</span>
+                    <span>Search powered by AITechNews</span>
                     <span className="hidden sm:inline-block border border-border/50 rounded px-1.5 py-0.5 bg-background font-mono text-[10px]">esc to close</span>
                 </div>
             </div>

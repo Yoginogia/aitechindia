@@ -174,7 +174,7 @@ export default function TopDealsPage() {
             <div className="mt-16 p-6 md:p-8 bg-secondary/30 rounded-2xl border border-primary/20 flex flex-col items-center justify-center text-center">
                 <h3 className="text-xl font-bold mb-2">Affiliate Disclosure</h3>
                 <p className="text-sm text-muted-foreground max-w-2xl">
-                    AITechIndia पेज पर दिखाई गए कुछ प्रोडक्ट्स के लिंक्स एफिलिएट लिंक्स हो सकते हैं। अगर आप इन लिंक्स पर क्लिक करके कोई प्रोडक्ट खरीदते हैं, तो हमें बिना किसी अतिरिक्त लागत के एक छोटा सा कमीशन मिलता है। यह हमारी वेबसाइट को चलाने में मदद करता है।
+                    AITechNews पेज पर दिखाई गए कुछ प्रोडक्ट्स के लिंक्स एफिलिएट लिंक्स हो सकते हैं। अगर आप इन लिंक्स पर क्लिक करके कोई प्रोडक्ट खरीदते हैं, तो हमें बिना किसी अतिरिक्त लागत के एक छोटा सा कमीशन मिलता है। यह हमारी वेबसाइट को चलाने में मदद करता है।
                 </p>
             </div>
         </div>

@@ -55,7 +55,7 @@ const CRYPTO_NEWS = [
     {
         title: "Solana Alpenglow अपग्रेड: 100x Finality Improvement, SOL में तेज़ी की उम्मीद",
         date: "Mar 14, 2026",
-        source: "AITechIndia",
+        source: "AITechNews",
         trend: "up",
         image: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?auto=format&fit=crop&q=80&w=400",
         content: "Solana का बहुप्रतीक्षित Alpenglow अपग्रेड Q1 2026 में mainnet पर आ रहा है। यह upgrade transaction finality को 100 गुना तेज़ बनाएगा, जिससे Solana DeFi और gaming applications के लिए और भी attractive बनेगा। SOL की कीमत में इस announcement के बाद अच्छी तेज़ी देखी गई है। Developers community इस upgrade को Ethereum killer move मान रहे हैं।"
@@ -145,7 +145,7 @@ export default function CryptoNewsPage() {
 
             <div className="mt-12 p-6 glass rounded-xl border border-border/50 text-center">
                 <p className="text-muted-foreground text-sm">
-                    <strong>Disclaimer:</strong> Cryptocurrency investments are subject to market risks. Please do your own research before investing. AITechIndia is not a financial advisor.
+                    <strong>Disclaimer:</strong> Cryptocurrency investments are subject to market risks. Please do your own research before investing. AITechNews is not a financial advisor.
                 </p>
             </div>
         </div>

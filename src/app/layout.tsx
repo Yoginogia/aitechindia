@@ -17,13 +17,13 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://aitechnews.co.in'),
-  title: "AITechIndia | AI & Tech News",
+  title: "AITechNews | AI & Tech News",
   description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
   openGraph: {
-    title: "AITechIndia | AI & Tech News",
+    title: "AITechNews | AI & Tech News",
     description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
     url: "https://aitechnews.co.in",
-    siteName: "AITechIndia",
+    siteName: "AITechNews",
     type: "website",
   },
   verification: {

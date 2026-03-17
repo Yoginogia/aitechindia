@@ -15,12 +15,12 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     try {
         const postData = await getPostData(resolvedParams.slug);
         return {
-            title: `${postData.title} | AITechIndia`,
+            title: `${postData.title} | AITechNews`,
             description: postData.excerpt,
         };
     } catch {
         return {
-            title: 'Post Not Found | AITechIndia',
+            title: 'Post Not Found | AITechNews',
         };
     }
 }

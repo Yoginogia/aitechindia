@@ -13,8 +13,8 @@ const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string 
 const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-slate-500/20 to-gray-600/20' };
 
 export const metadata = {
-    title: 'Gadgets | AITechIndia',
-    description: 'AITechIndia par latest smartphones, laptops, aur gadgets ki reviews aur updates.',
+    title: 'Gadgets | AITechNews',
+    description: 'AITechNews par latest smartphones, laptops, aur gadgets ki reviews aur updates.',
 };
 
 export default function GadgetsPage() {

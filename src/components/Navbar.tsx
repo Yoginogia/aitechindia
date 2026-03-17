@@ -36,7 +36,7 @@ export default function Navbar() {
                                     <Zap className="h-4 w-4 text-white" />
                                 </div>
                                 <span className="font-bold text-xl tracking-tight gradient-text">
-                                    AITechIndia
+                                    AITechNews
                                 </span>
                             </Link>
                             <nav className="hidden md:flex items-center gap-2 text-sm font-medium">

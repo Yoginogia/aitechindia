@@ -1,6 +1,6 @@
 export const metadata = {
-    title: 'Privacy Policy | AITechIndia',
-    description: 'AITechIndia की Privacy Policy — आपका data कैसे collect और use होता है।',
+    title: 'Privacy Policy | AITechNews',
+    description: 'AITechNews की Privacy Policy — आपका data कैसे collect और use होता है।',
 };
 
 export default function PrivacyPolicyPage() {
@@ -11,7 +11,7 @@ export default function PrivacyPolicyPage() {
 
             <div className="prose prose-lg prose-invert max-w-none text-muted-foreground leading-relaxed space-y-6">
                 <p>
-                    AITechIndia (&quot;हम&quot;, &quot;हमारा&quot;) पर आपकी privacy हमारी top priority है। यह Privacy Policy बताती है कि हम आपकी personal information को कैसे collect, use और protect करते हैं।
+                    AITechNews (&quot;हम&quot;, &quot;हमारा&quot;) पर आपकी privacy हमारी top priority है। यह Privacy Policy बताती है कि हम आपकी personal information को कैसे collect, use और protect करते हैं।
                 </p>
 
                 <h2 className="text-2xl font-semibold text-foreground mt-10 mb-4">1. हम क्या Information Collect करते हैं</h2>
@@ -19,7 +19,7 @@ export default function PrivacyPolicyPage() {
                     <strong className="text-foreground">आपके द्वारा दी गई information:</strong> जब आप हमारा newsletter subscribe करते हैं या contact form use करते हैं, तब हम आपका नाम और email collect कर सकते हैं।
                 </p>
                 <p>
-                    <strong className="text-foreground">Automatically collect होने वाली information:</strong> जब आप AITechIndia visit करते हैं, हम आपके browser, IP address, और browsing behavior के बारे में कुछ basic जानकारी collect करते हैं (cookies के through)।
+                    <strong className="text-foreground">Automatically collect होने वाली information:</strong> जब आप AITechNews visit करते हैं, हम आपके browser, IP address, और browsing behavior के बारे में कुछ basic जानकारी collect करते हैं (cookies के through)।
                 </p>
 
                 <h2 className="text-2xl font-semibold text-foreground mt-10 mb-4">2. Cookies और Tracking</h2>

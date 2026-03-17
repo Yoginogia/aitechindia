@@ -13,8 +13,8 @@ const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string 
 const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-slate-500/20 to-gray-600/20' };
 
 export const metadata = {
-    title: 'Software Updates | AITechIndia',
-    description: 'AITechIndia par latest software updates, operating systems, aur apps ki jaankari.',
+    title: 'Software Updates | AITechNews',
+    description: 'AITechNews par latest software updates, operating systems, aur apps ki jaankari.',
 };
 
 export default function SoftwarePage() {
