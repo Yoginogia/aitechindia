@@ -16,8 +16,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://aitechnews.co.in'),
   title: "AITechIndia | AI & Tech News",
   description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
+  openGraph: {
+    title: "AITechIndia | AI & Tech News",
+    description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
+    url: "https://aitechnews.co.in",
+    siteName: "AITechIndia",
+    type: "website",
+  },
   verification: {
     google: "3H46EQM6yQLN5t6Rz23LKdbixyPRPvsCRSfst2hUOH4",
   },

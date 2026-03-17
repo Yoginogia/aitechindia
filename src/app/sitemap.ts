@@ -3,7 +3,7 @@ import { getAllPostSlugs } from '@/lib/markdown'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // Update this to your deployed domain after Vercel deployment
-  const baseUrl = 'https://aitechindia-yourdomain.com'
+  const baseUrl = 'https://aitechnews.co.in'
 
   const staticRoutes = [
     '',

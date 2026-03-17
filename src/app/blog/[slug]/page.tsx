@@ -108,11 +108,11 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 <div className="flex items-center gap-2 text-muted-foreground text-sm">
                     <Share2 className="h-4 w-4" />
                     <span>Share करें:</span>
-                    <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(postData.title)}&url=${encodeURIComponent(`https://aitechindia.vercel.app/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">Twitter</a>
+                    <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(postData.title)}&url=${encodeURIComponent(`https://aitechnews.co.in/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">Twitter</a>
                     <span>•</span>
-                    <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://aitechindia.vercel.app/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">LinkedIn</a>
+                    <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://aitechnews.co.in/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">LinkedIn</a>
                     <span>•</span>
-                    <a href={`https://api.whatsapp.com/send?text=${encodeURIComponent(postData.title + ' - ' + `https://aitechindia.vercel.app/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">WhatsApp</a>
+                    <a href={`https://api.whatsapp.com/send?text=${encodeURIComponent(postData.title + ' - ' + `https://aitechnews.co.in/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">WhatsApp</a>
                 </div>
                 <Link href="/" className="inline-flex h-10 items-center justify-center rounded-full border border-border/30 bg-secondary/30 backdrop-blur px-6 text-sm font-medium transition-all hover:bg-secondary/50 hover:border-primary/30">
                     और पढ़ें →

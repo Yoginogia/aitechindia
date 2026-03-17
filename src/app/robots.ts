@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/api/'],
     },
-    sitemap: 'https://aitechindia-yourdomain.com/sitemap.xml',
+    sitemap: 'https://aitechnews.co.in/sitemap.xml',
   }
 }
