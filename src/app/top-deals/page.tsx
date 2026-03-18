@@ -1,7 +1,9 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronDown, ChevronUp, Star } from 'lucide-react';
+import { ChevronDown, ChevronUp, Star, ExternalLink } from 'lucide-react';
+
+const AFFILIATE_TAG = "aitechnews-21";
 
 const TOP_DEALS = [
     {
@@ -13,61 +15,73 @@ const TOP_DEALS = [
         rating: 4.9,
         tag: "🔥 Hot Deal",
         image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=600",
+        buyLink: "https://www.flipkart.com/search?q=iphone+17",
+        platform: "Flipkart",
         content: "Apple ने अपना नया iPhone 17 लॉन्च कर दिया है और Flipkart Big Saving Days में इस पर बहुत शानदार डील मिल रही है। इसमें A19 Bionic चिप लगी है जो पिछले सभी iPhones से ज़्यादा तेज़ है। 48MP कैमरा सिस्टम, Dynamic Island, और USB-C पोर्ट इसे एक complete package बनाते हैं। SBI Credit Card से खरीदने पर 10% instant discount मिलेगा, जो लगभग ₹8,000 तक की बचत होगी। इसके अलावा No-Cost EMI और Exchange Bonus भी उपलब्ध है।"
     },
     {
         title: "Samsung Galaxy S25 Edge (256GB)",
         category: "Smartphone",
-        description: "Samsung का सबसे पतला फ्लैगशिप फ़ोन। Galaxy AI, 200MP कैमरा और Titanium बॉडी। Flipkart पर बेस्ट प्राइस।",
+        description: "Samsung का सबसे पतला फ्लैगशिप फ़ोन। Galaxy AI, 200MP कैमरा और Titanium बॉडी। Amazon पर बेस्ट प्राइस।",
         price: "₹1,24,999",
         discount: "Exchange Bonus ₹15,000",
         rating: 4.8,
         tag: "New Launch",
         image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600",
-        content: "Samsung Galaxy S25 Edge अब तक का सबसे पतला Samsung flagship है। इसमें 200MP main camera, Snapdragon 8 Elite processor, और Galaxy AI features हैं जो live translation, circle to search, और AI photo editing करते हैं। Titanium body इसे premium और durable बनाती है। Flipkart पर ₹15,000 तक का exchange bonus मिल रहा है, plus bank offers और no-cost EMI options भी available हैं।"
+        buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s25+edge&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "Samsung Galaxy S25 Edge अब तक का सबसे पतला Samsung flagship है। इसमें 200MP main camera, Snapdragon 8 Elite processor, और Galaxy AI features हैं जो live translation, circle to search, और AI photo editing करते हैं। Titanium body इसे premium और durable बनाती है। Amazon पर ₹15,000 तक का exchange bonus मिल रहा है, plus bank offers और no-cost EMI options भी available हैं।"
     },
     {
         title: "iQOO Z11x 5G (6GB+128GB) — Just Launched!",
         category: "Budget Phone",
-        description: "सिर्फ ₹18,999 में 5G फ़ोन! Snapdragon प्रोसेसर, 6000mAh बैटरी। Amazon पर 16 March से सेल शुरू।",
+        description: "सिर्फ ₹18,999 में 5G फ़ोन! Snapdragon प्रोसेसर, 6000mAh बैटरी। Amazon पर सेल शुरू।",
         price: "₹18,999",
         discount: "Bank Discount + No-Cost EMI",
         rating: 4.5,
         tag: "🆕 Just Launched",
         image: "https://images.unsplash.com/photo-1598327105666-5b89351cb31b?auto=format&fit=crop&q=80&w=600",
-        content: "iQOO ने अपना बजट किंग Z11x 5G लॉन्च किया है। ₹18,999 की कीमत में Snapdragon processor, 6000mAh massive battery (2 दिन चलेगी!), 50MP AI camera, और 5G connectivity मिल रही है। Amazon पर 16 March से sale शुरू है और instant bank discount + no-cost EMI options उपलब्ध हैं। यह ₹20,000 से कम में सबसे बढ़िया 5G phone बताया जा रहा है।"
+        buyLink: `https://www.amazon.in/s?k=iqoo+z11x+5g&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "iQOO ने अपना बजट किंग Z11x 5G लॉन्च किया है। ₹18,999 की कीमत में Snapdragon processor, 6000mAh massive battery (2 दिन चलेगी!), 50MP AI camera, और 5G connectivity मिल रही है। Amazon पर sale शुरू है और instant bank discount + no-cost EMI options उपलब्ध हैं। यह ₹20,000 से कम में सबसे बढ़िया 5G phone बताया जा रहा है।"
     },
     {
         title: "Sony WH-1000XM6 Wireless Headphones",
         category: "Audio",
-        description: "दुनिया का बेस्ट ANC हेडफोन। 40 घंटे बैटरी और Hi-Res Audio। Amazon Mega Electronics Days में भारी छूट।",
+        description: "दुनिया का बेस्ट ANC हेडफोन। 40 घंटे बैटरी और Hi-Res Audio। Amazon पर भारी छूट।",
         price: "₹26,990",
         discount: "Flat ₹6,000 Off",
         rating: 4.8,
         tag: "Bestseller",
         image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=600",
-        content: "Sony WH-1000XM6 industry का सबसे बेहतरीन Active Noise Cancellation (ANC) headphone है। इसमें 40 घंटे की battery life, Hi-Res Audio support, multipoint Bluetooth (2 devices एक साथ), और बेहद comfortable design है। Amazon Mega Electronics Days में ₹6,000 flat off मिल रहा है, जिससे original price ₹32,990 से कम होकर ₹26,990 हो गया है। Music lovers और work-from-home professionals के लिए perfect choice।"
+        buyLink: `https://www.amazon.in/s?k=sony+wh-1000xm6&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "Sony WH-1000XM6 industry का सबसे बेहतरीन Active Noise Cancellation (ANC) headphone है। इसमें 40 घंटे की battery life, Hi-Res Audio support, multipoint Bluetooth (2 devices एक साथ), और बेहद comfortable design है। Amazon पर ₹6,000 flat off मिल रहा है, जिससे original price ₹32,990 से कम होकर ₹26,990 हो गया है। Music lovers और work-from-home professionals के लिए perfect choice।"
     },
     {
         title: "ASUS ROG Zephyrus G16 (2026) — Gaming Beast",
         category: "Gaming Laptop",
-        description: "Intel Core Ultra 9, RTX 5070 GPU, 32GB DDR5 RAM। Amazon Holi Sale में फ्री गेमिंग माउस + कैरी बैग।",
+        description: "Intel Core Ultra 9, RTX 5070 GPU, 32GB DDR5 RAM। Amazon पर फ्री गेमिंग माउस + कैरी बैग।",
         price: "₹1,89,990",
         discount: "Free Gaming Mouse + Bag",
         rating: 4.7,
         image: "https://images.unsplash.com/photo-1593640498182-31c70c8268f5?auto=format&fit=crop&q=80&w=600",
-        content: "ASUS ROG Zephyrus G16 gamers के लिए एक dream machine है। Intel Core Ultra 9 processor और NVIDIA RTX 5070 GPU के साथ यह हर latest game को ultra settings पर आराम से चला सकता है। 32GB DDR5 RAM और 1TB SSD storage है। 16-inch QHD+ display 240Hz refresh rate देता है। Amazon Holi Sale में free gaming mouse और carry bag मिल रहा है, plus HDFC card पर additional discount भी available है।"
+        buyLink: `https://www.amazon.in/s?k=asus+rog+zephyrus+g16+2026&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "ASUS ROG Zephyrus G16 gamers के लिए एक dream machine है। Intel Core Ultra 9 processor और NVIDIA RTX 5070 GPU के साथ यह हर latest game को ultra settings पर आराम से चला सकता है। 32GB DDR5 RAM और 1TB SSD storage है। 16-inch QHD+ display 240Hz refresh rate देता है। Amazon पर free gaming mouse और carry bag मिल रहा है, plus HDFC card पर additional discount भी available है।"
     },
     {
-        title: "Redmi 13C 5G — Amazon Holi Store",
+        title: "Redmi 13C 5G — Amazon Special",
         category: "Budget Phone",
-        description: "सबसे सस्ता 5G फ़ोन! 50MP कैमरा, 5000mAh बैटरी। Amazon Holi Store में 60% तक की छूट।",
+        description: "सबसे सस्ता 5G फ़ोन! 50MP कैमरा, 5000mAh बैटरी। Amazon पर 60% तक की छूट।",
         price: "₹8,499",
         discount: "60% Off — Limited Stock",
         rating: 4.3,
         tag: "Budget King",
         image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=600",
-        content: "अगर आपका बजट कम है लेकिन 5G phone चाहिए, तो Redmi 13C 5G सबसे सस्ता option है। सिर्फ ₹8,499 में 50MP camera, 5000mAh battery, 6.74-inch HD+ display, और MediaTek Dimensity 6100+ 5G processor मिल रहा है। Amazon Holi Store sale में 60% तक discount है, लेकिन stock limited है। पहली बार smartphone खरीदने वालों और students के लिए perfect।"
+        buyLink: `https://www.amazon.in/s?k=redmi+13c+5g&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "अगर आपका बजट कम है लेकिन 5G phone चाहिए, तो Redmi 13C 5G सबसे सस्ता option है। सिर्फ ₹8,499 में 50MP camera, 5000mAh battery, 6.74-inch HD+ display, और MediaTek Dimensity 6100+ 5G processor मिल रहा है। Amazon पर 60% तक discount है, लेकिन stock limited है। पहली बार smartphone खरीदने वालों और students के लिए perfect।"
     },
     {
         title: "Apple MacBook Air M4 (2026 Edition)",
@@ -78,17 +92,21 @@ const TOP_DEALS = [
         rating: 4.9,
         tag: "Top Pick",
         image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=600",
+        buyLink: `https://www.amazon.in/s?k=apple+macbook+air+m4&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
         content: "Apple MacBook Air M4 creators और professionals के लिए सबसे बढ़िया laptop है। M4 chip M3 से 25% तेज़ है, 16GB unified RAM seamless multitasking देती है, और 512GB SSD fast storage provide करता है। 18 घंटे की battery life and fanless design (कोई आवाज़ नहीं) इसे perfect बनाते हैं। HDFC Credit Card से खरीदने पर extra 10% off मिलेगा, यानी लगभग ₹12,000 की बचत।"
     },
     {
         title: "Nothing Phone (3) — Flipkart Exclusive",
         category: "Smartphone",
-        description: "Glyph Interface 2.0, Snapdragon 8 Gen 3, 50MP कैमरा। Flipkart Big Saving Days में बेस्ट प्राइस।",
+        description: "Glyph Interface 2.0, Snapdragon 8 Gen 3, 50MP कैमरा। Flipkart पर बेस्ट प्राइस।",
         price: "₹37,999",
         discount: "Exchange + Bank Offer",
         rating: 4.6,
         tag: "Trending",
         image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=600",
+        buyLink: "https://www.flipkart.com/search?q=nothing+phone+3",
+        platform: "Flipkart",
         content: "Nothing Phone (3) का unique Glyph Interface 2.0 इसे बाकी सब phones से अलग बनाता है। LED lights back panel पर notifications, music visualizer, और timer दिखाती हैं। Snapdragon 8 Gen 3 processor flagship performance देता है, 50MP dual camera system great photos लेता है, और clean Nothing OS smooth experience provide करता है। Flipkart पर exchange offer + bank discount मिलाकर ₹10,000+ बचा सकते हैं।"
     }
 ];
@@ -107,7 +125,7 @@ export default function TopDealsPage() {
                     Today's <span className="gradient-text">Top Deals</span> 🛒
                 </h1>
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                    Amazon Holi Sale & Flipkart Big Saving Days के बेस्ट ऑफर्स! (Updated: 16 March 2026)
+                    Amazon & Flipkart के बेस्ट ऑफर्स! (Updated: March 2026)
                 </p>
             </div>
 
@@ -151,19 +169,37 @@ export default function TopDealsPage() {
                                 </div>
                             </div>
                             
-                            <button
-                                onClick={() => toggleExpand(index)}
-                                className="w-full py-3 px-4 bg-primary hover:bg-primary/90 text-primary-foreground text-sm font-medium rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-primary/20 cursor-pointer"
-                            >
-                                {expandedIndex === index ? 'Close Details' : 'View Details'} 
-                                {expandedIndex === index ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
-                            </button>
+                            <div className="flex gap-2">
+                                <button
+                                    onClick={() => toggleExpand(index)}
+                                    className="flex-1 py-3 px-4 bg-secondary/50 hover:bg-secondary text-foreground text-sm font-medium rounded-xl flex items-center justify-center gap-2 transition-all border border-border/50 cursor-pointer"
+                                >
+                                    {expandedIndex === index ? 'Close' : 'Details'} 
+                                    {expandedIndex === index ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
+                                </button>
+                                <a
+                                    href={deal.buyLink}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex-1 py-3 px-4 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white text-sm font-bold rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-orange-500/20"
+                                >
+                                    Buy Now <ExternalLink className="h-3.5 w-3.5" />
+                                </a>
+                            </div>
 
                             {expandedIndex === index && (
                                 <div className="mt-4 pt-4 border-t border-border/30 animate-in fade-in duration-300">
-                                    <p className="text-muted-foreground text-sm leading-relaxed">
+                                    <p className="text-muted-foreground text-sm leading-relaxed mb-4">
                                         {deal.content}
                                     </p>
+                                    <a
+                                        href={deal.buyLink}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="w-full py-3 px-4 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white text-sm font-bold rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-orange-500/20"
+                                    >
+                                        {deal.platform} पर खरीदें 🛒 <ExternalLink className="h-3.5 w-3.5" />
+                                    </a>
                                 </div>
                             )}
                         </div>
