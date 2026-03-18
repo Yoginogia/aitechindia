@@ -122,7 +122,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {/* Related Articles Section */}
             {relatedPosts.length > 0 && (
                 <div className="border-t border-border/30 pt-16">
-                    <h3 className="text-2xl font-bold tracking-tight mb-8">Related Articles</h3>
+                    <h3 className="text-2xl font-bold tracking-tight mb-8">ये भी पढ़ें 👇</h3>
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                         {relatedPosts.map((post) => (
                              <Link
