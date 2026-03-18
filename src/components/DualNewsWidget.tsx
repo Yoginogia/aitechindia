@@ -11,95 +11,102 @@ interface NewsArticle {
     image?: string;
 }
 
-const MOCK_GLOBAL_NEWS: NewsArticle[] = [
+const MOCK_GLOBAL_NEWS_DATA = [
+    {
+        title: "SEC-CFTC ने 16 Crypto Assets को Digital Commodity माना — Bitcoin, Ethereum, Solana शामिल!",
+        source: { name: "SEC.gov" },
+        minutesAgo: 30,
+        url: "#"
+    },
     {
         title: "Microsoft's new AI model outperforms humans in coding tests",
         source: { name: "TechCrunch" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 30).toISOString(),
+        minutesAgo: 90,
         url: "#"
     },
     {
-        title: "Tesla reveals fully autonomous CyberCab prototype in Texas",
-        source: { name: "The Verge" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 120).toISOString(),
-        url: "#"
-    },
-    {
-        title: "Europe passes AI Act — the world's first major AI regulation",
-        source: { name: "Wired" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 4).toISOString(),
+        title: "Bitcoin crosses $74,000 as Fed FOMC meeting concludes today",
+        source: { name: "CoinDesk" },
+        minutesAgo: 120,
         url: "#"
     },
     {
         title: "Google DeepMind achieves breakthrough in protein structure prediction",
         source: { name: "Nature" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(),
+        minutesAgo: 180,
         url: "#"
     },
     {
         title: "Apple announces M4 Ultra chip with Neural Engine for AI tasks",
         source: { name: "9to5Mac" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 6).toISOString(),
+        minutesAgo: 240,
         url: "#"
     },
     {
-        title: "Samsung Galaxy S26 Ultra leaked specs reveal AI camera features",
-        source: { name: "SamMobile" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 7).toISOString(),
+        title: "Ethereum Fast Confirmation Rule — L1 to L2 deposits in 13 seconds!",
+        source: { name: "BeInCrypto" },
+        minutesAgo: 300,
         url: "#"
     },
     {
         title: "Nvidia H300 GPU breaks all AI training speed records",
         source: { name: "Tom's Hardware" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 8).toISOString(),
+        minutesAgo: 360,
         url: "#"
     }
 ];
 
-const MOCK_LOCAL_NEWS: NewsArticle[] = [
+const MOCK_LOCAL_NEWS_DATA = [
     {
-        title: "भारत में AI का बढ़ता इस्तेमाल: IT कंपनियों ने शुरू की नई ट्रेनिंग",
-        source: { name: "Tech News Hindi" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 45).toISOString(),
+        title: "Samsung Galaxy S26 Ultra भारत में लॉन्च — ₹1,39,999 से शुरू, HDFC पर ₹9,000 Off!",
+        source: { name: "Gadgets 360 Hindi" },
+        minutesAgo: 25,
+        url: "#"
+    },
+    {
+        title: "Xiaomi 17 Ultra India Sale शुरू — Leica Camera, SBI Card पर ₹10,000 Off",
+        source: { name: "91Mobiles Hindi" },
+        minutesAgo: 60,
         url: "#"
     },
     {
         title: "Jio ने लॉन्च किया नया 5G स्मार्टफोन, कीमत सिर्फ ₹9,999",
-        source: { name: "Gadgets 360 Hindi" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 150).toISOString(),
-        url: "#"
-    },
-    {
-        title: "Paytm ऐप में आए नए फीचर्स, अब UPI पेमेंट होगा और भी तेज़",
         source: { name: "Tech Updates India" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 3).toISOString(),
+        minutesAgo: 150,
         url: "#"
     },
     {
         title: "ISRO ने AI सैटेलाइट लॉन्च किया, अंतरिक्ष में भारत की बड़ी छलांग",
         source: { name: "NDTV India" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 4).toISOString(),
+        minutesAgo: 210,
         url: "#"
     },
     {
-        title: "Flipkart Big Savings Days: स्मार्टफोन पर 40% तक की छूट",
-        source: { name: "91Mobiles Hindi" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 5).toISOString(),
+        title: "Amazon Mega Electronics Days: Smartphones, Laptops पर 75% तक छूट",
+        source: { name: "CashKaro" },
+        minutesAgo: 270,
         url: "#"
     },
     {
         title: "Tata ने भारत में पहला AI-powered EV चार्जिंग स्टेशन बनाया",
         source: { name: "Auto Car India" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 6).toISOString(),
+        minutesAgo: 330,
         url: "#"
     },
     {
         title: "WhatsApp में आया Meta AI चैटबोट, अब हिंदी में बात करो",
         source: { name: "Hindi Tech Guide" },
-        publishedAt: new Date(Date.now() - 1000 * 60 * 60 * 7).toISOString(),
+        minutesAgo: 390,
         url: "#"
     }
 ];
+
+function buildMockNews(data: typeof MOCK_GLOBAL_NEWS_DATA): NewsArticle[] {
+    return data.map(item => ({
+        ...item,
+        publishedAt: new Date(Date.now() - item.minutesAgo * 60 * 1000).toISOString(),
+    }));
+}
 
 function timeAgo(dateString: string) {
     const date = new Date(dateString);
@@ -114,8 +121,8 @@ function timeAgo(dateString: string) {
 
 export default function DualNewsWidget() {
     const [activeTab, setActiveTab] = useState<'global' | 'local'>('local');
-    const [globalNews, setGlobalNews] = useState<NewsArticle[]>(MOCK_GLOBAL_NEWS);
-    const [localNews, setLocalNews] = useState<NewsArticle[]>(MOCK_LOCAL_NEWS);
+    const [globalNews, setGlobalNews] = useState<NewsArticle[]>([]);
+    const [localNews, setLocalNews] = useState<NewsArticle[]>([]);
     const [isLiveGlobal, setIsLiveGlobal] = useState(false);
     const [isLiveLocal, setIsLiveLocal] = useState(false);
     const [loading, setLoading] = useState(true);
@@ -123,6 +130,9 @@ export default function DualNewsWidget() {
 
     useEffect(() => {
         setMounted(true);
+        // Set fresh mock data on client mount
+        setGlobalNews(buildMockNews(MOCK_GLOBAL_NEWS_DATA));
+        setLocalNews(buildMockNews(MOCK_LOCAL_NEWS_DATA));
         async function fetchNews() {
             setLoading(true);
             try {
@@ -133,7 +143,7 @@ export default function DualNewsWidget() {
                     setGlobalNews(globalData.articles);
                     setIsLiveGlobal(true);
                 } else {
-                    setGlobalNews(MOCK_GLOBAL_NEWS);
+                    setGlobalNews(buildMockNews(MOCK_GLOBAL_NEWS_DATA));
                     setIsLiveGlobal(false);
                 }
 
@@ -144,7 +154,7 @@ export default function DualNewsWidget() {
                     setLocalNews(localData.articles);
                     setIsLiveLocal(true);
                 } else {
-                    setLocalNews(MOCK_LOCAL_NEWS);
+                    setLocalNews(buildMockNews(MOCK_LOCAL_NEWS_DATA));
                     setIsLiveLocal(false);
                 }
             } catch (error) {
