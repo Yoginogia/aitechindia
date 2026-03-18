@@ -1,199 +1,32 @@
-'use client';
-
-import { useState } from 'react';
-import { ChevronDown, ChevronUp, Star, ExternalLink } from 'lucide-react';
-
-const AFFILIATE_TAG = "aitechnews-21";
-
-const TOP_DEALS = [
-    {
-        title: "Samsung Galaxy S26 Ultra — AI Camera King 👑",
-        category: "Flagship",
-        description: "Samsung का नया S26 Ultra! AI Camera, S Pen, Snapdragon 8 Elite Gen 2 और 6.9-inch QHD+ AMOLED। Amazon Mega Electronics Days में launch offer!",
-        price: "₹1,39,999",
-        discount: "₹10,000 Exchange + Bank Off",
-        rating: 4.9,
-        tag: "🆕 New Launch",
-        image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s26+ultra&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "Samsung Galaxy S26 Ultra 2026 का सबसे powerful smartphone है। इसमें 200MP AI camera है जो night mode में भी DSLR जैसी photos लेता है। S Pen built-in है, Snapdragon 8 Elite Gen 2 processor blazing fast performance देता है, और 6.9-inch QHD+ AMOLED display stunning visuals दिखाती है। Galaxy AI features जैसे Live Translate, Circle to Search, और AI Photo Editor इसे smart बनाते हैं। Amazon Mega Electronics Days में ₹10,000 तक exchange bonus + bank card discount मिल रहा है।"
-    },
-    {
-        title: "Xiaomi 17 Ultra — 200MP Beast!",
-        category: "Flagship",
-        description: "Leica कैमरा, Snapdragon 8 Elite, 120W फास्ट चार्जिंग। ₹1,29,999 में flagship killer!",
-        price: "₹1,29,999",
-        discount: "₹8,000 Instant Discount",
-        rating: 4.8,
-        tag: "🆕 Just Launched",
-        image: "https://images.unsplash.com/photo-1598327105666-5b89351cb31b?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=xiaomi+17+ultra&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "Xiaomi 17 Ultra photography lovers के लिए dream phone है। Leica partnership से बना dual 200MP periscope camera system professional-grade photos लेता है। Snapdragon 8 Elite processor, 16GB RAM, 512GB storage, और 7500mAh battery (120W fast charging — 15 मिनट में 50%!) इसे complete powerhouse बनाते हैं। Amazon पर ₹8,000 instant bank discount मिल रहा है plus no-cost EMI options available हैं।"
-    },
-    {
-        title: "OnePlus 15R 5G — Best Under ₹50K",
-        category: "Smartphone",
-        description: "Snapdragon 8 Gen 3, 50MP OIS कैमरा, 100W चार्जिंग। ₹46,999 में premium experience!",
-        price: "₹46,999",
-        discount: "₹4,000 Bank Discount",
-        rating: 4.7,
-        tag: "🔥 Hot Deal",
-        image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=oneplus+15r&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "OnePlus 15R ₹50,000 से नीचे सबसे बढ़िया smartphone है। Snapdragon 8 Gen 3 processor laptop-level performance देता है, 50MP OIS camera शानदार photos लेता है, और 100W SUPERVOOC charging सिर्फ 25 मिनट में full charge करती है। 6.7-inch 120Hz AMOLED display, stereo speakers, और OxygenOS 15 buttery-smooth experience देते हैं। Amazon पर ₹4,000 instant bank discount + exchange offer available है।"
-    },
-    {
-        title: "HP OmniBook 5 OLED — 34 Hrs Battery! 🔋",
-        category: "Laptop",
-        description: "Snapdragon X Processor, 2K OLED Display, 34 घंटे बैटरी! Students और professionals के लिए perfect।",
-        price: "₹75,990",
-        discount: "₹5,000 Off + No-Cost EMI",
-        rating: 4.6,
-        tag: "🆕 New Launch",
-        image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=hp+omnibook+5+oled&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "HP OmniBook 5 OLED एक game-changer laptop है। Snapdragon X processor ARM architecture पर चलता है जो incredible battery life देता है — 34 घंटे तक! 14-inch 2K OLED display colors को vivid बनाता है, 16GB LPDDR5x RAM smooth multitasking ensure करता है, और 512GB SSD fast storage provide करता है। Weight सिर्फ 1.3kg — ultra-portable! Amazon पर ₹5,000 off + no-cost EMI available है। Students, writers, और on-the-go professionals के लिए best choice।"
-    },
-    {
-        title: "iPhone 17 (128GB) — Flipkart Big Saving Days",
-        category: "Smartphone",
-        description: "Apple का लेटेस्ट iPhone 17, 48MP कैमरा और A19 चिप। Flipkart सेल में MRP से ₹3,000 की छूट + SBI Card पर 10% इंस्टेंट डिस्काउंट।",
-        price: "₹79,990",
-        discount: "SBI Card पर 10% Off",
-        rating: 4.9,
-        tag: "🔥 Hot Deal",
-        image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&q=80&w=600",
-        buyLink: "https://www.flipkart.com/search?q=iphone+17",
-        platform: "Flipkart",
-        content: "Apple ने अपना नया iPhone 17 लॉन्च कर दिया है और Flipkart Big Saving Days में इस पर बहुत शानदार डील मिल रही है। इसमें A19 Bionic चिप लगी है जो पिछले सभी iPhones से ज़्यादा तेज़ है। 48MP कैमरा सिस्टम, Dynamic Island, और USB-C पोर्ट इसे एक complete package बनाते हैं। SBI Credit Card से खरीदने पर 10% instant discount मिलेगा, जो लगभग ₹8,000 तक की बचत होगी। इसके अलावा No-Cost EMI और Exchange Bonus भी उपलब्ध है।"
-    },
-    {
-        title: "Samsung Galaxy S25 Edge (256GB)",
-        category: "Smartphone",
-        description: "Samsung का सबसे पतला फ्लैगशिप फ़ोन। Galaxy AI, 200MP कैमरा और Titanium बॉडी। Amazon पर बेस्ट प्राइस।",
-        price: "₹1,24,999",
-        discount: "Exchange Bonus ₹15,000",
-        rating: 4.8,
-        tag: "New Launch",
-        image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s25+edge&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "Samsung Galaxy S25 Edge अब तक का सबसे पतला Samsung flagship है। इसमें 200MP main camera, Snapdragon 8 Elite processor, और Galaxy AI features हैं जो live translation, circle to search, और AI photo editing करते हैं। Titanium body इसे premium और durable बनाती है। Amazon पर ₹15,000 तक का exchange bonus मिल रहा है, plus bank offers और no-cost EMI options भी available हैं।"
-    },
-    {
-        title: "iQOO Z11x 5G (6GB+128GB) — Just Launched!",
-        category: "Budget Phone",
-        description: "सिर्फ ₹18,999 में 5G फ़ोन! Snapdragon प्रोसेसर, 6000mAh बैटरी। Amazon पर सेल शुरू।",
-        price: "₹18,999",
-        discount: "Bank Discount + No-Cost EMI",
-        rating: 4.5,
-        tag: "🆕 Just Launched",
-        image: "https://images.unsplash.com/photo-1598327105666-5b89351cb31b?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=iqoo+z11x+5g&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "iQOO ने अपना बजट किंग Z11x 5G लॉन्च किया है। ₹18,999 की कीमत में Snapdragon processor, 6000mAh massive battery (2 दिन चलेगी!), 50MP AI camera, और 5G connectivity मिल रही है। Amazon पर sale शुरू है और instant bank discount + no-cost EMI options उपलब्ध हैं। यह ₹20,000 से कम में सबसे बढ़िया 5G phone बताया जा रहा है।"
-    },
-    {
-        title: "Sony WH-1000XM6 Wireless Headphones",
-        category: "Audio",
-        description: "दुनिया का बेस्ट ANC हेडफोन। 40 घंटे बैटरी और Hi-Res Audio। Amazon पर भारी छूट।",
-        price: "₹26,990",
-        discount: "Flat ₹6,000 Off",
-        rating: 4.8,
-        tag: "Bestseller",
-        image: "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=sony+wh-1000xm6&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "Sony WH-1000XM6 industry का सबसे बेहतरीन Active Noise Cancellation (ANC) headphone है। इसमें 40 घंटे की battery life, Hi-Res Audio support, multipoint Bluetooth (2 devices एक साथ), और बेहद comfortable design है। Amazon पर ₹6,000 flat off मिल रहा है, जिससे original price ₹32,990 से कम होकर ₹26,990 हो गया है। Music lovers और work-from-home professionals के लिए perfect choice।"
-    },
-    {
-        title: "ASUS ROG Zephyrus G16 (2026) — Gaming Beast",
-        category: "Gaming Laptop",
-        description: "Intel Core Ultra 9, RTX 5070 GPU, 32GB DDR5 RAM। Amazon पर फ्री गेमिंग माउस + कैरी बैग।",
-        price: "₹1,89,990",
-        discount: "Free Gaming Mouse + Bag",
-        rating: 4.7,
-        image: "https://images.unsplash.com/photo-1593640498182-31c70c8268f5?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=asus+rog+zephyrus+g16+2026&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "ASUS ROG Zephyrus G16 gamers के लिए एक dream machine है। Intel Core Ultra 9 processor और NVIDIA RTX 5070 GPU के साथ यह हर latest game को ultra settings पर आराम से चला सकता है। 32GB DDR5 RAM और 1TB SSD storage है। 16-inch QHD+ display 240Hz refresh rate देता है। Amazon पर free gaming mouse और carry bag मिल रहा है, plus HDFC card पर additional discount भी available है।"
-    },
-    {
-        title: "Redmi 13C 5G — Amazon Special",
-        category: "Budget Phone",
-        description: "सबसे सस्ता 5G फ़ोन! 50MP कैमरा, 5000mAh बैटरी। Amazon पर 60% तक की छूट।",
-        price: "₹8,499",
-        discount: "60% Off — Limited Stock",
-        rating: 4.3,
-        tag: "Budget King",
-        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=redmi+13c+5g&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "अगर आपका बजट कम है लेकिन 5G phone चाहिए, तो Redmi 13C 5G सबसे सस्ता option है। सिर्फ ₹8,499 में 50MP camera, 5000mAh battery, 6.74-inch HD+ display, और MediaTek Dimensity 6100+ 5G processor मिल रहा है। Amazon पर 60% तक discount है, लेकिन stock limited है। पहली बार smartphone खरीदने वालों और students के लिए perfect।"
-    },
-    {
-        title: "Apple MacBook Air M4 (2026 Edition)",
-        category: "Laptop",
-        description: "M4 चिप, 16GB Unified RAM, 512GB SSD। क्रिएटर्स और प्रोफेशनल्स के लिए परफेक्ट। HDFC Card पर एक्स्ट्रा 10% Off।",
-        price: "₹1,19,900",
-        discount: "HDFC Card पर 10% Off",
-        rating: 4.9,
-        tag: "Top Pick",
-        image: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&q=80&w=600",
-        buyLink: `https://www.amazon.in/s?k=apple+macbook+air+m4&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon",
-        content: "Apple MacBook Air M4 creators और professionals के लिए सबसे बढ़िया laptop है। M4 chip M3 से 25% तेज़ है, 16GB unified RAM seamless multitasking देती है, और 512GB SSD fast storage provide करता है। 18 घंटे की battery life and fanless design (कोई आवाज़ नहीं) इसे perfect बनाते हैं। HDFC Credit Card से खरीदने पर extra 10% off मिलेगा, यानी लगभग ₹12,000 की बचत।"
-    },
-    {
-        title: "Nothing Phone (3) — Flipkart Exclusive",
-        category: "Smartphone",
-        description: "Glyph Interface 2.0, Snapdragon 8 Gen 3, 50MP कैमरा। Flipkart पर बेस्ट प्राइस।",
-        price: "₹37,999",
-        discount: "Exchange + Bank Offer",
-        rating: 4.6,
-        tag: "Trending",
-        image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=600",
-        buyLink: "https://www.flipkart.com/search?q=nothing+phone+3",
-        platform: "Flipkart",
-        content: "Nothing Phone (3) का unique Glyph Interface 2.0 इसे बाकी सब phones से अलग बनाता है। LED lights back panel पर notifications, music visualizer, और timer दिखाती हैं। Snapdragon 8 Gen 3 processor flagship performance देता है, 50MP dual camera system great photos लेता है, और clean Nothing OS smooth experience provide करता है। Flipkart पर exchange offer + bank discount मिलाकर ₹10,000+ बचा सकते हैं।"
-    }
-];
+import Link from 'next/link';
+import { Star, ExternalLink, ArrowRight } from 'lucide-react';
+import { TOP_DEALS } from '@/data/deals';
 
 export default function TopDealsPage() {
-    const [expandedIndex, setExpandedIndex] = useState<number | null>(null);
-
-    const toggleExpand = (index: number) => {
-        setExpandedIndex(expandedIndex === index ? null : index);
-    };
-
     return (
         <div className="container mx-auto px-4 md:px-8 py-12 max-w-5xl">
             <div className="mb-12 text-center">
                 <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4">
-                    Today's <span className="gradient-text">Top Deals</span> 🛒
+                    Today&apos;s <span className="gradient-text">Top Deals</span> 🛒
                 </h1>
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                    Amazon & Flipkart के बेस्ट ऑफर्स! (Updated: 18 March 2026)
+                    Amazon &amp; Flipkart के बेस्ट ऑफर्स! (Updated: 18 March 2026)
                 </p>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {TOP_DEALS.map((deal, index) => (
-                    <div key={index} className="glass rounded-2xl overflow-hidden border border-border/50 hover:border-primary/50 transition-all group flex flex-col h-full relative card-glow">
+                {TOP_DEALS.map((deal) => (
+                    <div key={deal.slug} className="glass rounded-2xl overflow-hidden border border-border/50 hover:border-primary/50 transition-all group flex flex-col h-full relative card-glow">
                         {deal.tag && (
                             <div className="absolute top-4 left-4 bg-primary text-primary-foreground text-xs font-bold px-3 py-1 rounded-full z-10 shadow-lg">
                                 {deal.tag}
                             </div>
                         )}
                         
-                        <div className="h-48 bg-background w-full relative overflow-hidden border-b border-border/30">
+                        <Link href={`/top-deals/${deal.slug}`} className="h-48 bg-background w-full relative overflow-hidden border-b border-border/30 block">
                             <img src={deal.image} alt={deal.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                        </div>
+                        </Link>
 
                         <div className="p-6 flex flex-col flex-1">
                             <div className="flex justify-between items-start mb-2">
@@ -206,9 +39,11 @@ export default function TopDealsPage() {
                                 </div>
                             </div>
                             
-                            <h2 className="text-xl font-bold mb-3 leading-tight group-hover:text-primary transition-colors">
-                                {deal.title}
-                            </h2>
+                            <Link href={`/top-deals/${deal.slug}`}>
+                                <h2 className="text-xl font-bold mb-3 leading-tight group-hover:text-primary transition-colors cursor-pointer">
+                                    {deal.title}
+                                </h2>
+                            </Link>
                             
                             <p className="text-sm text-muted-foreground mb-4 flex-1 line-clamp-2">
                                 {deal.description}
@@ -222,13 +57,12 @@ export default function TopDealsPage() {
                             </div>
                             
                             <div className="flex gap-2">
-                                <button
-                                    onClick={() => toggleExpand(index)}
-                                    className="flex-1 py-3 px-4 bg-secondary/50 hover:bg-secondary text-foreground text-sm font-medium rounded-xl flex items-center justify-center gap-2 transition-all border border-border/50 cursor-pointer"
+                                <Link
+                                    href={`/top-deals/${deal.slug}`}
+                                    className="flex-1 py-3 px-4 bg-secondary/50 hover:bg-secondary text-foreground text-sm font-medium rounded-xl flex items-center justify-center gap-2 transition-all border border-border/50"
                                 >
-                                    {expandedIndex === index ? 'Close' : 'Details'} 
-                                    {expandedIndex === index ? <ChevronUp className="h-4 w-4" /> : <ChevronDown className="h-4 w-4" />}
-                                </button>
+                                    Details <ArrowRight className="h-4 w-4" />
+                                </Link>
                                 <a
                                     href={deal.buyLink}
                                     target="_blank"
@@ -238,22 +72,6 @@ export default function TopDealsPage() {
                                     Buy Now <ExternalLink className="h-3.5 w-3.5" />
                                 </a>
                             </div>
-
-                            {expandedIndex === index && (
-                                <div className="mt-4 pt-4 border-t border-border/30 animate-in fade-in duration-300">
-                                    <p className="text-muted-foreground text-sm leading-relaxed mb-4">
-                                        {deal.content}
-                                    </p>
-                                    <a
-                                        href={deal.buyLink}
-                                        target="_blank"
-                                        rel="noopener noreferrer"
-                                        className="w-full py-3 px-4 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white text-sm font-bold rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-orange-500/20"
-                                    >
-                                        {deal.platform} पर खरीदें 🛒 <ExternalLink className="h-3.5 w-3.5" />
-                                    </a>
-                                </div>
-                            )}
                         </div>
                     </div>
                 ))}
