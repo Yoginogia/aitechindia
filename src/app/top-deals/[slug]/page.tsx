@@ -106,6 +106,50 @@ export default async function DealPage({ params }: { params: Promise<{ slug: str
                 </div>
             </div>
 
+            {/* Variants */}
+            {deal.variants && deal.variants.length > 0 && (
+                <div className="mb-8 p-6 rounded-2xl bg-secondary/20 border border-border/30">
+                    <h2 className="text-xl font-bold mb-4">📦 Available Variants</h2>
+                    <div className="space-y-3">
+                        {deal.variants.map((variant, index) => (
+                            <div key={index} className="flex items-center gap-3 p-3 rounded-xl bg-background/50 border border-border/20">
+                                <span className="text-primary font-bold text-lg">{index + 1}</span>
+                                <span className="text-sm font-medium">{variant}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {/* Bank Offers */}
+            {deal.bankOffers && deal.bankOffers.length > 0 && (
+                <div className="mb-8 p-6 rounded-2xl bg-green-500/5 border border-green-500/20">
+                    <h2 className="text-xl font-bold mb-4">🏦 Bank Offers & Discounts</h2>
+                    <div className="space-y-3">
+                        {deal.bankOffers.map((offer, index) => (
+                            <div key={index} className="flex items-start gap-3 text-sm">
+                                <span className="text-green-500 mt-0.5 text-lg">💰</span>
+                                <span className="text-muted-foreground">{offer}</span>
+                            </div>
+                        ))}
+                    </div>
+                </div>
+            )}
+
+            {/* Colors */}
+            {deal.colors && deal.colors.length > 0 && (
+                <div className="mb-8 p-6 rounded-2xl bg-secondary/20 border border-border/30">
+                    <h2 className="text-xl font-bold mb-4">🎨 Available Colors</h2>
+                    <div className="flex flex-wrap gap-3">
+                        {deal.colors.map((color, index) => (
+                            <span key={index} className="px-4 py-2 rounded-full bg-background/50 border border-border/30 text-sm font-medium">
+                                {color}
+                            </span>
+                        ))}
+                    </div>
+                </div>
+            )}
+
             {/* Specifications */}
             {deal.specs && deal.specs.length > 0 && (
                 <div className="mb-8 p-6 rounded-2xl bg-secondary/20 border border-border/30">

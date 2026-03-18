@@ -14,6 +14,9 @@ export type Deal = {
     platform: string;
     content: string;
     specs?: string[];
+    variants?: string[];
+    bankOffers?: string[];
+    colors?: string[];
 };
 
 export const TOP_DEALS: Deal[] = [
@@ -21,46 +24,113 @@ export const TOP_DEALS: Deal[] = [
         slug: "samsung-galaxy-s26-ultra",
         title: "Samsung Galaxy S26 Ultra — AI Camera King 👑",
         category: "Flagship",
-        description: "Samsung का नया S26 Ultra! AI Camera, S Pen, Snapdragon 8 Elite Gen 2 और 6.9-inch QHD+ AMOLED। Amazon Mega Electronics Days में launch offer!",
-        price: "₹1,39,999",
-        discount: "₹10,000 Exchange + Bank Off",
+        description: "Samsung का नया S26 Ultra! Snapdragon 8 Elite Gen 5, 200MP AI Camera, Privacy Display, S Pen। 3 variants available!",
+        price: "₹1,39,999 से",
+        discount: "HDFC Card पर ₹9,000 Off",
         rating: 4.9,
         tag: "🆕 New Launch",
-        image: "https://picsum.photos/id/1/800/450",
+        image: "/images/deals/samsung-s26-ultra.png",
         buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s26+ultra&tag=${AFFILIATE_TAG}`,
         platform: "Amazon",
-        specs: ["200MP AI Camera + 50MP Ultrawide", "Snapdragon 8 Elite Gen 2", "12GB RAM + 256GB/512GB Storage", "6.9-inch QHD+ Dynamic AMOLED 2X", "5500mAh Battery, 65W Fast Charging", "S Pen Built-in", "Titanium Frame, IP68"],
-        content: "Samsung Galaxy S26 Ultra 2026 का सबसे powerful smartphone है। इसमें 200MP AI camera है जो night mode में भी DSLR जैसी photos लेता है। S Pen built-in है, Snapdragon 8 Elite Gen 2 processor blazing fast performance देता है, और 6.9-inch QHD+ AMOLED display stunning visuals दिखाती है। Galaxy AI features जैसे Live Translate, Circle to Search, और AI Photo Editor इसे smart बनाते हैं। Amazon Mega Electronics Days में ₹10,000 तक exchange bonus + bank card discount मिल रहा है।"
+        specs: [
+            "200MP (f/1.4) + 50MP Ultrawide + 50MP (5x) + 10MP (3x) Quad Camera",
+            "Snapdragon 8 Elite Gen 5 for Galaxy",
+            "6.9-inch QHD+ Dynamic AMOLED 2X, 120Hz",
+            "Privacy Display (30° viewing angle limit)",
+            "Corning Gorilla Armor 2 Protection",
+            "5,000mAh Battery, 65W Fast Charging",
+            "15W Wireless + Reverse Wireless Charging",
+            "S Pen Built-in",
+            "Titanium Frame, IP68",
+            "Android 16, One UI 8.5",
+            "7 Years OS + Security Updates"
+        ],
+        variants: [
+            "12GB + 256GB — ₹1,39,999",
+            "12GB + 512GB — ₹1,59,999",
+            "16GB + 1TB — ₹1,89,999"
+        ],
+        bankOffers: [
+            "HDFC Credit Card — ₹9,000 Instant Discount",
+            "Pre-order Voucher — ₹2,699 Benefits",
+            "No-Cost EMI — 12 months तक",
+            "Exchange Bonus — ₹10,000 तक"
+        ],
+        colors: ["Titanium Black", "Titanium Blue", "Titanium Purple", "Titanium White"],
+        content: "Samsung Galaxy S26 Ultra 2026 का सबसे powerful smartphone है। इसमें 200MP AI camera है जो f/1.4 aperture के साथ 47% ज़्यादा light capture करता है — night mode में भी DSLR-level photos! Privacy Display technology screen को 30° से ज़्यादा angle पर invisible बना देती है। Snapdragon 8 Elite Gen 5 processor Galaxy AI features जैसे Live Translate, Circle to Search (multi-object), AI Screenshot Analyzer, और Private Album power करता है। Corning Gorilla Armor 2 protection, 65W fast charging (30 min में 75%), और 7 साल तक OS updates — Samsung ने sab kuch diya hai! HDFC Credit Card से ₹9,000 instant discount + ₹2,699 pre-order benefits milte hain।"
     },
     {
         slug: "xiaomi-17-ultra",
-        title: "Xiaomi 17 Ultra — 200MP Beast!",
+        title: "Xiaomi 17 Ultra — Leica Camera Beast!",
         category: "Flagship",
-        description: "Leica कैमरा, Snapdragon 8 Elite, 120W फास्ट चार्जिंग। ₹1,29,999 में flagship killer!",
-        price: "₹1,29,999",
-        discount: "₹8,000 Instant Discount",
+        description: "Leica Triple Camera (200MP Periscope + 50MP Main + 50MP Ultra), Snapdragon 8 Elite Gen 5, 6000mAh, 90W Charging!",
+        price: "₹1,39,999",
+        discount: "SBI Card पर ₹10,000 Off",
         rating: 4.8,
         tag: "🆕 Just Launched",
-        image: "https://picsum.photos/id/160/800/450",
+        image: "/images/deals/xiaomi-17-ultra.png",
         buyLink: `https://www.amazon.in/s?k=xiaomi+17+ultra&tag=${AFFILIATE_TAG}`,
         platform: "Amazon",
-        specs: ["Dual 200MP Leica Periscope Cameras", "Snapdragon 8 Elite Processor", "16GB RAM + 512GB Storage", "6.8-inch 2K LTPO AMOLED, 120Hz", "7500mAh Battery, 120W Fast Charging", "IP68 Water Resistant", "In-display Fingerprint"],
-        content: "Xiaomi 17 Ultra photography lovers के लिए dream phone है। Leica partnership से बना dual 200MP periscope camera system professional-grade photos लेता है। Snapdragon 8 Elite processor, 16GB RAM, 512GB storage, और 7500mAh battery (120W fast charging — 15 मिनट में 50%!) इसे complete powerhouse बनाते हैं। Amazon पर ₹8,000 instant bank discount मिल रहा है plus no-cost EMI options available हैं।"
+        specs: [
+            "50MP Main (1-inch sensor, Variable Aperture, OIS) + 50MP Ultrawide + 200MP Periscope Telephoto (75-100mm optical zoom)",
+            "Snapdragon 8 Elite Gen 5 Processor",
+            "16GB LPDDR5X RAM + 512GB UFS 4.1",
+            "6.9-inch 2K LTPO AMOLED, 120Hz, 3500 nits",
+            "6,000mAh Battery, 90W Wired + 50W Wireless",
+            "Dragon Crystal Glass 3.0 Protection",
+            "IP68 + IP69 Water/Dust Resistant",
+            "50MP Autofocus Selfie Camera",
+            "HyperOS 3 (Android 16)",
+            "IR Blaster, NFC, In-display Fingerprint"
+        ],
+        variants: [
+            "16GB + 512GB — ₹1,39,999 (Single Variant)"
+        ],
+        bankOffers: [
+            "SBI Credit Card — ₹10,000 Instant Discount (Effective: ₹1,29,999)",
+            "Free Xiaomi Photography Kit Pro worth ₹19,999 (Early Bird)",
+            "No-Cost EMI — 12 months तक",
+            "Exchange Bonus — Up to ₹8,000"
+        ],
+        colors: ["Black", "White"],
+        content: "Xiaomi 17 Ultra India का सबसे powerful camera phone है! Leica co-engineered triple camera system में 1-inch 50MP main sensor (physical variable aperture + OIS), 50MP ultrawide, और world's first 200MP periscope telephoto lens है जो 75mm-100mm continuous optical zoom देता है — DSLR जैसा! LOFIC technology low-light में incredible detail capture करती है। Snapdragon 8 Elite Gen 5 processor, 16GB LPDDR5X RAM, 512GB UFS 4.1 storage — flagship performance guaranteed। 6,000mAh battery 90W wired + 50W wireless charging support करती है। IP68 + IP69 dual rating means rain, dust, steam — kuch nahi hoga! SBI Credit Card se ₹10,000 instant off → effective price ₹1,29,999! Plus free Photography Kit worth ₹19,999 early buyers ko mila।"
     },
     {
         slug: "oneplus-15r-5g",
-        title: "OnePlus 15R 5G — Best Under ₹50K",
+        title: "OnePlus 15R 5G — Performance King Under ₹55K",
         category: "Smartphone",
-        description: "Snapdragon 8 Gen 3, 50MP OIS कैमरा, 100W चार्जिंग। ₹46,999 में premium experience!",
-        price: "₹46,999",
-        discount: "₹4,000 Bank Discount",
+        description: "Snapdragon 8 Gen 5, 165Hz Display, 7400mAh Battery, 80W Charging। ₹51,999 से!",
+        price: "₹51,999 से",
+        discount: "Bank Offers Available",
         rating: 4.7,
         tag: "🔥 Hot Deal",
-        image: "https://picsum.photos/id/119/800/450",
+        image: "/images/deals/oneplus-15r.png",
         buyLink: `https://www.amazon.in/s?k=oneplus+15r&tag=${AFFILIATE_TAG}`,
         platform: "Amazon",
-        specs: ["50MP OIS Main + 8MP Ultrawide", "Snapdragon 8 Gen 3 Processor", "12GB RAM + 256GB Storage", "6.7-inch 120Hz AMOLED Display", "5500mAh Battery, 100W SUPERVOOC", "OxygenOS 15", "Stereo Speakers, Alert Slider"],
-        content: "OnePlus 15R ₹50,000 से नीचे सबसे बढ़िया smartphone है। Snapdragon 8 Gen 3 processor laptop-level performance देता है, 50MP OIS camera शानदार photos लेता है, और 100W SUPERVOOC charging सिर्फ 25 मिनट में full charge करती है। 6.7-inch 120Hz AMOLED display, stereo speakers, और OxygenOS 15 buttery-smooth experience देते हैं। Amazon पर ₹4,000 instant bank discount + exchange offer available है।"
+        specs: [
+            "50MP (f/1.8, OIS) Main + 8MP Ultrawide Camera",
+            "32MP Autofocus Selfie Camera",
+            "Snapdragon 8 Gen 5 Processor",
+            "12GB LPDDR5X RAM",
+            "6.83-inch 1.5K AMOLED, 165Hz, 3600 nits peak",
+            "Corning Gorilla Glass 7i",
+            "7,400mAh Battery, 80W Fast Charging",
+            "IP66 + IP68 + IP69 Water Resistant",
+            "OxygenOS 16 (Android 16)",
+            "4 Years OS + 6 Years Security Updates",
+            "Stereo Speakers, NFC, IR Blaster"
+        ],
+        variants: [
+            "12GB + 256GB — ₹51,999",
+            "12GB + 512GB — ₹56,999"
+        ],
+        bankOffers: [
+            "Bank Card Offers — Up to ₹4,000 Off",
+            "No-Cost EMI — 9 months तक",
+            "Exchange Bonus — Up to ₹5,000"
+        ],
+        colors: ["Charcoal Black", "Mint Breeze", "Electric Violet (Ace Edition)"],
+        content: "OnePlus 15R ₹55,000 से नीचे सबसे powerful smartphone है। Snapdragon 8 Gen 5 processor laptop-level performance देता है, 50MP OIS camera शानदार photos लेता है, और 6.83-inch 165Hz AMOLED display (3600 nits peak brightness) gaming और video के लिए perfect है। 7,400mAh massive battery 80W fast charging से 30 min में full हो जाती है — 2 दिन आराम से चलेगी! IP66+IP68+IP69 triple water resistance rating means heavy rain में भी safe। Corning Gorilla Glass 7i protection, stereo speakers, IR Blaster, और OxygenOS 16 buttery-smooth experience देते हैं। 4 साल OS updates + 6 साल security updates guarantee है।"
     },
     {
         slug: "hp-omnibook-5-oled",
