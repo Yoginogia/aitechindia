@@ -7,6 +7,58 @@ const AFFILIATE_TAG = "aitechnews-21";
 
 const TOP_DEALS = [
     {
+        title: "Samsung Galaxy S26 Ultra — AI Camera King 👑",
+        category: "Flagship",
+        description: "Samsung का नया S26 Ultra! AI Camera, S Pen, Snapdragon 8 Elite Gen 2 और 6.9-inch QHD+ AMOLED। Amazon Mega Electronics Days में launch offer!",
+        price: "₹1,39,999",
+        discount: "₹10,000 Exchange + Bank Off",
+        rating: 4.9,
+        tag: "🆕 New Launch",
+        image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600",
+        buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s26+ultra&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "Samsung Galaxy S26 Ultra 2026 का सबसे powerful smartphone है। इसमें 200MP AI camera है जो night mode में भी DSLR जैसी photos लेता है। S Pen built-in है, Snapdragon 8 Elite Gen 2 processor blazing fast performance देता है, और 6.9-inch QHD+ AMOLED display stunning visuals दिखाती है। Galaxy AI features जैसे Live Translate, Circle to Search, और AI Photo Editor इसे smart बनाते हैं। Amazon Mega Electronics Days में ₹10,000 तक exchange bonus + bank card discount मिल रहा है।"
+    },
+    {
+        title: "Xiaomi 17 Ultra — 200MP Beast!",
+        category: "Flagship",
+        description: "Leica कैमरा, Snapdragon 8 Elite, 120W फास्ट चार्जिंग। ₹1,29,999 में flagship killer!",
+        price: "₹1,29,999",
+        discount: "₹8,000 Instant Discount",
+        rating: 4.8,
+        tag: "🆕 Just Launched",
+        image: "https://images.unsplash.com/photo-1598327105666-5b89351cb31b?auto=format&fit=crop&q=80&w=600",
+        buyLink: `https://www.amazon.in/s?k=xiaomi+17+ultra&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "Xiaomi 17 Ultra photography lovers के लिए dream phone है। Leica partnership से बना dual 200MP periscope camera system professional-grade photos लेता है। Snapdragon 8 Elite processor, 16GB RAM, 512GB storage, और 7500mAh battery (120W fast charging — 15 मिनट में 50%!) इसे complete powerhouse बनाते हैं। Amazon पर ₹8,000 instant bank discount मिल रहा है plus no-cost EMI options available हैं।"
+    },
+    {
+        title: "OnePlus 15R 5G — Best Under ₹50K",
+        category: "Smartphone",
+        description: "Snapdragon 8 Gen 3, 50MP OIS कैमरा, 100W चार्जिंग। ₹46,999 में premium experience!",
+        price: "₹46,999",
+        discount: "₹4,000 Bank Discount",
+        rating: 4.7,
+        tag: "🔥 Hot Deal",
+        image: "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&q=80&w=600",
+        buyLink: `https://www.amazon.in/s?k=oneplus+15r&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "OnePlus 15R ₹50,000 से नीचे सबसे बढ़िया smartphone है। Snapdragon 8 Gen 3 processor laptop-level performance देता है, 50MP OIS camera शानदार photos लेता है, और 100W SUPERVOOC charging सिर्फ 25 मिनट में full charge करती है। 6.7-inch 120Hz AMOLED display, stereo speakers, और OxygenOS 15 buttery-smooth experience देते हैं। Amazon पर ₹4,000 instant bank discount + exchange offer available है।"
+    },
+    {
+        title: "HP OmniBook 5 OLED — 34 Hrs Battery! 🔋",
+        category: "Laptop",
+        description: "Snapdragon X Processor, 2K OLED Display, 34 घंटे बैटरी! Students और professionals के लिए perfect।",
+        price: "₹75,990",
+        discount: "₹5,000 Off + No-Cost EMI",
+        rating: 4.6,
+        tag: "🆕 New Launch",
+        image: "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&q=80&w=600",
+        buyLink: `https://www.amazon.in/s?k=hp+omnibook+5+oled&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        content: "HP OmniBook 5 OLED एक game-changer laptop है। Snapdragon X processor ARM architecture पर चलता है जो incredible battery life देता है — 34 घंटे तक! 14-inch 2K OLED display colors को vivid बनाता है, 16GB LPDDR5x RAM smooth multitasking ensure करता है, और 512GB SSD fast storage provide करता है। Weight सिर्फ 1.3kg — ultra-portable! Amazon पर ₹5,000 off + no-cost EMI available है। Students, writers, और on-the-go professionals के लिए best choice।"
+    },
+    {
         title: "iPhone 17 (128GB) — Flipkart Big Saving Days",
         category: "Smartphone",
         description: "Apple का लेटेस्ट iPhone 17, 48MP कैमरा और A19 चिप। Flipkart सेल में MRP से ₹3,000 की छूट + SBI Card पर 10% इंस्टेंट डिस्काउंट।",
@@ -125,7 +177,7 @@ export default function TopDealsPage() {
                     Today's <span className="gradient-text">Top Deals</span> 🛒
                 </h1>
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                    Amazon & Flipkart के बेस्ट ऑफर्स! (Updated: March 2026)
+                    Amazon & Flipkart के बेस्ट ऑफर्स! (Updated: 18 March 2026)
                 </p>
             </div>
 
