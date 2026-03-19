@@ -64,9 +64,7 @@ export default function Navbar() {
                     <div className="flex flex-1 items-center justify-between">
                         <div className="flex items-center gap-6">
                             <Link href="/" className="flex items-center gap-2 group">
-                                <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary via-purple-500 to-pink-500 flex items-center justify-center shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-shadow">
-                                    <Zap className="h-4 w-4 text-white" />
-                                </div>
+                                <img src="/logo.png" alt="AITechNews" className="h-9 w-9 rounded-lg shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-shadow" />
                                 <span className="font-bold text-xl tracking-tight gradient-text">
                                     AITechNews
                                 </span>
