@@ -130,7 +130,10 @@ export default function Navbar() {
                     <div className="absolute right-0 top-0 h-full w-72 bg-background border-l border-border/30 shadow-2xl flex flex-col animate-in slide-in-from-right duration-300">
                         {/* Header */}
                         <div className="flex items-center justify-between p-4 border-b border-border/30">
-                            <span className="font-bold text-lg gradient-text">Menu</span>
+                            <div className="flex items-center gap-2">
+                                <img src="/logo.png" alt="AITechNews" className="h-7 w-7 rounded-md" />
+                                <span className="font-bold text-lg gradient-text">AITechNews</span>
+                            </div>
                             <button 
                                 onClick={() => setIsMobileMenuOpen(false)}
                                 className="p-2 rounded-lg hover:bg-secondary/50 text-foreground/70 hover:text-foreground transition-colors"

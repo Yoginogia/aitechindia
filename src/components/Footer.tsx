@@ -10,9 +10,7 @@ export default function Footer() {
                 <div className="grid grid-cols-1 gap-10 sm:grid-cols-2 md:grid-cols-4">
                     <div className="flex flex-col gap-4">
                         <Link href="/" className="flex items-center gap-2">
-                            <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-primary via-purple-500 to-pink-500 flex items-center justify-center">
-                                <Zap className="h-4 w-4 text-white" />
-                            </div>
+                            <img src="/logo.png" alt="AITechNews" className="h-9 w-9 rounded-lg" />
                             <span className="font-bold text-xl tracking-tight gradient-text">
                                 AITechNews
                             </span>

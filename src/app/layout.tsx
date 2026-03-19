@@ -22,12 +22,17 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://aitechnews.co.in'),
   title: "AITechNews | AI & Tech News",
   description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
+  icons: {
+    icon: '/logo.png',
+    apple: '/logo.png',
+  },
   openGraph: {
     title: "AITechNews | AI & Tech News",
     description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
     url: "https://aitechnews.co.in",
     siteName: "AITechNews",
     type: "website",
+    images: [{ url: '/logo.png', width: 512, height: 512 }],
   },
   verification: {
     google: ["3H46EQM6yQLN5t6Rz23LKdbixyPRPvsCRSfst2hUOH4", "L8GtQ7nuM_yn1OJV7x5mwpcLjyIjl3MM08B48HuYp_Q"],
