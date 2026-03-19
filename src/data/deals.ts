@@ -133,6 +133,42 @@ export const TOP_DEALS: Deal[] = [
         content: "OnePlus 15R ₹55,000 से नीचे सबसे powerful smartphone है। Snapdragon 8 Gen 5 processor laptop-level performance देता है, 50MP OIS camera शानदार photos लेता है, और 6.83-inch 165Hz AMOLED display (3600 nits peak brightness) gaming और video के लिए perfect है। 7,400mAh massive battery 80W fast charging से 30 min में full हो जाती है — 2 दिन आराम से चलेगी! IP66+IP68+IP69 triple water resistance rating means heavy rain में भी safe। Corning Gorilla Glass 7i protection, stereo speakers, IR Blaster, और OxygenOS 16 buttery-smooth experience देते हैं। 4 साल OS updates + 6 साल security updates guarantee है।"
     },
     {
+        slug: "samsung-galaxy-m17e-5g",
+        title: "Samsung Galaxy M17e 5G — Budget King! 🆕",
+        category: "Budget Phone",
+        description: "सिर्फ ₹12,999 में 5G + 6000mAh Battery + 6 Years Updates! Samsung का नया budget gamechanger!",
+        price: "₹12,999",
+        discount: "Effective ₹11,749",
+        rating: 4.3,
+        tag: "🆕 Just Launched",
+        image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=600",
+        buyLink: `https://www.amazon.in/s?k=samsung+galaxy+m17e+5g&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: [
+            "6.7-inch HD+ LCD, 120Hz Refresh Rate",
+            "MediaTek Dimensity 6300 (6nm) Octa Core",
+            "4GB/6GB/8GB RAM + 128GB Storage",
+            "Expandable up to 2TB via microSD",
+            "50MP (f/1.8) Main + 2MP Depth Camera",
+            "8MP Selfie Camera",
+            "6,000mAh Battery, 25W Fast Charging",
+            "Android 16 + One UI 8",
+            "6 Years OS + 6 Years Security Updates!",
+            "IP54, Side Fingerprint, 3.5mm Jack"
+        ],
+        variants: [
+            "4GB + 128GB — ₹12,999",
+            "6GB + 128GB — ₹14,999"
+        ],
+        bankOffers: [
+            "Instant Discount — Effective ₹11,749",
+            "No-Cost EMI — 6 months",
+            "Exchange Bonus — Up to ₹3,000"
+        ],
+        colors: ["Vibe Violet 💜", "Blitz Blue 💙"],
+        content: "Samsung Galaxy M17e 5G budget segment ka naya king hai! ₹12,999 mein 5G connectivity, 6000mAh massive battery (2 din chalegi!), 50MP camera, aur sabse badi baat — 6 saal OS updates + 6 saal security updates! Yani 2032 tak latest software milega! MediaTek Dimensity 6300 (6nm) chip smooth 5G experience deta hai, 120Hz display scrolling ko butter-smooth banata hai. IP54 splash resistance, side fingerprint, 3.5mm jack — sab kuch hai! Students, parents, aur first-time smartphone buyers ke liye perfect choice!"
+    },
+    {
         slug: "hp-omnibook-5-oled",
         title: "HP OmniBook 5 OLED — 34 Hrs Battery! 🔋",
         category: "Laptop",
