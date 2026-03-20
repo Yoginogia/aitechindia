@@ -1,7 +1,7 @@
 ---
 title: "Binance ने India में लॉन्च किया Zero-Fee Web3 Wallet, WazirX को मिलेगी कड़ी टक्कर! 💼"
 date: "Mar 20, 2026"
-category: "Crypto News"
+category: "Crypto"
 excerpt: "Binance ने भारतीय क्रिप्टो ट्रेडर्स के लिए अपना ख़ास UPI इनेबल्ड Web3 Wallet लॉन्च कर दिया है, जिसमें ट्रेडिंग और विथड्रावल पर 'Zero Fees' लगेगी। जानिए पूरी जानकारी।"
 image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&q=80&w=800"
 ---
