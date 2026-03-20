@@ -3,7 +3,7 @@ title: "Lenskart AI Smart Glasses India में Launch — Gemini AI + AR1 Chi
 date: "2026-03-18"
 excerpt: "Lenskart ने India में AI Smart Glasses लॉन्च कर दिए हैं! Google Gemini 2.5 Live AI और Qualcomm AR1 chip से लैस ये glasses health monitoring, shopping, और navigation में मदद करेंगे।"
 category: "Gadgets"
-image: "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&q=80&w=800"
+image: "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&q=80&w=800"
 author: "AITechNews Team"
 ---
 
