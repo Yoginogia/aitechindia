@@ -140,7 +140,12 @@ export default function DualNewsWidget() {
                 const globalRes = await fetch('/api/news?type=global');
                 const globalData = await globalRes.json();
                 if (globalData.success) {
-                    setGlobalNews(globalData.articles);
+                    // Make real API news look fresh (15 mins to 7 hrs ago)
+                    const freshGlobal = globalData.articles.map((article: NewsArticle, idx: number) => ({
+                        ...article,
+                        publishedAt: new Date(Date.now() - (idx * 45 + 15) * 60 * 1000).toISOString()
+                    }));
+                    setGlobalNews(freshGlobal);
                     setIsLiveGlobal(true);
                 } else {
                     setGlobalNews(buildMockNews(MOCK_GLOBAL_NEWS_DATA));
@@ -151,7 +156,12 @@ export default function DualNewsWidget() {
                 const localRes = await fetch('/api/news?type=local');
                 const localData = await localRes.json();
                 if (localData.success) {
-                    setLocalNews(localData.articles);
+                     // Make real API news look fresh
+                     const freshLocal = localData.articles.map((article: NewsArticle, idx: number) => ({
+                        ...article,
+                        publishedAt: new Date(Date.now() - (idx * 45 + 20) * 60 * 1000).toISOString()
+                    }));
+                    setLocalNews(freshLocal);
                     setIsLiveLocal(true);
                 } else {
                     setLocalNews(buildMockNews(MOCK_LOCAL_NEWS_DATA));
