@@ -60,6 +60,21 @@ export const TOP_DEALS: Deal[] = [
         content: "Samsung Galaxy S26 Ultra 2026 का सबसे powerful smartphone है। इसमें 200MP AI camera है जो f/1.4 aperture के साथ 47% ज़्यादा light capture करता है — night mode में भी DSLR-level photos! Privacy Display technology screen को 30° से ज़्यादा angle पर invisible बना देती है। Snapdragon 8 Elite Gen 5 processor Galaxy AI features जैसे Live Translate, Circle to Search (multi-object), AI Screenshot Analyzer, और Private Album power करता है। Corning Gorilla Armor 2 protection, 65W fast charging (30 min में 75%), और 7 साल तक OS updates — Samsung ने sab kuch diya hai! HDFC Credit Card से ₹9,000 instant discount + ₹2,699 pre-order benefits milte hain।"
     },
     {
+        slug: "acerpure-air-fryer-glass",
+        title: "Acerpure Air Fryer (5.5L) — 100% Glass Bowl",
+        category: "Home Appliance",
+        description: "अब बिना तेल के क्रिस्पी खाना बनाएं! 100% Glass Bowl, 360° TurboHeat Technology और 90% Less Oil. Amazon पर बेस्ट डील!",
+        price: "₹3,999",
+        discount: "Bank Offers + No-Cost EMI",
+        rating: 4.5,
+        tag: "🔥 Hot Deal",
+        image: "https://images.unsplash.com/photo-1628840042765-356cda07504e?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/Acerpure-Grilling-Warranty-TurboHeat-Technology/dp/B0DWSDDVL1/?tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: ["5.5L Air Fryer + 2.5L Cooking Pot", "100% Glass Bowl (Easy to clean)", "90% Less Oil Cooking", "360° TurboHeat Technology", "1500 Watts Power", "Air Fry, Toast, Grill, Reheat"],
+        content: "क्या आप हेल्दी खाना चाहते हैं लेकिन टेस्ट से समझौता नहीं करना चाहते? Acerpure का नया Air Fryer इसका परफेक्ट सॉल्यूशन है! इसकी सबसे बड़ी खासियत इसका 100% Glass Bowl है, जिससे आप खाना पकते हुए देख सकते हैं और इसे साफ करना भी बेहद आसान है। 5.5L की कैपेसिटी वाली यह मशीन 360° TurboHeat Technology के साथ आती है जो 90% कम तेल में भी खाने को एकदम क्रिस्पी बनाती है। Amazon पर इसे शानदार नो-कॉस्ट ईएमआई और बैंक ऑफर्स के साथ खरीदा जा सकता है।"
+    },
+    {
         slug: "xiaomi-17-ultra",
         title: "Xiaomi 17 Ultra — Leica Camera Beast!",
         category: "Flagship",
