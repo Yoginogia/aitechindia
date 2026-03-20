@@ -207,7 +207,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "Exchange Bonus ₹15,000",
         rating: 4.8,
         tag: "New Launch",
-        image: "https://picsum.photos/id/96/800/450",
+        image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800",
         buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s25+edge&tag=${AFFILIATE_TAG}`,
         platform: "Amazon",
         specs: ["200MP Main Camera", "Snapdragon 8 Elite Processor", "12GB RAM + 256GB Storage", "6.7-inch Dynamic AMOLED", "Titanium Body, IP68", "Galaxy AI Features", "5000mAh Battery"],
