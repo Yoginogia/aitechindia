@@ -51,6 +51,7 @@ export default function Navbar() {
     const navLinks = [
         { href: '/', label: 'Home', icon: '🏠' },
         { href: '/latest', label: 'Latest', icon: '📰' },
+        { href: '/web-stories', label: 'Stories', icon: '⚡' },
         { href: '/ai-tools', label: 'AI Tools', icon: '🤖' },
         { href: '/gadgets', label: 'Gadgets', icon: '📱' },
         { href: '/crypto', label: 'Crypto News', icon: '💰' },
