@@ -77,6 +77,9 @@ export default function Navbar() {
                                 <Link href="/latest" className={getLinkClass('/latest')}>
                                     <Rss className="h-3.5 w-3.5 mr-1.5 inline-block" /> Latest
                                 </Link>
+                                <Link href="/web-stories" className={getLinkClass('/web-stories')}>
+                                    ⚡ Stories
+                                </Link>
                                 <Link href="/ai-tools" className={getLinkClass('/ai-tools')}>
                                     AI Tools
                                 </Link>
