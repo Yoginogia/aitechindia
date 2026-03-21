@@ -106,16 +106,7 @@ export default function WebStoriesPage() {
 
             </div>
             
-            {/* Custom CSS to hide scrollbar */}
-            <style jsx global>{`
-                .hide-scroll::-webkit-scrollbar {
-                    display: none;
-                }
-                .hide-scroll {
-                    -ms-overflow-style: none;
-                    scrollbar-width: none;
-                }
-            `}</style>
+
         </div>
     );
 }
