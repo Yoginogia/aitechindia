@@ -64,11 +64,47 @@ const WEB_STORIES = [
 ];
 
 export default function WebStoriesPage() {
+    const [likedStories, setLikedStories] = useState<Record<number, boolean>>({});
+    const [showToast, setShowToast] = useState(false);
+
+    const handleLike = (id: number) => {
+        setLikedStories(prev => ({ ...prev, [id]: !prev[id] }));
+    };
+
+    const handleComment = () => {
+        alert("💬 Comments UI coming soon! Tab tak updates ke liye WhatsApp join karein.");
+    };
+
+    const handleShare = async (story: any) => {
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: story.title,
+                    text: story.content,
+                    url: window.location.href,
+                });
+            } catch (err) {
+                console.log("Error sharing", err);
+            }
+        } else {
+            navigator.clipboard.writeText(window.location.href);
+            setShowToast(true);
+            setTimeout(() => setShowToast(false), 3000);
+        }
+    };
+
     return (
         <div className="fixed inset-0 bg-black z-[100] flex justify-center items-center overflow-hidden">
             <Link href="/" className="absolute top-6 left-6 z-50 p-2 bg-black/50 backdrop-blur rounded-full text-white hover:bg-white/20 transition">
                 <ArrowLeft className="h-6 w-6" />
             </Link>
+
+            {/* Custom Toast for Desktop fallback */}
+            {showToast && (
+                <div className="absolute top-10 left-1/2 -translate-x-1/2 z-50 bg-white text-black px-4 py-2 rounded-full font-bold shadow-lg animate-bounce">
+                    Link Copied! 📋
+                </div>
+            )}
 
             {/* Stories Container - Snap Scrolling */}
             <div className="w-full h-full max-w-md bg-zinc-900 md:rounded-3xl overflow-y-scroll snap-y snap-mandatory no-scrollbar relative flex flex-col hide-scroll">
@@ -100,19 +136,28 @@ export default function WebStoriesPage() {
                             </p>
                             
                             <div className="flex items-center gap-4 border-t border-white/20 pt-4">
-                                <button className="flex items-center gap-2 text-white/90 hover:text-white transition group">
+                                <button 
+                                    onClick={() => handleLike(story.id)}
+                                    className="flex items-center gap-2 text-white/90 hover:text-white transition group"
+                                >
                                     <div className="p-2 bg-white/10 rounded-full group-hover:bg-red-500/20 transition">
-                                        <Heart className="h-5 w-5 group-hover:text-red-500 fill-transparent group-hover:fill-red-500 transition" />
+                                        <Heart className={`h-5 w-5 transition ${likedStories[story.id] ? 'text-red-500 fill-red-500 scale-110' : 'group-hover:text-red-500 fill-transparent group-hover:fill-red-500'}`} />
                                     </div>
-                                    <span className="text-sm font-medium">Like</span>
+                                    <span className="text-sm font-medium">{likedStories[story.id] ? 'Liked' : 'Like'}</span>
                                 </button>
-                                <button className="flex items-center gap-2 text-white/90 hover:text-white transition group">
+                                <button 
+                                    onClick={handleComment}
+                                    className="flex items-center gap-2 text-white/90 hover:text-white transition group"
+                                >
                                     <div className="p-2 bg-white/10 rounded-full group-hover:bg-white/20 transition">
                                         <MessageCircle className="h-5 w-5" />
                                     </div>
                                     <span className="text-sm font-medium">Comment</span>
                                 </button>
-                                <button className="flex items-center gap-2 text-white/90 hover:text-white transition group ml-auto">
+                                <button 
+                                    onClick={() => handleShare(story)}
+                                    className="flex items-center gap-2 text-white/90 hover:text-white transition group ml-auto"
+                                >
                                     <div className="p-2 bg-white/10 rounded-full group-hover:bg-blue-500/20 transition">
                                         <Share2 className="h-5 w-5 group-hover:text-blue-400 transition" />
                                     </div>
