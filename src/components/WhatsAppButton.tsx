@@ -6,7 +6,7 @@ import Link from 'next/link';
 export default function WhatsAppButton() {
     return (
         <Link
-            href="https://whatsapp.com/channel/your_channel_link_here"
+            href="https://whatsapp.com/channel/0029Vb7j7XpF6smwzVoHDP0I"
             target="_blank"
             rel="noopener noreferrer"
             className="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-[#25D366] text-white px-4 py-3 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300 group"
