@@ -7,31 +7,59 @@ import Link from 'next/link';
 const WEB_STORIES = [
     {
         id: 1,
-        title: "iPhone 18 SE: The Cheapest AI Phone by Apple!",
+        title: "iPhone 18 SE: Apple का सबसे सस्ता AI फोन!",
         category: "Gadgets",
         image: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800",
-        content: "Apple is launching the iPhone 18 SE with A19 chip, 48MP camera, and full Apple Intelligence support at just ₹48,900!"
+        content: "Apple जल्द ही iPhone 18 SE लॉन्च करने वाला है। इसमें A19 चिप, 48MP कैमरा और फुल Apple Intelligence का सपोर्ट मिलेगा, वो भी सिर्फ ₹48,900 में!"
     },
     {
         id: 2,
-        title: "Google Gemini 3.0 Leak: Super Human Reasoning",
+        title: "Google Gemini 3.0 Leak: इंसानों से भी तेज़",
         category: "AI",
         image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800",
-        content: "Gemini 3.0 can process live video from your phone's camera and solve complex coding logic instantly without internet."
+        content: "Gemini 3.0 आपके फोन के कैमरा से लाइव वीडियो देखकर चुटकियों में प्रॉब्लम सॉल्व कर देगा। और सबसे बड़ी बात, ये बिना इंटरनेट के भी काम करेगा!"
     },
     {
         id: 3,
-        title: "Solana ETF Approved: SOL Crosses $350!",
+        title: "Solana ETF Approved: SOL ने पार किया $350!",
         category: "Crypto",
         image: "https://images.unsplash.com/photo-1605792657660-596af9009e82?auto=format&fit=crop&q=80&w=800",
-        content: "US SEC officially approves Solana Spot ETF. Billions of dollars flowing in as SOL hits new All-Time High today."
+        content: "US SEC ने आखिरकार Solana Spot ETF को मंज़ूरी दे दी है। इसके बाद मार्केट में भारी निवेश आया है और SOL ने आज नया All-Time High बना दिया।"
     },
     {
         id: 4,
-        title: "Samsung Galaxy M17e 5G: Battery King",
+        title: "Samsung Galaxy M17e 5G: ₹12,999 में गदर फोन",
         category: "Trending",
         image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800",
-        content: "6000mAh battery, 5G, and 6 Years of OS updates for just ₹12,999. Is this the budget king of 2026?"
+        content: "6000mAh की 'Super-Solid' बैटरी, 5G स्पीड, और पूरे 6 साल के OS अपडेट! क्या यह सैमसंग का नया बजट किंग है?"
+    },
+    {
+        id: 5,
+        title: "Binance Zero-Fee Web3 Wallet हुआ लॉन्च 🇮🇳",
+        category: "Crypto",
+        image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&q=80&w=800",
+        content: "भारतीय यूज़र्स के लिए Binance ने UPI सपोर्ट वाला नया Web3 वॉलेट लॉन्च किया है। अब बिना किसी एक्स्ट्रा गैस फीस के आसानी से क्रिप्टो ट्रेड करें।"
+    },
+    {
+        id: 6,
+        title: "Lenskart AI Smart Glasses: चश्मे में AI की ताक़त",
+        category: "Gadgets",
+        image: "https://images.unsplash.com/photo-1577741314755-048d8525d31e?auto=format&fit=crop&q=80&w=800",
+        content: "Lenskart ने ₹4,999 में अपने पहले AI-powered Smart Glasses लॉन्च किये। इस चश्मे से आप कॉल्स उठा सकते हैं और ChatGPT से बात कर सकते हैं।"
+    },
+    {
+        id: 7,
+        title: "Jio AirFiber AI Plans हुए सस्ते!",
+        category: "Internet",
+        image: "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800",
+        content: "Jio ने AirFiber के नए प्लान लॉन्च कर दिए हैं, जिसमें आपको घर के लिए स्मार्ट AI राउटर और 1Gbps तक की स्पीड मिलेगी।"
+    },
+    {
+        id: 8,
+        title: "OpenAI Sora: अब सबके लिए फ्री Video Generation",
+        category: "AI Tools",
+        image: "https://images.unsplash.com/photo-1618044733300-9472054094ee?auto=format&fit=crop&q=80&w=800",
+        content: "Sam Altman ने ऐलान कर दिया है! कमाल का वीडियो जनरेटर AI 'Sora' अब ChatGPT Plus यूज़र्स के लिए अवेलेबल हो गया है।"
     }
 ];
 
