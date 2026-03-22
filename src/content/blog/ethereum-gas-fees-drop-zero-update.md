@@ -3,7 +3,7 @@ title: "Ethereum Gas Fees Drop to Zero: ETH 2.5 अपग्रेड ने क
 date: "2026-03-22"
 category: "Crypto"
 excerpt: "क्रिप्टो ट्रेडर्स के लिए बहुत बड़ी खबर। Ethereum नेटवर्क पर गैस फीस (Tx Fees) अब लगभग 0 हो गई है। जानिए इस नए 'Shanghai 2.0' अपग्रेड के बारे में।"
-image: "https://images.unsplash.com/photo-1622736136129-8758837e3d64?auto=format&fit=crop&q=80&w=800"
+image: "/images/blog/ethereum-zero.png?v=999"
 ---
 
 सालों से **Ethereum (ETH)** नेटवर्क का इस्तेमाल करने वालों की सबसे बड़ी शिकायत यही थी— *"भैया, गैस फीस (Network Fees) तो बहुत ज़्यादा है!"* 💸

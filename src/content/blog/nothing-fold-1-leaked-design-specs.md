@@ -3,7 +3,7 @@ title: "Nothing Fold (1) Leaked: क्या फोल्डेबल मार
 date: "2026-03-22"
 category: "Gadgets"
 excerpt: "Nothing के CEO Carl Pei ने अपने पहले 'Transparent Foldable Phone' का टीज़र जारी कर दिया है। जानिए इसका डिज़ाइन, लाइट्स और फीचर्स..."
-image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800"
+image: "/images/blog/nothing-fold-1.png?v=999"
 ---
 
 Nothing स्मार्टफोन कपनी हमेशा से अपने अजीब और अनोखे डिज़ाइन्स के लिए मशहूर रही है। अब Nothing के फैंस के लिए एक बहुत बड़ी खबर आ गई है। मशहूर टेक लीकर 'Evan Blass' और खुद CEO **Carl Pei** के नए ट्वीट के अनुसार, कपनी अपने पहले फोल्डेबल फोन— **Nothing Fold (1)** पर काम कर रही है। 🤯

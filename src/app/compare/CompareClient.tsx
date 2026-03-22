@@ -117,7 +117,7 @@ export default function CompareClient() {
                     {phone1 && (
                         <div className="flex flex-col items-center p-4 bg-zinc-900 rounded-2xl border border-zinc-800">
                             <div className="w-24 h-40 md:w-32 md:h-52 relative mb-4 rounded-xl overflow-hidden shadow-2xl">
-                                <Image src={phone1.image} alt={phone1.name} fill className="object-cover" />
+                                <img src={phone1.image} alt={phone1.name} className="w-full h-full object-cover" />
                             </div>
                             <h2 className="text-xl font-bold text-center line-clamp-1">{phone1.name}</h2>
                             <p className="text-primary font-bold text-lg mt-1">{phone1.price}</p>
@@ -144,7 +144,7 @@ export default function CompareClient() {
                     {phone2 && (
                         <div className="flex flex-col items-center p-4 bg-zinc-900 rounded-2xl border border-zinc-800">
                             <div className="w-24 h-40 md:w-32 md:h-52 relative mb-4 rounded-xl overflow-hidden shadow-2xl">
-                                <Image src={phone2.image} alt={phone2.name} fill className="object-cover" />
+                                <img src={phone2.image} alt={phone2.name} className="w-full h-full object-cover" />
                             </div>
                             <h2 className="text-xl font-bold text-center line-clamp-1">{phone2.name}</h2>
                             <p className="text-blue-400 font-bold text-lg mt-1">{phone2.price}</p>
