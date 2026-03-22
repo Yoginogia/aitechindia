@@ -241,7 +241,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 <div className="border-t border-border/30 pt-16 mt-10">
                     <div className="flex items-center justify-between mb-8">
                         <h3 className="text-3xl font-extrabold tracking-tight">You May Also Like 🔥</h3>
-                        <Link href="/latest" className="text-primary text-sm font-bold hover:underline hidden sm:block">View All</Link>
+                        <Link href="/latest" className="text-primary text-sm font-bold hover:underline">View All</Link>
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
