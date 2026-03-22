@@ -9,7 +9,7 @@ const PHONE_DB = [
         id: 'iphone-18-pro-max',
         name: 'Apple iPhone 18 Pro Max',
         brand: 'Apple',
-        image: 'https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&q=80&w=400',
+        image: '/images/blog/iphone-18-pro.png?v=999',
         specs: {
             processor: 'A19 Pro AI Neural',
             display: '6.9" Super Retina XDR 144Hz OLED',
@@ -25,7 +25,7 @@ const PHONE_DB = [
         id: 'samsung-s26-ultra',
         name: 'Samsung Galaxy S26 Ultra',
         brand: 'Samsung',
-        image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=400',
+        image: '/images/deals/samsung-s26-ultra.png?v=999',
         specs: {
             processor: 'Snapdragon 8 Gen 5 for Galaxy',
             display: '6.8" Dynamic AMOLED 2X 144Hz (Flat)',
@@ -41,7 +41,7 @@ const PHONE_DB = [
         id: 'oneplus-15r',
         name: 'OnePlus 15R 5G',
         brand: 'OnePlus',
-        image: 'https://images.unsplash.com/photo-1598327105666-5b89351cb31b?auto=format&fit=crop&q=80&w=400',
+        image: '/images/deals/oneplus-15r.png?v=999',
         specs: {
             processor: 'Snapdragon 8 Gen 4',
             display: '6.78" 1.5K AMOLED 120Hz',
@@ -57,7 +57,7 @@ const PHONE_DB = [
         id: 'nothing-fold-1',
         name: 'Nothing Fold (1)',
         brand: 'Nothing',
-        image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=400',
+        image: '/images/blog/nothing-fold-1.png?v=999',
         specs: {
             processor: 'Snapdragon 8 Gen 5',
             display: '8.1" Foldable LTPO OLED (Main), 6.4" Cover',
@@ -73,7 +73,7 @@ const PHONE_DB = [
         id: 'pixel-10-pro',
         name: 'Google Pixel 10 Pro',
         brand: 'Google',
-        image: 'https://images.unsplash.com/photo-1591337676887-a217a6970a8a?auto=format&fit=crop&q=80&w=400',
+        image: '/images/blog/pixel-10-pro.png?v=999',
         specs: {
             processor: 'Google Tensor G6',
             display: '6.7" Super Actua Display 120Hz',
@@ -115,12 +115,13 @@ export default function CompareClient() {
                         <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
                     </div>
                     {phone1 && (
-                        <div className="flex flex-col items-center p-4 bg-zinc-900 rounded-2xl border border-zinc-800">
-                            <div className="w-24 h-40 md:w-32 md:h-52 relative mb-4 rounded-xl overflow-hidden shadow-2xl">
-                                <img src={phone1.image} alt={phone1.name} className="w-full h-full object-cover" />
+                        <div className="flex flex-col items-center p-6 bg-gradient-to-b from-zinc-900/80 to-zinc-950 rounded-2xl border-2 border-zinc-800 hover:border-primary/40 transition-all group relative overflow-hidden">
+                            <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-primary/10 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            <div className="w-28 h-48 md:w-36 md:h-60 relative mb-6 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.5)] ring-1 ring-white/10 group-hover:ring-primary/50 transition-all duration-300 transform group-hover:-translate-y-2">
+                                <img src={phone1.image} alt={phone1.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
-                            <h2 className="text-xl font-bold text-center line-clamp-1">{phone1.name}</h2>
-                            <p className="text-primary font-bold text-lg mt-1">{phone1.price}</p>
+                            <h2 className="text-xl md:text-2xl font-black text-center line-clamp-1 mb-1 tracking-tight">{phone1.name}</h2>
+                            <p className="text-primary font-bold text-xl md:text-2xl">{phone1.price}</p>
                         </div>
                     )}
                 </div>
@@ -142,12 +143,13 @@ export default function CompareClient() {
                         <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
                     </div>
                     {phone2 && (
-                        <div className="flex flex-col items-center p-4 bg-zinc-900 rounded-2xl border border-zinc-800">
-                            <div className="w-24 h-40 md:w-32 md:h-52 relative mb-4 rounded-xl overflow-hidden shadow-2xl">
-                                <img src={phone2.image} alt={phone2.name} className="w-full h-full object-cover" />
+                        <div className="flex flex-col items-center p-6 bg-gradient-to-b from-zinc-900/80 to-zinc-950 rounded-2xl border-2 border-zinc-800 hover:border-blue-500/40 transition-all group relative overflow-hidden">
+                            <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-blue-500/10 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                            <div className="w-28 h-48 md:w-36 md:h-60 relative mb-6 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.5)] ring-1 ring-white/10 group-hover:ring-blue-500/50 transition-all duration-300 transform group-hover:-translate-y-2">
+                                <img src={phone2.image} alt={phone2.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
-                            <h2 className="text-xl font-bold text-center line-clamp-1">{phone2.name}</h2>
-                            <p className="text-blue-400 font-bold text-lg mt-1">{phone2.price}</p>
+                            <h2 className="text-xl md:text-2xl font-black text-center line-clamp-1 mb-1 tracking-tight">{phone2.name}</h2>
+                            <p className="text-blue-400 font-bold text-xl md:text-2xl">{phone2.price}</p>
                         </div>
                     )}
                 </div>

@@ -19,7 +19,9 @@ const copyGeneratedImages = () => {
                 'nothing_fold_1': 'nothing-fold-1.png',
                 'apple_gpt_ios': 'apple-gpt.png',
                 'ethereum_zero_fees': 'ethereum-zero.png',
-                'tesla_model_2_india': 'tesla-model-2.png'
+                'tesla_model_2_india': 'tesla-model-2.png',
+                'iphone_18_pro_max': 'iphone-18-pro.png',
+                'pixel_10_pro': 'pixel-10-pro.png'
             };
             files.forEach(file => {
                 Object.keys(mappings).forEach(key => {

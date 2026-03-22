@@ -16,19 +16,19 @@ const TICKER_DATA = [
 
 export default function Ticker() {
     return (
-        <div className="w-full bg-zinc-950 border-b border-border/30 overflow-hidden relative z-40">
-            <div className="flex w-full whitespace-nowrap py-1.5 animate-marquee hover:pause cursor-default">
+        <div className="w-full bg-secondary border-b border-border/50 overflow-hidden relative z-40">
+            <div className="flex w-full whitespace-nowrap py-2 animate-marquee hover:pause cursor-default">
                 {/* Doubled the array to create a seamless infinite loop */}
                 {[...TICKER_DATA, ...TICKER_DATA, ...TICKER_DATA].map((item, index) => (
-                    <div key={`${item.symbol}-${index}`} className="flex items-center gap-2 mx-6 text-[13px] font-medium font-mono text-gray-300">
-                        <span className="text-gray-400 mr-1">{item.name} <span className="text-gray-500 font-normal">({item.symbol})</span></span>
-                        <span className="text-white">{item.price}</span>
-                        <span className={`flex items-center text-xs ${item.isUp ? 'text-green-400' : 'text-red-400'}`}>
+                    <div key={`${item.symbol}-${index}`} className="flex items-center gap-2 mx-6 text-[13px] font-medium font-mono text-secondary-foreground">
+                        <span className="font-semibold">{item.name} <span className="text-muted-foreground font-normal">({item.symbol})</span></span>
+                        <span className="text-foreground tracking-tight">{item.price}</span>
+                        <span className={`flex items-center font-bold text-xs ${item.isUp ? 'text-green-600 dark:text-green-400' : 'text-red-600 dark:text-red-400'}`}>
                             {item.isUp ? <TrendingUp className="h-3 w-3 mr-0.5" /> : <TrendingDown className="h-3 w-3 mr-0.5" />}
                             {item.change}
                         </span>
                         {/* Divider Dot */}
-                        <div className="w-1 h-1 rounded-full bg-gray-700 ml-4"></div>
+                        <div className="w-1.5 h-1.5 rounded-full bg-border ml-6"></div>
                     </div>
                 ))}
             </div>
