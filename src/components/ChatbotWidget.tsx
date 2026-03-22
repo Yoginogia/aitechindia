@@ -29,7 +29,7 @@ export default function ChatbotWidget() {
     };
 
     return (
-        <div className="fixed bottom-6 right-6 z-[9999] flex flex-col items-end">
+        <div className="fixed bottom-24 right-6 z-[9999] flex flex-col items-end">
             {/* Chat Window */}
             <div className={`mb-4 w-[350px] sm:w-[400px] h-[500px] bg-secondary/95 backdrop-blur-xl border border-border/50 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-500 origin-bottom-right ${isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0 pointer-events-none'}`}>
                 {/* Header */}
