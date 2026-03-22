@@ -104,7 +104,7 @@ export default function CompareClient() {
                         <select 
                             value={phone1Id} 
                             onChange={(e) => setPhone1Id(e.target.value)}
-                            className="w-full appearance-none bg-zinc-800 border-2 border-zinc-700 hover:border-primary/50 text-white px-4 py-3 rounded-xl font-bold focus:outline-none focus:ring-2 focus:ring-primary/50 transition cursor-pointer pr-10"
+                            className="w-full appearance-none bg-background dark:bg-zinc-800 border-2 border-border dark:border-zinc-700 hover:border-primary/50 text-foreground dark:text-white px-4 py-3 rounded-xl font-bold focus:outline-none focus:ring-2 focus:ring-primary/50 transition cursor-pointer pr-10"
                         >
                             {PHONE_DB.map(phone => (
                                 <option key={phone.id} value={phone.id} disabled={phone.id === phone2Id}>
@@ -112,15 +112,15 @@ export default function CompareClient() {
                                 </option>
                             ))}
                         </select>
-                        <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                        <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground pointer-events-none" />
                     </div>
                     {phone1 && (
-                        <div className="flex flex-col items-center p-6 bg-gradient-to-b from-zinc-900/80 to-zinc-950 rounded-2xl border-2 border-zinc-800 hover:border-primary/40 transition-all group relative overflow-hidden">
+                        <div className="flex flex-col items-center p-6 bg-gradient-to-b from-secondary/50 dark:from-zinc-900/80 to-secondary dark:to-zinc-950 rounded-2xl border-2 border-border/50 dark:border-zinc-800 hover:border-primary/40 transition-all group relative overflow-hidden">
                             <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-primary/10 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            <div className="w-28 h-48 md:w-36 md:h-60 relative mb-6 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.5)] ring-1 ring-white/10 group-hover:ring-primary/50 transition-all duration-300 transform group-hover:-translate-y-2">
+                            <div className="w-28 h-48 md:w-36 md:h-60 relative mb-6 rounded-2xl overflow-hidden shadow-xl dark:shadow-[0_0_30px_rgba(0,0,0,0.5)] ring-1 ring-border dark:ring-white/10 group-hover:ring-primary/50 transition-all duration-300 transform group-hover:-translate-y-2">
                                 <img src={phone1.image} alt={phone1.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
-                            <h2 className="text-xl md:text-2xl font-black text-center line-clamp-1 mb-1 tracking-tight">{phone1.name}</h2>
+                            <h2 className="text-xl md:text-2xl font-black text-center line-clamp-1 mb-1 tracking-tight text-foreground">{phone1.name}</h2>
                             <p className="text-primary font-bold text-xl md:text-2xl">{phone1.price}</p>
                         </div>
                     )}
@@ -132,7 +132,7 @@ export default function CompareClient() {
                         <select 
                             value={phone2Id} 
                             onChange={(e) => setPhone2Id(e.target.value)}
-                            className="w-full appearance-none bg-zinc-800 border-2 border-zinc-700 hover:border-blue-500/50 text-white px-4 py-3 rounded-xl font-bold focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition cursor-pointer pr-10"
+                            className="w-full appearance-none bg-background dark:bg-zinc-800 border-2 border-border dark:border-zinc-700 hover:border-blue-500/50 text-foreground dark:text-white px-4 py-3 rounded-xl font-bold focus:outline-none focus:ring-2 focus:ring-blue-500/50 transition cursor-pointer pr-10"
                         >
                             {PHONE_DB.map(phone => (
                                 <option key={`p2-${phone.id}`} value={phone.id} disabled={phone.id === phone1Id}>
@@ -140,16 +140,16 @@ export default function CompareClient() {
                                 </option>
                             ))}
                         </select>
-                        <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 pointer-events-none" />
+                        <ChevronDown className="absolute right-4 top-1/2 -translate-y-1/2 text-muted-foreground pointer-events-none" />
                     </div>
                     {phone2 && (
-                        <div className="flex flex-col items-center p-6 bg-gradient-to-b from-zinc-900/80 to-zinc-950 rounded-2xl border-2 border-zinc-800 hover:border-blue-500/40 transition-all group relative overflow-hidden">
+                        <div className="flex flex-col items-center p-6 bg-gradient-to-b from-secondary/50 dark:from-zinc-900/80 to-secondary dark:to-zinc-950 rounded-2xl border-2 border-border/50 dark:border-zinc-800 hover:border-blue-500/40 transition-all group relative overflow-hidden">
                             <div className="absolute top-0 left-0 w-full h-1/2 bg-gradient-to-b from-blue-500/10 to-transparent pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            <div className="w-28 h-48 md:w-36 md:h-60 relative mb-6 rounded-2xl overflow-hidden shadow-[0_0_30px_rgba(0,0,0,0.5)] ring-1 ring-white/10 group-hover:ring-blue-500/50 transition-all duration-300 transform group-hover:-translate-y-2">
+                            <div className="w-28 h-48 md:w-36 md:h-60 relative mb-6 rounded-2xl overflow-hidden shadow-xl dark:shadow-[0_0_30px_rgba(0,0,0,0.5)] ring-1 ring-border dark:ring-white/10 group-hover:ring-blue-500/50 transition-all duration-300 transform group-hover:-translate-y-2">
                                 <img src={phone2.image} alt={phone2.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
                             </div>
-                            <h2 className="text-xl md:text-2xl font-black text-center line-clamp-1 mb-1 tracking-tight">{phone2.name}</h2>
-                            <p className="text-blue-400 font-bold text-xl md:text-2xl">{phone2.price}</p>
+                            <h2 className="text-xl md:text-2xl font-black text-center line-clamp-1 mb-1 tracking-tight text-foreground">{phone2.name}</h2>
+                            <p className="text-blue-600 dark:text-blue-400 font-bold text-xl md:text-2xl">{phone2.price}</p>
                         </div>
                     )}
                 </div>

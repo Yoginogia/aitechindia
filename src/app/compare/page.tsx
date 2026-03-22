@@ -11,16 +11,16 @@ export default function ComparePage() {
     return (
         <div className="min-h-screen bg-background pb-20">
             {/* Header Section */}
-            <div className="bg-zinc-900 border-b border-border/40 pb-12 pt-20 px-4 relative overflow-hidden">
+            <div className="bg-secondary/30 dark:bg-zinc-900 border-b border-border/40 pb-12 pt-20 px-4 relative overflow-hidden transition-colors">
                 <div className="absolute top-0 right-0 w-96 h-96 bg-primary/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
                 <div className="absolute bottom-0 left-0 w-72 h-72 bg-blue-500/10 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
                 <div className="container max-w-5xl mx-auto relative z-10 text-center">
-                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/20 text-primary text-sm font-semibold mb-6">
+                    <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-primary/10 dark:bg-primary/20 text-primary text-sm font-semibold mb-6">
                         <Zap className="h-4 w-4" /> Smart Comparison
                     </span>
-                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6">
-                        Kaunsa Phone Hai <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-400">Sabse Best?</span>
+                    <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-6 text-foreground">
+                        Kaunsa Phone Hai <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">Sabse Best?</span>
                     </h1>
                     <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8 leading-relaxed">
                         Features, Specs, aur Price ko side-by-side compare karein aur chunein apne liye sabse behtar option.
