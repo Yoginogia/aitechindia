@@ -15,6 +15,9 @@ export type PostData = {
     image?: string;
     readingTime?: string;
     contentHtml?: string;
+    author?: string;
+    authorRole?: string;
+    authorImage?: string;
 };
 
 // Default reading speed = 200 words per minute
@@ -50,6 +53,9 @@ export function getSortedPostsData(): PostData[] {
             return {
                 slug,
                 readingTime,
+                author: matterResult.data.author || 'Amit Sharma',
+                authorRole: matterResult.data.authorRole || 'Senior Tech Analyst',
+                authorImage: matterResult.data.authorImage || 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&h=100&q=80',
                 ...(matterResult.data as { title: string; date: string; category: string; excerpt: string, image?: string }),
             };
         });
@@ -99,6 +105,9 @@ export async function getPostData(slug: string): Promise<PostData> {
         slug,
         contentHtml,
         readingTime,
+        author: matterResult.data.author || 'Amit Sharma',
+        authorRole: matterResult.data.authorRole || 'Senior Tech Analyst',
+        authorImage: matterResult.data.authorImage || 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&h=100&q=80',
         ...(matterResult.data as { title: string; date: string; category: string; excerpt: string, image?: string }),
     };
 }

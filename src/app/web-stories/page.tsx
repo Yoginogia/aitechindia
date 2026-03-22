@@ -146,6 +146,17 @@ export default function WebStoriesPage() {
                 </div>
             )}
 
+            {/* Desktop Info Badge */}
+            <div className="hidden md:flex absolute right-12 top-12 bg-white/10 backdrop-blur-md border border-white/20 p-5 rounded-2xl text-white max-w-xs flex-col gap-2 z-50">
+                <div className="flex items-center gap-2 mb-1">
+                    <span className="bg-primary px-2 py-0.5 rounded text-xs font-bold uppercase tracking-wider shadow-[0_0_10px_rgba(99,102,241,0.5)]">Info</span>
+                    <h3 className="font-bold text-lg">AITechNews Lite Reels</h3>
+                </div>
+                <p className="text-sm text-white/80 leading-relaxed">
+                    यह Google Web Stories नहीं है। यह हमारा अपना कस्टम 'Lite Reels' अनुभव है — तेज़, बिना किसी ब्लोटवेयर के, और सीधे पॉइंट पर न्यूज़ पढ़ने के लिए डिज़ाइन किया गया!
+                </p>
+            </div>
+
             {/* Stories Container - Snap Scrolling */}
             <div className="w-full h-full max-w-md bg-zinc-900 md:rounded-3xl overflow-y-scroll snap-y snap-mandatory no-scrollbar relative flex flex-col hide-scroll">
                 

@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { ArrowLeft, Calendar, Tag, Share2, Clock, ArrowRight } from 'lucide-react';
 import { notFound } from 'next/navigation';
 import SocialShare from '@/components/SocialShare';
+import AdSensePlaceholder from '@/components/AdSensePlaceholder';
 
 export async function generateStaticParams() {
     const posts = getAllPostSlugs();
@@ -70,11 +71,25 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     {postData.title}
                 </h1>
 
-                <p className="text-xl text-muted-foreground leading-relaxed">
+                <p className="text-xl text-muted-foreground leading-relaxed mb-8">
                     {postData.excerpt}
                 </p>
-            </div>
 
+                {/* E-E-A-T Author Box */}
+                <div className="flex items-center gap-4 py-4 border-t border-b border-border/30">
+                    <img src={postData.authorImage} alt={postData.author} className="w-12 h-12 rounded-full object-cover border-2 border-primary/20" />
+                    <div className="flex flex-col">
+                        <span className="font-bold text-foreground text-sm flex items-center gap-1.5">
+                            {postData.author} 
+                            <span className="bg-blue-500/10 text-blue-500 text-[10px] uppercase font-bold px-1.5 py-0.5 rounded-sm flex items-center" title="Verified Editor">
+                                <svg className="w-3 h-3" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"></path></svg> 
+                                Verified
+                            </span>
+                        </span>
+                        <span className="text-xs text-muted-foreground">{postData.authorRole}</span>
+                    </div>
+                </div>
+            </div>
             {/* Article Cover Image */}
             <div className="aspect-[21/9] w-full rounded-2xl mb-12 overflow-hidden relative border border-border/30 bg-gradient-to-br from-primary/10 via-purple-500/10 to-pink-500/10">
                 {postData.image ? (
@@ -90,6 +105,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     </>
                 )}
             </div>
+
+            <AdSensePlaceholder slotId="TOP_BANNER_9841" height="150px" />
 
             <div className="flex flex-col md:flex-row gap-8 lg:gap-12 relative">
                 {/* Sticky Sidebar for Social Share (Desktop) */}
@@ -112,6 +129,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
                 />
             </div>
+            
+            <AdSensePlaceholder slotId="BOTTOM_ARTICLE_4291" height="250px" />
             
             <div className="mt-16 pt-8 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center gap-6 mb-16">
                 <div className="md:hidden w-full flex justify-center items-center py-4 bg-zinc-900/50 rounded-2xl border border-border/50">

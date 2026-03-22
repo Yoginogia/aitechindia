@@ -16,6 +16,7 @@ export default function NewsletterWidget() {
         setTimeout(() => {
             setStatus('success');
             setEmail('');
+            alert('Aapka email successfully subscribe ho gaya hai! (Demo Event)');
         }, 1200);
     };
 

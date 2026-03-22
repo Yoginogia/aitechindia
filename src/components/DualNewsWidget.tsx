@@ -216,13 +216,6 @@ export default function DualNewsWidget() {
                 </button>
             </div>
 
-            {!isCurrentlyLive && (
-                <div className="flex items-start gap-2 text-[11px] text-yellow-400/80 bg-yellow-500/5 border border-yellow-500/10 rounded-lg p-2.5 mb-4 leading-tight">
-                    <AlertCircle className="h-3.5 w-3.5 shrink-0" />
-                    <span>Demo mode — .env.local में {activeTab === 'global' ? 'GNEWS_API_KEY' : 'NEWSDATA_API_KEY'} डालें</span>
-                </div>
-            )}
-
             <div className={`space-y-4 transition-opacity duration-300 max-h-[500px] overflow-y-auto pr-1 ${loading ? 'opacity-50' : 'opacity-100'}`}>
                 {currentNews.map((article, index) => (
                     <a
