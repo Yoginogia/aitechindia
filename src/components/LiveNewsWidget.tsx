@@ -1,4 +1,4 @@
-import { Clock, TrendingUp, ExternalLink, Zap, AlertCircle } from 'lucide-react';
+import { Clock, TrendingUp, ExternalLink, Zap } from 'lucide-react';
 
 interface NewsArticle {
     title: string;
@@ -105,18 +105,13 @@ export default async function LiveNewsWidget() {
                     </div>
                 </div>
                 {isLive ? (
-                    <span className="flex h-2.5 w-2.5 rounded-full bg-green-500 live-dot" title="Live — Real API connected"></span>
+                    <span className="flex h-2.5 w-2.5 rounded-full bg-green-500 live-dot" title="Live — Real-time Feed"></span>
                 ) : (
-                    <span className="flex h-2.5 w-2.5 rounded-full bg-yellow-500" title="Demo mode — API key needed"></span>
+                    <span className="flex h-2.5 w-2.5 rounded-full bg-yellow-500" title="Syncing..."></span>
                 )}
             </div>
 
-            {!isLive && (
-                <div className="flex items-start gap-2 text-xs text-yellow-400/80 bg-yellow-500/5 border border-yellow-500/10 rounded-lg p-3 mb-4">
-                    <AlertCircle className="h-3.5 w-3.5 mt-0.5 shrink-0" />
-                    <span>Demo mode — API key connect करें तो real news आएंगी</span>
-                </div>
-            )}
+
 
             <div className="space-y-4">
                 {articles.map((article, index) => (
@@ -149,7 +144,7 @@ export default async function LiveNewsWidget() {
             <div className="mt-5 pt-4 border-t border-border/20 flex justify-center items-center gap-2">
                 <Zap className="h-3 w-3 text-primary" />
                 <p className="text-xs text-muted-foreground">
-                    {isLive ? 'हर घंटे auto-update होता है' : 'API key connect करें — gnews.io से free मिलेगा'}
+                    हर घंटे auto-update होता है
                 </p>
             </div>
         </div>
