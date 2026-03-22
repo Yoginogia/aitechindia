@@ -137,7 +137,7 @@ export default function ComparePage() {
                     border-radius: 10px; padding: 12px 14px; cursor: pointer;
                     transition: border-color .2s, background .2s; text-decoration: none;
                     display: block; }
-                .rel-card:hover { border-color: var(--accent); background: var(--accent-light); }
+                .rel-card:hover { border-color: var(--accent); background: var(--bg-hover); }
                 .rel-names { font-size: 12px; font-weight: 500; color: var(--text); margin-bottom: 4px; }
                 .rel-cta { font-size: 11px; color: var(--accent); font-weight: 600; }
                 @media (max-width: 540px) {
