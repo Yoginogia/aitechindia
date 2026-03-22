@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import Ticker from "@/components/Ticker";
 
 const GA_ID = "G-9MKDQQ6NEH";
 
@@ -76,6 +77,7 @@ export default function RootLayout({
             disableTransitionOnChange
         >
             <Navbar />
+            <Ticker />
             <main className="flex-1 flex flex-col">
               {children}
             </main>

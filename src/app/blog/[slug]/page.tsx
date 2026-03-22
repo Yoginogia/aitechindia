@@ -2,6 +2,7 @@ import { getPostData, getAllPostSlugs, getSortedPostsData } from '@/lib/markdown
 import Link from 'next/link';
 import { ArrowLeft, Calendar, Tag, Share2, Clock, ArrowRight } from 'lucide-react';
 import { notFound } from 'next/navigation';
+import SocialShare from '@/components/SocialShare';
 
 export async function generateStaticParams() {
     const posts = getAllPostSlugs();
@@ -90,64 +91,74 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 )}
             </div>
 
-            <div
-                className="prose prose-lg prose-invert max-w-none 
-                   prose-headings:text-foreground prose-headings:font-bold prose-headings:tracking-tight 
-                   prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6
-                   prose-a:text-primary prose-a:no-underline hover:prose-a:underline
-                   prose-strong:text-foreground prose-strong:font-semibold
-                   prose-ul:text-muted-foreground prose-ul:list-disc prose-ul:pl-6
-                   prose-ol:text-muted-foreground prose-ol:list-decimal prose-ol:pl-6
-                   prose-blockquote:border-l-primary prose-blockquote:bg-primary/5 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:not-italic prose-blockquote:text-muted-foreground
-                   prose-img:rounded-xl prose-img:border prose-img:border-border/40
-                   marker:text-primary"
-                dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
-            />
-
-            <div className="mt-16 pt-8 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center gap-4 mb-16">
-                <div className="flex items-center gap-2 text-muted-foreground text-sm">
-                    <Share2 className="h-4 w-4" />
-                    <span>Share करें:</span>
-                    <a href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(postData.title)}&url=${encodeURIComponent(`https://aitechnews.co.in/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">Twitter</a>
-                    <span>•</span>
-                    <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(`https://aitechnews.co.in/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">LinkedIn</a>
-                    <span>•</span>
-                    <a href={`https://api.whatsapp.com/send?text=${encodeURIComponent(postData.title + ' - ' + `https://aitechnews.co.in/blog/${resolvedParams.slug}`)}`} target="_blank" rel="noopener noreferrer" className="text-foreground hover:text-primary transition-colors font-medium">WhatsApp</a>
+            <div className="flex flex-col md:flex-row gap-8 lg:gap-12 relative">
+                {/* Sticky Sidebar for Social Share (Desktop) */}
+                <div className="hidden md:flex flex-col sticky top-24 h-fit pt-2">
+                    <SocialShare title={postData.title} />
                 </div>
-                <Link href="/" className="inline-flex h-10 items-center justify-center rounded-full border border-border/30 bg-secondary/30 backdrop-blur px-6 text-sm font-medium transition-all hover:bg-secondary/50 hover:border-primary/30">
-                    और पढ़ें →
+
+                {/* Main Content */}
+                <div
+                    className="flex-1 min-w-0 prose prose-lg prose-invert max-w-none 
+                       prose-headings:text-foreground prose-headings:font-bold prose-headings:tracking-tight 
+                       prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6
+                       prose-a:text-primary prose-a:no-underline hover:prose-a:underline
+                       prose-strong:text-foreground prose-strong:font-semibold
+                       prose-ul:text-muted-foreground prose-ul:list-disc prose-ul:pl-6
+                       prose-ol:text-muted-foreground prose-ol:list-decimal prose-ol:pl-6
+                       prose-blockquote:border-l-primary prose-blockquote:bg-primary/10 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:not-italic prose-blockquote:text-foreground prose-blockquote:font-medium
+                       prose-img:rounded-2xl prose-img:border prose-img:border-border/40 prose-img:shadow-xl
+                       marker:text-primary"
+                    dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
+                />
+            </div>
+            
+            <div className="mt-16 pt-8 border-t border-border/30 flex flex-col sm:flex-row justify-between items-center gap-6 mb-16">
+                <div className="md:hidden w-full flex justify-center items-center py-4 bg-zinc-900/50 rounded-2xl border border-border/50">
+                    <SocialShare title={postData.title} />
+                </div>
+                <div className="hidden md:block"></div> {/* Spacer for desktop bottom area */}
+                
+                <Link href="/latest" className="inline-flex h-12 items-center justify-center rounded-full border border-border/30 bg-primary/10 text-primary px-8 text-sm font-bold transition-all hover:bg-primary hover:text-primary-foreground hover:shadow-[0_0_20px_rgba(99,102,241,0.4)]">
+                    Aur Khabrein Padhein →
                 </Link>
             </div>
 
-            {/* Related Articles Section */}
+            {/* Premium "You May Also Like" Section */}
             {relatedPosts.length > 0 && (
-                <div className="border-t border-border/30 pt-16">
-                    <h3 className="text-2xl font-bold tracking-tight mb-8">ये भी पढ़ें 👇</h3>
-                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div className="border-t border-border/30 pt-16 mt-10">
+                    <div className="flex items-center justify-between mb-8">
+                        <h3 className="text-3xl font-extrabold tracking-tight">You May Also Like 🔥</h3>
+                        <Link href="/latest" className="text-primary text-sm font-bold hover:underline hidden sm:block">View All</Link>
+                    </div>
+                    
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
                         {relatedPosts.map((post) => (
                              <Link
                                key={post.slug}
                                href={`/blog/${post.slug}`}
-                               className="group flex flex-col rounded-2xl border border-border/30 bg-card/50 backdrop-blur overflow-hidden card-glow"
+                               className="group flex flex-col rounded-3xl border border-border/40 bg-card/40 backdrop-blur-sm overflow-hidden hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 hover:-translate-y-1"
                              >
-                               <div className="aspect-video w-full bg-secondary flex items-center justify-center relative overflow-hidden">
+                               <div className="aspect-[4/3] w-full bg-secondary flex items-center justify-center relative overflow-hidden">
                                  {post.image ? (
-                                   <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                   <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
                                  ) : (
                                    <div className="absolute inset-0 bg-grid opacity-30"></div>
                                  )}
-                                 <div className="absolute inset-0 bg-gradient-to-t from-card/80 via-transparent to-transparent"></div>
+                                 <div className="absolute top-4 left-4 z-20">
+                                     <span className="bg-background/80 backdrop-blur-md text-foreground px-3 py-1 rounded-full text-xs font-bold shadow-sm">
+                                         {post.category}
+                                     </span>
+                                 </div>
+                                 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent opacity-60 group-hover:opacity-80 transition-opacity"></div>
                                </div>
-          
-                               <div className="p-5 space-y-3 flex-1 flex flex-col">
-                                 <h4 className="font-bold text-lg leading-snug group-hover:text-primary transition-colors line-clamp-2">
+                               <div className="p-6 flex flex-col flex-grow">
+                                 <h4 className="text-lg font-bold text-foreground mb-3 leading-snug group-hover:text-primary transition-colors line-clamp-3">
                                    {post.title}
                                  </h4>
-                                 <div className="flex items-center justify-between mt-auto pt-2">
-                                     <span className="text-xs text-muted-foreground flex items-center gap-1">
-                                        <Clock className="h-3 w-3" /> {post.readingTime}
-                                     </span>
-                                     <ArrowRight className="h-4 w-4 text-primary opacity-0 group-hover:opacity-100 transition-opacity transform group-hover:translate-x-1" />
+                                 <div className="mt-auto flex items-center text-xs text-muted-foreground font-medium">
+                                     <Calendar className="mr-1.5 h-3.5 w-3.5" />
+                                     {post.date}
                                  </div>
                                </div>
                              </Link>

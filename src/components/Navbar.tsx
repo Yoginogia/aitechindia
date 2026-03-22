@@ -54,6 +54,7 @@ export default function Navbar() {
         { href: '/web-stories', label: 'Stories', icon: '⚡' },
         { href: '/ai-tools', label: 'AI Tools', icon: '🤖' },
         { href: '/gadgets', label: 'Gadgets', icon: '📱' },
+        { href: '/compare', label: 'Compare', icon: '⚖️' },
         { href: '/crypto', label: 'Crypto News', icon: '💰' },
         { href: '/top-deals', label: 'Top Deals', icon: '🛒' },
     ];
@@ -85,6 +86,9 @@ export default function Navbar() {
                                 </Link>
                                 <Link href="/gadgets" className={getLinkClass('/gadgets')}>
                                     Gadgets
+                                </Link>
+                                <Link href="/compare" className={getLinkClass('/compare')}>
+                                    Compare
                                 </Link>
                                 <Link href="/crypto" className={getLinkClass('/crypto')}>
                                     Crypto News
