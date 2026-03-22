@@ -56,6 +56,33 @@ function calculateReadingTime(text: string): string {
     return `${time} min read`;
 }
 
+function getAuthorProfile(category: string, matterData: Record<string, any>) {
+    let author = matterData.author;
+    let authorRole = matterData.authorRole;
+    let authorImage = matterData.authorImage;
+
+    if (!author) {
+        if (category === 'Gadgets' || category === 'Top Deals') {
+            author = 'Amit Sharma';
+            authorRole = 'Senior Tech Reviewer';
+            authorImage = 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&h=100&q=80';
+        } else if (category === 'AI Tools') {
+            author = 'Neha Verma';
+            authorRole = 'AI Researcher & Editor';
+            authorImage = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&h=100&q=80';
+        } else if (category === 'Crypto News') {
+            author = 'Rahul Singh';
+            authorRole = 'Crypto Market Analyst';
+            authorImage = 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80';
+        } else {
+            author = 'Editorial Team';
+            authorRole = 'AITechNews Staff';
+            authorImage = 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80';
+        }
+    }
+    return { author, authorRole, authorImage };
+}
+
 export function getSortedPostsData(): PostData[] {
     if (!fs.existsSync(contentDirectory)) {
         fs.mkdirSync(contentDirectory, { recursive: true });
@@ -78,13 +105,16 @@ export function getSortedPostsData(): PostData[] {
             const matterResult = matter(fileContents);
             const readingTime = calculateReadingTime(matterResult.content);
 
+            const category = matterResult.data.category || 'Tech';
+            const { author, authorRole, authorImage } = getAuthorProfile(category, matterResult.data);
+
             // Combine the data with the slug
             return {
                 slug,
                 readingTime,
-                author: matterResult.data.author || 'Amit Sharma',
-                authorRole: matterResult.data.authorRole || 'Senior Tech Analyst',
-                authorImage: matterResult.data.authorImage || 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&h=100&q=80',
+                author,
+                authorRole,
+                authorImage,
                 ...(matterResult.data as { title: string; date: string; category: string; excerpt: string, image?: string }),
             };
         });
@@ -129,14 +159,17 @@ export async function getPostData(slug: string): Promise<PostData> {
     const contentHtml = processedContent.toString();
     const readingTime = calculateReadingTime(matterResult.content);
 
+    const category = matterResult.data.category || 'Tech';
+    const { author, authorRole, authorImage } = getAuthorProfile(category, matterResult.data);
+
     // Combine the data with the id and contentHtml
     return {
         slug,
         contentHtml,
         readingTime,
-        author: matterResult.data.author || 'Amit Sharma',
-        authorRole: matterResult.data.authorRole || 'Senior Tech Analyst',
-        authorImage: matterResult.data.authorImage || 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&h=100&q=80',
+        author,
+        authorRole,
+        authorImage,
         ...(matterResult.data as { title: string; date: string; category: string; excerpt: string, image?: string }),
     };
 }

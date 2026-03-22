@@ -194,9 +194,9 @@ export default function DualNewsWidget() {
                     </div>
                 </div>
                 {isCurrentlyLive ? (
-                    <span className="flex h-2.5 w-2.5 rounded-full bg-green-500 live-dot" title="Live API connected"></span>
+                    <span className="flex h-2.5 w-2.5 rounded-full bg-green-500 live-dot" title="Live Server Connected"></span>
                 ) : (
-                    <span className="flex h-2.5 w-2.5 rounded-full bg-yellow-500" title="Demo mode"></span>
+                    <span className="flex h-2.5 w-2.5 rounded-full bg-yellow-500" title="Offline Sync Active"></span>
                 )}
             </div>
 

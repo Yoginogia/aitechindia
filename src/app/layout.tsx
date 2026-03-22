@@ -7,6 +7,7 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import Ticker from "@/components/Ticker";
+import ChatbotWidget from "@/components/ChatbotWidget";
 
 const GA_ID = "G-9MKDQQ6NEH";
 
@@ -82,6 +83,7 @@ export default function RootLayout({
               {children}
             </main>
             <WhatsAppButton />
+            <ChatbotWidget />
             <Footer />
         </ThemeProvider>
       </body>
