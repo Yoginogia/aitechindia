@@ -1,7 +1,6 @@
 @import "tailwindcss";
 
-@layer theme {
-  :root {
+:root {
     /* Light Mode Tokens */
     --background: #ffffff;
     --foreground: #020617;
@@ -52,7 +51,6 @@
     --gradient-mid: #a855f7;
     --gradient-end: #ec4899;
   }
-}
 
 @theme inline {
   --color-background: var(--background);
