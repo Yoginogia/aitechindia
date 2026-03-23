@@ -4,10 +4,9 @@ date: "2026-03-23"
 category: "Crypto"
 excerpt: "Duniya ke sabse bade crypto exchange Binance ne Indian users ke liye ek dhamakedar announcement ki hai. Ab chuninda trading pairs par zero fee lagegi!"
 image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?auto=format&fit=crop&q=80&w=800"
-author:
-  name: "Neha Singh"
-  role: "Crypto Market Expert"
-  avatar: "https://i.pravatar.cc/150?u=neha"
+author: "Neha Singh"
+authorRole: "Crypto Market Expert"
+authorImage: "https://i.pravatar.cc/150?u=neha"
 ---
 
 Ek lambe arse ke issues aur regulatory challenges ke baad, Binance ne Indian crypto traders ko apni taraf wapas khinchne ke liye ek **"Masterstroke"** chal diya hai! 

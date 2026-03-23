@@ -4,10 +4,9 @@ date: "2026-03-23"
 category: "AI"
 excerpt: "OpenAI duniya bhar ki top universities mein AI research ko fund kar raha hai. Par kya ye sahi hai? Tech critics ka manna hai ki OpenAI ek neutral party nahi hai."
 image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800"
-author:
-  name: "Vikram Tech"
-  role: "Senior Editor"
-  avatar: "https://i.pravatar.cc/150?u=vikram"
+author: "Vikram Tech"
+authorRole: "Senior Editor"
+authorImage: "https://i.pravatar.cc/150?u=vikram"
 ---
 
 OpenAI, jisne ChatGPT banakar tech ki duniya hila di, aaj kal ek naye controversy mein ghirta nazar aa raha hai. Pichle kuch dino se TechCrunch jaise bade platforms is issue ko tightly cover kar rahe hain. 

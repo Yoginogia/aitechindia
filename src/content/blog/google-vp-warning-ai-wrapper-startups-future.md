@@ -4,10 +4,9 @@ date: "2026-03-23"
 category: "AI Tools"
 excerpt: "Agar aapka AI startup sirf OpenAI API ke upar ek chota sa feature banakar paise kama raha hai, toh sambhal jayiye! Google ne aise 'wrapper startups' ke liye sakht warning di hai."
 image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800"
-author:
-  name: "Rohan Das"
-  role: "AI Tools Expert"
-  avatar: "https://i.pravatar.cc/150?u=rohan"
+author: "Rohan Das"
+authorRole: "AI Tools Expert"
+authorImage: "https://i.pravatar.cc/150?u=rohan"
 ---
 
 Pichle do saalo mein AI startups ki bharmaar aa gayi hai. Har dusra platform aapko AI se content likhne, code analyze karne ya image generate karne ka tool offer kar raha hai. Lekin reality check ka waqt aa gaya hai! 🚨

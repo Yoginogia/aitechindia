@@ -4,10 +4,9 @@ date: "2026-03-23"
 category: "Crypto"
 excerpt: "Aaj crypto market mein Solana (SOL) ne aag laga di hai. $500 ka all-time high cross karne ke baad, investors pooch rahe hain: Kya SOL naya Ethereum banne wala hai?"
 image: "https://images.unsplash.com/photo-1622630776510-18cd5022cc2c?auto=format&fit=crop&q=80&w=800"
-author:
-  name: "Arjun Crypto"
-  role: "Blockchain Analyst"
-  avatar: "https://i.pravatar.cc/150?u=arjun"
+author: "Arjun Crypto"
+authorRole: "Blockchain Analyst"
+authorImage: "https://i.pravatar.cc/150?u=arjun"
 ---
 
 Crypto market mein aaj ek bada bhukamp aaya hai. Solana (SOL), jise kuch saal pehle log ignore kar dete the, usne aaj danke ki chot par **$500 ka All-Time High** (ATH) cross kar liya hai!

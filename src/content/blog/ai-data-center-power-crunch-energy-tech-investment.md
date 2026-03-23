@@ -4,10 +4,9 @@ date: "2026-03-23"
 category: "AI"
 excerpt: "AI models ko chalana itna mehenga pad raha hai ki ab tech giants electricity aur battery setups par arabon dollar pani ki tarah baha rahe hain. Janiye kyu AI data centers energy crisis face kar rahe hain."
 image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800"
-author:
-  name: "Priya Sharma"
-  role: "Lead Tech Reporter"
-  avatar: "https://i.pravatar.cc/150?u=priya"
+author: "Priya Sharma"
+authorRole: "Lead Tech Reporter"
+authorImage: "https://i.pravatar.cc/150?u=priya"
 ---
 
 Dosto, aapko lagta hoga ki AI banan mein sabse mehangi cheez sirf Nvidia ke chips hote hain. Par aaj kal tech industry mein ek naya aur khatarnak problem saamne aa raha hai: **The AI Power Crunch!**
