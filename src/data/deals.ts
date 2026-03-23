@@ -21,6 +21,36 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "sony-playstation-6-pro",
+        title: "Sony PlayStation 6 Pro — The Next-Gen Console",
+        category: "Gaming",
+        description: "Sony का नया PS6 Pro आ गया है! 8K Gaming, 120fps, और 2TB SSD के साथ। Flipkart BBD Sale में खास डिस्काउंट।",
+        price: "₹59,990",
+        discount: "Bank Offers + Free Game",
+        rating: 4.9,
+        tag: "🎮 Blockbuster Deal",
+        image: "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.flipkart.com/search?q=playstation+6+pro`,
+        platform: "Flipkart",
+        specs: ["8K Native Support", "Zen 4 Custom CPU", "2TB Ultra-Fast SSD", "Ray Tracing 2.0", "DualSense Edge 2 Controller", "PlayStation VR3 Support"],
+        content: "Gaming enthusiasts के लिए सबसे बड़ी खबर! Sony PlayStation 6 Pro finally available है और पहली बार इतने massive discount पर मिल रहा है। इसका 8K Native output और 120fps support gaming experience को next level पर ले जाता है। Flipkart Big Billion Days sale में इस पर bank offers के साथ एक AAA game बिल्कुल free मिल रहा है!"
+    },
+    {
+        slug: "dji-mini-5-drone",
+        title: "DJI Mini 5 Drone (Fly More Combo) — 4K HDR",
+        category: "Gadgets",
+        description: "पॉकेट-साइज़ 4K ड्रोन 60 मिनट की फ्लाइट टाइम के साथ! AI Obstacle Avoidance और ActiveTrack 7.0 के साथ।",
+        price: "₹82,499",
+        discount: "Flat ₹5k Off + No Cost EMI",
+        rating: 4.8,
+        tag: "🔥 Hot Deal",
+        image: "https://images.unsplash.com/photo-1579829366248-204fe8413f31?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=dji+mini+5+drone&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: ["Under 249g Weight", "4K/120fps HDR Video", "1/1.3-inch CMOS Sensor", "Omnidirectional Obstacle Sensing", "Up to 60 Mins Flight Time", "DJI O5 Video Transmission (Wait: 20km)"],
+        content: "Content Creators और Vloggers के लिए DJI Mini 5 आ गया है। 249g से कम वजन होने के कारण इसे बहुत सारे देशों में रजिस्टर करने की ज़रूरत नहीं पड़ती। Fly More Combo में extra batteries और charging hub मिलता है, जो आपको total 60 mins का flight time देगा। Amazon पर इस पर flat ₹5000 का डिस्काउंट चल रहा है। जल्दी करें, स्टॉक लिमिटेड है!"
+    },
+    {
         slug: "samsung-galaxy-s26-ultra",
         title: "Samsung Galaxy S26 Ultra — AI Camera King 👑",
         category: "Flagship",
