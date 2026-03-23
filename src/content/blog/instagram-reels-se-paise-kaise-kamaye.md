@@ -184,6 +184,6 @@ Reels se apni **website, YouTube, blog** pe traffic bhejo — wahan AdSense, aff
 4. **Month 3:** Affiliate links add karo, digital product plan karo
 5. **Month 6:** 10K+ followers, consistent ₹20,000+/month income
 
-> 💡 **Golden Rule:** Pahle VALUE do, paisa apne aap aayega! 🚀
+> 💡 **Golden Rule:** Pahle VALUE do, paisa apne aap aayega!
 
 > ⚠️ *Disclaimer: Income guarantee nahi hai — effort, consistency, aur quality pe depend karta hai।*

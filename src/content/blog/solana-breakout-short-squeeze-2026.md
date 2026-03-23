@@ -1,12 +1,12 @@
 ---
-title: "Solana (SOL) Breakout Alert! $90 Support + Short Squeeze — ₹15.7B Stablecoins Record 🚀"
+title: "Solana (SOL) Breakout Alert! $90 Support + Short Squeeze — ₹15.7B Stablecoins Record"
 date: "Mar 18, 2026"
 category: "Crypto"
 excerpt: "Solana ne downtrend line break kiya! $90 support pe strong, stablecoin supply ₹15.7 Billion record. Short squeeze aur breakout expected!"
 image: "https://images.unsplash.com/photo-1642104704074-907c0698cbd9?auto=format&fit=crop&q=80&w=600"
 ---
 
-Solana bulls tayyar ho jao! 🐂 SOL ne **October se March tak ka downtrend line break** kar diya hai, aur analysts bol rahe hain — **short squeeze aur massive breakout** coming! 🚀
+Solana bulls tayyar ho jao! 🐂 SOL ne **October se March tak ka downtrend line break** kar diya hai, aur analysts bol rahe hain — **short squeeze aur massive breakout** coming!
 
 ---
 

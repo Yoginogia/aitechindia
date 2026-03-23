@@ -35,7 +35,7 @@ Federal Reserve ki 2-din ki meeting (17-18 March) aaj khatam hogi. Chairman Jero
 
 | Scenario | Impact |
 |----------|--------|
-| **Dovish (Rate Cut Signal)** | Bitcoin $78K-$80K tak pump ho sakta hai 🚀 |
+| **Dovish (Rate Cut Signal)** | Bitcoin $78K-$80K tak pump ho sakta hai |
 | **Hawkish (No Cut Signal)** | $70K support test hoga 📉 |
 | **Neutral (Status Quo)** | Range-bound trading $72K-$76K ⚖️ |
 

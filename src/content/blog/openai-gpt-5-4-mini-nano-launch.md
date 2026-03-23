@@ -16,7 +16,7 @@ author: "AITechNews Team"
 GPT-5.4 Mini एक high-performance model है जो coding, reasoning, और multimodal tasks में बेहतरीन performance देता है। कुछ benchmarks में तो यह बड़े GPT-5.4 model के करीब पहुँच जाता है!
 
 ### Key Features:
-- 🚀 **2x तेज़** — पहले के GPT-5 Mini से दोगुनी स्पीड
+- **2x तेज़** — पहले के GPT-5 Mini से दोगुनी स्पीड
 - 💰 **सस्ता** — सिर्फ $0.75 per million input tokens
 - 🧠 **Smarter** — Coding, reasoning, और tool use में बड़ा improvement
 - 🖼️ **Multimodal** — Text के साथ images भी समझता है

@@ -6,7 +6,7 @@ excerpt: "Xiaomi 17 Ultra India में launch! Leica triple camera, 200MP per
 image: "/images/deals/xiaomi-17-ultra.png"
 ---
 
-Bhai log, **Xiaomi 17 Ultra** aa gaya hai India mein aur yeh **camera lovers ke liye dream phone** hai! Leica ke saath partnership se bana triple camera system — koi bhi phone is level ki photography nahi deta. Let's dive in! 🚀
+Bhai log, **Xiaomi 17 Ultra** aa gaya hai India mein aur yeh **camera lovers ke liye dream phone** hai! Leica ke saath partnership se bana triple camera system — koi bhi phone is level ki photography nahi deta. Let's dive in!
 
 ---
 

@@ -75,7 +75,7 @@ Nvidia ने India-specific announcements भी किए:
 
 Nvidia ने GTC 2026 में दिखा दिया कि AI hardware में वो अभी भी #1 हैं। Groq 3 LPU inference को revolutionize करेगा, Vera CPU Intel/AMD को challenge करेगा, और DLSS 5 gaming को next level पर ले जाएगा।
 
-> **Bottom Line:** अगर आप AI developer हैं या gamer हैं, तो 2026 Nvidia का साल है! 🚀
+> **Bottom Line:** अगर आप AI developer हैं या gamer हैं, तो 2026 Nvidia का साल है!
 
 ---
 

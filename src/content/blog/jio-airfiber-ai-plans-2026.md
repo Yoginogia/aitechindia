@@ -1,5 +1,5 @@
 ---
-title: "Jio AirFiber AI: Jio ने लॉन्च किए नए 1Gbps प्लान्स, साथ में 15 OTT फ्री! 🚀"
+title: "Jio AirFiber AI: Jio ने लॉन्च किए नए 1Gbps प्लान्स, साथ में 15 OTT फ्री!"
 date: "Mar 20, 2026"
 category: "Latest News"
 excerpt: "Mukesh Ambani का नया धमाका! Jio ने 2026 में 'Jio AirFiber AI' लॉन्च कर दिया है — 1Gbps की wireless speed, AI router, और 15 OTT ऐप्स बिल्कुल फ्री!"

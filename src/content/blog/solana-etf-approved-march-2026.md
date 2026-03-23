@@ -1,5 +1,5 @@
 ---
-title: "BREAKING: Solana Spot ETF अप्रूव! SOL की कीमत $350 के पार! 🚀"
+title: "BREAKING: Solana Spot ETF अप्रूव! SOL की कीमत $350 के पार!"
 date: "Mar 20, 2026"
 category: "Crypto"
 excerpt: "क्रिप्टो मार्केट में तहलका! US SEC ने आखिरकार Solana Spot ETF को मंज़ूरी दे दी है। इस न्यूज़ के बाद SOL का प्राइस $350 का आंकड़ा पार कर गया है। जानिए आगे क्या होगा।"
@@ -8,7 +8,7 @@ image: "https://images.unsplash.com/photo-1605792657660-596af9009e82?auto=format
 
 क्रिप्टो निवेशकों (Crypto Investors) के लिए **मार्च 2026** की सबसे बड़ी और धमाकेदार खबर आ गई है! US Securities and Exchange Commission (SEC) ने कई महीनों की देरी के बाद आखिरकार **Solana Spot ETF (Exchange Traded Fund)** को मंज़ूरी दे दी है।
 
-इस घोषणा के कुछ ही मिनटों के अंदर, Solana (SOL) के दाम राकेट की तरह ऊपर गए और उसने अपना नया **All-Time High (ATH) $352** टच कर लिया! 🚀
+इस घोषणा के कुछ ही मिनटों के अंदर, Solana (SOL) के दाम राकेट की तरह ऊपर गए और उसने अपना नया **All-Time High (ATH) $352** टच कर लिया!
 
 ---
 

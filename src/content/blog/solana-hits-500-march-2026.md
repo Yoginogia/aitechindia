@@ -10,7 +10,7 @@ author:
   avatar: "https://i.pravatar.cc/150?u=arjun"
 ---
 
-Crypto market mein aaj ek bada bhukamp aaya hai. Solana (SOL), jise kuch saal pehle log ignore kar dete the, usne aaj danke ki chot par **$500 ka All-Time High** (ATH) cross kar liya hai! 🚀
+Crypto market mein aaj ek bada bhukamp aaya hai. Solana (SOL), jise kuch saal pehle log ignore kar dete the, usne aaj danke ki chot par **$500 ka All-Time High** (ATH) cross kar liya hai!
 
 ### Solana Ka Yeh Ufaan Kyu?
 Market experts ke anusar, is zabardast tezi ke peeche 3 mukhya kaaran hain:
