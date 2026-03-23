@@ -21,15 +21,13 @@ export function ThemeToggle() {
         );
     }
 
-    const currentTheme = theme === 'system' ? resolvedTheme : theme;
-
     return (
         <button
-            onClick={() => setTheme(currentTheme === 'dark' ? 'light' : 'dark')}
+            onClick={() => setTheme(resolvedTheme === 'dark' ? 'light' : 'dark')}
             className="p-2 -mr-2 text-foreground/70 hover:text-foreground md:mr-0 md:bg-secondary/50 md:hover:bg-secondary md:border md:border-border/50 md:hover:border-primary/30 md:transition-all md:rounded-full flex items-center justify-center group h-9 w-9 md:h-8 md:w-8"
             aria-label="Toggle theme"
         >
-            {currentTheme === 'dark' ? (
+            {resolvedTheme === 'dark' ? (
                 <Sun className="h-5 w-5 md:h-4 md:w-4 group-hover:text-yellow-400 transition-colors" />
             ) : (
                 <Moon className="h-5 w-5 md:h-4 md:w-4 group-hover:text-indigo-400 transition-colors" />
