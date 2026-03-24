@@ -2,7 +2,7 @@
 title: "Analysis: Agar Solana Spot ETF Approve Hua, Toh SOL $350 Kyon Chhoo Sakta Hai?"
 date: "Mar 20, 2026"
 category: "Crypto"
-excerpt: "SEC ne abhi tak Solana Spot ETF approve nahi kiya hai. Lekin agar aisa hua toh? Janiye analysts kya keh rahe hain SOL ke potential price movement ke baare mein.""
+excerpt: "SEC ne abhi tak Solana Spot ETF approve nahi kiya hai. Lekin agar aisa hua toh? Janiye analysts kya keh rahe hain SOL ke potential price movement ke baare mein."
 image: "https://images.unsplash.com/photo-1605792657660-596af9009e82?auto=format&fit=crop&q=80&w=800"
 ---
 
