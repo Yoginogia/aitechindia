@@ -48,7 +48,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
+    <html lang="en" suppressHydrationWarning>
       <head>
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
@@ -74,7 +74,6 @@ export default function RootLayout({
         <ThemeProvider
             attribute="class"
             defaultTheme="dark"
-            enableSystem
             disableTransitionOnChange
         >
             <Ticker />
