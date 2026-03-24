@@ -1,8 +1,8 @@
 ---
-title: "Tesla Model 2 India Launch Confirmed? ₹15 लाख की EV कार में क्या होगा ख़ास?"
+title: "Expected: Tesla Model 2 India Launch? ₹15 लाख की EV कार में क्या होगा ख़ास?"
 date: "2026-03-22"
 category: "Gadgets"
-excerpt: "Elon Musk ने कन्फर्म कर दिया है! Tesla की सबसे सस्ती इलेक्ट्रिक कार 'Model 2' इस साल भारत में आ सकती है। जानिए इसके फीचर्स, रेंज और कीमत की पूरी डिटेल्स।"
+excerpt: "Elon Musk के हिंट्स के बाद कयास लगाए जा रहे हैं कि Tesla की सबसे सस्ती इलेक्ट्रिक कार 'Model 2' इस साल भारत में आ सकती है। जानिए इसके एक्सपेक्टेड फीचर्स और कीमत की डिटेल्स।"
 image: '/images/thumbnails/tesla_model_2_ev.png'
 ---
 
