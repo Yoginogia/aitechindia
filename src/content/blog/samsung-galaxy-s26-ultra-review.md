@@ -1,8 +1,8 @@
 ---
-title: "Samsung Galaxy S26 Ultra Review — ₹1,39,999 में AI Camera King! 👑"
-date: "Mar 18, 2026"
+title: "Samsung Galaxy S26 Ultra: Expected Specs, Price & Features Analysis"
+date: "2026-03-21"
 category: "Gadgets"
-excerpt: "Samsung Galaxy S26 Ultra 2026 का सबसे powerful smartphone है। 200MP AI Camera, Privacy Display, Snapdragon 8 Elite Gen 5, S Pen — पूरा review पढ़ें!"
+excerpt: "Samsung Galaxy S26 Ultra ke leaked specs aur expected features ka analysis. NOTE: Yeh ek personal hands-on review nahi hai — yeh publicly available leaks aur official announcements par based hai."
 image: "/images/deals/samsung-s26-ultra.png"
 ---
 

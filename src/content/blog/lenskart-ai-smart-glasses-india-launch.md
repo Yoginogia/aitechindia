@@ -1,7 +1,7 @@
 ---
-title: "Lenskart AI Smart Glasses India में Launch — Gemini AI + AR1 Chip, कीमत सिर्फ ₹9,999 से!"
-date: "2026-03-18"
-excerpt: "Lenskart ने India में AI Smart Glasses लॉन्च कर दिए हैं! Google Gemini 2.5 Live AI और Qualcomm AR1 chip से लैस ये glasses health monitoring, shopping, और navigation में मदद करेंगे।"
+title: "Leak: Kya Lenskart AI Smart Glasses India Laane Ki Taiyaari Mein Hai? (Unconfirmed)"
+date: "Mar 19, 2026"
+excerpt: "Kuch unconfirmed leaks aur tech blogs mein Lenskart ke AI-powered smart glasses ki baat chal rahi hai. Abhi tak koi official announcement nahi hai — yeh sirf rumor stage mein hai."
 category: "Gadgets"
 image: "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&q=80&w=800"
 author: "AITechNews Team"
