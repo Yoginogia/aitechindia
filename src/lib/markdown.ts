@@ -57,29 +57,10 @@ function calculateReadingTime(text: string): string {
 }
 
 function getAuthorProfile(category: string, matterData: Record<string, any>) {
-    let author = matterData.author;
-    let authorRole = matterData.authorRole;
-    let authorImage = matterData.authorImage;
-
-    if (!author) {
-        if (category === 'Gadgets' || category === 'Top Deals') {
-            author = 'Amit Sharma';
-            authorRole = 'Senior Tech Reviewer';
-            authorImage = 'https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=100&h=100&q=80';
-        } else if (category === 'AI Tools') {
-            author = 'Neha Verma';
-            authorRole = 'AI Researcher & Editor';
-            authorImage = 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&h=100&q=80';
-        } else if (category === 'Crypto News') {
-            author = 'Rahul Singh';
-            authorRole = 'Crypto Market Analyst';
-            authorImage = 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80';
-        } else {
-            author = 'Editorial Team';
-            authorRole = 'AITechNews Staff';
-            authorImage = 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80';
-        }
-    }
+    // Use frontmatter values if present, otherwise use honest editorial team attribution
+    const author = matterData.author || 'AITechNews Editorial';
+    const authorRole = matterData.authorRole || 'Tech News Desk';
+    const authorImage = matterData.authorImage || 'https://images.unsplash.com/photo-1614624532983-4ce03382d63d?auto=format&fit=crop&w=100&h=100&q=80';
     return { author, authorRole, authorImage };
 }
 

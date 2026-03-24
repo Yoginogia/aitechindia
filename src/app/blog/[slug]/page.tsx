@@ -90,12 +90,7 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                         </div>
                     </div>
                     <p className="text-sm text-muted-foreground leading-relaxed">
-                        {postData.author === 'Neha Verma'
-                            ? 'Neha Verma एक AI Researcher और Tech Editor हैं, जो Generative AI, Large Language Models और emerging tech trends पर 6+ साल से लिख रही हैं। उनके analysis को Forbes India और YourStory ने भी cite किया है।'
-                            : postData.author === 'Rahul Singh'
-                            ? 'Rahul Singh एक Crypto Market Analyst हैं जो DeFi, Bitcoin ETFs और blockchain regulations को track करते हैं। उन्होंने 2017 से crypto market movements को cover किया है और 50,000+ readers को informed decisions लेने में help किया है।'
-                            : 'Amit Sharma एक Senior Tech Reviewer हैं जो smartphones, laptops और consumer gadgets में specialize करते हैं। 8+ साल के experience के साथ, उनके honest और detailed reviews ने lakhs of Indian consumers को सही buying decision लेने में help किया है।'
-                        }
+                        AITechNews Editorial Desk dwara verified sources ke aadhar par likha gaya hai. Content ka maqsad sirf infomational hai.
                     </p>
                 </div>
             </div>
