@@ -161,7 +161,46 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             </div>
             
             <AdSensePlaceholder slotId="BOTTOM_ARTICLE_4291" height="250px" />
-            
+
+            {/* ── About the Author ─────────────────────────────── */}
+            <div className="my-10 p-6 rounded-2xl border border-primary/20 bg-gradient-to-br from-primary/5 via-secondary/10 to-transparent">
+                <p className="text-xs font-bold uppercase tracking-widest text-primary mb-4">About the Author</p>
+                <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+                    <div className="relative shrink-0">
+                        <img
+                            src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=120&h=120&q=80"
+                            alt="Aryan Sharma"
+                            className="w-24 h-24 rounded-full object-cover border-4 border-primary/30 shadow-xl"
+                        />
+                        <span className="absolute -bottom-1 -right-1 bg-primary text-primary-foreground text-[10px] font-bold px-2 py-0.5 rounded-full flex items-center gap-0.5 shadow">
+                            <svg className="w-2.5 h-2.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
+                            Author
+                        </span>
+                    </div>
+                    <div className="text-center sm:text-left flex-1">
+                        <h3 className="text-2xl font-extrabold text-foreground mb-1">Aryan Sharma</h3>
+                        <p className="text-sm font-semibold text-primary mb-3">
+                            Tech Enthusiast &amp; Founder, AITechNews India
+                        </p>
+                        <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                            Tech enthusiast | 5 saal se AI aur gadgets follow kar raha hoon. Main naye tech trends, AI tools, aur Indian gadget market ko closely track karta hoon — aur unhein simple Hinglish mein sabtak pohonchaata hoon. AITechNews mera ek chhota sa koshish hai ki har Indian reader ko latest tech news, bina jargon ke, clearly samjha sakoon.
+                        </p>
+                        <div className="flex items-center gap-3 justify-center sm:justify-start flex-wrap">
+                            <a href="/about" className="text-xs font-bold text-primary hover:underline flex items-center gap-1">
+                                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
+                                Full Profile
+                            </a>
+                            <span className="text-border/60">|</span>
+                            <a href="/latest" className="text-xs font-bold text-primary hover:underline flex items-center gap-1">
+                                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/></svg>
+                                More Articles
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* ── /About the Author ────────────────────────────── */}
+
             {/* E-E-A-T Citations & Sources */}
             <div className="mt-8 mb-12 p-6 rounded-2xl bg-secondary/20 border border-border/40">
                 <h3 className="text-lg font-bold text-foreground mb-3 flex items-center gap-2">
