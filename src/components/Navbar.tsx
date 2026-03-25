@@ -17,7 +17,8 @@ export default function Navbar() {
         setIsMobileMenuOpen(false);
     }, [pathname]);
 
-    // Prevent body scroll when mobile menu is open
+    // Prevent body scroll when mobile menu is open (Disabled temporarily to rule out mobile hangs)
+    /*
     useEffect(() => {
         if (isMobileMenuOpen) {
             document.body.style.overflow = 'hidden';
@@ -26,6 +27,7 @@ export default function Navbar() {
         }
         return () => { document.body.style.overflow = ''; };
     }, [isMobileMenuOpen]);
+    */
 
     const isActive = (path: string) => {
         if (path === '/') {
@@ -99,86 +101,75 @@ export default function Navbar() {
                             </nav>
                         </div>
 
-                        <div className="flex items-center gap-4">
-                            <button 
-                                onClick={() => setIsSearchOpen(true)}
-                                className="hidden md:flex items-center gap-2 text-sm text-muted-foreground bg-secondary/50 hover:bg-secondary border border-border/50 hover:border-primary/30 transition-all rounded-full px-4 py-1.5"
-                            >
-                                <Search className="h-3.5 w-3.5" />
-                                <span>Search news...</span>
-                            </button>
-                            <ThemeToggle />
-                            <button 
-                                onClick={() => setIsSearchOpen(true)}
-                                className="md:hidden p-2 -mr-2 text-foreground/70 hover:text-foreground"
-                            >
-                                <Search className="h-5 w-5" />
-                            </button>
-                            <button 
-                                onClick={() => setIsMobileMenuOpen(true)}
-                                className="md:hidden p-2 -mr-2 text-foreground/70 hover:text-foreground"
-                            >
-                                <Menu className="h-5 w-5" />
-                            </button>
-                        </div>
+                            <div className="flex items-center gap-1 md:gap-4">
+                                <ThemeToggle />
+                                <button 
+                                    onClick={() => setIsSearchOpen(true)}
+                                    className="p-2 text-foreground/70 hover:text-foreground"
+                                >
+                                    <Search className="h-5 w-5 md:h-4 md:w-4" />
+                                </button>
+                                <button 
+                                    onClick={() => setIsMobileMenuOpen(true)}
+                                    className="md:hidden p-2 text-foreground/70 hover:text-foreground"
+                                >
+                                    <Menu className="h-5 w-5" />
+                                </button>
+                            </div>
                     </div>
                 </div>
             </header>
 
-            {/* Mobile Menu Overlay */}
-            {isMobileMenuOpen && (
-                <div className="fixed inset-0 z-[60] md:hidden">
-                    {/* Backdrop — pointer-events-none so it doesn't block menu links */}
-                    <div
-                        className="absolute inset-0 bg-black/60"
-                        onClick={() => setIsMobileMenuOpen(false)}
-                    />
-
-                    {/* Menu Panel — z-10 so it sits above backdrop */}
-                    <div className="absolute right-0 top-0 h-full w-72 z-10 bg-background border-l border-border/30 shadow-2xl flex flex-col">
-                        {/* Header */}
-                        <div className="flex items-center justify-between p-4 border-b border-border/30">
-                            <div className="flex items-center gap-2">
-                                <img src="/logo.png" alt="AITechNews" className="h-7 w-7 rounded-md" />
-                                <span className="font-bold text-lg gradient-text">AITechNews</span>
-                            </div>
-                            <button
-                                onClick={() => setIsMobileMenuOpen(false)}
-                                className="p-2 rounded-lg hover:bg-secondary/50 text-foreground/70 hover:text-foreground transition-colors"
-                            >
-                                <X className="h-5 w-5" />
-                            </button>
-                        </div>
-
-                        {/* Navigation Links */}
-                        <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
-                            {navLinks.map((link) => (
-                                <Link
-                                    key={link.href}
-                                    href={link.href}
-                                    className={getMobileLinkClass(link.href)}
-                                    onClick={() => setIsMobileMenuOpen(false)}
-                                >
-                                    <span className="text-lg">{link.icon}</span>
-                                    {link.label}
-                                </Link>
-                            ))}
-                        </nav>
-
-                        {/* Footer Links */}
-                        <div className="p-4 border-t border-border/30 space-y-1">
-                            <Link href="/about" className="block text-sm text-muted-foreground hover:text-foreground px-4 py-2 rounded-lg hover:bg-secondary/50 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
-                                About Us
-                            </Link>
-                            <Link href="/contact" className="block text-sm text-muted-foreground hover:text-foreground px-4 py-2 rounded-lg hover:bg-secondary/50 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
-                                Contact
-                            </Link>
-                            <Link href="/advertise" className="block text-sm text-muted-foreground hover:text-foreground px-4 py-2 rounded-lg hover:bg-secondary/50 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
-                                Advertise
-                            </Link>
-                        </div>
+            {/* Mobile Menu Panel Layer - Highest Z */}
+            <div 
+                className={`fixed inset-y-0 right-0 z-[1001] w-72 bg-background border-l border-border/30 shadow-2xl flex flex-col transition-transform duration-300 ease-in-out md:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
+            >
+                {/* Header */}
+                <div className="flex items-center justify-between p-4 border-b border-border/30">
+                    <div className="flex items-center gap-2">
+                        <img src="/logo.png" alt="AITechNews" className="h-7 w-7 rounded-md" />
+                        <span className="font-bold text-lg gradient-text">AITechNews</span>
                     </div>
+                    <button
+                        onClick={() => setIsMobileMenuOpen(false)}
+                        className="p-2 rounded-lg hover:bg-secondary/50 text-foreground/70 hover:text-foreground transition-colors"
+                    >
+                        <X className="h-5 w-5" />
+                    </button>
                 </div>
+
+                {/* Navigation Links */}
+                <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
+                    {navLinks.map((link) => (
+                        <Link
+                            key={link.href}
+                            href={link.href}
+                            className={getMobileLinkClass(link.href)}
+                            onClick={() => setIsMobileMenuOpen(false)}
+                        >
+                            <span className="text-lg">{link.icon}</span>
+                            {link.label}
+                        </Link>
+                    ))}
+                </nav>
+
+                {/* Footer Links */}
+                <div className="p-4 border-t border-border/30 space-y-1">
+                    <Link href="/about" className="block text-sm text-muted-foreground hover:text-foreground px-4 py-2 rounded-lg hover:bg-secondary/50 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
+                        About Us
+                    </Link>
+                    <Link href="/contact" className="block text-sm text-muted-foreground hover:text-foreground px-4 py-2 rounded-lg hover:bg-secondary/50 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
+                        Contact
+                    </Link>
+                </div>
+            </div>
+
+            {/* Backdrop Layer */}
+            {isMobileMenuOpen && (
+                <div 
+                    className="fixed inset-0 z-[1000] bg-black/60 shadow-[0_0_50px_rgba(0,0,0,0.5)] md:hidden"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                />
             )}
 
             <SearchModal
