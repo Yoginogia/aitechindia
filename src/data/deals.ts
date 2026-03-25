@@ -334,10 +334,10 @@ export const TOP_DEALS: Deal[] = [
     },
     {
         slug: "nothing-phone-3",
-        title: "Nothing Phone (3) — Flipkart Exclusive",
+        title: "Nothing Phone (3) -- Flipkart Exclusive",
         category: "Smartphone",
-        description: "Glyph Interface 2.0, Snapdragon 8 Gen 3, 50MP कैमरा। Flipkart पर बेस्ट प्राइस।",
-        price: "₹37,999",
+        description: "Nothing ka naya Phone 3! Glyph Interface 2.0 aur Snapdragon 8 Gen 3 ke saath.",
+        price: "Rs. 37,999",
         discount: "Exchange + Bank Offer",
         rating: 4.6,
         tag: "Trending",
@@ -345,7 +345,37 @@ export const TOP_DEALS: Deal[] = [
         buyLink: "https://www.flipkart.com/search?q=nothing+phone+3",
         platform: "Flipkart",
         specs: ["50MP Dual Camera", "Snapdragon 8 Gen 3 Processor", "12GB RAM + 256GB Storage", "6.7-inch LTPO AMOLED, 120Hz", "Glyph Interface 2.0", "5000mAh Battery, 45W Charging", "Nothing OS 3.0"],
-        content: "Nothing Phone (3) का unique Glyph Interface 2.0 इसे बाकी सब phones से अलग बनाता है। LED lights back panel पर notifications, music visualizer, और timer दिखाती हैं। Snapdragon 8 Gen 3 processor flagship performance देता है, 50MP dual camera system great photos लेता है, और clean Nothing OS smooth experience provide करता है। Flipkart पर exchange offer + bank discount मिलाकर ₹10,000+ बचा सकते हैं।"
+        content: "Nothing Phone (3) ka unique Glyph Interface 2.0 ise baki sab phones se alag banata hai."
+    },
+    {
+        slug: "google-pixel-10-pro-deal",
+        title: "Google Pixel 10 Pro -- Pre-order Launch",
+        category: "Flagship",
+        description: "Google ka sabse smart AI phone. Tensor G5, TSMC built. HDFC cards par high discount.",
+        price: "Rs. 1,09,999",
+        discount: "Flat 10k Off",
+        rating: 4.8,
+        tag: "New Pre-Order",
+        image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&w=800&q=80",
+        buyLink: `https://www.amazon.in/s?k=pixel+10+pro&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: ["Tensor G5 (TSMC)", "16GB RAM", "AI Pixel Camera", "7 Years Support"],
+        content: "Pixel 10 Pro pre-order deals mein great discount mil raha hai."
+    },
+    {
+        slug: "nothing-fold-1-deal",
+        title: "Nothing Fold (1) -- Unique Transparent",
+        category: "Foldable",
+        description: "Nothing ka pehla foldable phone! Transparent design aur Glyph lights. Thinnest foldable!",
+        price: "Rs. 1,24,999",
+        discount: "Exchange Bonus 12k",
+        rating: 4.7,
+        tag: "New Unique",
+        image: "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?auto=format&fit=crop&w=800&q=80",
+        buyLink: `https://www.amazon.in/s?k=nothing+fold+1&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: ["8-inch Foldable LTPO", "Snapdragon 8 Elite", "Glyph Interface", "Foldable Nothing OS"],
+        content: "Nothing ne foldables mein kranti la di hai. Fold (1) thinnest foldable hone ke saath saath sabse stylish bhi hai."
     }
 ];
 

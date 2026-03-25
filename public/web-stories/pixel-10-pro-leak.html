@@ -10,25 +10,78 @@
   <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
   <noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
   <style amp-custom>
-    * { box-sizing: border-box; }
+    * { box-sizing: border-box; font-family: 'Inter', sans-serif; }
     amp-story-page { background: #000; }
-    .slide-title { font-family: sans-serif; font-weight: 900; color: #fff; line-height: 1.2; text-shadow: 0 2px 8px rgba(0,0,0,0.8); }
-    .badge { background: #4285F4; color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: bold; }
-    .overlay { background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); position: absolute; inset: 0; }
+    .slide-title { font-size: 30px; font-weight: 800; color: #fff; line-height: 1.1; margin-bottom: 15px; }
+    .slide-text { font-size: 16px; color: #fff; line-height: 1.5; opacity: 0.8; }
+    .badge { background: #4285F4; color: #fff; padding: 5px 12px; border-radius: 5px; font-size: 12px; font-weight: bold; margin-bottom: 20px; text-transform: uppercase; }
+    .overlay { background: linear-gradient(to top, rgba(0,0,0,0.95), transparent); position: absolute; inset: 0; }
+    .highlight { color: #4285F4; font-weight: bold; }
   </style>
 </head>
 <body>
   <amp-story standalone title="Pixel 10 Pro Leaks" publisher="AITechNews" publisher-logo-src="https://aitechnews.co.in/logo.png" poster-portrait-src="https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&w=720&h=1280&q=80">
+    
+    <!-- Slide 1 -->
     <amp-story-page id="p1">
       <amp-story-grid-layer template="fill">
         <amp-img src="https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&w=720&h=1280&q=80" width="720" height="1280" layout="responsive"></amp-img>
         <div class="overlay"></div>
       </amp-story-grid-layer>
       <amp-story-grid-layer template="vertical" style="justify-content:flex-end; padding:40px;">
-        <span class="badge">Google Leak</span>
-        <h1 class="slide-title">Pixel 10 Pro: Tensor G5 ne badli kismat!</h1>
+        <div animate-in="fade-in" animate-in-duration="0.5s">
+          <span class="badge">Google Reveal</span>
+          <h1 class="slide-title">Pixel 10 Pro: <br>Tensor G5 ka Jalwa!</h1>
+          <p class="slide-text">Google ka Tensor G5 chip ab TSMC banane wala hai. Iska matlab: No Overheating!</p>
+        </div>
       </amp-story-grid-layer>
     </amp-story-page>
+
+    <!-- Slide 2: Performance -->
+    <amp-story-page id="p2">
+      <amp-story-grid-layer template="fill">
+        <amp-img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=720&h=1280&q=80" width="720" height="1280" layout="responsive"></amp-img>
+        <div class="overlay"></div>
+      </amp-story-grid-layer>
+      <amp-story-grid-layer template="vertical" style="justify-content:flex-end; padding:40px;">
+        <div animate-in="fly-in-left" animate-in-duration="0.5s">
+          <h2 class="slide-title">3nm Architecture</h2>
+          <p class="slide-text">Naya <span class="highlight">Tensor G5</span> 3nm technology par base hoga. Benchmarks kafi promising lag rahe hain.</p>
+        </div>
+      </amp-story-grid-layer>
+    </amp-story-page>
+
+    <!-- Slide 3: Camera AI -->
+    <amp-story-page id="p3">
+      <amp-story-grid-layer template="fill">
+        <amp-img src="https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=720&h=1280&q=80" width="720" height="1280" layout="responsive"></amp-img>
+        <div class="overlay"></div>
+      </amp-story-grid-layer>
+      <amp-story-grid-layer template="vertical" style="justify-content:flex-end; padding:40px;">
+        <div animate-in="fly-in-right" animate-in-duration="0.5s">
+          <h2 class="slide-title">Next-Gen Magic Editor</h2>
+          <p class="slide-text">Video Editor mein ab <span class="highlight">Generative AI</span> ka support. Video se objects hatana ab bachon ka khel hoga.</p>
+        </div>
+      </amp-story-grid-layer>
+    </amp-story-page>
+
+    <!-- Slide 4: Conclusion -->
+    <amp-story-page id="p4">
+      <amp-story-grid-layer template="fill">
+        <amp-img src="https://images.unsplash.com/photo-1616472403914-f5ba443c75c8?auto=format&fit=crop&w=720&h=1280&q=80" width="720" height="1280" layout="responsive"></amp-img>
+        <div class="overlay"></div>
+      </amp-story-grid-layer>
+      <amp-story-grid-layer template="vertical" style="justify-content:center; padding:40px; text-align:center;">
+        <div animate-in="scale-in" animate-in-duration="0.7s">
+          <h2 class="slide-title">Expected Launch</h2>
+          <p class="slide-text">Pixel 10 Series late 2026 mein India mein launch hogi. Taiyaar rahein!</p>
+          <div style="margin-top:30px;">
+            <a href="https://aitechnews.co.in/compare" style="background:#4285F4; color:#fff; text-decoration:none; padding:15px 30px; border-radius:5px; font-weight:bold;">Compare with S26 Ultra</a>
+          </div>
+        </div>
+      </amp-story-grid-layer>
+    </amp-story-page>
+
     <amp-story-bookend src="https://aitechnews.co.in/web-stories/bookend.json" layout="nodisplay"></amp-story-bookend>
   </amp-story>
 </body>
