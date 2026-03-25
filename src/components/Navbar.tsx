@@ -82,6 +82,9 @@ export default function Navbar() {
                                 <Link href="/news-reels" className={getLinkClass('/news-reels')}>
                                     ▶ Lite Reels
                                 </Link>
+                                <Link href="/web-stories" className={getLinkClass('/web-stories')}>
+                                    ⚡ Web Stories
+                                </Link>
                                 <Link href="/ai-tools" className={getLinkClass('/ai-tools')}>
                                     AI Tools
                                 </Link>
