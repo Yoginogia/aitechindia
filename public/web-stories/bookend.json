@@ -1,0 +1,42 @@
+{
+  "bookendVersion": "v1.0",
+  "shareProviders": [
+    "twitter",
+    "facebook",
+    {"provider": "whatsapp"},
+    "system"
+  ],
+  "components": [
+    {
+      "type": "heading",
+      "text": "AITechNews par aur padhein"
+    },
+    {
+      "type": "small",
+      "title": "Meta AI Chips: Nvidia Ko Seedhi Takkar",
+      "url": "https://aitechnews.co.in/blog/meta-custom-ai-chips-mtia-2026",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=300&h=200&q=80"
+    },
+    {
+      "type": "small",
+      "title": "iPhone 18 SE Leaks: Expected Specs aur India Price",
+      "url": "https://aitechnews.co.in/blog/iphone-18-se-launch-leaks-india",
+      "image": "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=300&h=200&q=80"
+    },
+    {
+      "type": "small",
+      "title": "Humanity's Last Exam: AI ka Sabse Mushkil Test",
+      "url": "https://aitechnews.co.in/blog/humanitys-last-exam-ai-benchmark-test",
+      "image": "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=300&h=200&q=80"
+    },
+    {
+      "type": "cta-link",
+      "links": [
+        {
+          "text": "AITechNews Homepage",
+          "url": "https://aitechnews.co.in"
+        }
+      ]
+    }
+  ]
+}
