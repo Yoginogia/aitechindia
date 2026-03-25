@@ -51,7 +51,6 @@ export default function Navbar() {
     const navLinks = [
         { href: '/', label: 'Home', icon: '🏠' },
         { href: '/latest', label: 'Latest', icon: '📰' },
-        { href: '/news-reels', label: 'Lite Reels', icon: '▶' },
         { href: '/web-stories', label: 'Web Stories', icon: '⚡' },
         { href: '/ai-tools', label: 'AI Tools', icon: '🤖' },
         { href: '/gadgets', label: 'Gadgets', icon: '📱' },
@@ -78,9 +77,6 @@ export default function Navbar() {
                                 </Link>
                                 <Link href="/latest" className={getLinkClass('/latest')}>
                                     <Rss className="h-3.5 w-3.5 mr-1.5 inline-block" /> Latest
-                                </Link>
-                                <Link href="/news-reels" className={getLinkClass('/news-reels')}>
-                                    ▶ Lite Reels
                                 </Link>
                                 <Link href="/web-stories" className={getLinkClass('/web-stories')}>
                                     ⚡ Web Stories
