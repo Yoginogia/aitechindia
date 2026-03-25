@@ -323,9 +323,9 @@ export default function CompareClient() {
       <div className="flex flex-col md:flex-row items-center gap-4 bg-secondary/20 p-4 md:p-6 rounded-3xl border border-border/50 shadow-sm mb-12">
         <PhoneSearch value={phoneA} onChange={setPhoneA} placeholder="Select first smartphone..." />
         
-        <div className="flex shrink-0 items-center justify-center w-12 h-12 rounded-full bg-background border shadow-sm border-border z-10 -my-2 md:-mx-2 text-muted-foreground font-black text-xs tracking-widest relative">
-          <span className="bg-clip-text text-transparent bg-gradient-to-br from-muted-foreground to-foreground">VS</span>
-          <div className="absolute inset-[-4px] rounded-full border border-primary/20 animate-[spin_10s_linear_infinite]" />
+        <div className="flex shrink-0 items-center justify-center w-12 h-12 rounded-full bg-background border shadow-sm border-border z-10 -my-2 md:-mx-2 text-muted-foreground font-black text-xs tracking-widest relative overflow-hidden">
+          <span className="relative z-10 bg-clip-text text-transparent bg-gradient-to-br from-muted-foreground to-foreground">VS</span>
+          <div className="absolute inset-0 bg-gradient-to-br from-primary/5 to-transparent opacity-50" />
         </div>
         
         <PhoneSearch value={phoneB} onChange={setPhoneB} placeholder="Select second smartphone..." />
@@ -353,8 +353,14 @@ export default function CompareClient() {
                 )}
                 
                 <div className="w-full md:w-auto flex justify-center">
-                  <div className="relative w-28 h-28 mix-blend-multiply dark:mix-blend-normal rounded-xl overflow-hidden glass p-2 border border-border/50">
-                    <Image src={p.image} alt={p.name} fill className="object-contain p-2 hover:scale-110 transition-transform duration-500" />
+                  <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-secondary/50 p-2 border border-border/50 shadow-inner">
+                    <Image 
+                      src={p.image} 
+                      alt={p.name} 
+                      fill 
+                      priority={p === phoneA || p === phoneB}
+                      className="object-contain p-2 hover:scale-110 transition-transform duration-500" 
+                    />
                   </div>
                 </div>
                 
@@ -504,20 +510,20 @@ export default function CompareClient() {
                 if(b) setPhoneB(b);
                 window.scrollTo({top: 0, behavior: "smooth"});
               }}
-              className="group text-left p-5 glass rounded-2xl border border-border/50 hover:border-primary/50 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
+              className="group text-left p-5 bg-secondary/20 hover:bg-secondary/40 rounded-2xl border border-border/30 hover:border-primary/50 hover:shadow-lg hover:-translate-y-1 transition-all duration-300"
             >
               <div className="flex items-center justify-between mb-2">
-                <span className="text-xs font-bold text-primary bg-primary/10 px-2 py-0.5 rounded-full">VS</span>
+                <span className="text-[10px] font-bold text-primary bg-primary/10 px-2 py-0.5 rounded-full uppercase tracking-tighter">VS Comparison</span>
               </div>
               <div className="font-semibold text-sm text-foreground/90 leading-tight">
                 {r.a}
               </div>
-              <div className="text-muted-foreground text-xs my-1">vs</div>
+              <div className="text-muted-foreground text-[10px] my-1 opacity-60">vs</div>
               <div className="font-semibold text-sm text-foreground/90 leading-tight">
                 {r.b}
               </div>
-              <div className="mt-4 text-[11px] font-black uppercase tracking-widest text-muted-foreground group-hover:text-primary transition-colors flex items-center gap-1">
-                Compare Now &rarr;
+              <div className="mt-4 text-[10px] font-bold uppercase tracking-widest text-muted-foreground group-hover:text-primary transition-colors flex items-center gap-1">
+                View Specs &rarr;
               </div>
             </button>
           ))}
