@@ -17,17 +17,16 @@ export default function Navbar() {
         setIsMobileMenuOpen(false);
     }, [pathname]);
 
-    // Prevent body scroll when mobile menu is open (Disabled temporarily to rule out mobile hangs)
-    /*
+    // Prevent body scroll when mobile menu or search is open
     useEffect(() => {
-        if (isMobileMenuOpen) {
+        if (isMobileMenuOpen || isSearchOpen) {
             document.body.style.overflow = 'hidden';
+            document.body.style.paddingRight = 'var(--removed-body-scroll-bar-size)'; // Prevent layout shift if any
         } else {
             document.body.style.overflow = '';
+            document.body.style.paddingRight = '';
         }
-        return () => { document.body.style.overflow = ''; };
-    }, [isMobileMenuOpen]);
-    */
+    }, [isMobileMenuOpen, isSearchOpen]);
 
     const isActive = (path: string) => {
         if (path === '/') {

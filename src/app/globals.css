@@ -28,7 +28,7 @@
   --gradient-end: #ec4899;
 }
 
-.dark {
+.dark, [data-theme='dark'] {
   /* Dark Mode Tokens */
   --background: #030712;
   --foreground: #f8fafc;
