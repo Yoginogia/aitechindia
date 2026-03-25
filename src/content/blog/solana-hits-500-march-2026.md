@@ -3,7 +3,7 @@ title: "Solana (SOL) Ne Toda $500 Ka Record! Kya Yeh Ethereum Ko Peeche Chod Deg
 date: "2026-03-23"
 category: "Crypto"
 excerpt: "Aaj crypto market mein Solana (SOL) ne aag laga di hai. $500 ka all-time high cross karne ke baad, investors pooch rahe hain: Kya SOL naya Ethereum banne wala hai?"
-image: "https://images.unsplash.com/photo-1622630776510-18cd5022cc2c?auto=format&fit=crop&q=80&w=800"
+image: "/images/thumbnails/solana_500_ath.png"
 author: "Arjun Crypto"
 authorRole: "Blockchain Analyst"
 authorImage: "https://i.pravatar.cc/150?u=arjun"

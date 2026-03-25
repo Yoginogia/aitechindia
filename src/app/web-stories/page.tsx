@@ -34,6 +34,24 @@ const STORIES = [
         image: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&w=400&h=600&q=80',
         pages: 5,
     },
+    {
+        slug: "pixel-10-pro-leak",
+        title: "Google Pixel 10 Pro: Tensor G5 Power!",
+        subtitle: 'Google ka sabse smart AI phone leaked',
+        category: 'Leaked',
+        categoryColor: '#4285F4',
+        image: 'https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&w=400&h=600&q=80',
+        pages: 4,
+    },
+    {
+        slug: "nothing-fold-1",
+        title: "Nothing Fold (1): Transperant Revolution",
+        subtitle: 'Design of the year leaked in India',
+        category: 'New Tech',
+        categoryColor: '#ff5000',
+        image: 'https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?auto=format&fit=crop&w=400&h=600&q=80',
+        pages: 4,
+    },
 ];
 
 export default function WebStoriesGallery() {
@@ -132,11 +150,6 @@ export default function WebStoriesGallery() {
                 </div>
             </div>
 
-            <div className="mt-8 text-center">
-                <Link href="/news-reels" className="inline-flex items-center gap-2 text-primary text-sm font-bold hover:underline">
-                    ▶ Lite Reels bhi dekhein (faster browsing)
-                </Link>
-            </div>
         </main>
     );
 }

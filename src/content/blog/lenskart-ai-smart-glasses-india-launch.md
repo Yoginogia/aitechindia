@@ -3,7 +3,7 @@ title: "Leak: Kya Lenskart AI Smart Glasses India Laane Ki Taiyaari Mein Hai? (U
 date: "Mar 19, 2026"
 excerpt: "Kuch unconfirmed leaks aur tech blogs mein Lenskart ke AI-powered smart glasses ki baat chal rahi hai. Abhi tak koi official announcement nahi hai — yeh sirf rumor stage mein hai."
 category: "Gadgets"
-image: "https://images.unsplash.com/photo-1508344928928-7137b29de216?auto=format&fit=crop&q=80&w=800"
+image: "https://images.unsplash.com/photo-1572635196237-14b3f281503f?auto=format&fit=crop&q=80&w=800"
 author: "AITechNews Team"
 ---
 
