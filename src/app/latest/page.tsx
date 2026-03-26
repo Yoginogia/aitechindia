@@ -7,8 +7,7 @@ const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string 
   'AI': { icon: <Bot className="h-3.5 w-3.5" />, gradient: 'from-blue-500/20 to-indigo-600/20' },
   'AI Tools': { icon: <Sparkles className="h-3.5 w-3.5" />, gradient: 'from-emerald-500/20 to-cyan-600/20' },
   'Gadgets': { icon: <Smartphone className="h-3.5 w-3.5" />, gradient: 'from-purple-500/20 to-pink-600/20' },
-  'Software': { icon: <Code className="h-3.5 w-3.5" />, gradient: 'from-orange-500/20 to-red-600/20' },
-  'Software Updates': { icon: <RefreshCcw className="h-3.5 w-3.5" />, gradient: 'from-blue-500/20 to-cyan-600/20' },
+  'Software': { icon: <RefreshCcw className="h-3.5 w-3.5" />, gradient: 'from-blue-500/20 to-cyan-600/20' },
 };
 
 const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-slate-500/20 to-gray-600/20' };

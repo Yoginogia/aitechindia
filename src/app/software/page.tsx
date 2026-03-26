@@ -1,20 +1,17 @@
 import Link from 'next/link';
-import { ArrowRight, Clock, Sparkles, Flame, Bot, Smartphone, Code, Cpu } from 'lucide-react';
+import { ArrowRight, Clock, RefreshCcw, Download, Cpu, Code } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/markdown';
 
 // Category ke hisaab se icon aur gradient
 const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string }> = {
-  'AI': { icon: <Bot className="h-3.5 w-3.5" />, gradient: 'from-blue-500/20 to-indigo-600/20' },
-  'AI Tools': { icon: <Sparkles className="h-3.5 w-3.5" />, gradient: 'from-emerald-500/20 to-cyan-600/20' },
-  'Gadgets': { icon: <Smartphone className="h-3.5 w-3.5" />, gradient: 'from-purple-500/20 to-pink-600/20' },
-  'Software': { icon: <Code className="h-3.5 w-3.5" />, gradient: 'from-orange-500/20 to-red-600/20' },
+  'Software': { icon: <RefreshCcw className="h-3.5 w-3.5" />, gradient: 'from-blue-500/20 to-cyan-600/20' },
 };
 
 const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-slate-500/20 to-gray-600/20' };
 
 export const metadata = {
     title: 'Software Updates | AITechNews',
-    description: 'AITechNews par latest software updates, operating systems, aur apps ki jaankari.',
+    description: 'AITechNews par Windows, Android, aur iOS ki latest software updates aur patches ki jankari.',
 };
 
 export default function SoftwarePage() {
@@ -24,15 +21,15 @@ export default function SoftwarePage() {
   return (
     <div className="flex flex-col min-h-screen bg-grid">
       <section className="relative overflow-hidden pt-12 pb-6">
-        <div className="absolute top-0 right-10 w-72 h-72 bg-orange-500/10 rounded-full blur-[100px] pointer-events-none"></div>
+        <div className="absolute top-0 right-10 w-72 h-72 bg-blue-500/10 rounded-full blur-[100px] pointer-events-none"></div>
         <div className="container mx-auto px-4 md:px-8 max-w-7xl relative z-10">
           <div className="flex items-center justify-between pb-4 border-b border-border/30">
             <div>
               <h1 className="text-3xl md:text-4xl font-bold tracking-tight flex items-center gap-3 mb-2">
-                <Code className="h-8 w-8 text-orange-500" />
+                <RefreshCcw className="h-8 w-8 text-blue-500 animate-spin-slow" />
                 Software <span className="gradient-text">Updates</span>
               </h1>
-              <p className="text-muted-foreground text-sm md:text-base">Naye operating systems, apps, aur software features ki tahkikaat.</p>
+              <p className="text-muted-foreground text-sm md:text-base">Windows, Android, iOS, aur macOS ke sabse taaza OS updates.</p>
             </div>
             <span className="hidden md:inline-flex text-sm text-muted-foreground bg-secondary/50 px-4 py-1.5 rounded-full border border-border/50 font-medium">
               {softwarePosts.length} Articles
@@ -45,9 +42,9 @@ export default function SoftwarePage() {
         <div className="container mx-auto px-4 md:px-8 max-w-7xl">
           {softwarePosts.length === 0 ? (
              <div className="text-center py-20 bg-card/30 rounded-2xl border border-border/30 backdrop-blur">
-                <Code className="h-12 w-12 text-muted-foreground mx-auto mb-4 opacity-50" />
-                <h3 className="text-xl font-medium text-foreground mb-2">Abhi koi articles nahi hain</h3>
-                <p className="text-muted-foreground">Jald hi yahan naye software articles add kiye jayenge.</p>
+                <Download className="h-12 w-12 text-muted-foreground mx-auto mb-4 opacity-50" />
+                <h3 className="text-xl font-medium text-foreground mb-2">Abhi koi updates nahi hain</h3>
+                <p className="text-muted-foreground">Jald hi yahan naye OS updates add kiye jayenge.</p>
              </div>
           ) : (
              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -75,7 +72,7 @@ export default function SoftwarePage() {
 
                      <div className="p-5 space-y-3 flex-1 flex flex-col">
                        <div className="flex items-center gap-2 text-xs text-muted-foreground">
-                         <span className="font-semibold text-orange-400 bg-orange-500/10 px-2 py-0.5 rounded-full">{post.category}</span>
+                         <span className="font-semibold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400">Software</span>
                          <span>•</span>
                          <span className="flex items-center gap-1"><Clock className="h-3 w-3" /> {post.date}</span>
                        </div>
