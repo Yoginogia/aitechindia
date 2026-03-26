@@ -21,6 +21,21 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "asus-zenbook-14-core-ultra-7-series-2",
+        title: "ASUS Zenbook 14 (UX3405CA) - Intel Core Ultra 7 (Series 2)",
+        category: "AI Superpower",
+        description: "सबसे हल्का और पावरफुल AI लैपटॉप! 32GB RAM, 1TB SSD और 3K OLED टच स्क्रीन के साथ।",
+        price: "₹1,14,990",
+        discount: "New Launch Special",
+        rating: 4.9,
+        tag: "🚀 Future Ready",
+        image: "/images/deals/asus-zenbook-14-ai.png",
+        buyLink: `https://www.amazon.in/dp/B0DSHWNR64/?tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: ["Intel Core Ultra 7 (Series 2)", "32GB LPDDR5X RAM", "1TB Gen4 SSD", "14\" 3K OLED 120Hz Touch", "Weight: Only 1.28kg", "Integrated Arc Graphics"],
+        content: "ASUS Zenbook 14 का यह नया मॉडल Intel के सबसे लेटेस्ट Series 2 (AI-ready) प्रोसेसर के साथ आता है। इसकी 3K OLED स्क्रीन और ज़बरदस्त 32GB RAM इसे प्रोडक्टिविटी और क्रिएटिव काम के लिए बेस्ट बनाती है। इसका वज़न सिर्फ 1.28kg है, जो इसे ट्रैवलिंग के लिए परफेक्ट बनाता है!"
+    },
+    {
         slug: "sony-playstation-6-pro",
         title: "Sony PlayStation 6 Pro — The Next-Gen Console",
         category: "Gaming",
