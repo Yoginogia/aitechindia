@@ -3,6 +3,7 @@ import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
+import { AFFILIATE_TAG } from '@/data/deals';
 
 const contentDirectory = path.join(process.cwd(), 'src/content/blog');
 
@@ -134,9 +135,12 @@ export async function getPostData(slug: string): Promise<PostData> {
     const matterResult = matter(fileContents);
 
     // Use remark to convert markdown into HTML string
+    // Replace ${AFFILIATE_TAG} placeholder with the actual central ID
+    const rawContent = matterResult.content.split('${AFFILIATE_TAG}').join(AFFILIATE_TAG);
+    
     const processedContent = await remark()
         .use(html)
-        .process(matterResult.content);
+        .process(rawContent);
     const contentHtml = processedContent.toString();
     const readingTime = calculateReadingTime(matterResult.content);
 
