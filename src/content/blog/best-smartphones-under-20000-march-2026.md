@@ -29,7 +29,7 @@ image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format
 - **6 years OS + security updates** — 2032 tak support!
 - Samsung brand trust + One UI 8
 
-👉 [Amazon पर देखें](https://www.amazon.in/s?k=samsung+galaxy+m17e+5g&tag=aitechnews-21)
+👉 [Amazon पर देखें](https://www.amazon.in/s?k=samsung+galaxy+m17e+5g&tag=${AFFILIATE_TAG})
 
 ---
 
@@ -50,7 +50,7 @@ image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format
 - **120W charging** — 15 min mein 50%!
 - AMOLED display vibrant colors
 
-👉 [Amazon पर देखें](https://www.amazon.in/s?k=redmi+note+15+pro+plus&tag=aitechnews-21)
+👉 [Amazon पर देखें](https://www.amazon.in/s?k=redmi+note+15+pro+plus&tag=${AFFILIATE_TAG})
 
 ---
 
@@ -71,7 +71,7 @@ image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format
 - 6,000mAh + 90W fast charging combo
 - BGMI/Genshin max settings pe smooth
 
-👉 [Amazon पर देखें](https://www.amazon.in/s?k=poco+x7+pro&tag=aitechnews-21)
+👉 [Amazon पर देखें](https://www.amazon.in/s?k=poco+x7+pro&tag=${AFFILIATE_TAG})
 
 ---
 
@@ -92,7 +92,7 @@ image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format
 - Color-changing design unique hai
 - Sony sensor excellent photos
 
-👉 [Amazon पर देखें](https://www.amazon.in/s?k=realme+14+pro&tag=aitechnews-21)
+👉 [Amazon पर देखें](https://www.amazon.in/s?k=realme+14+pro&tag=${AFFILIATE_TAG})
 
 ---
 
@@ -113,7 +113,7 @@ image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format
 - Samsung Knox enterprise-grade security
 - Premium Super AMOLED display
 
-👉 [Amazon पर देखें](https://www.amazon.in/s?k=samsung+galaxy+a26+5g&tag=aitechnews-21)
+👉 [Amazon पर देखें](https://www.amazon.in/s?k=samsung+galaxy+a26+5g&tag=${AFFILIATE_TAG})
 
 ---
 
@@ -134,7 +134,7 @@ image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format
 - 6,000mAh massive battery
 - AMOLED display is price mein rare
 
-👉 [Amazon पर देखें](https://www.amazon.in/s?k=iqoo+z10x&tag=aitechnews-21)
+👉 [Amazon पर देखें](https://www.amazon.in/s?k=iqoo+z10x&tag=${AFFILIATE_TAG})
 
 ---
 
@@ -155,7 +155,7 @@ image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format
 - Clean near-stock Android — no bloatware
 - Slim aur lightweight design
 
-👉 [Amazon पर देखें](https://www.amazon.in/s?k=motorola+g85+5g&tag=aitechnews-21)
+👉 [Amazon पर देखें](https://www.amazon.in/s?k=motorola+g85+5g&tag=${AFFILIATE_TAG})
 
 ---
 
