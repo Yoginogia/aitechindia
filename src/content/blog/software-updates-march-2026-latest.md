@@ -1,7 +1,7 @@
 ---
 title: "Software Updates का महाकुंभ: Windows 12 से लेकर iOS 19 तक, क्या बदला आपके लिए?"
 date: "2026-03-26"
-category: "AI News"
+category: "Software Updates"
 excerpt: "मार्च 2026 में सॉफ़्टवेयर की दुनिया बिलकुल बदल गई है! Windows 12 के नए फीचर्स से लेकर iOS 19 की ताक़त तक—क्या आपको अपने डिवाइस को अभी अपडेट करना चाहिए? जानिए आसान भाषा में।"
 image: '/images/thumbnails/software_updates_2026.png'
 author: "AITechNews Editorial Desk"
