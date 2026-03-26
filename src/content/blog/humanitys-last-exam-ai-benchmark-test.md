@@ -1,27 +1,28 @@
 ---
-title: "Humanity's Last Exam: Kya AI Is 2500-Question Test Ko Pass Kar Payega?"
+title: "Humanity's Last Exam: क्या AI इस 'सबसे कठिन' टेस्ट को पास कर पाएगा?"
 date: "2026-03-24"
 category: "AI"
-excerpt: "Duniya ke 1,000 AI experts ne milkar ek aisi mushkil testing exam banayi hai jo advanced AI systems ko fail karne ke liye design ki gayi hai."
+excerpt: "दुनिया के 1,000 AI एक्सपर्ट्स ने मिलकर एक ऐसी कठिन परीक्षा बनाई है जो एडवांस AI सिस्टम्स को भी पसीने छुड़वा देगी! क्या यह AGI की शुरुआत है?"
 image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=800"
 author: "Neha Verma"
 authorRole: "AI Researcher & Editor"
 authorImage: "https://i.pravatar.cc/150?u=neha"
 ---
 
-Dosto, kya aapko pata hai ki aaj kal ke modern AI (jaise GPT-5 ya Gemini 3.0) purane saare tests aur benchmarks mein almost 100% score kar rahe hain? Inke saamne SAT, bar exams, aur medical exams baccho ka khel lagte hain. Isliye scientists ab pareshan hain ki AI ko test kaise karein?
+नमस्ते दोस्तों! क्या आपको पता है कि आजकल के मॉडर्न AI (जैसे GPT-5 या Gemini 3.0) पुराने सभी ऑनलाइन टेस्ट्स और बेंचमार्क्स में लगभग 100% स्कोर कर रहे हैं? इनके सामने मेडिकल और बार एग्जाम्स बच्चों का खेल लगते हैं। इसलिए अब साइंटिस्ट्स परेशान हैं कि आखिर AI की असली बुद्धि को चेक कैसे किया जाए?
 
-Isika solution nikalne ke liye, duniya bhar ke lagbhag 1,000 top AI experts, scientists, aur researchers ne milkar ek naya test banaya hai jise naam diya gaya hai: **"Humanity's Last Exam"**.
+इसी का हल निकालने के लिए दुनिया भर के 1,000 टॉप एक्सपर्ट्स ने मिलकर एक नया 'अग्निपरीक्षा' वाला टेस्ट बनाया है, जिसे नाम दिया गया है: **"Humanity's Last Exam"**।
 
-### Kya Hai Yeh Exam?
-Yeh exam specifically aise design kiya gaya hai ki yeh kisi bhi AI ke liye behad mushkil ho. Isme aise **2,500 questions** diye gaye hain jinka jawab simple internet search ya pattern recognition se nahi diya ja sakta. 
-- Isme deep abstract reasoning ki zaroorat hoti hai.
-- Yeh test extreme niche aur highly specialized topics par focus karta hai.
-- Kuch sawaal aese hain jinhe samajhne ke liye ek human expert ko bhi ghanto lag sakte hain.
+### क्या है यह 'अग्निपरीक्षा'? 🔥
+यह एग्जाम विशेष रूप से ऐसे डिज़ाइन किया गया है कि इसे कोई भी AI आसानी से हल न कर पाए। इसमें ऐसे **2,500 कठिन सवाल** दिए गए हैं जिनका जवाब सिर्फ इंटरनेट सर्च या 'पैटर्न रिकग्निशन' से नहीं दिया जा सकता।
 
-### Kyu Banaya Gaya Yeh Test?
-Traditional benchmarks ab aese ho gaye hain ki AI models unhe "rat" (memorize) lete hain. Developers ko asal mein samajhna hai ki models sach mein smart hain ya sirf patterns repeat kar rahe hain. 
+- इसमें गहरी **Abstract Reasoning** की ज़रूरत होती है।
+- टेस्ट में ऐसे 'निश' (niche) और specialized टॉपिक्स हैं जिन्हें समझने में इंसानों को भी घंटों लग सकते हैं।
+- यह टेस्ट सिर्फ उन्हीं मॉडल्स को पास करेगा जो असल में "सोचना" जानते हैं।
 
-Agar koi AI system "Humanity's Last Exam" ko clear kar leta hai, to iska matlab hoga ki hum us point par pohoch chuke hain jise **AGI (Artificial General Intelligence)** kaha jata hai — jahan AI har maayne mein insaan se behtar ho gaya hai. 
+### क्यों बनाया गया यह टेस्ट?
+पुराने टेस्ट्स अब आउटडेटेड हो चुके हैं क्योंकि डेवलपर्स ने अपने मॉडल्स को उन टेस्ट्स के लिए ही तैयार (train) कर दिया है। साइंटिस्ट्स अब यह समझना चाहते हैं कि क्या AI सच में स्मार्ट है या वह सिर्फ 'रट्टू तोता' की तरह डेटा रिपीट कर रहा है।
 
-Aapko kya lagta hai, aane wale GPT versions is exam ko pass kar payenge? Comments mein batao!
+**सावधानी वाली बात:** अगर कोई AI इस "Humanity's Last Exam" को क्लियर कर लेता है, तो समझ जाइये कि हम उस पड़ाव पर पहुँच चुके हैं जिसे **AGI (Artificial General Intelligence)** कहा जाता है—जहाँ मशीन हर मायने में इंसान से बेहतर हो चुकी है।
+
+क्या आपको लगता है कि आने वाला GPT-6 इस परीक्षा में पास होगा? अपनी राय कमेंट्स में ज़रूर दें!
