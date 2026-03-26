@@ -49,96 +49,113 @@ const STORIES = [
 
 export default function WebStoriesGallery() {
     return (
-        <main className="container mx-auto px-4 md:px-8 max-w-5xl py-12 md:py-20">
+        <main className="container mx-auto px-4 md:px-8 max-w-7xl py-12 md:py-20">
             {/* Header */}
-            <div className="mb-12 text-center">
-                <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-4 py-2 rounded-full text-primary text-sm font-bold mb-6">
-                    <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            <div className="mb-16 text-center">
+                <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 px-4 py-2 rounded-full text-primary text-sm font-bold mb-6 animate-fade-in">
+                    <svg className="w-4 h-4 animate-pulse" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
                     Google Web Stories
                 </div>
-                <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight gradient-text mb-4">
-                    Web Stories
+                <h1 className="text-5xl md:text-7xl font-black tracking-tighter gradient-text mb-6">
+                    Discovery Feed
                 </h1>
-                <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-                    Top tech news — swipeable format mein. Yeh real Google Web Stories hain jo Google Discover mein appear ho sakti hain!
+                <p className="text-muted-foreground text-xl max-w-2xl mx-auto leading-relaxed">
+                    Latest tech insights in a lightning-fast swipeable format. Optimized for 
+                    <span className="text-primary font-bold"> Google Discover</span>.
                 </p>
             </div>
 
             {/* Stories Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10">
                 {STORIES.map((story) => (
                     <a
                         key={story.slug}
                         href={`/web-stories/${story.slug}.html`}
                         target="_blank"
                         rel="noopener"
-                        className="group relative aspect-[9/16] rounded-2xl overflow-hidden border border-border/40 shadow-xl hover:shadow-primary/20 hover:-translate-y-1 transition-all duration-300 flex flex-col justify-end"
+                        className="group relative aspect-[9/16] rounded-[2.5rem] overflow-hidden border border-white/5 shadow-2xl hover:shadow-primary/40 hover:-translate-y-3 transition-all duration-700 flex flex-col justify-end ring-1 ring-white/10 hover:ring-primary/50 bg-black"
                     >
-                        {/* Background Image */}
+                        {/* Background Image with Ken Burns Effect on Hover */}
                         <img
                             src={story.image}
                             alt={story.title}
-                            className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            className="absolute inset-0 w-full h-full object-cover group-hover:scale-125 transition-transform duration-[3000ms] ease-out opacity-80 group-hover:opacity-100"
                         />
-                        {/* Dark Overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent"></div>
+                        
+                        {/* Premium Gradient Overlay */}
+                        <div className="absolute inset-0 bg-gradient-to-t from-black via-black/40 to-transparent pointer-events-none"></div>
 
-                        {/* Story Ring (like Instagram) */}
-                        <div className="absolute top-3 left-3 p-1 rounded-full bg-gradient-to-tr from-primary via-purple-500 to-pink-500">
-                            <div className="p-0.5 rounded-full bg-black">
-                                <img src="https://aitechnews.co.in/logo.png" alt="AITechNews" className="w-8 h-8 rounded-full object-cover" />
+                        {/* Top Badge Layer */}
+                        <div className="absolute top-6 left-6 right-6 flex justify-between items-start z-20">
+                            <div className="flex flex-col gap-3">
+                                <div className="p-1 rounded-full bg-gradient-to-tr from-primary via-purple-500 to-pink-500 w-fit shadow-[0_0_20px_rgba(0,0,0,0.5)] transform group-hover:rotate-[360deg] transition-transform duration-1000">
+                                    <div className="p-1 rounded-full bg-black">
+                                        <img src="/logo.png" alt="AITechNews" className="w-8 h-8 rounded-full object-cover" />
+                                    </div>
+                                </div>
+                                {story.isTrending && (
+                                    <div className="bg-red-500 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-[0_0_15px_rgba(239,68,68,0.5)] animate-pulse uppercase tracking-widest">
+                                        Live
+                                    </div>
+                                )}
+                            </div>
+                            <div className="bg-white/10 backdrop-blur-xl text-white/90 text-[10px] font-black px-4 py-1.5 rounded-full border border-white/20 uppercase tracking-widest">
+                                {story.pages} Slides
                             </div>
                         </div>
 
-                        {/* Pages badge */}
-                        <div className="absolute top-3 right-3 bg-black/60 backdrop-blur-sm text-white text-xs font-bold px-2 py-1 rounded-full">
-                            {story.pages} slides
-                        </div>
-
-                        {/* Content */}
-                        <div className="relative z-10 p-4">
-                            <span
-                                className="text-xs font-bold px-2 py-0.5 rounded-full text-white mb-2 inline-block"
-                                style={{ backgroundColor: story.categoryColor }}
-                            >
-                                {story.category}
-                            </span>
-                            <h2 className="text-white font-bold text-sm leading-tight line-clamp-3 mb-1">
+                        {/* Content Layer - Premium Typography */}
+                        <div className="relative z-10 p-7 pb-8 transform transition-transform duration-500 group-hover:translate-y-[-5px]">
+                            <div className="flex items-center gap-2 mb-4">
+                                <span
+                                    className="text-[10px] font-black px-3 py-1 rounded-md text-white uppercase tracking-widest shadow-lg"
+                                    style={{ backgroundColor: story.categoryColor }}
+                                >
+                                    {story.category}
+                                </span>
+                            </div>
+                            <h2 className="text-white font-black text-2xl leading-[1.1] mb-3 group-hover:text-primary transition-colors tracking-tight line-clamp-3">
                                 {story.title}
                             </h2>
-                            <p className="text-white/70 text-xs line-clamp-2">{story.subtitle}</p>
+                            <div className="h-0.5 w-12 bg-primary/60 mb-4 rounded-full group-hover:w-full transition-all duration-700"></div>
+                            <p className="text-white/60 text-sm font-medium line-clamp-2 leading-relaxed italic">
+                                "{story.subtitle}"
+                            </p>
                         </div>
 
-                        {/* Play Button Overlay */}
-                        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-                            <div className="w-14 h-14 bg-white/20 backdrop-blur-sm rounded-full flex items-center justify-center border-2 border-white/40">
-                                <svg className="w-6 h-6 text-white ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+                        {/* Interactive Play Reveal */}
+                        <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-700 bg-black/20 backdrop-blur-[4px]">
+                            <div className="w-20 h-20 bg-white rounded-full flex items-center justify-center shadow-[0_0_40px_rgba(255,255,255,0.4)] transform scale-50 group-hover:scale-100 rotate-[-10deg] group-hover:rotate-0 transition-all duration-500">
+                                <svg className="w-10 h-10 text-black ml-1.5" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
                             </div>
                         </div>
                     </a>
                 ))}
 
-                {/* Coming Soon placeholder */}
-                <div className="aspect-[9/16] rounded-2xl border-2 border-dashed border-border/40 flex flex-col items-center justify-center p-6 text-center">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center mb-3">
-                        <svg className="w-6 h-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 4v16m8-8H4"/></svg>
-                    </div>
-                    <p className="text-muted-foreground text-sm font-medium">Aur Stories</p>
-                    <p className="text-muted-foreground text-xs mt-1">Jald aane wale hain!</p>
+                {/* Aesthetic Spacer for Masonry-ish feel */}
+                <div className="hidden lg:flex flex-col items-center justify-center p-10 text-center border-2 border-dashed border-white/5 rounded-[2.5rem] hover:border-primary/20 transition-colors group">
+                     <div className="w-20 h-20 bg-primary/5 rounded-full flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                        <svg className="w-10 h-10 text-primary/40 group-hover:text-primary transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+                     </div>
+                     <p className="text-white/40 font-bold uppercase tracking-[0.2em] text-xs">New Stories</p>
+                     <p className="text-white/20 text-[10px] mt-2 italic px-10">Dropping every 24 hours.</p>
                 </div>
             </div>
 
-            {/* Google Discover Info Box */}
-            <div className="mt-12 p-6 rounded-2xl bg-gradient-to-br from-green-500/10 to-emerald-500/5 border border-green-500/20">
-                <div className="flex items-start gap-4">
-                    <div className="w-10 h-10 rounded-full bg-green-500/20 flex items-center justify-center shrink-0">
-                        <svg className="w-5 h-5 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
-                    </div>
-                    <div>
-                        <h3 className="font-bold text-foreground mb-1">Real Google Web Stories</h3>
-                        <p className="text-sm text-muted-foreground leading-relaxed">
-                            Yeh AMP format mein banaye gaye real Web Stories hain. Google Discover par appear hone ke liye Google Search Console mein submit karein. Free mein lakhs of Indian readers tak pahuncho!
-                        </p>
+            {/* Google Discover CTA */}
+            <div className="mt-20 p-10 rounded-[3rem] bg-gradient-to-br from-primary/20 via-background to-black border border-white/10 relative overflow-hidden group">
+                <div className="absolute -right-40 -top-40 w-96 h-96 bg-primary/20 rounded-full blur-[120px] group-hover:bg-primary/30 transition-all duration-1000"></div>
+                <div className="flex flex-col md:flex-row items-center justify-between gap-10 relative z-10 text-center md:text-left">
+                    <div className="flex items-center gap-8 flex-col md:flex-row">
+                        <div className="w-20 h-20 rounded-3xl bg-primary/20 flex items-center justify-center shadow-inner border border-white/10">
+                            <svg className="w-10 h-10 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+                        </div>
+                        <div>
+                            <h3 className="text-3xl font-black text-white mb-2 tracking-tight">Real AMP Web Stories</h3>
+                            <p className="text-lg text-white/50 max-w-xl">
+                                Built with professional AMP standards. These stories are ready for <span className="text-white font-bold">Google Discover</span> and billion-plus mobile users.
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
