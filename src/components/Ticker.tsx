@@ -80,8 +80,8 @@ export default function Ticker() {
     );
 
     return (
-        <div className="w-full bg-secondary border-b border-border/50 overflow-hidden relative z-40">
-            <div className="flex w-full whitespace-nowrap py-2 animate-marquee hover:pause cursor-default">
+        <div className="w-full bg-secondary border-b border-border/50 overflow-hidden relative z-40 pointer-events-none">
+            <div className="flex w-full whitespace-nowrap py-2 animate-marquee hover:pause cursor-default pointer-events-auto">
                 {/* Doubled the array to create a seamless infinite loop */}
                 {[...tickerData, ...tickerData, ...tickerData].map((item, index) => (
                     <div key={`${item.symbol}-${index}`} className="flex items-center gap-2 mx-6 text-[13px] font-medium font-mono text-secondary-foreground">

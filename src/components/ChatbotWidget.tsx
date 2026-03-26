@@ -29,9 +29,9 @@ export default function ChatbotWidget() {
     };
 
     return (
-        <div className="fixed bottom-24 right-6 z-[9999] flex flex-col items-end">
+        <div className={`fixed bottom-24 right-6 z-[9999] flex flex-col items-end ${!isOpen ? 'pointer-events-none' : ''}`}>
             {/* Chat Window */}
-            <div className={`mb-4 w-[350px] sm:w-[400px] h-[500px] bg-secondary/95 backdrop-blur-xl border border-border/50 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-500 origin-bottom-right ${isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0 pointer-events-none'}`}>
+            <div className={`mb-4 w-[350px] sm:w-[400px] h-[500px] bg-secondary/95 backdrop-blur-xl border border-border/50 rounded-2xl shadow-2xl flex flex-col overflow-hidden transition-all duration-500 origin-bottom-right pointer-events-auto ${isOpen ? 'scale-100 opacity-100' : 'scale-0 opacity-0'}`}>
                 {/* Header */}
                 <div className="bg-gradient-to-r from-primary to-blue-500 p-4 flex justify-between items-center text-white">
                     <div className="flex items-center gap-2">
@@ -79,7 +79,7 @@ export default function ChatbotWidget() {
             {/* Floating Toggle Button */}
             <button
                 onClick={() => setIsOpen(!isOpen)}
-                className={`w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110 active:scale-95 ${isOpen ? 'bg-secondary border border-border/50 text-foreground' : 'bg-gradient-to-r from-primary via-purple-500 to-blue-500 text-white animate-bounce-slow'}`}
+                className={`w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110 active:scale-95 pointer-events-auto ${isOpen ? 'bg-secondary border border-border/50 text-foreground' : 'bg-gradient-to-r from-primary via-purple-500 to-blue-500 text-white animate-bounce-slow'}`}
             >
                 {isOpen ? <X className="w-6 h-6" /> : <MessageSquare className="w-6 h-6" />}
             </button>

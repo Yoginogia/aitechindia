@@ -110,9 +110,10 @@ export default function Navbar() {
                                 </button>
                                 <button 
                                     onClick={() => setIsMobileMenuOpen(true)}
-                                    className="md:hidden p-2 text-foreground/70 hover:text-foreground"
+                                    className="md:hidden p-2 text-foreground/70 hover:text-foreground relative z-[60]"
+                                    aria-label="Open Menu"
                                 >
-                                    <Menu className="h-5 w-5" />
+                                    <Menu className="h-6 w-6" />
                                 </button>
                             </div>
                     </div>
