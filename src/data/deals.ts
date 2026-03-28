@@ -21,6 +21,24 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "samsung-galaxy-a57-5g-launch-offer",
+        title: "Samsung Galaxy A57 5G — Launch Special Offer! 🚀",
+        category: "Smartphone",
+        description: "Samsung का नया AI धमाका! One UI 8.5, 6 साल के अपडेट्स, और SBI कार्ड पर ₹3,000 की भारी छूट।",
+        price: "₹34,999",
+        discount: "₹3,000 Instant Bank Off",
+        rating: 4.8,
+        tag: "🆕 Just Launched",
+        image: "/images/deals/samsung-a57-5g.png",
+        buyLink: `https://www.amazon.in/s?k=samsung+galaxy+a57+5g&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: ["One UI 8.5 (AI Enabled)", "6.7\" Super AMOLED 144Hz", "6 Years OS Updates", "50MP AI Triple Camera", "5000mAh Battery", "Exynos 1580 (4nm) High Performance"],
+        variants: ["8GB + 128GB — ₹34,999", "8GB + 256GB — ₹37,999"],
+        bankOffers: ["SBI Credit Card — ₹3,000 Instant Off", "No-Cost EMI — Up to 9 months", "Exchange Bonus — Up to ₹5,000"],
+        colors: ["Emerald AI", "Vibe Purple", "Shadow Graphite"],
+        content: "Samsung Galaxy A57 5G India आ चुका है! यह फोन 2026 का बेस्ट मिड-रेंज ऑप्शन है क्योंकि इसमें फ्लैगशिप लेवल के AI फीचर्स (One UI 8.5) दिए गए हैं। 6 साल के सॉफ़्टवेयर अपडेट्स के साथ, यह फोन 2032 तक लेटेस्ट रहेगा। 144Hz Super AMOLED स्क्रीन गेमिंग और वीडियो के लिए जबरदस्त है। SBI बैंक ऑफर्स के साथ इसकी प्रभावी कीमत सिर्फ ₹31,999 रह जाती है। जल्दी करें, लॉन्च ऑफर कल रात तक ही वैलिड है!"
+    },
+    {
         slug: "asus-zenbook-14-core-ultra-7-series-2",
         title: "ASUS Zenbook 14 (UX3405CA) - Intel Core Ultra 7 (Series 2)",
         category: "AI Superpower",
