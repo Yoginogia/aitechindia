@@ -8,6 +8,36 @@ export const metadata: Metadata = {
 
 const STORIES = [
     {
+        slug: 'samsung-a57-launch',
+        title: 'Samsung A57 5G: The AI King!',
+        subtitle: 'One UI 8.5 & 6 Years of updates. Priced at ₹34,999.',
+        category: 'New Launch',
+        categoryColor: '#10b981',
+        image: '/images/web-stories/samsung-a57-launch/slide1.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'what-is-agentic-ai',
+        title: 'What is Agentic AI? The Future!',
+        subtitle: 'From chatbots to autonomous agents. AGI is coming.',
+        category: 'AI Tech',
+        categoryColor: '#00f2ff',
+        image: '/images/web-stories/what-is-agentic-ai/slide1.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'oneplus-nord-6-leaks',
+        title: 'OnePlus Nord 6: Powerhouse Leaks!',
+        subtitle: 'Snapdragon 8s Gen 4 & 100W Charging. April 7 Launch.',
+        category: 'Leaked',
+        categoryColor: '#ef4444',
+        image: '/images/web-stories/oneplus-nord-6-leaks/slide1.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'rtx-6090-leaks',
         title: 'RTX 6090: The 800W Monster GPU!',
         subtitle: 'Can your PSU handle this beast? 48GB VRAM leaked.',
