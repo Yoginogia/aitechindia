@@ -16,9 +16,33 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     const resolvedParams = await params;
     try {
         const postData = await getPostData(resolvedParams.slug);
+        const baseUrl = 'https://aitechnews.co.in';
+        const imageUrl = postData.image?.startsWith('http') ? postData.image : `${baseUrl}${postData.image}`;
+
         return {
             title: `${postData.title} | AITechNews`,
             description: postData.excerpt,
+            openGraph: {
+                title: postData.title,
+                description: postData.excerpt,
+                url: `${baseUrl}/blog/${resolvedParams.slug}`,
+                siteName: 'AITechNews',
+                images: [
+                    {
+                        url: imageUrl,
+                        width: 1200,
+                        height: 630,
+                        alt: postData.title,
+                    },
+                ],
+                type: 'article',
+            },
+            twitter: {
+                card: 'summary_large_image',
+                title: postData.title,
+                description: postData.excerpt,
+                images: [imageUrl],
+            },
         };
     } catch {
         return {
