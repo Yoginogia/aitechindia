@@ -17,7 +17,11 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
     try {
         const postData = await getPostData(resolvedParams.slug);
         const baseUrl = 'https://aitechnews.co.in';
-        const imageUrl = postData.image?.startsWith('http') ? postData.image : `${baseUrl}${postData.image}`;
+        let imagePath = postData.image || '/logo.png';
+        if (!imagePath.startsWith('/') && !imagePath.startsWith('http')) {
+            imagePath = '/' + imagePath;
+        }
+        const imageUrl = imagePath.startsWith('http') ? imagePath : `${baseUrl}${imagePath}`;
 
         return {
             title: `${postData.title} | AITechNews`,
