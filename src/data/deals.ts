@@ -21,6 +21,42 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "xbox-series-x-massive-price-drop",
+        title: "Xbox Series X 1TB Console — Massive 2026 Price Drop! 🎮",
+        category: "Gaming",
+        description: "नई CEO आशा शर्मा की स्ट्रेटेजी के बाद Xbox Series X पर अब तक की सबसे भारी छूट। HDFC कार्ड पर ₹4,000 की एक्स्ट्रा छूट।",
+        price: "₹39,990",
+        discount: "40% OFF + ₹4,000 Bank Off",
+        rating: 4.9,
+        tag: "🔥 Mega Price Drop",
+        image: "/images/deals/xbox-series-x.png",
+        buyLink: `https://www.amazon.in/s?k=xbox+series+x&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: ["1TB Custom NVMe SSD", "12 Teraflops Processing Power", "True 4K Gaming @120 FPS", "Includes Wireless Controller", "Quick Resume Feature", "Dolby Vision & TrueHD Atmos"],
+        variants: ["1TB (Disc Edition) — ₹39,990", "2TB (Digital) — ₹44,990"],
+        bankOffers: ["HDFC Credit Card — ₹4,000 Instant Off", "No-Cost EMI — Up to 12 months", "Exchange Bonus — Up to ₹6,000"],
+        colors: ["Matte Black"],
+        content: "Xbox की नई 'Reference Console' स्ट्रेटेजी के चलते आज Amazon India पर Xbox Series X पर सबसे भारी डिस्काउंट मिल रहा है। यह 1TB कंसोल अब तक का सबसे पॉवरफुल गेमिंग बॉक्स है जिसमें ट्रू 4K 120FPS गेमिंग का मज़ा है। गेम पास अल्टीमेट (Game Pass Ultimate) के साथ आप सैंकड़ों गेम्स तुरंत खेल सकते हैं। यह लिमिटेड टाइम डील है, मौका मत छोड़ें!"
+    },
+    {
+        slug: "meta-ray-ban-smart-glasses-ai",
+        title: "Meta Ray-Ban Wayfarer — AI Smart Glasses 🕶️",
+        category: "Gadgets",
+        description: "लाइव हिंदी ट्रांसलेशन और बिल्ट-इन Meta AI के साथ। अब फोन निकालने की जरुरत नहीं, सब कुछ आपकी आँखों के सामने।",
+        price: "₹24,999",
+        discount: "New Arrival + ₹2,000 Off",
+        rating: 4.8,
+        tag: "🤖 Best AI Gadget",
+        image: "/images/deals/meta-rayban.png",
+        buyLink: `https://www.amazon.in/s?k=meta+ray+ban+smart+glasses&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon",
+        specs: ["Built-in Meta AI Assistant", "12MP Ultra-wide Camera", "Open-ear Audio Speakers", "Live Language Translation", "Prescription Lens Support", "Voice Command Control"],
+        variants: ["Wayfarer (Standard) — ₹24,999", "Headliner (Large) — ₹26,999"],
+        bankOffers: ["ICICI Credit Card — ₹2,000 Instant Off", "No-Cost EMI — Up to 6 months"],
+        colors: ["Shiny Black", "Matte Black", "Caramel"],
+        content: "अगर आप टेक्नोलॉजी के शौक़ीन हैं, तो Meta Ray-Ban के ये स्मार्ट ग्लासेज आपके पास होने ही चाहिए। इनमें बिल्ट-इन Meta AI है जिससे आप बात कर सकते हैं, रास्ते पूछ सकते हैं और लाइव ट्रांसलेशन कर सकते हैं। इसकी 12MP कैमरा क्वालिटी इंस्टाग्राम रील्स और व्लॉगिंग के लिए बेस्ट है। आज ही आर्डर करें और 'AI Revolution' का हिस्सा बनें।"
+    },
+    {
         slug: "samsung-galaxy-a57-5g-launch-offer",
         title: "Samsung Galaxy A57 5G — Launch Special Offer! 🚀",
         category: "Smartphone",
