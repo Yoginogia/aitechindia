@@ -2,7 +2,6 @@
 
 import React, { useState, useRef } from 'react';
 import { Upload, FileText, CheckCircle, Download, ArrowRight, ShieldCheck, Zap, Minus, Plus } from 'lucide-react';
-import Link from 'next/link';
 
 export default function CompressPDFPage() {
   const [file, setFile] = useState<File | null>(null);
@@ -203,7 +202,7 @@ export default function CompressPDFPage() {
               <p className="text-sm text-muted-foreground leading-relaxed">Wait mat karo! PDF kitni bhi bari ho, hamara engine usse seconds mein niche le aata hai. ⚡</p>
            </div>
            <div className="p-8 rounded-3xl bg-secondary/20 border border-border/30 hover:bg-secondary/30 transition-colors">
-              <Sparkles className="h-10 w-10 text-purple-500 mb-4" />
+              <Zap className="h-10 w-10 text-purple-500 mb-4" />
               <h3 className="text-xl font-bold mb-2">High Quality</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">Size kam hogi, par text aur images ekdum saaf dikhenge. No blurry results! ✨</p>
            </div>
