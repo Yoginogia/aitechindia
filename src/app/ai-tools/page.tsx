@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { ArrowRight, Clock, Sparkles, Flame, Bot, Smartphone, Code, Cpu, FileText } from 'lucide-react';
+import { ArrowRight, Clock, Sparkles, Bot, Smartphone, Code, Cpu } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/markdown';
 
 // Category ke hisaab se icon aur gradient
@@ -42,58 +42,6 @@ export default function AIToolsPage() {
         </div>
       </section>
 
-      <section className="py-8">
-        <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-          <div className="flex items-center gap-2 mb-8">
-            <Flame className="h-5 w-5 text-orange-500 fill-current" />
-            <h2 className="text-xl font-bold uppercase tracking-widest text-muted-foreground/60">Featured Interactive Tools</h2>
-          </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
-            <Link 
-              href="/tools/compress-pdf"
-              className="group relative overflow-hidden rounded-[2rem] border border-emerald-500/20 bg-emerald-500/5 p-8 flex flex-col md:flex-row items-center gap-8 hover:bg-emerald-500/10 transition-all duration-500 shadow-2xl card-glow"
-            >
-              <div className="absolute -right-20 -top-20 w-64 h-64 bg-emerald-500/10 rounded-full blur-[80px] group-hover:bg-emerald-500/20 transition-all"></div>
-              
-              <div className="relative z-10 w-24 h-24 rounded-3xl bg-emerald-500/20 border border-emerald-500/30 flex items-center justify-center shadow-inner group-hover:scale-110 transition-transform duration-500">
-                <FileText className="h-10 w-10 text-emerald-500" />
-                <div className="absolute -top-2 -right-2 bg-emerald-500 text-[10px] font-black px-2 py-0.5 rounded-md text-white shadow-lg animate-bounce">
-                  NEW
-                </div>
-              </div>
-              
-              <div className="relative z-10 flex-1 text-center md:text-left">
-                <h3 className="text-2xl font-black text-white mb-2 tracking-tight group-hover:text-emerald-400 transition-colors">Compress PDF (Local AI)</h3>
-                <p className="text-white/50 text-sm leading-relaxed max-w-md">100MB to 500KB in seconds! Quality waisi hi, size zero! Secure, high-speed, and free. 🏎️</p>
-                <div className="mt-4 flex items-center gap-2 text-emerald-500 font-bold text-xs uppercase tracking-[0.2em] opacity-0 group-hover:opacity-100 transition-opacity">
-                  Try Now <ArrowRight className="h-3 w-3" />
-                </div>
-              </div>
-
-              {/* MB to KB Animation Mockup */}
-              <div className="relative hidden lg:flex items-center gap-3 bg-black/40 px-6 py-4 rounded-2xl border border-white/5 backdrop-blur-xl">
-                 <div className="text-center">
-                    <p className="text-[10px] text-white/40 uppercase font-black">Size</p>
-                    <p className="text-lg font-black line-through opacity-30">10MB</p>
-                 </div>
-                 <ArrowRight className="h-4 w-4 text-emerald-500 animate-pulse" />
-                 <div className="text-center">
-                    <p className="text-[10px] text-emerald-500 uppercase font-black">AI</p>
-                    <p className="text-2xl font-black text-emerald-500">1MB</p>
-                 </div>
-              </div>
-            </Link>
-
-            <div className="bg-secondary/20 rounded-[2rem] border border-dashed border-border/40 flex flex-col items-center justify-center p-8 text-center opacity-60">
-               <div className="w-16 h-16 rounded-2xl bg-muted/20 flex items-center justify-center mb-4">
-                  <Bot className="h-8 w-8 text-muted-foreground/40" />
-               </div>
-               <p className="font-bold text-muted-foreground/60 tracking-widest text-xs uppercase">More AI Tools Coming Soon</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="py-8 flex-1">
         <div className="container mx-auto px-4 md:px-8 max-w-7xl">
