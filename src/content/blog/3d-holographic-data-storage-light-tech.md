@@ -3,7 +3,7 @@ title: "3D Holographic Storage: अब 'लाइट' में स्टोर 
 date: "2026-03-29"
 category: "Software"
 excerpt: "वैज्ञानिकों ने डेटा स्टोरेज में एक चमत्कार कर दिया है। अब लाइट (Light) की मदद से 3D क्यूब्स में डेटा स्टोर होगा। जानिए यह भविष्य की तकनीक कैसे काम करती है।"
-image: "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?auto=format&fit=crop&w=800&q=80"
+image: "/images/blog/holographic_storage.png"
 ---
 
 क्या आप भी अपनी 1TB या 2TB की हार्ड ड्राइव के फुल होने से परेशान रहते हैं? क्या होगा अगर मैं आपसे कहूँ कि आने वाले समय में एक छोटा सा शीशे का टुकड़ा (Glass Cube) आपकी पूरी दुनिया का डेटा स्टोर कर लेगा?
