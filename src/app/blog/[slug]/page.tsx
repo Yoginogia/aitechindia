@@ -4,6 +4,7 @@ import { ArrowLeft, Calendar, Tag, Share2, Clock, ArrowRight } from 'lucide-reac
 import { notFound } from 'next/navigation';
 import SocialShare from '@/components/SocialShare';
 import AdSensePlaceholder from '@/components/AdSensePlaceholder';
+import ArticleReactions from '@/components/ArticleReactions';
 
 export async function generateStaticParams() {
     const posts = getAllPostSlugs();
@@ -171,6 +172,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 />
             </div>
             
+            <ArticleReactions slug={postData.slug} />
+
             <AdSensePlaceholder slotId="BOTTOM_ARTICLE_4291" height="250px" />
 
             {/* ── About the Author ─────────────────────────────── */}
