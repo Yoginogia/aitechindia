@@ -53,6 +53,7 @@ export default function Navbar() {
         { href: '/', label: 'Home', icon: '🏠' },
         { href: '/latest', label: 'Latest', icon: '📰' },
         { href: '/web-stories', label: 'Web Stories', icon: '⚡' },
+        { href: '/dictionary', label: 'Tech Dictionary', icon: '📖' },
         { href: '/software', label: 'Updates', icon: '🔄' },
         { href: '/ai-tools', label: 'AI Tools', icon: '🤖' },
         { href: '/gadgets', label: 'Gadgets', icon: '📱' },
