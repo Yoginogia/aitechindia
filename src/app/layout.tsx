@@ -12,6 +12,7 @@ import { getSortedPostsData } from "@/lib/markdown";
 import NewsTicker from "@/components/NewsTicker";
 import ProgressBar from "@/components/ProgressBar";
 import DealToast from "@/components/DealToast";
+import OneSignalSetup from "@/components/OneSignalSetup";
 
 const GA_ID = "G-9MKDQQ6NEH";
 
@@ -93,6 +94,8 @@ export default function RootLayout({
             <WhatsAppButton />
             <ChatbotWidget />
             <Footer />
+            <Script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" strategy="afterInteractive" />
+            <OneSignalSetup />
         </ThemeProvider>
       </body>
     </html>
