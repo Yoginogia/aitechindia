@@ -22,9 +22,9 @@ export default function ProgressBar() {
   }, []);
 
   return (
-    <div className="fixed top-0 left-0 w-full h-[3px] bg-transparent z-[9999] pointer-events-none">
+    <div className="fixed top-0 left-0 w-full h-[5px] bg-secondary/30 z-[999999] pointer-events-none">
       <div 
-        className="h-full bg-gradient-to-r from-emerald-400 via-cyan-400 to-blue-500 shadow-[0_0_10px_rgba(16,185,129,0.8)] transition-all duration-150 ease-out"
+        className="h-full bg-gradient-to-r from-emerald-400 via-cyan-400 to-primary shadow-[0_0_15px_rgba(99,102,241,1)] transition-all duration-150 ease-out"
         style={{ width: `${scrollPercentage}%` }}
       />
     </div>
