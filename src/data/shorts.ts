@@ -6,29 +6,29 @@ export interface TechShort {
 
 export const TECH_SHORTS: TechShort[] = [
     {
-        id: "1pUIf_c6XEY", // Change this to any Tech Burner / Trakin Tech Shorts ID
-        title: "Apple Vision Pro in Public!",
+        id: "PbB5r2p3Sl4", 
+        title: "Best Tech Gadgets 2026",
         channel: "Tech Reviewer",
     },
     {
-        id: "YOUTUBE_SHORT_ID_HERE", // Replace with valid ID
-        title: "Galaxy S26 Ultra Leaks!",
+        id: "n5M8pRoRpmE", 
+        title: "Smartphone Speed Test!",
         channel: "Tech Leaks",
     },
     {
-        id: "ANOTHER_ID_HERE",
-        title: "OpenAI ChatGPT-5 Confirmed?",
+        id: "WrfPTcK_FOs",
+        title: "Apple WWDC Secrets",
         channel: "AI Updates",
     },
     {
-        id: "SHORT_ID_4",
-        title: "Top 5 AI Tools for Students",
-        channel: "AI Hustle",
+        id: "86WokI3asU0",
+        title: "Should you buy an iPhone now?",
+        channel: "Apple Fanatics",
     },
     {
-        id: "SHORT_ID_5",
-        title: "PS5 Pro vs Xbox - Which is better?",
-        channel: "Gaming Tech",
+        id: "Ik9yYz0Kjx8",
+        title: "Samsung Galaxy S24 Ultra Unboxing",
+        channel: "Gadget Guru",
     }
 ];
 
