@@ -44,7 +44,7 @@ const HIGHLIGHTS = [
 
 export default function WebStoriesHighlights() {
   return (
-    <div className="w-full mt-6 mb-4">
+    <div className="w-full max-w-full overflow-hidden mt-6 mb-4">
       <div className="flex items-center gap-2 mb-4 px-1">
         <h3 className="text-sm font-bold uppercase tracking-wider text-muted-foreground">Trending Stories</h3>
         <div className="h-px flex-1 bg-border/50"></div>
