@@ -5,6 +5,7 @@ import NewsletterWidget from '@/components/NewsletterWidget';
 import EditorsPicksWidget from '@/components/EditorsPicksWidget';
 import HomeCategoryShowcase from '@/components/HomeCategoryShowcase';
 import WebStoriesHighlights from '@/components/WebStoriesHighlights';
+import TechShortsWidget from '@/components/TechShortsWidget';
 import { getSortedPostsData } from '@/lib/markdown';
 
 // Category ke hisaab se icon aur gradient
@@ -154,6 +155,11 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Embedded YouTube / Tech Shorts Section */}
+      <div className="container mx-auto px-4 md:px-8 max-w-7xl">
+         <TechShortsWidget />
+      </div>
 
       {/* Full Width Category Showcase */}
       <HomeCategoryShowcase />
