@@ -51,7 +51,7 @@ export default function WebStoriesHighlights() {
       </div>
       
       {/* Horizontal scroll container (hide-scroll class removes scrollbar natively) */}
-      <div className="flex items-center gap-4 sm:gap-6 overflow-x-auto pb-4 hide-scroll pr-4 snap-x">
+      <div className="flex items-center gap-4 sm:gap-6 overflow-x-auto pb-4 hide-scroll pr-4 snap-x w-full">
         {HIGHLIGHTS.map((story) => (
           <Link
             href={`/web-stories/${story.slug}.html`}
