@@ -10,6 +10,7 @@ import Ticker from "@/components/Ticker";
 import ChatbotWidget from "@/components/ChatbotWidget";
 import { getSortedPostsData } from "@/lib/markdown";
 import NewsTicker from "@/components/NewsTicker";
+import ProgressBar from "@/components/ProgressBar";
 
 const GA_ID = "G-9MKDQQ6NEH";
 
@@ -83,6 +84,7 @@ export default function RootLayout({
             <Ticker />
             <Navbar />
             <NewsTicker posts={getSortedPostsData().slice(0, 3)} />
+            <ProgressBar />
             <main className="flex-1 flex flex-col">
               {children}
             </main>
