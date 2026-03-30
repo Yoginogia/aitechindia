@@ -82,7 +82,7 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
 
             {/* Left Column: Articles — DYNAMIC from blog folder */}
-            <div className="lg:col-span-8 space-y-8">
+            <div className="lg:col-span-8 space-y-8 min-w-0">
               <WebStoriesHighlights />
 
               <div className="flex items-center justify-between pb-4 mt-8">
