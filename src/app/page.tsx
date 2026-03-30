@@ -4,6 +4,7 @@ import DualNewsWidget from '@/components/DualNewsWidget';
 import NewsletterWidget from '@/components/NewsletterWidget';
 import EditorsPicksWidget from '@/components/EditorsPicksWidget';
 import HomeCategoryShowcase from '@/components/HomeCategoryShowcase';
+import WebStoriesHighlights from '@/components/WebStoriesHighlights';
 import { getSortedPostsData } from '@/lib/markdown';
 
 // Category ke hisaab se icon aur gradient
@@ -82,7 +83,9 @@ export default function Home() {
 
             {/* Left Column: Articles — DYNAMIC from blog folder */}
             <div className="lg:col-span-8 space-y-8">
-              <div className="flex items-center justify-between pb-4">
+              <WebStoriesHighlights />
+
+              <div className="flex items-center justify-between pb-4 mt-8">
                 <h2 className="text-2xl font-bold tracking-tight flex items-center gap-3">
                   <Flame className="h-6 w-6 text-orange-500" />
                   ताज़ा आर्टिकल्स

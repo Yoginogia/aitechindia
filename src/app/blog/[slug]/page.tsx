@@ -5,6 +5,7 @@ import { notFound } from 'next/navigation';
 import SocialShare from '@/components/SocialShare';
 import AdSensePlaceholder from '@/components/AdSensePlaceholder';
 import ArticleReactions from '@/components/ArticleReactions';
+import ProgressBar from '@/components/ProgressBar';
 
 export async function generateStaticParams() {
     const posts = getAllPostSlugs();
