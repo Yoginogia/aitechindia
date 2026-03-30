@@ -84,6 +84,9 @@ export default function Navbar() {
                                 <Link href="/web-stories" className={getLinkClass('/web-stories')}>
                                     ⚡ Web Stories
                                 </Link>
+                                <Link href="/dictionary" className={getLinkClass('/dictionary')}>
+                                    📖 Tech Dictionary
+                                </Link>
                                 <Link href="/ai-tools" className={getLinkClass('/ai-tools')}>
                                     AI Tools
                                 </Link>
