@@ -8,6 +8,16 @@ export const metadata: Metadata = {
 
 const STORIES = [
     {
+        slug: 'samsung-s26-fe',
+        title: 'S26 FE: The Next Budget King!',
+        subtitle: '50MP camera, 144Hz AMOLED, & Galaxy AI 3.0. Details Inside.',
+        category: 'Leaked',
+        categoryColor: '#ef4444',
+        image: '/images/web-stories/samsung-s26-fe/slide1.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'samsung-a57-launch',
         title: 'Samsung A57 5G: The AI King!',
         subtitle: 'One UI 8.5 & 6 Years of updates. Priced at ₹34,999.',
