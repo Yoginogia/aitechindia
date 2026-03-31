@@ -22,7 +22,8 @@ const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-s
 export default function Home() {
   // Automatically fetch all blog posts sorted by date
   const allPosts = getSortedPostsData();
-  const recentPosts = allPosts.slice(0, 8);
+  // Filter out Crypto posts from homepage as they go to the specialized Crypto page
+  const recentPosts = allPosts.filter(post => post.category !== 'Crypto').slice(0, 8);
 
   return (
     <div className="flex flex-col min-h-screen bg-grid">
