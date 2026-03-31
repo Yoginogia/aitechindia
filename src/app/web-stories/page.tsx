@@ -8,6 +8,16 @@ export const metadata: Metadata = {
 
 const STORIES = [
     {
+        slug: 'gpt-5-vs-gemini-3',
+        title: 'GPT-5.4 vs Gemini 3.1: AI Battle!',
+        subtitle: 'Watch the ultimate Agentic AI battle unfold this month.',
+        category: 'Trending',
+        categoryColor: '#ef4444',
+        image: '/images/blog/gpt-5-gemini-3.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'samsung-s26-fe',
         title: 'S26 FE: The Next Budget King!',
         subtitle: '50MP camera, 144Hz AMOLED, & Galaxy AI 3.0. Details Inside.',
