@@ -85,7 +85,7 @@ export default function RootLayout({
         >
             <Ticker />
             <Navbar />
-            <NewsTicker posts={getSortedPostsData().slice(0, 3)} />
+            <NewsTicker posts={getSortedPostsData().filter(post => post.category !== 'Crypto').slice(0, 3)} />
             <ProgressBar />
             <main className="flex-1 flex flex-col">
               {children}

@@ -7,8 +7,9 @@ export default function EditorsPicksWidget() {
     // or just the latest 4 if we don't have tags set up for 'featured'.
     const allPosts = getSortedPostsData();
     
-    // We can simulate editor's picks by taking articles 2 to 5 (just to differ from main feed)
-    const featuredPosts = allPosts.slice(2, 6);
+    // We can simulate editor's picks by taking articles from 2nd index onwards, 
+    // but excluding Crypto posts which belong in the dedicated section.
+    const featuredPosts = allPosts.filter(post => post.category !== 'Crypto').slice(2, 6);
 
     return (
         <div className="rounded-2xl border border-border/30 bg-card/50 backdrop-blur p-6 mt-6">

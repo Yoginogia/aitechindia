@@ -13,8 +13,8 @@ interface NewsArticle {
 
 const MOCK_GLOBAL_NEWS_DATA = [
     {
-        title: "SEC-CFTC ने 16 Crypto Assets को Digital Commodity माना — Bitcoin, Ethereum, Solana शामिल!",
-        source: { name: "SEC.gov" },
+        title: "Apple M5 Ultra Chip leaks with 40-core Neural Engine for Gen-AI tasks",
+        source: { name: "AppleInsider" },
         minutesAgo: 30,
         url: "#"
     },
@@ -25,8 +25,8 @@ const MOCK_GLOBAL_NEWS_DATA = [
         url: "#"
     },
     {
-        title: "Bitcoin crosses $74,000 as Fed FOMC meeting concludes today",
-        source: { name: "CoinDesk" },
+        title: "TSMC 2nm plant in Arizona begins test production ahead of schedule",
+        source: { name: "DigiTimes" },
         minutesAgo: 120,
         url: "#"
     },
