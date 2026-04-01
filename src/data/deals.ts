@@ -21,6 +21,38 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "lenovo-april-cashback-2026",
+        title: "Lenovo Laptops पर ₹20,000 Cashback! 🔥 (1-15 April)",
+        category: "Laptop",
+        description: "Lenovo की Official Website से Laptop, Desktop या Workstation खरीदने पर ₹20,000 तक का कैशबैक। किसी भी Bank Credit Card से!",
+        price: "₹55,990 से",
+        discount: "₹20,000 तक Cashback",
+        rating: 4.8,
+        tag: "🔥 Limited Offer",
+        image: "/images/blog/lenovo-cashback-april.png",
+        buyLink: `https://www.lenovo.com/in/en/laptops/`,
+        platform: "Lenovo Official",
+        specs: ["किसी भी Laptop पर Cashback", "Desktop & Workstation भी", "सभी Bank Credit Cards", "1-15 April 2026 तक", "Official Website से खरीदें"],
+        bankOffers: ["किसी भी Bank Credit Card — ₹20,000 तक Cashback", "No-Cost EMI — 24 months तक"],
+        content: "Lenovo का यह April Cashback Offer आपको एक बड़ा मौका दे रहा है। 1 से 15 April 2026 के बीच अगर आप Lenovo.com/in से कोई भी Laptop, Desktop, Workstation, या Accessories खरीदते हैं और किसी भी Bank Credit Card से Payment करते हैं, तो आपको ₹20,000 तक का Cashback मिलेगा। LOQ Gaming Laptop, IdeaPad Slim 5, और ThinkPad जैसे popular models पर यह offer लागू है। Amazon या Flipkart पर नहीं — सिर्फ Official Website पर!"
+    },
+    {
+        slug: "samsung-galaxy-book6-ultra",
+        title: "Samsung Galaxy Book 6 Ultra — AI-Ready Laptop India Launch! 🤖",
+        category: "Laptop",
+        description: "Samsung का नया AI-Ready Laptop। Intel Core Ultra 7, 3K OLED Display, 22hr Battery। 24-Month Zero-Interest EMI उपलब्ध!",
+        price: "₹1,79,999 से",
+        discount: "24-Month Zero-Interest EMI",
+        rating: 4.8,
+        tag: "🆕 New Launch",
+        image: "/images/blog/samsung-galaxy-book6.png",
+        buyLink: `https://www.samsung.com/in/computers/all-computers/`,
+        platform: "Samsung Official",
+        specs: ["Intel Core Ultra 7 (Series 2)", "16-inch 3K OLED Display", "32GB RAM, 1TB SSD", "22 Hours Battery", "Galaxy AI Features Built-in", "Thunderbolt 4, Wi-Fi 7"],
+        bankOffers: ["24-Month Zero-Interest EMI", "Exchange Bonus — Up to ₹25,000", "Student Discount — Extra 5% Off"],
+        content: "Samsung Galaxy Book 6 Ultra India में Launch हो गया है और यह 2026 का सबसे ताकतवर Business Laptop है। Intel Series 2 का dedicated NPU AI tasks को बिजली की तेज़ी से करता है। Galaxy AI Features जैसे Live Translate, AI Summarize और Writing Assist रोज़ाना के काम को काफी आसान बना देते हैं। 22 घंटे की Battery Life मतलब पूरे दिन Charging की ज़रूरत नहीं! 24-Month Zero-Interest EMI और ₹25,000 तक Exchange Bonus!"
+    },
+    {
         slug: "xbox-series-x-massive-price-drop",
         title: "Xbox Series X 1TB Console — Massive 2026 Price Drop! 🎮",
         category: "Gaming",

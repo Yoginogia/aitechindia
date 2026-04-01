@@ -6,6 +6,21 @@ export interface TechShort {
 
 export const TECH_SHORTS: TechShort[] = [
     {
+        id: "JGpL7VEVqJ8",
+        title: "Nvidia & Marvell का $2B AI Deal Explained!",
+        channel: "Tech Explained",
+    },
+    {
+        id: "gw0wVjFJV8Q",
+        title: "Samsung Galaxy Book 6 Ultra First Look",
+        channel: "Samsung Shorts",
+    },
+    {
+        id: "_OBlgSz8sSM",
+        title: "AI Agents क्या हैं? 60 सेकंड में जानें!",
+        channel: "AI Updates",
+    },
+    {
         id: "N8uCvUilW_M", 
         title: "Huawei Matebook Fold Ultimate",
         channel: "Tech Leaks",

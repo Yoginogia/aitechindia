@@ -2,7 +2,7 @@
 title: "Bitcoin में फिर आया बवंडर! मार्च 2026 में $76,000 टच करने के बाद अब क्या? 16 Tokens बने Commodities"
 excerpt: "क्रिप्टो मार्किट में इस हफ़्ते की 3 बड़ी ब्रेकिंग न्यूज़: Bitcoin ETF में फिर से $1.3B की भारी इन्वेस्टमेंट, और 16 नए Altcoins को मिला 'Commodity' का दर्ज।"
 date: "2026-03-31"
-category: "Crypto News"
+category: "Crypto"
 author: "AITechNews"
 image: "/images/blog/bitcoin-march-26.png"
 readTime: 4

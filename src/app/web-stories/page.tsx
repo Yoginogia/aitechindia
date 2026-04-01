@@ -8,11 +8,21 @@ export const metadata: Metadata = {
 
 const STORIES = [
     {
+        slug: 'nvidia-marvell-ai-deal',
+        title: 'Nvidia का $2B AI Deal — Game Changer!',
+        subtitle: 'Nvidia ने Marvell में $2 Billion लगाए। Marvell का Stock 11% उछला!',
+        category: 'Breaking',
+        categoryColor: '#ef4444',
+        image: '/images/blog/nvidia-marvell-deal.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gpt-5-vs-gemini-3',
         title: 'GPT-5.4 vs Gemini 3.1: AI Battle!',
         subtitle: 'Watch the ultimate Agentic AI battle unfold this month.',
         category: 'Trending',
-        categoryColor: '#ef4444',
+        categoryColor: '#f97316',
         image: '/images/blog/gpt-5-gemini-3.png',
         pages: 4,
         isTrending: true,
