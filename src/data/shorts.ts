@@ -6,27 +6,12 @@ export interface TechShort {
 
 export const TECH_SHORTS: TechShort[] = [
     {
-        id: "JGpL7VEVqJ8",
-        title: "Nvidia & Marvell का $2B AI Deal Explained!",
-        channel: "Tech Explained",
-    },
-    {
-        id: "gw0wVjFJV8Q",
-        title: "Samsung Galaxy Book 6 Ultra First Look",
-        channel: "Samsung Shorts",
-    },
-    {
-        id: "_OBlgSz8sSM",
-        title: "AI Agents क्या हैं? 60 सेकंड में जानें!",
-        channel: "AI Updates",
-    },
-    {
-        id: "N8uCvUilW_M", 
+        id: "N8uCvUilW_M",
         title: "Huawei Matebook Fold Ultimate",
         channel: "Tech Leaks",
     },
     {
-        id: "n5M8pRoRpmE", 
+        id: "n5M8pRoRpmE",
         title: "Smartphone Speed Test!",
         channel: "Tech Leaks",
     },
@@ -46,6 +31,14 @@ export const TECH_SHORTS: TechShort[] = [
         channel: "Gadget Guru",
     }
 ];
+
+// ✅ नया Short Video कैसे Add करें:
+// 1. YouTube पर कोई भी Tech Short खोलें (mobile या PC पर)
+// 2. URL कुछ ऐसी दिखेगी: https://www.youtube.com/shorts/xcVYs93m32Z
+// 3. आखिरी हिस्सा copy करें: "xcVYs93m32Z"
+// 4. ऊपर TECH_SHORTS array में नया object add करें:
+//    { id: "xcVYs93m32Z", title: "आपका Title", channel: "Channel Name" }
+
 
 // Instructions for User:
 // To add a new video:
