@@ -71,8 +71,30 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         .filter(post => post.category === postData.category && post.slug !== postData.slug)
         .slice(0, 3);
 
+    const jsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'NewsArticle',
+        headline: postData.title,
+        image: [
+            postData.image 
+                ? (postData.image.startsWith('http') ? postData.image : `https://aitechnews.co.in${postData.image}`) 
+                : "https://aitechnews.co.in/logo.png"
+        ],
+        datePublished: postData.date,
+        dateModified: postData.date,
+        author: [{
+            '@type': 'Person',
+            name: postData.author || "AITechNews Editorial",
+            url: "https://aitechnews.co.in/about"
+        }]
+    };
+
     return (
         <article className="container mx-auto px-4 md:px-8 max-w-4xl py-12 md:py-20">
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+            />
             <div className="mb-10">
                 <Link href="/" className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-primary transition-colors mb-8 group">
                     <ArrowLeft className="mr-2 h-4 w-4 group-hover:-translate-x-1 transition-transform" />
@@ -157,9 +179,36 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 </div>
 
                 {/* Main Content */}
-                <div
-                    className="flex-1 min-w-0 prose prose-lg prose-invert max-w-none 
-                       prose-headings:text-foreground prose-headings:font-bold prose-headings:tracking-tight 
+                <div className="flex-1 min-w-0">
+                    {/* Auto-Generated Table of Contents */}
+                    {postData.toc && postData.toc.length > 0 && (
+                        <div className="mb-10 p-5 sm:p-7 bg-secondary/20 border border-primary/20 rounded-2xl shadow-lg shadow-primary/5">
+                            <h2 className="text-xl font-extrabold mb-4 flex items-center gap-2.5 text-foreground tracking-tight">
+                                <span className="bg-primary/20 text-primary p-1.5 rounded-lg">
+                                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M4 6h16M4 12h16M4 18h7"></path></svg>
+                                </span>
+                                Is Article Mein
+                            </h2>
+                            <ul className="space-y-3">
+                                {postData.toc.map((heading, i) => (
+                                    <li key={i} className={`${heading.level === 3 ? 'ml-6 sm:ml-8' : ''}`}>
+                                        <a href={`#${heading.id}`} className="text-muted-foreground/90 hover:text-primary transition-colors text-[15px] font-medium flex items-start gap-2.5 group">
+                                            {heading.level === 2 ? (
+                                                <div className="w-1.5 h-1.5 rounded-full bg-primary/40 group-hover:bg-primary transition-colors shrink-0 mt-2"></div>
+                                            ) : (
+                                                <div className="w-1 h-1 rounded-full bg-muted-foreground/40 shrink-0 mt-2.5"></div>
+                                            )}
+                                            <span className="leading-snug">{heading.text}</span>
+                                        </a>
+                                    </li>
+                                ))}
+                            </ul>
+                        </div>
+                    )}
+                    
+                    <div
+                        className="prose prose-lg prose-invert max-w-none 
+                           prose-headings:text-foreground prose-headings:font-bold prose-headings:tracking-tight 
                        prose-p:text-muted-foreground prose-p:leading-relaxed prose-p:mb-6
                        prose-a:text-primary prose-a:no-underline hover:prose-a:underline
                        prose-strong:text-foreground prose-strong:font-semibold
@@ -168,8 +217,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                        prose-blockquote:border-l-primary prose-blockquote:bg-primary/10 prose-blockquote:py-4 prose-blockquote:px-6 prose-blockquote:rounded-r-xl prose-blockquote:not-italic prose-blockquote:text-foreground prose-blockquote:font-medium
                        prose-img:rounded-2xl prose-img:border prose-img:border-border/40 prose-img:shadow-xl
                        marker:text-primary"
-                    dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
-                />
+                        dangerouslySetInnerHTML={{ __html: postData.contentHtml || "" }}
+                    />
+                </div>
             </div>
             
             <ArticleReactions slug={postData.slug} />

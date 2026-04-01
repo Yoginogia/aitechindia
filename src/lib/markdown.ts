@@ -48,6 +48,7 @@ export type PostData = {
     author?: string;
     authorRole?: string;
     authorImage?: string;
+    toc?: { id: string, text: string, level: number }[];
 };
 
 // Default reading speed = 200 words per minute
@@ -141,7 +142,20 @@ export async function getPostData(slug: string): Promise<PostData> {
     const processedContent = await remark()
         .use(html)
         .process(rawContent);
-    const contentHtml = processedContent.toString();
+        
+    let contentHtml = processedContent.toString();
+    
+    // Auto-generate TOC and inject IDs into HTML headings
+    const toc: { id: string, text: string, level: number }[] = [];
+    contentHtml = contentHtml.replace(/<h([23])>(.*?)<\/h\1>/g, (match, level, text) => {
+        const cleanText = text.replace(/<[^>]*>?/gm, ''); // Remove inline HTML from heading text
+        let id = cleanText.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
+        if (!id) id = `heading-${Math.floor(Math.random() * 1000)}`;
+        
+        toc.push({ id, text: cleanText, level: parseInt(level) });
+        return `<h${level} id="${id}" class="scroll-mt-24">${text}</h${level}>`;
+    });
+
     const readingTime = calculateReadingTime(matterResult.content);
 
     const category = matterResult.data.category || 'Tech';
@@ -155,6 +169,7 @@ export async function getPostData(slug: string): Promise<PostData> {
         author,
         authorRole,
         authorImage,
+        toc,
         ...(matterResult.data as { title: string; date: string; category: string; excerpt: string, image?: string }),
     };
 }
