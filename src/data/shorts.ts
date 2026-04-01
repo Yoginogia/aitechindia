@@ -6,6 +6,11 @@ export interface TechShort {
 
 export const TECH_SHORTS: TechShort[] = [
     {
+        id: "WFig9CZBFOw",
+        title: "Latest Tech Short",
+        channel: "Tech Updates",
+    },
+    {
         id: "N8uCvUilW_M",
         title: "Huawei Matebook Fold Ultimate",
         channel: "Tech Leaks",
