@@ -1,14 +1,13 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Clock, TrendingUp, ExternalLink, Zap, AlertCircle, Globe, MapPin } from 'lucide-react';
+import { Clock, TrendingUp, ExternalLink, Zap, Globe, MapPin, Radio } from 'lucide-react';
 
 interface NewsArticle {
     title: string;
     source: { name: string };
     publishedAt: string;
     url: string;
-    image?: string;
 }
 
 const MOCK_GLOBAL_NEWS_DATA = [
@@ -37,9 +36,9 @@ const MOCK_GLOBAL_NEWS_DATA = [
         url: "#"
     },
     {
-        title: "Apple announces M4 Ultra chip with Neural Engine for AI tasks",
-        source: { name: "9to5Mac" },
-        minutesAgo: 240,
+        title: "Nvidia H300 GPU breaks all AI training speed records",
+        source: { name: "Tom's Hardware" },
+        minutesAgo: 360,
         url: "#"
     },
     {
@@ -49,9 +48,9 @@ const MOCK_GLOBAL_NEWS_DATA = [
         url: "#"
     },
     {
-        title: "Nvidia H300 GPU breaks all AI training speed records",
-        source: { name: "Tom's Hardware" },
-        minutesAgo: 360,
+        title: "OpenAI's new reasoning model scores 98% on PhD-level science exams",
+        source: { name: "The Verge" },
+        minutesAgo: 420,
         url: "#"
     }
 ];
@@ -88,8 +87,8 @@ const MOCK_LOCAL_NEWS_DATA = [
         url: "#"
     },
     {
-        title: "Tata ने भारत में पहला AI-powered EV चार्जिंग स्टेशन बनाया",
-        source: { name: "Auto Car India" },
+        title: "Lenovo Laptops पर ₹20,000 Cashback — 15 April तक ही",
+        source: { name: "Tech Updates India" },
         minutesAgo: 330,
         url: "#"
     },
@@ -112,7 +111,6 @@ function timeAgo(dateString: string) {
     const date = new Date(dateString);
     const now = new Date();
     const diffInSeconds = Math.floor((now.getTime() - date.getTime()) / 1000);
-
     if (diffInSeconds < 60) return 'अभी-अभी';
     if (diffInSeconds < 3600) return `${Math.floor(diffInSeconds / 60)} मिनट पहले`;
     if (diffInSeconds < 86400) return `${Math.floor(diffInSeconds / 3600)} घंटे पहले`;
@@ -123,133 +121,169 @@ export default function DualNewsWidget() {
     const [activeTab, setActiveTab] = useState<'global' | 'local'>('local');
     const [globalNews, setGlobalNews] = useState<NewsArticle[]>([]);
     const [localNews, setLocalNews] = useState<NewsArticle[]>([]);
-    const [isLiveGlobal, setIsLiveGlobal] = useState(false);
-    const [isLiveLocal, setIsLiveLocal] = useState(false);
+    const [isLive, setIsLive] = useState(false);
     const [loading, setLoading] = useState(true);
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
         setMounted(true);
-        // Set fresh mock data on client mount
         setGlobalNews(buildMockNews(MOCK_GLOBAL_NEWS_DATA));
         setLocalNews(buildMockNews(MOCK_LOCAL_NEWS_DATA));
+
         async function fetchNews() {
             setLoading(true);
             try {
-                // Fetch Global News from our API Route
                 const globalRes = await fetch('/api/news?type=global');
                 const globalData = await globalRes.json();
                 if (globalData.success) {
-                    // Make real API news look fresh (15 mins to 7 hrs ago)
                     const freshGlobal = globalData.articles.map((article: NewsArticle, idx: number) => ({
                         ...article,
                         publishedAt: new Date(Date.now() - (idx * 45 + 15) * 60 * 1000).toISOString()
                     }));
                     setGlobalNews(freshGlobal);
-                    setIsLiveGlobal(true);
+                    setIsLive(true);
                 } else {
                     setGlobalNews(buildMockNews(MOCK_GLOBAL_NEWS_DATA));
-                    setIsLiveGlobal(false);
                 }
 
-                // Fetch Local News from our API Route
                 const localRes = await fetch('/api/news?type=local');
                 const localData = await localRes.json();
                 if (localData.success) {
-                     // Make real API news look fresh
-                     const freshLocal = localData.articles.map((article: NewsArticle, idx: number) => ({
+                    const freshLocal = localData.articles.map((article: NewsArticle, idx: number) => ({
                         ...article,
                         publishedAt: new Date(Date.now() - (idx * 45 + 20) * 60 * 1000).toISOString()
                     }));
                     setLocalNews(freshLocal);
-                    setIsLiveLocal(true);
+                    setIsLive(true);
                 } else {
                     setLocalNews(buildMockNews(MOCK_LOCAL_NEWS_DATA));
-                    setIsLiveLocal(false);
                 }
-            } catch (error) {
-                console.error("Error fetching news tabs:", error);
-                // Fallbacks are already set in state initialization
+            } catch {
+                // Fallbacks already set
             } finally {
                 setLoading(false);
             }
         }
-
         fetchNews();
     }, []);
 
     const currentNews = activeTab === 'global' ? globalNews : localNews;
-    const isCurrentlyLive = activeTab === 'global' ? isLiveGlobal : isLiveLocal;
 
     return (
-        <div className="rounded-2xl border border-border/30 bg-card/50 backdrop-blur p-6 gradient-border">
-            <div className="flex items-center justify-between pb-4 mb-4 border-b border-border/20">
-                <div className="flex items-center gap-2">
-                    <div className="h-8 w-8 rounded-lg bg-gradient-to-br from-orange-500 to-red-500 flex items-center justify-center">
-                        <TrendingUp className="h-4 w-4 text-white" />
+        <div className="relative rounded-2xl overflow-hidden border border-primary/20 bg-card/60 backdrop-blur-xl shadow-xl">
+            {/* Neon glow top border */}
+            <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-primary to-transparent opacity-70" />
+
+            {/* Header */}
+            <div className="flex items-center justify-between px-5 pt-5 pb-4">
+                <div className="flex items-center gap-3">
+                    {/* Icon with gradient bg */}
+                    <div className="relative h-9 w-9 rounded-xl bg-gradient-to-br from-primary/30 to-purple-500/30 flex items-center justify-center border border-primary/30 shadow-lg shadow-primary/10">
+                        <TrendingUp className="h-4 w-4 text-primary" />
                     </div>
                     <div>
-                        <h2 className="text-lg font-bold tracking-tight">Trending News</h2>
-                        <p className="text-xs text-muted-foreground">दुनिया भर से ताज़ा अपडेट</p>
+                        <h2 className="text-base font-bold tracking-tight leading-none">Trending News</h2>
+                        <p className="text-[11px] text-muted-foreground mt-0.5">दुनिया भर की ताज़ा अपडेट</p>
                     </div>
                 </div>
-                {isCurrentlyLive ? (
-                    <span className="flex h-2.5 w-2.5 rounded-full bg-green-500 live-dot" title="Live Server Connected"></span>
-                ) : (
-                    <span className="flex h-2.5 w-2.5 rounded-full bg-yellow-500" title="Offline Sync Active"></span>
-                )}
+                {/* Live indicator */}
+                <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/20">
+                    {isLive ? (
+                        <>
+                            <span className="relative flex h-2 w-2">
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75" />
+                                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500" />
+                            </span>
+                            <span className="text-[10px] font-semibold text-emerald-400">LIVE</span>
+                        </>
+                    ) : (
+                        <>
+                            <Radio className="h-3 w-3 text-amber-400" />
+                            <span className="text-[10px] font-semibold text-amber-400">SYNC</span>
+                        </>
+                    )}
+                </div>
             </div>
 
             {/* Tabs */}
-            <div className="flex bg-secondary/50 p-1 rounded-lg mb-4">
-                <button
-                    onClick={() => setActiveTab('local')}
-                    className={`flex-1 flex items-center justify-center gap-2 text-xs font-medium py-1.5 rounded-md transition-all ${activeTab === 'local' ? 'bg-background shadow text-foreground' : 'text-muted-foreground hover:text-foreground'}`}
-                >
-                    <MapPin className="h-3.5 w-3.5" /> India (HI)
-                </button>
-                <button
-                    onClick={() => setActiveTab('global')}
-                    className={`flex-1 flex items-center justify-center gap-2 text-xs font-medium py-1.5 rounded-md transition-all ${activeTab === 'global' ? 'bg-background shadow text-foreground' : 'text-muted-foreground hover:text-foreground'}`}
-                >
-                    <Globe className="h-3.5 w-3.5" /> Global (EN)
-                </button>
+            <div className="px-5 pb-4">
+                <div className="flex bg-secondary/40 p-1 rounded-xl border border-border/30 gap-1">
+                    <button
+                        onClick={() => setActiveTab('local')}
+                        className={`flex-1 flex items-center justify-center gap-1.5 text-xs font-semibold py-2 rounded-lg transition-all duration-200 ${
+                            activeTab === 'local'
+                                ? 'bg-gradient-to-r from-primary to-purple-500 text-white shadow-md shadow-primary/20'
+                                : 'text-muted-foreground hover:text-foreground hover:bg-secondary/60'
+                        }`}
+                    >
+                        <MapPin className="h-3 w-3" /> India 🇮🇳
+                    </button>
+                    <button
+                        onClick={() => setActiveTab('global')}
+                        className={`flex-1 flex items-center justify-center gap-1.5 text-xs font-semibold py-2 rounded-lg transition-all duration-200 ${
+                            activeTab === 'global'
+                                ? 'bg-gradient-to-r from-primary to-purple-500 text-white shadow-md shadow-primary/20'
+                                : 'text-muted-foreground hover:text-foreground hover:bg-secondary/60'
+                        }`}
+                    >
+                        <Globe className="h-3 w-3" /> Global 🌐
+                    </button>
+                </div>
             </div>
 
-            <div className={`space-y-4 transition-opacity duration-300 max-h-[500px] overflow-y-auto pr-1 ${loading ? 'opacity-50' : 'opacity-100'}`}>
+            {/* News List */}
+            <div className={`px-5 pb-4 space-y-1 max-h-[420px] overflow-y-auto transition-opacity duration-300 ${loading ? 'opacity-40' : 'opacity-100'}`}>
                 {currentNews.map((article, index) => (
                     <a
                         key={index}
                         href={article.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="group block space-y-2 border-b border-border/10 last:border-0 pb-4 last:pb-0 hover:bg-secondary/20 -mx-2 px-2 py-1 rounded-lg transition-colors"
+                        className="group flex items-start gap-3 py-3 px-3 rounded-xl hover:bg-primary/5 border border-transparent hover:border-primary/15 transition-all duration-200 -mx-1"
                     >
-                        <div className="flex items-start gap-3">
-                            <span className="h-7 w-7 rounded-full bg-gradient-to-br from-primary to-purple-500 flex items-center justify-center text-xs font-bold text-white shrink-0">{String(index + 1).padStart(2, '0')}</span>
-                            <div className="space-y-1.5 flex-1">
-                                <h3 className="text-sm font-semibold leading-snug group-hover:text-primary transition-colors line-clamp-2">
-                                    {article.title}
-                                </h3>
-                                <div className="flex items-center justify-between text-xs text-muted-foreground">
-                                    <span className="font-medium text-foreground/50">{article.source.name}</span>
-                                    <span className="flex items-center gap-1">
-                                        <Clock className="h-3 w-3" /> {mounted ? timeAgo(article.publishedAt) : <span className="w-8 h-2 bg-muted rounded animate-pulse inline-block"></span>}
-                                        <ExternalLink className="h-3 w-3 ml-1 opacity-0 group-hover:opacity-100 transition-opacity" />
-                                    </span>
-                                </div>
+                        {/* Number badge */}
+                        <span className={`shrink-0 h-6 w-6 rounded-lg flex items-center justify-center text-[11px] font-black transition-all group-hover:scale-110 ${
+                            index === 0
+                                ? 'bg-gradient-to-br from-amber-400 to-orange-500 text-white shadow-md shadow-amber-500/30'
+                                : index === 1
+                                ? 'bg-gradient-to-br from-slate-400 to-slate-500 text-white'
+                                : index === 2
+                                ? 'bg-gradient-to-br from-amber-700 to-amber-800 text-white'
+                                : 'bg-secondary/80 text-muted-foreground border border-border/40'
+                        }`}>
+                            {index + 1}
+                        </span>
+
+                        {/* Content */}
+                        <div className="flex-1 min-w-0">
+                            <p className="text-[13px] font-semibold leading-snug text-foreground/90 group-hover:text-primary transition-colors line-clamp-2">
+                                {article.title}
+                            </p>
+                            <div className="flex items-center gap-2 mt-1.5">
+                                <span className="text-[10px] font-semibold text-primary/70 bg-primary/8 px-1.5 py-0.5 rounded-md border border-primary/15">
+                                    {article.source.name}
+                                </span>
+                                <span className="text-[10px] text-muted-foreground flex items-center gap-0.5">
+                                    <Clock className="h-2.5 w-2.5" />
+                                    {mounted ? timeAgo(article.publishedAt) : '—'}
+                                </span>
+                                <ExternalLink className="h-2.5 w-2.5 text-muted-foreground/40 opacity-0 group-hover:opacity-100 transition-opacity ml-auto" />
                             </div>
                         </div>
                     </a>
                 ))}
             </div>
 
-            <div className="mt-5 pt-4 border-t border-border/20 flex justify-center items-center gap-2">
+            {/* Glowing bottom footer */}
+            <div className="flex items-center justify-center gap-1.5 py-3 border-t border-border/20 bg-secondary/10">
                 <Zap className="h-3 w-3 text-primary" />
-                <p className="text-[11px] text-muted-foreground">
+                <p className="text-[10px] text-muted-foreground font-medium">
                     {activeTab === 'global' ? 'Powered by GNews API' : 'Powered by NewsData.io'}
                 </p>
             </div>
+
+            {/* Bottom neon glow border */}
+            <div className="absolute bottom-0 left-0 right-0 h-[1px] bg-gradient-to-r from-transparent via-purple-500/50 to-transparent" />
         </div>
     );
 }
