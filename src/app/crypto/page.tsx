@@ -23,7 +23,7 @@ export default function CryptoNewsPage() {
                                 <span className="gradient-text">Crypto News</span>
                             </h1>
                             <p className="text-muted-foreground text-sm md:text-base">
-                                Bitcoin, Ethereum, Solana aur crypto market ki ताज़ा ख़बरें। (Updated: 18 March 2026)
+                                Bitcoin, Ethereum, Solana aur crypto market ki ताज़ा ख़बरें। (Updated: 2 April 2026)
                             </p>
                         </div>
                         <span className="hidden md:inline-flex text-sm text-muted-foreground bg-secondary/50 px-4 py-1.5 rounded-full border border-border/50 font-medium">

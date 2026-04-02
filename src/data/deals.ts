@@ -37,6 +37,38 @@ export const TOP_DEALS: Deal[] = [
         content: "Lenovo का यह April Cashback Offer आपको एक बड़ा मौका दे रहा है। 1 से 15 April 2026 के बीच अगर आप Lenovo.com/in से कोई भी Laptop, Desktop, Workstation, या Accessories खरीदते हैं और किसी भी Bank Credit Card से Payment करते हैं, तो आपको ₹20,000 तक का Cashback मिलेगा। LOQ Gaming Laptop, IdeaPad Slim 5, और ThinkPad जैसे popular models पर यह offer लागू है। Amazon या Flipkart पर नहीं — सिर्फ Official Website पर!"
     },
     {
+        slug: "iqoo-z9s-5g-gaming-deal",
+        title: "iQOO Z9s 5G — Budget Gaming Beast! 🎮 (₹14,999)",
+        category: "Smartphone",
+        description: "Snapdragon 7s Gen 3, 144Hz AMOLED Display, 5500mAh Battery। April में सबसे Hot Budget 5G Phone। Amazon पर ₹14,999 में मिल रहा है!",
+        price: "₹14,999",
+        discount: "₹2,001 Off (था ₹16,999)",
+        rating: 4.7,
+        tag: "🎮 Gaming Pick",
+        image: "/images/blog/best-5g-phones-under-15000.png",
+        buyLink: `https://www.amazon.in/s?k=iqoo+z9s+5g&tag=aitechnews-21`,
+        platform: "Amazon India",
+        specs: ["Snapdragon 7s Gen 3", "144Hz AMOLED Display", "50MP OIS Camera", "5500mAh + 44W Charging", "8GB RAM / 128GB Storage"],
+        bankOffers: ["HDFC Credit Card — Extra ₹1,500 Off", "Axis Bank — 5% Cashback", "No-Cost EMI — 6 Months"],
+        content: "iQOO Z9s 5G यह ₹15,000 Budget में सबसे Powerful Processor वाला Phone है। Snapdragon 7s Gen 3 Chip Gaming और AI दोनों के लिए बेहतरीन है। 144Hz AMOLED Display पर Games और Videos देखना एक अलग ही अनुभव है। 44W Fast Charging से 0 से 100% सिर्फ 50 मिनट में!"
+    },
+    {
+        slug: "apple-macbook-air-m3-april-deal",
+        title: "Apple MacBook Air M3 — April में सबसे बड़ा Discount! 💻",
+        category: "Laptop",
+        description: "Apple MacBook Air M3 पर April में ₹15,000 तक का Instant Discount। 18-hour battery, All-day performance। Students & Creators के लिए Best Buy!",
+        price: "₹1,04,990",
+        discount: "₹15,000 Off (था ₹1,19,990)",
+        rating: 4.9,
+        tag: "⭐ Editor's Pick",
+        image: "/images/blog/lenovo-cashback-april.png",
+        buyLink: `https://www.amazon.in/s?k=macbook+air+m3&tag=aitechnews-21`,
+        platform: "Amazon India",
+        specs: ["Apple M3 Chip (8-core GPU)", "15.3-inch Liquid Retina Display", "8GB / 16GB RAM Options", "18 Hours Battery Life", "2x Thunderbolt 3 Ports", "MagSafe 3 Charging"],
+        bankOffers: ["HDFC Bank Debit Card — 5% Off", "SBI Credit Card — ₹5,000 Instant Discount", "No-Cost EMI — Up to 24 Months", "Jio Postpaid — Extra ₹2,000 Benefit"],
+        content: "Apple MacBook Air M3 इस वक्त Amazon पर अपनी सबसे कम कीमत पर है। M3 Chip का Neural Engine AI Tasks को बिजली की तेज़ी से Handle करता है और इसकी 18-घंटे की Battery पूरे दिन चलती है। Students, Designers और Developers — सबके लिए यह Ideal Machine है। April Deal के साथ अभी लेना फायदे का सौदा है!"
+    },
+    {
         slug: "samsung-galaxy-book6-ultra",
         title: "Samsung Galaxy Book 6 Ultra — AI-Ready Laptop India Launch! 🤖",
         category: "Laptop",

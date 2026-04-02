@@ -8,6 +8,26 @@ export const metadata: Metadata = {
 
 const STORIES = [
     {
+        slug: 'bitcoin-april-2026-prediction',
+        title: 'Bitcoin April 2026 — $70K होगा या Crash?',
+        subtitle: 'US Jobs Report, ETF Inflows और Expert Predictions — सब कुछ यहाँ!',
+        category: '🔥 Trending',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/bitcoin-april-2026-prediction.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'jio-ai-phone-2026',
+        title: 'Jio AI Phone — ₹5,000 में AI! 🤖',
+        subtitle: 'Hindi AI Assistant, 5G और JioCinema Free — India का Next Revolution!',
+        category: '🆕 Upcoming',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/jio-ai-phone-2026.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'nvidia-marvell-ai-deal',
         title: 'Nvidia का $2B AI Deal — Game Changer!',
         subtitle: 'Nvidia ने Marvell में $2 Billion लगाए। Marvell का Stock 11% उछला!',
