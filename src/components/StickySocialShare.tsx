@@ -9,25 +9,51 @@ export default function StickySocialShare() {
     const [currentUrl, setCurrentUrl] = useState('');
     const [pageTitle, setPageTitle] = useState('');
 
+    const cleanTitle = (raw: string) =>
+        raw.replace(/ \| AITechNews$/, '').replace(/ \| AITechNews India$/, '').trim();
+
     useEffect(() => {
         setCurrentUrl(window.location.href);
-        // Get title and remove the sitename suffix for cleaner sharing
-        const title = document.title.replace(' | AITechNews', '');
-        setPageTitle(title);
-        
+
+        // Set title immediately
+        setPageTitle(cleanTitle(document.title));
+
+        // Watch for title changes — Next.js sometimes sets it after mount
+        const observer = new MutationObserver(() => {
+            const newTitle = cleanTitle(document.title);
+            if (newTitle) setPageTitle(newTitle);
+        });
+        observer.observe(document.querySelector('title') || document.head, {
+            subtree: true,
+            characterData: true,
+            childList: true,
+        });
+
+        // Also retry after 500ms as a fallback
+        const timer = setTimeout(() => {
+            setPageTitle(cleanTitle(document.title));
+        }, 500);
+
         const handleScroll = () => setScrolled(window.scrollY > 300);
         window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+            observer.disconnect();
+            clearTimeout(timer);
+        };
     }, []);
 
     const shareWhatsApp = () => {
-        const text = encodeURIComponent(`${pageTitle}\n${currentUrl}`);
+        const title = pageTitle || 'AITechNews - Latest Tech News';
+        const text = encodeURIComponent(`${title}\n${currentUrl}`);
         window.open(`https://wa.me/?text=${text}`, '_blank');
     };
 
     const shareTelegram = () => {
+        const title = pageTitle || 'AITechNews - Latest Tech News';
         const encodedUrl = encodeURIComponent(currentUrl);
-        const encodedText = encodeURIComponent(pageTitle);
+        const encodedText = encodeURIComponent(title);
         window.open(`https://t.me/share/url?url=${encodedUrl}&text=${encodedText}`, '_blank');
     };
 
