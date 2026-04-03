@@ -7,22 +7,28 @@ export default function StickySocialShare() {
     const [scrolled, setScrolled] = useState(false);
     const [copied, setCopied] = useState(false);
     const [currentUrl, setCurrentUrl] = useState('');
+    const [pageTitle, setPageTitle] = useState('');
 
     useEffect(() => {
         setCurrentUrl(window.location.href);
+        // Get title and remove the sitename suffix for cleaner sharing
+        const title = document.title.replace(' | AITechNews', '');
+        setPageTitle(title);
+        
         const handleScroll = () => setScrolled(window.scrollY > 300);
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
     const shareWhatsApp = () => {
-        const text = encodeURIComponent(`Ye News dekhi? 🚀\n${currentUrl}`);
+        const text = encodeURIComponent(`${pageTitle}\n${currentUrl}`);
         window.open(`https://wa.me/?text=${text}`, '_blank');
     };
 
     const shareTelegram = () => {
-        const text = encodeURIComponent(`AITechNews Update:`);
-        window.open(`https://t.me/share/url?url=${currentUrl}&text=${text}`, '_blank');
+        const encodedUrl = encodeURIComponent(currentUrl);
+        const encodedText = encodeURIComponent(pageTitle);
+        window.open(`https://t.me/share/url?url=${encodedUrl}&text=${encodedText}`, '_blank');
     };
 
     const copyLink = () => {

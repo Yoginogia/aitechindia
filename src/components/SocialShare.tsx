@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Share2, Twitter, Facebook, Link as LinkIcon } from 'lucide-react';
+import { Share2, Twitter, Facebook, Link as LinkIcon, Send } from 'lucide-react';
 
 export default function SocialShare({ title }: { title: string }) {
     const [mounted, setMounted] = useState(false);
@@ -29,10 +29,11 @@ export default function SocialShare({ title }: { title: string }) {
             </span>
             
             <a 
-                href={`https://api.whatsapp.com/send?text=${encodedTitle}%20${encodedUrl}`} 
+                href={`https://api.whatsapp.com/send?text=${encodedTitle}%0A${encodedUrl}`} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-[#25D366]/10 text-[#25D366] hover:bg-[#25D366] hover:text-white flex items-center justify-center transition-colors shadow-sm"
+                title="Share on WhatsApp"
             >
                 {/* Custom WhatsApp Icon SVG since lucide doesn't have it */}
                 <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -41,10 +42,21 @@ export default function SocialShare({ title }: { title: string }) {
             </a>
 
             <a 
+                href={`https://t.me/share/url?url=${encodedUrl}&text=${encodedTitle}`} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="w-10 h-10 rounded-full bg-sky-500/10 text-sky-500 hover:bg-sky-500 hover:text-white flex items-center justify-center transition-colors shadow-sm"
+                title="Share on Telegram"
+            >
+                <Send className="w-5 h-5" />
+            </a>
+
+            <a 
                 href={`https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`} 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-blue-400/10 text-blue-400 hover:bg-blue-400 hover:text-white flex items-center justify-center transition-colors shadow-sm"
+                title="Share on Twitter"
             >
                 <Twitter className="w-5 h-5" />
             </a>
@@ -54,6 +66,7 @@ export default function SocialShare({ title }: { title: string }) {
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-blue-600/10 text-blue-600 hover:bg-blue-600 hover:text-white flex items-center justify-center transition-colors shadow-sm"
+                title="Share on Facebook"
             >
                 <Facebook className="w-5 h-5" />
             </a>
