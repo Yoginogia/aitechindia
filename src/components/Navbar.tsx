@@ -8,6 +8,7 @@ import SearchModal from './SearchModal';
 import { ThemeToggle } from './ThemeToggle';
 
 const NAV_CATEGORIES = [
+    { href: '/',            label: 'Home',          emoji: '🏠', color: 'from-slate-500 to-slate-700' },
     { href: '/latest',      label: 'Latest',        emoji: '🔥', color: 'from-orange-500 to-red-500' },
     { href: '/web-stories', label: 'Web Stories',   emoji: '⚡', color: 'from-yellow-400 to-orange-500' },
     { href: '/ai-tools',    label: 'AI Tools',      emoji: '🤖', color: 'from-blue-500 to-cyan-400' },
@@ -16,13 +17,11 @@ const NAV_CATEGORIES = [
     { href: '/compare',     label: 'Compare',       emoji: '⚖️', color: 'from-indigo-500 to-purple-500' },
     { href: '/crypto',      label: 'Crypto',        emoji: '💰', color: 'from-yellow-500 to-amber-400' },
     { href: '/top-deals',   label: 'Top Deals',     emoji: '🛒', color: 'from-pink-500 to-rose-500' },
+    { href: '/software',    label: 'Updates',       emoji: '🔄', color: 'from-cyan-500 to-blue-500' },
     { href: '/dictionary',  label: 'Dictionary',    emoji: '📖', color: 'from-teal-400 to-cyan-500' },
 ];
 
-const MOBILE_LINKS = [
-    { href: '/', label: 'Home', emoji: '🏠' },
-    ...NAV_CATEGORIES,
-];
+const MOBILE_LINKS = NAV_CATEGORIES;
 
 export default function Navbar() {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -72,21 +71,7 @@ export default function Navbar() {
                             </div>
                         </Link>
 
-                        {/* Desktop secondary links */}
-                        <nav className="hidden lg:flex items-center gap-1">
-                            <Link href="/"
-                                className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-all ${isActive('/') && pathname === '/' ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-secondary/60'}`}>
-                                🏠 Home
-                            </Link>
-                            <Link href="/software"
-                                className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-all ${isActive('/software') ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-secondary/60'}`}>
-                                🔄 Updates
-                            </Link>
-                            <Link href="/about"
-                                className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-all ${isActive('/about') ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-secondary/60'}`}>
-                                About
-                            </Link>
-                        </nav>
+
 
                         {/* Right Actions */}
                         <div className="flex items-center gap-1.5">
