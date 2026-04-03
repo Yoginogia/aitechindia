@@ -3,7 +3,7 @@ title: "Best Phones Under ₹10000 in India 2026 — Top 6 Budget Picks"
 date: "2026-04-04"
 category: "Gadgets"
 excerpt: "₹10,000 ke andar India ke best smartphones 2026 — 5G, AMOLED display, fast charging sab milega is tight budget mein! Complete buying guide with expert picks."
-image: "https://images.unsplash.com/photo-1621330396167-e4acf44122d6?auto=format&fit=crop&w=800&q=80"
+image: "/images/blog/best_phones_10k.png"
 ---
 
 ₹10,000 ka budget? Abhi bhi **kaafi acche phones** milte hain! 2026 mein entry-level segment mein competition itna badh gaya hai ki pehle se zyada features mil rahi hain is price par. Chalte hain best 6 picks dekhte hain!
