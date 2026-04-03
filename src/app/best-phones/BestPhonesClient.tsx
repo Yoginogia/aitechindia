@@ -31,6 +31,64 @@ interface Phone {
 }
 
 const ALL_PHONES: Phone[] = [
+  // --- Under ₹10K ---
+  {
+    id: 'redmi-14c', name: 'Redmi 14C', brand: 'Xiaomi', price: 9499, priceDisplay: '₹9,499',
+    score: 8.2, badge: 'Best Under 10K',
+    image: 'https://images.unsplash.com/photo-1621330396167-e4acf44122d6?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Helio G85', ram: '4GB/6GB', display: '6.88" HD+ 90Hz', camera: '50MP', battery: '5160mAh', charging: '18W', os: 'HyperOS (Android 14)' },
+    highlights: ['50MP Camera at ₹9.5K', '5160mAh Long Battery', '128GB/256GB Storage', '90Hz Smooth Display'],
+    category: 'budget', amazon: 'https://www.amazon.in/s?k=redmi+14c&tag=aitechnews-21', flipkart: 'https://www.flipkart.com/search?q=redmi+14c', compareLink: '/compare',
+  },
+  {
+    id: 'realme-c61', name: 'Realme C61', brand: 'Realme', price: 8999, priceDisplay: '₹8,999',
+    score: 7.8, badge: 'Fastest Charging',
+    image: 'https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Unisoc T612', ram: '4GB/6GB', display: '6.74" HD+ 90Hz', camera: '32MP', battery: '5000mAh', charging: '33W SuperVOOC', os: 'Realme UI' },
+    highlights: ['33W Fast Charging under ₹9K', 'Clean Realme UI', 'Bright Display Outdoors', 'Light & Slim Design'],
+    category: 'budget', amazon: 'https://www.amazon.in/s?k=realme+c61&tag=aitechnews-21', flipkart: 'https://www.flipkart.com/search?q=realme+c61', compareLink: '/compare',
+  },
+  {
+    id: 'samsung-a06', name: 'Samsung Galaxy A06', brand: 'Samsung', price: 9999, priceDisplay: '₹9,999',
+    score: 7.6, badge: 'Best Brand Trust',
+    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Exynos 850', ram: '4GB/6GB', display: '6.7" LCD 90Hz', camera: '50MP + 2MP', battery: '5000mAh', charging: '25W', os: 'One UI 6 Core' },
+    highlights: ['Samsung Brand Reliability', '25W Charging at ₹10K', '50MP Camera', 'Best After-Sales Service'],
+    category: 'budget', amazon: 'https://www.amazon.in/s?k=samsung+galaxy+a06&tag=aitechnews-21', flipkart: 'https://www.flipkart.com/search?q=samsung+galaxy+a06', compareLink: '/compare',
+  },
+  // --- Under ₹15K ---
+  {
+    id: 'realme-narzo-70-pro', name: 'Realme Narzo 70 Pro 5G', brand: 'Realme', price: 14499, priceDisplay: '₹14,499',
+    score: 8.9, badge: '⭐ Best Under 15K',
+    image: 'https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Dimensity 7050 5G', ram: '8GB', display: '6.67" AMOLED 120Hz', camera: '50MP Sony OIS', battery: '5000mAh', charging: '67W SuperVOOC', os: 'Realme UI 5' },
+    highlights: ['67W Charging under ₹15K!', '5G Future-Proof', 'AMOLED 120Hz Display', 'Sony OIS Camera'],
+    category: 'budget', amazon: 'https://www.amazon.in/s?k=realme+narzo+70+pro+5g&tag=aitechnews-21', flipkart: 'https://www.flipkart.com/search?q=realme+narzo+70+pro+5g', compareLink: '/compare',
+  },
+  {
+    id: 'redmi-note-14', name: 'Redmi Note 14', brand: 'Xiaomi', price: 14999, priceDisplay: '₹14,999',
+    score: 8.7, badge: 'Best Camera',
+    image: 'https://images.unsplash.com/photo-1621330396167-e4acf44122d6?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Dimensity 7025', ram: '6GB/8GB', display: '6.67" AMOLED 120Hz 2100nits', camera: '108MP + 8MP', battery: '5500mAh', charging: '33W Turbo', os: 'HyperOS' },
+    highlights: ['108MP Highest Resolution', 'IP64 Water Resistant', '2100 nits Bright AMOLED', '5500mAh Battery'],
+    category: 'budget', amazon: 'https://www.amazon.in/s?k=redmi+note+14&tag=aitechnews-21', flipkart: 'https://www.flipkart.com/search?q=redmi+note+14', compareLink: '/compare',
+  },
+  {
+    id: 'samsung-m15-5g', name: 'Samsung Galaxy M15 5G', brand: 'Samsung', price: 13999, priceDisplay: '₹13,999',
+    score: 8.3, badge: '6yr Updates',
+    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Dimensity 6100+ 5G', ram: '4GB/6GB', display: '6.5" Super AMOLED 90Hz', camera: '50MP + 5MP + 2MP', battery: '6000mAh', charging: '25W', os: 'One UI 6 (6yr updates)' },
+    highlights: ['6 Years OS Updates!', '6000mAh Largest Battery', '5G Network Ready', 'Samsung Super AMOLED'],
+    category: 'budget', amazon: 'https://www.amazon.in/s?k=samsung+galaxy+m15+5g&tag=aitechnews-21', flipkart: 'https://www.flipkart.com/search?q=samsung+m15+5g', compareLink: '/compare',
+  },
+  {
+    id: 'iqoo-z9x', name: 'iQOO Z9x', brand: 'iQOO', price: 13999, priceDisplay: '₹13,999',
+    score: 8.1, badge: 'Best Gaming',
+    image: 'https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 6 Gen 1', ram: '4GB/6GB', display: '6.72" LCD 120Hz', camera: '50MP Sony', battery: '6000mAh', charging: '44W FlashCharge', os: 'FunTouchOS 14' },
+    highlights: ['Snapdragon 6 Gen 1 Gaming', '44W Fast Charging', '6000mAh Huge Battery', 'V2e Gaming Chip'],
+    category: 'budget', amazon: 'https://www.amazon.in/s?k=iqoo+z9x&tag=aitechnews-21', flipkart: 'https://www.flipkart.com/search?q=iqoo+z9x', compareLink: '/compare',
+  },
   {
     id: 'iqoo-neo-10', name: 'iQOO Neo 10', brand: 'iQOO', price: 29999, priceDisplay: '₹29,999',
     score: 9.1, badge: 'Best Value',
@@ -123,12 +181,13 @@ const ALL_PHONES: Phone[] = [
 
 const BUDGETS = [
   { label: 'All', max: Infinity },
+  { label: 'Under ₹10K', max: 10000 },
+  { label: 'Under ₹15K', max: 15000 },
   { label: 'Under ₹20K', max: 20000 },
   { label: 'Under ₹25K', max: 25000 },
   { label: 'Under ₹30K', max: 30000 },
   { label: 'Under ₹40K', max: 40000 },
   { label: 'Under ₹50K', max: 50000 },
-  { label: 'Under ₹75K', max: 75000 },
   { label: '₹1L+', max: Infinity },
 ];
 
