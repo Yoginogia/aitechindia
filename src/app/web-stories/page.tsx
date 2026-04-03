@@ -8,6 +8,26 @@ export const metadata: Metadata = {
 
 const STORIES = [
     {
+        slug: 'claude-mythos-5-launch',
+        title: 'Claude Mythos 5: AI किंग!',
+        subtitle: '10 Trillion Parameters की ताकत। GPT-5.4 को पीछे छोड़ा?',
+        category: '🔥 Trending',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/claude-mythos-5-gpt-battle.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'chrome-emergency-update-2026',
+        title: 'Chrome यूजर्स सावधान! 🆘',
+        subtitle: 'Zero-Day Bug (CVE-2026-5281) मिला। अभी Update करें!',
+        category: '⚠️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/chrome-security-alert-2026.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'bitcoin-april-2026-prediction',
         title: 'Bitcoin April 2026 — $70K होगा या Crash?',
         subtitle: 'US Jobs Report, ETF Inflows और Expert Predictions — सब कुछ यहाँ!',
