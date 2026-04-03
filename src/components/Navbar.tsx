@@ -1,190 +1,201 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Menu, Search, Rss, Zap, X } from 'lucide-react';
+import { Menu, Search, X, ChevronDown } from 'lucide-react';
 import SearchModal from './SearchModal';
 import { ThemeToggle } from './ThemeToggle';
 
+const NAV_CATEGORIES = [
+    { href: '/latest',      label: 'Latest',        emoji: '🔥', color: 'from-orange-500 to-red-500' },
+    { href: '/web-stories', label: 'Web Stories',   emoji: '⚡', color: 'from-yellow-400 to-orange-500' },
+    { href: '/ai-tools',    label: 'AI Tools',      emoji: '🤖', color: 'from-blue-500 to-cyan-400' },
+    { href: '/gadgets',     label: 'Gadgets',       emoji: '📱', color: 'from-purple-500 to-pink-500' },
+    { href: '/best-phones', label: 'Best Phones',   emoji: '🏆', color: 'from-green-400 to-emerald-500' },
+    { href: '/compare',     label: 'Compare',       emoji: '⚖️', color: 'from-indigo-500 to-purple-500' },
+    { href: '/crypto',      label: 'Crypto',        emoji: '💰', color: 'from-yellow-500 to-amber-400' },
+    { href: '/top-deals',   label: 'Top Deals',     emoji: '🛒', color: 'from-pink-500 to-rose-500' },
+    { href: '/dictionary',  label: 'Dictionary',    emoji: '📖', color: 'from-teal-400 to-cyan-500' },
+];
+
+const MOBILE_LINKS = [
+    { href: '/', label: 'Home', emoji: '🏠' },
+    ...NAV_CATEGORIES,
+];
+
 export default function Navbar() {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
-    const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+    const [isMobileOpen, setIsMobileOpen] = useState(false);
+    const [scrolled, setScrolled] = useState(false);
     const pathname = usePathname();
 
-    // Close mobile menu on route change
+    useEffect(() => { setIsMobileOpen(false); }, [pathname]);
+
     useEffect(() => {
-        setIsMobileMenuOpen(false);
-    }, [pathname]);
+        const onScroll = () => setScrolled(window.scrollY > 20);
+        window.addEventListener('scroll', onScroll, { passive: true });
+        return () => window.removeEventListener('scroll', onScroll);
+    }, []);
 
-    // Prevent body scroll when mobile menu or search is open
     useEffect(() => {
-        if (isMobileMenuOpen || isSearchOpen) {
-            document.body.style.overflow = 'hidden';
-            document.body.style.paddingRight = 'var(--removed-body-scroll-bar-size)'; // Prevent layout shift if any
-        } else {
-            document.body.style.overflow = '';
-            document.body.style.paddingRight = '';
-        }
-    }, [isMobileMenuOpen, isSearchOpen]);
+        document.body.style.overflow = (isMobileOpen || isSearchOpen) ? 'hidden' : '';
+        return () => { document.body.style.overflow = ''; };
+    }, [isMobileOpen, isSearchOpen]);
 
-    const isActive = (path: string) => {
-        if (path === '/') {
-            return pathname === '/';
-        }
-        return pathname?.startsWith(path);
-    };
-
-    const getLinkClass = (path: string) => {
-        const baseClass = "transition-all font-medium text-sm px-3 py-1.5 rounded-full flex items-center";
-        return isActive(path) 
-            ? `${baseClass} bg-primary text-primary-foreground shadow-md font-semibold` 
-            : `${baseClass} text-foreground/70 hover:text-foreground hover:bg-secondary/50`;
-    };
-
-    const getMobileLinkClass = (path: string) => {
-        const baseClass = "transition-all font-medium text-base px-4 py-3 rounded-xl flex items-center gap-3 w-full";
-        return isActive(path) 
-            ? `${baseClass} bg-primary text-primary-foreground shadow-md font-semibold` 
-            : `${baseClass} text-foreground/80 hover:text-foreground hover:bg-secondary/50`;
-    };
-
-    const navLinks = [
-        { href: '/', label: 'Home', icon: '🏠' },
-        { href: '/latest', label: 'Latest', icon: '📰' },
-        { href: '/web-stories', label: 'Web Stories', icon: '⚡' },
-        { href: '/best-phones', label: 'Best Phones', icon: '📱' },
-        { href: '/compare', label: 'Compare', icon: '⚖️' },
-        { href: '/dictionary', label: 'Tech Dictionary', icon: '📖' },
-        { href: '/software', label: 'Updates', icon: '🔄' },
-        { href: '/ai-tools', label: 'AI Tools', icon: '🤖' },
-        { href: '/gadgets', label: 'Gadgets', icon: '📟' },
-        { href: '/crypto', label: 'Crypto News', icon: '💰' },
-        { href: '/top-deals', label: 'Top Deals', icon: '🛒' },
-    ];
+    const isActive = (path: string) =>
+        path === '/' ? pathname === '/' : pathname?.startsWith(path);
 
     return (
         <>
-            <header className="sticky top-0 z-50 w-full glass border-b border-border/30">
-                <div className="container mx-auto flex h-16 max-w-7xl items-center px-4 md:px-8">
-                    <div className="flex flex-1 items-center justify-between">
-                        <div className="flex items-center gap-6">
-                            <Link href="/" className="flex items-center gap-2 group">
-                                <img src="/logo.png" alt="AITechNews" className="h-9 w-9 rounded-lg shadow-lg shadow-primary/20 group-hover:shadow-primary/40 transition-shadow" />
-                                <span className="font-bold text-xl tracking-tight gradient-text">
-                                    AITechNews
-                                </span>
-                            </Link>
-                            <nav className="hidden md:flex items-center gap-2 text-sm font-medium">
-                                <Link href="/" className={getLinkClass('/')}>
-                                    Home
-                                </Link>
-                                <Link href="/latest" className={getLinkClass('/latest')}>
-                                    <Rss className="h-3.5 w-3.5 mr-1.5 inline-block" /> Latest
-                                </Link>
-                                <Link href="/web-stories" className={getLinkClass('/web-stories')}>
-                                    ⚡ Web Stories
-                                </Link>
-                                <Link href="/dictionary" className={getLinkClass('/dictionary')}>
-                                    📖 Tech Dictionary
-                                </Link>
-                                <Link href="/ai-tools" className={getLinkClass('/ai-tools')}>
-                                    AI Tools
-                                </Link>
-                                <Link href="/gadgets" className={getLinkClass('/gadgets')}>
-                                    Gadgets
-                                </Link>
-                                <Link href="/best-phones" className={getLinkClass('/best-phones')}>
-                                    📱 Best Phones
-                                </Link>
-                                <Link href="/compare" className={getLinkClass('/compare')}>
-                                    Compare
-                                </Link>
-                                <Link href="/crypto" className={getLinkClass('/crypto')}>
-                                    Crypto News
-                                </Link>
-                                <Link href="/top-deals" className={getLinkClass('/top-deals')}>
-                                    Top Deals
-                                </Link>
-                            </nav>
-                        </div>
+            {/* ───── HEADER ───── */}
+            <header className={`sticky top-0 z-50 w-full transition-all duration-300 ${scrolled ? 'shadow-lg shadow-primary/10' : ''}`}>
+                {/* ── TOP BAR: Logo + Actions ── */}
+                <div className="relative bg-background/90 backdrop-blur-xl border-b border-border/40">
+                    {/* Animated gradient stripe at very top */}
+                    <div className="absolute top-0 left-0 right-0 h-[2px] bg-gradient-to-r from-indigo-500 via-purple-500 via-pink-500 to-orange-400 animate-gradient-x" />
 
-                            <div className="flex items-center gap-1 md:gap-4">
-                                <ThemeToggle />
-                                <button 
-                                    onClick={() => setIsSearchOpen(true)}
-                                    className="p-2 text-foreground/70 hover:text-foreground"
-                                >
-                                    <Search className="h-5 w-5 md:h-4 md:w-4" />
-                                </button>
-                                <button 
-                                    onClick={() => setIsMobileMenuOpen(true)}
-                                    className="md:hidden p-2 text-foreground/70 hover:text-foreground relative z-[60]"
-                                    aria-label="Open Menu"
-                                >
-                                    <Menu className="h-6 w-6" />
-                                </button>
+                    <div className="container mx-auto flex h-14 max-w-7xl items-center justify-between px-4 md:px-6">
+                        {/* Logo */}
+                        <Link href="/" className="flex items-center gap-2.5 group shrink-0">
+                            <div className="relative">
+                                <img
+                                    src="/logo.png"
+                                    alt="AITechNews"
+                                    className="h-9 w-9 rounded-xl shadow-md shadow-primary/30 group-hover:shadow-primary/60 transition-all duration-300 group-hover:scale-110"
+                                />
+                                <span className="absolute -top-1 -right-1 h-2.5 w-2.5 bg-green-400 rounded-full border-2 border-background animate-pulse" />
                             </div>
+                            <div className="flex flex-col leading-none">
+                                <span className="font-extrabold text-lg tracking-tight gradient-text">AITechNews</span>
+                                <span className="text-[9px] text-muted-foreground/70 tracking-widest uppercase font-medium">India&apos;s Tech Hub</span>
+                            </div>
+                        </Link>
+
+                        {/* Desktop secondary links */}
+                        <nav className="hidden lg:flex items-center gap-1">
+                            <Link href="/"
+                                className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-all ${isActive('/') && pathname === '/' ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-secondary/60'}`}>
+                                🏠 Home
+                            </Link>
+                            <Link href="/software"
+                                className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-all ${isActive('/software') ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-secondary/60'}`}>
+                                🔄 Updates
+                            </Link>
+                            <Link href="/about"
+                                className={`text-xs font-semibold px-3 py-1.5 rounded-full transition-all ${isActive('/about') ? 'bg-primary/10 text-primary' : 'text-muted-foreground hover:text-foreground hover:bg-secondary/60'}`}>
+                                About
+                            </Link>
+                        </nav>
+
+                        {/* Right Actions */}
+                        <div className="flex items-center gap-1.5">
+                            <ThemeToggle />
+                            <button
+                                onClick={() => setIsSearchOpen(true)}
+                                className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-secondary/60 hover:bg-primary/10 border border-border/40 hover:border-primary/40 text-muted-foreground hover:text-primary transition-all text-xs font-medium"
+                                aria-label="Search"
+                            >
+                                <Search className="h-3.5 w-3.5" />
+                                <span className="hidden sm:inline">Search</span>
+                            </button>
+                            <button
+                                onClick={() => setIsMobileOpen(true)}
+                                className="lg:hidden p-2 rounded-full hover:bg-secondary/60 text-foreground/70 hover:text-foreground transition-all"
+                                aria-label="Open Menu"
+                            >
+                                <Menu className="h-5 w-5" />
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                {/* ── BOTTOM BAR: Category Strip ── */}
+                <div className="hidden lg:block bg-card/80 backdrop-blur-xl border-b border-border/30">
+                    <div className="container mx-auto max-w-7xl px-4 md:px-6">
+                        <nav className="flex items-center gap-1 overflow-x-auto no-scrollbar py-1.5">
+                            {NAV_CATEGORIES.map(({ href, label, emoji, color }) => {
+                                const active = isActive(href);
+                                return (
+                                    <Link
+                                        key={href}
+                                        href={href}
+                                        className={`group relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all duration-200 ${
+                                            active
+                                                ? `bg-gradient-to-r ${color} text-white shadow-md scale-[1.03]`
+                                                : 'text-muted-foreground hover:text-foreground hover:bg-secondary/70'
+                                        }`}
+                                    >
+                                        <span className={`transition-transform duration-200 ${active ? '' : 'group-hover:scale-125'}`}>{emoji}</span>
+                                        {label}
+                                        {active && (
+                                            <span className="absolute -bottom-[7px] left-1/2 -translate-x-1/2 w-1 h-1 bg-white rounded-full" />
+                                        )}
+                                    </Link>
+                                );
+                            })}
+                        </nav>
                     </div>
                 </div>
             </header>
 
-            {/* Mobile Menu Panel Layer - Highest Z */}
-            <div 
-                className={`fixed inset-y-0 right-0 z-[1001] w-72 bg-background border-l border-border/30 shadow-2xl flex flex-col transition-transform duration-300 ease-in-out md:hidden ${isMobileMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}
-            >
-                {/* Header */}
-                <div className="flex items-center justify-between p-4 border-b border-border/30">
+            {/* ───── MOBILE SLIDE MENU ───── */}
+            <div className={`fixed inset-y-0 right-0 z-[1001] w-[280px] bg-background border-l border-border/30 shadow-2xl flex flex-col transition-transform duration-300 ease-in-out lg:hidden ${isMobileOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+                {/* Menu Header */}
+                <div className="flex items-center justify-between p-4 border-b border-border/40 bg-card/50">
                     <div className="flex items-center gap-2">
-                        <img src="/logo.png" alt="AITechNews" className="h-7 w-7 rounded-md" />
-                        <span className="font-bold text-lg gradient-text">AITechNews</span>
+                        <img src="/logo.png" alt="AITechNews" className="h-8 w-8 rounded-lg shadow-md shadow-primary/30" />
+                        <span className="font-bold text-base gradient-text">AITechNews</span>
                     </div>
-                    <button
-                        onClick={() => setIsMobileMenuOpen(false)}
-                        className="p-2 rounded-lg hover:bg-secondary/50 text-foreground/70 hover:text-foreground transition-colors"
-                    >
+                    <button onClick={() => setIsMobileOpen(false)}
+                        className="p-2 rounded-full hover:bg-secondary/60 text-foreground/70 transition-all">
                         <X className="h-5 w-5" />
                     </button>
                 </div>
 
-                {/* Navigation Links */}
-                <nav className="flex-1 p-4 space-y-1 overflow-y-auto">
-                    {navLinks.map((link) => (
-                        <Link
-                            key={link.href}
-                            href={link.href}
-                            className={getMobileLinkClass(link.href)}
-                            onClick={() => setIsMobileMenuOpen(false)}
-                        >
-                            <span className="text-lg">{link.icon}</span>
-                            {link.label}
-                        </Link>
-                    ))}
+                {/* Menu Links */}
+                <nav className="flex-1 overflow-y-auto p-3 space-y-0.5">
+                    {MOBILE_LINKS.map(({ href, label, emoji }) => {
+                        const active = isActive(href);
+                        return (
+                            <Link
+                                key={href}
+                                href={href}
+                                onClick={() => setIsMobileOpen(false)}
+                                className={`flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium transition-all ${
+                                    active
+                                        ? 'bg-gradient-to-r from-primary/20 to-purple-500/10 text-primary border border-primary/20 shadow-sm'
+                                        : 'text-foreground/70 hover:text-foreground hover:bg-secondary/50'
+                                }`}
+                            >
+                                <span className="text-base w-6 text-center">{emoji}</span>
+                                {label}
+                                {active && <span className="ml-auto w-1.5 h-1.5 rounded-full bg-primary" />}
+                            </Link>
+                        );
+                    })}
                 </nav>
 
-                {/* Footer Links */}
-                <div className="p-4 border-t border-border/30 space-y-1">
-                    <Link href="/about" className="block text-sm text-muted-foreground hover:text-foreground px-4 py-2 rounded-lg hover:bg-secondary/50 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
-                        About Us
-                    </Link>
-                    <Link href="/contact" className="block text-sm text-muted-foreground hover:text-foreground px-4 py-2 rounded-lg hover:bg-secondary/50 transition-colors" onClick={() => setIsMobileMenuOpen(false)}>
-                        Contact
-                    </Link>
+                {/* Menu Footer */}
+                <div className="p-4 border-t border-border/30 bg-card/30 space-y-1 text-xs">
+                    {[{ href: '/about', label: 'About Us' }, { href: '/contact', label: 'Contact' }, { href: '/disclaimer', label: 'Disclaimer' }].map(({ href, label }) => (
+                        <Link key={href} href={href} onClick={() => setIsMobileOpen(false)}
+                            className="block px-3 py-2 rounded-lg text-muted-foreground hover:text-foreground hover:bg-secondary/40 transition-all">
+                            {label}
+                        </Link>
+                    ))}
                 </div>
             </div>
 
-            {/* Backdrop Layer */}
-            {isMobileMenuOpen && (
-                <div 
-                    className="fixed inset-0 z-[1000] bg-black/60 shadow-[0_0_50px_rgba(0,0,0,0.5)] md:hidden"
-                    onClick={() => setIsMobileMenuOpen(false)}
+            {/* Backdrop */}
+            {isMobileOpen && (
+                <div
+                    className="fixed inset-0 z-[1000] bg-black/60 backdrop-blur-sm lg:hidden"
+                    onClick={() => setIsMobileOpen(false)}
                 />
             )}
 
-            <SearchModal
-                isOpen={isSearchOpen}
-                onClose={() => setIsSearchOpen(false)}
-            />
+            <SearchModal isOpen={isSearchOpen} onClose={() => setIsSearchOpen(false)} />
         </>
     );
 }
