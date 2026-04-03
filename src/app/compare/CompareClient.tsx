@@ -1,11 +1,30 @@
 'use client';
 
 import { useState, useRef, useEffect } from "react";
-import { Search, Info, Smartphone, CheckCircle2, ShoppingCart, TrendingUp, AlertTriangle } from "lucide-react";
-import Link from "next/link";
+import { Search, Smartphone, CheckCircle2, ShoppingCart, TrendingUp, AlertTriangle } from "lucide-react";
 import Image from "next/image";
 
-const PHONES = [
+interface PhoneSpec { value: string; score: number; }
+interface Phone {
+  id: string;
+  name: string;
+  price: string;
+  score: number;
+  badge: string;
+  image: string;
+  specs: {
+    camera: PhoneSpec; battery: PhoneSpec; ram: PhoneSpec;
+    display: PhoneSpec; charging: PhoneSpec; processor: PhoneSpec;
+    storage: PhoneSpec; os: PhoneSpec;
+  };
+  pros: string[];
+  cons: string[];
+  verdict: string;
+  amazon: string;
+  flipkart: string;
+}
+
+const PHONES: Phone[] = [
   {
     id: "samsung-s26-ultra",
     name: "Samsung Galaxy S26 Ultra",
@@ -27,6 +46,28 @@ const PHONES = [
     cons: ["Heavy at 228g", "60W charging is slow vs rivals", "Very expensive"],
     verdict: "2026 ka sabse feature-rich Android flagship. Ultimate power users ke liye #1 pasand.",
     amazon: "https://amzn.to/s26ultra", flipkart: "https://flipkart.com/s26ultra",
+  },
+  {
+    id: "iphone-16-pro-max",
+    name: "Apple iPhone 16 Pro Max",
+    price: "₹1,59,900",
+    score: 9.2,
+    badge: "Top Rated",
+    image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "48MP + 12MP + 5x Zoom", score: 10 },
+      battery:   { value: "4685mAh", score: 8 },
+      ram:       { value: "8GB", score: 8 },
+      display:   { value: "6.9\" Super Retina XDR 120Hz", score: 10 },
+      charging:  { value: "30W Wired + 15W MagSafe", score: 7 },
+      processor: { value: "Apple A18 Pro", score: 10 },
+      storage:   { value: "256GB / 512GB / 1TB", score: 10 },
+      os:        { value: "iOS 18 (6 yrs updates)", score: 10 },
+    },
+    pros: ["A18 Pro fastest mobile chip", "Best video recording globally", "Camera Control button", "Premium titanium build"],
+    cons: ["Most expensive on list", "No fast charging", "USB 3 only on Pro", "iOS ecosystem lock-in"],
+    verdict: "Duniya ka sabse powerful smartphone chip. Video creators aur Apple fans ke liye ultimate choice.",
+    amazon: "https://amzn.to/iphone16promax", flipkart: "https://flipkart.com/iphone16promax",
   },
   {
     id: "xiaomi-17-ultra",
@@ -51,92 +92,26 @@ const PHONES = [
     amazon: "https://amzn.to/xiaomi17ultra", flipkart: "https://flipkart.com/xiaomi17ultra",
   },
   {
-    id: "oneplus-15",
-    name: "OnePlus 15",
-    price: "₹72,999",
-    score: 8.6,
-    badge: "Flagship Killer",
-    image: "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=300&q=80",
+    id: "google-pixel-10-pro",
+    name: "Google Pixel 10 Pro",
+    price: "₹1,09,999",
+    score: 8.9,
+    badge: "Smartest AI",
+    image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&w=300&q=80",
     specs: {
-      camera:    { value: "50MP Hasselblad Triple", score: 8 },
-      battery:   { value: "6100mAh", score: 9 },
-      ram:       { value: "12GB / 16GB", score: 9 },
-      display:   { value: "6.82\" BOE LTPO OLED", score: 9 },
-      charging:  { value: "100W Wired + 50W Wireless", score: 10 },
-      processor: { value: "Snapdragon 8 Elite Gen 5", score: 10 },
-      storage:   { value: "256GB / 512GB", score: 8 },
-      os:        { value: "OxygenOS 15", score: 9 },
+      camera:    { value: "50MP Main + 48MP Zoom", score: 10 },
+      battery:   { value: "5100mAh", score: 8 },
+      ram:       { value: "16GB", score: 10 },
+      display:   { value: "6.7\" Actua LTPO 120Hz", score: 9 },
+      charging:  { value: "45W Wired", score: 7 },
+      processor: { value: "Google Tensor G5 (TSMC)", score: 9 },
+      storage:   { value: "256GB / 512GB", score: 9 },
+      os:        { value: "Android 16 (Google AI)", score: 10 },
     },
-    pros: ["100W insane fast charging", "Hasselblad tuning", "Clean OxygenOS", "Premium glass-metal build"],
-    cons: ["Camera falls short of Ultra rivals", "Plastic frame on base variant"],
-    verdict: "Best mid-flagship value. 0-100% sirf 28 minutes mein. Android purists ki first choice.",
-    amazon: "https://amzn.to/oneplus15", flipkart: "https://flipkart.com/oneplus15",
-  },
-  {
-    id: "oneplus-15r",
-    name: "OnePlus 15R",
-    price: "₹51,999",
-    score: 8.2,
-    badge: "Best Value",
-    image: "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&w=300&q=80",
-    specs: {
-      camera:    { value: "50MP Triple", score: 7 },
-      battery:   { value: "7400mAh", score: 10 },
-      ram:       { value: "12GB", score: 8 },
-      display:   { value: "6.7\" AMOLED 120Hz", score: 8 },
-      charging:  { value: "80W SuperVOOC", score: 9 },
-      processor: { value: "Snapdragon 8s Gen 4", score: 8 },
-      storage:   { value: "128GB / 256GB", score: 7 },
-      os:        { value: "OxygenOS 15", score: 9 },
-    },
-    pros: ["7400mAh monster battery", "80W fast charging", "Clean software", "Excellent thermal management"],
-    cons: ["Average secondary cameras", "Not using full Gen 5 flagship chip"],
-    verdict: "Battery enthusiasts aur travelers ke liye perfect. Value for money aspect is unbeatable.",
-    amazon: "https://amzn.to/oneplus15r", flipkart: "https://flipkart.com/oneplus15r",
-  },
-  {
-    id: "nothing-phone-4a-pro",
-    name: "Nothing Phone (4a) Pro",
-    price: "₹48,990",
-    score: 8.0,
-    badge: "Design Pick",
-    image: "https://images.unsplash.com/photo-1707166127113-d4d1da32ebfc?auto=format&fit=crop&w=300&q=80",
-    specs: {
-      camera:    { value: "50MP + 50MP Dual", score: 8 },
-      battery:   { value: "5200mAh", score: 8 },
-      ram:       { value: "12GB", score: 8 },
-      display:   { value: "6.67\" AMOLED 120Hz", score: 8 },
-      charging:  { value: "65W Wired", score: 8 },
-      processor: { value: "Snapdragon 7s Gen 3", score: 7 },
-      storage:   { value: "256GB", score: 8 },
-      os:        { value: "Nothing OS 3.5", score: 9 },
-    },
-    pros: ["New Glyph Bar LED unique", "50MP telephoto lens added", "Very clean fast software", "Eye-catching transparent look"],
-    cons: ["Mid-range processor vs rivals", "No wireless charging", "Limited offline presence"],
-    verdict: "Looks and brains dono hain. Glyph notifications daily use mein kaafi handy lagti hain.",
-    amazon: "https://amzn.to/nothing4apro", flipkart: "https://flipkart.com/nothing4apro",
-  },
-  {
-    id: "iqoo-15r",
-    name: "iQOO 15R",
-    price: "₹44,998",
-    score: 8.3,
-    badge: "Best Gaming",
-    image: "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=300&q=80",
-    specs: {
-      camera:    { value: "50MP Sony IMX882 + 8MP", score: 7 },
-      battery:   { value: "6400mAh", score: 9 },
-      ram:       { value: "8GB / 12GB", score: 8 },
-      display:   { value: "6.77\" AMOLED 144Hz", score: 9 },
-      charging:  { value: "120W FlashCharge", score: 10 },
-      processor: { value: "Snapdragon 8 Gen 4", score: 9 },
-      storage:   { value: "128GB / 256GB", score: 7 },
-      os:        { value: "FunTouchOS 15", score: 7 },
-    },
-    pros: ["120W lightning charging", "144Hz dedicated gaming display", "Top-tier gaming performance", "6400mAh battery"],
-    cons: ["FunTouchOS has bloatware", "Camera strictly average", "Bulky and heavy at 215g"],
-    verdict: "Gamers ke liye best phone under ₹50K. 144Hz + 8 Gen 4 + 120W charging = absolute beast.",
-    amazon: "https://amzn.to/iqoo15r", flipkart: "https://flipkart.com/iqoo15r",
+    pros: ["Best-in-class clean AI", "TSMC built Tensor G5", "Industry leading skin tone camera", "7 years feature drops"],
+    cons: ["Charging speed is average", "India availability (limited colors)"],
+    verdict: "Agar aapko clean Android aur smartest AI features chahiye, toh Pixel 10 Pro se behtar kuch nahi.",
+    amazon: "https://amzn.to/pixel10pro", flipkart: "https://flipkart.com/pixel10pro",
   },
   {
     id: "vivo-x300-ultra",
@@ -161,6 +136,182 @@ const PHONES = [
     amazon: "https://amzn.to/vivox300ultra", flipkart: "https://flipkart.com/vivox300ultra",
   },
   {
+    id: "oneplus-15",
+    name: "OnePlus 15",
+    price: "₹72,999",
+    score: 8.6,
+    badge: "Flagship Killer",
+    image: "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "50MP Hasselblad Triple", score: 8 },
+      battery:   { value: "6100mAh", score: 9 },
+      ram:       { value: "12GB / 16GB", score: 9 },
+      display:   { value: "6.82\" BOE LTPO OLED", score: 9 },
+      charging:  { value: "100W Wired + 50W Wireless", score: 10 },
+      processor: { value: "Snapdragon 8 Elite Gen 5", score: 10 },
+      storage:   { value: "256GB / 512GB", score: 8 },
+      os:        { value: "OxygenOS 15", score: 9 },
+    },
+    pros: ["100W insane fast charging", "Hasselblad tuning", "Clean OxygenOS", "Premium glass-metal build"],
+    cons: ["Camera falls short of Ultra rivals", "Plastic frame on base variant"],
+    verdict: "Best mid-flagship value. 0-100% sirf 28 minutes mein. Android purists ki first choice.",
+    amazon: "https://amzn.to/oneplus15", flipkart: "https://flipkart.com/oneplus15",
+  },
+  {
+    id: "nothing-fold-1",
+    name: "Nothing Fold (1)",
+    price: "₹1,24,999",
+    score: 8.7,
+    badge: "Innovation Award",
+    image: "https://images.unsplash.com/photo-1611186871348-b1ec696e52c9?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "50MP Triple System", score: 8 },
+      battery:   { value: "4800mAh Dual Cell", score: 8 },
+      ram:       { value: "12GB / 16GB", score: 9 },
+      display:   { value: "8\" Foldable LTPO", score: 10 },
+      charging:  { value: "66W Wired", score: 8 },
+      processor: { value: "Snapdragon 8 Elite Gen 5", score: 10 },
+      storage:   { value: "512GB", score: 9 },
+      os:        { value: "Nothing OS 3.5 Fold", score: 9 },
+    },
+    pros: ["Transparent hinge design", "Unique Glyph interface for fold", "Thinnest foldable in India", "Clean Nothing software"],
+    cons: ["First-gen foldable concerns", "Camera zoom is limited"],
+    verdict: "Nothing ka pehla foldable hi masterpiece hai. Design aur performance ka perfect sangam.",
+    amazon: "https://amzn.to/nothingfold1", flipkart: "https://flipkart.com/nothingfold1",
+  },
+  {
+    id: "realme-gt-7-pro",
+    name: "Realme GT 7 Pro",
+    price: "₹59,999",
+    score: 8.5,
+    badge: "Speed King",
+    image: "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "50MP Sony LYT-808 Triple", score: 8 },
+      battery:   { value: "6500mAh", score: 9 },
+      ram:       { value: "12GB / 16GB", score: 9 },
+      display:   { value: "6.78\" AMOLED 120Hz", score: 9 },
+      charging:  { value: "120W SuperDart + 50W Wireless", score: 10 },
+      processor: { value: "Snapdragon 8 Elite", score: 10 },
+      storage:   { value: "256GB / 512GB", score: 8 },
+      os:        { value: "Realme UI 6 (Android 15)", score: 7 },
+    },
+    pros: ["120W charging under ₹60K", "Snapdragon 8 Elite flagship chip", "6500mAh giant battery", "IP69 waterproof rating"],
+    cons: ["Realme UI has bloatware", "Camera falls behind premium rivals", "Bulk & weight issue"],
+    verdict: "₹60K ke neeche Snapdragon 8 Elite milna kisi dream se kam nahi. Charging speed unbeatable hai.",
+    amazon: "https://amzn.to/realmegt7pro", flipkart: "https://flipkart.com/realmegt7pro",
+  },
+  {
+    id: "motorola-edge-60-pro",
+    name: "Motorola Edge 60 Pro",
+    price: "₹34,999",
+    score: 8.1,
+    badge: "Hidden Gem",
+    image: "https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "50MP + 50MP + 10MP Triple", score: 8 },
+      battery:   { value: "5000mAh", score: 8 },
+      ram:       { value: "12GB", score: 8 },
+      display:   { value: "6.7\" pOLED 144Hz Curved", score: 9 },
+      charging:  { value: "68W TurboPower Wired", score: 8 },
+      processor: { value: "Dimensity 8350", score: 8 },
+      storage:   { value: "256GB", score: 8 },
+      os:        { value: "Hello UI (Android 15, 3yr updates)", score: 9 },
+    },
+    pros: ["144Hz curved pOLED display under ₹35K", "Triple 50MP cameras", "Ultra-clean near-stock Android", "Military-grade IP69 rating"],
+    cons: ["Dimensity 8350 not a flagship chip", "No wireless charging", "Limited after-sales support"],
+    verdict: "₹35K mein 144Hz pOLED + clean software. Display aur software experience mein sabse aage is price par.",
+    amazon: "https://amzn.to/motoedge60pro", flipkart: "https://flipkart.com/motoedge60pro",
+  },
+  {
+    id: "iqoo-neo-10",
+    name: "iQOO Neo 10",
+    price: "₹29,999",
+    score: 8.3,
+    badge: "Best Under 30K",
+    image: "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "50MP Sony LYT-600 + 8MP", score: 8 },
+      battery:   { value: "6400mAh", score: 9 },
+      ram:       { value: "8GB / 12GB", score: 8 },
+      display:   { value: "6.78\" AMOLED 144Hz", score: 9 },
+      charging:  { value: "120W FlashCharge", score: 10 },
+      processor: { value: "Snapdragon 8 Gen 3", score: 9 },
+      storage:   { value: "128GB / 256GB", score: 8 },
+      os:        { value: "FunTouchOS 15 (Android 15)", score: 7 },
+    },
+    pros: ["Snapdragon 8 Gen 3 under ₹30K", "120W ultra-fast charging", "144Hz AMOLED display", "6400mAh beast battery"],
+    cons: ["FunTouchOS kuch bloaty hai", "Only 2 rear cameras", "Average build quality"],
+    verdict: "₹30K budget mein Snapdragon 8 Gen 3 aur 120W charging? iQOO Neo 10 simply unbeatable value deta hai.",
+    amazon: "https://amzn.to/iqooneo10", flipkart: "https://flipkart.com/iqooneo10",
+  },
+  {
+    id: "samsung-galaxy-a56",
+    name: "Samsung Galaxy A56 5G",
+    price: "₹38,999",
+    score: 7.9,
+    badge: "Safe Choice",
+    image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "50MP OIS + 12MP + 5MP", score: 8 },
+      battery:   { value: "5000mAh", score: 8 },
+      ram:       { value: "8GB / 12GB", score: 8 },
+      display:   { value: "6.7\" Super AMOLED 120Hz", score: 9 },
+      charging:  { value: "45W Wired", score: 7 },
+      processor: { value: "Exynos 1580", score: 7 },
+      storage:   { value: "128GB / 256GB (expandable)", score: 9 },
+      os:        { value: "One UI 7 (Android 15, 6yr updates)", score: 10 },
+    },
+    pros: ["6 years OS updates guarantee", "MicroSD card support", "IP67 water resistance", "Super AMOLED bright display"],
+    cons: ["Exynos 1580 is mid-range only", "45W charging is slow vs rivals", "No telephoto camera"],
+    verdict: "Samsung trust + 6 saal ke updates + microSD — long-term value ke liye ₹40K mein best safe bet.",
+    amazon: "https://amzn.to/samsunggalaxya56", flipkart: "https://flipkart.com/samsunggalaxya565g",
+  },
+  {
+    id: "oneplus-15r",
+    name: "OnePlus 15R",
+    price: "₹51,999",
+    score: 8.2,
+    badge: "Best Battery",
+    image: "https://images.unsplash.com/photo-1678911820864-e2c567c655d7?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "50MP Triple", score: 7 },
+      battery:   { value: "7400mAh", score: 10 },
+      ram:       { value: "12GB", score: 8 },
+      display:   { value: "6.7\" AMOLED 120Hz", score: 8 },
+      charging:  { value: "80W SuperVOOC", score: 9 },
+      processor: { value: "Snapdragon 8s Gen 4", score: 8 },
+      storage:   { value: "128GB / 256GB", score: 7 },
+      os:        { value: "OxygenOS 15", score: 9 },
+    },
+    pros: ["7400mAh monster battery", "80W fast charging", "Clean software", "Excellent thermal management"],
+    cons: ["Average secondary cameras", "Not using full Gen 5 flagship chip"],
+    verdict: "Battery enthusiasts aur travelers ke liye perfect. Value for money aspect is unbeatable.",
+    amazon: "https://amzn.to/oneplus15r", flipkart: "https://flipkart.com/oneplus15r",
+  },
+  {
+    id: "iqoo-15r",
+    name: "iQOO 15R",
+    price: "₹44,998",
+    score: 8.3,
+    badge: "Best Gaming",
+    image: "https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=300&q=80",
+    specs: {
+      camera:    { value: "50MP Sony IMX882 + 8MP", score: 7 },
+      battery:   { value: "6400mAh", score: 9 },
+      ram:       { value: "8GB / 12GB", score: 8 },
+      display:   { value: "6.77\" AMOLED 144Hz", score: 9 },
+      charging:  { value: "120W FlashCharge", score: 10 },
+      processor: { value: "Snapdragon 8 Gen 4", score: 9 },
+      storage:   { value: "128GB / 256GB", score: 7 },
+      os:        { value: "FunTouchOS 15", score: 7 },
+    },
+    pros: ["120W lightning charging", "144Hz dedicated gaming display", "Top-tier gaming performance", "6400mAh battery"],
+    cons: ["FunTouchOS has bloatware", "Camera strictly average", "Bulky and heavy at 215g"],
+    verdict: "Gamers ke liye best phone under ₹50K. 144Hz + 8 Gen 4 + 120W charging = absolute beast.",
+    amazon: "https://amzn.to/iqoo15r", flipkart: "https://flipkart.com/iqoo15r",
+  },
+  {
     id: "redmi-note-15-pro",
     name: "Xiaomi Redmi Note 15 Pro",
     price: "₹29,999",
@@ -183,24 +334,6 @@ const PHONES = [
     amazon: "https://amzn.to/redminote15pro", flipkart: "https://flipkart.com/redminote15pro",
   },
   {
-    id: "google-pixel-10-pro",
-    name: "Google Pixel 10 Pro",
-    price: "₹1,09,999",
-    score: 8.9,
-    badge: "Smartest AI",
-    image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&w=300&q=80",
-    specs: {
-      camera:    { value: "50MP Main + 48MP Zoom", score: 10 },
-      battery:   { value: "5100mAh", score: 8 },
-      ram:       { value: "16GB", score: 10 },
-      display:   { value: "6.7\" Actua LTPO 120Hz", score: 9 },
-      charging:  { value: "45W Wired", score: 7 },
-      processor: { value: "Google Tensor G5 (TSMC)", score: 9 },
-      storage:   { value: "256GB / 512GB", score: 9 },
-      os:        { value: "Android 16 (Google AI)", score: 10 },
-    },
-    pros: ["Best-in-class clean AI", "TSMC built Tensor G5", "Industry leading skin tone camera", "7 years feature drops"],
-    cons: ["Charging speed is average", "India availability (limited colors)"],
     verdict: "Agar aapko clean Android aur smartest AI features chahiye, toh Pixel 10 Pro se behtar kuch nahi.",
     amazon: "https://amzn.to/pixel10pro", flipkart: "https://flipkart.com/pixel10pro",
   },
@@ -229,9 +362,12 @@ const PHONES = [
 ];
 
 const RELATED = [
-  { a: "Samsung Galaxy S26 Ultra", b: "Xiaomi 17 Ultra" },
-  { a: "Nothing Phone (4a) Pro", b: "iQOO 15R" },
-  { a: "OnePlus 15", b: "Vivo X300 Ultra" },
+  { a: "Apple iPhone 16 Pro Max", b: "Samsung Galaxy S26 Ultra" },
+  { a: "iQOO Neo 10", b: "Xiaomi Redmi Note 15 Pro" },
+  { a: "OnePlus 15", b: "Realme GT 7 Pro" },
+  { a: "Motorola Edge 60 Pro", b: "Nothing Phone (4a) Pro" },
+  { a: "iQOO 15R", b: "OnePlus 15R" },
+  { a: "Google Pixel 10 Pro", b: "Xiaomi 17 Ultra" },
 ];
 
 const SPEC_LABELS: Record<string, string> = {
@@ -240,7 +376,7 @@ const SPEC_LABELS: Record<string, string> = {
   processor: "Processor", storage: "Storage", os: "Software",
 };
 
-type PhoneType = typeof PHONES[0] | null;
+type PhoneType = Phone | null;
 
 function ScoreRing({ score }: { score: number }) {
   const isExcellent = score >= 8.5;
@@ -285,11 +421,11 @@ function PhoneSearch({ value, onChange, placeholder }: { value: PhoneType, onCha
   }, []);
   
   useEffect(() => {
-      if (value) setQ(value.name);
+      if (value) setQ(value.name ?? '');
   }, [value]);
   
   const filtered = PHONES.filter(p =>
-    p.name.toLowerCase().includes(q.toLowerCase()) && p !== value
+    (p.name ?? '').toLowerCase().includes(q.toLowerCase()) && p !== value
   );
   
   return (
@@ -311,7 +447,7 @@ function PhoneSearch({ value, onChange, placeholder }: { value: PhoneType, onCha
             {filtered.map(p => (
               <div 
                 key={p.id}
-                onClick={() => { onChange(p); setQ(p.name); setOpen(false); }}
+                onClick={() => { onChange(p); setQ(p.name ?? ''); setOpen(false); }}
                 className="flex items-center justify-between px-4 py-3.5 cursor-pointer hover:bg-primary/10 border-b border-border/30 last:border-0 transition-colors group"
               >
                 <div className="flex items-center gap-3">
@@ -334,10 +470,12 @@ export default function CompareClient() {
   const [phoneA, setPhoneA] = useState<PhoneType>(PHONES[0]);
   const [phoneB, setPhoneB] = useState<PhoneType>(PHONES[1]);
 
-  const winner = phoneA && phoneB ? (phoneA.score >= phoneB.score ? phoneA : phoneB) : null;
+  const winner = phoneA && phoneB ? ((phoneA.score ?? 0) >= (phoneB.score ?? 0) ? phoneA : phoneB) : null;
   const getWinner = (key: string) => {
     if (!phoneA || !phoneB) return null;
-    const sa = phoneA.specs[key as keyof typeof phoneA.specs]?.score ?? 0, sb = phoneB.specs[key as keyof typeof phoneB.specs]?.score ?? 0;
+    const specKey = key as keyof Phone['specs'];
+    const sa = phoneA.specs?.[specKey]?.score ?? 0;
+    const sb = phoneB.specs?.[specKey]?.score ?? 0;
     if (sa === sb) return "tie";
     return sa > sb ? "a" : "b";
   };
@@ -399,8 +537,8 @@ export default function CompareClient() {
                 <div className="w-full md:w-auto flex justify-center">
                   <div className="relative w-28 h-28 rounded-xl overflow-hidden bg-secondary/50 p-2 border border-border/50 shadow-inner">
                     <Image 
-                      src={p.image} 
-                      alt={p.name} 
+                      src={p.image ?? ''} 
+                      alt={p.name ?? ''} 
                       fill 
                       priority={p === phoneA || p === phoneB}
                       className="object-contain p-2 hover:scale-110 transition-transform duration-500" 
@@ -408,7 +546,7 @@ export default function CompareClient() {
                   </div>
                 </div>
                 
-                <ScoreRing score={p.score} />
+                <ScoreRing score={p.score ?? 0} />
                 
                 <div className="flex-1 min-w-0">
                   {p.badge && (
@@ -452,8 +590,8 @@ export default function CompareClient() {
             
             <div className="divide-y divide-border/30">
               {Object.keys(SPEC_LABELS).map((key, index) => {
-                const specKey = key as keyof typeof phoneA.specs;
-                const w = getWinner(specKey);
+                const specKey = key as keyof Phone['specs'];
+                const w = getWinner(key);
                 return (
                   <div 
                     key={key} 
@@ -464,12 +602,12 @@ export default function CompareClient() {
                     </div>
                     
                     <div className={`text-xs md:text-sm text-center px-2 py-1.5 rounded-lg mx-1 flex flex-col items-center justify-center min-h-[44px] ${w === "a" ? "bg-primary/10 text-primary font-bold" : "text-foreground"}`}>
-                      {phoneA.specs[specKey]?.value}
+                      {phoneA.specs?.[specKey]?.value}
                       {w === "a" && <span className="block mt-1"><CheckCircle2 className="w-3.5 h-3.5" /></span>}
                     </div>
                     
                     <div className={`text-xs md:text-sm text-center px-2 py-1.5 rounded-lg mx-1 flex flex-col items-center justify-center min-h-[44px] ${w === "b" ? "bg-primary/10 text-primary font-bold" : "text-foreground"}`}>
-                      {phoneB.specs[specKey]?.value}
+                      {phoneB.specs?.[specKey]?.value}
                       {w === "b" && <span className="block mt-1"><CheckCircle2 className="w-3.5 h-3.5" /></span>}
                     </div>
                   </div>
@@ -484,10 +622,10 @@ export default function CompareClient() {
               <div key={p.id} className="space-y-4">
                 <div className="glass rounded-2xl border border-border/50 p-5 p-6">
                   <h4 className="flex items-center gap-2 text-sm font-bold text-emerald-500 uppercase tracking-widest mb-4">
-                    <CheckCircle2 className="w-4 h-4" /> {p.name.split(" ")[0]} Pros
+                    <CheckCircle2 className="w-4 h-4" /> {(p.name ?? '').split(" ")[0]} Pros
                   </h4>
                   <ul className="space-y-3">
-                    {p.pros.map((pro, i) => (
+                    {(p.pros ?? []).map((pro, i) => (
                       <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                         <span className="text-emerald-500/50 mt-0.5">•</span>
                         <span className="leading-snug">{pro}</span>
@@ -501,7 +639,7 @@ export default function CompareClient() {
                     <AlertTriangle className="w-4 h-4" /> Cons
                   </h4>
                   <ul className="space-y-3">
-                    {p.cons.map((con, i) => (
+                    {(p.cons ?? []).map((con, i) => (
                       <li key={i} className="flex items-start gap-2 text-sm text-muted-foreground">
                         <span className="text-red-500/50 mt-0.5">•</span>
                         <span className="leading-snug">{con}</span>
@@ -548,8 +686,8 @@ export default function CompareClient() {
             <button
               key={i}
               onClick={() => {
-                const a = PHONES.find(p => p.name.includes(r.a.split(" ")[1])) || PHONES.find(p=>p.name===r.a);
-                const b = PHONES.find(p => p.name.includes(r.b.split(" ")[1])) || PHONES.find(p=>p.name===r.b);
+                const a = PHONES.find(p => (p.name ?? '').includes(r.a.split(" ")[1])) || PHONES.find(p => p.name === r.a);
+                const b = PHONES.find(p => (p.name ?? '').includes(r.b.split(" ")[1])) || PHONES.find(p => p.name === r.b);
                 if(a) setPhoneA(a); 
                 if(b) setPhoneB(b);
                 window.scrollTo({top: 0, behavior: "smooth"});
