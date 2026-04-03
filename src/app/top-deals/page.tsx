@@ -24,7 +24,7 @@ export default function TopDealsPage() {
                         )}
                         
                         <Link href={`/top-deals/${deal.slug}`} className="h-48 bg-background w-full relative overflow-hidden border-b border-border/30 block">
-                            <img src={deal.image} alt={deal.title} className="w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
+                            <img src={deal.image} alt={deal.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                             <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
                         </Link>
 

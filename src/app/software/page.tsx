@@ -59,10 +59,14 @@ export default function SoftwarePage() {
                    >
                      <div className={`aspect-video w-full bg-gradient-to-br ${style.gradient} flex items-center justify-center relative overflow-hidden`}>
                        {post.image ? (
-                         <>
-                           <img src={post.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
-                           <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 z-10 drop-shadow-2xl" />
-                         </>
+                         post.slug?.includes('best-phones-under') ? (
+                           <>
+                             <img src={post.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
+                             <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 z-10 drop-shadow-2xl" />
+                           </>
+                         ) : (
+                           <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                         )
                        ) : (
                          <>
                            <div className="absolute inset-0 bg-grid opacity-30"></div>
