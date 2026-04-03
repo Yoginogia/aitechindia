@@ -48,6 +48,9 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
                 description: postData.excerpt,
                 images: [imageUrl],
             },
+            alternates: {
+                canonical: `/blog/${resolvedParams.slug}`,
+            },
         };
     } catch {
         return {

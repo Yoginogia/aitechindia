@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  trailingSlash: false,
   async redirects() {
     return [
       {

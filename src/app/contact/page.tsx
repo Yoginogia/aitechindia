@@ -4,6 +4,7 @@ import ContactForm from '@/components/ContactForm';
 export const metadata = {
     title: 'संपर्क करें | AITechNews',
     description: 'AITechNews team से बात करें — कोई सवाल, tip, या business inquiry हो।',
+    alternates: { canonical: '/contact' },
 };
 
 export default function ContactPage() {

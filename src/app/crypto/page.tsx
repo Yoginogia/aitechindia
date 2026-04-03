@@ -5,6 +5,7 @@ import { getSortedPostsData } from '@/lib/markdown';
 export const metadata = {
     title: 'Crypto News | AITechNews',
     description: 'Bitcoin, Ethereum, Solana aur crypto market ki taaza khabren aur analysis — Hindi mein!',
+    alternates: { canonical: '/crypto' },
 };
 
 export default function CryptoNewsPage() {

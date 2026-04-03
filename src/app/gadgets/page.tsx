@@ -15,6 +15,7 @@ const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-s
 export const metadata = {
     title: 'Gadgets | AITechNews',
     description: 'AITechNews par latest smartphones, laptops, aur gadgets ki reviews aur updates.',
+    alternates: { canonical: '/gadgets' },
 };
 
 export default function GadgetsPage() {

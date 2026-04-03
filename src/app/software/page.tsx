@@ -12,6 +12,7 @@ const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-s
 export const metadata = {
     title: 'Software Updates | AITechNews',
     description: 'AITechNews par Windows, Android, aur iOS ki latest software updates aur patches ki jankari.',
+    alternates: { canonical: '/software' },
 };
 
 export default function SoftwarePage() {

@@ -15,6 +15,7 @@ const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-s
 export const metadata = {
     title: 'AI Tools | AITechNews',
     description: 'AITechNews par latest AI tools aur unke upyog ke bare mein janiye.',
+    alternates: { canonical: '/ai-tools' },
 };
 
 export default function AIToolsPage() {

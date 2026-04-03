@@ -15,6 +15,7 @@ const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-s
 export const metadata = {
     title: 'Latest News | AITechNews',
     description: 'AITechNews par AI aur Technology ki sabse taaza khabrein aur articles.',
+    alternates: { canonical: '/latest' },
 };
 
 export default function LatestNews() {

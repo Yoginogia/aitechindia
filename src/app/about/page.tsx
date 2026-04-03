@@ -3,6 +3,7 @@ import { Sparkles, Target, Layers, Zap } from 'lucide-react';
 export const metadata = {
     title: 'हमारे बारे में | AITechNews',
     description: 'AITechNews के बारे में जानें — हमारा mission, हमारा vision, और हम क्या cover करते हैं।',
+    alternates: { canonical: '/about' },
 };
 
 export default function AboutPage() {
