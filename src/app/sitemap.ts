@@ -1,8 +1,8 @@
 import { MetadataRoute } from 'next'
 import { getAllPostSlugs } from '@/lib/markdown'
+import { STORIES } from '@/data/stories'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  // Update this to your deployed domain after Vercel deployment
   const baseUrl = 'https://aitechnews.co.in'
 
   const staticRoutes = [
@@ -13,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/software',
     '/crypto',
     '/top-deals',
+    '/web-stories',
     '/about',
     '/contact',
     '/privacy-policy',
@@ -32,5 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }))
 
-  return [...staticRoutes, ...dynamicRoutes]
+  const storyRoutes = STORIES.map((story) => ({
+    url: `${baseUrl}/web-stories/${story.slug}.html`,
+    lastModified: new Date(),
+    changeFrequency: 'daily' as const,
+    priority: 0.7,
+  }))
+
+  return [...staticRoutes, ...dynamicRoutes, ...storyRoutes]
 }

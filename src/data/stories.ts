@@ -1,0 +1,83 @@
+export interface StoryItem {
+    slug: string;
+    title: string;
+    subtitle: string;
+    category: string;
+    categoryColor: string;
+    image: string;
+    pages: number;
+    isTrending?: boolean;
+}
+
+export const STORIES: StoryItem[] = [
+    {
+        slug: 'claude-mythos-5-launch',
+        title: 'Claude Mythos 5: AI किंग!',
+        subtitle: '10 Trillion Parameters की ताकत। GPT-5.4 को पीछे छोड़ा?',
+        category: '🔥 Trending',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/claude-mythos-5-gpt-battle.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'chrome-emergency-update-2026',
+        title: 'Chrome यूजर्स सावधान! 🆘',
+        subtitle: 'Zero-Day Bug (CVE-2026-5281) मिला। अभी Update करें!',
+        category: '⚠️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/chrome-security-alert-2026.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'bitcoin-april-2026-prediction',
+        title: 'Bitcoin April 2026 — $70K होगा या Crash?',
+        subtitle: 'US Jobs Report, ETF Inflows और Expert Predictions — सब कुछ यहाँ!',
+        category: '🔥 Trending',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/bitcoin-april-2026-prediction.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'jio-ai-phone-2026',
+        title: 'Jio AI Phone — ₹5,000 में AI! 🤖',
+        subtitle: 'Hindi AI Assistant, 5G और JioCinema Free — India का Next Revolution!',
+        category: '🆕 Upcoming',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/jio-ai-phone-2026.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'nvidia-marvell-ai-deal',
+        title: 'Nvidia का $2B AI Deal — Game Changer!',
+        subtitle: 'Nvidia ने Marvell में $2 Billion लगाए। Marvell का Stock 11% उछला!',
+        category: 'Breaking',
+        categoryColor: '#ef4444',
+        image: '/images/blog/nvidia-marvell-deal.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'gpt-5-vs-gemini-3',
+        title: 'GPT-5.4 vs Gemini 3.1: AI Battle!',
+        subtitle: 'Watch the ultimate Agentic AI battle unfold this month.',
+        category: 'Trending',
+        categoryColor: '#f97316',
+        image: '/images/blog/gpt-5-gemini-3.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'samsung-s26-fe',
+        title: 'S26 FE: The Next Budget King!',
+        subtitle: '50MP camera, 144Hz AMOLED, & Galaxy AI 3.0. Details Inside.',
+        category: 'Leaked',
+        categoryColor: '#ef4444',
+        image: '/images/web-stories/samsung-s26-fe/slide1.png',
+        pages: 4,
+        isTrending: true,
+    }
+];
