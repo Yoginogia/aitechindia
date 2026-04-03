@@ -195,7 +195,7 @@ export default async function DealPage({ params }: { params: Promise<{ slug: str
                                 className="group flex flex-col rounded-2xl border border-border/30 bg-card/50 backdrop-blur overflow-hidden card-glow"
                             >
                                 <div className="aspect-video w-full bg-secondary relative overflow-hidden">
-                                    <img src={rd.image} alt={rd.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                    <img src={rd.image} alt={rd.title} className="absolute inset-0 w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-500" />
                                 </div>
                                 <div className="p-4 space-y-2">
                                     <h4 className="font-bold text-sm leading-snug group-hover:text-primary transition-colors line-clamp-2">{rd.title}</h4>
