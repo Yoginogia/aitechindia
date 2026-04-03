@@ -3,7 +3,7 @@ title: "Best Phones Under ₹50000 in India 2026 — Premium Mid-Range Picks"
 date: "2026-04-04"
 category: "Gadgets"
 excerpt: "₹50,000 ke budget mein India ke best flagship-killer smartphones 2026. OnePlus 15R, iQOO 15R, Nothing Phone, Realme GT 7 Pro — complete expert guide."
-image: "/images/blog/best-phones-under-50000.jpg"
+image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80"
 ---
 
 ₹50,000 ka budget — yahan **asli flagship experience** milta hai bina lakh rupaye kharch kiye! 2026 mein is range mein kuch **beast-level phones** launch hue hain. Chalte hain best picks dekhte hain.
