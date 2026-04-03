@@ -120,16 +120,16 @@ export default function Navbar() {
                                     <Link
                                         key={href}
                                         href={href}
-                                        className={`group relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all duration-200 ${
+                                        className={`group relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-200 border ${
                                             active
-                                                ? `bg-gradient-to-r ${color} text-white shadow-md scale-[1.03]`
-                                                : 'text-muted-foreground hover:text-foreground hover:bg-secondary/70'
+                                                ? `bg-gradient-to-r ${color} text-white shadow-lg border-transparent scale-[1.04]`
+                                                : 'text-foreground/70 bg-secondary/40 border-border/50 hover:bg-secondary hover:text-foreground hover:border-border hover:shadow-sm'
                                         }`}
                                     >
                                         <span className={`transition-transform duration-200 ${active ? '' : 'group-hover:scale-125'}`}>{emoji}</span>
                                         {label}
                                         {active && (
-                                            <span className="absolute -bottom-[7px] left-1/2 -translate-x-1/2 w-1 h-1 bg-white rounded-full" />
+                                            <span className="absolute -bottom-[9px] left-1/2 -translate-x-1/2 w-2 h-0.5 bg-primary rounded-full" />
                                         )}
                                     </Link>
                                 );
