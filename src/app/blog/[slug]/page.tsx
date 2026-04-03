@@ -359,7 +359,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                              >
                                <div className="aspect-[4/3] w-full bg-secondary flex items-center justify-center relative overflow-hidden">
                                  {post.image ? (
-                                   <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-contain p-2 group-hover:scale-105 transition-transform duration-700 ease-out" />
+                                   <>
+                                     <img src={post.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
+                                     <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-out z-10 drop-shadow-lg" />
+                                   </>
                                  ) : (
                                    <div className="absolute inset-0 bg-grid opacity-30"></div>
                                  )}
