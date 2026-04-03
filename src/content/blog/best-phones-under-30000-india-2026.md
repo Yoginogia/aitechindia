@@ -31,7 +31,7 @@ image: "/images/blog/best_phones_30k.png"
 
 Yeh ek statement hai: **Snapdragon 8 Gen 3** — woh chip jo last year flagships mein tha — ab ₹30K mein mil raha hai!
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.78" AMOLED **144Hz** |
@@ -66,7 +66,7 @@ Yeh ek statement hai: **Snapdragon 8 Gen 3** — woh chip jo last year flagships
 
 **Best display + cleanest software under ₹30K**
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.7" **pOLED 144Hz** Curved |
@@ -99,7 +99,7 @@ Display aur software experience mein **Motorola Edge 60 Pro** king hai. Clean An
 
 **Best gaming bang-for-buck**
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.67" AMOLED 120Hz |
@@ -176,7 +176,7 @@ Leica-tuned cameras aur premium glass design ke saath Xiaomi 14 Civi camera-focu
 
 | Aapki Priority | Best Phone |
 |---|---|
-| 🏆 Best Overall Performance | **iQOO Neo 10** |
+| 🏆 Sabse best overall Performance | **iQOO Neo 10** |
 | 🖥️ Best Display & Software | **Motorola Edge 60 Pro** |
 | 🎮 Best Gaming Value | **Poco F6** |
 | 📅 Long-term Usage (5+ years) | **Samsung Galaxy A56** |

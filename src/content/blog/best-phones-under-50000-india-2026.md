@@ -26,11 +26,11 @@ image: "/images/blog/best_phones_50k.png"
 
 ## 🥇 #1 — Realme GT 7 Pro | ₹44,999
 
-**Best overall performance under ₹50K** 
+**Sabse best overall performance under ₹50K** 
 
 Yeh woh phone hai jisne sab ko hairan kar diya — **Snapdragon 8 Elite** chip (jo ₹1L+ flagships mein hai) ₹45K mein!
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.78" AMOLED 120Hz |
@@ -66,7 +66,7 @@ Pure performance ke liye **Realme GT 7 Pro** is year ka biggest surprise hai. SD
 
 **Best battery life + cleanest software under ₹50K**
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.7" BOE AMOLED 120Hz |
@@ -100,7 +100,7 @@ Travelers, students, aur jo log aksar power bank carry karte hain — **OnePlus 
 
 **Best pure gaming phone under ₹40K**
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.77" AMOLED **144Hz** |
@@ -168,7 +168,7 @@ Glyph Bar, transparent back, aur Nothing OS ki cleanliness — yeh phone stateme
 
 | Priority | Best Pick |
 |---|---|
-| 🏆 Best Overall | **Realme GT 7 Pro** |
+| 🏆 Sabse best overall | **Realme GT 7 Pro** |
 | 🔋 Best Battery | **OnePlus 15R** |
 | 🎮 Best Gaming | **iQOO 15R** |
 | 🎨 Best Design | **Nothing Phone (4a) Pro** |

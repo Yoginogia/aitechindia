@@ -26,11 +26,11 @@ image: "/images/blog/best_phones_15k.png"
 
 ## 🥇 #1 — Realme Narzo 70 Pro 5G | ₹14,499
 
-**Best overall under ₹15K — 5G + AMOLED + 67W charging!**
+**Sabse best overall under ₹15K — 5G + AMOLED + 67W charging!**
 
 Yeh phone sab boxes tick karta hai: **5G network**, **AMOLED display**, **67W ultra-fast charging** — aur yeh sab ₹14,500 mein!
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.67" **AMOLED 120Hz** |
@@ -69,7 +69,7 @@ Yeh phone sab boxes tick karta hai: **5G network**, **AMOLED display**, **67W ul
 
 Redmi Note series ne hamesha mid-budget segment mein revolution kiya hai. Note 14 bhi uss tradition ko aage le jaata hai.
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.67" **AMOLED 120Hz** 2100 nits |
@@ -106,7 +106,7 @@ Photography lovers ke liye **Redmi Note 14** best hai. 108MP + IP64 + 2100 nits 
 
 Samsung ki legendary **6 saal ke update promise** is phone ko long-term value champion banati hai!
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.5" Super AMOLED 90Hz |
@@ -198,7 +198,7 @@ Motorola ka near-stock Android experience is price par rare hai. Snapdragon 6s G
 
 | Priority | Best Pick |
 |---|---|
-| 🏆 Best Overall | **Realme Narzo 70 Pro** |
+| 🏆 Sabse best overall | **Realme Narzo 70 Pro** |
 | 📸 Best Camera | **Redmi Note 14 (108MP)** |
 | 📅 Long-Term Value | **Samsung Galaxy M15 5G** |
 | 🎮 Best Gaming | **iQOO Z9x** |

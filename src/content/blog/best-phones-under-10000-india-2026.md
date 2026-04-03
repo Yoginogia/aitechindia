@@ -25,11 +25,11 @@ image: "/images/blog/best_phones_10k.png"
 
 ## 🥇 #1 — Redmi 14C | ₹9,499
 
-**Best overall under ₹10K — AITechNews top pick!**
+**Sabse best overall under ₹10K — AITechNews top pick!**
 
 Redmi ne ₹10K segment mein sab ko hairan kar diya hai! 5160mAh battery, 50MP camera, aur smooth 90Hz display — yeh features pehle ₹15K wale phones mein thay!
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.88" HD+ 90Hz |
@@ -68,7 +68,7 @@ Agar ek hi phone choose karna ho under ₹10K, toh **Redmi 14C** — camera, bat
 
 ₹9K mein **33W fast charging** milna ek badi baat hai! Baki phones is budget mein sirf 15W-18W dete hain.
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.74" HD+ 90Hz |
@@ -105,7 +105,7 @@ Jo log phone charge karna bhool jaate hain unhe 33W charging bohot kaam aayegi. 
 
 Samsung ka brand naam, 2 saal ka update promise, aur reliable performance — jo log "safe" choice chahte hain unke liye **Galaxy A06** best hai.
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.7" PLS LCD 90Hz |
@@ -170,7 +170,7 @@ Poco brand gaming ke liye jaana jaata hai. C75 mein Game Turbo feature + Helio G
 
 | Agar aap chahte hain... | Best Pick |
 |---|---|
-| 🏆 Best Overall | **Redmi 14C** |
+| 🏆 Sabse best overall | **Redmi 14C** |
 | ⚡ Fastest Charging | **Realme C61 (33W)** |
 | 🏷️ Best Brand Trust | **Samsung Galaxy A06** |
 | 🖥️ Smoothest Display | **Tecno Spark 30 (120Hz)** |

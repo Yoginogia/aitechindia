@@ -28,7 +28,7 @@ image: "/images/blog/best_phones_20k.png"
 
 **Best camera + best display under ₹20K**
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.67" AMOLED 120Hz, 2400 nits |
@@ -59,7 +59,7 @@ Camera lovers ke liye **#1 pick**. 200MP + wireless charging + AMOLED — ₹20K
 
 **Sabse fast charging under ₹20K — 80W SuperVOOC!**
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.67" AMOLED 120Hz |
@@ -88,7 +88,7 @@ Jo log hamesha phone charge karna bhool jaate hain, unke liye **80W charging** e
 
 **Best battery life under ₹18K**
 
-### Specs:
+### Zaroori Specs:
 | Feature | Detail |
 |---|---|
 | Display | 6.78" AMOLED 144Hz |
@@ -137,7 +137,7 @@ Samsung ki **6 saal update guarantee** aur MicroSD card support agar zaruri hai 
 
 | Agar aap chahte hain... | Best Pick |
 |---|---|
-| 🏆 Best Overall | Redmi Note 14 Pro |
+| 🏆 Sabse best overall | Redmi Note 14 Pro |
 | ⚡ Fastest Charging | OnePlus Nord CE 4 Lite |
 | 🔋 Best Battery | iQOO Z9s |
 | 🎨 Best Design | Nothing Phone (2a) |
