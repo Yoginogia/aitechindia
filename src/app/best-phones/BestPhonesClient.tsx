@@ -1,0 +1,357 @@
+'use client';
+
+import { useState, useMemo } from 'react';
+import { Smartphone, Star, Zap, Battery, Camera, Cpu, Filter, ExternalLink, CheckCircle2, TrendingUp, Award } from 'lucide-react';
+import Image from 'next/image';
+import Link from 'next/link';
+
+interface Phone {
+  id: string;
+  name: string;
+  brand: string;
+  price: number;
+  priceDisplay: string;
+  score: number;
+  badge?: string;
+  image: string;
+  specs: {
+    processor: string;
+    ram: string;
+    display: string;
+    camera: string;
+    battery: string;
+    charging: string;
+    os: string;
+  };
+  highlights: string[];
+  category: 'budget' | 'midrange' | 'premium' | 'flagship';
+  amazon: string;
+  flipkart: string;
+  compareLink: string;
+}
+
+const ALL_PHONES: Phone[] = [
+  {
+    id: 'iqoo-neo-10', name: 'iQOO Neo 10', brand: 'iQOO', price: 29999, priceDisplay: '₹29,999',
+    score: 9.1, badge: 'Best Value',
+    image: 'https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 8 Gen 3', ram: '8GB/12GB', display: '6.78" AMOLED 144Hz', camera: '50MP Sony', battery: '6400mAh', charging: '120W', os: 'Android 15' },
+    highlights: ['SD 8 Gen 3 under ₹30K', '120W Ultra Fast Charging', '6400mAh Battery', '144Hz AMOLED'],
+    category: 'midrange', amazon: 'https://amzn.to/iqooneo10', flipkart: 'https://flipkart.com/iqooneo10', compareLink: '/compare',
+  },
+  {
+    id: 'oneplus-nord-5', name: 'OnePlus Nord 5', brand: 'OnePlus', price: 24999, priceDisplay: '₹24,999',
+    score: 8.0, badge: 'Clean Software',
+    image: 'https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 7s Gen 3', ram: '8GB/12GB', display: '6.67" AMOLED 120Hz', camera: '50MP OIS', battery: '5500mAh', charging: '80W', os: 'OxygenOS 15' },
+    highlights: ['OxygenOS — No Bloatware', '80W SuperVOOC', '4 Year Updates', 'Premium Design'],
+    category: 'midrange', amazon: 'https://amzn.to/oneplusnord5', flipkart: 'https://flipkart.com/oneplusnord5', compareLink: '/compare',
+  },
+  {
+    id: 'motorola-edge-60-pro', name: 'Motorola Edge 60 Pro', brand: 'Motorola', price: 27999, priceDisplay: '₹27,999',
+    score: 8.1, badge: 'Best Display',
+    image: 'https://images.unsplash.com/photo-1574944985070-8f3ebc6b79d2?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Dimensity 8350', ram: '12GB', display: '6.7" pOLED 144Hz', camera: '50MP+50MP+10MP', battery: '5000mAh', charging: '68W', os: 'Hello UI' },
+    highlights: ['144Hz Curved pOLED', 'Triple 50MP Cameras', 'IP69 Waterproof', 'Near-Stock Android'],
+    category: 'midrange', amazon: 'https://amzn.to/motoedge60pro', flipkart: 'https://flipkart.com/motoedge60pro', compareLink: '/compare',
+  },
+  {
+    id: 'samsung-a56', name: 'Samsung Galaxy A56 5G', brand: 'Samsung', price: 27999, priceDisplay: '₹27,999',
+    score: 7.9, badge: 'Long-Term Pick',
+    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Exynos 1580', ram: '8GB/12GB', display: '6.7" Super AMOLED 120Hz', camera: '50MP OIS + 12MP', battery: '5000mAh', charging: '45W', os: 'One UI 7' },
+    highlights: ['6 Years OS Updates!', 'MicroSD Card Support', 'IP67 Water Resistant', 'Samsung Brand Trust'],
+    category: 'midrange', amazon: 'https://amzn.to/samsunggalaxya56', flipkart: 'https://flipkart.com/samsunggalaxya565g', compareLink: '/compare',
+  },
+  {
+    id: 'realme-gt-7-pro', name: 'Realme GT 7 Pro', brand: 'Realme', price: 44999, priceDisplay: '₹44,999',
+    score: 9.0, badge: 'Performance King',
+    image: 'https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 8 Elite', ram: '12GB/16GB', display: '6.78" AMOLED 120Hz', camera: '50MP Sony LYT-808', battery: '6500mAh', charging: '120W+50W Wireless', os: 'Realme UI 6' },
+    highlights: ['Snapdragon 8 Elite Chip!', '120W + 50W Wireless', 'IP69 Military Grade', '6500mAh Giant Battery'],
+    category: 'premium', amazon: 'https://amzn.to/realmegt7pro', flipkart: 'https://flipkart.com/realmegt7pro', compareLink: '/compare',
+  },
+  {
+    id: 'oneplus-15r', name: 'OnePlus 15R', brand: 'OnePlus', price: 42999, priceDisplay: '₹42,999',
+    score: 8.8, badge: 'Best Battery',
+    image: 'https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 8s Gen 4', ram: '12GB', display: '6.7" BOE AMOLED 120Hz', camera: '50MP Triple', battery: '7400mAh', charging: '80W SuperVOOC', os: 'OxygenOS 15' },
+    highlights: ['7400mAh — India\'s Best Battery', '80W Fast Charging', 'OxygenOS — No Bloatware', 'Excellent Thermals'],
+    category: 'premium', amazon: 'https://amzn.to/oneplus15r', flipkart: 'https://flipkart.com/oneplus15r', compareLink: '/compare',
+  },
+  {
+    id: 'iqoo-15r', name: 'iQOO 15R', brand: 'iQOO', price: 38999, priceDisplay: '₹38,999',
+    score: 8.7, badge: 'Best Gaming',
+    image: 'https://images.unsplash.com/photo-1605236453806-6ff36851218e?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 8 Gen 4', ram: '8GB/12GB', display: '6.77" AMOLED 144Hz', camera: '50MP Sony IMX882', battery: '6400mAh', charging: '120W FlashCharge', os: 'FunTouchOS 15' },
+    highlights: ['SD 8 Gen 4 Gaming Beast', '120W Lightning Charging', '144Hz Gaming Display', '6-Layer Vapor Cooling'],
+    category: 'premium', amazon: 'https://amzn.to/iqoo15r', flipkart: 'https://flipkart.com/iqoo15r', compareLink: '/compare',
+  },
+  {
+    id: 'nothing-4a-pro', name: 'Nothing Phone (4a) Pro', brand: 'Nothing', price: 41999, priceDisplay: '₹41,999',
+    score: 8.3, badge: 'Best Design',
+    image: 'https://images.unsplash.com/photo-1707166127113-d4d1da32ebfc?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 7s Gen 3', ram: '12GB', display: '6.67" AMOLED 120Hz', camera: '50MP + 50MP Telephoto', battery: '5200mAh', charging: '65W', os: 'Nothing OS 3.5' },
+    highlights: ['Glyph Bar LED Unique', '50MP Telephoto Camera', 'Nothing OS Clean & Fast', 'Transparent Design Icon'],
+    category: 'premium', amazon: 'https://amzn.to/nothing4apro', flipkart: 'https://flipkart.com/nothing4apro', compareLink: '/compare',
+  },
+  {
+    id: 'oneplus-15', name: 'OnePlus 15', brand: 'OnePlus', price: 64999, priceDisplay: '₹64,999',
+    score: 8.6, badge: 'Flagship Killer',
+    image: 'https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 8 Elite Gen 5', ram: '12GB/16GB', display: '6.82" BOE LTPO OLED', camera: '50MP Hasselblad', battery: '6100mAh', charging: '100W + 50W Wireless', os: 'OxygenOS 15' },
+    highlights: ['100W Fastest in Class', 'Hasselblad Camera Tuning', 'LTPO OLED Display', 'Clean OxygenOS'],
+    category: 'flagship', amazon: 'https://amzn.to/oneplus15', flipkart: 'https://flipkart.com/oneplus15', compareLink: '/compare',
+  },
+  {
+    id: 'samsung-s26-ultra', name: 'Samsung Galaxy S26 Ultra', brand: 'Samsung', price: 129999, priceDisplay: '₹1,29,999',
+    score: 9.0, badge: 'Best Overall',
+    image: 'https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Snapdragon 8 Elite Gen 5', ram: '12GB/16GB', display: '6.9" AMOLED 120Hz', camera: '200MP AI Quad', battery: '5000mAh', charging: '60W + 25W Wireless', os: 'Android 16 (7yr)' },
+    highlights: ['200MP AI Camera', 'S Pen Included', 'Privacy Display', '7 Years Updates'],
+    category: 'flagship', amazon: 'https://amzn.to/s26ultra', flipkart: 'https://flipkart.com/s26ultra', compareLink: '/compare',
+  },
+  {
+    id: 'redmi-note-15-pro', name: 'Redmi Note 15 Pro', brand: 'Xiaomi', price: 22999, priceDisplay: '₹22,999',
+    score: 7.8, badge: 'Budget Camera King',
+    image: 'https://images.unsplash.com/photo-1621330396167-e4acf44122d6?auto=format&fit=crop&w=400&q=80',
+    specs: { processor: 'Dimensity 7300', ram: '8GB/12GB', display: '6.67" AMOLED 120Hz', camera: '200MP OIS', battery: '5500mAh', charging: '90W HyperCharge', os: 'HyperOS' },
+    highlights: ['200MP Camera Under ₹23K', '90W Fast Charging', 'Bright AMOLED Display', 'IP64 Splash Proof'],
+    category: 'midrange', amazon: 'https://amzn.to/redminote15pro', flipkart: 'https://flipkart.com/redminote15pro', compareLink: '/compare',
+  },
+];
+
+const BUDGETS = [
+  { label: 'All', max: Infinity },
+  { label: 'Under ₹20K', max: 20000 },
+  { label: 'Under ₹25K', max: 25000 },
+  { label: 'Under ₹30K', max: 30000 },
+  { label: 'Under ₹40K', max: 40000 },
+  { label: 'Under ₹50K', max: 50000 },
+  { label: 'Under ₹75K', max: 75000 },
+  { label: '₹1L+', max: Infinity },
+];
+
+const BRANDS = ['All', 'Samsung', 'OnePlus', 'iQOO', 'Realme', 'Motorola', 'Nothing', 'Xiaomi'];
+
+type SortKey = 'score' | 'price_asc' | 'price_desc';
+
+function PhoneCard({ phone }: { phone: Phone }) {
+  const scoreColor = phone.score >= 9 ? 'text-emerald-400' : phone.score >= 8.5 ? 'text-primary' : 'text-amber-400';
+  const scoreBg = phone.score >= 9 ? 'bg-emerald-400/10' : phone.score >= 8.5 ? 'bg-primary/10' : 'bg-amber-400/10';
+
+  return (
+    <div className="group glass rounded-2xl border border-border/50 hover:border-primary/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 overflow-hidden flex flex-col">
+      {/* Image */}
+      <div className="relative h-44 bg-gradient-to-br from-secondary/50 to-background overflow-hidden">
+        <Image src={phone.image} alt={phone.name} fill className="object-contain p-4 group-hover:scale-105 transition-transform duration-500" />
+        {phone.badge && (
+          <div className="absolute top-3 left-3 text-[10px] font-bold uppercase tracking-wider px-2.5 py-1 rounded-full bg-primary text-white shadow-lg">
+            {phone.badge}
+          </div>
+        )}
+        <div className={`absolute top-3 right-3 ${scoreBg} ${scoreColor} font-black text-sm px-2.5 py-1 rounded-full border border-current/20`}>
+          {phone.score.toFixed(1)}
+        </div>
+      </div>
+
+      {/* Content */}
+      <div className="flex flex-col flex-1 p-5">
+        <div className="text-xs font-bold text-muted-foreground uppercase tracking-wider mb-1">{phone.brand}</div>
+        <h3 className="font-bold text-base text-foreground leading-tight mb-1 group-hover:text-primary transition-colors">{phone.name}</h3>
+        <div className="text-xl font-black text-primary mb-3">{phone.priceDisplay}</div>
+
+        {/* Highlights */}
+        <ul className="space-y-1.5 mb-4 flex-1">
+          {phone.highlights.slice(0, 3).map((h, i) => (
+            <li key={i} className="flex items-center gap-2 text-xs text-muted-foreground">
+              <CheckCircle2 className="w-3.5 h-3.5 text-emerald-500 shrink-0" />
+              {h}
+            </li>
+          ))}
+        </ul>
+
+        {/* Key Specs Row */}
+        <div className="grid grid-cols-3 gap-2 mb-4">
+          <div className="bg-secondary/30 rounded-lg p-2 text-center">
+            <Battery className="w-3.5 h-3.5 text-primary mx-auto mb-1" />
+            <div className="text-[9px] font-bold text-muted-foreground">{phone.specs.battery}</div>
+          </div>
+          <div className="bg-secondary/30 rounded-lg p-2 text-center">
+            <Zap className="w-3.5 h-3.5 text-amber-400 mx-auto mb-1" />
+            <div className="text-[9px] font-bold text-muted-foreground">{phone.specs.charging}</div>
+          </div>
+          <div className="bg-secondary/30 rounded-lg p-2 text-center">
+            <Cpu className="w-3.5 h-3.5 text-blue-400 mx-auto mb-1" />
+            <div className="text-[9px] font-bold text-muted-foreground leading-tight truncate">{phone.specs.processor.split(' ').slice(-2).join(' ')}</div>
+          </div>
+        </div>
+
+        {/* Buy Buttons */}
+        <div className="flex gap-2">
+          <a href={phone.amazon} target="_blank" rel="noopener noreferrer"
+            className="flex-1 flex items-center justify-center gap-1.5 bg-[#FF9900] hover:bg-[#FF9900]/90 text-black text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 shadow-sm">
+            <ExternalLink className="w-3 h-3" /> Amazon
+          </a>
+          <a href={phone.flipkart} target="_blank" rel="noopener noreferrer"
+            className="flex-1 flex items-center justify-center gap-1.5 bg-[#2874F0] hover:bg-[#2874F0]/90 text-white text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 shadow-sm">
+            <ExternalLink className="w-3 h-3" /> Flipkart
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default function BestPhonesClient() {
+  const [maxBudget, setMaxBudget] = useState(Infinity);
+  const [budgetLabel, setBudgetLabel] = useState('All');
+  const [brand, setBrand] = useState('All');
+  const [sort, setSort] = useState<SortKey>('score');
+
+  const filtered = useMemo(() => {
+    let phones = ALL_PHONES.filter(p => {
+      const inBudget = budgetLabel === '₹1L+' ? p.price >= 75000 : p.price <= maxBudget;
+      const inBrand = brand === 'All' || p.brand === brand;
+      return inBudget && inBrand;
+    });
+
+    if (sort === 'score') phones = phones.sort((a, b) => b.score - a.score);
+    else if (sort === 'price_asc') phones = phones.sort((a, b) => a.price - b.price);
+    else if (sort === 'price_desc') phones = phones.sort((a, b) => b.price - a.price);
+
+    return phones;
+  }, [maxBudget, budgetLabel, brand, sort]);
+
+  const topPick = filtered[0];
+
+  return (
+    <div className="w-full max-w-6xl mx-auto px-4 md:px-8 py-12 md:py-20">
+
+      {/* Hero */}
+      <div className="text-center mb-12">
+        <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-primary/10 text-primary text-xs font-bold uppercase tracking-wider mb-6">
+          <Award className="h-4 w-4" /> Expert Picks 2026
+        </div>
+        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tight mb-4 text-foreground">
+          Best Phones <span className="gradient-text">India 2026</span>
+        </h1>
+        <p className="text-muted-foreground text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+          Budget set karo, brand choose karo — aur hamara AI-powered system aapko India ka best phone recommend karega with Amazon & Flipkart direct links.
+        </p>
+        <div className="mt-5 flex justify-center gap-6 text-xs font-medium text-muted-foreground">
+          <span className="flex items-center gap-1.5"><Smartphone className="h-3.5 w-3.5 text-primary" /> {ALL_PHONES.length} Phones</span>
+          <span className="flex items-center gap-1.5"><TrendingUp className="h-3.5 w-3.5 text-primary" /> Updated April 2026</span>
+          <span className="flex items-center gap-1.5"><Star className="h-3.5 w-3.5 text-primary" /> Expert Scored</span>
+        </div>
+      </div>
+
+      {/* Filters */}
+      <div className="bg-secondary/20 border border-border/50 rounded-2xl p-5 md:p-6 mb-10 space-y-5">
+        <div className="flex items-center gap-2 text-sm font-bold text-foreground">
+          <Filter className="w-4 h-4 text-primary" /> Filter Phones
+        </div>
+
+        {/* Budget Filter */}
+        <div>
+          <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">💰 Budget</div>
+          <div className="flex flex-wrap gap-2">
+            {BUDGETS.map(b => (
+              <button key={b.label}
+                onClick={() => { setMaxBudget(b.max); setBudgetLabel(b.label); }}
+                className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${budgetLabel === b.label ? 'bg-primary text-white shadow-lg shadow-primary/25' : 'bg-secondary/40 text-muted-foreground hover:bg-secondary/70 hover:text-foreground'}`}>
+                {b.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* Brand + Sort */}
+        <div className="flex flex-wrap gap-4">
+          <div className="flex-1 min-w-[160px]">
+            <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">📱 Brand</div>
+            <select value={brand} onChange={e => setBrand(e.target.value)}
+              className="w-full bg-background border border-border/60 text-foreground text-sm rounded-xl px-3 py-2.5 outline-none focus:border-primary transition-colors">
+              {BRANDS.map(b => <option key={b} value={b}>{b}</option>)}
+            </select>
+          </div>
+          <div className="flex-1 min-w-[160px]">
+            <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-2">🔃 Sort By</div>
+            <select value={sort} onChange={e => setSort(e.target.value as SortKey)}
+              className="w-full bg-background border border-border/60 text-foreground text-sm rounded-xl px-3 py-2.5 outline-none focus:border-primary transition-colors">
+              <option value="score">⭐ Best Score</option>
+              <option value="price_asc">💰 Price: Low to High</option>
+              <option value="price_desc">💎 Price: High to Low</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      {/* Top Pick Banner */}
+      {topPick && (
+        <div className="bg-gradient-to-r from-primary/10 via-purple-500/5 to-transparent border border-primary/30 rounded-2xl p-5 md:p-6 mb-8 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+          <div className="flex items-center gap-3 shrink-0">
+            <div className="w-10 h-10 rounded-full bg-primary/20 flex items-center justify-center">
+              <Award className="w-5 h-5 text-primary" />
+            </div>
+            <div>
+              <div className="text-[10px] font-bold uppercase tracking-widest text-primary">AITechNews Top Pick</div>
+              <div className="font-black text-foreground">{topPick.name}</div>
+            </div>
+          </div>
+          <div className="flex-1 text-sm text-muted-foreground">
+            {topPick.priceDisplay} — Score {topPick.score}/10 — {topPick.highlights[0]}
+          </div>
+          <a href={topPick.amazon} target="_blank" rel="noopener noreferrer"
+            className="flex items-center gap-2 bg-primary text-white text-xs font-bold px-4 py-2.5 rounded-xl hover:bg-primary/90 transition-colors shrink-0">
+            Best Deal <ExternalLink className="w-3 h-3" />
+          </a>
+        </div>
+      )}
+
+      {/* Results Count */}
+      <div className="flex items-center justify-between mb-6">
+        <div className="text-sm text-muted-foreground font-medium">
+          <span className="text-foreground font-bold">{filtered.length} phones</span> match your filters
+        </div>
+        <Link href="/compare" className="text-xs font-bold text-primary hover:underline flex items-center gap-1">
+          Compare any 2 phones →
+        </Link>
+      </div>
+
+      {/* Phone Grid */}
+      {filtered.length > 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
+          {filtered.map(phone => (
+            <PhoneCard key={phone.id} phone={phone} />
+          ))}
+        </div>
+      ) : (
+        <div className="text-center py-16 text-muted-foreground">
+          <Smartphone className="w-12 h-12 mx-auto mb-4 opacity-30" />
+          <p className="font-bold text-foreground mb-2">Is filter mein koi phone nahi mila</p>
+          <p className="text-sm">Budget ya brand filter change karein</p>
+        </div>
+      )}
+
+      {/* Blog Links Section */}
+      <div className="mt-16 pt-12 border-t border-border/30">
+        <h2 className="text-2xl font-bold text-center mb-8">📖 Budget-wise Expert Guides</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
+          {[
+            { budget: 'Under ₹20,000', desc: 'Best phones for tight budgets in India 2026', link: '/blog/best-phones-under-20000-india-2026', color: 'from-emerald-500/10' },
+            { budget: 'Under ₹30,000', desc: 'Sweet-spot mid-range phones with flagship features', link: '/blog/best-phones-under-30000-india-2026', color: 'from-blue-500/10' },
+            { budget: 'Under ₹50,000', desc: 'Premium-tier phones without flagship price', link: '/blog/best-phones-under-50000-india-2026', color: 'from-purple-500/10' },
+          ].map((item) => (
+            <Link key={item.budget} href={item.link}
+              className={`group bg-gradient-to-br ${item.color} to-transparent border border-border/40 hover:border-primary/50 rounded-2xl p-6 hover:-translate-y-1 transition-all duration-300`}>
+              <div className="text-lg font-black text-foreground mb-2 group-hover:text-primary transition-colors">{item.budget}</div>
+              <div className="text-sm text-muted-foreground mb-4">{item.desc}</div>
+              <span className="text-xs font-bold text-primary">Read Full Guide →</span>
+            </Link>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}

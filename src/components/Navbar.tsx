@@ -53,11 +53,12 @@ export default function Navbar() {
         { href: '/', label: 'Home', icon: '🏠' },
         { href: '/latest', label: 'Latest', icon: '📰' },
         { href: '/web-stories', label: 'Web Stories', icon: '⚡' },
+        { href: '/best-phones', label: 'Best Phones', icon: '📱' },
+        { href: '/compare', label: 'Compare', icon: '⚖️' },
         { href: '/dictionary', label: 'Tech Dictionary', icon: '📖' },
         { href: '/software', label: 'Updates', icon: '🔄' },
         { href: '/ai-tools', label: 'AI Tools', icon: '🤖' },
-        { href: '/gadgets', label: 'Gadgets', icon: '📱' },
-        { href: '/compare', label: 'Compare', icon: '⚖️' },
+        { href: '/gadgets', label: 'Gadgets', icon: '📟' },
         { href: '/crypto', label: 'Crypto News', icon: '💰' },
         { href: '/top-deals', label: 'Top Deals', icon: '🛒' },
     ];
@@ -92,6 +93,9 @@ export default function Navbar() {
                                 </Link>
                                 <Link href="/gadgets" className={getLinkClass('/gadgets')}>
                                     Gadgets
+                                </Link>
+                                <Link href="/best-phones" className={getLinkClass('/best-phones')}>
+                                    📱 Best Phones
                                 </Link>
                                 <Link href="/compare" className={getLinkClass('/compare')}>
                                     Compare
