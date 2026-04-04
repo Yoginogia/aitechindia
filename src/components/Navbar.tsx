@@ -66,7 +66,7 @@ export default function Navbar() {
                                 <span className="absolute -top-1 -right-1 h-2.5 w-2.5 bg-green-400 rounded-full border-2 border-background animate-pulse" />
                             </div>
                             <div className="flex flex-col leading-none">
-                                <span className="font-extrabold text-lg tracking-tight gradient-text">AITechNews</span>
+                                <span className="font-extrabold text-2xl tracking-tight gradient-text">AITechNews</span>
                                 <span className="text-[9px] text-muted-foreground/70 tracking-widest uppercase font-medium">India&apos;s Tech Hub</span>
                             </div>
                         </Link>
@@ -108,7 +108,7 @@ export default function Navbar() {
                                         className={`group relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-200 border ${
                                             active
                                                 ? `bg-gradient-to-r ${color} text-white shadow-lg border-transparent scale-[1.04]`
-                                                : 'text-foreground/70 bg-secondary/40 border-border/50 hover:bg-secondary hover:text-foreground hover:border-border hover:shadow-sm'
+                                                : 'bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border-indigo-400/30 text-indigo-300 hover:from-indigo-500/20 hover:to-pink-500/20 hover:border-purple-400/50 hover:text-white hover:shadow-sm'
                                         }`}
                                     >
                                         <span className={`transition-transform duration-200 ${active ? '' : 'group-hover:scale-125'}`}>{emoji}</span>
