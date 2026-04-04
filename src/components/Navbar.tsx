@@ -108,7 +108,7 @@ export default function Navbar() {
                                         className={`group relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-200 border ${
                                             active
                                                 ? `bg-gradient-to-r ${color} text-white shadow-lg border-transparent scale-[1.04]`
-                                                : 'bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border-indigo-400/30 text-indigo-300 hover:from-indigo-500/20 hover:to-pink-500/20 hover:border-purple-400/50 hover:text-white hover:shadow-sm'
+                                                : 'bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border-indigo-400/30 text-indigo-900 dark:text-indigo-300 hover:from-indigo-500/20 hover:to-pink-500/20 hover:border-purple-400/50 hover:text-indigo-900 dark:hover:text-white hover:shadow-sm'
                                         }`}
                                     >
                                         <span className={`transition-transform duration-200 ${active ? '' : 'group-hover:scale-125'}`}>{emoji}</span>
