@@ -92,7 +92,7 @@ const ALL_PHONES: Phone[] = [
   {
     id: 'iqoo-neo-10', name: 'iQOO Neo 10', brand: 'iQOO', price: 29999, priceDisplay: '₹29,999',
     score: 9.1, badge: 'Best Value',
-    image: 'https://m.media-amazon.com/images/I/61s7sJEps1L._SX679_.jpg',
+    image: 'https://m.media-amazon.com/images/I/61gGRaXQoGL._AC_UF1000,1000_QL80_.jpg',
     specs: { processor: 'Snapdragon 8 Gen 3', ram: '8GB/12GB', display: '6.78" AMOLED 144Hz', camera: '50MP Sony', battery: '6400mAh', charging: '120W', os: 'Android 15' },
     highlights: ['SD 8 Gen 3 under ₹30K', '120W Ultra Fast Charging', '6400mAh Battery', '144Hz AMOLED'],
     category: 'midrange', amazon: 'https://www.amazon.in/dp/B0CT56R47B?tag=aitechnews-21', flipkart: 'https://www.flipkart.com/search?q=iqoo+neo+10', compareLink: '/compare',
