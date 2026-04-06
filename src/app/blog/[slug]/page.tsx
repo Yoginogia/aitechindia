@@ -164,18 +164,18 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {/* Affiliate Monetization Block */}
             {(postData.category === 'Gadgets' || postData.category === 'Top Deals') && (
                 <div className="my-10 p-1 rounded-2xl bg-gradient-to-r from-primary via-blue-500 to-purple-500">
-                    <div className="bg-card rounded-xl p-6 flex flex-col sm:flex-row items-center justify-between gap-6">
-                        <div>
-                            <span className="text-xs font-bold uppercase tracking-wider text-primary mb-1 block">Editor's Choice Deal</span>
-                            <h3 className="text-xl font-bold text-foreground mb-2">Interested in {postData.title.split(' ')[0]}?</h3>
-                            <p className="text-sm text-muted-foreground">Check out the lowest price on trusted retail platforms right now before the deal expires.</p>
+                    <div className="bg-card rounded-xl p-5 sm:p-6 flex flex-col sm:flex-row items-center justify-between gap-5">
+                        <div className="flex-1">
+                            <span className="text-[10px] font-bold uppercase tracking-wider text-primary mb-1 block">Editor's Choice Deal</span>
+                            <h3 className="text-lg font-bold text-foreground mb-1.5 leading-tight">Interested in {postData.title.split(' ')[0]}?</h3>
+                            <p className="text-xs text-muted-foreground">Check out the lowest price on trusted retail platforms right now before the deal expires.</p>
                         </div>
-                        <div className="flex flex-col gap-3 min-w-[200px]">
-                            <a href="#" className="flex items-center justify-center gap-2 bg-[#ff9900] text-black font-bold px-6 py-3 rounded-xl hover:bg-[#ff9900]/90 transition-colors shadow-[0_0_15px_rgba(255,153,0,0.3)]">
-                                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M14.9 16c-3.1 1.7-6.5 1.7-9.8 0-1.8-1-3.2-2.5-4.2-4.3-.8-1.5-.8-3.3 0-4.8C1.9 5.1 3.3 3.6 5.1 2.6c3.1-1.7 6.5-1.7 9.8 0 1.8 1 3.2 2.5 4.2 4.3.8 1.5.8 3.3 0 4.8-.9 1.8-2.3 3.3-4.2 4.3zM10.1 6.8c-2 0-3.6 1.6-3.6 3.6 0 .4.1.8.2 1.2-1.3-.2-2.1-1.2-2.1-2.5 0-1.5 1.1-2.8 2.6-2.9 1-.1 1.9.4 2.4 1.2M7.4 14.8c1.3.2 2.1 1.2 2.1 2.5 0 1.5-1.1 2.8-2.6 2.9-1 .1-1.9-.4-2.4-1.2 2 0 3.6-1.6 3.6-3.6 0-.4-.1-.8-.2-1.2m5.2-9.2c1.3.2 2.1 1.2 2.1 2.5 0 1.5-1.1 2.8-2.6 2.9-1 .1-1.9-.4-2.4-1.2 2 0 3.6-1.6 3.6-3.6 0-.4-.1-.8-.2-1.2m0 8c-1.3-.2-2.1-1.2-2.1-2.5 0-1.5 1.1-2.8 2.6-2.9 1-.1 1.9.4 2.4 1.2-2 0-3.6 1.6-3.6 3.6 0 .4.1.8.2 1.2"/></svg> View on Amazon
+                        <div className="flex flex-col gap-2.5 min-w-[160px] shrink-0 w-full sm:w-auto">
+                            <a href={postData.amazon || `https://www.amazon.in/s?k=${encodeURIComponent(postData.slug.replace(/-/g, '+'))}&tag=aitechnews-21`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1.5 bg-[#ff9900] text-black text-sm font-bold px-4 py-2.5 rounded-xl hover:bg-[#ff9900]/90 transition-colors shadow-[0_0_10px_rgba(255,153,0,0.3)]">
+                                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M14.9 16c-3.1 1.7-6.5 1.7-9.8 0-1.8-1-3.2-2.5-4.2-4.3-.8-1.5-.8-3.3 0-4.8C1.9 5.1 3.3 3.6 5.1 2.6c3.1-1.7 6.5-1.7 9.8 0 1.8 1 3.2 2.5 4.2 4.3.8 1.5.8 3.3 0 4.8-.9 1.8-2.3 3.3-4.2 4.3zM10.1 6.8c-2 0-3.6 1.6-3.6 3.6 0 .4.1.8.2 1.2-1.3-.2-2.1-1.2-2.1-2.5 0-1.5 1.1-2.8 2.6-2.9 1-.1 1.9.4 2.4 1.2M7.4 14.8c1.3.2 2.1 1.2 2.1 2.5 0 1.5-1.1 2.8-2.6 2.9-1 .1-1.9-.4-2.4-1.2 2 0 3.6-1.6 3.6-3.6 0-.4-.1-.8-.2-1.2m5.2-9.2c1.3.2 2.1 1.2 2.1 2.5 0 1.5-1.1 2.8-2.6 2.9-1 .1-1.9-.4-2.4-1.2 2 0 3.6-1.6 3.6-3.6 0-.4-.1-.8-.2-1.2m0 8c-1.3-.2-2.1-1.2-2.1-2.5 0-1.5 1.1-2.8 2.6-2.9 1-.1 1.9.4 2.4 1.2-2 0-3.6 1.6-3.6 3.6 0 .4.1.8.2 1.2"/></svg> View on Amazon
                             </a>
-                            <a href="#" className="flex items-center justify-center gap-2 bg-[#047BD5] text-white font-bold px-6 py-3 rounded-xl hover:bg-[#047BD5]/90 transition-colors shadow-[0_0_15px_rgba(4,123,213,0.3)]">
-                                <svg className="w-5 h-5" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 1.5l1.5 1.5v18l-1.5 1.5H3L1.5 21v-18L3 1.5h10.5z"/></svg> View on Flipkart
+                            <a href={postData.flipkart || `https://www.flipkart.com/search?q=${encodeURIComponent(postData.slug.replace(/-/g, '+'))}`} target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-1.5 bg-[#047BD5] text-white text-sm font-bold px-4 py-2.5 rounded-xl hover:bg-[#047BD5]/90 transition-colors shadow-[0_0_10px_rgba(4,123,213,0.3)]">
+                                <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M13.5 1.5l1.5 1.5v18l-1.5 1.5H3L1.5 21v-18L3 1.5h10.5z"/></svg> View on Flipkart
                             </a>
                         </div>
                     </div>
