@@ -49,6 +49,8 @@ export type PostData = {
     authorRole?: string;
     authorImage?: string;
     toc?: { id: string, text: string, level: number }[];
+    amazon?: string;
+    flipkart?: string;
 };
 
 // Default reading speed = 200 words per minute
