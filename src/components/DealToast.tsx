@@ -55,9 +55,9 @@ export default function DealToast() {
         <div className="p-4 sm:p-5 flex gap-4">
           <div className="w-16 h-16 sm:w-20 sm:h-20 shrink-0 bg-background rounded-xl p-1 border border-border/50 shadow-inner flex items-center justify-center relative overflow-hidden">
             <img 
-              src="/images/deals/xbox-series-x.png" 
-              alt="Xbox Series X Deal" 
-              className="w-full h-full object-contain mix-blend-multiply dark:mix-blend-normal transform group-hover:scale-110 transition-transform" 
+              src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=400" 
+              alt="Redmi Note 15 SE Deal" 
+              className="w-full h-full object-cover mix-blend-multiply dark:mix-blend-normal transform group-hover:scale-110 transition-transform" 
             />
           </div>
           
@@ -67,18 +67,18 @@ export default function DealToast() {
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-500 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
               </span>
-              Massive Price Drop
+              Launch Special
             </div>
             
-            <h4 className="text-sm font-bold text-foreground leading-tight mb-1">Xbox Series X (1TB Console)</h4>
+            <h4 className="text-sm font-bold text-foreground leading-tight mb-1">Redmi Note 15 SE (200MP)</h4>
             
             <div className="flex items-center gap-2 mb-2 sm:mb-3">
-              <span className="text-lg font-black text-emerald-500">₹39,990</span>
-              <span className="text-xs text-muted-foreground line-through decoration-border font-semibold">₹54,990</span>
+              <span className="text-lg font-black text-emerald-500">₹17,999</span>
+              <span className="text-xs text-muted-foreground line-through decoration-border font-semibold">₹21,999</span>
             </div>
             
             <Link 
-              href="/top-deals/xbox-series-x-massive-price-drop" 
+              href="/top-deals/redmi-note-15-se-launch-offer" 
               onClick={handleDismiss}
               className="mt-auto group flex items-center justify-center w-full gap-2 rounded-lg bg-foreground text-background py-2 px-3 text-xs font-bold transition-all hover:bg-destructive hover:text-white shadow-md active:scale-95"
             >

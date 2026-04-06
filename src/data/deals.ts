@@ -21,6 +21,30 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "redmi-note-15-se-launch-offer",
+        title: "Redmi Note 15 Special Edition — 200MP Camera 📸",
+        category: "Smartphone",
+        description: "सबसे तगड़ा लाॅन्च! 200MP कैमरा, 90W HyperCharge, और AI Erase के साथ पहली सेल शुरू।",
+        price: "₹17,999",
+        discount: "Launch Special Offer",
+        rating: 4.8,
+        tag: "🔥 Hot Deal",
+        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=Redmi+Note+15+Special+Edition&tag=aitechnews-21`,
+        platform: "Amazon India",
+        specs: ["200MP + 8MP Ultra-wide", "MediaTek Dimensity 7300", "8GB RAM + 256GB Storage", "6.67\" AMOLED, 120Hz, 2100 nits", "5500mAh Battery", "90W HyperCharge"],
+        variants: [
+            "8GB + 256GB — ₹17,999"
+        ],
+        bankOffers: [
+            "SBI Credit Card — 10% Instant Off",
+            "No-Cost EMI — 6 months",
+            "Exchange Bonus — Up to ₹2,000"
+        ],
+        colors: ["Lunar Silver", "Cosmic Black"],
+        content: "Redmi Note 15 Special Edition लाॅन्च हो चुका है! मात्र ₹17,999 रुपये में 200MP कैमरा और 90W HyperCharge वाला यह फोन मार्केट में धूम मचा रहा है। इस प्राइस में AI Erase और शानदार AMOLED स्क्रीन के साथ यह बेहतरीन डील है। अभी 'Claim Deal Now' पर क्लिक कर अपना पीस बुक करें, स्टॉक तेज़ी से खत्म हो रहा है!"
+    },
+    {
         slug: "lenovo-april-cashback-2026",
         title: "Lenovo Laptops पर ₹20,000 Cashback! 🔥 (1-15 April)",
         category: "Laptop",
