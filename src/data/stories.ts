@@ -11,6 +11,37 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'bitcoin-69k-quantum-threat-2026',
+        title: 'Bitcoin $69K + Quantum Threat! ⚛️',
+        subtitle: 'Relief rally आई — लेकिन Q-Day का खतरा! 4M BTC exposed हैं।',
+        category: '🔴 Breaking',
+        categoryColor: '#f59e0b',
+        image: 'https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&w=400&q=80',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'openai-coo-reshuffle-ipo-2026',
+        title: 'OpenAI COO OUT — IPO Power Move! 🤖',
+        subtitle: 'Brad Lightcap COO से Special Projects में। $122B funding के बाद Sam Altman का बड़ा कदम।',
+        category: '🔥 Breaking',
+        categoryColor: '#8b5cf6',
+        image: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?auto=format&fit=crop&w=400&q=80',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'vivo-v70-fe-vs-redmi-note-15-se-2026',
+        title: 'Vivo V70 FE vs Redmi Note 15 SE 📱',
+        subtitle: '200MP Camera दोनों में! ₹37,999 vs ₹17,999 — कौन जीता?',
+        category: '🆕 Launch',
+        categoryColor: '#3b82f6',
+        image: 'https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=400&q=80',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+
         slug: 'claude-mythos-5-launch',
         title: 'Claude Mythos 5: AI किंग!',
         subtitle: '10 Trillion Parameters की ताकत। GPT-5.4 को पीछे छोड़ा?',
