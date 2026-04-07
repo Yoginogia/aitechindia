@@ -25,6 +25,9 @@ export interface Laptop {
     rating: number;
     specs: LaptopSpec;
     tags: string[];
+    pros: string[];
+    cons: string[];
+    verdict: string;
 }
 
 const ALL_LAPTOPS: Laptop[] = [
@@ -47,7 +50,10 @@ const ALL_LAPTOPS: Laptop[] = [
             battery: '42WHrs, 3-cell Li-ion (Up to 7 hours)',
             os: 'Windows 11 Home + MS Office 2021 + McAfee',
         },
-        tags: ['Best for College', 'Thin & Light', 'Office Included']
+        tags: ['Best for College', 'Thin & Light', 'Office Included'],
+        pros: ['Value for money processor', 'Lightweight for college bags', 'Pre-installed MS Office'],
+        cons: ['Average 720p webcam quality', '60Hz refresh rate is basic'],
+        verdict: 'Agar aapka budget 40k se 45k hai aur aapko college projects ya coding ke liye ek fast, reliable laptop chahiye, toh ye definitely ek solid pick hai.'
     },
     {
         id: 'honor-magicbook-x14-pro',
@@ -67,7 +73,10 @@ const ALL_LAPTOPS: Laptop[] = [
             battery: '60Wh (Up to 12 hours local video playback)',
             os: 'Windows 11 Home',
         },
-        tags: ['Alumunium Body', '100% sRGB', 'Type-C Fast Charge']
+        tags: ['Alumunium Body', '100% sRGB', 'Type-C Fast Charge'],
+        pros: ['Premium aluminium unibody design', 'Excellent 100% sRGB display for media', 'Long-lasting 60Wh battery'],
+        cons: ['Older generation LPDDR4x RAM', 'No dedicated graphics for heavy gaming'],
+        verdict: 'Ye un students ke liye hai jo design, UI/UX, ya content creation start kar rahe hain, kyunki iska 100% sRGB display is price me rare hai.'
     },
     // OFFICE / BUSINESS
     {
@@ -88,7 +97,10 @@ const ALL_LAPTOPS: Laptop[] = [
             battery: '47Wh or 57Wh (Rapid Charge)',
             os: 'Windows 11 Pro',
         },
-        tags: ['Military Grade', 'Best Keyboard', 'AI Processor']
+        tags: ['Military Grade', 'Best Keyboard', 'AI Processor'],
+        pros: ['Industry-leading keyboard comfort', 'Military-grade durability', 'Upgradable RAM & Storage'],
+        cons: ['Design looks outdated to some', 'Display could have been brighter'],
+        verdict: 'Corporate professionals jinko poora din typing karni hoti hai aur ek aisa laptop chahiye jo saalon tak kharab na ho, this is the King.'
     },
     {
         id: 'dell-inspiron-14-plus',
@@ -108,7 +120,10 @@ const ALL_LAPTOPS: Laptop[] = [
             battery: '64 Wh, ExpressCharge 100W',
             os: 'Windows 11 Home + MS Office 2021',
         },
-        tags: ['2.2K Display', 'Premium Build', 'FHD Webcam']
+        tags: ['2.2K Display', 'Premium Build', 'FHD Webcam'],
+        pros: ['Sharp 2.2K 16:10 display', 'Very premium build quality', 'Great 1080p webcam for Zoom meetings'],
+        cons: ['Slightly expensive for the CPU', 'Not ideal for heavy video editing'],
+        verdict: 'Managers aur executives jinko meetings ke liye ek sharp display, clear webcam, aur ek premium-looking thin laptop chahiye.'
     },
     // GAMING
     {
@@ -129,7 +144,10 @@ const ALL_LAPTOPS: Laptop[] = [
             battery: '90Wh, 330W Adapter',
             os: 'Windows 11 Home',
         },
-        tags: ['RTX 4060 140W', 'Advanced Cooling', 'G-Sync']
+        tags: ['RTX 4060 140W', 'Advanced Cooling', 'G-Sync'],
+        pros: ['Massive 140W full-power RTX 4060', 'Excellent cooling system', 'Gorgeous 500 nits WQXGA display'],
+        cons: ['Very heavy to carry around', 'Fans get super loud on max settings'],
+        verdict: 'Hardcore gamers jinko GTA 6, Cyberpunk jaise AAA games bina kisi compromise ke High settings par khelne hain.'
     },
     {
         id: 'lenovo-loq-2026',
@@ -149,7 +167,10 @@ const ALL_LAPTOPS: Laptop[] = [
             battery: '60Wh (Support Super Rapid Charge)',
             os: 'Windows 11 Home + MS Office',
         },
-        tags: ['Best Budget Gaming', 'MUX Switch', 'AI Engine+']
+        tags: ['Best Budget Gaming', 'MUX Switch', 'AI Engine+'],
+        pros: ['Powerful Ryzen 7 + RTX 4050 combo', 'Lenovo AI Engine+ works wonderfully', 'Great thermal management'],
+        cons: ['45% NTSC display is not good for color grading', 'Battery drains quickly while gaming'],
+        verdict: 'Agar aapka budget 80k-85k hai aur aapko raw gaming performance aur coding karni hai, toh Lenovo LOQ sabse balanced option hai.'
     },
     // CREATOR
     {
@@ -170,7 +191,10 @@ const ALL_LAPTOPS: Laptop[] = [
             battery: '52.6Wh Lithium-Po (Up to 18 hours battery life)',
             os: 'macOS Sonoma',
         },
-        tags: ['Unmatched Battery', 'Silent Fanless', 'Premium Video Editing']
+        tags: ['Unmatched Battery', 'Silent Fanless', 'Premium Video Editing'],
+        pros: ['Industry-best 18-hour battery life', 'Absolutely silent (Fanless design)', 'Extremely fast logic parsing for coders & editing'],
+        cons: ['Only 8GB base RAM (Upgrades are too expensive)', 'Not meant for heavy 3D rendering'],
+        verdict: 'Ek aam creator, coder, ya student jiske paas budget hai, uske liye MacBook Air M3 dunia ka sabse best laptop hai.'
     },
     {
         id: 'asus-zenbook-14-oled-2026',
@@ -190,7 +214,10 @@ const ALL_LAPTOPS: Laptop[] = [
             battery: '75WHrs, 4-cell Li-ion',
             os: 'Windows 11 Home + MS Office 2021',
         },
-        tags: ['OLED 120Hz', 'AI Processor', '1.2kg Ultra-light']
+        tags: ['OLED 120Hz', 'AI Processor', '1.2kg Ultra-light'],
+        pros: ['Breathtaking 3K 120Hz OLED screen', 'Intel Ultra 7 delivers powerful AI features', 'Ultra-lightweight at just 1.2kg'],
+        cons: ['RAM is soldered, cannot upgrade later', 'Smudge-prone chassis'],
+        verdict: 'Jo log MacBook Air nahi lena chahte aur Windows par hi level 1 video/photo editing karna chahte hain, ye unka #1 alternative hai.'
     }
 ];
 
@@ -365,6 +392,35 @@ export default function BestLaptopsClient() {
                                         </div>
                                     </div>
                                     
+                                    {/* Verdict Block */}
+                                    <div className="bg-primary/5 border border-primary/20 rounded-xl p-4 mb-5">
+                                        <h4 className="text-sm font-bold text-primary mb-1 flex items-center gap-1.5"><Sparkles className="w-4 h-4" /> Our Verdict</h4>
+                                        <p className="text-sm text-foreground/80 leading-snug">{laptop.verdict}</p>
+                                    </div>
+
+                                    {/* Pros & Cons Block */}
+                                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 bg-secondary/20 p-4 rounded-xl border border-border/40">
+                                        <div>
+                                            <h4 className="text-xs font-bold uppercase tracking-wider text-green-500 mb-2 flex items-center gap-1">
+                                                <CheckCircle2 className="w-3.5 h-3.5" /> Pros
+                                            </h4>
+                                            <ul className="space-y-1">
+                                                {laptop.pros.map((pro, i) => (
+                                                    <li key={i} className="text-xs font-medium text-foreground/80 flex items-start gap-1.5"><span className="text-green-500 font-bold mt-[1px]">+</span> <span className="leading-tight">{pro}</span></li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                        <div>
+                                            <h4 className="text-xs font-bold uppercase tracking-wider text-red-500 mb-2 flex items-center gap-1">
+                                                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}><path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" /></svg> Cons
+                                            </h4>
+                                            <ul className="space-y-1">
+                                                {laptop.cons.map((con, i) => (
+                                                    <li key={i} className="text-xs font-medium text-foreground/80 flex items-start gap-1.5"><span className="text-red-500 font-bold mt-[1px]">-</span> <span className="leading-tight">{con}</span></li>
+                                                ))}
+                                            </ul>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div className="mt-8 pt-6 border-t border-border/50">
