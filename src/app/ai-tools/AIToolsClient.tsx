@@ -135,10 +135,16 @@ export default function AIToolsClient({ aiPosts }: { aiPosts: AIPost[] }) {
                                     href={tool.url} 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
-                                    className="w-full bg-primary/10 hover:bg-primary text-primary hover:text-white font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition-all"
+                                    className="w-full bg-primary/10 hover:bg-primary text-primary hover:text-white font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition-all mb-2"
                                 >
                                     Visit Website <ExternalLink className="w-4 h-4" />
                                 </a>
+                                <Link
+                                    href={`/blog/${tool.id}-guide-2026`} /* Adjusted later mapped slugs but generic is ok too, let's map it based on ID */
+                                    className="w-full bg-secondary/60 hover:bg-secondary text-muted-foreground hover:text-foreground font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition-all"
+                                >
+                                    📖 Read Detailed Guide <ArrowRight className="w-4 h-4" />
+                                </Link>
                             </div>
                         ))}
                     </div>
