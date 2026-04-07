@@ -21,6 +21,21 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "iphone-16-pro-massive-drop-2026",
+        title: "iPhone 16 Pro Max — ₹15,000 Heavy Price Drop! 🍎",
+        category: "Smartphone",
+        description: "iPhone 17 leaks ke chalte Apple ne India me iPhone 16 Pro Max ki keemat instantly ghata di hai. Limited time Flipkart/Amazon sales.",
+        price: "₹1,44,900",
+        discount: "₹15,000 Price Cut",
+        rating: 4.9,
+        tag: "🔥 Shocking Deal",
+        image: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=iphone+16+pro+max&tag=aitechnews-21`,
+        platform: "Amazon India",
+        specs: ["A18 Pro Bionic Chip", "48MP Tetraprism 5x Zoom Camera", "Aerospace Titanium Build", "256GB Base Storage", "Action Button"],
+        content: "Apple ne market ko surprise karte hue iPhone 16 Pro Max ki keemat record level par gira di hai. India me iPhone 17 ke aane ki subugahat tez ho gayi hai jis wajah se sellers ne existing stock clear karna chalu kar diya hai. Agar aap Pro model lene ka soch rahe the, toh ise abhi lena sabse smart move hai."
+    },
+    {
         slug: "redmi-note-15-se-launch-offer",
         title: "Redmi Note 15 Special Edition — 200MP Camera 📸",
         category: "Smartphone",

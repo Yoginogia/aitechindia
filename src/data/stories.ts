@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'google-gemini-4-unveiled',
+        title: 'Gemini 4 Leaked! AI War! 🤯',
+        subtitle: 'Google ka biggest AI model jo ChatGPT-6 ko directly harayega? Saari leaks samne ayi.',
+        category: '🔥 Breaking',
+        categoryColor: '#ef4444',
+        image: '/images/blog/google-turboquant-tech.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'bitcoin-69k-quantum-threat-2026',
         title: 'Bitcoin $69K + Quantum Threat! ⚛️',
         subtitle: 'Relief rally आई — लेकिन Q-Day का खतरा! 4M BTC exposed हैं।',
