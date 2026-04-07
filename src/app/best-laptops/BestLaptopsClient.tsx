@@ -51,9 +51,9 @@ const ALL_LAPTOPS: Laptop[] = [
             os: 'Windows 11 Home + MS Office 2021 + McAfee',
         },
         tags: ['Best for College', 'Thin & Light', 'Office Included'],
-        pros: ['Value for money processor', 'Lightweight for college bags', 'Pre-installed MS Office'],
-        cons: ['Average 720p webcam quality', '60Hz refresh rate is basic'],
-        verdict: 'Agar aapka budget 40k se 45k hai aur aapko college projects ya coding ke liye ek fast, reliable laptop chahiye, toh ye definitely ek solid pick hai.'
+        pros: ['Value for money प्रोसेसर', 'College bags के लिए Lightweight', 'Pre-installed MS Office'],
+        cons: ['Average 720p webcam क्वालिटी', '60Hz refresh rate थोड़ा बेसिक है'],
+        verdict: 'अगर आपका बजट ₹40k से ₹45k है और आपको college projects या coding के लिए एक फ़ास्ट और रिलाएबल laptop चाहिए, तो यह definite सॉलिड पिक है।'
     },
     {
         id: 'honor-magicbook-x14-pro',
@@ -74,9 +74,9 @@ const ALL_LAPTOPS: Laptop[] = [
             os: 'Windows 11 Home',
         },
         tags: ['Alumunium Body', '100% sRGB', 'Type-C Fast Charge'],
-        pros: ['Premium aluminium unibody design', 'Excellent 100% sRGB display for media', 'Long-lasting 60Wh battery'],
-        cons: ['Older generation LPDDR4x RAM', 'No dedicated graphics for heavy gaming'],
-        verdict: 'Ye un students ke liye hai jo design, UI/UX, ya content creation start kar rahe hain, kyunki iska 100% sRGB display is price me rare hai.'
+        pros: ['प्रीमियम aluminium unibody डिज़ाइन', '100% sRGB display (Media के लिए बेहतरीन)', 'Long-lasting 60Wh बैटरी'],
+        cons: ['पुरानी पीढ़ी की LPDDR4x RAM', 'Heavy gaming के लिए dedicated graphics नहीं'],
+        verdict: 'यह उन students के लिए है जो design, UI/UX, या content creation स्टार्ट कर रहे हैं, क्योंकि इसका 100% sRGB display इस price point पर rare है।'
     },
     // OFFICE / BUSINESS
     {
@@ -98,9 +98,9 @@ const ALL_LAPTOPS: Laptop[] = [
             os: 'Windows 11 Pro',
         },
         tags: ['Military Grade', 'Best Keyboard', 'AI Processor'],
-        pros: ['Industry-leading keyboard comfort', 'Military-grade durability', 'Upgradable RAM & Storage'],
-        cons: ['Design looks outdated to some', 'Display could have been brighter'],
-        verdict: 'Corporate professionals jinko poora din typing karni hoti hai aur ek aisa laptop chahiye jo saalon tak kharab na ho, this is the King.'
+        pros: ['Industry-leading कीबोर्ड कम्फर्ट', 'Military-grade ड्यूरेबिलिटी', 'Upgradable RAM और Storage'],
+        cons: ['डिज़ाइन थोड़ा Outdated लग सकता है', 'Display की Brightness और बेहतर हो सकती थी'],
+        verdict: 'Corporate professionals जिनको पूरा दिन typing करनी होती है और एक ऐसा laptop चाहिए जो सालों तक खराब न हो, This is the King.'
     },
     {
         id: 'dell-inspiron-14-plus',
@@ -121,9 +121,9 @@ const ALL_LAPTOPS: Laptop[] = [
             os: 'Windows 11 Home + MS Office 2021',
         },
         tags: ['2.2K Display', 'Premium Build', 'FHD Webcam'],
-        pros: ['Sharp 2.2K 16:10 display', 'Very premium build quality', 'Great 1080p webcam for Zoom meetings'],
-        cons: ['Slightly expensive for the CPU', 'Not ideal for heavy video editing'],
-        verdict: 'Managers aur executives jinko meetings ke liye ek sharp display, clear webcam, aur ek premium-looking thin laptop chahiye.'
+        pros: ['Sharp 2.2K 16:10 डिस्प्ले', 'काफी प्रीमियम बिल्ड क्वालिटी', 'Zoom meetings के लिए Great 1080p वेबकैम'],
+        cons: ['CPU के मुक़ाबले थोड़ा Expensive है', 'Heavy video editing के लिए Ideal नहीं'],
+        verdict: 'Managers और executives जिनको meetings के लिए एक sharp display, clear webcam, और एक premium-looking thin laptop चाहिए।'
     },
     // GAMING
     {
@@ -145,9 +145,9 @@ const ALL_LAPTOPS: Laptop[] = [
             os: 'Windows 11 Home',
         },
         tags: ['RTX 4060 140W', 'Advanced Cooling', 'G-Sync'],
-        pros: ['Massive 140W full-power RTX 4060', 'Excellent cooling system', 'Gorgeous 500 nits WQXGA display'],
-        cons: ['Very heavy to carry around', 'Fans get super loud on max settings'],
-        verdict: 'Hardcore gamers jinko GTA 6, Cyberpunk jaise AAA games bina kisi compromise ke High settings par khelne hain.'
+        pros: ['Massive 140W फुल-पावर RTX 4060', 'Excellent कूलिंग सिस्टम (AeroBlade 3D)', 'गॉर्जियस 500 nits WQXGA डिस्प्ले'],
+        cons: ['वजन काफी ज़्यादा है (Very Heavy)', 'Max settings पर Fans बहुत Loud हो जाते हैं'],
+        verdict: 'Hardcore gamers जिनको GTA 6 या Cyberpunk जैसे AAA games बिना किसी compromise के High settings पर खेलने हैं।'
     },
     {
         id: 'lenovo-loq-2026',
@@ -168,9 +168,9 @@ const ALL_LAPTOPS: Laptop[] = [
             os: 'Windows 11 Home + MS Office',
         },
         tags: ['Best Budget Gaming', 'MUX Switch', 'AI Engine+'],
-        pros: ['Powerful Ryzen 7 + RTX 4050 combo', 'Lenovo AI Engine+ works wonderfully', 'Great thermal management'],
-        cons: ['45% NTSC display is not good for color grading', 'Battery drains quickly while gaming'],
-        verdict: 'Agar aapka budget 80k-85k hai aur aapko raw gaming performance aur coding karni hai, toh Lenovo LOQ sabse balanced option hai.'
+        pros: ['पावरफुल Ryzen 7 + RTX 4050 कॉम्बो', 'Lenovo AI Engine+ शानदार काम करता है', 'Great थर्मल मैनेजमेंट'],
+        cons: ['45% NTSC display कलर ग्रेडिंग के लिए अच्छा नहीं', 'Gaming के दौरान Battery जल्दी ख़त्म होती है'],
+        verdict: 'अगर आपका बजट 80k-85k है और आपको raw gaming performance के साथ coding करनी है, तो Lenovo LOQ सबसे बैलेंस्ड ऑप्शन है।'
     },
     // CREATOR
     {
@@ -192,9 +192,9 @@ const ALL_LAPTOPS: Laptop[] = [
             os: 'macOS Sonoma',
         },
         tags: ['Unmatched Battery', 'Silent Fanless', 'Premium Video Editing'],
-        pros: ['Industry-best 18-hour battery life', 'Absolutely silent (Fanless design)', 'Extremely fast logic parsing for coders & editing'],
-        cons: ['Only 8GB base RAM (Upgrades are too expensive)', 'Not meant for heavy 3D rendering'],
-        verdict: 'Ek aam creator, coder, ya student jiske paas budget hai, uske liye MacBook Air M3 dunia ka sabse best laptop hai.'
+        pros: ['Industry-best 18-hour बैटरी लाइफ', 'बिल्कुल साइलेंट (Fanless डिज़ाइन)', 'Coders के लिए Extremely fast logic parsing'],
+        cons: ['सिर्फ 8GB base RAM (Upgrades बेहद महंगे हैं)', 'Heavy 3D rendering के लिए नहीं बना'],
+        verdict: 'एक आम creator, coder, या student जिसके पास बजट है, उसके लिए MacBook Air M3 दुनिया का सबसे बढ़िया laptop है।'
     },
     {
         id: 'asus-zenbook-14-oled-2026',
@@ -215,9 +215,9 @@ const ALL_LAPTOPS: Laptop[] = [
             os: 'Windows 11 Home + MS Office 2021',
         },
         tags: ['OLED 120Hz', 'AI Processor', '1.2kg Ultra-light'],
-        pros: ['Breathtaking 3K 120Hz OLED screen', 'Intel Ultra 7 delivers powerful AI features', 'Ultra-lightweight at just 1.2kg'],
-        cons: ['RAM is soldered, cannot upgrade later', 'Smudge-prone chassis'],
-        verdict: 'Jo log MacBook Air nahi lena chahte aur Windows par hi level 1 video/photo editing karna chahte hain, ye unka #1 alternative hai.'
+        pros: ['Breathtaking 3K 120Hz OLED स्क्रीन', 'Intel Ultra 7 डिलीवर करता है पॉवरफुल AI फीचर्स', 'महज़ 1.2kg का Ultra-lightweight'],
+        cons: ['RAM सोल्डर की गई है (Upgrade नहीं हो सकती)', 'Chassis पर उँगलियों के निशान (Smudges) जल्दी आते हैं'],
+        verdict: 'जो लोग MacBook Air नहीं लेना चाहते और Windows पर ही level 1 video/photo editing करना चाहते हैं, यह उनका #1 अल्टरनेटिव (alternative) है।'
     }
 ];
 
@@ -247,7 +247,7 @@ export default function BestLaptopsClient() {
                         Best Laptops in India
                     </h1>
                     <p className="max-w-2xl mx-auto text-lg md:text-xl text-blue-100/80 mb-10 leading-relaxed font-medium">
-                        Humne 50+ laptops compare kiye hain taaki aapko apne specific use-case ke liye best laptop mil sake. <strong className="text-white">Confused about specs?</strong> Humne sab simple kar diya hai.
+                        हमने 50+ laptops compare किये हैं ताकि आपको अपने specific use-case के लिए बेस्ट laptop मिल सके। <strong className="text-white">Confused about specs?</strong> हमने सब सिंपल कर दिया है।
                     </p>
                 </div>
             </div>
@@ -468,15 +468,15 @@ export default function BestLaptopsClient() {
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                         <div className="bg-background p-6 rounded-2xl border border-border/40 shadow-sm">
                             <h3 className="font-bold text-lg mb-3 flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-primary" /> Processor Rule</h3>
-                            <p className="text-sm text-muted-foreground leading-relaxed">Hamesha latest generation lein. 2026 mein Intel 13th/14th Gen ya Core Ultra Series aur AMD Ryzen 7000/8000 series sabse best hain.</p>
+                            <p className="text-sm text-muted-foreground leading-relaxed">हमेशा लेटेस्ट जेनरेशन चुनें। 2026 में Intel 13th/14th Gen या Core Ultra Series और AMD Ryzen 7000/8000 series सबसे बेस्ट परफॉरमेंस देते हैं।</p>
                         </div>
                         <div className="bg-background p-6 rounded-2xl border border-border/40 shadow-sm">
                             <h3 className="font-bold text-lg mb-3 flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-primary" /> RAM & Storage</h3>
-                            <p className="text-sm text-muted-foreground leading-relaxed">8GB RAM ab obsolete ho chuka hai. Min 16GB LPDDR5 RAM aur 512GB PCIe Gen4 SSD zaroori hai ek smooth experience ke liye.</p>
+                            <p className="text-sm text-muted-foreground leading-relaxed">8GB RAM अब Outdated हो चुका है। एक smooth experience के लिए कम से कम 16GB LPDDR5 RAM और 512GB PCIe Gen4 SSD होना अनिवार्य है।</p>
                         </div>
                         <div className="bg-background p-6 rounded-2xl border border-border/40 shadow-sm">
                             <h3 className="font-bold text-lg mb-3 flex items-center gap-2"><CheckCircle2 className="w-5 h-5 text-primary" /> Display Types</h3>
-                            <p className="text-sm text-muted-foreground leading-relaxed">Creators ke liye OLED (100% DCI-P3) zaruri hai. Gamers ko fast IPS (144Hz+) chahiye. Office/Students ke liye standard IPS (300nits) kafi hai.</p>
+                            <p className="text-sm text-muted-foreground leading-relaxed">Creators के लिए OLED (100% DCI-P3) ज़रूरी है। Gamers को fast IPS (144Hz+) चाहिए। और Office/Students के लिए स्टैण्डर्ड IPS (300nits) काफी है।</p>
                         </div>
                     </div>
                 </div>
