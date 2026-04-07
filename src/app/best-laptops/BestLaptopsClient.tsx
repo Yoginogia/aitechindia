@@ -428,6 +428,11 @@ export default function BestLaptopsClient() {
                                         <span className="text-2xl font-black">₹{laptop.price.toLocaleString('en-IN')}</span>
                                         <span className="text-xs text-muted-foreground/60 line-through">₹{(laptop.price * 1.3).toLocaleString('en-IN')}</span>
                                     </div>
+                                    <div className="mb-4">
+                                        <Link href={`/blog/${laptop.id}-review`} className="w-full bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-foreground font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition-all border border-border/40">
+                                            📖 Read Detailed Review <ChevronRight className="w-4 h-4" />
+                                        </Link>
+                                    </div>
                                     <div className="flex flex-col sm:flex-row gap-3">
                                         <a href={laptop.amazonUrl} target="_blank" rel="noopener noreferrer" className="flex-1 bg-[#ff9900] hover:bg-[#ff9900]/90 text-black font-bold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-md shadow-[#ff9900]/20 hover:-translate-y-0.5">
                                             Buy on Amazon
