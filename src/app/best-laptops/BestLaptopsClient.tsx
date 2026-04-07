@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import { Cpu, MemoryStick, Monitor, Gamepad2, BatteryCharging, ShoppingCart, Sparkles, Filter, ChevronRight, CheckCircle2 } from 'lucide-react';
+import { Cpu, MemoryStick, Monitor, Gamepad2, BatteryCharging, ShoppingCart, Sparkles, Filter, ChevronRight, CheckCircle2, X, Check } from 'lucide-react';
 
 export interface LaptopSpec {
     processor: string;
@@ -28,6 +28,7 @@ export interface Laptop {
     pros: string[];
     cons: string[];
     verdict: string;
+    ports: string[];
 }
 
 const ALL_LAPTOPS: Laptop[] = [
@@ -53,7 +54,8 @@ const ALL_LAPTOPS: Laptop[] = [
         tags: ['Best for College', 'Thin & Light', 'Office Included'],
         pros: ['Value for money प्रोसेसर', 'College bags के लिए Lightweight', 'Pre-installed MS Office'],
         cons: ['Average 720p webcam क्वालिटी', '60Hz refresh rate थोड़ा बेसिक है'],
-        verdict: 'अगर आपका बजट ₹40k से ₹45k है और आपको college projects या coding के लिए एक फ़ास्ट और रिलाएबल laptop चाहिए, तो यह definite सॉलिड पिक है।'
+        verdict: 'अगर आपका बजट ₹40k से ₹45k है और आपको college projects या coding के लिए एक फ़ास्ट और रिलाएबल laptop चाहिए, तो यह definite सॉलिड पिक है।',
+        ports: ['1x Type-C', '2x USB 3.2', '1x HDMI 1.4']
     },
     {
         id: 'honor-magicbook-x14-pro',
@@ -76,7 +78,8 @@ const ALL_LAPTOPS: Laptop[] = [
         tags: ['Alumunium Body', '100% sRGB', 'Type-C Fast Charge'],
         pros: ['प्रीमियम aluminium unibody डिज़ाइन', '100% sRGB display (Media के लिए बेहतरीन)', 'Long-lasting 60Wh बैटरी'],
         cons: ['पुरानी पीढ़ी की LPDDR4x RAM', 'Heavy gaming के लिए dedicated graphics नहीं'],
-        verdict: 'यह उन students के लिए है जो design, UI/UX, या content creation स्टार्ट कर रहे हैं, क्योंकि इसका 100% sRGB display इस price point पर rare है।'
+        verdict: 'यह उन students के लिए है जो design, UI/UX, या content creation स्टार्ट कर रहे हैं, क्योंकि इसका 100% sRGB display इस price point पर rare है।',
+        ports: ['1x Type-C (Charge/Data)', '1x USB 3.0', '1x HDMI']
     },
     // OFFICE / BUSINESS
     {
@@ -100,7 +103,8 @@ const ALL_LAPTOPS: Laptop[] = [
         tags: ['Military Grade', 'Best Keyboard', 'AI Processor'],
         pros: ['Industry-leading कीबोर्ड कम्फर्ट', 'Military-grade ड्यूरेबिलिटी', 'Upgradable RAM और Storage'],
         cons: ['डिज़ाइन थोड़ा Outdated लग सकता है', 'Display की Brightness और बेहतर हो सकती थी'],
-        verdict: 'Corporate professionals जिनको पूरा दिन typing करनी होती है और एक ऐसा laptop चाहिए जो सालों तक खराब न हो, This is the King.'
+        verdict: 'Corporate professionals जिनको पूरा दिन typing करनी होती है और एक ऐसा laptop चाहिए जो सालों तक खराब न हो, This is the King.',
+        ports: ['1x Thunderbolt 4', '1x Type-C', 'RJ45 LAN', 'HDMI 2.1']
     },
     {
         id: 'dell-inspiron-14-plus',
@@ -123,7 +127,8 @@ const ALL_LAPTOPS: Laptop[] = [
         tags: ['2.2K Display', 'Premium Build', 'FHD Webcam'],
         pros: ['Sharp 2.2K 16:10 डिस्प्ले', 'काफी प्रीमियम बिल्ड क्वालिटी', 'Zoom meetings के लिए Great 1080p वेबकैम'],
         cons: ['CPU के मुक़ाबले थोड़ा Expensive है', 'Heavy video editing के लिए Ideal नहीं'],
-        verdict: 'Managers और executives जिनको meetings के लिए एक sharp display, clear webcam, और एक premium-looking thin laptop चाहिए।'
+        verdict: 'Managers और executives जिनको meetings के लिए एक sharp display, clear webcam, और एक premium-looking thin laptop चाहिए।',
+        ports: ['1x Thunderbolt 4', '2x USB-A', 'HDMI 2.0', 'SD Reader']
     },
     // GAMING
     {
@@ -147,7 +152,8 @@ const ALL_LAPTOPS: Laptop[] = [
         tags: ['RTX 4060 140W', 'Advanced Cooling', 'G-Sync'],
         pros: ['Massive 140W फुल-पावर RTX 4060', 'Excellent कूलिंग सिस्टम (AeroBlade 3D)', 'गॉर्जियस 500 nits WQXGA डिस्प्ले'],
         cons: ['वजन काफी ज़्यादा है (Very Heavy)', 'Max settings पर Fans बहुत Loud हो जाते हैं'],
-        verdict: 'Hardcore gamers जिनको GTA 6 या Cyberpunk जैसे AAA games बिना किसी compromise के High settings पर खेलने हैं।'
+        verdict: 'Hardcore gamers जिनको GTA 6 या Cyberpunk जैसे AAA games बिना किसी compromise के High settings पर खेलने हैं।',
+        ports: ['2x Thunderbolt 4', '3x USB-A 3.2', 'HDMI 2.1', 'RJ45 LAN']
     },
     {
         id: 'lenovo-loq-2026',
@@ -170,7 +176,8 @@ const ALL_LAPTOPS: Laptop[] = [
         tags: ['Best Budget Gaming', 'MUX Switch', 'AI Engine+'],
         pros: ['पावरफुल Ryzen 7 + RTX 4050 कॉम्बो', 'Lenovo AI Engine+ शानदार काम करता है', 'Great थर्मल मैनेजमेंट'],
         cons: ['45% NTSC display कलर ग्रेडिंग के लिए अच्छा नहीं', 'Gaming के दौरान Battery जल्दी ख़त्म होती है'],
-        verdict: 'अगर आपका बजट 80k-85k है और आपको raw gaming performance के साथ coding करनी है, तो Lenovo LOQ सबसे बैलेंस्ड ऑप्शन है।'
+        verdict: 'अगर आपका बजट 80k-85k है और आपको raw gaming performance के साथ coding करनी है, तो Lenovo LOQ सबसे बैलेंस्ड ऑप्शन है।',
+        ports: ['1x Type-C (140W)', '3x USB-A', 'RJ45 LAN', 'HDMI 2.1']
     },
     // CREATOR
     {
@@ -194,7 +201,8 @@ const ALL_LAPTOPS: Laptop[] = [
         tags: ['Unmatched Battery', 'Silent Fanless', 'Premium Video Editing'],
         pros: ['Industry-best 18-hour बैटरी लाइफ', 'बिल्कुल साइलेंट (Fanless डिज़ाइन)', 'Coders के लिए Extremely fast logic parsing'],
         cons: ['सिर्फ 8GB base RAM (Upgrades बेहद महंगे हैं)', 'Heavy 3D rendering के लिए नहीं बना'],
-        verdict: 'एक आम creator, coder, या student जिसके पास बजट है, उसके लिए MacBook Air M3 दुनिया का सबसे बढ़िया laptop है।'
+        verdict: 'एक आम creator, coder, या student जिसके पास बजट है, उसके लिए MacBook Air M3 दुनिया का सबसे बढ़िया laptop है।',
+        ports: ['2x Thunderbolt / USB 4', 'MagSafe 3', '3.5mm Jack']
     },
     {
         id: 'asus-zenbook-14-oled-2026',
@@ -217,13 +225,16 @@ const ALL_LAPTOPS: Laptop[] = [
         tags: ['OLED 120Hz', 'AI Processor', '1.2kg Ultra-light'],
         pros: ['Breathtaking 3K 120Hz OLED स्क्रीन', 'Intel Ultra 7 डिलीवर करता है पॉवरफुल AI फीचर्स', 'महज़ 1.2kg का Ultra-lightweight'],
         cons: ['RAM सोल्डर की गई है (Upgrade नहीं हो सकती)', 'Chassis पर उँगलियों के निशान (Smudges) जल्दी आते हैं'],
-        verdict: 'जो लोग MacBook Air नहीं लेना चाहते और Windows पर ही level 1 video/photo editing करना चाहते हैं, यह उनका #1 अल्टरनेटिव (alternative) है।'
+        verdict: 'जो लोग MacBook Air नहीं लेना चाहते और Windows पर ही level 1 video/photo editing करना चाहते हैं, यह उनका #1 अल्टरनेटिव (alternative) है।',
+        ports: ['2x Thunderbolt 4', '1x USB-A', 'HDMI 2.1', '3.5mm Jack']
     }
 ];
 
 export default function BestLaptopsClient() {
     const [selectedCategory, setSelectedCategory] = useState<'all' | 'student' | 'gaming' | 'office' | 'creator'>('all');
     const [selectedBudget, setSelectedBudget] = useState<number>(Infinity);
+    const [compareList, setCompareList] = useState<string[]>([]);
+    const [isCompareModalOpen, setIsCompareModalOpen] = useState(false);
 
     const filteredLaptops = ALL_LAPTOPS.filter(laptop => {
         const matchCategory = selectedCategory === 'all' || laptop.category === selectedCategory;
@@ -323,6 +334,24 @@ export default function BestLaptopsClient() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                     {filteredLaptops.map((laptop) => (
                         <div key={laptop.id} className="group bg-card rounded-[2rem] border border-border/40 overflow-hidden hover:border-primary/40 hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 relative flex flex-col md:flex-row">
+                            {/* Compare Check Box top-right */}
+                            <label className="absolute top-4 right-4 z-20 flex items-center gap-2 bg-background/90 backdrop-blur-md px-3 py-1.5 rounded-xl border border-border/50 shadow-sm cursor-pointer hover:border-primary/50 transition-all group/chk">
+                                <input 
+                                    type="checkbox"
+                                    className="w-4 h-4 rounded border-border text-primary focus:ring-primary accent-primary cursor-pointer"
+                                    checked={compareList.includes(laptop.id)}
+                                    onChange={(e) => {
+                                        if (e.target.checked) {
+                                            if (compareList.length < 3) setCompareList([...compareList, laptop.id])
+                                            else alert("You can compare up to 3 laptops at a time.");
+                                        } else {
+                                            setCompareList(compareList.filter(id => id !== laptop.id))
+                                        }
+                                    }}
+                                />
+                                <span className="text-xs font-bold whitespace-nowrap text-foreground group-hover/chk:text-primary">Compare</span>
+                            </label>
+
                             {/* Tags layer top-left */}
                             <div className="absolute top-4 left-4 z-20 flex flex-col gap-2 pointer-events-none">
                                 {laptop.tags.map((tag, i) => (
@@ -392,6 +421,18 @@ export default function BestLaptopsClient() {
                                         </div>
                                     </div>
                                     
+                                    {/* Ports & Battery Icon Strip */}
+                                    <div className="flex flex-wrap gap-2 mb-6 mt-1">
+                                        <div className="bg-secondary/60 text-foreground text-[10px] font-bold px-2.5 py-1 rounded-md flex items-center gap-1 border border-primary/20 shadow-sm">
+                                            <BatteryCharging className="w-3.5 h-3.5 text-green-500" /> {laptop.specs.battery.split(',')[0].split('(')[0].trim()}
+                                        </div>
+                                        {laptop.ports && laptop.ports.map((port, i) => (
+                                            <div key={i} className="bg-secondary/30 text-muted-foreground text-[10px] font-bold px-2 py-1 rounded-md border border-border/40 flex items-center shadow-sm">
+                                                {port}
+                                            </div>
+                                        ))}
+                                    </div>
+
                                     {/* Verdict Block */}
                                     <div className="bg-primary/5 border border-primary/20 rounded-xl p-4 mb-5">
                                         <h4 className="text-sm font-bold text-primary mb-1 flex items-center gap-1.5"><Sparkles className="w-4 h-4" /> Our Verdict</h4>
@@ -481,6 +522,97 @@ export default function BestLaptopsClient() {
                     </div>
                 </div>
             </div>
+
+            {/* COMPARE WIDGET (FLOATING) */}
+            {compareList.length > 0 && (
+                <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 bg-background/95 backdrop-blur-xl border border-border/50 shadow-2xl px-4 py-3 sm:px-6 sm:py-4 rounded-full flex items-center gap-4 sm:gap-6 animate-in slide-in-from-bottom-10 fade-in duration-300">
+                    <div className="flex -space-x-3">
+                        {compareList.map(id => {
+                            const l = ALL_LAPTOPS.find(x => x.id === id);
+                            return l ? <img key={id} src={`/images/laptops/${id}.jpg`} className="w-8 h-8 sm:w-10 sm:h-10 rounded-full border-2 border-background object-cover bg-secondary" title={l.name} alt={l.name} /> : null
+                        })}
+                    </div>
+                    <div className="flex-col hidden sm:flex">
+                        <span className="font-bold text-sm tracking-tight">{compareList.length} Selected</span>
+                        <span className="text-[10px] text-muted-foreground font-medium">Max 3 allowed</span>
+                    </div>
+                    <div className="flex gap-2">
+                        <button 
+                            onClick={() => setCompareList([])}
+                            className="px-3 py-2 rounded-xl text-xs font-bold text-muted-foreground hover:bg-secondary transition-all"
+                        >Clear</button>
+                        <button 
+                            onClick={() => setIsCompareModalOpen(true)}
+                            disabled={compareList.length < 2}
+                            className={`px-4 sm:px-5 py-2 rounded-xl text-xs sm:text-sm font-bold transition-all shadow-sm flex items-center gap-1.5 ${compareList.length < 2 ? 'bg-secondary text-muted-foreground cursor-not-allowed' : 'bg-primary text-white hover:scale-105 shadow-primary/25'}`}
+                        >
+                            Compare <Monitor className="w-4 h-4 hidden sm:block" />
+                        </button>
+                    </div>
+                </div>
+            )}
+
+            {/* COMPARE MODAL */}
+            {isCompareModalOpen && (
+                <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-background/80 backdrop-blur-sm animate-in fade-in duration-200">
+                    <div className="bg-card w-full max-w-6xl max-h-[90vh] rounded-3xl border border-border/50 shadow-2xl flex flex-col overflow-hidden animate-in zoom-in-95 duration-300">
+                        <div className="p-4 sm:p-6 border-b border-border/50 flex justify-between items-center bg-secondary/30">
+                            <h2 className="text-xl sm:text-2xl font-bold flex items-center gap-2"><Filter className="w-6 h-6 text-primary" /> Feature Comparison</h2>
+                            <button onClick={() => setIsCompareModalOpen(false)} className="p-2 hover:bg-secondary rounded-full transition-colors"><X className="w-5 h-5" /></button>
+                        </div>
+                        <div className="p-4 sm:p-6 overflow-x-auto flex-1 [&::-webkit-scrollbar]:h-2 [&::-webkit-scrollbar-track]:bg-secondary/50 [&::-webkit-scrollbar-thumb]:bg-primary/50 [&::-webkit-scrollbar-thumb]:rounded-full">
+                            <table className="w-full text-left min-w-[700px]">
+                                <thead>
+                                    <tr>
+                                        <th className="p-3 font-semibold text-muted-foreground border-b border-border/50 w-1/4">Specs \\ Models</th>
+                                        {compareList.map(id => {
+                                            const l = ALL_LAPTOPS.find(x => x.id === id);
+                                            return l ? (
+                                                <th key={id} className="p-3 border-b border-border/50 w-1/4 align-top">
+                                                    <div className="relative aspect-[4/3] w-full rounded-xl overflow-hidden mb-3 bg-secondary/50 border border-border/50">
+                                                        <img src={`/images/laptops/${id}.jpg`} alt={l.name} className="absolute inset-0 w-full h-full object-cover mix-blend-multiply" />
+                                                    </div>
+                                                    <h3 className="font-bold text-sm leading-tight text-primary mb-1">{l.name}</h3>
+                                                    <p className="text-foreground font-black text-lg">₹{l.price.toLocaleString('en-IN')}</p>
+                                                </th>
+                                            ) : null;
+                                        })}
+                                    </tr>
+                                </thead>
+                                <tbody className="text-sm">
+                                    {[
+                                        { label: 'Processor', key: 'processor', icon: Cpu },
+                                        { label: 'RAM', key: 'ram', icon: MemoryStick },
+                                        { label: 'Storage', key: 'storage', icon: null },
+                                        { label: 'Display', key: 'display', icon: Monitor },
+                                        { label: 'Graphics', key: 'graphics', icon: Gamepad2 },
+                                        { label: 'Battery', key: 'battery', icon: BatteryCharging },
+                                    ].map((row, idx) => (
+                                        <tr key={row.key} className={idx % 2 === 0 ? 'bg-secondary/20' : ''}>
+                                            <td className="p-4 border-b border-border/30 font-semibold text-muted-foreground flex items-center gap-2">
+                                                {row.icon && <row.icon className="w-4 h-4 text-foreground/50" />} {row.label}
+                                            </td>
+                                            {compareList.map(id => {
+                                                const l = ALL_LAPTOPS.find(x => x.id === id);
+                                                return l ? <td key={id} className="p-4 border-b border-border/30 text-foreground/90 leading-tight border-l border-border/20">{l.specs[row.key as keyof LaptopSpec]}</td> : null;
+                                            })}
+                                        </tr>
+                                    ))}
+                                    <tr>
+                                        <td className="p-4 font-semibold text-muted-foreground flex items-center gap-2">
+                                            Verdict
+                                        </td>
+                                        {compareList.map(id => {
+                                            const l = ALL_LAPTOPS.find(x => x.id === id);
+                                            return l ? <td key={id} className="p-4 text-xs font-medium text-primary leading-relaxed border-l border-border/20">{l.verdict}</td> : null;
+                                        })}
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            )}
         </div>
     );
 }
