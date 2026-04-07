@@ -40,7 +40,7 @@ const AI_TOOLS_DB: AITool[] = [
     // OFFICE & BUSINESS
     { id: 'gamma', slug: 'gamma-guide-2026', name: 'Gamma App', category: 'office', pricing: 'Freemium', description: '1 minute ke andar AI se beautiful presentation (PPTs) banana.', url: 'https://gamma.app', emoji: '📊' },
     { id: 'notionai', slug: 'notion-guide-2026', name: 'Notion AI', category: 'office', pricing: 'Paid', description: 'Notes banana, meeting summaries likhna aur workspace handle karna.', url: 'https://www.notion.so/product/ai', emoji: '📓' },
-    { id: 'tome', slug: 'tome-guide-2026', name: 'Tome', category: 'office', pricing: 'Freemium', description: 'Text prompt de kar puri kahani ya business slides tayar karna.', url: 'https://tome.app', emoji: '📈' },
+    { id: 'beautifulai', slug: 'beautifulai-guide-2026', name: 'Beautiful.ai', category: 'office', pricing: 'Freemium', description: 'Smart AI presentation software jo auto-design karta hai.', url: 'https://www.beautiful.ai', emoji: '🎨' },
 
     // CODING & DEV
     { id: 'githubcopilot', slug: 'github-copilot-guide-2026', name: 'GitHub Copilot', category: 'coding', pricing: 'Paid', description: 'VS Code me AI autocomplete, jo khud code likh deta hai.', url: 'https://github.com/features/copilot', emoji: '💻' },
