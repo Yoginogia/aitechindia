@@ -15,6 +15,7 @@ interface AIPost {
 
 interface AITool {
     id: string;
+    slug: string;
     name: string;
     category: 'student' | 'video' | 'coding' | 'office' | 'audio';
     pricing: 'Free' | 'Freemium' | 'Paid';
@@ -25,29 +26,29 @@ interface AITool {
 
 const AI_TOOLS_DB: AITool[] = [
     // STUDENTS & RESEARCH
-    { id: 'chatgpt', name: 'ChatGPT', category: 'student', pricing: 'Freemium', description: 'Assignments, coding, aur ideas ke liye sabse popular AI.', url: 'https://chat.openai.com', emoji: '🧠' },
-    { id: 'perplexity', name: 'Perplexity AI', category: 'student', pricing: 'Freemium', description: 'Advanced search engine jo Google ki jagah sidha accurate answers deta hai.', url: 'https://www.perplexity.ai', emoji: '🔍' },
-    { id: 'claude', name: 'Claude 3', category: 'student', pricing: 'Freemium', description: 'PDF upload aur lambe research papers analyze karne me master.', url: 'https://claude.ai', emoji: '📝' },
-    { id: 'quillbot', name: 'QuillBot', category: 'student', pricing: 'Freemium', description: 'Grammar check aur English text ko rephrase/rewrite karne me best.', url: 'https://quillbot.com', emoji: '✍️' },
+    { id: 'chatgpt', slug: 'chatgpt-guide-2026', name: 'ChatGPT', category: 'student', pricing: 'Freemium', description: 'Assignments, coding, aur ideas ke liye sabse popular AI.', url: 'https://chat.openai.com', emoji: '🧠' },
+    { id: 'perplexity', slug: 'perplexity-guide-2026', name: 'Perplexity AI', category: 'student', pricing: 'Freemium', description: 'Advanced search engine jo Google ki jagah sidha accurate answers deta hai.', url: 'https://www.perplexity.ai', emoji: '🔍' },
+    { id: 'claude', slug: 'claude-guide-2026', name: 'Claude 3', category: 'student', pricing: 'Freemium', description: 'PDF upload aur lambe research papers analyze karne me master.', url: 'https://claude.ai', emoji: '📝' },
+    { id: 'quillbot', slug: 'quillbot-guide-2026', name: 'QuillBot', category: 'student', pricing: 'Freemium', description: 'Grammar check aur English text ko rephrase/rewrite karne me best.', url: 'https://quillbot.com', emoji: '✍️' },
 
     // VIDEO & IMAGE
-    { id: 'midjourney', name: 'Midjourney', category: 'video', pricing: 'Paid', description: 'Text likhkar extremely realistic premium images banana.', url: 'https://midjourney.com', emoji: '🎨' },
-    { id: 'heygen', name: 'HeyGen', category: 'video', pricing: 'Freemium', description: 'AI avatar se automatically professional videos aur shorts banana.', url: 'https://www.heygen.com', emoji: '🎬' },
-    { id: 'leonardo', name: 'Leonardo AI', category: 'video', pricing: 'Freemium', description: 'Midjourney ka best free alternative images generate karne ke liye.', url: 'https://leonardo.ai', emoji: '🖼️' },
-    { id: 'runway', name: 'Runway ML', category: 'video', pricing: 'Paid', description: 'High quality AI se video generation aur text-to-video editing.', url: 'https://runwayml.com', emoji: '🎥' },
+    { id: 'midjourney', slug: 'midjourney-guide-2026', name: 'Midjourney', category: 'video', pricing: 'Paid', description: 'Text likhkar extremely realistic premium images banana.', url: 'https://midjourney.com', emoji: '🎨' },
+    { id: 'heygen', slug: 'heygen-guide-2026', name: 'HeyGen', category: 'video', pricing: 'Freemium', description: 'AI avatar se automatically professional videos aur shorts banana.', url: 'https://www.heygen.com', emoji: '🎬' },
+    { id: 'leonardo', slug: 'leonardo-guide-2026', name: 'Leonardo AI', category: 'video', pricing: 'Freemium', description: 'Midjourney ka best free alternative images generate karne ke liye.', url: 'https://leonardo.ai', emoji: '🖼️' },
+    { id: 'runway', slug: 'runway-guide-2026', name: 'Runway ML', category: 'video', pricing: 'Paid', description: 'High quality AI se video generation aur text-to-video editing.', url: 'https://runwayml.com', emoji: '🎥' },
 
     // OFFICE & BUSINESS
-    { id: 'gamma', name: 'Gamma App', category: 'office', pricing: 'Freemium', description: '1 minute ke andar AI se beautiful presentation (PPTs) banana.', url: 'https://gamma.app', emoji: '📊' },
-    { id: 'notionai', name: 'Notion AI', category: 'office', pricing: 'Paid', description: 'Notes banana, meeting summaries likhna aur workspace handle karna.', url: 'https://www.notion.so/product/ai', emoji: '📓' },
-    { id: 'tome', name: 'Tome', category: 'office', pricing: 'Freemium', description: 'Text prompt de kar puri kahani ya business slides tayar karna.', url: 'https://tome.app', emoji: '📈' },
+    { id: 'gamma', slug: 'gamma-guide-2026', name: 'Gamma App', category: 'office', pricing: 'Freemium', description: '1 minute ke andar AI se beautiful presentation (PPTs) banana.', url: 'https://gamma.app', emoji: '📊' },
+    { id: 'notionai', slug: 'notion-guide-2026', name: 'Notion AI', category: 'office', pricing: 'Paid', description: 'Notes banana, meeting summaries likhna aur workspace handle karna.', url: 'https://www.notion.so/product/ai', emoji: '📓' },
+    { id: 'tome', slug: 'tome-guide-2026', name: 'Tome', category: 'office', pricing: 'Freemium', description: 'Text prompt de kar puri kahani ya business slides tayar karna.', url: 'https://tome.app', emoji: '📈' },
 
     // CODING & DEV
-    { id: 'githubcopilot', name: 'GitHub Copilot', category: 'coding', pricing: 'Paid', description: 'VS Code me AI autocomplete, jo khud code likh deta hai.', url: 'https://github.com/features/copilot', emoji: '💻' },
-    { id: 'cursor', name: 'Cursor IDE', category: 'coding', pricing: 'Freemium', description: 'AI-first code editor, ChatGPT default integrated for coding.', url: 'https://cursor.sh', emoji: '⚙️' },
+    { id: 'githubcopilot', slug: 'github-copilot-guide-2026', name: 'GitHub Copilot', category: 'coding', pricing: 'Paid', description: 'VS Code me AI autocomplete, jo khud code likh deta hai.', url: 'https://github.com/features/copilot', emoji: '💻' },
+    { id: 'cursor', slug: 'cursor-guide-2026', name: 'Cursor IDE', category: 'coding', pricing: 'Freemium', description: 'AI-first code editor, ChatGPT default integrated for coding.', url: 'https://cursor.sh', emoji: '⚙️' },
     
     // AUDIO & MUSIC
-    { id: 'elevenlabs', name: 'ElevenLabs', category: 'audio', pricing: 'Freemium', description: 'Sabse realistic AI Voice generator, exactly humans jaisi awaz.', url: 'https://elevenlabs.io', emoji: '🎙️' },
-    { id: 'suno', name: 'Suno AI', category: 'audio', pricing: 'Freemium', description: 'Sirf text commands de kr professional gaane (songs) produce karna.', url: 'https://suno.com', emoji: '🎵' },
+    { id: 'elevenlabs', slug: 'elevenlabs-guide-2026', name: 'ElevenLabs', category: 'audio', pricing: 'Freemium', description: 'Sabse realistic AI Voice generator, exactly humans jaisi awaz.', url: 'https://elevenlabs.io', emoji: '🎙️' },
+    { id: 'suno', slug: 'suno-guide-2026', name: 'Suno AI', category: 'audio', pricing: 'Freemium', description: 'Sirf text commands de kr professional gaane (songs) produce karna.', url: 'https://suno.com', emoji: '🎵' },
 ];
 
 export default function AIToolsClient({ aiPosts }: { aiPosts: AIPost[] }) {
@@ -140,7 +141,7 @@ export default function AIToolsClient({ aiPosts }: { aiPosts: AIPost[] }) {
                                     Visit Website <ExternalLink className="w-4 h-4" />
                                 </a>
                                 <Link
-                                    href={`/blog/${tool.id}-guide-2026`} /* Adjusted later mapped slugs but generic is ok too, let's map it based on ID */
+                                    href={`/blog/${tool.slug}`}
                                     className="w-full bg-secondary/60 hover:bg-secondary text-muted-foreground hover:text-foreground font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition-all"
                                 >
                                     📖 Read Detailed Guide <ArrowRight className="w-4 h-4" />
