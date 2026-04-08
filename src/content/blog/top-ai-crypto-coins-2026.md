@@ -1,5 +1,5 @@
 ---
-title: "Top 3 AI Crypto Coins जो 2026 में आपका पोर्टफोलियो बदल सकते हैं!"
+title: "Top 3 AI Crypto Coins: 2026 में करोड़पति बना सकते हैं ये सिक्के?"
 date: "2026-04-08"
 category: "Crypto"
 excerpt: "AI और Blockchain का मिलन क्रिप्टो मार्किट में नया बूम लेकर आया है। ये 3 कॉइन्स हाई-पोटेंशियल (high-potential) दिख रहे हैं।"

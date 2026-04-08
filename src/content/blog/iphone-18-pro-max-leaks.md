@@ -1,5 +1,5 @@
 ---
-title: "iPhone 18 Pro Max Leaks: 48MP Periscope Zoom और No-Port Design?"
+title: "iPhone 18 Pro Max लीक्स: क्या Apple हटा देगा चार्जिंग पोर्ट?"
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "iPhone 18 की लीक्स (leaks) अभी से ट्रेंडिंग होने लगी हैं। क्या Apple सच में फिजिकली पोर्ट्स (ports) हटाने वाला है?"

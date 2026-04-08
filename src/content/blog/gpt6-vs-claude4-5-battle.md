@@ -1,5 +1,5 @@
 ---
-title: "GPT-6 vs Claude 4.5: Kaun Jeetega Next AGI Battle?"
+title: "GPT-6 vs Claude 4.5: कौन जीतेगा AI की अगली बड़ी जंग?"
 date: "2026-04-08"
 category: "AI News"
 excerpt: "April 2026 में AGI (Artificial General Intelligence) की चर्चा सबसे ज़्यादा है। GPT-6 और Claude 4.5 के फीचर्स देखकर लगता है कि AI की दुनिया पूरी तरह से बदलने वाली है।"

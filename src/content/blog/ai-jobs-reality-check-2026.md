@@ -1,5 +1,5 @@
 ---
-title: "Kya AI sach mein IT Jobs khatam kar raha hai? 2026 ka Reality Check."
+title: "क्या AI सच में IT Jobs खत्म कर रहा है? जानिए 2026 का सच।"
 date: "2026-04-08"
 category: "Tech News"
 excerpt: "जॉब मार्किट में हलचल मची हुई है। क्या AI हमारी नौकरी खा जाएगा या नए अवसर (opportunities) लाएगा?"
@@ -17,4 +17,4 @@ author: "AITechNews Desk"
 - लेवल 1 टेक सपोर्ट
 
 ## कैसे बचें?
-नए स्किल्स सीखना ही एकमात्र रास्ता है। Python, Machine Learning और AI आर्किटेक्चर की समझ होना अब हर डिग्री से ज़्यादा इम्पोर्टेन्ट (important) हो गया है।
+नए स्किल्स सीखना ही एकमात्र रास्ता है। Python, Machine Learning aur AI आर्किटेक्चर की समझ होना अब हर डिग्री से ज़्यादा इम्पोर्टेन्ट (important) हो गया है।
