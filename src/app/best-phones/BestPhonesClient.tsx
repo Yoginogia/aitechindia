@@ -401,6 +401,11 @@ function PhoneCard({ phone }: { phone: Phone }) {
           </div>
         </div>
 
+        <Link href={`/blog/${phone.id}-review`}
+          className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-primary/20 to-purple-500/20 hover:from-primary/30 hover:to-purple-500/30 text-primary text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 border border-primary/20 mb-2">
+          <Sparkles className="w-3 h-3" /> Detailed Review पढ़ें →
+        </Link>
+
         <div className="flex gap-2">
           <a href={phone.amazon} target="_blank" rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-1.5 bg-[#FF9900] hover:bg-[#FF9900]/90 text-black text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 shadow-sm">
