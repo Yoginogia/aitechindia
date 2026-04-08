@@ -150,5 +150,25 @@ export const STORIES: StoryItem[] = [
         image: '/images/web-stories/ai-jobs-reality.png',
         pages: 5,
         isTrending: true,
+    },
+    {
+        slug: 'ai-laptops-2026',
+        title: 'Top 5 AI Laptops (2026)',
+        subtitle: 'Students aur Coders ke liye NPU waale Best AI Laptops.',
+        category: '💻 Gadgets',
+        categoryColor: '#3b82f6',
+        image: '/images/web-stories/ai-laptops-2026.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-crypto-coins-2026',
+        title: 'Top 3 AI Crypto Coins 🚀',
+        subtitle: '2026 mein explode hone waale best AI based cryptocurrencies.',
+        category: '💰 Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/web-stories/ai-crypto-coins-2026.png',
+        pages: 4,
+        isTrending: true,
     }
 ];
