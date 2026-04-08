@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useMemo } from 'react';
-import { Smartphone, Star, Zap, Battery, Cpu, Filter, ExternalLink, CheckCircle2, TrendingUp, Award } from 'lucide-react';
+import { Smartphone, Star, Zap, Battery, Cpu, Filter, ExternalLink, CheckCircle2, TrendingUp, Award, Sparkles, AlertTriangle, ThumbsUp, ThumbsDown } from 'lucide-react';
 import Link from 'next/link';
 
 interface Phone {
@@ -26,6 +26,9 @@ interface Phone {
   category: 'budget' | 'midrange' | 'premium' | 'flagship';
   amazon: string;
   flipkart: string;
+  pros: string[];
+  cons: string[];
+  verdict: string;
 }
 
 // Fallback image used if any phone image fails to load
@@ -43,6 +46,9 @@ const ALL_PHONES: Phone[] = [
     category: 'budget',
     amazon: 'https://www.amazon.in/s?k=Redmi+14C&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Redmi+14C',
+    pros: ['₹10K के अंदर 50MP कैमरा मिलना बहुत बड़ी बात', 'बैटरी बैकअप शानदार है (2 दिन Easy)', 'Storage 256GB तक मिलता है'],
+    cons: ['Processor थोड़ा पुराना लगता है', 'HD+ display है, FHD नहीं'],
+    verdict: '₹10,000 से कम में Redmi 14C सबसे balanced phone है। Camera और Battery दोनों solid हैं।',
   },
   {
     id: 'realme-c61',
@@ -54,6 +60,9 @@ const ALL_PHONES: Phone[] = [
     category: 'budget',
     amazon: 'https://www.amazon.in/s?k=Realme+C61&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Realme+C61',
+    pros: ['₹9K में 33W फ़ास्ट चार्जिंग मिलना Rare है', 'डिज़ाइन स्लिम और लाइटवेट है', 'Clean UI बिना ज़्यादा Bloatware'],
+    cons: ['Unisoc प्रोसेसर heavy games नहीं चला पाएगा', 'कैमरा 32MP है, 50MP नहीं'],
+    verdict: 'Fast Charging पसंद है तो Realme C61 इस बजट में सबसे अच्छा ऑप्शन है।',
   },
   {
     id: 'samsung-a06',
@@ -65,6 +74,9 @@ const ALL_PHONES: Phone[] = [
     category: 'budget',
     amazon: 'https://www.amazon.in/s?k=Samsung+Galaxy+A06&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Samsung+Galaxy+A06',
+    pros: ['Samsung का ब्रांड ट्रस्ट और After-sales सर्विस', '25W चार्जिंग इस रेंज में अच्छी है', 'One UI Core काफी स्मूथ है'],
+    cons: ['Exynos 850 चिप काफी पुरानी है', 'Display brightness कम है'],
+    verdict: 'अगर Brand Trust और Service Center Network priority है, तो Samsung A06 सेफ़ चॉइस है।',
   },
 
   // ─── Under ₹15K ───────────────────────────────────────────────────────────
@@ -78,6 +90,9 @@ const ALL_PHONES: Phone[] = [
     category: 'budget',
     amazon: 'https://www.amazon.in/s?k=Realme+Narzo+70+Pro+5G&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Realme+Narzo+70+Pro+5G',
+    pros: ['67W चार्जिंग ₹15K में Unbeatable है', 'AMOLED 120Hz डिस्प्ले colors बेहतरीन', '5G Support से Future-proof है'],
+    cons: ['HyperOS में कुछ Ads आ सकते हैं', 'Ultrawide कैमरा नहीं है'],
+    verdict: '₹15K के अंदर Narzo 70 Pro 5G overall best phone है — Charging, Display, और 5G तीनों मिलते हैं।',
   },
   {
     id: 'redmi-note-14',
@@ -89,6 +104,9 @@ const ALL_PHONES: Phone[] = [
     category: 'budget',
     amazon: 'https://www.amazon.in/s?k=Redmi+Note+14&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Redmi+Note+14',
+    pros: ['108MP कैमरा इस प्राइस में सबसे ज़्यादा Resolution', 'IP64 Splash Proof बारिश में भी Safe', '2100 nits धूप में भी साफ दिखता है'],
+    cons: ['33W चार्जिंग Competitors से Slow है', 'HyperOS में प्री-इंस्टॉल्ड Ads आते हैं'],
+    verdict: 'Camera और Display priority है तो Redmi Note 14 बेस्ट है। बस Fast Charging थोड़ी कम है।',
   },
   {
     id: 'samsung-m15-5g',
@@ -100,6 +118,9 @@ const ALL_PHONES: Phone[] = [
     category: 'budget',
     amazon: 'https://www.amazon.in/s?k=Samsung+Galaxy+M15+5G&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Samsung+Galaxy+M15+5G',
+    pros: ['6000mAh बैटरी — इस रेंज में सबसे ज़्यादा', '6 साल OS Updates की गारंटी', 'Samsung Super AMOLED बेहतरीन'],
+    cons: ['25W चार्जिंग 6000mAh बैटरी को चार्ज करने में समय लगेगा', 'प्रोसेसर Gaming के लिए कमज़ोर'],
+    verdict: 'लॉन्ग-टर्म यूज़ और बेस्ट बैटरी के लिए — Samsung M15 5G बेमिसाल है।',
   },
   {
     id: 'iqoo-z9x',
@@ -111,6 +132,9 @@ const ALL_PHONES: Phone[] = [
     category: 'budget',
     amazon: 'https://www.amazon.in/s?k=iQOO+Z9x&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=iQOO+Z9x',
+    pros: ['Snapdragon 6 Gen 1 — Budget Gaming King', '6000mAh बैटरी + 44W चार्जिंग कॉम्बो', 'V2e चिप से Gaming smooth होती है'],
+    cons: ['LCD Display है, AMOLED नहीं', 'FunTouchOS में Bloatware ज़्यादा है'],
+    verdict: 'Budget में BGMI और Free Fire खेलना है? iQOO Z9x से बेहतर कोई ऑप्शन नहीं।',
   },
 
   // ─── Under ₹20–25K ────────────────────────────────────────────────────────
@@ -124,6 +148,9 @@ const ALL_PHONES: Phone[] = [
     category: 'midrange',
     amazon: 'https://www.amazon.in/s?k=OnePlus+Nord+5&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=OnePlus+Nord+5',
+    pros: ['OxygenOS सबसे Clean Android Experience देता है', '80W चार्जिंग — 30 मिनट में Full', 'प्रीमियम Glass-Metal डिज़ाइन'],
+    cons: ['Ultrawide Camera Missing है', 'IP Rating सिर्फ Splash Proof है'],
+    verdict: 'Clean software और fast charging चाहिए तो OnePlus Nord 5 ₹25K में बेस्ट पिक है।',
   },
   {
     id: 'redmi-note-15-pro',
@@ -135,6 +162,9 @@ const ALL_PHONES: Phone[] = [
     category: 'midrange',
     amazon: 'https://www.amazon.in/s?k=Redmi+Note+15+Pro&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Redmi+Note+15+Pro',
+    pros: ['200MP Camera ₹23K में — Unreal Value', '90W HyperCharge बहुत तेज़ है', 'AMOLED Display Colors शानदार हैं'],
+    cons: ['Dimensity 7300 heavy gaming में गर्म होता है', 'HyperOS में Ads आते हैं'],
+    verdict: 'फोटोग्राफी पसंद है? ₹25K से कम में 200MP Camera सिर्फ Redmi Note 15 Pro में मिलेगा।',
   },
 
   // ─── Under ₹30K ───────────────────────────────────────────────────────────
@@ -148,6 +178,9 @@ const ALL_PHONES: Phone[] = [
     category: 'midrange',
     amazon: 'https://www.amazon.in/s?k=iQOO+Neo+10&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=iQOO+Neo+10',
+    pros: ['Snapdragon 8 Gen 3 ₹30K में — बेहतरीन Value', '120W चार्जिंग — 15 मिनट में 50%', '144Hz AMOLED Smoothness का बाप'],
+    cons: ['FunTouchOS में Bloatware है', 'Camera Average है इस Price में'],
+    verdict: 'Performance और Charging Speed चाहिए तो ₹30K में iQOO Neo 10 का कोई तोड़ नहीं।',
   },
   {
     id: 'motorola-edge-60-pro',
@@ -159,6 +192,9 @@ const ALL_PHONES: Phone[] = [
     category: 'midrange',
     amazon: 'https://www.amazon.in/s?k=Motorola+Edge+60+Pro&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Motorola+Edge+60+Pro',
+    pros: ['144Hz Curved pOLED Display — Immersive Experience', 'Triple 50MP Camera System बहुत Sharp', 'Near-Stock Android — Clean और Fast'],
+    cons: ['Dimensity 8350 Flagship Chip नहीं है', 'Wireless चार्जिंग नहीं है'],
+    verdict: 'Display और Clean Software Priority है? Motorola Edge 60 Pro ₹30K में Hidden Gem है।',
   },
   {
     id: 'samsung-a56',
@@ -170,6 +206,9 @@ const ALL_PHONES: Phone[] = [
     category: 'midrange',
     amazon: 'https://www.amazon.in/s?k=Samsung+Galaxy+A56+5G&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Samsung+Galaxy+A56+5G',
+    pros: ['6 साल OS Updates — लॉन्ग-टर्म में सबसे Safe', 'IP67 Waterproof — बारिश में Tension Free', 'MicroSD Support अभी भी है'],
+    cons: ['Exynos 1580 Mid-range Chip है', '45W चार्जिंग Competitors से धीमी'],
+    verdict: 'Samsung Brand Trust + 6 Year Updates + IP67 चाहिए? A56 5G से बढ़िया Safe Bet नहीं मिलेगा।',
   },
 
   // ─── Under ₹50K ───────────────────────────────────────────────────────────
@@ -179,10 +218,13 @@ const ALL_PHONES: Phone[] = [
     score: 9.0, badge: 'Performance King',
     image: '/images/phones/realme-gt-7-pro.jpg',
     specs: { processor: 'Snapdragon 8 Elite', ram: '12GB/16GB', display: '6.78" AMOLED 120Hz', camera: '50MP Sony LYT-808', battery: '6500mAh', charging: '120W+50W Wireless', os: 'Realme UI 6' },
-    highlights: ['Snapdragon 8 Elite Chip!', '120W + 50W Wireless', 'IP69 Military Grade', '6500mAh Giant Battery'],
+    highlights: ['Snapdragon 8 Elite Chip!', '120W+50W Wireless', 'IP69 Military Grade', '6500mAh Giant Battery'],
     category: 'premium',
     amazon: 'https://www.amazon.in/s?k=Realme+GT+7+Pro&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Realme+GT+7+Pro',
+    pros: ['Snapdragon 8 Elite ₹45K में — Flagship Performance', '120W Wired + 50W Wireless चार्जिंग', 'IP69 Military-grade Durability'],
+    cons: ['Realme UI में Bloatware ज़्यादा है', 'Camera Premium Flagships से पीछे है'],
+    verdict: 'Raw Performance और Durability चाहिए? Realme GT 7 Pro पैसा वसूल है।',
   },
   {
     id: 'oneplus-15r',
@@ -194,6 +236,9 @@ const ALL_PHONES: Phone[] = [
     category: 'premium',
     amazon: 'https://www.amazon.in/s?k=OnePlus+15R&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=OnePlus+15R',
+    pros: ['7400mAh — India का सबसे बड़ा Battery वाला Phone', 'OxygenOS Clean और Ad-free है', 'Thermal Management Excellent है'],
+    cons: ['Secondary Cameras Average हैं', 'Full Flagship Chip इसमें नहीं है'],
+    verdict: 'Travel करते हो और बैटरी जल्दी खत्म हो जाती है? OnePlus 15R ले लो, 2 दिन चलेगा।',
   },
   {
     id: 'iqoo-15r',
@@ -205,6 +250,9 @@ const ALL_PHONES: Phone[] = [
     category: 'premium',
     amazon: 'https://www.amazon.in/s?k=iQOO+15R&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=iQOO+15R',
+    pros: ['SD 8 Gen 4 + 120W = Gaming का Ultimate Combo', '144Hz Display Gaming के लिए Perfect', '6-Layer Vapor Cooling कभी गर्म नहीं होने देता'],
+    cons: ['कैमरा सिर्फ Average है', 'FunTouchOS Bloatware भरा है'],
+    verdict: 'BGMI/GTA सब Max Settings पर खेलना है? iQOO 15R गेमर्स का Dream Phone है।',
   },
   {
     id: 'nothing-4a-pro',
@@ -216,6 +264,9 @@ const ALL_PHONES: Phone[] = [
     category: 'premium',
     amazon: 'https://www.amazon.in/s?k=Nothing+Phone+4a+Pro&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Nothing+Phone+4a+Pro',
+    pros: ['Glyph Bar LED पूरी इंडस्ट्री में Unique है', 'Nothing OS बहुत Clean और Fast है', 'Transparent Design देखने में Premium लगता है'],
+    cons: ['Processor Mid-range है (7s Gen 3)', '65W चार्जिंग Competitors से कम है'],
+    verdict: 'Design और Unique Look चाहिए? Nothing Phone (4a) Pro से Stylish कोई Phone नहीं है।',
   },
 
   // ─── Flagship ─────────────────────────────────────────────────────────────
@@ -229,6 +280,9 @@ const ALL_PHONES: Phone[] = [
     category: 'flagship',
     amazon: 'https://www.amazon.in/s?k=OnePlus+15&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=OnePlus+15',
+    pros: ['100W चार्जिंग — 28 मिनट में Full Charge', 'Hasselblad Camera Tuning प्रीमियम Colors', 'OxygenOS सबसे Smooth Android Experience'],
+    cons: ['Samsung/Apple के मुकाबले Camera थोड़ा पीछे', 'Base Variant में Plastic Frame है'],
+    verdict: 'Flagship Experience चाहिए Samsung के Price बिना? OnePlus 15 Flagship Killer है।',
   },
   {
     id: 'samsung-s26-ultra',
@@ -240,6 +294,9 @@ const ALL_PHONES: Phone[] = [
     category: 'flagship',
     amazon: 'https://www.amazon.in/s?k=Samsung+Galaxy+S26+Ultra&tag=aitechnews-21',
     flipkart: 'https://www.flipkart.com/search?q=Samsung+Galaxy+S26+Ultra',
+    pros: ['200MP AI Camera — Best in Android', 'S Pen Included — Note-taking King', '7 साल Updates बेजोड़ Long-term Value'],
+    cons: ['बहुत भारी (228g) और Expensive है', '60W चार्जिंग Rivals से Slow है'],
+    verdict: 'पैसा कोई issue नहीं है? Samsung Galaxy S26 Ultra 2026 का Ultimate Android King है।',
   },
 ];
 
@@ -315,6 +372,32 @@ function PhoneCard({ phone }: { phone: Phone }) {
             <div className="text-[9px] font-bold text-muted-foreground leading-tight truncate">
               {phone.specs.processor.split(' ').slice(-2).join(' ')}
             </div>
+          </div>
+        </div>
+
+        {/* Verdict Block */}
+        <div className="bg-primary/5 border border-primary/20 rounded-xl p-3 mb-3">
+          <h4 className="text-[11px] font-bold text-primary mb-1 flex items-center gap-1"><Sparkles className="w-3 h-3" /> Our Verdict</h4>
+          <p className="text-[11px] text-muted-foreground leading-relaxed">{phone.verdict}</p>
+        </div>
+
+        {/* Pros & Cons */}
+        <div className="grid grid-cols-2 gap-2 mb-4">
+          <div className="bg-emerald-500/5 rounded-lg p-2.5 border border-emerald-500/10">
+            <h5 className="text-[10px] font-bold text-emerald-500 mb-1.5 flex items-center gap-1"><ThumbsUp className="w-3 h-3" /> Pros</h5>
+            <ul className="space-y-1">
+              {phone.pros.slice(0, 2).map((p, i) => (
+                <li key={i} className="text-[10px] text-muted-foreground flex items-start gap-1"><span className="text-emerald-500 mt-0.5">✓</span> {p}</li>
+              ))}
+            </ul>
+          </div>
+          <div className="bg-red-500/5 rounded-lg p-2.5 border border-red-500/10">
+            <h5 className="text-[10px] font-bold text-red-500 mb-1.5 flex items-center gap-1"><ThumbsDown className="w-3 h-3" /> Cons</h5>
+            <ul className="space-y-1">
+              {phone.cons.slice(0, 2).map((c, i) => (
+                <li key={i} className="text-[10px] text-muted-foreground flex items-start gap-1"><span className="text-red-500 mt-0.5">✗</span> {c}</li>
+              ))}
+            </ul>
           </div>
         </div>
 
