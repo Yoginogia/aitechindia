@@ -29,6 +29,7 @@ interface Phone {
   pros: string[];
   cons: string[];
   verdict: string;
+  useCases?: string[];
 }
 
 // Fallback image used if any phone image fails to load
@@ -49,6 +50,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['₹10K के अंदर 50MP कैमरा मिलना बहुत बड़ी बात', 'बैटरी बैकअप शानदार है (2 दिन Easy)', 'Storage 256GB तक मिलता है'],
     cons: ['Processor थोड़ा पुराना लगता है', 'HD+ display है, FHD नहीं'],
     verdict: '₹10,000 से कम में Redmi 14C सबसे balanced phone है। Camera और Battery दोनों solid हैं।',
+    useCases: ['All-Rounder', 'Battery'],
   },
   {
     id: 'realme-c61',
@@ -63,6 +65,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['₹9K में 33W फ़ास्ट चार्जिंग मिलना Rare है', 'डिज़ाइन स्लिम और लाइटवेट है', 'Clean UI बिना ज़्यादा Bloatware'],
     cons: ['Unisoc प्रोसेसर heavy games नहीं चला पाएगा', 'कैमरा 32MP है, 50MP नहीं'],
     verdict: 'Fast Charging पसंद है तो Realme C61 इस बजट में सबसे अच्छा ऑप्शन है।',
+    useCases: ['Battery'],
   },
   {
     id: 'samsung-a06',
@@ -77,6 +80,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['Samsung का ब्रांड ट्रस्ट और After-sales सर्विस', '25W चार्जिंग इस रेंज में अच्छी है', 'One UI Core काफी स्मूथ है'],
     cons: ['Exynos 850 चिप काफी पुरानी है', 'Display brightness कम है'],
     verdict: 'अगर Brand Trust और Service Center Network priority है, तो Samsung A06 सेफ़ चॉइस है।',
+    useCases: ['Trust & Brand'],
   },
 
   // ─── Under ₹15K ───────────────────────────────────────────────────────────
@@ -93,6 +97,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['67W चार्जिंग ₹15K में Unbeatable है', 'AMOLED 120Hz डिस्प्ले colors बेहतरीन', '5G Support से Future-proof है'],
     cons: ['HyperOS में कुछ Ads आ सकते हैं', 'Ultrawide कैमरा नहीं है'],
     verdict: '₹15K के अंदर Narzo 70 Pro 5G overall best phone है — Charging, Display, और 5G तीनों मिलते हैं।',
+    useCases: ['All-Rounder', 'Battery'],
   },
   {
     id: 'redmi-note-14',
@@ -107,6 +112,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['108MP कैमरा इस प्राइस में सबसे ज़्यादा Resolution', 'IP64 Splash Proof बारिश में भी Safe', '2100 nits धूप में भी साफ दिखता है'],
     cons: ['33W चार्जिंग Competitors से Slow है', 'HyperOS में प्री-इंस्टॉल्ड Ads आते हैं'],
     verdict: 'Camera और Display priority है तो Redmi Note 14 बेस्ट है। बस Fast Charging थोड़ी कम है।',
+    useCases: ['Camera', 'Display'],
   },
   {
     id: 'samsung-m15-5g',
@@ -121,6 +127,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['6000mAh बैटरी — इस रेंज में सबसे ज़्यादा', '6 साल OS Updates की गारंटी', 'Samsung Super AMOLED बेहतरीन'],
     cons: ['25W चार्जिंग 6000mAh बैटरी को चार्ज करने में समय लगेगा', 'प्रोसेसर Gaming के लिए कमज़ोर'],
     verdict: 'लॉन्ग-टर्म यूज़ और बेस्ट बैटरी के लिए — Samsung M15 5G बेमिसाल है।',
+    useCases: ['Battery', 'Long-term'],
   },
   {
     id: 'iqoo-z9x',
@@ -135,6 +142,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['Snapdragon 6 Gen 1 — Budget Gaming King', '6000mAh बैटरी + 44W चार्जिंग कॉम्बो', 'V2e चिप से Gaming smooth होती है'],
     cons: ['LCD Display है, AMOLED नहीं', 'FunTouchOS में Bloatware ज़्यादा है'],
     verdict: 'Budget में BGMI और Free Fire खेलना है? iQOO Z9x से बेहतर कोई ऑप्शन नहीं।',
+    useCases: ['Gaming', 'Battery'],
   },
 
   // ─── Under ₹20–25K ────────────────────────────────────────────────────────
@@ -151,6 +159,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['OxygenOS सबसे Clean Android Experience देता है', '80W चार्जिंग — 30 मिनट में Full', 'प्रीमियम Glass-Metal डिज़ाइन'],
     cons: ['Ultrawide Camera Missing है', 'IP Rating सिर्फ Splash Proof है'],
     verdict: 'Clean software और fast charging चाहिए तो OnePlus Nord 5 ₹25K में बेस्ट पिक है।',
+    useCases: ['Clean Software', 'All-Rounder'],
   },
   {
     id: 'redmi-note-15-pro',
@@ -165,6 +174,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['200MP Camera ₹23K में — Unreal Value', '90W HyperCharge बहुत तेज़ है', 'AMOLED Display Colors शानदार हैं'],
     cons: ['Dimensity 7300 heavy gaming में गर्म होता है', 'HyperOS में Ads आते हैं'],
     verdict: 'फोटोग्राफी पसंद है? ₹25K से कम में 200MP Camera सिर्फ Redmi Note 15 Pro में मिलेगा।',
+    useCases: ['Camera'],
   },
 
   // ─── Under ₹30K ───────────────────────────────────────────────────────────
@@ -181,6 +191,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['Snapdragon 8 Gen 3 ₹30K में — बेहतरीन Value', '120W चार्जिंग — 15 मिनट में 50%', '144Hz AMOLED Smoothness का बाप'],
     cons: ['FunTouchOS में Bloatware है', 'Camera Average है इस Price में'],
     verdict: 'Performance और Charging Speed चाहिए तो ₹30K में iQOO Neo 10 का कोई तोड़ नहीं।',
+    useCases: ['Gaming', 'Battery'],
   },
   {
     id: 'motorola-edge-60-pro',
@@ -195,6 +206,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['144Hz Curved pOLED Display — Immersive Experience', 'Triple 50MP Camera System बहुत Sharp', 'Near-Stock Android — Clean और Fast'],
     cons: ['Dimensity 8350 Flagship Chip नहीं है', 'Wireless चार्जिंग नहीं है'],
     verdict: 'Display और Clean Software Priority है? Motorola Edge 60 Pro ₹30K में Hidden Gem है।',
+    useCases: ['Display', 'Clean Software'],
   },
   {
     id: 'samsung-a56',
@@ -209,6 +221,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['6 साल OS Updates — लॉन्ग-टर्म में सबसे Safe', 'IP67 Waterproof — बारिश में Tension Free', 'MicroSD Support अभी भी है'],
     cons: ['Exynos 1580 Mid-range Chip है', '45W चार्जिंग Competitors से धीमी'],
     verdict: 'Samsung Brand Trust + 6 Year Updates + IP67 चाहिए? A56 5G से बढ़िया Safe Bet नहीं मिलेगा।',
+    useCases: ['Long-term', 'Trust & Brand'],
   },
 
   // ─── Under ₹50K ───────────────────────────────────────────────────────────
@@ -225,6 +238,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['Snapdragon 8 Elite ₹45K में — Flagship Performance', '120W Wired + 50W Wireless चार्जिंग', 'IP69 Military-grade Durability'],
     cons: ['Realme UI में Bloatware ज़्यादा है', 'Camera Premium Flagships से पीछे है'],
     verdict: 'Raw Performance और Durability चाहिए? Realme GT 7 Pro पैसा वसूल है।',
+    useCases: ['Gaming'],
   },
   {
     id: 'oneplus-15r',
@@ -239,6 +253,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['7400mAh — India का सबसे बड़ा Battery वाला Phone', 'OxygenOS Clean और Ad-free है', 'Thermal Management Excellent है'],
     cons: ['Secondary Cameras Average हैं', 'Full Flagship Chip इसमें नहीं है'],
     verdict: 'Travel करते हो और बैटरी जल्दी खत्म हो जाती है? OnePlus 15R ले लो, 2 दिन चलेगा।',
+    useCases: ['Battery', 'Clean Software'],
   },
   {
     id: 'iqoo-15r',
@@ -253,6 +268,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['SD 8 Gen 4 + 120W = Gaming का Ultimate Combo', '144Hz Display Gaming के लिए Perfect', '6-Layer Vapor Cooling कभी गर्म नहीं होने देता'],
     cons: ['कैमरा सिर्फ Average है', 'FunTouchOS Bloatware भरा है'],
     verdict: 'BGMI/GTA सब Max Settings पर खेलना है? iQOO 15R गेमर्स का Dream Phone है।',
+    useCases: ['Gaming'],
   },
   {
     id: 'nothing-4a-pro',
@@ -267,6 +283,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['Glyph Bar LED पूरी इंडस्ट्री में Unique है', 'Nothing OS बहुत Clean और Fast है', 'Transparent Design देखने में Premium लगता है'],
     cons: ['Processor Mid-range है (7s Gen 3)', '65W चार्जिंग Competitors से कम है'],
     verdict: 'Design और Unique Look चाहिए? Nothing Phone (4a) Pro से Stylish कोई Phone नहीं है।',
+    useCases: ['Design', 'Clean Software'],
   },
 
   // ─── Flagship ─────────────────────────────────────────────────────────────
@@ -283,6 +300,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['100W चार्जिंग — 28 मिनट में Full Charge', 'Hasselblad Camera Tuning प्रीमियम Colors', 'OxygenOS सबसे Smooth Android Experience'],
     cons: ['Samsung/Apple के मुकाबले Camera थोड़ा पीछे', 'Base Variant में Plastic Frame है'],
     verdict: 'Flagship Experience चाहिए Samsung के Price बिना? OnePlus 15 Flagship Killer है।',
+    useCases: ['Camera', 'Charging'],
   },
   {
     id: 'samsung-s26-ultra',
@@ -297,6 +315,7 @@ const ALL_PHONES: Phone[] = [
     pros: ['200MP AI Camera — Best in Android', 'S Pen Included — Note-taking King', '7 साल Updates बेजोड़ Long-term Value'],
     cons: ['बहुत भारी (228g) और Expensive है', '60W चार्जिंग Rivals से Slow है'],
     verdict: 'पैसा कोई issue नहीं है? Samsung Galaxy S26 Ultra 2026 का Ultimate Android King है।',
+    useCases: ['Camera', 'Premium'],
   },
 ];
 
@@ -313,6 +332,7 @@ const BUDGETS = [
 ];
 
 const BRANDS = ['All', 'Samsung', 'OnePlus', 'iQOO', 'Realme', 'Motorola', 'Nothing', 'Xiaomi'];
+const USE_CASES = ['All', 'All-Rounder', 'Gaming', 'Camera', 'Battery', 'Clean Software', 'Premium'];
 type SortKey = 'score' | 'price_asc' | 'price_desc';
 
 function PhoneCard({ phone }: { phone: Phone }) {
@@ -425,19 +445,21 @@ export default function BestPhonesClient() {
   const [maxBudget,  setMaxBudget]  = useState(Infinity);
   const [budgetLabel, setBudgetLabel] = useState('All');
   const [brand, setBrand] = useState('All');
+  const [useCase, setUseCase] = useState('All');
   const [sort,  setSort]  = useState<SortKey>('score');
 
   const filtered = useMemo(() => {
     let phones = ALL_PHONES.filter(p => {
       const inBudget = budgetLabel === '₹1L+' ? p.price >= 75000 : p.price <= maxBudget;
       const inBrand  = brand === 'All' || p.brand === brand;
-      return inBudget && inBrand;
+      const inUseCase = useCase === 'All' || (p.useCases && p.useCases.includes(useCase));
+      return inBudget && inBrand && inUseCase;
     });
     if (sort === 'score')      phones = [...phones].sort((a, b) => b.score - a.score);
     else if (sort === 'price_asc')  phones = [...phones].sort((a, b) => a.price - b.price);
     else if (sort === 'price_desc') phones = [...phones].sort((a, b) => b.price - a.price);
     return phones;
-  }, [maxBudget, budgetLabel, brand, sort]);
+  }, [maxBudget, budgetLabel, brand, useCase, sort]);
 
   const topPick = filtered[0];
 
@@ -468,6 +490,17 @@ export default function BestPhonesClient() {
           <Filter className="w-4 h-4 text-primary" /> Filter Phones
         </div>
         <div>
+          <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">🎯 Use Case (Specialty) 🔥</div>
+          <div className="flex flex-wrap gap-2 mb-5">
+            {USE_CASES.map(uc => (
+              <button key={uc}
+                onClick={() => setUseCase(uc)}
+                className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${useCase === uc ? 'bg-emerald-500 text-white shadow-lg shadow-emerald-500/25' : 'bg-secondary/40 text-muted-foreground hover:bg-secondary/70 hover:text-foreground'}`}>
+                {uc === 'Gaming' ? '🎮 Gaming' : uc === 'Camera' ? '📸 Camera' : uc === 'Battery' ? '🔋 Battery' : uc === 'Clean Software' ? '✨ Clean Software' : uc === 'Premium' ? '💎 Premium' : uc === 'All-Rounder' ? '⭐ All-Rounder' : 'All'}
+              </button>
+            ))}
+          </div>
+
           <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3">💰 Budget</div>
           <div className="flex flex-wrap gap-2">
             {BUDGETS.map(b => (
