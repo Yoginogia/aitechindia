@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, useMemo } from 'react';
-import { Smartphone, Star, Zap, Battery, Cpu, Filter, ExternalLink, CheckCircle2, TrendingUp, Award, Sparkles, AlertTriangle, ThumbsUp, ThumbsDown } from 'lucide-react';
+import React, { useState, useMemo } from 'react';
+import { Smartphone, Star, Zap, Battery, Cpu, Filter, ExternalLink, CheckCircle2, TrendingUp, Award, Sparkles, AlertTriangle, ThumbsUp, ThumbsDown, Scale, X, Check } from 'lucide-react';
 import Link from 'next/link';
 
 interface Phone {
@@ -335,9 +335,11 @@ const BRANDS = ['All', 'Samsung', 'OnePlus', 'iQOO', 'Realme', 'Motorola', 'Noth
 const USE_CASES = ['All', 'All-Rounder', 'Gaming', 'Camera', 'Battery', 'Clean Software', 'Premium'];
 type SortKey = 'score' | 'price_asc' | 'price_desc';
 
-function PhoneCard({ phone }: { phone: Phone }) {
+function PhoneCard({ phone, compareList, toggleCompare }: { phone: Phone, compareList: Phone[], toggleCompare: (p: Phone) => void }) {
   const scoreColor = phone.score >= 9 ? 'text-emerald-400' : phone.score >= 8.5 ? 'text-primary' : 'text-amber-400';
   const scoreBg   = phone.score >= 9 ? 'bg-emerald-400/10' : phone.score >= 8.5 ? 'bg-primary/10' : 'bg-amber-400/10';
+  const isComparing = compareList.some(p => p.id === phone.id);
+  const canCompare = compareList.length < 2 || isComparing;
 
   return (
     <div className="group glass rounded-2xl border border-border/50 hover:border-primary/40 hover:-translate-y-1 hover:shadow-xl hover:shadow-primary/5 transition-all duration-300 overflow-hidden flex flex-col">
@@ -421,10 +423,18 @@ function PhoneCard({ phone }: { phone: Phone }) {
           </div>
         </div>
 
-        <Link href={`/blog/${phone.id}-review`}
-          className="flex items-center justify-center gap-1.5 bg-gradient-to-r from-primary/20 to-purple-500/20 hover:from-primary/30 hover:to-purple-500/30 text-primary text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 border border-primary/20 mb-2">
-          <Sparkles className="w-3 h-3" /> Detailed Review पढ़ें →
-        </Link>
+        <div className="flex gap-2 mb-2">
+          <Link href={`/blog/${phone.id}-review`}
+            className="flex-1 flex items-center justify-center gap-1.5 bg-gradient-to-r from-primary/20 to-purple-500/20 hover:from-primary/30 hover:to-purple-500/30 text-primary text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 border border-primary/20">
+            <Sparkles className="w-3 h-3" /> Detailed Review
+          </Link>
+          <button 
+            onClick={() => toggleCompare(phone)}
+            disabled={!canCompare}
+            className={`flex-1 flex items-center justify-center gap-1.5 text-xs font-bold py-2.5 px-2 rounded-xl transition-all hover:-translate-y-0.5 border ${isComparing ? 'bg-emerald-500/20 text-emerald-500 border-emerald-500/30' : 'bg-secondary/40 text-muted-foreground hover:bg-secondary/70 border-border/50'} ${!canCompare && 'opacity-50 cursor-not-allowed'}`}>
+            {isComparing ? <><Check className="w-3 h-3" /> Added</> : <><Scale className="w-3 h-3" /> VS Compare</>}
+          </button>
+        </div>
 
         <div className="flex gap-2">
           <a href={phone.amazon} target="_blank" rel="noopener noreferrer"
@@ -447,6 +457,18 @@ export default function BestPhonesClient() {
   const [brand, setBrand] = useState('All');
   const [useCase, setUseCase] = useState('All');
   const [sort,  setSort]  = useState<SortKey>('score');
+  
+  // Compare State
+  const [compareList, setCompareList] = useState<Phone[]>([]);
+  const [showCompareModal, setShowCompareModal] = useState(false);
+
+  const toggleCompare = (phone: Phone) => {
+    if (compareList.some(p => p.id === phone.id)) {
+      setCompareList(compareList.filter(p => p.id !== phone.id));
+    } else {
+      if (compareList.length < 2) setCompareList([...compareList, phone]);
+    }
+  };
 
   const filtered = useMemo(() => {
     let phones = ALL_PHONES.filter(p => {
@@ -567,13 +589,115 @@ export default function BestPhonesClient() {
       {/* Phone Grid */}
       {filtered.length > 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">
-          {filtered.map(phone => <PhoneCard key={phone.id} phone={phone} />)}
+          {filtered.map(phone => <PhoneCard key={phone.id} phone={phone} compareList={compareList} toggleCompare={toggleCompare} />)}
         </div>
       ) : (
         <div className="text-center py-16 text-muted-foreground">
           <Smartphone className="w-12 h-12 mx-auto mb-4 opacity-30" />
           <p className="font-bold text-foreground mb-2">Is filter mein koi phone nahi mila</p>
           <p className="text-sm">Budget ya brand filter change karein</p>
+        </div>
+      )}
+
+      {/* Floating Compare Bar */}
+      {compareList.length > 0 && (
+        <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-40 w-[90%] max-w-lg bg-background/80 backdrop-blur-xl border border-primary/30 shadow-2xl shadow-primary/20 rounded-2xl p-4 flex items-center justify-between animate-in slide-in-from-bottom-10">
+          <div className="flex gap-3">
+            {compareList.map(p => (
+              <div key={p.id} className="relative w-12 h-12 rounded-lg bg-secondary/50 border border-border flex items-center justify-center overflow-hidden">
+                <img src={p.image} alt={p.name} className="w-10 h-10 object-contain" />
+                <button onClick={() => toggleCompare(p)} className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full flex items-center justify-center text-white p-0.5 shadow-sm">
+                  <X className="w-3 h-3" />
+                </button>
+              </div>
+            ))}
+            {compareList.length === 1 && (
+              <div className="w-12 h-12 rounded-lg border-2 border-dashed border-muted-foreground/30 flex items-center justify-center">
+                <Smartphone className="w-5 h-5 text-muted-foreground/50" />
+              </div>
+            )}
+          </div>
+          
+          {compareList.length === 2 ? (
+            <button onClick={() => setShowCompareModal(true)} className="bg-primary hover:bg-primary/90 text-primary-foreground px-6 py-2.5 rounded-xl font-bold text-sm transition-all shadow-lg shadow-primary/30 flex items-center gap-2">
+              <Scale className="w-4 h-4" /> Compare Now
+            </button>
+          ) : (
+            <div className="text-xs font-medium text-muted-foreground">
+              Select 1 more to compare
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Compare Modal */}
+      {showCompareModal && compareList.length === 2 && (
+        <div className="fixed inset-0 z-50 bg-background/80 backdrop-blur-sm flex items-center justify-center p-4 animate-in fade-in">
+          <div className="bg-background border border-border/50 rounded-3xl w-full max-w-4xl max-h-[90vh] overflow-y-auto shadow-2xl relative">
+            
+            <div className="sticky top-0 bg-background/80 backdrop-blur-md border-b border-border/50 px-6 py-4 flex items-center justify-between z-10">
+              <h2 className="text-xl font-extrabold flex items-center gap-2">
+                <Scale className="w-5 h-5 text-primary" /> VS Comparison
+              </h2>
+              <button onClick={() => setShowCompareModal(false)} className="w-8 h-8 rounded-full bg-secondary flex items-center justify-center hover:bg-secondary/70 transition-colors">
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <div className="p-6">
+              <div className="grid grid-cols-[80px_1fr_1fr] md:grid-cols-[120px_1fr_1fr] gap-4 mb-8">
+                {/* Headers */}
+                <div className="flex flex-col justify-end pb-4 font-bold text-xs text-muted-foreground tracking-wider uppercase">Specs</div>
+                {compareList.map((p, i) => (
+                  <div key={p.id} className="text-center">
+                    <img src={p.image} alt={p.name} className="h-24 mx-auto object-contain mb-3 drop-shadow-md" />
+                    <div className="text-xs text-primary font-bold uppercase mb-1">{p.brand}</div>
+                    <h3 className="font-bold text-sm md:text-base leading-tight mb-2">{p.name}</h3>
+                    <div className="text-xl font-black">{p.priceDisplay}</div>
+                  </div>
+                ))}
+
+                {/* Rows */}
+                {[
+                  { label: "Processor", key: "processor" },
+                  { label: "Display", key: "display" },
+                  { label: "Camera", key: "camera" },
+                  { label: "Battery", key: "battery" },
+                  { label: "Charging", key: "charging" },
+                  { label: "Software", key: "os" }
+                ].map((spec, i) => (
+                  <React.Fragment key={spec.key}>
+                     <div className={`flex items-center text-xs font-bold text-muted-foreground uppercase p-3 rounded-l-xl ${i%2===0 ? 'bg-secondary/30' : ''}`}>{spec.label}</div>
+                     <div className={`flex items-center justify-center text-center p-3 text-sm font-semibold ${i%2===0 ? 'bg-secondary/30' : ''}`}>{compareList[0].specs[spec.key as keyof Phone['specs']]}</div>
+                     <div className={`flex items-center justify-center text-center p-3 text-sm font-semibold rounded-r-xl ${i%2===0 ? 'bg-secondary/30' : ''}`}>{compareList[1].specs[spec.key as keyof Phone['specs']]}</div>
+                  </React.Fragment>
+                ))}
+              </div>
+
+              {/* Pros Cons */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                {compareList.map(p => (
+                  <div key={p.id} className="border border-border/50 rounded-2xl p-4 bg-secondary/10">
+                    <h4 className="font-bold text-sm mb-3 border-b border-border/50 pb-2">{p.name}</h4>
+                    <div className="text-xs font-bold text-emerald-500 mb-2">PROS</div>
+                    <ul className="mb-4 space-y-1.5 text-xs text-muted-foreground">{p.pros.map((pro, i) => <li key={i}>✓ {pro}</li>)}</ul>
+                    <div className="text-xs font-bold text-red-500 mb-2">CONS</div>
+                    <ul className="space-y-1.5 text-xs text-muted-foreground">{p.cons.map((con, i) => <li key={i}>✗ {con}</li>)}</ul>
+                  </div>
+                ))}
+              </div>
+
+              {/* Verdict */}
+              <div className="bg-primary/5 border border-primary/20 rounded-2xl p-6 text-center">
+                 <h4 className="text-xs font-bold text-primary uppercase tracking-widest mb-3">Which one to buy?</h4>
+                 <p className="text-sm md:text-base font-semibold leading-relaxed">
+                   Agar aap <span className="text-primary font-bold">{compareList[0].highlights[0]}</span> dhund rahe hain, toh <span className="font-bold">{compareList[0].name}</span> pick karein.<br/><br/>
+                   Lekin agar <span className="text-primary font-bold">{compareList[1].highlights[0]}</span> priority hai, toh <span className="font-bold">{compareList[1].name}</span> better choice hai.
+                 </p>
+              </div>
+
+            </div>
+          </div>
         </div>
       )}
 
