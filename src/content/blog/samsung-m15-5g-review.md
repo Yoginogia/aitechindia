@@ -3,7 +3,7 @@ title: "Samsung Galaxy M15 5G Review: 6000mAh Battery + 6 साल Updates — 
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Samsung Galaxy M15 5G में 6000mAh बैटरी, Super AMOLED डिस्प्ले, और 6 साल OS Updates मिलते हैं। जानिए ₹14K में यह कितना Value for Money है।"
-image: "/images/phones/samsung-galaxy-m15-5g.jpg"
+image: "/images/phones/samsung-m15-5g.jpg"
 author: "AITechNews Desk"
 ---
 Samsung ने M-Series को हमेशा "Battery Monster" के तौर पर Promote किया है। **Galaxy M15 5G** इसी फिलॉसफ़ी को फ़ॉलो करते हुए ₹13,999 में **6000mAh Monster Battery** और 6 साल OS Updates प्रॉमिस करता है।

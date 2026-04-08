@@ -3,7 +3,7 @@ title: "Realme Narzo 70 Pro 5G Review: ₹15K में 67W Charging और AMOL
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "67W SuperVOOC, AMOLED 120Hz display, और 5G support — Realme Narzo 70 Pro ₹15K के अंदर सबसे powerful package है। जानिए पूरी सच्चाई।"
-image: "/images/phones/realme-narzo-70-pro-5g.jpg"
+image: "/images/phones/realme-narzo-70-pro.jpg"
 author: "AITechNews Desk"
 ---
 ₹15,000 के अंदर AMOLED display, 67W fast charging, और 5G connectivity — तीनों एक साथ मिलना अभी तक सपने जैसा था। **Realme Narzo 70 Pro 5G** ने ये सपना सच कर दिया है।

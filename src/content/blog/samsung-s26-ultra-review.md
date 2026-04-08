@@ -3,7 +3,7 @@ title: "Samsung Galaxy S26 Ultra Review: 200MP AI Camera + S Pen — 2026 का
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Samsung Galaxy S26 Ultra में 200MP AI Camera, S Pen, Privacy Display, और 7 साल Updates — ₹1.3 लाख में दुनिया का बेस्ट Android Phone।"
-image: "/images/phones/samsung-galaxy-s26-ultra.jpg"
+image: "/images/phones/samsung-s26-ultra.jpg"
 author: "AITechNews Desk"
 ---
 ₹1,29,999 में फोन ख़रीदना आसान नहीं है, लेकिन अगर ख़रीदना ही है तो **Samsung Galaxy S26 Ultra** के कॉम्पिटिशन में कोई नहीं है। यह 2026 का Undisputed Android King है।

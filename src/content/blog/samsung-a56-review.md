@@ -3,7 +3,7 @@ title: "Samsung Galaxy A56 5G Review: 6 Year Updates + IP67 — ₹28K में
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Samsung Galaxy A56 5G में 6 साल OS Updates, IP67 Waterproof, और MicroSD Support — ₹28K में जो फोन 6 साल चले वो चाहिए? यह पढ़ो।"
-image: "/images/phones/samsung-galaxy-a56-5g.jpg"
+image: "/images/phones/samsung-a56.jpg"
 author: "AITechNews Desk"
 ---
 Smartphones की दुनिया में हर साल नई लॉन्च होती हैं, लेकिन कितने फोन 6 साल तक Relevant रहते हैं? **Samsung Galaxy A56 5G** एग्ज़ैक्टली यही प्रॉमिस करता है — **6 Years OS Updates** के साथ।

@@ -3,7 +3,7 @@ title: "Samsung Galaxy A06 Review: ₹9,999 में Samsung Trust — कि�
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Samsung Galaxy A06 बजट सेगमेंट में Brand Trust और After-sales Service का वादा करता है। क्या Exynos 850 चिप और One UI Core इसे सही choice बनाते हैं?"
-image: "/images/phones/samsung-galaxy-a06.jpg"
+image: "/images/phones/samsung-a06.jpg"
 author: "AITechNews Desk"
 ---
 जब बात budget phones की आती है तो Samsung का नाम हमेशा "safe bet" के तौर पर लिया जाता है। **Galaxy A06** ₹9,999 में Samsung का brand trust, 50MP camera, और 25W charging offer करता है।

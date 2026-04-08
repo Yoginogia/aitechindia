@@ -3,7 +3,7 @@ title: "Nothing Phone (4a) Pro Review: Glyph Bar + Transparent Design — सब
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Nothing Phone (4a) Pro में Glyph Bar LED, Transparent Back, और Nothing OS — ₹42K में सबसे Stylish और Unique फोन है।"
-image: "/images/phones/nothing-phone-4a-pro.jpg"
+image: "/images/phones/nothing-4a-pro.jpg"
 author: "AITechNews Desk"
 ---
 Smartphones की दुनिया में सब एक जैसे दिखते हैं — Black Slab, Same Cameras, Same Software। **Nothing Phone (4a) Pro** ने इस मोनोटनी (monotony) को तोड़ दिया है अपने **Glyph Bar LED** और **Transparent Design** के साथ।
