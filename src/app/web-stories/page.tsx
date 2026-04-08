@@ -39,7 +39,7 @@ export default function WebStoriesGallery() {
                         <img
                             src={story.image}
                             alt={story.title}
-                            className="absolute inset-0 w-full h-full object-cover group-hover:scale-125 transition-transform duration-[3000ms] ease-out opacity-80 group-hover:opacity-100"
+                            className="absolute inset-0 w-full h-full object-cover group-hover:scale-100 transition-transform duration-[3000ms] ease-out opacity-80 group-hover:opacity-100"
                         />
                         
                         {/* Premium Gradient Overlay */}
