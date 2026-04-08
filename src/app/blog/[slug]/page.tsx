@@ -139,10 +139,10 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {/* Article Cover Image */}
             <div className="aspect-[21/9] w-full rounded-2xl mb-12 overflow-hidden relative border border-border/30 bg-gradient-to-br from-primary/10 via-purple-500/10 to-pink-500/10">
                 {postData.image ? (
-                    postData.image.includes('best_phones_') ? (
+                    (postData.image.includes('best_phones_') || postData.image.includes('/images/phones/')) ? (
                         <>
                             <img src={postData.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
-                            <img src={postData.image} alt={postData.title} className="absolute inset-0 w-full h-full object-contain z-10 drop-shadow-2xl" />
+                            <img src={postData.image} alt={postData.title} className="absolute inset-0 w-full h-full object-contain z-10 drop-shadow-2xl p-4" />
                         </>
                     ) : (
                         <img
