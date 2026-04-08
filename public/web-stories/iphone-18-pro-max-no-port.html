@@ -8,28 +8,68 @@
     <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet" />
     <style amp-custom>
       amp-story { font-family: 'Poppins', sans-serif; }
-      .bg-gradient { background: linear-gradient(to top, rgba(0,0,0,0.9), transparent); }
-      .title-text { color: white; font-size: 2.2em; font-weight: 800; line-height: 1.2; text-shadow: 2px 2px 10px rgba(0,0,0,0.8); }
-      .desc-text { color: #e2e8f0; font-size: 1.1em; background: rgba(0,0,0,0.5); padding: 15px; border-radius: 12px; }
-      .badge { background: #f59e0b; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.8em; margin-bottom: 1em; display: inline-block; }
-      .cta-button { display: block; margin-top: 20px; padding: 12px; background: #3b82f6; color: white; text-align: center; border-radius: 30px; font-weight: bold; }
+      .bg-gradient { background: linear-gradient(to top, rgba(0,0,0,0.95), transparent); }
+      .title-text { color: white; font-size: 2em; font-weight: 800; line-height: 1.2; }
+      .desc-text { color: #e2e8f0; font-size: 1.1em; background: rgba(0,0,0,0.6); padding: 15px; border-radius: 12px; }
+      .badge { background: #f59e0b; color: white; padding: 4px 12px; border-radius: 20px; font-size: 0.8em; margin-bottom: 1em; display: inline-block; font-weight: 600; }
+      .cta-button { display: block; margin-top: 20px; padding: 12px; background: #ef4444; color: white; text-align: center; border-radius: 30px; font-weight: bold; text-decoration: none; }
     </style>
   </head>
   <body>
     <amp-story standalone title="iPhone 18 No Port Leak" publisher="AITechNews" publisher-logo-src="/logo.png" poster-portrait-src="/images/web-stories/iphone-18-leaks.png">
-      <amp-story-page id="p1">
+      
+      <!-- SLIDE 1 -->
+      <amp-story-page id="p1" auto-advance-after="5s">
         <amp-story-grid-layer template="fill">
-          <amp-img src="/images/web-stories/iphone-18-leaks.png" width="720" height="1280" layout="responsive"></amp-img>
+          <amp-img src="/images/web-stories/iphone-18-leaks.png" width="720" height="1280" layout="responsive" style="filter: brightness(0.7);"></amp-img>
         </amp-story-grid-layer>
         <amp-story-grid-layer template="vertical" class="bg-gradient justify-end pb-12 px-6">
           <span class="badge">LEAK ALERT 😱</span>
           <h1 class="title-text">iPhone 18:<br/>No Charging Port?</h1>
           <p class="desc-text">Apple का अब तक का सबसे बोल्ड फैसला! क्या बिना वायर के चार्ज होगा नया iPhone?</p>
-          <a href="/blog/iphone-18-pro-max-leaks" class="cta-button">पूरी लीक्स देखें →</a>
         </amp-story-grid-layer>
       </amp-story-page>
+
+      <!-- SLIDE 2 -->
+      <amp-story-page id="p2" auto-advance-after="5s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="/images/blog/iphone-18-leaks.jpg" width="720" height="1280" layout="responsive" style="filter: brightness(0.6);"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bg-gradient justify-end pb-12 px-6">
+          <span class="badge">WIRELESS FUTURE ⚡</span>
+          <h2 class="title-text">Sirf MagSafe!</h2>
+          <p class="desc-text">Rumors की मानें तो iPhone 18 Pro Max में कोई भी Physical Port नहीं होगा। सब कुछ Wireless होगा!</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- SLIDE 3 -->
+      <amp-story-page id="p3" auto-advance-after="5s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="/images/web-stories/iphone-18-leaks.png" width="720" height="1280" layout="responsive" style="filter: brightness(0.6); transform: scaleX(-1);"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bg-gradient justify-end pb-12 px-6">
+          <span class="badge">48MP QUAD CAMERA 📸</span>
+          <h2 class="title-text">Dhamakedar Camera</h2>
+          <p class="desc-text">4 Sensors, और चारों के चारों 48MP के! फोटोग्राफी की दुनिया में तहलका मचाने आ रहा है iPhone 18।</p>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
+      <!-- SLIDE 4 -->
+      <amp-story-page id="p4" auto-advance-after="7s">
+        <amp-story-grid-layer template="fill">
+          <amp-img src="/images/blog/iphone-18-leaks.jpg" width="720" height="1280" layout="responsive" style="filter: brightness(0.5);"></amp-img>
+        </amp-story-grid-layer>
+        <amp-story-grid-layer template="vertical" class="bg-gradient justify-end pb-12 px-6">
+          <span class="badge" style="background:#10b981;">COMING SOON 📅</span>
+          <h2 class="title-text">Taiyar Ho Jaiye!</h2>
+          <p class="desc-text">September 2026 में लॉन्च होने की उम्मीद। ₹1.69 लाख की कीमत के कयास लगाए जा रहे हैं।</p>
+          <a href="/blog/iphone-18-pro-max-leaks" class="cta-button">पूरी डिटेल्स देखें →</a>
+        </amp-story-grid-layer>
+      </amp-story-page>
+
     </amp-story>
   </body>
 </html>
