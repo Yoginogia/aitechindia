@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'make-money-ai-tools-2026',
+        title: 'Top 3 AI Tools For Earnings 💸',
+        subtitle: '2026 me kaise ye 3 tools (Devin, Claude) freelancers ki income 10x kar rahe hain.',
+        category: '💡 Income',
+        categoryColor: '#10b981',
+        image: '/images/blog/top-free-ai-tools-2026.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'solana-april-2026-targets',
+        title: 'Solana ₹25K Target? 🚀',
+        subtitle: 'April 2026 SOL Market Crash or Breakout? Buy karein ya Sell? (Expert View)',
+        category: '💰 Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/solana-breakout-2026.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
         slug: 'google-gemini-4-unveiled',
         title: 'Gemini 4 Leaked! AI War! 🤯',
         subtitle: 'Google ka biggest AI model jo ChatGPT-6 ko directly harayega? Saari leaks samne ayi.',
