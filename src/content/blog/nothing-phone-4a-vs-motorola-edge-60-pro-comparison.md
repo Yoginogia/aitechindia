@@ -1,5 +1,5 @@
 ---
-title: "Nothing Phone (4a) Pro vs Motorola Edge 60 Pro: ₹35,000 ke Budget Mein Clean Software King Kaun?"
+title: "Nothing Phone (4a) Pro vs Motorola Edge 60 Pro: ₹35,000 के बजट में Clean Software King कौन?"
 description: "Agar aapko ads aur bloatware pasand nahi hai, toh ₹35K ke andar Nothing Phone (4a) Pro aur Motorola Edge 60 Pro best options hain. Jaaniye dono mein kaunsa phone better hai."
 date: "2026-04-09"
 author: "AITechNews Editorial Desk"

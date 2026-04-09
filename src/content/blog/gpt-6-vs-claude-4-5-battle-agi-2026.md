@@ -1,5 +1,5 @@
 ---
-title: "GPT-6 Vs Claude 4.5: Kya Sach Mein AI AGI Ke Kareeb Pahaunch Gaya Hai?"
+title: "GPT-6 Vs Claude 4.5: क्या सच में AI अब AGI के क़रीब पहुँच गया है?"
 description: "OpenAI GPT-6 aur Anthropic Claude 4.5 ki massive battle. Jaaniye 2026 ke sabse powerful AI models mein kiski reasoning aur coding skills zyada behtar hain, aur kya AGI aane wala hai?"
 date: "2026-04-09"
 author: "AITechNews Editorial Desk"
