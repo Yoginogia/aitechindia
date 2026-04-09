@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { ArrowRight, Clock, TrendingUp, Bitcoin } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/markdown';
+import CryptoCalculator from './CryptoCalculator';
 
 export const metadata = {
     title: 'Crypto News | AITechNews',
@@ -36,6 +37,8 @@ export default function CryptoNewsPage() {
 
             <section className="py-8 flex-1">
                 <div className="container mx-auto px-4 md:px-8 max-w-7xl">
+                    <CryptoCalculator />
+                    
                     {cryptoPosts.length === 0 ? (
                         <div className="text-center py-20 bg-card/30 rounded-2xl border border-border/30 backdrop-blur">
                             <Bitcoin className="h-12 w-12 text-muted-foreground mx-auto mb-4 opacity-50" />
