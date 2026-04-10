@@ -69,7 +69,7 @@ export default function TopDealsPage() {
                                     rel="noopener noreferrer"
                                     className="flex-1 py-3 px-4 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white text-sm font-bold rounded-xl flex items-center justify-center gap-2 transition-all shadow-lg shadow-orange-500/20"
                                 >
-                                    Buy Now <ExternalLink className="h-3.5 w-3.5" />
+                                    Claim Deal Now <ExternalLink className="h-3.5 w-3.5" />
                                 </a>
                             </div>
                         </div>

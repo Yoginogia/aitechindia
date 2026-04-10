@@ -87,7 +87,7 @@ export default async function DealPage({ params }: { params: Promise<{ slug: str
                 rel="noopener noreferrer"
                 className="w-full py-4 px-6 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white text-lg font-bold rounded-2xl flex items-center justify-center gap-3 transition-all shadow-xl shadow-orange-500/30 mb-8"
             >
-                {deal.platform} पर अभी खरीदें 🛒 <ExternalLink className="h-5 w-5" />
+                Claim Deal Now 🛒 <ExternalLink className="h-5 w-5" />
             </a>
 
             {/* Trust Badges */}
@@ -180,7 +180,7 @@ export default async function DealPage({ params }: { params: Promise<{ slug: str
                 rel="noopener noreferrer"
                 className="w-full py-4 px-6 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white text-lg font-bold rounded-2xl flex items-center justify-center gap-3 transition-all shadow-xl shadow-orange-500/30 mb-12"
             >
-                {deal.price} में {deal.platform} पर खरीदें → <ExternalLink className="h-5 w-5" />
+                Claim Deal Now ({deal.price}) → <ExternalLink className="h-5 w-5" />
             </a>
 
             {/* Related Deals */}
