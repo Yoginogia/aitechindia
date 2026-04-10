@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-instagram-reels-earning-2026',
+        title: 'Earn ₹2000 Daily with Free AI Reels',
+        subtitle: 'Learn how to use AI tools to create viral reels and earn daily.',
+        category: '💡 Income',
+        categoryColor: '#10b981',
+        image: '/images/blog/ai-reels-earning-2026.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'jio-5g-ai-plan-2026',
+        title: 'Jio 5G AI Plans: Free Unlimited Ending?',
+        subtitle: 'Everything you need to know about the new Jio 5G AI-integrated plans.',
+        category: '🆕 Upcoming',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/jio-5g-ai-plan-2026.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'make-money-ai-tools-2026',
         title: 'Top 3 AI Tools For Earnings 💸',
         subtitle: '2026 me kaise ye 3 tools (Devin, Claude) freelancers ki income 10x kar rahe hain.',
