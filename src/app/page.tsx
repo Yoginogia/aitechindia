@@ -7,6 +7,7 @@ import HomeCategoryShowcase from '@/components/HomeCategoryShowcase';
 import WebStoriesHighlights from '@/components/WebStoriesHighlights';
 import TechShortsWidget from '@/components/TechShortsWidget';
 import TechPollWidget from '@/components/TechPollWidget';
+import SpeedTestWidget from '@/components/SpeedTestWidget';
 import { getSortedPostsData } from '@/lib/markdown';
 
 // Category ke hisaab se icon aur gradient
@@ -157,6 +158,7 @@ export default function Home() {
             {/* Right Column: Auto News Widget & Sidebar Extras */}
             <div className="lg:col-span-4 space-y-6" id="trending">
               <DualNewsWidget />
+              <SpeedTestWidget />
               <TechPollWidget />
               <NewsletterWidget />
               <EditorsPicksWidget />
