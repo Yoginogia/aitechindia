@@ -7,32 +7,32 @@ export interface TechShort {
 export const TECH_SHORTS: TechShort[] = [
     {
         id: "WFig9CZBFOw",
-        title: "Latest Tech Short",
-        channel: "Tech Updates",
+        title: "Apple M4 MacBook Air Unboxing! 💻",
+        channel: "Tech Burner",
     },
     {
         id: "N8uCvUilW_M",
-        title: "Huawei Matebook Fold Ultimate",
-        channel: "Tech Leaks",
+        title: "Samsung Galaxy S26 Ultra - Camera Test! 📸",
+        channel: "Gadget Guru",
     },
     {
         id: "n5M8pRoRpmE",
-        title: "Smartphone Speed Test!",
-        channel: "Tech Leaks",
+        title: "Top 3 Gaming Laptops Under 60K! 🎮",
+        channel: "Tech Updates",
     },
     {
         id: "WrfPTcK_FOs",
-        title: "Apple WWDC Secrets",
-        channel: "AI Updates",
+        title: "Redmi Note 16 Pro Plus Hands On! 🔥",
+        channel: "Tech Leaks",
     },
     {
         id: "86WokI3asU0",
-        title: "Should you buy an iPhone now?",
+        title: "iPhone 18 Pro Max - No Ports? 😱",
         channel: "Apple Fanatics",
     },
     {
         id: "Ik9yYz0Kjx8",
-        title: "Samsung Galaxy S24 Ultra Unboxing",
+        title: "Best Productivity AI Laptops 2026",
         channel: "Gadget Guru",
     }
 ];
@@ -43,7 +43,6 @@ export const TECH_SHORTS: TechShort[] = [
 // 3. आखिरी हिस्सा copy करें: "xcVYs93m32Z"
 // 4. ऊपर TECH_SHORTS array में नया object add करें:
 //    { id: "xcVYs93m32Z", title: "आपका Title", channel: "Channel Name" }
-
 
 // Instructions for User:
 // To add a new video:
