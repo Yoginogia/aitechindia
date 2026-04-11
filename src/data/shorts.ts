@@ -6,32 +6,32 @@ export interface TechShort {
 
 export const TECH_SHORTS: TechShort[] = [
     {
-        id: "WFig9CZBFOw",
+        id: "L_C0ywtsX88",
         title: "Apple M4 MacBook Air Unboxing! 💻",
         channel: "Tech Burner",
     },
     {
-        id: "N8uCvUilW_M",
+        id: "BJS0_XovsvQ",
         title: "Samsung Galaxy S26 Ultra - Camera Test! 📸",
         channel: "Gadget Guru",
     },
     {
-        id: "n5M8pRoRpmE",
+        id: "fFZyJdQtaCs",
         title: "Top 3 Gaming Laptops Under 60K! 🎮",
         channel: "Tech Updates",
     },
     {
-        id: "WrfPTcK_FOs",
+        id: "vN3ysH_dSYU",
         title: "Redmi Note 16 Pro Plus Hands On! 🔥",
         channel: "Tech Leaks",
     },
     {
-        id: "86WokI3asU0",
+        id: "aJK1t5o_MqQ",
         title: "iPhone 18 Pro Max - No Ports? 😱",
         channel: "Apple Fanatics",
     },
     {
-        id: "Ik9yYz0Kjx8",
+        id: "ONQkStzRxI0",
         title: "Best Productivity AI Laptops 2026",
         channel: "Gadget Guru",
     }
