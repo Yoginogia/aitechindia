@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'redmi-note-16-pro-plus-leaks-india',
+        title: 'Redmi Note 16: 300MP Camera! 📸',
+        subtitle: '150W charging aur 300MP camera ke leak ne machaya dhoom. Dekhiye pehli jhalak.',
+        category: '🔥 Trending',
+        categoryColor: '#ef4444',
+        image: '/images/blog/redmi-note-16-pro-leak.jpg',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'airtel-5g-price-hike-jio-comparison-2026',
+        title: 'Airtel 5G Price Hike 2026 📈',
+        subtitle: 'Kya April se Airtel 5G ke liye extra paise dene honge? Jio ka kya hoga?',
+        category: '🔴 Breaking',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/jio-5g-ai-plan-2026.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'top-5-free-ai-tools-video-editing-2026',
+        title: '5 Free AI Tools (No Watermark) 🤖',
+        subtitle: 'Paid tools chhodo! Video editing aur image generation ke in 5 secret tools ko try karo.',
+        category: '💡 Tricks',
+        categoryColor: '#10b981',
+        image: '/images/blog/top-free-ai-tools-2026.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
         slug: 'ai-instagram-reels-earning-2026',
         title: 'Earn ₹2000 Daily with Free AI Reels',
         subtitle: 'Learn how to use AI tools to create viral reels and earn daily.',
