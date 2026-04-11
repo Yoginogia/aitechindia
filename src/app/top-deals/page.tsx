@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import { Star, ExternalLink, ArrowRight } from 'lucide-react';
 import { TOP_DEALS } from '@/data/deals';
+import DealTimer from '@/components/DealTimer';
 
 export default function TopDealsPage() {
     return (
@@ -54,6 +55,7 @@ export default function TopDealsPage() {
                                     <div className="text-xs text-green-500 font-medium mb-1 bg-green-500/10 inline-block px-2 py-0.5 rounded">{deal.discount}</div>
                                     <div className="text-2xl font-bold">{deal.price}</div>
                                 </div>
+                                <DealTimer />
                             </div>
                             
                             <div className="flex gap-2">

@@ -14,6 +14,7 @@ import ProgressBar from "@/components/ProgressBar";
 import DealToast from "@/components/DealToast";
 import OneSignalSetup from "@/components/OneSignalSetup";
 import StickySocialShare from "@/components/StickySocialShare";
+import InstallPrompt from "@/components/InstallPrompt";
 
 const GA_ID = "G-9MKDQQ6NEH";
 
@@ -46,6 +47,7 @@ export const metadata: Metadata = {
   verification: {
     google: ["3H46EQM6yQLN5t6Rz23LKdbixyPRPvsCRSfst2hUOH4", "L8GtQ7nuM_yn1OJV7x5mwpcLjyIjl3MM08B48HuYp_Q"],
   },
+  manifest: '/manifest.json',
   alternates: {
     canonical: '/',
   },
@@ -101,6 +103,7 @@ export default function RootLayout({
             <Script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" strategy="afterInteractive" />
             <OneSignalSetup />
             <StickySocialShare />
+            <InstallPrompt />
         </ThemeProvider>
       </body>
     </html>
