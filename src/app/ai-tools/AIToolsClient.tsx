@@ -22,34 +22,51 @@ interface AITool {
     description: string;
     url: string;
     emoji: string;
+    rating: number;        // out of 5
+    indiaAvailable: boolean;
+    monthlyUsers: string;  // e.g. "100M+"
+    lastUpdated: string;   // e.g. "Apr 2026"
 }
 
 const AI_TOOLS_DB: AITool[] = [
     // STUDENTS & RESEARCH
-    { id: 'chatgpt', slug: 'chatgpt-guide-2026', name: 'ChatGPT', category: 'student', pricing: 'Freemium', description: 'Assignments, coding, aur ideas ke liye sabse popular AI.', url: 'https://chat.openai.com', emoji: '🧠' },
-    { id: 'perplexity', slug: 'perplexity-guide-2026', name: 'Perplexity AI', category: 'student', pricing: 'Freemium', description: 'Advanced search engine jo Google ki jagah sidha accurate answers deta hai.', url: 'https://www.perplexity.ai', emoji: '🔍' },
-    { id: 'claude', slug: 'claude-guide-2026', name: 'Claude 3', category: 'student', pricing: 'Freemium', description: 'PDF upload aur lambe research papers analyze karne me master.', url: 'https://claude.ai', emoji: '📝' },
-    { id: 'quillbot', slug: 'quillbot-guide-2026', name: 'QuillBot', category: 'student', pricing: 'Freemium', description: 'Grammar check aur English text ko rephrase/rewrite karne me best.', url: 'https://quillbot.com', emoji: '✍️' },
+    { id: 'chatgpt', slug: 'chatgpt-guide-2026', name: 'ChatGPT', category: 'student', pricing: 'Freemium', description: 'Assignments, coding, aur ideas ke liye sabse popular AI.', url: 'https://chat.openai.com', emoji: '🧠', rating: 4.8, indiaAvailable: true, monthlyUsers: '200M+', lastUpdated: 'Apr 2026' },
+    { id: 'perplexity', slug: 'perplexity-guide-2026', name: 'Perplexity AI', category: 'student', pricing: 'Freemium', description: 'Advanced search engine jo Google ki jagah sidha accurate answers deta hai.', url: 'https://www.perplexity.ai', emoji: '🔍', rating: 4.7, indiaAvailable: true, monthlyUsers: '15M+', lastUpdated: 'Mar 2026' },
+    { id: 'claude', slug: 'claude-guide-2026', name: 'Claude 3', category: 'student', pricing: 'Freemium', description: 'PDF upload aur lambe research papers analyze karne me master.', url: 'https://claude.ai', emoji: '📝', rating: 4.6, indiaAvailable: true, monthlyUsers: '50M+', lastUpdated: 'Apr 2026' },
+    { id: 'quillbot', slug: 'quillbot-guide-2026', name: 'QuillBot', category: 'student', pricing: 'Freemium', description: 'Grammar check aur English text ko rephrase/rewrite karne me best.', url: 'https://quillbot.com', emoji: '✍️', rating: 4.4, indiaAvailable: true, monthlyUsers: '30M+', lastUpdated: 'Feb 2026' },
 
     // VIDEO & IMAGE
-    { id: 'midjourney', slug: 'midjourney-guide-2026', name: 'Midjourney', category: 'video', pricing: 'Paid', description: 'Text likhkar extremely realistic premium images banana.', url: 'https://midjourney.com', emoji: '🎨' },
-    { id: 'heygen', slug: 'heygen-guide-2026', name: 'HeyGen', category: 'video', pricing: 'Freemium', description: 'AI avatar se automatically professional videos aur shorts banana.', url: 'https://www.heygen.com', emoji: '🎬' },
-    { id: 'leonardo', slug: 'leonardo-guide-2026', name: 'Leonardo AI', category: 'video', pricing: 'Freemium', description: 'Midjourney ka best free alternative images generate karne ke liye.', url: 'https://leonardo.ai', emoji: '🖼️' },
-    { id: 'runway', slug: 'runway-guide-2026', name: 'Runway ML', category: 'video', pricing: 'Paid', description: 'High quality AI se video generation aur text-to-video editing.', url: 'https://runwayml.com', emoji: '🎥' },
+    { id: 'midjourney', slug: 'midjourney-guide-2026', name: 'Midjourney', category: 'video', pricing: 'Paid', description: 'Text likhkar extremely realistic premium images banana.', url: 'https://midjourney.com', emoji: '🎨', rating: 4.9, indiaAvailable: true, monthlyUsers: '20M+', lastUpdated: 'Apr 2026' },
+    { id: 'heygen', slug: 'heygen-guide-2026', name: 'HeyGen', category: 'video', pricing: 'Freemium', description: 'AI avatar se automatically professional videos aur shorts banana.', url: 'https://www.heygen.com', emoji: '🎬', rating: 4.5, indiaAvailable: true, monthlyUsers: '5M+', lastUpdated: 'Mar 2026' },
+    { id: 'leonardo', slug: 'leonardo-guide-2026', name: 'Leonardo AI', category: 'video', pricing: 'Freemium', description: 'Midjourney ka best free alternative images generate karne ke liye.', url: 'https://leonardo.ai', emoji: '🖼️', rating: 4.4, indiaAvailable: true, monthlyUsers: '8M+', lastUpdated: 'Mar 2026' },
+    { id: 'runway', slug: 'runway-guide-2026', name: 'Runway ML', category: 'video', pricing: 'Paid', description: 'High quality AI se video generation aur text-to-video editing.', url: 'https://runwayml.com', emoji: '🎥', rating: 4.3, indiaAvailable: true, monthlyUsers: '3M+', lastUpdated: 'Feb 2026' },
 
     // OFFICE & BUSINESS
-    { id: 'gamma', slug: 'gamma-guide-2026', name: 'Gamma App', category: 'office', pricing: 'Freemium', description: '1 minute ke andar AI se beautiful presentation (PPTs) banana.', url: 'https://gamma.app', emoji: '📊' },
-    { id: 'notionai', slug: 'notion-guide-2026', name: 'Notion AI', category: 'office', pricing: 'Paid', description: 'Notes banana, meeting summaries likhna aur workspace handle karna.', url: 'https://www.notion.so/product/ai', emoji: '📓' },
-    { id: 'beautifulai', slug: 'beautifulai-guide-2026', name: 'Beautiful.ai', category: 'office', pricing: 'Freemium', description: 'Smart AI presentation software jo auto-design karta hai.', url: 'https://www.beautiful.ai', emoji: '🎨' },
+    { id: 'gamma', slug: 'gamma-guide-2026', name: 'Gamma App', category: 'office', pricing: 'Freemium', description: '1 minute ke andar AI se beautiful presentation (PPTs) banana.', url: 'https://gamma.app', emoji: '📊', rating: 4.6, indiaAvailable: true, monthlyUsers: '10M+', lastUpdated: 'Apr 2026' },
+    { id: 'notionai', slug: 'notion-guide-2026', name: 'Notion AI', category: 'office', pricing: 'Paid', description: 'Notes banana, meeting summaries likhna aur workspace handle karna.', url: 'https://www.notion.so/product/ai', emoji: '📓', rating: 4.5, indiaAvailable: true, monthlyUsers: '40M+', lastUpdated: 'Mar 2026' },
+    { id: 'beautifulai', slug: 'beautifulai-guide-2026', name: 'Beautiful.ai', category: 'office', pricing: 'Freemium', description: 'Smart AI presentation software jo auto-design karta hai.', url: 'https://www.beautiful.ai', emoji: '🎨', rating: 4.2, indiaAvailable: true, monthlyUsers: '2M+', lastUpdated: 'Jan 2026' },
 
     // CODING & DEV
-    { id: 'githubcopilot', slug: 'github-copilot-guide-2026', name: 'GitHub Copilot', category: 'coding', pricing: 'Paid', description: 'VS Code me AI autocomplete, jo khud code likh deta hai.', url: 'https://github.com/features/copilot', emoji: '💻' },
-    { id: 'cursor', slug: 'cursor-guide-2026', name: 'Cursor IDE', category: 'coding', pricing: 'Freemium', description: 'AI-first code editor, ChatGPT default integrated for coding.', url: 'https://cursor.sh', emoji: '⚙️' },
-    
+    { id: 'githubcopilot', slug: 'github-copilot-guide-2026', name: 'GitHub Copilot', category: 'coding', pricing: 'Paid', description: 'VS Code me AI autocomplete, jo khud code likh deta hai.', url: 'https://github.com/features/copilot', emoji: '💻', rating: 4.7, indiaAvailable: true, monthlyUsers: '15M+', lastUpdated: 'Apr 2026' },
+    { id: 'cursor', slug: 'cursor-guide-2026', name: 'Cursor IDE', category: 'coding', pricing: 'Freemium', description: 'AI-first code editor, ChatGPT default integrated for coding.', url: 'https://cursor.sh', emoji: '⚙️', rating: 4.8, indiaAvailable: true, monthlyUsers: '4M+', lastUpdated: 'Apr 2026' },
+
     // AUDIO & MUSIC
-    { id: 'elevenlabs', slug: 'elevenlabs-guide-2026', name: 'ElevenLabs', category: 'audio', pricing: 'Freemium', description: 'Sabse realistic AI Voice generator, exactly humans jaisi awaz.', url: 'https://elevenlabs.io', emoji: '🎙️' },
-    { id: 'suno', slug: 'suno-guide-2026', name: 'Suno AI', category: 'audio', pricing: 'Freemium', description: 'Sirf text commands de kr professional gaane (songs) produce karna.', url: 'https://suno.com', emoji: '🎵' },
+    { id: 'elevenlabs', slug: 'elevenlabs-guide-2026', name: 'ElevenLabs', category: 'audio', pricing: 'Freemium', description: 'Sabse realistic AI Voice generator, exactly humans jaisi awaz.', url: 'https://elevenlabs.io', emoji: '🎙️', rating: 4.8, indiaAvailable: true, monthlyUsers: '12M+', lastUpdated: 'Apr 2026' },
+    { id: 'suno', slug: 'suno-guide-2026', name: 'Suno AI', category: 'audio', pricing: 'Freemium', description: 'Sirf text commands de kr professional gaane (songs) produce karna.', url: 'https://suno.com', emoji: '🎵', rating: 4.5, indiaAvailable: true, monthlyUsers: '6M+', lastUpdated: 'Mar 2026' },
 ];
+
+function StarRating({ rating }: { rating: number }) {
+    return (
+        <div className="flex items-center gap-1">
+            {[1,2,3,4,5].map(star => (
+                <svg key={star} className={`w-3 h-3 ${star <= Math.round(rating) ? 'text-yellow-400 fill-yellow-400' : 'text-muted-foreground fill-muted-foreground'}`} viewBox="0 0 20 20">
+                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                </svg>
+            ))}
+            <span className="text-xs font-bold text-yellow-400 ml-0.5">{rating}</span>
+        </div>
+    );
+}
 
 export default function AIToolsClient({ aiPosts }: { aiPosts: AIPost[] }) {
     const [selectedCategory, setSelectedCategory] = useState<'all' | 'student' | 'video' | 'coding' | 'office' | 'audio'>('all');
@@ -125,10 +142,28 @@ export default function AIToolsClient({ aiPosts }: { aiPosts: AIPost[] }) {
                                         {tool.pricing}
                                     </span>
                                 </div>
-                                <div className="w-14 h-14 rounded-2xl bg-secondary flex items-center justify-center text-3xl mb-5 shadow-inner border border-border/50 group-hover:scale-110 transition-transform">
+                                <div className="w-14 h-14 rounded-2xl bg-secondary flex items-center justify-center text-3xl mb-4 shadow-inner border border-border/50 group-hover:scale-110 transition-transform">
                                     {tool.emoji}
                                 </div>
-                                <h3 className="text-xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">{tool.name}</h3>
+                                <h3 className="text-xl font-bold text-foreground mb-1 group-hover:text-primary transition-colors">{tool.name}</h3>
+                                
+                                {/* Rating Row */}
+                                <div className="flex items-center gap-3 mb-3">
+                                    <StarRating rating={tool.rating} />
+                                    <span className="text-[10px] text-muted-foreground">·</span>
+                                    <span className="text-[10px] text-muted-foreground font-medium">Updated {tool.lastUpdated}</span>
+                                </div>
+
+                                {/* Meta Info */}
+                                <div className="flex items-center gap-2 mb-3 flex-wrap">
+                                    <span className={`inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full ${tool.indiaAvailable ? 'bg-green-500/10 text-green-400 border border-green-500/20' : 'bg-red-500/10 text-red-400 border border-red-500/20'}`}>
+                                        {tool.indiaAvailable ? '🇮🇳 India Available' : '❌ Not in India'}
+                                    </span>
+                                    <span className="inline-flex items-center gap-1 text-[10px] font-bold px-2 py-0.5 rounded-full bg-blue-500/10 text-blue-400 border border-blue-500/20">
+                                        👥 {tool.monthlyUsers} users
+                                    </span>
+                                </div>
+
                                 <p className="text-sm text-muted-foreground leading-relaxed mb-6 flex-1">
                                     {tool.description}
                                 </p>
@@ -140,17 +175,12 @@ export default function AIToolsClient({ aiPosts }: { aiPosts: AIPost[] }) {
                                 >
                                     Visit Website <ExternalLink className="w-4 h-4" />
                                 </a>
-                                <Link
-                                    href={`/blog/${tool.slug}`}
-                                    className="w-full bg-secondary/60 hover:bg-secondary text-muted-foreground hover:text-foreground font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition-all"
-                                >
-                                    📖 Read Detailed Guide <ArrowRight className="w-4 h-4" />
-                                </Link>
                             </div>
                         ))}
                     </div>
                 </div>
             </section>
+
 
             {/* HYBRID SECTION: ARTICLES (BOTTOM) */}
             <section className="py-16 flex-1 bg-secondary/10 border-t border-border/30">
