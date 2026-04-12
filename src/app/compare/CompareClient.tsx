@@ -31,7 +31,7 @@ const PHONES: Phone[] = [
     price: "₹1,39,999",
     score: 9.0,
     badge: "Best Overall",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-s25-ultra.jpg",
+    image: "/images/phones/samsung-s26-ultra.png",
     specs: {
       camera:    { value: "200MP AI Quad", score: 10 },
       battery:   { value: "5000mAh", score: 8 },
@@ -53,7 +53,7 @@ const PHONES: Phone[] = [
     price: "₹1,59,900",
     score: 9.2,
     badge: "Top Rated",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/apple-iphone-16-pro-max.jpg",
+    image: "/images/phones/iphone-16-pro-max.png",
     specs: {
       camera:    { value: "48MP + 12MP + 5x Zoom", score: 10 },
       battery:   { value: "4685mAh", score: 8 },
@@ -75,7 +75,7 @@ const PHONES: Phone[] = [
     price: "₹1,39,999",
     score: 9.1,
     badge: "Best Camera",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-15-ultra.jpg",
+    image: "/images/phones/xiaomi-17-ultra.png",
     specs: {
       camera:    { value: "200MP Leica 1-inch", score: 10 },
       battery:   { value: "6000mAh", score: 9 },
@@ -97,7 +97,7 @@ const PHONES: Phone[] = [
     price: "₹1,09,999",
     score: 8.9,
     badge: "Smartest AI",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-pro.jpg",
+    image: "/images/phones/google-pixel-10-pro.png",
     specs: {
       camera:    { value: "50MP Main + 48MP Zoom", score: 10 },
       battery:   { value: "5100mAh", score: 8 },
@@ -119,7 +119,7 @@ const PHONES: Phone[] = [
     price: "₹79,990",
     score: 8.8,
     badge: "Monster Specs",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/vivo-x200-ultra.jpg",
+    image: "/images/phones/vivo-x300-ultra.png",
     specs: {
       camera:    { value: "Dual 200MP System", score: 10 },
       battery:   { value: "7000mAh", score: 10 },
@@ -141,7 +141,7 @@ const PHONES: Phone[] = [
     price: "₹72,999",
     score: 8.6,
     badge: "Flagship Killer",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/oneplus-13.jpg",
+    image: "/images/phones/oneplus-15.png",
     specs: {
       camera:    { value: "50MP Hasselblad Triple", score: 8 },
       battery:   { value: "6100mAh", score: 9 },
@@ -163,7 +163,7 @@ const PHONES: Phone[] = [
     price: "₹1,24,999",
     score: 8.7,
     badge: "Innovation Award",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2a.jpg",
+    image: "/images/phones/nothing-fold-1.png",
     specs: {
       camera:    { value: "50MP Triple System", score: 8 },
       battery:   { value: "4800mAh Dual Cell", score: 8 },
@@ -185,7 +185,7 @@ const PHONES: Phone[] = [
     price: "₹59,999",
     score: 8.5,
     badge: "Speed King",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/realme-gt-7-pro.jpg",
+    image: "/images/phones/realme-gt-7-pro.png",
     specs: {
       camera:    { value: "50MP Sony LYT-808 Triple", score: 8 },
       battery:   { value: "6500mAh", score: 9 },
@@ -207,7 +207,7 @@ const PHONES: Phone[] = [
     price: "₹34,999",
     score: 8.1,
     badge: "Hidden Gem",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/motorola-edge-50-ultra.jpg",
+    image: "/images/phones/motorola-edge-60-pro.png",
     specs: {
       camera:    { value: "50MP + 50MP + 10MP Triple", score: 8 },
       battery:   { value: "5000mAh", score: 8 },
@@ -229,7 +229,7 @@ const PHONES: Phone[] = [
     price: "₹29,999",
     score: 8.3,
     badge: "Best Under 30K",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-neo-9-pro.jpg",
+    image: "/images/phones/iqoo-neo-10.png",
     specs: {
       camera:    { value: "50MP Sony LYT-600 + 8MP", score: 8 },
       battery:   { value: "6400mAh", score: 9 },
@@ -251,7 +251,7 @@ const PHONES: Phone[] = [
     price: "₹38,999",
     score: 7.9,
     badge: "Safe Choice",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/samsung-galaxy-a55.jpg",
+    image: "/images/phones/samsung-galaxy-a56.png",
     specs: {
       camera:    { value: "50MP OIS + 12MP + 5MP", score: 8 },
       battery:   { value: "5000mAh", score: 8 },
@@ -273,7 +273,7 @@ const PHONES: Phone[] = [
     price: "₹51,999",
     score: 8.2,
     badge: "Best Battery",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/oneplus-12r.jpg",
+    image: "/images/phones/oneplus-15r.png",
     specs: {
       camera:    { value: "50MP Triple", score: 7 },
       battery:   { value: "7400mAh", score: 10 },
@@ -295,7 +295,7 @@ const PHONES: Phone[] = [
     price: "₹44,998",
     score: 8.3,
     badge: "Best Gaming",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/vivo-iqoo-12.jpg",
+    image: "/images/phones/iqoo-15r.png",
     specs: {
       camera:    { value: "50MP Sony IMX882 + 8MP", score: 7 },
       battery:   { value: "6400mAh", score: 9 },
@@ -317,7 +317,7 @@ const PHONES: Phone[] = [
     price: "₹29,999",
     score: 7.8,
     badge: "Budget King",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/xiaomi-redmi-note-13-pro.jpg",
+    image: "/images/phones/redmi-note-15-pro.png",
     specs: {
       camera:    { value: "200MP OIS Primary", score: 9 },
       battery:   { value: "5500mAh", score: 8 },
@@ -339,7 +339,7 @@ const PHONES: Phone[] = [
     price: "₹1,09,999",
     score: 8.9,
     badge: "Smartest AI",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/google-pixel-9-pro.jpg",
+    image: "/images/phones/google-pixel-10-pro.png",
     specs: {
       camera:    { value: "50MP Main + 48MP Zoom", score: 10 },
       battery:   { value: "5100mAh", score: 8 },
@@ -361,7 +361,7 @@ const PHONES: Phone[] = [
     price: "₹1,24,999",
     score: 8.7,
     badge: "Innovation Award",
-    image: "https://fdn2.gsmarena.com/vv/bigpic/nothing-phone-2a.jpg",
+    image: "/images/phones/nothing-fold-1.png",
     specs: {
       camera:    { value: "50MP Triple System", score: 8 },
       battery:   { value: "4800mAh Dual Cell", score: 8 },
