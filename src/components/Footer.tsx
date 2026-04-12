@@ -64,6 +64,14 @@ export default function Footer() {
                         Made with <Heart className="h-3 w-3 text-pink-500 fill-pink-500" /> in India
                     </p>
                 </div>
+
+                {/* Affiliate Disclosure - Required for AdSense + FTC Compliance */}
+                <div className="mt-6 p-4 rounded-xl bg-amber-500/5 border border-amber-500/15 text-center">
+                    <p className="text-xs text-muted-foreground/70 leading-relaxed">
+                        <span className="font-semibold text-amber-500/80">📢 Affiliate Disclosure:</span>{' '}
+                        AITechNews ke kuch links <span className="font-medium">Amazon</span> aur <span className="font-medium">Flipkart</span> affiliate links hain. Jab aap in links se kuch khareedte hain, toh humein ek small commission milta hai — aapko koi extra charge nahi lagta. Yeh commission site ko free mein chalane mein help karta hai.
+                    </p>
+                </div>
             </div>
         </footer>
     );

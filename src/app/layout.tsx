@@ -51,6 +51,10 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  other: {
+    'google-news-publication': 'AITechNews',
+    'news_keywords': 'AI, Tech, Smartphones, 5G, Crypto, Gadgets, India',
+  },
 };
 
 export default function RootLayout({
@@ -59,7 +63,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="hi" suppressHydrationWarning>
       <head>
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}

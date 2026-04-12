@@ -7,6 +7,7 @@ import AdSensePlaceholder from '@/components/AdSensePlaceholder';
 import ArticleReactions from '@/components/ArticleReactions';
 import LiveComments from '@/components/LiveComments';
 import AuthorBox from '@/components/AuthorBox';
+import UserRating from '@/components/UserRating';
 
 export async function generateStaticParams() {
     const posts = getAllPostSlugs();
@@ -76,22 +77,42 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         .filter(post => post.category === postData.category && post.slug !== postData.slug)
         .slice(0, 3);
 
+    const baseUrl = 'https://aitechnews.co.in';
+    const imageUrl = postData.image 
+        ? (postData.image.startsWith('http') ? postData.image : `${baseUrl}${postData.image}`) 
+        : `${baseUrl}/logo.png`;
+
     const jsonLd = {
         '@context': 'https://schema.org',
         '@type': 'NewsArticle',
+        mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': `${baseUrl}/blog/${postData.slug}`
+        },
         headline: postData.title,
-        image: [
-            postData.image 
-                ? (postData.image.startsWith('http') ? postData.image : `https://aitechnews.co.in${postData.image}`) 
-                : "https://aitechnews.co.in/logo.png"
-        ],
-        datePublished: postData.date,
-        dateModified: postData.date,
-        author: [{
+        description: postData.excerpt || postData.title,
+        image: [imageUrl],
+        datePublished: new Date(postData.date).toISOString(),
+        dateModified: new Date(postData.date).toISOString(),
+        author: {
             '@type': 'Person',
-            name: postData.author || "AITechNews Editorial",
-            url: "https://aitechnews.co.in/about"
-        }]
+            name: postData.author || 'AITechNews Editorial',
+            url: `${baseUrl}/about`
+        },
+        publisher: {
+            '@type': 'Organization',
+            name: 'AITechNews',
+            url: baseUrl,
+            logo: {
+                '@type': 'ImageObject',
+                url: `${baseUrl}/logo.png`,
+                width: 600,
+                height: 60
+            }
+        },
+        articleSection: postData.category || 'Technology',
+        inLanguage: 'hi-IN',
+        isAccessibleForFree: true,
     };
 
     return (
@@ -295,6 +316,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
 
             {/* Author Box */}
             <AuthorBox author={postData.author || 'Rahul Sharma'} authorRole={postData.authorRole || 'Senior Tech Editor'} category={postData.category} />
+
+            {/* User Rating */}
+            <UserRating slug={postData.slug} label={postData.title} />
 
             {/* Native Comments Board */}
             <LiveComments slug={postData.slug} />
