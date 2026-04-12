@@ -6,6 +6,7 @@ import SocialShare from '@/components/SocialShare';
 import AdSensePlaceholder from '@/components/AdSensePlaceholder';
 import ArticleReactions from '@/components/ArticleReactions';
 import LiveComments from '@/components/LiveComments';
+import AuthorBox from '@/components/AuthorBox';
 
 export async function generateStaticParams() {
     const posts = getAllPostSlugs();
@@ -291,6 +292,9 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     <a href="https://www.bloomberg.com/technology" target="_blank" rel="noopener noreferrer" className="text-xs bg-secondary/50 px-3 py-1.5 rounded-full text-foreground hover:bg-primary/20 hover:text-primary transition-colors flex items-center gap-1">↗ Bloomberg Tech</a>
                 </div>
             </div>
+
+            {/* Author Box */}
+            <AuthorBox author={postData.author || 'Rahul Sharma'} authorRole={postData.authorRole || 'Senior Tech Editor'} category={postData.category} />
 
             {/* Native Comments Board */}
             <LiveComments slug={postData.slug} />
