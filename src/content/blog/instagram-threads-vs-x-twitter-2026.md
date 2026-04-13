@@ -3,7 +3,7 @@ title: "Instagram Threads vs X (Twitter) — कौन सा App Better है 
 date: "2026-04-13"
 category: "Software Updates"
 excerpt: "Instagram Threads और X (Twitter) में से कौन सा social media app बेहतर है India में 2026 में? Features, user experience, और content quality — honest comparison Hindi में।"
-image: "/images/blog/ai-se-paise-kaise-kamaye-2026.png"
+image: "/images/blog/threads-vs-x.jpg"
 author: "Amit Verma"
 authorRole: "AI & Software Analyst"
 ---

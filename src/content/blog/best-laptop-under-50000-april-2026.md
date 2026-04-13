@@ -3,7 +3,7 @@ title: "Best Laptop Under ₹50,000 — April 2026 की Updated List (Top 5)"
 date: "2026-04-13"
 category: "Best Phones"
 excerpt: "₹50,000 के budget में best laptop कौन सा है April 2026 में? Students, office work, और light gaming — सब के लिए top picks with honest reviews।"
-image: "/images/blog/best-ai-laptops-60k.jpg"
+image: "/images/blog/best-laptop-under-50000.jpg"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"
 ---

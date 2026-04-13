@@ -3,7 +3,7 @@ title: "Ethereum Staking से India में कमाई कैसे कर
 date: "2026-04-13"
 category: "Crypto"
 excerpt: "Ethereum staking से passive income कैसे कमाई करें India में? ₹3 लाख+ ETH price, 4-5% annual returns — step by step guide with tax details।"
-image: "/images/blog/ethereum-zero.png"
+image: "/images/blog/ethereum-staking-guide.jpg"
 author: "Priya Singh"
 authorRole: "Crypto & Blockchain Expert"
 ---
