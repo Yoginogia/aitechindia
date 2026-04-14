@@ -1,9 +1,9 @@
 ---
 title: "Python 3.15 & Autodesk AI: Developers और Creators के लिए खुशख़बरी 💻"
-description: "Python 3.15.0a8 रिलीज़ हो गया है जिसमें explicit lazy imports आए हैं। वहीं Autodesk Fusion में AI अब सीधे plain language से सॉफ्टवेयर रन कर सकता है।"
+excerpt: "Python 3.15.0a8 रिलीज़ हो गया है जिसमें explicit lazy imports आए हैं। वहीं Autodesk Fusion में AI अब सीधे plain language से सॉफ्टवेयर रन कर सकता है।"
 date: "2026-04-14"
-heroImage: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
-category: "Software Update"
+image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=800"
+category: "Software"
 author: "AITechNews Desk"
 tags: ["Python", "Developers", "Autodesk", "AI Integration"]
 ---

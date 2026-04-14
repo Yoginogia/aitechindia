@@ -1,9 +1,9 @@
 ---
 title: "Windows Secure Boot Expiry 2026: क्या आपका PC सुरक्षित है? 🚨"
-description: "Microsoft ने June 2026 में expire होने वाले Secure Boot certificates के लिए एक बड़ा update release किया है। जानें अपने Windows PC को कैसे सुरक्षित रखें।"
+excerpt: "Microsoft ने June 2026 में expire होने वाले Secure Boot certificates के लिए एक बड़ा update release किया है। जानें अपने Windows PC को कैसे सुरक्षित रखें।"
 date: "2026-04-14"
-heroImage: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800"
-category: "Software Update"
+image: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800"
+category: "Software"
 author: "AITechNews Desk"
 tags: ["Windows", "Microsoft", "Security", "PC Updates"]
 ---
