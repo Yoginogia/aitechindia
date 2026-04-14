@@ -378,6 +378,55 @@ const PHONES: Phone[] = [
     amazon: "https://amzn.to/nothingfold1", flipkart: "https://flipkart.com/nothingfold1",
   },
   // ════════════════════════════════════════
+  // 🆕 NEW LAUNCHES — APRIL 2026
+  // ════════════════════════════════════════
+  {
+    id: "infinix-note-60-pro",
+    name: "Infinix Note 60 Pro",
+    price: "₹14,999",
+    score: 7.6,
+    badge: "🆕 New Launch",
+    image: "/images/phones/redmi-note-15-pro.png",
+    specs: {
+      camera:    { value: "108MP + 13MP + 2MP Triple", score: 8 },
+      battery:   { value: "6500mAh + 45W Charging", score: 9 },
+      ram:       { value: "8GB RAM", score: 7 },
+      display:   { value: "6.78\" Active Matrix AMOLED 120Hz", score: 9 },
+      charging:  { value: "45W Fast Charging", score: 7 },
+      processor: { value: "MediaTek Helio G100 Ultra", score: 7 },
+      storage:   { value: "256GB (Expandable)", score: 8 },
+      os:        { value: "XOS 14 (Android 14)", score: 6 },
+    },
+    pros: ["Active Matrix AMOLED under ₹15K (rare!)", "6500mAh big battery", "108MP triple camera", "256GB storage out of box"],
+    cons: ["XOS 14 has bloatware", "Helio G100 is mid-range only", "15W less charging vs rivals", "No 5G connectivity"],
+    verdict: "₹15K mein Active Matrix AMOLED display milna bahut rare hai. Display aur storage ke liye best choice.",
+    amazon: `https://www.amazon.in/s?k=infinix+note+60+pro&tag=aitechnews-21`,
+    flipkart: "https://www.flipkart.com/search?q=infinix+note+60+pro",
+  },
+  {
+    id: "realme-narzo-100-lite-5g",
+    name: "Realme Narzo 100 Lite 5G",
+    price: "₹13,499 से",
+    score: 7.5,
+    badge: "🆕 Just Launched",
+    image: "/images/phones/realme-gt-7-pro.png",
+    specs: {
+      camera:    { value: "13MP Rear + 5MP Front", score: 5 },
+      battery:   { value: "7000mAh Titan Battery", score: 10 },
+      ram:       { value: "4GB / 6GB RAM", score: 6 },
+      display:   { value: "6.8\" LCD 144Hz, 900 nits", score: 8 },
+      charging:  { value: "15W + Reverse + Bypass", score: 5 },
+      processor: { value: "MediaTek Dimensity 6300 (5nm)", score: 7 },
+      storage:   { value: "64GB / 128GB (Expandable)", score: 7 },
+      os:        { value: "Realme UI 7.0 (Android 16)", score: 8 },
+    },
+    pros: ["7000mAh Titan Battery — 3 days life!", "144Hz 6.8\" display under ₹14K", "5G + Android 16 + IP64", "Military-grade durability certified"],
+    cons: ["Only 13MP main camera — weak", "15W slow charging (7000mAh ke liye)", "LCD panel (not AMOLED)", "Limited RAM options (4GB/6GB only)"],
+    verdict: "Battery life mein king — 7000mAh wala ₹13K ka phone mil paana miracle hai. Travelers aur outdoor users ke liye #1.",
+    amazon: `https://www.amazon.in/s?k=realme+narzo+100+lite+5g&tag=aitechnews-21`,
+    flipkart: "https://www.flipkart.com/search?q=realme+narzo+100+lite+5g",
+  },
+  // ════════════════════════════════════════
   // 💰 BUDGET SEGMENT (₹10K - ₹20K)
   // ════════════════════════════════════════
   {
@@ -479,6 +528,9 @@ const RELATED = [
   { a: "iQOO 15R", b: "OnePlus 15R" },
   { a: "Google Pixel 10 Pro", b: "Xiaomi 17 Ultra" },
   { a: "Samsung Galaxy A56 5G", b: "OnePlus 15R" },
+  { a: "Infinix Note 60 Pro", b: "Realme Narzo 100 Lite 5G" },
+  { a: "Infinix Note 60 Pro", b: "Redmi Note 15 5G" },
+  { a: "Realme Narzo 100 Lite 5G", b: "Samsung Galaxy M15 5G" },
 ];
 
 const SPEC_LABELS: Record<string, string> = {
