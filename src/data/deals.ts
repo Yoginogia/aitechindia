@@ -55,6 +55,43 @@ export const TOP_DEALS: Deal[] = [
         content: "Infinix Note 60 Pro India में launch हो गया है और ₹15,000 से कम में यह सबसे दमदार smartphone है! इसकी सबसे बड़ी खासियत है — **Active Matrix AMOLED Display** जो इस price range में बहुत rare है। AMOLED screen के कारण colors vivid होते हैं, blacks deep होते हैं, और battery भी ज़्यादा efficiently खर्च होती है। 6500mAh की विशाल battery 45W fast charging के साथ आती है — 2 दिन आराम से चलेगी! 108MP triple camera system photos को शानदार बनाता है। MediaTek Helio G100 Ultra chip gaming के लिए capable है। अगर आप ₹15,000 में AMOLED screen और बड़ी battery चाहते हो — यह launch offer miss मत करो!"
     },
     {
+        slug: "realme-narzo-100-lite-5g-launch",
+        title: "Realme Narzo 100 Lite 5G — 7000mAh Titan Battery + 144Hz Display! ⚡",
+        category: "Smartphone",
+        description: "Realme Narzo 100 Lite 5G आज India में launch! 7000mAh Titan Battery, 144Hz 6.8\" Display, MediaTek Dimensity 6300, AI Eraser + Circle to Search। First Sale 21 April — Amazon पर पक्का Note करो!",
+        price: "₹13,499 से",
+        discount: "Launch Offer — Bank ₹1,500 Off",
+        rating: 4.5,
+        tag: "🆕 Just Launched Today!",
+        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=realme+narzo+100+lite+5g&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India / Realme.com",
+        specs: [
+            "6.8\" LCD Display — 144Hz Refresh Rate, 900 nits Peak Brightness",
+            "MediaTek Dimensity 6300 Processor (5nm)",
+            "4GB/6GB RAM + 64GB/128GB Storage (Expandable)",
+            "13MP Rear Camera + 5MP Front Camera",
+            "7000mAh 'Titan Battery' — 2-3 दिन की Life!",
+            "15W Wired + Reverse Charging + Bypass Charging",
+            "Realme UI 7.0 (Android 16 based)",
+            "IP64 Rating — Dust & Splash Resistant",
+            "Military-Grade Durability Certified",
+            "AI Eraser + AI Clear Face + Circle to Search (Google Gemini)"
+        ],
+        variants: [
+            "4GB + 64GB — ₹13,499",
+            "4GB + 128GB — ₹14,499",
+            "6GB + 128GB — ₹16,499"
+        ],
+        bankOffers: [
+            "Bank Discount — ₹1,500 Instant Off (Launch Offer)",
+            "No-Cost EMI — 6 months",
+            "Exchange Bonus — Up to ₹2,000"
+        ],
+        colors: ["Thunder Black", "Frost Silver"],
+        content: "Realme Narzo 100 Lite 5G आज India में officially launch हुआ है — और यह budget segment का नया champion है! इसकी सबसे बड़ी USP है **7000mAh Titan Battery** — जो 2-3 दिन तक easily चलेगी। गेमिंग, YouTube, social media — सब कुछ बिना charging टेंशन के! 144Hz refresh rate वाली 6.8\" display scrolling और gaming को butter-smooth बनाती है। MediaTek Dimensity 6300 (5nm) processor 5G के साथ smooth performance देता है। IP64 rating और military-grade durability इसे rugged use के लिए perfect बनाते हैं। Android 16 base पर Realme UI 7.0, Circle to Search, AI Eraser — premium features budget phone में! **First Sale: 21 April 2026 — Amazon India पर।** अभी Notify me लगाओ ताकि out of stock न हो!",
+    },
+    {
         slug: "iphone-16-pro-massive-drop-2026",
         title: "iPhone 16 Pro Max — ₹15,000 Heavy Price Drop! 🍎",
         category: "Smartphone",
