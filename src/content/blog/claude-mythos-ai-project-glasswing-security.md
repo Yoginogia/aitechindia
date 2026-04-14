@@ -1,7 +1,7 @@
 ---
 title: "Claude Mythos & Project Glasswing: AI जो खुद Hacks ढूंढता है 🤖"
 description: "Anthropic ने अपना सबसे शक्तिशाली मॉडल 'Claude Mythos' आम पब्लिक के लिए restrict कर दिया है। जानिए क्या है Project Glasswing और कैसे AI Cyber Security बदल रहा है।"
-pubDate: "2026-04-14"
+date: "2026-04-14"
 heroImage: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&q=80&w=800"
 category: "Software Update"
 author: "AITechNews Desk"

@@ -1,7 +1,7 @@
 ---
 title: "Adobe Acrobat Zero-Day Hack: PDF खोलते ही PC हो सकता है Hack! 📄"
 description: "Adobe Acrobat Reader में एक भयंकर vulnerability (CVE-2026-34621) का खुलासा। Hackers actively इसका फायदा उठा रहे हैं। Emergency Patch अभी डाउनलोड करें।"
-pubDate: "2026-04-14"
+date: "2026-04-14"
 heroImage: "https://images.unsplash.com/photo-1563206767-5b18f218e8de?auto=format&fit=crop&q=80&w=800"
 category: "Software Update"
 author: "AITechNews Desk"

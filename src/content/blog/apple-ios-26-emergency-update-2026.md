@@ -1,7 +1,7 @@
 ---
 title: "Apple Emergency Update: iOS 26.4.1 & macOS Tahoe (अभी Update करें!) 🍏"
 description: "Apple ने चुपचाप iOS 26.4.1 और macOS Tahoe के नए updates push किए हैं जिसमें hackers से बचने के लिए 2 critical zero-day bugs fix किए गए हैं।"
-pubDate: "2026-04-14"
+date: "2026-04-14"
 heroImage: "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&q=80&w=800"
 category: "Software Update"
 author: "AITechNews Desk"
