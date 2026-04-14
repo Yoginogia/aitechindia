@@ -21,6 +21,40 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "infinix-note-60-pro-india-launch",
+        title: "Infinix Note 60 Pro — Active Matrix Display + 6500mAh Battery! 🔥",
+        category: "Smartphone",
+        description: "Infinix Note 60 Pro India में Launch! Active Matrix AMOLED Display, 6500mAh विशाल बैटरी, और 108MP कैमरा — सिर्फ ₹14,999 में। Budget segment का नया धमाका!",
+        price: "₹14,999",
+        discount: "Launch Special Offer",
+        rating: 4.6,
+        tag: "🆕 New Launch",
+        image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=infinix+note+60+pro&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India / Flipkart",
+        specs: [
+            "6.78\" Active Matrix AMOLED Display — 120Hz, 1300 nits",
+            "108MP Main + 13MP Ultrawide + 2MP Depth Camera",
+            "MediaTek Helio G100 Ultra Processor",
+            "8GB RAM + 256GB Storage (Expandable)",
+            "6500mAh Battery — 2 दिन आराम से चलती है",
+            "45W Fast Charging (0-100% in ~70 min)",
+            "XOS 14 (Android 14 based)",
+            "Side-mounted Fingerprint + Face Unlock",
+            "3.5mm Headphone Jack + USB-C"
+        ],
+        variants: [
+            "8GB + 256GB — ₹14,999"
+        ],
+        bankOffers: [
+            "SBI Credit Card — 10% Instant Off",
+            "No-Cost EMI — 6 months",
+            "Exchange Bonus — Up to ₹2,000"
+        ],
+        colors: ["Emerald Green", "Cosmic Black", "Stardust Silver"],
+        content: "Infinix Note 60 Pro India में launch हो गया है और ₹15,000 से कम में यह सबसे दमदार smartphone है! इसकी सबसे बड़ी खासियत है — **Active Matrix AMOLED Display** जो इस price range में बहुत rare है। AMOLED screen के कारण colors vivid होते हैं, blacks deep होते हैं, और battery भी ज़्यादा efficiently खर्च होती है। 6500mAh की विशाल battery 45W fast charging के साथ आती है — 2 दिन आराम से चलेगी! 108MP triple camera system photos को शानदार बनाता है। MediaTek Helio G100 Ultra chip gaming के लिए capable है। अगर आप ₹15,000 में AMOLED screen और बड़ी battery चाहते हो — यह launch offer miss मत करो!"
+    },
+    {
         slug: "iphone-16-pro-massive-drop-2026",
         title: "iPhone 16 Pro Max — ₹15,000 Heavy Price Drop! 🍎",
         category: "Smartphone",
