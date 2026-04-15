@@ -3,7 +3,7 @@ title: "Sora AI क्या है — OpenAI का Video Generator कैस�
 date: "2026-04-12"
 category: "AI Tools"
 excerpt: "OpenAI का Sora AI अब public access में है 2026 में। Text लिखो और professional video तैयार — जानो Sora क्या है, कैसे use करें, और India में कैसे access करें।"
-image: "/images/blog/sora-ai-video-generator-2026.png"
+image: "/images/blog/sora-ai-video-generator-2026.webp"
 author: "Amit Verma"
 authorRole: "AI & Software Analyst"
 ---

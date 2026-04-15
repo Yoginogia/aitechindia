@@ -3,7 +3,7 @@ title: "WhatsApp में Meta AI कैसे Use करें — Complete Gu
 date: "2026-04-13"
 category: "AI Tools"
 excerpt: "WhatsApp में Meta AI आ गया है — अब chat में ही AI से सवाल पूछो, images बनवाओ, और travel plans बनाओ। Step-by-step guide Hindi में।"
-image: "/images/blog/whatsapp-meta-ai-2026.png"
+image: "/images/blog/whatsapp-meta-ai-2026.webp"
 author: "Amit Verma"
 authorRole: "AI & Software Analyst"
 ---

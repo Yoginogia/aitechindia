@@ -3,7 +3,7 @@ title: "NVIDIA RTX 6090 Leaks: 800W का पावर मॉन्स्टर
 date: "2026-03-26"
 category: "Gadgets"
 excerpt: "NVIDIA RTX 6090 के लीक्ड स्पेक्स ने सबको चौंका दिया है! क्या आपका PSU इसे झेल पाएगा? जानिए क्यों इसे 2026 का सबसे पावरफुल GPU कहा जा रहा है।"
-image: '/images/thumbnails/rtx_6090_leak.png'
+image: '/images/thumbnails/rtx_6090_leak.webp'
 author: "AITechNews Team"
 ---
 

@@ -3,7 +3,7 @@ title: "Best Phones Under ₹30000 in India 2026 — Top 8 Expert Picks"
 date: "2026-04-04"
 category: "Gadgets"
 excerpt: "₹30,000 के budget में India के best smartphones 2026 — OnePlus, Samsung, iQOO, Realme. Full specs, pros, cons और expert buying guide."
-image: "/images/blog/best_phones_30k.png"
+image: "/images/blog/best_phones_30k.webp"
 ---
 
 ₹30,000 का budget एक sweet spot है — यहाँ **flagship-level features** मिलने शुरू होते हैं at mid-range price! 2026 में इस budget में काफ़ी strong options हैं। चलते हैं expert picks देखते हैं।

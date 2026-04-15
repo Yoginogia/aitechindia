@@ -2,7 +2,7 @@
 title: "Smart EVs in India: MG Majestor & Toyota 'Ebella' के April Launches 🚘"
 excerpt: "Tech गैजेट्स अब सिर्फ फोन्स तक सीमित नहीं हैं! भारत में Toyota Fortuner को टक्कर देने आ रहा है MG Majestor और किफायती Toyota 'Ebella' स्मार्ट EV."
 date: "2026-04-15"
-image: "/images/blog/smart-evs-mg-toyota.png"
+image: "/images/blog/smart-evs-mg-toyota.webp"
 category: "Gadgets"
 author: "AITechNews Desk"
 tags: ["Gadgets", "Smart Vehicles", "EV News", "Toyota", "MG Motors"]

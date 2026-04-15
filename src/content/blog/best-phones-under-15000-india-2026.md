@@ -3,7 +3,7 @@ title: "Best Phones Under ₹15000 in India 2026 — Top 7 Mid-Budget Picks"
 date: "2026-04-04"
 category: "Gadgets"
 excerpt: "₹15,000 के budget में India के best smartphones 2026 — AMOLED displays, 5G phones, और fast charging. Expert picks with full specs और buying guide."
-image: "/images/blog/best_phones_15k.png"
+image: "/images/blog/best_phones_15k.webp"
 ---
 
 ₹15,000 का budget — यह वह range है जहाँ **AMOLED displays, 5G connectivity, और fast charging** मिलना शुरू होता है! 2026 में इस price range में phones इतने अच्छे हो गए हैं कि ₹20K वालों से compare हो सकते हैं। चलते हैं top 7 picks देखते हैं!

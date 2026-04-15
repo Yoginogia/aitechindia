@@ -3,7 +3,7 @@ title: "Jio vs Airtel 5G — कौन सा Network बेहतर है Apr
 date: "2026-04-12"
 category: "Updates"
 excerpt: "Jio 5G और Airtel 5G में से कौन सा network India में बेहतर है? Speed test data, coverage map, plans comparison, और real user experience के basis पर honest comparison।"
-image: "/images/blog/jio-vs-airtel-5g-2026.png"
+image: "/images/blog/jio-vs-airtel-5g-2026.webp"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"
 ---

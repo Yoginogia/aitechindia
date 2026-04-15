@@ -4,7 +4,7 @@ excerpt: "क्रिप्टो मार्किट में इस हफ़
 date: "2026-03-31"
 category: "Crypto"
 author: "AITechNews"
-image: "/images/blog/bitcoin-march-26.png"
+image: "/images/blog/bitcoin-march-26.webp"
 readTime: 4
 ---
 

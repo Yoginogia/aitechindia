@@ -3,7 +3,7 @@ title: "Samsung Galaxy A57 5G: मिड-रेंज का नया राज
 date: "2026-03-28"
 category: "Gadgets"
 excerpt: "Samsung ने India में अपना नया धमाका Galaxy A57 5G लॉन्च कर दिया है। क्या One UI 8.5 और 6 साल के अपडेट्स इसे बेस्ट बनाते हैं? जानिए असली सच।"
-image: "/images/blog/samsung_a57_launch.png"
+image: "/images/blog/samsung_a57_launch.webp"
 ---
 
 नमस्ते दोस्तों! अगर आप एक ऐसा फोन ढूंढ रहे हैं जो सालों-साल चले और जिसमें फीचर्स की कोई कमी न हो, तो Samsung ने आपकी सुन ली है। आज इंडिया में **Samsung Galaxy A57 5G** की एंट्री हो चुकी है, और भाई, इसके लुक्स और फीचर्स देखकर मेरा तो दिल आ गया है। 

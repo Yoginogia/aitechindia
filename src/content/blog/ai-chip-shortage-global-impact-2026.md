@@ -2,7 +2,7 @@
 title: "AI Boom के कारण Global 'Memory Chip' Shortage: इंटरनेट होगा स्लो? 💽"
 excerpt: "पूरी दुनिया में AI (ChatGPT, Claude) का इस्तेमाल इतना बढ़ गया है कि दुनिया के सर्वर्स की RAM और Chips खत्म हो रही हैं! क्या आम जनता के गैजेट्स महंगे हो जाएंगे?"
 date: "2026-04-15"
-image: "/images/blog/ai-chip-shortage.png"
+image: "/images/blog/ai-chip-shortage.webp"
 category: "Latest"
 author: "AITechNews Desk"
 tags: ["Tech News", "Hardware", "Semiconductor", "AI Crisis"]

@@ -3,7 +3,7 @@ title: "Jio 5G AI Plan लॉन्च: क्या अब Free Unlimited 5G �
 description: "रिलायंस जियो (Reliance Jio) ने 2026 में 5G AI Plans की घोषणा की है। क्या इसका मतलब है कि भारत से मुफ़्त 5G (Free Unlimited 5G) का दौर खत्म होने वाला है? यहाँ जानें सारी जानकारी।"
 date: "2026-04-10"
 author: "AITechNews Editorial Desk"
-image: "/images/blog/jio-5g-ai-plan-2026.png"
+image: "/images/blog/jio-5g-ai-plan-2026.webp"
 tags: ["Telecom", "Tech News", "Updates", "Jio", "Internet"]
 ---
 

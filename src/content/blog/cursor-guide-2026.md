@@ -3,7 +3,7 @@ title: "Cursor IDE: क्या ये VS Code को पूरी तरह Re
 date: "2026-04-07"
 category: "AI Tools"
 excerpt: "Cursor एक नया, तेज़ी से उभरता हुआ कोड एडिटर है जो VS Code का ही Fork (क्लोन) है, लेकिन इसे शुरुआत से ही AI-First बनाया गया है। Silicon Valley के टॉप डेवलपर्स अब VS Code छोड़कर Cursor पर शिफ्ट हो रहे हैं। ऐसा क्यों?"
-image: "/images/blog/agentic_ai_explained.png"
+image: "/images/blog/agentic_ai_explained.webp"
 author: "AITechNews Desk"
 ---
 Cursor एक नया, तेज़ी से उभरता हुआ कोड एडिटर है जो VS Code का ही Fork (क्लोन) है, लेकिन इसे शुरुआत से ही AI-First बनाया गया है। Silicon Valley के टॉप डेवलपर्स अब VS Code छोड़कर Cursor पर शिफ्ट हो रहे हैं। ऐसा क्यों?

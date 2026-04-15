@@ -3,7 +3,7 @@ title: "Perplexity AI Deep Dive: Google Search का 2026 किलर?"
 date: "2026-04-07"
 category: "AI Tools"
 excerpt: "Perplexity AI आज के दौर में Information Retrieval (सर्च इंजन) का राजा बन गया है। जब Google आपको SEO-optimized कचरा और sponsored ads दिखाता है, तब Perplexity आपको सीधा 'Answer' देता है।"
-image: "/images/blog/agentic_ai_explained.png"
+image: "/images/blog/agentic_ai_explained.webp"
 author: "AITechNews Desk"
 ---
 Perplexity AI आज के दौर में Information Retrieval (सर्च इंजन) का राजा बन गया है। जब Google आपको SEO-optimized कचरा और sponsored ads दिखाता है, तब Perplexity आपको सीधा 'Answer' देता है।

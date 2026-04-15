@@ -3,7 +3,7 @@ title: "Solana (SOL) Breakdown or Breakout? April 2026 में SOL Buy कर�
 description: "Solana (SOL) mein ₹25,000 ka next target hit hoga ya aayega market crash? ETF hype aur Network Upgrade ka SOL ki price par kya asar padega, jaaniye is April 2026 Crypto analysis mein."
 date: "2026-04-09"
 author: "AITechNews Editorial Desk"
-image: "/images/blog/solana-breakout-2026.png"
+image: "/images/blog/solana-breakout-2026.webp"
 tags: ["Crypto", "Updates", "Solana", "Bitcoin", "Trading"]
 ---
 

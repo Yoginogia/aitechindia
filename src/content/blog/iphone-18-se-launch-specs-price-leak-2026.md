@@ -4,7 +4,7 @@ excerpt: "iPhone 18 SE की सबसे बड़ी Leak अब सामन
 date: "2026-04-02"
 category: "Gadgets"
 author: "AITechNews"
-image: "/images/blog/iphone-18-se-leak.png"
+image: "/images/blog/iphone-18-se-leak.webp"
 readTime: 4
 ---
 

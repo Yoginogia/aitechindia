@@ -3,7 +3,7 @@ title: "Siri + Google Gemini: Apple का सबसे बड़ा दां�
 date: "2026-03-26"
 category: "AI News"
 excerpt: "Apple और Google का महा-मिलन! Siri अब सिर्फ एक आवाज़ नहीं, बल्कि Google Gemini की ताक़त से लैस एक 'Super AI' बनने वाली है। यहाँ जानिए iOS 27 के सबसे बड़े लीक्स।"
-image: '/images/thumbnails/siri_gemini_ai.png'
+image: '/images/thumbnails/siri_gemini_ai.webp'
 author: "AITechNews Team"
 ---
 

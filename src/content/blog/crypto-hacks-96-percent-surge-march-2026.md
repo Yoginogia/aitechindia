@@ -4,7 +4,7 @@ excerpt: "March 2026 में Crypto Hacks में 96% का भारी �
 date: "2026-04-01"
 category: "Crypto"
 author: "AITechNews"
-image: "/images/blog/crypto-hack-march.png"
+image: "/images/blog/crypto-hack-march.webp"
 readTime: 5
 ---
 

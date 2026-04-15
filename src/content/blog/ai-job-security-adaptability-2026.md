@@ -4,7 +4,7 @@ excerpt: "ETS की नई रिपोर्ट: AI Era में Job Security
 date: "2026-04-01"
 category: "AI News"
 author: "AITechNews"
-image: "/images/blog/ai-job-security.png"
+image: "/images/blog/ai-job-security.webp"
 readTime: 5
 ---
 

@@ -3,7 +3,7 @@ title: "Google Gemini vs ChatGPT — कौन सा AI Best है 2026 मे
 date: "2026-04-12"
 category: "AI Tools"
 excerpt: "Google Gemini 2.5 Pro और ChatGPT GPT-4o में से कौन सा AI tool बेहतर है 2026 में? Hindi में honest comparison — speed, accuracy, price, और India-specific features के basis पर।"
-image: "/images/blog/gemini-vs-chatgpt-2026.png"
+image: "/images/blog/gemini-vs-chatgpt-2026.webp"
 author: "Amit Verma"
 authorRole: "AI & Software Analyst"
 ---

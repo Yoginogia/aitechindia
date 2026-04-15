@@ -3,7 +3,7 @@ title: "AI से Resume कैसे बनाएं — 5 Minute में Pro
 date: "2026-04-12"
 category: "AI Tools"
 excerpt: "AI tools की मदद से सिर्फ 5 minute में professional resume बनाना सीखो। ChatGPT, Canva AI, और Kickresume — step by step guide Hindi में।"
-image: "/images/blog/ai-resume-builder-2026.png"
+image: "/images/blog/ai-resume-builder-2026.webp"
 author: "Amit Verma"
 authorRole: "AI & Software Analyst"
 ---

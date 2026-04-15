@@ -3,7 +3,7 @@ title: "Students के लिए 10 Free AI Tools — Exam Preparation 2026 (Ga
 date: "2026-04-12"
 category: "AI Tools"
 excerpt: "2026 में exams की तैयारी AI tools से करना अब सबसे smart तरीका है। यहां हैं 10 free AI tools जो notes बनाएंगे, doubt solve करेंगे, और revision 5x fast करेंगे।"
-image: "/images/blog/students-ai-tools-exam-2026.png"
+image: "/images/blog/students-ai-tools-exam-2026.webp"
 author: "Amit Verma"
 authorRole: "AI & Software Analyst"
 ---

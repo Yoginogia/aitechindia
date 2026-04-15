@@ -4,7 +4,7 @@ excerpt: "Lenovo का April Sale: 1 से 15 April तक किसी भी
 date: "2026-04-01"
 category: "Gadgets"
 author: "AITechNews"
-image: "/images/blog/lenovo-cashback-april.png"
+image: "/images/blog/lenovo-cashback-april.webp"
 readTime: 3
 ---
 

@@ -3,7 +3,7 @@ title: "Bitcoin ₹90 लाख के पास — क्या April 2026 म
 date: "2026-04-12"
 category: "Crypto"
 excerpt: "Bitcoin April 2026 में ₹90 लाख के level के पास पहुंच गया है। Experts बोल रहे हैं यह cycle का peak नहीं है — new All Time High possible है। Full analysis यहां पढ़ें।"
-image: "/images/blog/bitcoin-ath-april-2026.png"
+image: "/images/blog/bitcoin-ath-april-2026.webp"
 author: "Priya Singh"
 authorRole: "Crypto & Blockchain Expert"
 ---

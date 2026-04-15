@@ -3,7 +3,7 @@ title: "Samsung Galaxy S26 FE: लॉन्च से पहले कीमत 
 date: "2026-03-30"
 category: "Mobile"
 excerpt: "सैमसंग का सबसे हिट फ्लैगशिप किलर Galaxy S26 FE जल्द आ रहा है। इसमें Galaxy AI 3.0 और Exynos 2600 चिप मिल रही है। कीमत जानिए!"
-image: "/images/blog/oneplus_nord6_leak.png"
+image: "/images/blog/oneplus_nord6_leak.webp"
 ---
 
 सैमसंग फैंस के लिए एक बहुत बड़ी खुशखबरी है! पिछले साल के S25 FE की जबर्दस्त सफलता के बाद, अब **Samsung Galaxy S26 FE** की सारी डिटेल्स लॉन्च से पहले ही लीक (Leak) हो गई हैं।

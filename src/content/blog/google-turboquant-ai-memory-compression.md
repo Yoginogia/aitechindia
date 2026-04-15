@@ -3,7 +3,7 @@ title: "Google का नया जादू! 'TurboQuant' से अब हर 
 date: "2026-03-28"
 category: "AI News"
 excerpt: "Google के नए TurboQuant एल्गोरिथम ने पूरी दुनिया को चौंका दिया है। अब आपके बजट फोन में भी चलेगा Google Gemini जैसा भारी AI। जानिए कैसे काम करता है यह जादू।"
-image: "/images/blog/google_turboquant_tech.png"
+image: "/images/blog/google_turboquant_tech.webp"
 ---
 
 दोस्तों, क्या आपको भी लगता है कि AI सिर्फ महंगे फोन्स और बड़े कम्प्यूटर्स के लिए है? अगर हाँ, तो Google ने आपकी ये सोच बदलने के लिए एक नया 'ब्रह्मास्त्र' लॉन्च किया है—**TurboQuant**।

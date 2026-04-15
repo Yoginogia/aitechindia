@@ -3,7 +3,7 @@ title: "Chatbots पुराने हुए, अब आ गया है 'Agen
 date: "2026-03-28"
 category: "AI News"
 excerpt: "Agentic AI क्या है? क्या यह सिर्फ एक नया नाम है या वाकई में कुछ क्रांतिकारी? जानिए कैसे AI अब आपके लिए 'सोचकर' काम करेगा।"
-image: "/images/blog/agentic_ai_explained.png"
+image: "/images/blog/agentic_ai_explained.webp"
 ---
 
 दोस्तों, क्या आप भी ChatGPT या Gemini से बात करते-करते थक गए हैं? हम उन्हें कमांड देते हैं और वो हमें जवाब देते हैं। लेकिन अब कहानी बदलने वाली है। 2026 की सबसे बड़ी टेक टर्म है—**Agentic AI**।

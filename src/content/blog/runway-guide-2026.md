@@ -3,7 +3,7 @@ title: "Runway ML (Gen-3): Text लिख कर Hollywood-style Videos बन�
 date: "2026-04-07"
 category: "AI Tools"
 excerpt: "Runway ML video editing और Generative Video की दुनिया का बेताज बादशाह है। इसका सबसे नया मॉडल Gen-3 Alpha, text लिखकर वीडियो बनाने की पूरी फील्ड को Hollywood लेवल पर ले गया है।"
-image: "/images/blog/google_turboquant_tech.png"
+image: "/images/blog/google_turboquant_tech.webp"
 author: "AITechNews Desk"
 ---
 Runway ML video editing और Generative Video की दुनिया का बेताज बादशाह है। इसका सबसे नया मॉडल Gen-3 Alpha, text लिखकर वीडियो बनाने की पूरी फील्ड को Hollywood लेवल पर ले गया है।

@@ -4,7 +4,7 @@ excerpt: "मार्च 2026 की सबसे बड़ी खबर: OpenAI �
 date: "2026-03-31"
 category: "AI News"
 author: "Yogesh Kumar"
-image: "/images/blog/gpt-5-gemini-3.png"
+image: "/images/blog/gpt-5-gemini-3.webp"
 readTime: 4
 ---
 

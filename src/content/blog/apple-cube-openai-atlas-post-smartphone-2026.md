@@ -2,7 +2,7 @@
 title: "Post-Smartphone Era: Apple Cube vs OpenAI Atlas (Leaked!) 🔮"
 excerpt: "क्या 2026 में smartphones खत्म होने वाले हैं? Apple 'Cube' और OpenAI 'Atlas' जैसे AI-Core devices के leaks ने पूरी टेक दुनिया को हैरान कर दिया है!"
 date: "2026-04-15"
-image: "/images/blog/apple-cube-openai-atlas.png"
+image: "/images/blog/apple-cube-openai-atlas.webp"
 category: "Gadgets"
 author: "AITechNews Desk"
 tags: ["Gadgets", "Apple", "OpenAI", "Future Tech"]

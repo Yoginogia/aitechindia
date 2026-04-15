@@ -4,7 +4,7 @@ excerpt: "Nvidia और Marvell Technology के बीच $2 बिलिय�
 date: "2026-04-01"
 category: "AI News"
 author: "AITechNews"
-image: "/images/blog/nvidia-marvell-deal.png"
+image: "/images/blog/nvidia-marvell-deal.webp"
 readTime: 4
 ---
 

@@ -4,7 +4,7 @@ excerpt: "Samsung ने भारत में Galaxy Book 6 Series Launch क�
 date: "2026-04-01"
 category: "Gadgets"
 author: "AITechNews"
-image: "/images/blog/samsung-galaxy-book6.png"
+image: "/images/blog/samsung-galaxy-book6.webp"
 readTime: 4
 ---
 

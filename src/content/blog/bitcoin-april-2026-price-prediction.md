@@ -4,7 +4,7 @@ excerpt: "April 2026 में Bitcoin $67,000 के आसपास है। 
 date: "2026-04-02"
 category: "Crypto"
 author: "AITechNews"
-image: "/images/blog/bitcoin-april-2026-prediction.png"
+image: "/images/blog/bitcoin-april-2026-prediction.webp"
 readTime: 5
 ---
 

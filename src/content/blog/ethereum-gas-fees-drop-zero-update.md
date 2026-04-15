@@ -3,7 +3,7 @@ title: "Kya Hoga Agar Ethereum Gas Fees Zero Ho Jaye? (Speculation)"
 date: "2026-03-22"
 category: "Crypto"
 excerpt: "क्रिप्टो मार्केट में अक्सर 'गैस फीस 0' होने की चर्चा होती है। क्या ऐसा सच में हो सकता है, और अगर हुआ तो मार्केट पर क्या असर पड़ेगा?"
-image: "/images/blog/ethereum-zero.png?v=999"
+image: "/images/blog/ethereum-zero.webp?v=999"
 ---
 
 सालों से **Ethereum (ETH)** नेटवर्क का इस्तेमाल करने वालों की सबसे बड़ी शिकायत यही थी— *"भैया, गैस फीस (Network Fees) तो बहुत ज़्यादा है!"* 💸

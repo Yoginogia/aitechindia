@@ -3,7 +3,7 @@ title: "OpenAI 'Smart Ring': क्या उंगलियों से कं
 date: "2026-03-30"
 category: "Gadgets"
 excerpt: "सैमसंग और एप्पल के बाद अब OpenAI भी हार्डवेयर मार्केट में उतर रहा है। जानिए इस नई 'Smart Ring' में क्या है खास!"
-image: "/images/blog/apple-gpt.png"
+image: "/images/blog/apple-gpt.webp"
 ---
 
 क्या आप बार-बार अपना फोन निकाल कर ChatGPT से सवाल पूछ कर थक गए हैं? OpenAI इसका एक बहुत ही 'Sci-Fi' समाधान ला रहा है — **OpenAI Smart Ring**।

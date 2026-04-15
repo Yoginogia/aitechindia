@@ -2,7 +2,7 @@
 title: "Bitcoin 73K Crash या Correction? जानिए June का $100K का Target! 📉"
 excerpt: "Bitcoin $75,000 के ऑल-टाइम हाई को छूने के बाद $73,600 पर क्यों गिर गया? क्या यह मार्केट क्रैश है या बड़ी छलांग से पहले एक छोटा सा करेक्शन?"
 date: "2026-04-15"
-image: "/images/blog/bitcoin-crash-73k.png"
+image: "/images/blog/bitcoin-crash-73k.webp"
 category: "Crypto"
 author: "AITechNews Desk"
 tags: ["Crypto", "Bitcoin", "Market Crash", "Investing"]

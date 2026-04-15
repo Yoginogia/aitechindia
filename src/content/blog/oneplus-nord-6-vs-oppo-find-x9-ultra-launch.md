@@ -2,7 +2,7 @@
 title: "OnePlus Nord 6 vs Oppo Find X9 Ultra: April के Biggest Launches 📱"
 excerpt: "April 2026 में मिड-रेंज और प्रीमियम स्मार्टफोन्स में तगड़ी टक्कर! जानिए OnePlus Nord 6 और Oppo Find X9 Ultra के फर्स्ट लुक और स्पेक्स।"
 date: "2026-04-15"
-image: "/images/blog/oneplus-nord-oppo-find.png"
+image: "/images/blog/oneplus-nord-oppo-find.webp"
 category: "Best Phones"
 author: "AITechNews Desk"
 tags: ["Smartphones", "OnePlus Nord 6", "Oppo Find X9", "Review"]

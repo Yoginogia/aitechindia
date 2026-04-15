@@ -3,7 +3,7 @@ title: "Top 3 5G Phones Under ₹15,000 (April 2026): गेमिंग, बै
 description: "₹15,000 के बजट में सबसे बेहतरीन 5G स्मार्टफोन्स की लिस्ट। जानिए POCO, Redmi और CMF (Nothing) के बेस्ट फोंस जो आपको अप्रैल 2026 में सबसे ज़्यादा वैल्यू (Value for Money) देंगे।"
 date: "2026-04-10"
 author: "AITechNews Editorial Desk"
-image: "/images/blog/best-5g-phones-under-15000.png"
+image: "/images/blog/best-5g-phones-under-15000.webp"
 tags: ["Smartphones", "Budget", "Gadgets", "Top Deals", "Comparison"]
 ---
 

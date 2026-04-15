@@ -4,7 +4,7 @@ excerpt: "Reliance Jio 2026 में एक Ultra-Affordable AI Smartphone Laun
 date: "2026-04-02"
 category: "AI News"
 author: "AITechNews"
-image: "/images/blog/jio-ai-phone-2026.png"
+image: "/images/blog/jio-ai-phone-2026.webp"
 readTime: 4
 ---
 

@@ -3,7 +3,7 @@ title: "Solana (SOL) का 'Firedancer' अपग्रेड: क्या अ
 date: "2026-03-29"
 category: "Crypto"
 excerpt: "Solana नेटवर्क ने आज अपना सबसे बड़ा 'Firedancer' अपग्रेड लाइव कर दिया है। अब यह क्रेडिट कार्ड कंपनियों Visa और Mastercard से भी तेज़ है!"
-image: "/images/blog/solana_speed_upgrade_2026.png"
+image: "/images/blog/solana_speed_upgrade_2026.webp"
 ---
 
 क्रिप्टो की दुनिया में आज सिर्फ एक ही नाम गूँज रहा है — **Solana (SOL)**! 

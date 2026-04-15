@@ -3,7 +3,7 @@ title: "5G Phone Under ₹15000 — April 2026 की Best List (Updated)"
 date: "2026-04-12"
 category: "Best Phones"
 excerpt: "₹15,000 के budget में best 5G phone कौन सा है April 2026 में? Redmi, Realme, Samsung, और Poco के बीच comparison — expert verdict के साथ complete guide।"
-image: "/images/blog/best-5g-phones-15000-2026.png"
+image: "/images/blog/best-5g-phones-15000-2026.webp"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"
 ---

@@ -2,7 +2,7 @@
 title: "AI in Hospitals: अब AI Machines खुद करेंगी X-Ray और MRI चेक? 🏥"
 excerpt: "मेडिकल फील्ड में बड़ा धमाका: Sectra कंपनी ने ऑटोनोमस रेडियोलॉजी (AI Radiology) के लिए 'Oxipit' को खरीद लिया है। क्या 2026 में AI डॉक्टर बन रहा है?"
 date: "2026-04-15"
-image: "/images/blog/ai-hospital-radiology.png"
+image: "/images/blog/ai-hospital-radiology.webp"
 category: "Latest"
 author: "AITechNews Desk"
 tags: ["Hospitals", "AI News", "Healthcare", "Future Tech"]

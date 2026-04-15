@@ -3,7 +3,7 @@ title: "Google Gemini 4 Leaks: ChatGPT-6 का असली Competitor आ ग�
 date: "2026-04-07"
 category: "AI"
 excerpt: "Google का secret project 'Gemini 4' आख़िर लीक हो गया है। इसकी reasoning power और video generation, ChatGPT को पूरी तरह हरा सकती है।"
-image: "/images/blog/google_turboquant_tech.png"
+image: "/images/blog/google_turboquant_tech.webp"
 author: "AITechNews AI Engine"
 ---
 # Google Gemini 4 Leaks: AI Race में Google की वापसी?

@@ -3,7 +3,7 @@ title: "Best Phones Under ₹20000 in India 2026 — Top 7 Picks"
 date: "2026-04-04"
 category: "Gadgets"
 excerpt: "₹20,000 के budget में India का best smartphone कौनसा है? यहाँ हैं 2026 के top 7 picks with full specs, pros, cons और expert verdict."
-image: "/images/blog/best_phones_20k.png"
+image: "/images/blog/best_phones_20k.webp"
 ---
 
 ₹20,000 का budget? Tension मत लो! 2026 में इस price range में **काफ़ी powerful phones** आ गए हैं — 5G, AMOLED display, fast charging सब मिलता है। आज हम देखेंगे **India के best 7 phones under ₹20,000**।

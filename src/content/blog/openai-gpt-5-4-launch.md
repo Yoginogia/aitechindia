@@ -3,7 +3,7 @@ title: "OpenAI ने किया धमाका! लॉन्च हुआ GP
 excerpt: "OpenAI ने अपना सबसे एडवांस मॉडल GPT-5.4 रिलीज़ कर दिया है, जिसमें 'Native Computer Use' फीचर है। जानिए यह आपके काम को कैसे आसान बनाएगा।"
 date: "Mar 13, 2026"
 category: "AI"
-image: '/images/thumbnails/openai_gpt_5_launch.png'
+image: '/images/thumbnails/openai_gpt_5_launch.webp'
 ---
 
 यार, आज सुबह जैसे ही मैंने ट्विटर (X) खोला, पूरा टाइमलाइन एक ही चीज़ से भरा हुआ था—**GPT-5.4 लॉन्च हो गया!** और सच कहूँ, मैंने भी जैसे ही इसके फीचर्स पढ़े, मुँह खुला का खुला रह गया।

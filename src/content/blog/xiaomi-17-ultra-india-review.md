@@ -3,7 +3,7 @@ title: "Xiaomi 17 Ultra India Launch — Leica Camera Phone ₹1,29,999 मे�
 date: "2026-03-26"
 category: "Gadgets"
 excerpt: "Xiaomi 17 Ultra India में आज भी ट्रेंड कर रहा है! Leica triple camera, 200MP periscope zoom, और 26 मार्च के नए ऑफर्स के साथ यह बेस्ट फ्लैगशिप है। SBI Card से ₹10,000 off!"
-image: "/images/deals/xiaomi-17-ultra.png"
+image: "/images/deals/xiaomi-17-ultra.webp"
 ---
 
 Bhai log, **Xiaomi 17 Ultra** aa gaya hai India mein aur yeh **camera lovers ke liye dream phone** hai! Leica ke saath partnership se bana triple camera system — koi bhi phone is level ki photography nahi deta. Let's dive in!
