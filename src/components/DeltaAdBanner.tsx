@@ -12,7 +12,6 @@ export default function DeltaAdBanner() {
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between p-6 md:p-8 gap-6">
         <div className="flex-1 space-y-4">
           <div className="flex flex-wrap items-center gap-3">
-            <span className="text-[10px] uppercase tracking-wider font-bold text-slate-300 bg-slate-800 px-3 py-1 rounded-full border border-slate-700">Official Partner</span>
             <span className="flex items-center gap-1 text-xs font-semibold text-orange-400 bg-orange-500/10 px-3 py-1 rounded-full border border-orange-500/20">
               <Zap className="h-3 w-3" /> Fastest Crypto Options
             </span>
@@ -40,7 +39,7 @@ export default function DeltaAdBanner() {
           </h3>
           
           <p className="text-slate-400 text-sm md:text-base max-w-2xl leading-relaxed">
-            India's most trusted platform for Bitcoin & Options trading. Join today and get a <strong className="text-white">Flat 10% Fee Discount</strong> on your trades for 6 months using referral code <span className="bg-orange-500/20 text-orange-400 px-2 py-0.5 rounded font-mono font-bold tracking-widest border border-orange-500/30 shadow-[0_0_10px_rgba(249,115,22,0.2)]">TJEGGJ</span>.
+            India's most trusted platform for Bitcoin & Options trading.
           </p>
         </div>
         
