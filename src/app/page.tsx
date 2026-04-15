@@ -8,6 +8,7 @@ import WebStoriesHighlights from '@/components/WebStoriesHighlights';
 import TechShortsWidget from '@/components/TechShortsWidget';
 import TechPollWidget from '@/components/TechPollWidget';
 import SpeedTestWidget from '@/components/SpeedTestWidget';
+import DeltaAdBanner from '@/components/DeltaAdBanner';
 import { getSortedPostsData } from '@/lib/markdown';
 
 // Category ke hisaab se icon aur gradient
@@ -87,6 +88,7 @@ export default function Home() {
 
             {/* Left Column: Articles — DYNAMIC from blog folder */}
             <div className="lg:col-span-8 space-y-8 min-w-0">
+              <DeltaAdBanner />
               <WebStoriesHighlights />
 
               <div className="flex items-center justify-between pb-4 mt-8">
