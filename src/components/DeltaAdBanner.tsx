@@ -23,17 +23,18 @@ export default function DeltaAdBanner() {
           
           <h3 className="text-xl md:text-3xl font-bold tracking-tight text-white flex items-center gap-3 flex-wrap drop-shadow-sm">
             Trade Crypto with 
-            {/* Pure SVG Replica of Delta Exchange India Logo (No image file needed!) */}
-            <div className="flex items-center bg-white/5 px-4 py-2 rounded-lg border border-white/10">
-              <svg width="32" height="32" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-3">
-                {/* Orange Top Triangle Segment */}
-                <path d="M20 10 L80 50 L20 50 Z" fill="#f97316"/>
-                {/* Green Bottom Triangle Segment */}
-                <path d="M20 90 L80 50 L20 50 Z" fill="#22c55e"/>
+            <div className="flex items-center bg-transparent px-2 py-1">
+              <svg width="40" height="40" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="mr-3 filter drop-shadow-md">
+                {/* Small Left Arrow (Orange) */}
+                <path d="M30 35 L10 50 L30 65 Z" fill="#f97316"/>
+                {/* Top Right Shape (Orange) */}
+                <path d="M30 15 L85 45 L50 60 Z" fill="#f97316"/>
+                {/* Bottom Right Shape (Green) */}
+                <path d="M30 85 L85 55 L50 40 Z" fill="#22c55e"/>
               </svg>
               <div className="flex flex-col leading-none">
-                <span className="font-extrabold text-[20px] text-white tracking-wide">Delta.</span>
-                <span className="font-light text-[14px] text-slate-300">Exchange <span className="text-white/40 ml-1">|</span> <span className="font-semibold text-white tracking-widest text-[12px] ml-1">INDIA</span></span>
+                <span className="font-extrabold text-[22px] text-white tracking-wide">Delta.</span>
+                <span className="font-light text-[15px] text-slate-300">Exchange</span>
               </div>
             </div>
           </h3>
