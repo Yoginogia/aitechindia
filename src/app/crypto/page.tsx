@@ -1,7 +1,6 @@
 import Link from 'next/link';
 import { ArrowRight, Clock, TrendingUp, Bitcoin } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/markdown';
-import CryptoCalculator from './CryptoCalculator';
 import DeltaAdBanner from '@/components/DeltaAdBanner';
 
 export const metadata = {
@@ -38,7 +37,6 @@ export default function CryptoNewsPage() {
 
             <section className="py-8 flex-1">
                 <div className="container mx-auto px-4 md:px-8 max-w-7xl">
-                    <CryptoCalculator />
                     <DeltaAdBanner />
                     
                     {cryptoPosts.length === 0 ? (
