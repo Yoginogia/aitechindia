@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'google-1-billion-android-phones-security-warning-2026',
+        title: '1 Billion Android Phones Hack होंगे! 🔴',
+        subtitle: 'Google की बड़ी Warning! Android 12 या पुराने Phone वाले अभी यह करें — वरना Data चोरी हो सकता है!',
+        category: '🚨 Security Alert',
+        categoryColor: '#ef4444',
+        image: '/images/blog/android_billion_hack_warning.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'apple-macbook-neo-budget-599-dollar-launch',
+        title: 'MacBook Neo ₹50K में! 🍎',
+        subtitle: 'Apple ने पहली बार Budget MacBook लॉन्च की! $599 में असली Mac का Experience — Students के लिए Game Changer!',
+        category: '🆕 Launch',
+        categoryColor: '#6b7280',
+        image: '/images/blog/apple_macbook_neo_budget.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'claude-opus-47-launch-chatgpt-rival-2026',
         title: 'Claude Opus 4.7 आया! 🤖',
         subtitle: 'ChatGPT को पीछे छोड़ा! Coding और AI Tasks में Anthropic का नया King। अभी Free में आज़माएं!',
