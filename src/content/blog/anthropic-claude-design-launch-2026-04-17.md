@@ -1,16 +1,16 @@
 ---
-title: "Anthropic ne launch kiya Claude Design, jismein aap jaldi se visuals banayein"
+title: "Anthropic ne-launch kiya Claude Design, jisse bina design background ke bhi ideas share kar sakte hain"
 date: 2026-04-17
 category: AI News
-excerpt: "Anthropic ne naya product launch kiya hai, jiska naam hai Claude Design, jisse aap apne ideas ko jaldi se visuals mein badal sakte hain. Yeh product founders aur product managers ke liye hai jo design background nahi rakhte."
+excerpt: "Anthropic ne apna naya product Claude Design launch kiya hai, jissey founders aur product managers apne ideas ko easily share kar sakte hain. Yeh tool unlogo ke liye banaya gaya hai jo design background nahi rakhte."
 image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80
 readingTime: 3 min read
 ---
 
-Anthropic ne aaj ek naya product launch kiya hai, jiska naam hai Claude Design. Yeh product company ke existing AI model Claude ke upar based hai, jo ki text-based interface ke saath aata hai. Claude Design ka udeshya hai ki log apne ideas ko jaldi se visuals mein badal sakein, bina kisi design background ke.
+Anthropic ne apna naya product Claude Design launch kiya hai, jissey founders aur product managers apne ideas ko easily share kar sakte hain. Yeh tool unlogo ke liye banaya gaya hai jo design background nahi rakhte, lekin phir bhi ve apne ideas ko visually represent karna chahte hain.
 
- Company ke anusar, Claude Design founders aur product managers ke liye banaya gaya hai, jo ki design background nahi rakhte. Yeh product unhein apne ideas ko jaldi se visuals mein badalne mein madad karega, jisse ki unhein apne products ko jaldi se launch karne mein madad milegi.
+ Claude Design ka main objective yeh hai ki log apne ideas ko jaldi se share kar sakein, bina kisi design expertise ke. Is tool ki madad se, users apne ideas ko wireframes, mockups, aur prototypes ke roop mein create kar sakte hain. Yeh tool Anthropic ke existing product Claude ke saath integrate kiya gaya hai, jo ki ek AI-powered chatbot hai.
 
- Claude Design mein kai features hain, jaise ki text-to-image synthesis, image editing, aur collaboration tools. Yeh product users ko apne ideas ko jaldi se visualize karne mein madad karega, jisse ki unhein apne products ko jaldi se launch karne mein madad milegi.
+ Claude Design ki kuch mahatvapoorn features mein drag-and-drop interface, customizable templates, aur real-time collaboration shamil hai. Issey users apne team members ke saath easily collaborate kar sakte hain aur apne designs ko real-time mein share kar sakte hain.
 
- Anthropic ke anusar, Claude Design ko develop karne ke liye unhone kai saare designers aur product managers ke saath kaam kiya hai, jisse ki unhein yeh samajh mein aaya ki log apne ideas ko jaldi se visuals mein badalne mein kya pareshaniyan hoti hain. Iske anusar, unhone Claude Design ko develop kiya hai, jo ki logon ko apne ideas ko jaldi se visuals mein badalne mein madad karega.
+ Anthropic ke anusaar, Claude Design ka main target audience founders, product managers, aur marketers hain, jo apne ideas ko visually communicate karna chahte hain. Company ka kehna hai ki yeh tool unlogo ke liye bahut upyogi hoga, jo design background nahi rakhte, lekin phir bhi ve apne ideas ko effectively communicate karna chahte hain.
