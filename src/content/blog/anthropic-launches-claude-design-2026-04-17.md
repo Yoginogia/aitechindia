@@ -1,6 +1,6 @@
 ---
 title: "Anthropic ne launch kiya Claude Design, jisse aap jaldi se visuals bana sakte hain"
-date: 2026-04-17
+date: "17 April 2026"
 category: AI News
 excerpt: "Anthropic ne apna naya product Claude Design launch kiya hai, jo logon ko unke ideas ko asaani se share karne mein madad karta hai. Yeh product khaskar founders aur product managers ke liye banaya gaya hai jo design background nahi rakhte."
 image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80

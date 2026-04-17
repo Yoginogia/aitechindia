@@ -1,6 +1,6 @@
 ---
 title: "Luma ne launch kiya AI-powered production studio, Wonder Project ke saath"
-date: 2026-04-17
+date: "17 April 2026"
 category: AI News
 excerpt: "Luma ne apna naya AI-powered production studio launch kiya hai, jiske saath Wonder Project shuru kiya gaya hai. Is studio ka pehla project Moses par based hoga, jisme Academy Award winner Ben Kingsley act karenge."
 image: https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=800&q=80

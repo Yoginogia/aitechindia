@@ -1,6 +1,6 @@
 ---
 title: "Tokenmaxxing, OpenAI ka Shopping Spree, aur AI Anxiety Gap"
-date: 2026-04-17
+date: "17 April 2026"
 category: AI News
 excerpt: "AI insiders aur baaki duniya ke beech ka gap badh raha hai, aur kharch, shak, aur naya vocabulary bhi iska pramaan hai. OpenAI finance apps se lekar talk shows tak sab kuch khareed raha hai, jabki ek juton ki company ne apne aapko AI infrastructure company ke roop mein rebadged kiya hai."
 image: https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80

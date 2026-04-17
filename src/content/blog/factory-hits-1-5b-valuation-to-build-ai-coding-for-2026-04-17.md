@@ -1,6 +1,6 @@
 ---
 title: "Factory $1.5B valuation par pahunch gaya, ab enterprise ke liye AI coding build karega"
-date: 2026-04-17
+date: "17 April 2026"
 category: AI News
 excerpt: "Teen saal purana startup Factory ne $150 million raise kiya hai, jo ki Khosla Ventures dwara lead kiya gaya hai. Is funding ke baad, Factory ki valuation $1.5 billion ho gayi hai."
 image: https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=800&q=80

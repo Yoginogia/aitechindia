@@ -1,6 +1,6 @@
 ---
 title: "Anthropic ka naya product: Claude Design, jisse aap jaldi se visuals bana sakte hain"
-date: 2026-04-17
+date: "17 April 2026"
 category: AI News
 excerpt: "Ab aap design background ke bina bhi apne ideas ko aasani se share kar sakte hain. Claude Design ka istemal karke founders aur product managers apne concepts ko jaldi se visuals mein badal sakte hain."
 image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80

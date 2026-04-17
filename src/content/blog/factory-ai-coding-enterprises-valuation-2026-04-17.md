@@ -1,6 +1,6 @@
 ---
 title: "Factory $1.5 Billion Tak Ka Valuation: Enterprises Ke Liye AI Coding Banayega"
-date: 2026-04-17
+date: "17 April 2026"
 category: AI News
 excerpt: "Factory, ek 3 saal purani startup, ne Khosla Ventures ki agrani mein $150 million ki funding haasil ki hai. Is funding ke saath, Factory ka valuation $1.5 billion ho gaya hai."
 image: https://images.unsplash.com/photo-1655720828018-edd2daec9349?w=800&q=80
