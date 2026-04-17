@@ -21,6 +21,136 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "vivo-t5-pro-9020mah-launch-deal",
+        title: "Vivo T5 Pro — 9020mAh Monster Battery + 144Hz AMOLED! 🔋 (₹22,999)",
+        category: "Smartphone",
+        description: "Vivo T5 Pro में दुनिया की सबसे बड़ी बैटरियों में से एक — 9020mAh! Snapdragon 7s Gen 4, 144Hz AMOLED और 80W Fast Charging के साथ यह April का सबसे बड़ा Value-for-Money Phone है।",
+        price: "₹22,999",
+        discount: "Launch Offer — ₹3,000 Off",
+        rating: 4.6,
+        tag: "🔋 Battery King",
+        image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=vivo+t5+pro&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India / Flipkart",
+        specs: [
+            "6.78\" AMOLED Display — 144Hz, 1500 nits",
+            "Snapdragon 7s Gen 4 Processor (4nm)",
+            "8GB / 12GB RAM + 128GB / 256GB Storage",
+            "50MP OIS Main + 8MP Ultrawide Camera",
+            "9,020mAh Battery — 3 दिन तक चलेगी!",
+            "80W FlashCharge (0→100% in 60 min)",
+            "Funtouch OS 15 (Android 15)",
+            "IP64 Rating + Side Fingerprint"
+        ],
+        variants: [
+            "8GB + 128GB — ₹22,999",
+            "12GB + 256GB — ₹25,999"
+        ],
+        bankOffers: [
+            "AXIS Bank Card — 7.5% Instant Off (Amazon Mega Deal Days)",
+            "HSBC Credit Card — Extra ₹1,500 Off",
+            "No-Cost EMI — 6 months"
+        ],
+        colors: ["Titanium Black", "Crystal Blue"],
+        content: "Vivo T5 Pro एक Word में कहें तो — 'Battery Monster'! 9020mAh की Battery शायद आपने किसी भी Mainstream Phone में नहीं देखी होगी। 80W FlashCharge से यह 1 घंटे में Full हो जाती है और फिर 3 दिन तक चलती रहती है। Snapdragon 7s Gen 4 Chip 5G के साथ Gaming और Multitasking में कोई Lag नहीं देता। Amazon Mega Deal Days में इस पर ₹3,000 तक की छूट और Bank Offers के साथ यह ₹19,999 से भी कम में पड़ सकता है!"
+    },
+    {
+        slug: "oneplus-nord-6-first-sale-april",
+        title: "OnePlus Nord 6 — 165Hz AMOLED + 9000mAh! 🚀 First Sale Live",
+        category: "Smartphone",
+        description: "OnePlus Nord 6 पहली Sale में Available है! Snapdragon 8s Gen 4, 165Hz 1.5K AMOLED और India का सबसे पावरफुल Mid-Range Battery — 9000mAh। Amazon Mega Deal Days में धांसू Bank Offers के साथ!",
+        price: "₹29,999",
+        discount: "First Sale + Bank ₹2,000 Off",
+        rating: 4.8,
+        tag: "🆕 First Sale Live!",
+        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=oneplus+nord+6&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India",
+        specs: [
+            "6.74\" 1.5K AMOLED — 165Hz, 4500 nits peak",
+            "Snapdragon 8s Gen 4 Processor",
+            "12GB LPDDR5X RAM + 256GB UFS 4.0",
+            "50MP (OIS) + 8MP Ultrawide Camera",
+            "9,000mAh Battery — 2.5 दिन की Life",
+            "100W SUPERVOOC Charging (35 min Full!)",
+            "OxygenOS 16 (Android 16)",
+            "IP65 Water Resistance"
+        ],
+        variants: [
+            "12GB + 256GB — ₹29,999",
+            "16GB + 512GB — ₹34,999"
+        ],
+        bankOffers: [
+            "DBS Bank Card — 7.5% Instant Off",
+            "Axis Bank — ₹2,000 Extra Discount",
+            "No-Cost EMI — 9 months तक"
+        ],
+        colors: ["Obsidian Midnight", "Lunar Ivory", "Nebula Purple"],
+        content: "OnePlus Nord 6 ने Mid-Range Phone की Definition ही बदल दी है! ₹30,000 से कम में 165Hz AMOLED Display, Snapdragon 8s Gen 4 (Flagship-Grade!) Processor और 9000mAh Battery — यह Combination किसी दूसरे Brand ने कभी नहीं दिया। 100W SUPERVOOC Charging मतलब सुबह उठकर 35 मिनट Charge करो और पूरा दिन Tension-Free! First Sale Live है, जल्दी Order करें क्योंकि Stock Limited है।"
+    },
+    {
+        slug: "realme-gt-7-pro-snapdragon-8-elite",
+        title: "Realme GT 7 Pro — Snapdragon 8 Elite + 50W Wireless! ⚡ (₹49,999)",
+        category: "Flagship",
+        description: "Realme का सबसे ताकतवर Phone अब Amazon Mega Deal Days में ₹5,000 सस्ता! Snapdragon 8 Elite Gen 5, 144Hz ProXDR Display और 50W Wireless Charging — यह Samsung को टक्कर दे रहा है।",
+        price: "₹49,999",
+        discount: "₹5,000 Mega Deal Off",
+        rating: 4.7,
+        tag: "🔥 Mega Deal Days",
+        image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=realme+gt+7+pro&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India",
+        specs: [
+            "6.78\" ProXDR AMOLED — 144Hz, 4500 nits peak",
+            "Snapdragon 8 Elite Gen 5 Processor",
+            "16GB LPDDR5X RAM + 512GB UFS 4.1",
+            "50MP (f/1.69, OIS) + 50MP Telephoto + 8MP Ultrawide",
+            "5800mAh Battery",
+            "120W SuperVOOC + 50W Wireless + 10W Reverse",
+            "Realme UI 6.0 (Android 16)",
+            "IP69 Water & Dust Resistant"
+        ],
+        variants: [
+            "12GB + 256GB — ₹44,999",
+            "16GB + 512GB — ₹49,999"
+        ],
+        bankOffers: [
+            "IndusInd Bank — 7.5% Instant Off (Mega Deal Days)",
+            "BOB Card — ₹2,500 Cashback",
+            "No-Cost EMI — 12 months"
+        ],
+        colors: ["Mars Red", "Neptune Blue", "Titanium Grey"],
+        content: "Realme GT 7 Pro इस साल का सबसे Underrated Flagship Phone है। Snapdragon 8 Elite Gen 5 Chip (वही जो Samsung S26 Ultra में है!) और 50W Wireless Charging ₹50,000 के नीचे — यह सुनकर हैरानी होती है! ProXDR Display का 4500 nits Peak Brightness तेज़ धूप में भी Screen एकदम साफ दिखाता है। Amazon Mega Deal Days में ₹5,000 Extra Off के साथ यह Deal Miss करना बहुत बड़ी गलती होगी।"
+    },
+    {
+        slug: "amazon-echo-show-8-smart-display",
+        title: "Amazon Echo Show 8 (3rd Gen) — Smart Display with AI 🏠 (₹8,999)",
+        category: "Smart Home",
+        description: "Amazon Echo Show 8 (3rd Gen) — HD Display, Built-in Camera, Alexa AI और Smart Home Control! Amazon Mega Deal Days में ₹4,000 का भारी Discount। घर को बनाएं Smart!",
+        price: "₹8,999",
+        discount: "₹4,000 Off (था ₹12,999)",
+        rating: 4.5,
+        tag: "🏠 Smart Home Deal",
+        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=amazon+echo+show+8&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India",
+        specs: [
+            "8\" HD Touchscreen Display (1280x800)",
+            "13MP Auto-Framing Camera",
+            "Built-in Alexa — Voice Control",
+            "Smart Home Hub Built-in",
+            "Stereo Sound with spatial audio",
+            "Video Calls (Zoom, WhatsApp support)",
+            "Wall-Mountable Design"
+        ],
+        bankOffers: [
+            "Mega Deal Days — ₹4,000 Instant Off",
+            "No-Cost EMI — 3 months",
+            "Amazon Pay — Extra ₹500 Off"
+        ],
+        content: "Amazon Echo Show 8 (3rd Gen) आपके घर को एक Smart Home में बदल देता है! Alexa से बात करके आप Lights जलाओ/बुझाओ, AC का Temperature Set करो, YouTube या Netflix देखो और Video Calls करो — सब कुछ Hands-Free! 13MP Auto-Framing Camera Video Calls में खुद-ब-खुद आपका चेहरा Frame में रखता है। Amazon Mega Deal Days में ₹4,000 का Instant Discount मिल रहा है — यह कभी इतना सस्ता नहीं था!"
+    },
+    {
         slug: "infinix-note-60-pro-india-launch",
         title: "Infinix Note 60 Pro — Active Matrix Display + 6500mAh Battery! 🔥",
         category: "Smartphone",
@@ -619,138 +749,9 @@ export const TOP_DEALS: Deal[] = [
         platform: "Flipkart",
         specs: ["200MP AI Camera", "Snapdragon 8 Elite 2", "144Hz OLED", "Titanium Frame"],
         content: "Galaxy S26 Ultra ने मोबाइल फोटोग्राफी की परिभाषा बदल दी है। आज के ऑफर में यह बेस्ट वैल्यू है।"
-    },
-    {
-        slug: "vivo-t5-pro-9020mah-launch-deal",
-        title: "Vivo T5 Pro — 9020mAh Monster Battery + 144Hz AMOLED! 🔋 (₹22,999)",
-        category: "Smartphone",
-        description: "Vivo T5 Pro में दुनिया की सबसे बड़ी बैटरियों में से एक — 9020mAh! Snapdragon 7s Gen 4, 144Hz AMOLED और 80W Fast Charging के साथ यह April का सबसे बड़ा Value-for-Money Phone है।",
-        price: "₹22,999",
-        discount: "Launch Offer — ₹3,000 Off",
-        rating: 4.6,
-        tag: "🔋 Battery King",
-        image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800",
-        buyLink: `https://www.amazon.in/s?k=vivo+t5+pro&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon India / Flipkart",
-        specs: [
-            "6.78\" AMOLED Display — 144Hz, 1500 nits",
-            "Snapdragon 7s Gen 4 Processor (4nm)",
-            "8GB / 12GB RAM + 128GB / 256GB Storage",
-            "50MP OIS Main + 8MP Ultrawide Camera",
-            "9,020mAh Battery — 3 दिन तक चलेगी!",
-            "80W FlashCharge (0→100% in 60 min)",
-            "Funtouch OS 15 (Android 15)",
-            "IP64 Rating + Side Fingerprint"
-        ],
-        variants: [
-            "8GB + 128GB — ₹22,999",
-            "12GB + 256GB — ₹25,999"
-        ],
-        bankOffers: [
-            "AXIS Bank Card — 7.5% Instant Off (Amazon Mega Deal Days)",
-            "HSBC Credit Card — Extra ₹1,500 Off",
-            "No-Cost EMI — 6 months"
-        ],
-        colors: ["Titanium Black", "Crystal Blue"],
-        content: "Vivo T5 Pro एक Word में कहें तो — 'Battery Monster'! 9020mAh की Battery शायद आपने किसी भी Mainstream Phone में नहीं देखी होगी। 80W FlashCharge से यह 1 घंटे में Full हो जाती है और फिर 3 दिन तक चलती रहती है। Snapdragon 7s Gen 4 Chip 5G के साथ Gaming और Multitasking में कोई Lag नहीं देता। Amazon Mega Deal Days में इस पर ₹3,000 तक की छूट और Bank Offers के साथ यह ₹19,999 से भी कम में पड़ सकता है!"
-    },
-    {
-        slug: "oneplus-nord-6-first-sale-april",
-        title: "OnePlus Nord 6 — 165Hz AMOLED + 9000mAh! 🚀 First Sale Live",
-        category: "Smartphone",
-        description: "OnePlus Nord 6 पहली Sale में Available है! Snapdragon 8s Gen 4, 165Hz 1.5K AMOLED और India का सबसे पावरफुल Mid-Range Battery — 9000mAh। Amazon Mega Deal Days में धांसू Bank Offers के साथ!",
-        price: "₹29,999",
-        discount: "First Sale + Bank ₹2,000 Off",
-        rating: 4.8,
-        tag: "🆕 First Sale Live!",
-        image: "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&q=80&w=800",
-        buyLink: `https://www.amazon.in/s?k=oneplus+nord+6&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon India",
-        specs: [
-            "6.74\" 1.5K AMOLED — 165Hz, 4500 nits peak",
-            "Snapdragon 8s Gen 4 Processor",
-            "12GB LPDDR5X RAM + 256GB UFS 4.0",
-            "50MP (OIS) + 8MP Ultrawide Camera",
-            "9,000mAh Battery — 2.5 दिन की Life",
-            "100W SUPERVOOC Charging (35 min Full!)",
-            "OxygenOS 16 (Android 16)",
-            "IP65 Water Resistance"
-        ],
-        variants: [
-            "12GB + 256GB — ₹29,999",
-            "16GB + 512GB — ₹34,999"
-        ],
-        bankOffers: [
-            "DBS Bank Card — 7.5% Instant Off",
-            "Axis Bank — ₹2,000 Extra Discount",
-            "No-Cost EMI — 9 months तक"
-        ],
-        colors: ["Obsidian Midnight", "Lunar Ivory", "Nebula Purple"],
-        content: "OnePlus Nord 6 ने Mid-Range Phone की Definition ही बदल दी है! ₹30,000 से कम में 165Hz AMOLED Display, Snapdragon 8s Gen 4 (Flagship-Grade!) Processor और 9000mAh Battery — यह Combination किसी दूसरे Brand ने कभी नहीं दिया। 100W SUPERVOOC Charging मतलब सुबह उठकर 35 मिनट Charge करो और पूरा दिन Tension-Free! First Sale Live है, जल्दी Order करें क्योंकि Stock Limited है।"
-    },
-    {
-        slug: "realme-gt-7-pro-snapdragon-8-elite",
-        title: "Realme GT 7 Pro — Snapdragon 8 Elite + 50W Wireless! ⚡ (₹49,999)",
-        category: "Flagship",
-        description: "Realme का सबसे ताकतवर Phone अब Amazon Mega Deal Days में ₹5,000 सस्ता! Snapdragon 8 Elite Gen 5, 144Hz ProXDR Display और 50W Wireless Charging — यह Samsung को टक्कर दे रहा है।",
-        price: "₹49,999",
-        discount: "₹5,000 Mega Deal Off",
-        rating: 4.7,
-        tag: "🔥 Mega Deal Days",
-        image: "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&q=80&w=800",
-        buyLink: `https://www.amazon.in/s?k=realme+gt+7+pro&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon India",
-        specs: [
-            "6.78\" ProXDR AMOLED — 144Hz, 4500 nits peak",
-            "Snapdragon 8 Elite Gen 5 Processor",
-            "16GB LPDDR5X RAM + 512GB UFS 4.1",
-            "50MP (f/1.69, OIS) + 50MP Telephoto + 8MP Ultrawide",
-            "5800mAh Battery",
-            "120W SuperVOOC + 50W Wireless + 10W Reverse",
-            "Realme UI 6.0 (Android 16)",
-            "IP69 Water & Dust Resistant"
-        ],
-        variants: [
-            "12GB + 256GB — ₹44,999",
-            "16GB + 512GB — ₹49,999"
-        ],
-        bankOffers: [
-            "IndusInd Bank — 7.5% Instant Off (Mega Deal Days)",
-            "BOB Card — ₹2,500 Cashback",
-            "No-Cost EMI — 12 months"
-        ],
-        colors: ["Mars Red", "Neptune Blue", "Titanium Grey"],
-        content: "Realme GT 7 Pro इस साल का सबसे Underrated Flagship Phone है। Snapdragon 8 Elite Gen 5 Chip (वही जो Samsung S26 Ultra में है!) और 50W Wireless Charging ₹50,000 के नीचे — यह सुनकर हैरानी होती है! ProXDR Display का 4500 nits Peak Brightness तेज़ धूप में भी Screen एकदम साफ दिखाता है। Amazon Mega Deal Days में ₹5,000 Extra Off के साथ यह Deal Miss करना बहुत बड़ी गलती होगी।"
-    },
-    {
-        slug: "amazon-echo-show-8-smart-display",
-        title: "Amazon Echo Show 8 (3rd Gen) — Smart Display with AI 🏠 (₹8,999)",
-        category: "Smart Home",
-        description: "Amazon Echo Show 8 (3rd Gen) — HD Display, Built-in Camera, Alexa AI और Smart Home Control! Amazon Mega Deal Days में ₹4,000 का भारी Discount। घर को बनाएं Smart!",
-        price: "₹8,999",
-        discount: "₹4,000 Off (था ₹12,999)",
-        rating: 4.5,
-        tag: "🏠 Smart Home Deal",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&q=80&w=800",
-        buyLink: `https://www.amazon.in/s?k=amazon+echo+show+8&tag=${AFFILIATE_TAG}`,
-        platform: "Amazon India",
-        specs: [
-            "8\" HD Touchscreen Display (1280x800)",
-            "13MP Auto-Framing Camera",
-            "Built-in Alexa — Voice Control",
-            "Smart Home Hub Built-in",
-            "Stereo Sound with spatial audio",
-            "Video Calls (Zoom, WhatsApp support)",
-            "Wall-Mountable Design"
-        ],
-        bankOffers: [
-            "Mega Deal Days — ₹4,000 Instant Off",
-            "No-Cost EMI — 3 months",
-            "Amazon Pay — Extra ₹500 Off"
-        ],
-        content: "Amazon Echo Show 8 (3rd Gen) आपके घर को एक Smart Home में बदल देता है! Alexa से बात करके आप Lights जलाओ/बुझाओ, AC का Temperature Set करो, YouTube या Netflix देखो और Video Calls करो — सब कुछ Hands-Free! 13MP Auto-Framing Camera Video Calls में खुद-ब-खुद आपका चेहरा Frame में रखता है। Amazon Mega Deal Days में ₹4,000 का Instant Discount मिल रहा है — यह कभी इतना सस्ता नहीं था!"
     }
 ];
+
 
 export function getDealBySlug(slug: string): Deal | undefined {
     return TOP_DEALS.find(deal => deal.slug === slug);
