@@ -60,6 +60,23 @@ function calculateReadingTime(text: string): string {
     return `${time} min read`;
 }
 
+// Permanently fixes: "Objects are not valid as a React child (found: [object Date])"
+// Any YAML date like `date: 2026-04-17` (unquoted) gets parsed as Date object by gray-matter.
+// This helper converts it safely to a human-readable string.
+function sanitizeFrontmatter(data: Record<string, any>): Record<string, any> {
+    const sanitized = { ...data };
+    if (sanitized.date instanceof Date) {
+        sanitized.date = sanitized.date.toLocaleDateString('en-IN', {
+            day: 'numeric',
+            month: 'long',
+            year: 'numeric',
+        });
+    } else if (sanitized.date !== undefined) {
+        sanitized.date = String(sanitized.date);
+    }
+    return sanitized;
+}
+
 function getAuthorProfile(category: string, matterData: Record<string, any>) {
     // Use frontmatter values if present, otherwise use honest editorial team attribution
     const author = matterData.author || 'AITechNews Editorial';
@@ -93,6 +110,9 @@ export function getSortedPostsData(): PostData[] {
             const category = matterResult.data.category || 'Tech';
             const { author, authorRole, authorImage } = getAuthorProfile(category, matterResult.data);
 
+            // Sanitize frontmatter to ensure date is always a string (not a Date object)
+            const safeData = sanitizeFrontmatter(matterResult.data);
+
             // Combine the data with the slug
             return {
                 slug,
@@ -100,7 +120,7 @@ export function getSortedPostsData(): PostData[] {
                 author,
                 authorRole,
                 authorImage,
-                ...(matterResult.data as { title: string; date: string; category: string; excerpt: string, image?: string }),
+                ...(safeData as { title: string; date: string; category: string; excerpt: string, image?: string }),
             };
         });
 
@@ -163,6 +183,9 @@ export async function getPostData(slug: string): Promise<PostData> {
     const category = matterResult.data.category || 'Tech';
     const { author, authorRole, authorImage } = getAuthorProfile(category, matterResult.data);
 
+    // Sanitize frontmatter to ensure date is always a string (not a Date object)
+    const safeData = sanitizeFrontmatter(matterResult.data);
+
     // Combine the data with the id and contentHtml
     return {
         slug,
@@ -172,6 +195,6 @@ export async function getPostData(slug: string): Promise<PostData> {
         authorRole,
         authorImage,
         toc,
-        ...(matterResult.data as { title: string; date: string; category: string; excerpt: string, image?: string }),
+        ...(safeData as { title: string; date: string; category: string; excerpt: string, image?: string }),
     };
 }
