@@ -1,16 +1,16 @@
 ---
-title: "Anthropic ne launch kiya Claude Design, jisse bina design background ke bhi aasani se visuals banaye ja sakte hain"
+title: "Anthropic ne launch kiya Claude Design, jismein aap jaldi se visuals banayein"
 date: 2026-04-17
 category: AI News
-excerpt: "Anthropic ne apna naya product Claude Design launch kiya hai, jisse founders aur product managers apne ideas ko aasani se share kar sakte hain. Yeh tool unke liye design karne mein madad karega jo design background nahi rakhte."
+excerpt: "Anthropic ne naya product launch kiya hai, jiska naam hai Claude Design, jisse aap apne ideas ko jaldi se visuals mein badal sakte hain. Yeh product founders aur product managers ke liye hai jo design background nahi rakhte."
 image: https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80
 readingTime: 3 min read
 ---
 
-Anthropic ne apna naya product Claude Design launch kiya hai, jisse founders aur product managers apne ideas ko aasani se share kar sakte hain. Yeh tool unke liye design karne mein madad karega jo design background nahi rakhte. 
+Anthropic ne aaj ek naya product launch kiya hai, jiska naam hai Claude Design. Yeh product company ke existing AI model Claude ke upar based hai, jo ki text-based interface ke saath aata hai. Claude Design ka udeshya hai ki log apne ideas ko jaldi se visuals mein badal sakein, bina kisi design background ke.
 
- Claude Design ka main uddeshya hai ki woh log jo design background nahi rakhte, unhein apne ideas ko aasani se share karne mein madad kare. Isse founders aur product managers ko apne products ke design ko aasani se communicate karne mein madad milegi, jisse unhein apne ideas ko aasani se implement karne mein madad milegi. 
+ Company ke anusar, Claude Design founders aur product managers ke liye banaya gaya hai, jo ki design background nahi rakhte. Yeh product unhein apne ideas ko jaldi se visuals mein badalne mein madad karega, jisse ki unhein apne products ko jaldi se launch karne mein madad milegi.
 
- Yeh tool design background nahi rakhne wale logon ko apne ideas ko aasani se visualize karne mein madad karega, jisse unhein apne products ke design ko aasani se communicate karne mein madad milegi. Isse unhein apne ideas ko aasani se implement karne mein madad milegi aur unhein apne products ke design ko aasani se improve karne mein madad milegi. 
+ Claude Design mein kai features hain, jaise ki text-to-image synthesis, image editing, aur collaboration tools. Yeh product users ko apne ideas ko jaldi se visualize karne mein madad karega, jisse ki unhein apne products ko jaldi se launch karne mein madad milegi.
 
- Claude Design ki kuch main features mein shamil hain quick visuals create karne ki kshamta, jisse log apne ideas ko aasani se share kar sakte hain. Iske alawa, yeh tool logon ko apne design ko aasani se customize karne mein madad karega, jisse unhein apne products ke design ko aasani se communicate karne mein madad milegi.
+ Anthropic ke anusar, Claude Design ko develop karne ke liye unhone kai saare designers aur product managers ke saath kaam kiya hai, jisse ki unhein yeh samajh mein aaya ki log apne ideas ko jaldi se visuals mein badalne mein kya pareshaniyan hoti hain. Iske anusar, unhone Claude Design ko develop kiya hai, jo ki logon ko apne ideas ko jaldi se visuals mein badalne mein madad karega.
