@@ -3,7 +3,7 @@ title: "👁️ Sam Altman का 'World' Project अब Tinder से जुड़
 date: "18 April 2026"
 category: "AI"
 excerpt: "Sam Altman की कंपनी 'World' (formerly Worldcoin) अब Tinder जैसे platforms पर identity verification के लिए अपना Orb-scanning ecosystem ला रही है।"
-image: "https://image.pollinations.ai/prompt/Sam%20Altman%20worldcoin%20iris%20scanning%20device%20orb%20cyberpunk%20dating%20app%20verification%208k?width=800&height=450&nologo=true"
+image: "https://image.pollinations.ai/prompt/hyperrealistic%2C%20extremely%20detailed%2C%20cinematic%20lighting%2C%20futuristic%20technology%2C%208k%20resolution%2C%20masterpiece%2C%20glowing%20neon%20aesthetics%2C%20photorealistic%3A%20Sam%20Altman%20World%20Verification?width=1200&height=630&nologo=true&model=flux"
 readingTime: "4 min read"
 ---
 
