@@ -1,20 +1,22 @@
 ---
-title: "विश्व भर में Tech 🔥"
+title: "👁️ Sam Altman का 'World' Project अब Tinder से जुड़ेगा: क्या Online Dating Safe होने वाली है? 🔥"
 date: "18 April 2026"
 category: "AI"
-excerpt: "Sam Altman की परियोजना World ने अपने Orb-centered anonymous verification प्रोजेक्ट से लोगों को आकर्षित किया है, और अब यह Tinder पर अपनी पहुंच बढ़ाने की कोशिश कर रही है। यह परियोजना भारत में भी बहुत सारे लोगों को लुभा रही है।"
-image: "https://image.pollinations.ai/prompt/Futuristic%20technology%20illustration%208k%20resolution%2C%20cinematic%20lighting%3A%20%E0%A4%B5%E0%A4%BF%E0%A4%B6%E0%A5%8D%E0%A4%B5%20%E0%A4%AD%E0%A4%B0%20%E0%A4%AE%E0%A5%87%E0%A4%82%20Tech%20%F0%9F%94%A5?width=800&height=450&nologo=true"
+excerpt: "Sam Altman की कंपनी 'World' (formerly Worldcoin) अब Tinder जैसे platforms पर identity verification के लिए अपना Orb-scanning ecosystem ला रही है।"
+image: "https://image.pollinations.ai/prompt/Sam%20Altman%20worldcoin%20iris%20scanning%20device%20orb%20cyberpunk%20dating%20app%20verification%208k?width=800&height=450&nologo=true"
 readingTime: "4 min read"
 ---
 
-## विश्व भर में Tech 🔥 की दुनिया में एक नया नाम सामने आया है, जो है Sam Altman की परियोजना World। यह परियोजना अपने Orb-centered anonymous verification प्रोजेक्ट से लोगों को आकर्षित कर रही है, और अब यह Tinder पर अपनी पहुंच बढ़ाने की कोशिश कर रही है।
+OpenAI के CEO Sam Altman के **'World'** (जिसे पहले Worldcoin कहा जाता था) प्रोजेक्ट ने डिजिटल दुनिया में तहलका मचा दिया है। अब यह identity verification project एक नया कदम उठा रहा है — dating apps जैसे **Tinder** में anonymous identity verification को लाना।
 
-यह परियोजना भारत में भी बहुत सारे लोगों को लुभा रही है, क्योंकि यहाँ के लोग भी अपनी ऑनलाइन सुरक्षा को लेकर बहुत चिंतित हैं। World की यह परियोजना उन्हें अपनी ऑनलाइन पहचान को सुरक्षित रखने में मदद कर सकती है। ## नए प्रोजेक्ट की शुरुआत ⚡
+## 🚀 Orb Verification अब Dating Apps पर
 
-Sam Altman की परियोजना World ने अपने नए प्रोजेक्ट की शुरुआत की है, जिसका उद्देश्य लोगों को अपनी ऑनलाइन पहचान को सुरक्षित रखने में मदद करना है। यह परियोजना Orb-centered anonymous verification प्रोजेक्ट पर आधारित है, जो लोगों को अपनी ऑनलाइन पहचान को सुरक्षित रखने में मदद कर सकती है। ## भारत में इसका प्रभाव 🚀
+World का मुख्य मकसद fake accounts और bots को खत्म करना है। इसके लिए वे अपना famous 'Orb' device इस्तेमाल करते हैं जो इंसान की आँखों (iris) को scan करता है।
+- **No More Catfishing:** Tinder पर बहुत सारे fake accounts होते हैं। Orb verification से users को एक "verified human" का badge मिलेगा, जिससे catfishing लगभग खत्म हो जाएगी।
+- **Privacy First:** सबसे ख़ास बात यह है कि verification के बाद कोई personal data शेयर नहीं होता है। आप anonymous भी रह सकते हैं और 'verified' भी!
 
-यह परियोजना भारत में बहुत सारे लोगों को लुभा रही है, क्योंकि यहाँ के लोग भी अपनी ऑनलाइन सुरक्षा को लेकर बहुत चिंतित हैं। World की यह परियोजना उन्हें अपनी ऑनलाइन पहचान को सुरक्षित रखने में मदद कर सकती है। इसके अलावा, यह परियोजना भारत में डिजिटल लेनदेन को भी बढ़ावा दे सकती है।
+## 💡 India में इसका Impact
 
-## निष्कर्ष 💡
+India में online dating platforms पर fake profiles एक बहुत बड़ी problem है। अगर World का iris verification Indian dating market में successfully implement हो जाता है, तो यह online security के मामले में एक game changer साबित होगा।
 
-Sam Altman की परियोजना World ने अपने नए प्रोजेक्ट की शुरुआत की है, जिसका उद्देश्य लोगों को अपनी ऑनलाइन पहचान को सुरक्षित रखने में मदद करना है। यह परियोजना भारत में बहुत सारे लोगों को लुभा रही है, और यहाँ के लोगों को अपनी ऑनलाइन सुरक्षा को लेकर बहुत चिंतित हैं। World की यह परियोजना उन्हें अपनी ऑनलाइन पहचान को सुरक्षित रखने में मदद कर सकती है।
+👇 **क्या आप अपने Tinder profile को 'Orb' से scan करवा कर verify करना चाहेंगे? Comments में अपना ओपिनियन दें!**
