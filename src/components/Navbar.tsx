@@ -12,7 +12,7 @@ const NAV_CATEGORIES = [
     { href: '/latest',      label: 'Latest',        emoji: '🔥', color: 'from-orange-500 to-red-500' },
     { href: '/web-stories', label: 'Web Stories',   emoji: '⚡', color: 'from-yellow-400 to-orange-500' },
     { href: '/ai-tools',    label: 'AI Tools',      emoji: '🤖', color: 'from-blue-500 to-cyan-400' },
-    { href: '/gadgets',     label: 'Gadgets',       emoji: '📱', color: 'from-purple-500 to-pink-500' },
+    { href: '/gadgets',     label: 'Gadgets & EVs', emoji: '📱🚗', color: 'from-purple-500 to-pink-500' },
     { href: '/best-phones', label: 'Best Phones',   emoji: '📱', color: 'from-green-400 to-emerald-500' },
     { href: '/best-laptops',label: 'Best Laptops',  emoji: '💻', color: 'from-teal-400 to-blue-500' },
     { href: '/compare',     label: 'Compare',       emoji: '⚖️', color: 'from-indigo-500 to-purple-500' },

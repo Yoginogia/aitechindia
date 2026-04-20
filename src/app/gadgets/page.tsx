@@ -13,8 +13,8 @@ const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string 
 const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-slate-500/20 to-gray-600/20' };
 
 export const metadata = {
-    title: 'Gadgets | AITechNews',
-    description: 'AITechNews par latest smartphones, laptops, aur gadgets ki reviews aur updates.',
+    title: 'Gadgets & EVs | AITechNews',
+    description: 'AITechNews par latest smartphones, laptops, aur Electric Vehicles (EVs) ki reviews aur updates.',
     alternates: { canonical: '/gadgets' },
 };
 
@@ -31,9 +31,9 @@ export default function GadgetsPage() {
             <div>
               <h1 className="text-3xl md:text-4xl font-bold tracking-tight flex items-center gap-3 mb-2">
                 <Smartphone className="h-8 w-8 text-purple-500" />
-                Latest <span className="gradient-text">Gadgets</span>
+                Latest <span className="gradient-text">Gadgets & EVs</span>
               </h1>
-              <p className="text-muted-foreground text-sm md:text-base">Smartphones, laptops, aur latest tech gadgets ki reviews.</p>
+              <p className="text-muted-foreground text-sm md:text-base">Smartphones, laptops, ki reviews aur latest EV car launches ki news.</p>
             </div>
             <span className="hidden md:inline-flex text-sm text-muted-foreground bg-secondary/50 px-4 py-1.5 rounded-full border border-border/50 font-medium">
               {gadgetPosts.length} Articles
