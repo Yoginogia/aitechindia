@@ -25,7 +25,6 @@ export async function POST(req: NextRequest) {
       },
       body: JSON.stringify({
         email,
-        listIds: [2], // Your Brevo list ID — change this
         updateEnabled: true,
         attributes: {
           SOURCE: 'AITechNews Website',
