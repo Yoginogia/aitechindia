@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-nsa-using-anthropic-mythos-ai-model',
+        title: 'NSA का Anthropic के साथ Deal — क्या है यह Mythos? 🤔',
+        subtitle: 'NSA ने Anthropic के साथ Deal की है, जिसमें उनका **Mythos AI model** शामिल है। यह Deal Pentagon के सा',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/NSA%20spies%20are%20reportedly%20using%20Anthropic’s%20Mythos,%20despite%20Pentagon%20feud?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-ai-synthetic-writing-zamana',
         title: 'AI ka Chalta Hai — Synthetic Writing ka Zamana 🤖',
         subtitle: 'AI writing ki duniya mein ek naya trend hai — \'It\'s not just this — it\'s that\' wala construction. Ye',
