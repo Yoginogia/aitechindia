@@ -1,9 +1,9 @@
----
+﻿---
 title: "🎥 Luma AI ने Launch किया 'Wonder Project' Studio: Video Production में नया Revolution"
 date: "17 April 2026"
 category: "AI News"
 excerpt: "Luma ने AI-powered studio 'Wonder Project' launch किया है, जो film-making और video creation को पूरी तरह democratize कर देगा।"
-image: "https://image.pollinations.ai/prompt/movie%20director%20set%20futuristic%20hologram%20ai%20robot%20camera%208k%20resolution?width=800&height=450&nologo=true"
+image: "https://images.unsplash.com/photo-1485846234645-a62644f84728?auto=format&fit=crop&q=80&w=1200"
 readingTime: "3 min read"
 ---
 

@@ -1,9 +1,9 @@
----
+﻿---
 title: "⚡ Anthropic ने Launch किया 'Claude Design' — क्या ChatGPT को मिलेगी कड़ी टक्कर?"
 date: "17 April 2026"
 category: "AI Tools"
 excerpt: "Anthropic का नया tool Claude Design अब UI/UX design और creative tasks को और भी आसान बना देगा। जानिए इसके features।"
-image: "https://image.pollinations.ai/prompt/Futuristic%20UI%20UX%20design%20interface%20hologram%20glowing%20colors%208k%20resolution?width=800&height=450&nologo=true"
+image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=1200"
 readingTime: "3 min read"
 ---
 
