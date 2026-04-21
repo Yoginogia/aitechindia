@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-hyundai-tvs-e3w-electric-vehicle-partnership',
+        title: 'Hyundai-TVS E3W: Electric Vehicle Ka Naya Daur 🚀',
+        subtitle: 'Hyundai aur TVS ne E3W concept ke development aur production ke liye joint development agreement sig',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Hyundai-TVS%20greenlight%20development%20and%20production%20of%20E3W%20concept?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-john-oliver-prediction-market-attack',
         title: 'John Oliver का Prediction Market पर Attack 🚀',
         subtitle: 'John Oliver ने Last Week Tonight पर prediction market को target किया, क्या होगा India के investors प',
