@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-kelpdao-hack-290-million-heist',
+        title: 'KelpDAO Hack: $290 Million Heist 🚨',
+        subtitle: 'KelpDAO DeFi project mein $290 million ka heist, **Lazarus hackers** ka hath! Ye kya hai aur kaise h',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: 'https://image.pollinations.ai/prompt/KelpDAO%20suffers%20$290%20million%20heist%20tied%20to%20Lazarus%20hackers?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-tesla-model-y-l-launch-best-deals',
         title: 'Tesla Model Y L Launch: Best Deals 🚀',
         subtitle: 'Tesla Model Y L launch in India, best deals on tech products, **₹**50,000 discount on **Google Pixel',
