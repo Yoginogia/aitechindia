@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-ktm-390-duke-390-adventure-launch',
+        title: 'KTM 390 Duke, 390 Adventure Launch 🚴‍♂️',
+        subtitle: 'KTM ne apne 390 Duke aur 390 Adventure line-up mein naye 350cc variants launch kiye, jo ki entry pri',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/350cc%20KTM%20390%20Duke,%20390%20Adventure%20launched%20from%20Rs%202.77%20lakh?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-hyundai-tvs-e3w-electric-vehicle-partnership',
         title: 'Hyundai-TVS E3W: Electric Vehicle Ka Naya Daur 🚀',
         subtitle: 'Hyundai aur TVS ne E3W concept ke development aur production ke liye joint development agreement sig',
