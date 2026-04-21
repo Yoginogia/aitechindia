@@ -409,6 +409,83 @@ const ALL_PHONES: Phone[] = [
     verdict: 'अगर 70 हज़ार में पहली बार Apple ईकोसिस्टम में आना है, तो 120Hz डिस्प्ले वाला iPhone 17 परफेक्ट है।',
     useCases: ['Premium', 'Camera', 'Long-term'],
   },
+
+  // ─── NEW: More phones for sparse brands ────────────────────────────────
+  {
+    id: 'moto-g85-5g',
+    name: 'Motorola Moto G85 5G', brand: 'Motorola', price: 17999, priceDisplay: '₹17,999',
+    score: 8.4, badge: 'Curved Display',
+    image: '/images/phones/moto-g85-5g.jpg',
+    specs: { processor: 'Snapdragon 6s Gen 3', ram: '8GB/12GB', display: '6.67" pOLED 120Hz', camera: '50MP OIS + 8MP UW', battery: '5000mAh', charging: '33W TurboPower', os: 'Hello UI (Stock Android)' },
+    highlights: ['pOLED Curved Display under ₹18K', 'Near-Stock Android — No Bloatware', 'Slim & Premium Design', 'IP52 Splash Proof'],
+    category: 'budget',
+    amazon: 'https://www.amazon.in/s?k=Motorola+Moto+G85+5G&tag=aitechnews-21',
+    flipkart: 'https://www.flipkart.com/search?q=Motorola+Moto+G85+5G',
+    pros: ['pOLED Curved Display ₹18K में बहुत Rare है', 'Near-Stock Android बिल्कुल Clean', 'डिज़ाइन Slim और Premium'],
+    cons: ['33W चार्जिंग Competitors से Slow', 'Night Photography में कमज़ोर'],
+    verdict: 'Stock Android और Curved Display चाहिए ₹18K में? Moto G85 5G Hidden Gem है।',
+    useCases: ['Display', 'Clean Software'],
+  },
+  {
+    id: 'vivo-t4x-5g',
+    name: 'Vivo T4x 5G', brand: 'Vivo', price: 13999, priceDisplay: '₹13,999',
+    score: 8.2, badge: 'Budget 5G',
+    image: '/images/phones/vivo-t4x-5g.jpg',
+    specs: { processor: 'Dimensity 6300 5G', ram: '4GB/6GB', display: '6.72" IPS LCD 120Hz', camera: '50MP AI', battery: '6000mAh', charging: '44W FlashCharge', os: 'Funtouch OS 14' },
+    highlights: ['6000mAh Long Battery', '5G Ready under ₹14K', '44W Fast Charging', 'Slim 7.99mm Design'],
+    category: 'budget',
+    amazon: 'https://www.amazon.in/s?k=Vivo+T4x+5G&tag=aitechnews-21',
+    flipkart: 'https://www.flipkart.com/search?q=Vivo+T4x+5G',
+    pros: ['6000mAh बैटरी + 44W चार्जिंग Excellent Combo', '5G Support ₹14K में बढ़िया Value', 'Design Slim और Lightweight है'],
+    cons: ['LCD Display है, AMOLED नहीं', 'Funtouch OS में Bloatware है'],
+    verdict: 'Budget 5G Phone चाहिए Big Battery के साथ? Vivo T4x 5G सही Choice है।',
+    useCases: ['Battery', 'All-Rounder'],
+  },
+  {
+    id: 'poco-f7',
+    name: 'POCO F7', brand: 'POCO', price: 28999, priceDisplay: '₹28,999',
+    score: 9.0, badge: 'Value King',
+    image: '/images/phones/poco-f7.jpg',
+    specs: { processor: 'Snapdragon 8s Gen 3', ram: '8GB/12GB', display: '6.67" AMOLED 120Hz 1800nits', camera: '50MP OIS + 8MP UW', battery: '5500mAh', charging: '90W HyperCharge', os: 'HyperOS 2' },
+    highlights: ['SD 8s Gen 3 under ₹30K!', '90W HyperCharge', '1800nits Bright AMOLED', 'IP54 Splash Proof'],
+    category: 'midrange',
+    amazon: 'https://www.amazon.in/s?k=POCO+F7&tag=aitechnews-21',
+    flipkart: 'https://www.flipkart.com/search?q=POCO+F7',
+    pros: ['SD 8s Gen 3 ₹29K में — Flagship Level Performance', '90W चार्जिंग — 35 मिनट में Full', 'AMOLED 1800nits धूप में भी Clear'],
+    cons: ['HyperOS में Ads और Bloatware है', 'Plastic Frame Build Quality'],
+    verdict: 'Flagship Performance चाहिए Budget Price में? POCO F7 से बेहतर कुछ नहीं।',
+    useCases: ['Gaming', 'All-Rounder'],
+  },
+  {
+    id: 'google-pixel-10a',
+    name: 'Google Pixel 10a', brand: 'Google', price: 39999, priceDisplay: '₹39,999',
+    score: 8.7, badge: 'Camera Champ',
+    image: '/images/phones/pixel-10a.jpg',
+    specs: { processor: 'Tensor G4', ram: '8GB', display: '6.1" OLED 120Hz', camera: '64MP + 13MP UW', battery: '5100mAh', charging: '23W + Wireless', os: 'Android 16 (7yr OS)' },
+    highlights: ['Pixel Camera Magic', '7 Years Updates', 'Compact 6.1" Size', 'AI Features Built-in'],
+    category: 'premium',
+    amazon: 'https://www.amazon.in/s?k=Google+Pixel+10a&tag=aitechnews-21',
+    flipkart: 'https://www.flipkart.com/search?q=Google+Pixel+10a',
+    pros: ['Pixel Camera Quality ₹40K में Unmatched', '7 साल OS Updates — Longest Support', 'Compact Size One-Hand Use'],
+    cons: ['23W चार्जिंग बहुत Slow है', 'Tensor G4 Gaming में Average'],
+    verdict: 'Camera Quality और Software Updates Priority? Pixel 10a ₹40K में Best Camera Phone है।',
+    useCases: ['Camera', 'Clean Software'],
+  },
+  {
+    id: 'apple-iphone-17-pro-max',
+    name: 'Apple iPhone 17 Pro Max', brand: 'Apple', price: 149900, priceDisplay: '₹1,49,900',
+    score: 9.5, badge: '👑 Best Premium',
+    image: '/images/phones/iphone-17-pro-max.jpg',
+    specs: { processor: 'A19 Pro', ram: '12GB', display: '6.9" Super Retina XDR 120Hz', camera: '48MP Triple + 5x Telephoto', battery: '4685mAh', charging: 'MagSafe 25W + USB-C 45W', os: 'iOS 19' },
+    highlights: ['Best Camera System', 'Titanium Build', '5x Optical Zoom', 'Apple Intelligence'],
+    category: 'flagship',
+    amazon: 'https://www.amazon.in/s?k=iPhone+17+Pro+Max&tag=aitechnews-21',
+    flipkart: 'https://www.flipkart.com/search?q=iPhone+17+Pro+Max',
+    pros: ['Camera System Industry का Best है', 'Titanium Build Premium Feel', 'iOS Ecosystem और Resale Value unbeatable'],
+    cons: ['₹1.5L बहुत Expensive है', 'चार्जिंग Speed अभी भी Slow (45W)'],
+    verdict: 'पैसा कोई Issue नहीं? iPhone 17 Pro Max 2026 का Ultimate Smartphone है।',
+    useCases: ['Premium', 'Camera'],
+  },
 ];
 
 const BUDGETS = [
@@ -423,19 +500,19 @@ const BUDGETS = [
   { label: '₹1L+', max: Infinity },
 ];
 
-const BRANDS_WITH_ICONS: { name: string; emoji: string }[] = [
-  { name: 'All', emoji: '📱' },
-  { name: 'Samsung', emoji: '🇰🇷' },
-  { name: 'Apple', emoji: '🍎' },
-  { name: 'OnePlus', emoji: '🔴' },
-  { name: 'iQOO', emoji: '⚡' },
-  { name: 'Realme', emoji: '🟡' },
-  { name: 'Motorola', emoji: '🇲' },
-  { name: 'Nothing', emoji: '⚪' },
-  { name: 'Xiaomi', emoji: '🟠' },
-  { name: 'POCO', emoji: '🟡' },
-  { name: 'Google', emoji: '🔵' },
-  { name: 'Vivo', emoji: '🔵' },
+const BRANDS_WITH_ICONS: { name: string; logo: string }[] = [
+  { name: 'All', logo: '' },
+  { name: 'Samsung', logo: 'https://logo.clearbit.com/samsung.com' },
+  { name: 'Apple', logo: 'https://logo.clearbit.com/apple.com' },
+  { name: 'OnePlus', logo: 'https://logo.clearbit.com/oneplus.com' },
+  { name: 'iQOO', logo: 'https://logo.clearbit.com/iqoo.com' },
+  { name: 'Realme', logo: 'https://logo.clearbit.com/realme.com' },
+  { name: 'Motorola', logo: 'https://logo.clearbit.com/motorola.com' },
+  { name: 'Nothing', logo: 'https://logo.clearbit.com/nothing.tech' },
+  { name: 'Xiaomi', logo: 'https://logo.clearbit.com/xiaomi.com' },
+  { name: 'POCO', logo: 'https://logo.clearbit.com/poco.in' },
+  { name: 'Google', logo: 'https://logo.clearbit.com/google.com' },
+  { name: 'Vivo', logo: 'https://logo.clearbit.com/vivo.com' },
 ];
 const BRANDS = BRANDS_WITH_ICONS.map(b => b.name);
 const USE_CASES = ['All', 'All-Rounder', 'Gaming', 'Camera', 'Battery', 'Clean Software', 'Premium'];
@@ -511,6 +588,7 @@ function PhoneCard({ phone, rank, compareList, toggleCompare }: { phone: Phone, 
       {/* ── Content ── */}
       <div className="flex flex-col flex-1 p-5">
         <div className="flex items-center gap-2 mb-1">
+          {(() => { const brandData = BRANDS_WITH_ICONS.find(b => b.name === phone.brand); return brandData?.logo ? <img src={brandData.logo} alt={phone.brand} className="w-4 h-4 object-contain rounded-sm" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} /> : null; })()}
           <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">{phone.brand}</span>
           {phone.category === 'flagship' && <span className="text-[9px] px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-500 font-bold">FLAGSHIP</span>}
         </div>
@@ -604,9 +682,9 @@ function PhoneCard({ phone, rank, compareList, toggleCompare }: { phone: Phone, 
         </div>
 
         <div className="flex gap-2 mb-2">
-          <Link href={`/blog/${phone.id}-review`}
+          <Link href={`/blog`}
             className="flex-1 flex items-center justify-center gap-1.5 bg-gradient-to-r from-primary/20 to-purple-500/20 hover:from-primary/30 hover:to-purple-500/30 text-primary text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 border border-primary/20">
-            <Sparkles className="w-3 h-3" /> पूरी Review
+            <Sparkles className="w-3 h-3" /> Full Review
           </Link>
           <button 
             onClick={() => toggleCompare(phone)}
@@ -712,12 +790,16 @@ export default function BestPhonesClient() {
           {BRANDS_WITH_ICONS.map(b => (
             <button key={b.name}
               onClick={() => setBrand(b.name)}
-              className={`flex flex-col items-center gap-1 px-4 py-2.5 rounded-2xl text-xs font-bold transition-all shrink-0 min-w-[72px] border ${
+              className={`flex flex-col items-center gap-1.5 px-4 py-3 rounded-2xl text-xs font-bold transition-all shrink-0 min-w-[76px] border ${
                 brand === b.name
                   ? 'bg-primary/10 text-primary border-primary/30 shadow-md shadow-primary/10'
                   : 'bg-secondary/20 text-muted-foreground hover:bg-secondary/50 hover:text-foreground border-border/30'
               }`}>
-              <span className="text-lg">{b.emoji}</span>
+              {b.logo ? (
+                <img src={b.logo} alt={b.name} className="w-6 h-6 object-contain rounded" onError={(e) => { (e.target as HTMLImageElement).src = ''; (e.target as HTMLImageElement).alt = b.name[0]; }} />
+              ) : (
+                <Smartphone className="w-5 h-5" />
+              )}
               <span>{b.name}</span>
             </button>
           ))}
