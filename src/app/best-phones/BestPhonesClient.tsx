@@ -500,23 +500,36 @@ const BUDGETS = [
   { label: '₹1L+', max: Infinity },
 ];
 
-const BRANDS_WITH_ICONS: { name: string; logo: string }[] = [
-  { name: 'All', logo: '' },
-  { name: 'Samsung', logo: 'https://logo.clearbit.com/samsung.com' },
-  { name: 'Apple', logo: 'https://logo.clearbit.com/apple.com' },
-  { name: 'OnePlus', logo: 'https://logo.clearbit.com/oneplus.com' },
-  { name: 'iQOO', logo: 'https://logo.clearbit.com/iqoo.com' },
-  { name: 'Realme', logo: 'https://logo.clearbit.com/realme.com' },
-  { name: 'Motorola', logo: 'https://logo.clearbit.com/motorola.com' },
-  { name: 'Nothing', logo: 'https://logo.clearbit.com/nothing.tech' },
-  { name: 'Xiaomi', logo: 'https://logo.clearbit.com/xiaomi.com' },
-  { name: 'POCO', logo: 'https://logo.clearbit.com/poco.in' },
-  { name: 'Google', logo: 'https://logo.clearbit.com/google.com' },
-  { name: 'Vivo', logo: 'https://logo.clearbit.com/vivo.com' },
-];
-const BRANDS = BRANDS_WITH_ICONS.map(b => b.name);
+const BRAND_STYLES: Record<string, { color: string; bg: string; initial: string }> = {
+  'Samsung': { color: '#fff', bg: '#1428A0', initial: 'S' },
+  'Apple': { color: '#fff', bg: '#555555', initial: '' },
+  'OnePlus': { color: '#fff', bg: '#F5010C', initial: '1+' },
+  'iQOO': { color: '#fff', bg: '#FF6600', initial: 'iQ' },
+  'Realme': { color: '#000', bg: '#FFB200', initial: 'R' },
+  'Motorola': { color: '#fff', bg: '#5C92FA', initial: 'M' },
+  'Nothing': { color: '#fff', bg: '#000000', initial: 'N' },
+  'Xiaomi': { color: '#fff', bg: '#FF6900', initial: 'Mi' },
+  'POCO': { color: '#000', bg: '#FFD500', initial: 'P' },
+  'Google': { color: '#fff', bg: '#4285F4', initial: 'G' },
+  'Vivo': { color: '#fff', bg: '#415FFF', initial: 'V' },
+};
+
+const BRAND_LIST = ['All', 'Samsung', 'Apple', 'OnePlus', 'iQOO', 'Realme', 'Motorola', 'Nothing', 'Xiaomi', 'POCO', 'Google', 'Vivo'];
+const BRANDS = BRAND_LIST;
 const USE_CASES = ['All', 'All-Rounder', 'Gaming', 'Camera', 'Battery', 'Clean Software', 'Premium'];
 type SortKey = 'score' | 'price_asc' | 'price_desc';
+
+function BrandLogo({ brand, size = 'sm' }: { brand: string; size?: 'sm' | 'md' }) {
+  const style = BRAND_STYLES[brand];
+  if (!style) return <Smartphone className={size === 'sm' ? 'w-4 h-4' : 'w-6 h-6'} />;
+  const dim = size === 'sm' ? 'w-5 h-5 text-[8px]' : 'w-7 h-7 text-[10px]';
+  return (
+    <div className={`${dim} rounded-full flex items-center justify-center font-black shrink-0`}
+      style={{ backgroundColor: style.bg, color: style.color }}>
+      {style.initial || '🍎'}
+    </div>
+  );
+}
 
 // ── Score Ring Component ──
 function ScoreRing({ score }: { score: number }) {
@@ -588,8 +601,8 @@ function PhoneCard({ phone, rank, compareList, toggleCompare }: { phone: Phone, 
       {/* ── Content ── */}
       <div className="flex flex-col flex-1 p-5">
         <div className="flex items-center gap-2 mb-1">
-          {(() => { const brandData = BRANDS_WITH_ICONS.find(b => b.name === phone.brand); return brandData?.logo ? <img src={brandData.logo} alt={phone.brand} className="w-4 h-4 object-contain rounded-sm" onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; }} /> : null; })()}
-          <span className="text-xs font-bold text-muted-foreground uppercase tracking-wider">{phone.brand}</span>
+          <BrandLogo brand={phone.brand} size="sm" />
+          <span className="text-xs font-bold text-foreground/70 dark:text-muted-foreground uppercase tracking-wider">{phone.brand}</span>
           {phone.category === 'flagship' && <span className="text-[9px] px-1.5 py-0.5 rounded bg-amber-500/10 text-amber-500 font-bold">FLAGSHIP</span>}
         </div>
         <h3 className="font-bold text-base text-foreground leading-tight mb-1 group-hover:text-primary transition-colors">{phone.name}</h3>
@@ -682,10 +695,10 @@ function PhoneCard({ phone, rank, compareList, toggleCompare }: { phone: Phone, 
         </div>
 
         <div className="flex gap-2 mb-2">
-          <Link href={`/blog`}
+          <a href={phone.amazon} target="_blank" rel="noopener noreferrer"
             className="flex-1 flex items-center justify-center gap-1.5 bg-gradient-to-r from-primary/20 to-purple-500/20 hover:from-primary/30 hover:to-purple-500/30 text-primary text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 border border-primary/20">
             <Sparkles className="w-3 h-3" /> Full Review
-          </Link>
+          </a>
           <button 
             onClick={() => toggleCompare(phone)}
             disabled={!canCompare}
@@ -783,24 +796,20 @@ export default function BestPhonesClient() {
         </div>
       </div>
 
-      {/* Brand Selector (Smartprix-style horizontal scroll) */}
+      {/* Brand Selector */}
       <div className="mb-8">
-        <div className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-3 px-1">📱 Brand से चुनें</div>
+        <div className="text-xs font-semibold text-foreground/60 dark:text-muted-foreground uppercase tracking-wider mb-3 px-1">📱 Brand से चुनें</div>
         <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-thin">
-          {BRANDS_WITH_ICONS.map(b => (
-            <button key={b.name}
-              onClick={() => setBrand(b.name)}
+          {BRAND_LIST.map(b => (
+            <button key={b}
+              onClick={() => setBrand(b)}
               className={`flex flex-col items-center gap-1.5 px-4 py-3 rounded-2xl text-xs font-bold transition-all shrink-0 min-w-[76px] border ${
-                brand === b.name
+                brand === b
                   ? 'bg-primary/10 text-primary border-primary/30 shadow-md shadow-primary/10'
-                  : 'bg-secondary/20 text-muted-foreground hover:bg-secondary/50 hover:text-foreground border-border/30'
+                  : 'bg-white dark:bg-secondary/20 text-foreground/70 dark:text-muted-foreground hover:bg-secondary/50 hover:text-foreground border-border/40 dark:border-border/30'
               }`}>
-              {b.logo ? (
-                <img src={b.logo} alt={b.name} className="w-6 h-6 object-contain rounded" onError={(e) => { (e.target as HTMLImageElement).src = ''; (e.target as HTMLImageElement).alt = b.name[0]; }} />
-              ) : (
-                <Smartphone className="w-5 h-5" />
-              )}
-              <span>{b.name}</span>
+              <BrandLogo brand={b} size="md" />
+              <span>{b}</span>
             </button>
           ))}
         </div>

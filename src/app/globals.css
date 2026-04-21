@@ -15,14 +15,14 @@
   --secondary: #f1f5f9;
   --secondary-foreground: #0f172a;
   --muted: #f1f5f9;
-  --muted-foreground: #64748b;
+  --muted-foreground: #475569;
   --accent: #f1f5f9;
   --accent-foreground: #0f172a;
-  --border: rgba(99, 102, 241, 0.15);
+  --border: rgba(15, 23, 42, 0.12);
   --input: #e2e8f0;
   --ring: #6366f1;
   --glow: rgba(99, 102, 241, 0.2);
-  --glass-bg: rgba(255, 255, 255, 0.7);
+  --glass-bg: rgba(255, 255, 255, 0.85);
   --gradient-start: #6366f1;
   --gradient-mid: #a855f7;
   --gradient-end: #ec4899;
@@ -219,16 +219,18 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #030712;
+  background: var(--background);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #1e293b;
+  background: var(--muted-foreground);
   border-radius: 4px;
+  opacity: 0.3;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #334155;
+  background: var(--foreground);
+  opacity: 0.5;
 }
 
 /* Hide scrollbar for Web Stories */
