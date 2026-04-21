@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-amazon-invests-5b-in-anthropic',
+        title: 'Amazon ने Anthropic में $5B लगाया! 💸',
+        subtitle: 'Amazon ने Anthropic में $5B का निवेश किया है और बदले में Anthropic ने $100B के **cloud spending** का',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Anthropic%20takes%20$5B%20from%20Amazon%20and%20pledges%20$100B%20in%20cloud%20spending%20in%20retur?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'google-1-billion-android-phones-security-warning-2026',
         title: '1 Billion Android Phones Hack होंगे! 🔴',
         subtitle: 'Google की बड़ी Warning! Android 12 या पुराने Phone वाले अभी यह करें — वरना Data चोरी हो सकता है!',
