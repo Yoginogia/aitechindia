@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-ai-synthetic-writing-zamana',
+        title: 'AI ka Chalta Hai — Synthetic Writing ka Zamana 🤖',
+        subtitle: 'AI writing ki duniya mein ek naya trend hai — \'It\'s not just this — it\'s that\' wala construction. Ye',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/It’s%20not%20just%20one%20thing%20—%20it’s%20another%20thing?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-gemini-chrome-launch',
         title: 'Google Gemini Chrome mein Launch हुआ! 🚀',
         subtitle: 'Google ne Gemini ko Chrome mein 7 naye deshon mein launch kiya hai. Ye feature ab Australia, Indones',
