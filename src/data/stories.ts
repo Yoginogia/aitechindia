@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-crypto-market-news-trends',
+        title: 'Crypto की दुनिया में क्या हो रहा है? 🤔',
+        subtitle: 'Crypto market में क्या हो रहा है? **Bitcoin** की कीमत क्या है? भारतीय निवेशकों के लिए क्या है नया?',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/Here’s%20what%20happened%20in%20crypto%20today?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-kelpdao-hack-290-million-heist',
         title: 'KelpDAO Hack: $290 Million Heist 🚨',
         subtitle: 'KelpDAO DeFi project mein $290 million ka heist, **Lazarus hackers** ka hath! Ye kya hai aur kaise h',
