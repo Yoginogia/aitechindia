@@ -1,24 +1,35 @@
 ---
-title: "KelpDAO Hack: $290 Million Heist 🚨"
+title: "KelpDAO Hack: $290 Million की सबसे बड़ी Crypto चोरी! 🚨"
 date: "21 April 2026"
 category: "Software"
-excerpt: "KelpDAO DeFi project mein $290 million ka heist, **Lazarus hackers** ka hath! Ye kya hai aur kaise hua? **Crypto** duniya mein sabse bada heist."
+excerpt: "KelpDAO DeFi Project में $290 Million की चोरी, Lazarus Hackers का हाथ! ये कैसे हुआ और Crypto Security कैसे बढ़ाएं?"
 image: "https://image.pollinations.ai/prompt/KelpDAO%20suffers%20$290%20million%20heist%20tied%20to%20Lazarus%20hackers?width=1200&height=630&nologo=true"
 readingTime: "5 min read"
 ---
 
-Yaar, ab imagine karo — **DeFi** project KelpDAO mein $290 million ka heist hua hai, aur ye **Lazarus hackers** ka kaam hai! Ye sab kaise hua, aur kyun hua, ye sab hum aage batayenge. 
+भाई, **Crypto** दुनिया में एक बहुत बड़ी चोरी हो गई है! **DeFi** project **KelpDAO** में **$290 Million** की heist हुई है — और ये **Lazarus Hackers** का काम है! 🔥
 
- Toh, **KelpDAO** kya hai? Ye ek **DeFi** project hai jo **cryptocurrency** ko manage karta hai. Aur ye project mein jo heist hua hai, wo **$290 million** ka hai! Ab aap soch rahe honge ki ye kya hai, aur kaise hua. 
+### क्या हुआ?
 
- Ab, **Lazarus hackers** ka hath ismein hai. Ye ek **North Korean** hacker group hai, jo **state-sponsored** hai. Aur ye group pehle bhi **crypto heists** mein involv hai. Toh, ye **KelpDAO** heist bhi unka kaam hai. 
+**KelpDAO** एक **DeFi** (Decentralized Finance) project है जो **Cryptocurrency** manage करता है। Hackers ने इसके **Smart Contract** में एक **Bug** ढूंढा और उसका फायदा उठाकर **$290 Million** चुरा लिए! ये **Crypto** दुनिया की सबसे बड़ी heists में से एक है।
 
- Lekin, ye heist kaise hua? Toh, ye bhi hum batayenge. **KelpDAO** mein ek **bug** tha, jo **hackers** ne use kiya. Aur phir, unhone **$290 million** ka heist kar liya! Ab, ye **bug** kya tha, aur kaise **hackers** ne use kiya, ye sab hum aage batayenge. 
+### Lazarus Hackers कौन हैं?
 
- Toh, **KelpDAO** ne abhi tak kya kiya hai? Toh, unhone **investigation** shuru ki hai, aur **authorities** se baat ki hai. Aur ye **$290 million** ka heist, wo **crypto** duniya mein sabse bada heist hai! 
+**Lazarus** एक **North Korean** hacker group है, जो **State-Sponsored** है। ये group पहले भी कई बड़ी **Crypto Heists** में शामिल रहा है। **UN** की reports के मुताबिक, **North Korea** अपने **Nuclear Program** को fund करने के लिए **Crypto** चोरी करता है!
 
- Ab, ye **heist** kya hai, aur kaise hua, ye sab hum bataye. Lekin, ye bhi batana zaroori hai ki **crypto** duniya mein **security** kaise badhayein. Toh, hum aage batayenge ki **crypto** **exchanges** aur **wallets** mein **security** kaise badhayen. 
+### कैसे हुई ये चोरी?
 
- Aur, ye **KelpDAO** heist, wo **crypto** duniya mein sabse bada heist hai! Toh, ab **crypto** **investors** ko kya karna chahiye? Toh, hum aage batayenge ki **crypto** **investors** ko kya karna chahiye, aur kaise **security** badhayen. 
+**KelpDAO** के **Smart Contract** में एक **Vulnerability** (कमज़ोरी) थी। **Hackers** ने इस **Bug** को exploit किया और funds को multiple **Wallets** में transfer कर लिया। इसके बाद उन्होंने **Mixer Services** का इस्तेमाल करके पैसे को untraceable बना दिया।
 
- Ant mein, ye **KelpDAO** heist, wo **crypto** duniya mein sabse bada heist hai! Aur, ye **heist** kya hai, aur kaise hua, ye sab hum bataye. Toh, ab aapko pata chal gaya hoga ki **crypto** duniya mein **security** kaise badhayein, aur kaise **heists** ko rokein.
+### अब क्या हो रहा?
+
+**KelpDAO** ने **Investigation** शुरू कर दी है और **Law Enforcement Agencies** से बात कर रहे हैं। कुछ **Blockchain Analytics** companies भी funds को track करने में मदद कर रही हैं।
+
+### Crypto Security कैसे बढ़ाएं?
+
+- अपने **Wallet** में **Two-Factor Authentication** ज़रूर enable करो
+- **Hardware Wallet** इस्तेमाल करो — जैसे **Ledger** या **Trezor**
+- किसी भी **DeFi** project में invest करने से पहले उसका **Audit Report** ज़रूर check करो
+- अपने सारे funds एक ही platform पर मत रखो
+
+ये **KelpDAO Hack** एक बड़ी warning है — **Crypto** में invest करो, लेकिन **Security** का ध्यान ज़रूर रखो! 🚀
