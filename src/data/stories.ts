@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-vivo-x300-fe-first-look-zeiss-telephoto-extender',
+        title: 'Vivo X300 FE: Zeiss Telephoto Extender ke saath First Look 📸',
+        subtitle: 'Vivo X300 FE mein Zeiss Telephoto Extender hai, **₹50,000** ki actual price par **10%** discount. **',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/First%20Look%20at%20the%20vivo%20X300%20FE%20with%20the%20Zeiss%20Telephoto%20Extender?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-summer-travel-smart-with-google',
         title: 'Summer Travel Smart 🌴',
         subtitle: 'Google ne 7 tarikon se travel ko smart banane ki salah di hai. Yaar, ab summer travel ko aur bhi maz',
