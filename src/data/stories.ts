@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-tesla-model-y-l-launch-best-deals',
+        title: 'Tesla Model Y L Launch: Best Deals 🚀',
+        subtitle: 'Tesla Model Y L launch in India, best deals on tech products, **₹**50,000 discount on **Google Pixel',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/Tesla%20Model%20Y%20L%20To%20Launch%20in%20India%20On%20April%2022,%20Reports%20Suggest:%20Everythin?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-vivo-x300-fe-first-look-zeiss-telephoto-extender',
         title: 'Vivo X300 FE: Zeiss Telephoto Extender ke saath First Look 📸',
         subtitle: 'Vivo X300 FE mein Zeiss Telephoto Extender hai, **₹50,000** ki actual price par **10%** discount. **',
