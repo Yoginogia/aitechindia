@@ -531,6 +531,28 @@ function BrandLogo({ brand, size = 'sm' }: { brand: string; size?: 'sm' | 'md' }
   );
 }
 
+// Map phone IDs to their blog review article slugs
+const REVIEW_SLUGS: Record<string, string> = {
+  'redmi-14c': 'redmi-14c-review',
+  'realme-c61': 'realme-c61-review',
+  'samsung-a06': 'samsung-a06-review',
+  'realme-narzo-70-pro': 'realme-narzo-70-pro-review',
+  'redmi-note-14': 'redmi-note-14-review',
+  'samsung-m15-5g': 'samsung-m15-5g-review',
+  'iqoo-z9x': 'iqoo-z9x-review',
+  'oneplus-nord-5': 'oneplus-nord-5-review',
+  'redmi-note-15-pro': 'redmi-note-15-pro-review',
+  'iqoo-neo-10': 'iqoo-neo-10-review',
+  'motorola-edge-60-pro': 'motorola-edge-60-pro-review',
+  'samsung-a56': 'samsung-a56-review',
+  'realme-gt-7-pro': 'realme-gt-7-pro-review',
+  'oneplus-15r': 'oneplus-15r-review',
+  'iqoo-15r': 'iqoo-15r-review',
+  'nothing-4a-pro': 'nothing-4a-pro-review',
+  'oneplus-15': 'oneplus-15-review',
+  'samsung-s26-ultra': 'samsung-s26-ultra-review',
+};
+
 // ── Score Ring Component ──
 function ScoreRing({ score }: { score: number }) {
   const pct = (score / 10) * 100;
@@ -695,10 +717,17 @@ function PhoneCard({ phone, rank, compareList, toggleCompare }: { phone: Phone, 
         </div>
 
         <div className="flex gap-2 mb-2">
-          <a href={phone.amazon} target="_blank" rel="noopener noreferrer"
-            className="flex-1 flex items-center justify-center gap-1.5 bg-gradient-to-r from-primary/20 to-purple-500/20 hover:from-primary/30 hover:to-purple-500/30 text-primary text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 border border-primary/20">
-            <Sparkles className="w-3 h-3" /> Full Review
-          </a>
+          {REVIEW_SLUGS[phone.id] ? (
+            <Link href={`/blog/${REVIEW_SLUGS[phone.id]}`}
+              className="flex-1 flex items-center justify-center gap-1.5 bg-gradient-to-r from-primary/20 to-purple-500/20 hover:from-primary/30 hover:to-purple-500/30 text-primary text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 border border-primary/20">
+              <Sparkles className="w-3 h-3" /> Full Review
+            </Link>
+          ) : (
+            <a href={phone.amazon} target="_blank" rel="noopener noreferrer"
+              className="flex-1 flex items-center justify-center gap-1.5 bg-gradient-to-r from-primary/20 to-purple-500/20 hover:from-primary/30 hover:to-purple-500/30 text-primary text-xs font-bold py-2.5 px-3 rounded-xl transition-all hover:-translate-y-0.5 border border-primary/20">
+              <Sparkles className="w-3 h-3" /> Full Review
+            </a>
+          )}
           <button 
             onClick={() => toggleCompare(phone)}
             disabled={!canCompare}
