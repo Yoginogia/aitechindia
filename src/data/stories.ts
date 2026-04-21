@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-summer-travel-smart-with-google',
+        title: 'Summer Travel Smart 🌴',
+        subtitle: 'Google ne 7 tarikon se travel ko smart banane ki salah di hai. Yaar, ab summer travel ko aur bhi maz',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/7%20ways%20to%20travel%20smarter%20this%20summer,%20with%20help%20from%20Google?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-nsa-using-anthropic-mythos-ai-model',
         title: 'NSA का Anthropic के साथ Deal — क्या है यह Mythos? 🤔',
         subtitle: 'NSA ने Anthropic के साथ Deal की है, जिसमें उनका **Mythos AI model** शामिल है। यह Deal Pentagon के सा',
