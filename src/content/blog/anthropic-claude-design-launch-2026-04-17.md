@@ -3,7 +3,7 @@ title: "⚡ Anthropic ने Launch किया 'Claude Design' — क्य�
 date: "17 April 2026"
 category: "AI Tools"
 excerpt: "Anthropic का नया tool Claude Design अब UI/UX design और creative tasks को और भी आसान बना देगा। जानिए इसके features।"
-image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?auto=format&fit=crop&q=80&w=1200"
+image: "/images/blog/claude_opus_47_launch.webp"
 readingTime: "3 min read"
 ---
 

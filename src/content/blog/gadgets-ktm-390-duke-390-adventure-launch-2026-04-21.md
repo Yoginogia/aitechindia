@@ -3,7 +3,7 @@ title: "KTM 390 Duke, 390 Adventure Launch 🚴‍♂️"
 date: "21 April 2026"
 category: "Gadgets"
 excerpt: "KTM ne apne 390 Duke aur 390 Adventure line-up mein naye 350cc variants launch kiye, jo ki entry price ko kam karne ke liye hain. **Rs 2.77 lakh** se shuru ho rahe hain ye bikes. Sabse pehle jaaniye inki **key specs** aur **features**."
-image: "https://images.unsplash.com/photo-1558618666-fcd25c85f82e?auto=format&fit=crop&q=80&w=1200"
+image: "/images/blog/royal_enfield_electric_bike.webp"
 readingTime: "5 min read"
 ---
 
