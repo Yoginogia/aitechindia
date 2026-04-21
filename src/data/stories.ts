@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-gemini-chrome-launch',
+        title: 'Google Gemini Chrome mein Launch हुआ! 🚀',
+        subtitle: 'Google ne Gemini ko Chrome mein 7 naye deshon mein launch kiya hai. Ye feature ab Australia, Indones',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Google%20rolls%20out%20Gemini%20in%20Chrome%20in%207%20new%20countries?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-amazon-invests-5b-in-anthropic',
         title: 'Amazon ने Anthropic में $5B लगाया! 💸',
         subtitle: 'Amazon ने Anthropic में $5B का निवेश किया है और बदले में Anthropic ने $100B के **cloud spending** का',
