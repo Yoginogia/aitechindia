@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-john-oliver-prediction-market-attack',
+        title: 'John Oliver का Prediction Market पर Attack 🚀',
+        subtitle: 'John Oliver ने Last Week Tonight पर prediction market को target किया, क्या होगा India के investors प',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/Last%20Week%20Tonight‘s%20John%20Oliver%20says%20he%20won‘t%20placate%20prediction%20markets%20users?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-crypto-market-news-trends',
         title: 'Crypto की दुनिया में क्या हो रहा है? 🤔',
         subtitle: 'Crypto market में क्या हो रहा है? **Bitcoin** की कीमत क्या है? भारतीय निवेशकों के लिए क्या है नया?',
