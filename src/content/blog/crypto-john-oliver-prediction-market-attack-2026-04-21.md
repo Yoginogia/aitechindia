@@ -1,9 +1,9 @@
----
+﻿---
 title: "John Oliver का Prediction Market पर Attack — क्या होगा असर? 🚀"
 date: "21 April 2026"
 category: "Crypto"
 excerpt: "John Oliver ने Last Week Tonight पर Prediction Market को target किया। क्या होगा India के investors पर असर? Bitcoin का price क्या होगा?"
-image: "https://image.pollinations.ai/prompt/Last%20Week%20Tonight's%20John%20Oliver%20says%20he%20won't%20placate%20prediction%20markets%20users?width=1200&height=630&nologo=true"
+image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&q=80&w=1200"
 readingTime: "5 min read"
 ---
 

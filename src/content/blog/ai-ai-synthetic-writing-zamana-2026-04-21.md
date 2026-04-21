@@ -1,9 +1,9 @@
----
+﻿---
 title: "AI Writing का ज़माना — Synthetic Content कितना Real है? 🤖"
 date: "21 April 2026"
 category: "AI"
 excerpt: "AI writing की दुनिया में एक नया trend आया है — 'It's not just this — it's that' वाला construction। ये कितना common हो गया है? और क्यों AI writing में ये pattern इतना popular हो गया है?"
-image: "https://image.pollinations.ai/prompt/It's%20not%20just%20one%20thing%20—%20it's%20another%20thing?width=1200&height=630&nologo=true"
+image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=1200"
 readingTime: "7 min read"
 ---
 

@@ -1,9 +1,9 @@
----
+﻿---
 title: "Amazon ने Anthropic में $5B लगाया — AI की सबसे बड़ी Deal! 💸"
 date: "21 April 2026"
 category: "AI"
 excerpt: "Amazon ने Anthropic में $5B का निवेश किया है और बदले में Anthropic ने $100B के Cloud Spending का वादा किया है! ये Deal क्या है और इसका क्या मतलब है?"
-image: "https://image.pollinations.ai/prompt/Anthropic%20takes%20$5B%20from%20Amazon%20and%20pledges%20$100B%20in%20cloud%20spending%20in%20retur?width=1200&height=630&nologo=true"
+image: "https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?auto=format&fit=crop&q=80&w=1200"
 readingTime: "5 min read"
 ---
 

@@ -1,9 +1,9 @@
----
+﻿---
 title: "Hyundai-TVS E3W: Electric Vehicle का नया दौर! 🚀"
 date: "21 April 2026"
 category: "Gadgets"
 excerpt: "Hyundai और TVS ने E3W Concept के Development और Production के लिए Agreement sign किया है। ये Electric Vehicle का नया दौर है!"
-image: "https://image.pollinations.ai/prompt/Hyundai-TVS%20greenlight%20development%20and%20production%20of%20E3W%20concept?width=1200&height=630&nologo=true"
+image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=1200"
 readingTime: "5 min read"
 ---
 

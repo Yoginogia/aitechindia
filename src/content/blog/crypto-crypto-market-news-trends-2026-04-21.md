@@ -1,9 +1,9 @@
----
+﻿---
 title: "Crypto Market में क्या हो रहा है? आज की पूरी Update! 🤔"
 date: "21 April 2026"
 category: "Crypto"
 excerpt: "Crypto Market में क्या हो रहा है? Bitcoin की कीमत क्या है? भारतीय निवेशकों के लिए क्या है नया?"
-image: "https://image.pollinations.ai/prompt/Here's%20what%20happened%20in%20crypto%20today?width=1200&height=630&nologo=true"
+image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=1200"
 readingTime: "5 min read"
 ---
 

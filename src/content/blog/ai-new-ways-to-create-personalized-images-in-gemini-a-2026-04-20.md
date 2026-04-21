@@ -1,9 +1,9 @@
----
+﻿---
 title: "Gemini App में अब बनाओ अपनी Personalized Images! 📸"
 date: "20 April 2026"
 category: "AI"
 excerpt: "Gemini App में अब आप आसानी से Personal Intelligence का उपयोग करके अपनी पसंद की Images बना सकते हैं। यहाँ जानें कैसे!"
-image: "https://image.pollinations.ai/prompt/New%20ways%20to%20create%20personalized%20images%20in%20the%20Gemini%20app?width=1200&height=630&nologo=true"
+image: "https://images.unsplash.com/photo-1675557009875-436f7a5c1977?auto=format&fit=crop&q=80&w=1200"
 readingTime: "5 min read"
 ---
 
