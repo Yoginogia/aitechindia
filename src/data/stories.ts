@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-naya-smartphone-launch-kya-yeh-hai-best-deal',
+        title: 'नया Smartphone Launch: क्या ये है Best Deal? 📱',
+        subtitle: 'नया स्मार्टफोन लॉन्च हुआ है, जिसमें **CPU**, **GPU**, और **RAM** के साथ कई अन्य फीचर्स हैं। क्या यह ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Karna%20Kadur%20wins%202026%20South%20India%20Rally?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-doordash-stablecoin-payment-crypto',
         title: 'DoorDash में Stablecoin Payment — Crypto का नया दौर? 🚀',
         subtitle: 'DoorDash ने Tempo blockchain के साथ मिलकर stablecoin-powered payment infrastructure लॉन्च किया है। य',
