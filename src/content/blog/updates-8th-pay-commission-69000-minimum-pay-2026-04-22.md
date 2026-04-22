@@ -1,6 +1,6 @@
----
+﻿---
 title: "8th Pay Commission: ₹69,000 हो सकती है Minimum Basic Pay!"
-date: "22 April 2026"
+date: "2026-04-22T23:59:00"
 category: "Updates"
 excerpt: "केंद्रीय कर्मचारियों (Central Government Employees) के लिए बहुत बड़ी खुशखबरी है! 8th Pay Commission लागू होने के बाद न्यूनतम बेसिक सैलरी (Minimum Basic Pay) सीधे ₹69,000 तक पहुंच सकती है। जानिए पूरा गणित और कब होगा लागू।"
 image: "/images/blog/8th_pay_commission.png"

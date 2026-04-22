@@ -1,6 +1,6 @@
----
+﻿---
 title: "Bajaj Puslar NS400Z - New 350cc Engine और 40hp पावर के साथ लॉन्च हुई, क्या है कीमत और फीचर्स"
-date: "22 April 2026"
+date: "2026-04-22T23:59:00"
 category: "Gadgets"
 excerpt: "बजाज की सबसे बड़ी पल्सर - Bajaj Pulsar NS400Z भारत में लॉन्च हो गई है! इसमें एक नया 350cc इंजन और 40hp की पावर है। जानिए इस मस्कुलर स्पोर्ट्स बाइक की कीमत और सारे धांसू फीचर्स।"
 image: "/images/blog/bajaj_pulsar_ns400z.png"

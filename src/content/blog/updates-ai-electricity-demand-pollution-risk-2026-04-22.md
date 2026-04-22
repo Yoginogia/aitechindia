@@ -1,6 +1,6 @@
----
+﻿---
 title: "AI से बिजली की demand और pollution बढ़ सकता है"
-date: "22 April 2026"
+date: "2026-04-22T23:59:00"
 category: "Updates"
 excerpt: "क्या AI हमारी दुनिया को बचा रहा है या उसे तबाह कर रहा है? नई रिपोर्ट्स के मुताबिक, AI के बढ़ते इस्तेमाल से पूरी दुनिया में बिजली की डिमांड और पलूशन (Pollution) खतरनाक स्तर तक बढ़ सकता है।"
 image: "/images/blog/ai_power_pollution.png"

@@ -1,6 +1,6 @@
----
+﻿---
 title: "Tata Steel + Google Cloud: 300+ AI Agents का इस्तेमाल"
-date: "22 April 2026"
+date: "2026-04-22T23:59:00"
 category: "Updates"
 excerpt: "Tata Steel ने Google Cloud के साथ एक बड़ी पार्टनरशिप की है, जिसके तहत कंपनी 300 से ज़्यादा AI Agents का इस्तेमाल करके अपने ऑपरेशन्स को पूरी तरह से ऑटोमेट और स्मार्ट बनाने जा रही है।"
 image: "/images/blog/tata_steel_google_cloud.png"

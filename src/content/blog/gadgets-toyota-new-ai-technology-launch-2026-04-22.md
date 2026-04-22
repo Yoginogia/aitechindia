@@ -1,6 +1,6 @@
----
+﻿---
 title: "Toyota ने नई AI टेक्नोलॉजी लॉन्च की"
-date: "22 April 2026"
+date: "2026-04-22T23:59:00"
 category: "Gadgets"
 excerpt: "दुनिया की लीडिंग कार मेकर Toyota ने अपनी नई AI (Artificial Intelligence) टेक्नोलॉजी को लॉन्च किया है। ये एडवांस AI गाड़ियों को न सिर्फ स्मार्ट बनाएगा बल्कि ड्राइविंग को पहले से कहीं ज़्यादा सुरक्षित करेगा।"
 image: "/images/blog/toyota_ai_tech.png"

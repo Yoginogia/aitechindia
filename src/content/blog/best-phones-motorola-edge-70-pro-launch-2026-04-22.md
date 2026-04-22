@@ -1,6 +1,6 @@
----
+﻿---
 title: "Motorola Edge 70 Pro: High एमोलेड डिस्प्ले, Best एआई फीचर्स और Powerfull बैटरी के साथ आज लॉन्च"
-date: "22 April 2026"
+date: "2026-04-22T23:59:00"
 category: "Best Phones"
 excerpt: "Motorola ने अपना धांसू स्मार्टफोन Motorola Edge 70 Pro लॉन्च कर दिया है! इसमें आपको मिलेगा High AMOLED डिस्प्ले, Best AI फीचर्स, और एक Powerfull बैटरी जो लम्बा चलेगी। जानिए इसकी पूरी डिटेल्स!"
 image: "/images/blog/motorola_edge_70_pro.png"
