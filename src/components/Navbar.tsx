@@ -141,9 +141,9 @@ export default function Navbar() {
                 </div>
 
                 {/* ── BOTTOM BAR: Category Strip with Dropdowns ── */}
-                <div className="hidden lg:block bg-card/80 backdrop-blur-xl border-b border-border/30">
+                <div className="hidden lg:block bg-card/80 backdrop-blur-xl border-b border-border/30 relative z-50">
                     <div className="container mx-auto max-w-7xl px-4 md:px-6">
-                        <nav className="flex items-center gap-1 overflow-x-auto no-scrollbar py-1.5">
+                        <nav className="flex items-center gap-1 overflow-visible no-scrollbar py-1.5">
                             {NAV_CATEGORIES.map((item) => {
                                 const hasDropdown = item.children && item.children.length > 0;
                                 const active = isActive(item.href) || (item.children?.some(c => isActive(c.href)) ?? false);
