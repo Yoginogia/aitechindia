@@ -3,7 +3,7 @@ title: "Flipkart पर **Sale**! 🛍️"
 date: "22 April 2026"
 category: "Deals"
 excerpt: "यार, **Flipkart** पर अभी बहुत ही बढ़िया **Deal** है! **Price** कम है और **Discount** ज्यादा है!"
-image: "https://image.pollinations.ai/prompt/WhatsApp%20Is%20Testing%20A%20Paid%20Subscription:%20But%20Don’t%20Expect%20It%20to%20Do%20Anything%?width=1200&height=630&nologo=true"
+image: "/images/blog/flipkart_sale.png"
 readingTime: "5 min read"
 ---
 
