@@ -1,9 +1,9 @@
----
+﻿---
 title: "नया Smartphone Launch: क्या ये है Best Deal? 📱"
 date: "22 April 2026"
 category: "Gadgets"
 excerpt: "नया स्मार्टफोन लॉन्च हुआ है, जिसमें **CPU**, **GPU**, और **RAM** के साथ कई अन्य फीचर्स हैं। क्या यह स्मार्टफोन भारत में सबसे अच्छा विकल्प है?"
-image: "https://image.pollinations.ai/prompt/Karna%20Kadur%20wins%202026%20South%20India%20Rally?width=1200&height=630&nologo=true"
+image: "/images/blog/new_smartphone_launch.png"
 readingTime: "5 min read"
 ---
 
