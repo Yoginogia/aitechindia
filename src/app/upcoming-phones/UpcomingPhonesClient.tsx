@@ -31,10 +31,11 @@ type UpcomingPhone = {
   brand: string;
   expectedPrice: string;
   expectedLaunch: string;
-  launchMonth: string; // "May 2026", "June 2026" etc.
+  launchMonth: string;
   status: 'rumored' | 'confirmed' | 'launching-soon';
   keySpecs: string[];
   highlight: string;
+  articleSlug: string;
   image?: string;
 };
 
@@ -49,6 +50,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['A20 Pro Chip', '48MP Periscope Camera', 'ProMotion 120Hz', 'Titanium Body'],
     highlight: 'Camera Upgrade',
+    articleSlug: 'upcoming-iphone-18-pro-2026-04-22',
   },
   {
     id: 'samsung-galaxy-s27-ultra',
@@ -60,6 +62,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Snapdragon 8 Gen 5', '200MP Camera', '6000mAh Battery', 'Gorilla Glass Armor 2'],
     highlight: 'Flagship Killer',
+    articleSlug: 'upcoming-samsung-galaxy-s27-ultra-2027-04-22',
   },
   {
     id: 'oneplus-14',
@@ -71,6 +74,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Snapdragon 8 Gen 4+', 'Hasselblad Camera', '100W SUPERVOOC', '6000mAh Battery'],
     highlight: 'Performance Beast',
+    articleSlug: 'upcoming-oneplus-14-2026-04-22',
   },
   {
     id: 'pixel-11-pro',
@@ -82,6 +86,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Tensor G6 Chip', 'AI Camera Pro', '7 Years Updates', '120Hz LTPO OLED'],
     highlight: 'Best AI Camera',
+    articleSlug: 'upcoming-google-pixel-11-pro-2026-04-22',
   },
   {
     id: 'realme-gt-8-pro',
@@ -93,6 +98,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Snapdragon 8s Gen 4', '50MP Sony IMX890', '5500mAh Battery', '100W Charge'],
     highlight: 'Budget Flagship',
+    articleSlug: 'upcoming-realme-gt-8-pro-2026-04-22',
   },
   {
     id: 'xiaomi-16-ultra',
@@ -104,6 +110,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'launching-soon',
     keySpecs: ['Snapdragon 8 Gen 4+', 'Leica 50MP Quad Camera', '6000mAh Battery', '120W HyperCharge'],
     highlight: 'Camera Champion',
+    articleSlug: 'upcoming-xiaomi-16-ultra-2026-04-22',
   },
   {
     id: 'vivo-x300-pro',
@@ -115,6 +122,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Dimensity 9400', 'Zeiss Camera', '5500mAh Battery', 'Curved AMOLED'],
     highlight: 'Photography Pro',
+    articleSlug: 'upcoming-vivo-x300-pro-2026-04-22',
   },
   {
     id: 'iqoo-neo-11',
@@ -126,6 +134,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Snapdragon 8s Gen 4', '144Hz AMOLED', '6000mAh Battery', '80W FlashCharge'],
     highlight: 'Gaming Value King',
+    articleSlug: 'upcoming-iqoo-neo-11-2026-04-22',
   },
   {
     id: 'nothing-phone-4',
@@ -137,6 +146,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Snapdragon 8 Gen 4', 'Glyph Interface 3.0', '50MP Camera', 'NothingOS 4.0'],
     highlight: 'Unique Design',
+    articleSlug: 'upcoming-nothing-phone-4-2026-04-22',
   },
   {
     id: 'motorola-razr-60-ultra',
@@ -148,6 +158,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Snapdragon 8 Gen 4', '4\" Cover Display', '50MP Camera', 'Foldable'],
     highlight: 'Best Flip Phone',
+    articleSlug: 'upcoming-motorola-razr-60-ultra-2026-04-22',
   },
   {
     id: 'poco-f8-pro',
@@ -159,6 +170,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Snapdragon 8s Gen 4', '200MP Camera', '5500mAh Battery', '120W Charge'],
     highlight: 'Price Killer',
+    articleSlug: 'upcoming-poco-f8-pro-2026-04-22',
   },
   {
     id: 'oppo-find-x10-pro',
@@ -170,6 +182,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Dimensity 9500', 'Hasselblad Camera', '5800mAh Battery', '100W SUPERVOOC'],
     highlight: 'Camera Beast',
+    articleSlug: 'upcoming-oppo-find-x10-pro-2026-04-22',
   },
   {
     id: 'samsung-galaxy-a57',
@@ -181,6 +194,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'launching-soon',
     keySpecs: ['Exynos 1580', '50MP OIS Camera', '5000mAh Battery', 'One UI 7'],
     highlight: 'Mid-range King',
+    articleSlug: 'upcoming-samsung-galaxy-a57-2026-04-22',
   },
   {
     id: 'redmi-note-16-pro',
@@ -192,6 +206,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Dimensity 8400 Ultra', '200MP Camera', '5500mAh Battery', '67W Turbo Charge'],
     highlight: 'Budget Camera King',
+    articleSlug: 'upcoming-redmi-note-16-pro-2026-04-22',
   },
   {
     id: 'honor-magic-7-lite',
@@ -203,6 +218,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Snapdragon 6 Gen 3', '108MP Camera', '6000mAh Battery', 'MagicOS 9.0'],
     highlight: 'Battery Monster',
+    articleSlug: 'upcoming-honor-magic-7-lite-2026-04-22',
   },
   {
     id: 'tecno-spark-30-ultra',
@@ -214,6 +230,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'launching-soon',
     keySpecs: ['Helio G100', '108MP Camera', '5000mAh Battery', '33W Charge'],
     highlight: 'Budget Champion',
+    articleSlug: 'upcoming-tecno-spark-30-ultra-2026-04-22',
   },
 ];
 
@@ -372,7 +389,7 @@ export default function UpcomingPhonesClient() {
                   </div>
 
                   {/* Price & Launch */}
-                  <div className="px-5 pb-4 pt-2 border-t border-border/20 mt-auto">
+                  <div className="px-5 pb-3 pt-2 border-t border-border/20 mt-auto">
                     <div className="flex items-center justify-between">
                       <div>
                         <p className="text-[10px] text-muted-foreground uppercase tracking-wider font-semibold">Expected Price</p>
@@ -387,6 +404,14 @@ export default function UpcomingPhonesClient() {
                         </p>
                       </div>
                     </div>
+                  </div>
+
+                  {/* Details Button */}
+                  <div className="px-5 pb-4">
+                    <Link href={`/blog/${phone.articleSlug}`}
+                      className="w-full flex items-center justify-center gap-2 py-2.5 rounded-xl bg-gradient-to-r from-primary/15 to-purple-500/15 hover:from-primary/25 hover:to-purple-500/25 border border-primary/20 text-primary text-xs font-bold transition-all hover:-translate-y-0.5">
+                      <Sparkles className="w-3.5 h-3.5" /> पूरी Details पढ़ें <ArrowRight className="w-3.5 h-3.5" />
+                    </Link>
                   </div>
                 </div>
               );
