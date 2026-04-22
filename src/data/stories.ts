@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-mythos-hack-claims',
+        title: 'Mythos हैक हुआ? 🚨',
+        subtitle: 'एक Unauthorized ग्रुप ने Mythos तक पहुंच बना ली है, क्या ये सच है? Anthropic का क्या कहना है?',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Unauthorized%20group%20has%20gained%20access%20to%20Anthropic’s%20exclusive%20cyber%20tool%20Mythos,?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-meta-ka-naya-ai-move',
         title: 'Meta का नया AI Move 🤖',
         subtitle: 'Meta ने अपने कर्मचारियों के कीस्ट्रोक्स को रिकॉर्ड करने का फैसला किया है, तो क्या यह हमारी प्राइवेसी',
