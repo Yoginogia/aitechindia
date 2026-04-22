@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-spacex-deal-with-cursor',
+        title: 'SpaceX का नया Deal — $60 Billion का **Option**! 🚀',
+        subtitle: 'यार, अब imagine करो — SpaceX और Cursor का नया Deal क्या है?, यह सिर्फ एक **Option** है या कुछ और?, ज',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/SpaceX%20is%20working%20with%20Cursor%20and%20has%20an%20option%20to%20buy%20the%20startup%20for%20$?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-mythos-hack-claims',
         title: 'Mythos हैक हुआ? 🚨',
         subtitle: 'एक Unauthorized ग्रुप ने Mythos तक पहुंच बना ली है, क्या ये सच है? Anthropic का क्या कहना है?',
