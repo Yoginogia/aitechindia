@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-doordash-stablecoin-payment-crypto',
+        title: 'DoorDash में Stablecoin Payment — Crypto का नया दौर? 🚀',
+        subtitle: 'DoorDash ने Tempo blockchain के साथ मिलकर stablecoin-powered payment infrastructure लॉन्च किया है। य',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/DoorDash%20to%20offer%20stablecoin%20payments%20to%20users%20via%20Tempo%20blockchain?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-kalshi-crypto-expansion',
         title: 'Kalshi का Crypto Expansion — Future Bright है? 🚀',
         subtitle: 'Kalshi में Crypto Perpetual Futures लॉन्च होने वाला है, जो US में Regulated Derivatives Offerings को',
