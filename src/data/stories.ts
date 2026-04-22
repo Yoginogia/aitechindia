@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-asus-zenbook-vivobook-2026-lineup-deal',
+        title: 'ASUS Zenbook और Vivobook 2026 लाइनअप — Best Deal है या नहीं?',
+        subtitle: 'ASUS ने अपना नया Zenbook और Vivobook 2026 लाइनअप लॉन्च कर दिया है, जिसमें कई **CPU** और **GPU** विकल',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/ASUS%20Zenbook%20and%20Vivobook%202026%20Lineup%20Now%20Available%20in%20India?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-flipkart-sale-deal',
         title: 'Flipkart पर **Sale**! 🛍️',
         subtitle: 'यार, **Flipkart** पर अभी बहुत ही बढ़िया **Deal** है! **Price** कम है और **Discount** ज्यादा है!',
