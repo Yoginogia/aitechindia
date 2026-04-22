@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-ads-ai-security-update',
+        title: 'Google Ads का नया AI सुरक्षा Update 🚀',
+        subtitle: 'Google Ads ने 3 नए तरीके से अपनी सुरक्षा को मजबूत किया है, जानें क्या हैं वे तरीके और कैसे वे आपके व',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/3%20new%20ways%20Ads%20Advisor%20is%20making%20Google%20Ads%20safer%20and%20faster?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-apple-ka-naya-boss-john-ternus',
         title: 'Apple का नया Boss: John Ternus — Power और Pressure 🚀',
         subtitle: 'यार, अब Apple का नया Boss है John Ternus, जो कंपनी को आगे ले जाने की कोशिश करेगा। क्या वो सफल हो पाए',
