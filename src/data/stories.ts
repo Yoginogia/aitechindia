@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-france-data-breach-kyon',
+        title: 'France में Data Breach — क्या है ये **Bug**? 🚨',
+        subtitle: 'France की सरकारी एजेंसी France Titres में **Data Breach** हुआ है, जिसमें नागरिकों का डेटा चोरी हो गय',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: 'https://image.pollinations.ai/prompt/French%20govt%20agency%20confirms%20breach%20as%20hacker%20offers%20to%20sell%20data?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-asus-zenbook-vivobook-2026-lineup-deal',
         title: 'ASUS Zenbook और Vivobook 2026 लाइनअप — Best Deal है या नहीं?',
         subtitle: 'ASUS ने अपना नया Zenbook और Vivobook 2026 लाइनअप लॉन्च कर दिया है, जिसमें कई **CPU** और **GPU** विकल',
