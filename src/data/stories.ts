@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-meta-ka-naya-ai-move',
+        title: 'Meta का नया AI Move 🤖',
+        subtitle: 'Meta ने अपने कर्मचारियों के कीस्ट्रोक्स को रिकॉर्ड करने का फैसला किया है, तो क्या यह हमारी प्राइवेसी',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Meta%20will%20record%20employees’%20keystrokes%20and%20use%20it%20to%20train%20its%20AI%20models?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-ktm-390-duke-390-adventure-launch',
         title: 'KTM 390 Duke, 390 Adventure Launch 🚴‍♂️',
         subtitle: 'KTM ne apne 390 Duke aur 390 Adventure line-up mein naye 350cc variants launch kiye, jo ki entry pri',
