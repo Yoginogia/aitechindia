@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-apple-ka-naya-boss-john-ternus',
+        title: 'Apple का नया Boss: John Ternus — Power और Pressure 🚀',
+        subtitle: 'यार, अब Apple का नया Boss है John Ternus, जो कंपनी को आगे ले जाने की कोशिश करेगा। क्या वो सफल हो पाए',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Apple’s%20John%20Ternus%20will%20run%20one%20of%20the%20world’s%20most%20powerful%20companies;%20the?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-spacex-deal-with-cursor',
         title: 'SpaceX का नया Deal — $60 Billion का **Option**! 🚀',
         subtitle: 'यार, अब imagine करो — SpaceX और Cursor का नया Deal क्या है?, यह सिर्फ एक **Option** है या कुछ और?, ज',
