@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-flipkart-sale-deal',
+        title: 'Flipkart पर **Sale**! 🛍️',
+        subtitle: 'यार, **Flipkart** पर अभी बहुत ही बढ़िया **Deal** है! **Price** कम है और **Discount** ज्यादा है!',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/WhatsApp%20Is%20Testing%20A%20Paid%20Subscription:%20But%20Don’t%20Expect%20It%20to%20Do%20Anything%?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-ads-ai-security-update',
         title: 'Google Ads का नया AI सुरक्षा Update 🚀',
         subtitle: 'Google Ads ने 3 नए तरीके से अपनी सुरक्षा को मजबूत किया है, जानें क्या हैं वे तरीके और कैसे वे आपके व',
