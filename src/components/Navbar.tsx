@@ -7,16 +7,33 @@ import { Menu, Search, X, ChevronDown } from 'lucide-react';
 import SearchModal from './SearchModal';
 import { ThemeToggle } from './ThemeToggle';
 
-const NAV_CATEGORIES = [
+// ── Types ──
+type NavItem = {
+    href: string;
+    label: string;
+    emoji: string;
+    color: string;
+    children?: { href: string; label: string; emoji: string; desc: string }[];
+};
+
+const NAV_CATEGORIES: NavItem[] = [
     { href: '/',            label: 'Home',          emoji: '🏠', color: 'from-slate-500 to-slate-700' },
     { href: '/latest',      label: 'Latest',        emoji: '🔥', color: 'from-orange-500 to-red-500' },
     { href: '/web-stories', label: 'Web Stories',   emoji: '⚡', color: 'from-yellow-400 to-orange-500' },
     { href: '/ai-tools',    label: 'AI Tools',      emoji: '🤖', color: 'from-blue-500 to-cyan-400' },
     { href: '/gadgets',     label: 'Gadgets & EVs', emoji: '📱🚗', color: 'from-purple-500 to-pink-500' },
-    { href: '/best-phones', label: 'Best Phones',   emoji: '📱', color: 'from-green-400 to-emerald-500' },
-    { href: '/upcoming-phones', label: 'Upcoming',  emoji: '📅', color: 'from-amber-400 to-orange-500' },
+    {
+        href: '/best-phones',
+        label: 'Phones',
+        emoji: '📱',
+        color: 'from-green-400 to-emerald-500',
+        children: [
+            { href: '/best-phones',     label: 'Best Phones',     emoji: '🏆', desc: 'Top rated phones India 2026' },
+            { href: '/upcoming-phones', label: 'Upcoming Phones', emoji: '📅', desc: 'जल्द आने वाले smartphones' },
+            { href: '/compare',         label: 'Compare Phones',  emoji: '⚖️', desc: 'दो phones को compare करें' },
+        ],
+    },
     { href: '/best-laptops',label: 'Best Laptops',  emoji: '💻', color: 'from-teal-400 to-blue-500' },
-    { href: '/compare',     label: 'Compare',       emoji: '⚖️', color: 'from-indigo-500 to-purple-500' },
     { href: '/crypto',      label: 'Crypto',        emoji: '💰', color: 'from-yellow-500 to-amber-400' },
     { href: '/top-deals',   label: 'Top Deals',     emoji: '🛒', color: 'from-pink-500 to-rose-500' },
     { href: '/software',    label: 'Updates',       emoji: '🔄', color: 'from-cyan-500 to-blue-500' },
@@ -24,12 +41,30 @@ const NAV_CATEGORIES = [
     { href: '/dictionary',  label: 'Dictionary',    emoji: '📖', color: 'from-teal-400 to-cyan-500' },
 ];
 
-const MOBILE_LINKS = NAV_CATEGORIES;
+// Mobile uses flat list
+const MOBILE_LINKS = [
+    { href: '/',            label: 'Home',          emoji: '🏠' },
+    { href: '/latest',      label: 'Latest',        emoji: '🔥' },
+    { href: '/web-stories', label: 'Web Stories',   emoji: '⚡' },
+    { href: '/ai-tools',    label: 'AI Tools',      emoji: '🤖' },
+    { href: '/gadgets',     label: 'Gadgets & EVs', emoji: '📱🚗' },
+    { href: '/best-phones', label: 'Best Phones',   emoji: '📱' },
+    { href: '/upcoming-phones', label: 'Upcoming Phones', emoji: '📅' },
+    { href: '/best-laptops',label: 'Best Laptops',  emoji: '💻' },
+    { href: '/compare',     label: 'Compare',       emoji: '⚖️' },
+    { href: '/crypto',      label: 'Crypto',        emoji: '💰' },
+    { href: '/top-deals',   label: 'Top Deals',     emoji: '🛒' },
+    { href: '/software',    label: 'Updates',       emoji: '🔄' },
+    { href: '/daily-hints', label: 'Daily Hints',   emoji: '🧩' },
+    { href: '/dictionary',  label: 'Dictionary',    emoji: '📖' },
+];
 
 export default function Navbar() {
     const [isSearchOpen, setIsSearchOpen] = useState(false);
     const [isMobileOpen, setIsMobileOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
+    const [openDropdown, setOpenDropdown] = useState<string | null>(null);
+    const dropdownTimeoutRef = useRef<NodeJS.Timeout | null>(null);
     const pathname = usePathname();
 
     useEffect(() => { setIsMobileOpen(false); }, [pathname]);
@@ -47,6 +82,15 @@ export default function Navbar() {
 
     const isActive = (path: string) =>
         path === '/' ? pathname === '/' : pathname?.startsWith(path);
+
+    const handleMouseEnter = (href: string) => {
+        if (dropdownTimeoutRef.current) clearTimeout(dropdownTimeoutRef.current);
+        setOpenDropdown(href);
+    };
+
+    const handleMouseLeave = () => {
+        dropdownTimeoutRef.current = setTimeout(() => setOpenDropdown(null), 200);
+    };
 
     return (
         <>
@@ -74,8 +118,6 @@ export default function Navbar() {
                             </div>
                         </Link>
 
-
-
                         {/* Right Actions */}
                         <div className="flex items-center gap-1.5">
                             <ThemeToggle />
@@ -98,24 +140,84 @@ export default function Navbar() {
                     </div>
                 </div>
 
-                {/* ── BOTTOM BAR: Category Strip ── */}
+                {/* ── BOTTOM BAR: Category Strip with Dropdowns ── */}
                 <div className="hidden lg:block bg-card/80 backdrop-blur-xl border-b border-border/30">
                     <div className="container mx-auto max-w-7xl px-4 md:px-6">
                         <nav className="flex items-center gap-1 overflow-x-auto no-scrollbar py-1.5">
-                            {NAV_CATEGORIES.map(({ href, label, emoji, color }) => {
-                                const active = isActive(href);
+                            {NAV_CATEGORIES.map((item) => {
+                                const hasDropdown = item.children && item.children.length > 0;
+                                const active = isActive(item.href) || (item.children?.some(c => isActive(c.href)) ?? false);
+                                const isDropdownOpen = openDropdown === item.href;
+
+                                if (hasDropdown) {
+                                    return (
+                                        <div
+                                            key={item.href}
+                                            className="relative"
+                                            onMouseEnter={() => handleMouseEnter(item.href)}
+                                            onMouseLeave={handleMouseLeave}
+                                        >
+                                            {/* Parent Button */}
+                                            <button
+                                                className={`group relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-200 border ${
+                                                    active
+                                                        ? `bg-gradient-to-r ${item.color} text-white shadow-lg border-transparent scale-[1.04]`
+                                                        : 'bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border-indigo-400/30 text-indigo-900 dark:text-indigo-300 hover:from-indigo-500/20 hover:to-pink-500/20 hover:border-purple-400/50 hover:text-indigo-900 dark:hover:text-white hover:shadow-sm'
+                                                }`}
+                                            >
+                                                <span className={`transition-transform duration-200 ${active ? '' : 'group-hover:scale-125'}`}>{item.emoji}</span>
+                                                {item.label}
+                                                <ChevronDown className={`w-3 h-3 transition-transform duration-200 ${isDropdownOpen ? 'rotate-180' : ''}`} />
+                                                {active && (
+                                                    <span className="absolute -bottom-[9px] left-1/2 -translate-x-1/2 w-2 h-0.5 bg-primary rounded-full" />
+                                                )}
+                                            </button>
+
+                                            {/* Dropdown Menu */}
+                                            <div className={`absolute top-full left-0 mt-1.5 w-60 rounded-xl border border-border/40 bg-card/95 backdrop-blur-xl shadow-2xl shadow-black/20 overflow-hidden transition-all duration-200 origin-top ${
+                                                isDropdownOpen ? 'opacity-100 scale-100 pointer-events-auto' : 'opacity-0 scale-95 pointer-events-none'
+                                            }`}>
+                                                <div className="p-1.5">
+                                                    {item.children!.map((child) => {
+                                                        const childActive = isActive(child.href);
+                                                        return (
+                                                            <Link
+                                                                key={child.href}
+                                                                href={child.href}
+                                                                className={`flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-150 ${
+                                                                    childActive
+                                                                        ? 'bg-primary/15 text-primary'
+                                                                        : 'text-foreground/80 hover:bg-secondary/60 hover:text-foreground'
+                                                                }`}
+                                                            >
+                                                                <span className="text-lg w-7 text-center">{child.emoji}</span>
+                                                                <div className="flex-1 min-w-0">
+                                                                    <p className="text-sm font-semibold leading-tight">{child.label}</p>
+                                                                    <p className="text-[10px] text-muted-foreground leading-tight mt-0.5">{child.desc}</p>
+                                                                </div>
+                                                                {childActive && <span className="w-1.5 h-1.5 rounded-full bg-primary shrink-0" />}
+                                                            </Link>
+                                                        );
+                                                    })}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    );
+                                }
+
+                                // Regular nav link (no dropdown)
                                 return (
                                     <Link
-                                        key={href}
-                                        href={href}
+                                        key={item.href}
+                                        href={item.href}
                                         className={`group relative flex items-center gap-1.5 px-3.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all duration-200 border ${
                                             active
-                                                ? `bg-gradient-to-r ${color} text-white shadow-lg border-transparent scale-[1.04]`
+                                                ? `bg-gradient-to-r ${item.color} text-white shadow-lg border-transparent scale-[1.04]`
                                                 : 'bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border-indigo-400/30 text-indigo-900 dark:text-indigo-300 hover:from-indigo-500/20 hover:to-pink-500/20 hover:border-purple-400/50 hover:text-indigo-900 dark:hover:text-white hover:shadow-sm'
                                         }`}
                                     >
-                                        <span className={`transition-transform duration-200 ${active ? '' : 'group-hover:scale-125'}`}>{emoji}</span>
-                                        {label}
+                                        <span className={`transition-transform duration-200 ${active ? '' : 'group-hover:scale-125'}`}>{item.emoji}</span>
+                                        {item.label}
                                         {active && (
                                             <span className="absolute -bottom-[9px] left-1/2 -translate-x-1/2 w-2 h-0.5 bg-primary rounded-full" />
                                         )}
