@@ -14,11 +14,13 @@ const NAV_CATEGORIES = [
     { href: '/ai-tools',    label: 'AI Tools',      emoji: '🤖', color: 'from-blue-500 to-cyan-400' },
     { href: '/gadgets',     label: 'Gadgets & EVs', emoji: '📱🚗', color: 'from-purple-500 to-pink-500' },
     { href: '/best-phones', label: 'Best Phones',   emoji: '📱', color: 'from-green-400 to-emerald-500' },
+    { href: '/upcoming-phones', label: 'Upcoming',  emoji: '📅', color: 'from-amber-400 to-orange-500' },
     { href: '/best-laptops',label: 'Best Laptops',  emoji: '💻', color: 'from-teal-400 to-blue-500' },
     { href: '/compare',     label: 'Compare',       emoji: '⚖️', color: 'from-indigo-500 to-purple-500' },
     { href: '/crypto',      label: 'Crypto',        emoji: '💰', color: 'from-yellow-500 to-amber-400' },
     { href: '/top-deals',   label: 'Top Deals',     emoji: '🛒', color: 'from-pink-500 to-rose-500' },
     { href: '/software',    label: 'Updates',       emoji: '🔄', color: 'from-cyan-500 to-blue-500' },
+    { href: '/daily-hints', label: 'Daily Hints',   emoji: '🧩', color: 'from-yellow-500 to-green-500' },
     { href: '/dictionary',  label: 'Dictionary',    emoji: '📖', color: 'from-teal-400 to-cyan-500' },
 ];
 
