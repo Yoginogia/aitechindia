@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-kalshi-crypto-expansion',
+        title: 'Kalshi का Crypto Expansion — Future Bright है? 🚀',
+        subtitle: 'Kalshi में Crypto Perpetual Futures लॉन्च होने वाला है, जो US में Regulated Derivatives Offerings को',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/Kalshi%20mulls%20crypto%20expansion%20with%20perpetual%20futures%20launch:%20Report?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-france-data-breach-kyon',
         title: 'France में Data Breach — क्या है ये **Bug**? 🚨',
         subtitle: 'France की सरकारी एजेंसी France Titres में **Data Breach** हुआ है, जिसमें नागरिकों का डेटा चोरी हो गय',
