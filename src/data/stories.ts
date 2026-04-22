@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-royal-enfield-himalayan-440-launch',
+        title: 'Royal Enfield Himalayan 440 आ रही है! 🚴',
+        subtitle: 'Royal Enfield की नई **Himalayan 440** आ रही है, जो पुरानी 411 की जगह लेगी। यह बाइक **D4G** कोडनेम से',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Royal%20Enfield%20Himalayan%20440%20in%20the%20works?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-naya-smartphone-launch-kya-yeh-hai-best-deal',
         title: 'नया Smartphone Launch: क्या ये है Best Deal? 📱',
         subtitle: 'नया स्मार्टफोन लॉन्च हुआ है, जिसमें **CPU**, **GPU**, और **RAM** के साथ कई अन्य फीचर्स हैं। क्या यह ',
