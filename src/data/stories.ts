@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-gm-g-isport-qi2-2-in-1-wireless-charger-deal',
+        title: 'GM G+ iSmart Qi2 2-in-1 Wireless Charger Deal 📈',
+        subtitle: 'GM G+ iSmart Qi2 2-in-1 Wireless Charger की समीक्षा — क्या यह **iPhone** और **Apple Watch** यूजर्स क',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/GM%20G+%20iSmart%20Qi2%202-in-1%20Wireless%20Charger%20Review:%20The%20Magnetic%20Travel%20Charger%2?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-tpu-agentic-era',
         title: 'Google का नया TPU — Agentic Era में क्रांति ला सकता है! 🚀',
         subtitle: 'Google ने अपने नए TPU को लॉन्च किया है, जो Agentic Era में क्रांति ला सकता है। यह **AI** के भविष्य क',
