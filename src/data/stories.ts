@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-kawasaki-ninja-1100sx-panniers-offer',
+        title: 'Kawasaki Ninja 1100SX: **₹1.25 लाख** के पैनियर्स फ्री में! 🚴',
+        subtitle: 'कावासाकी निन्जा 1100एसएक्स पर **₹1.25 लाख** के पैनियर्स फ्री में मिल रहे हैं! यह ऑफर सीमित समय के लि',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Kawasaki%20Ninja%201100SX%20offered%20with%20panniers%20worth%20Rs%201.25%20lakh?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-crypto-market-rally',
         title: 'क्या Bitcoin फिर से उड़ान भरेगा? 🚀',
         subtitle: 'Bitcoin और Ether की कीमतें बढ़ीं, यूएस लिक्विडिटी मेजर्स और रिकॉर्ड स्पॉट ईटीएफ इनफ्लो ने निवेशकों क',
