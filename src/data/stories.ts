@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-tpu-agentic-era',
+        title: 'Google का नया TPU — Agentic Era में क्रांति ला सकता है! 🚀',
+        subtitle: 'Google ने अपने नए TPU को लॉन्च किया है, जो Agentic Era में क्रांति ला सकता है। यह **AI** के भविष्य क',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/We're%20launching%20two%20specialized%20TPUs%20for%20the%20agentic%20era.?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-spacex-60b-deal-ai-future',
         title: 'SpaceX का $60B Deal — क्या ये AI का भविष्य है? 🚀',
         subtitle: 'SpaceX ने Cursor को $2B फंडिंग के बजाय $60B डील का ऑफर दिया, क्या ये AI के भविष्य को बदल देगा? यार, ',
