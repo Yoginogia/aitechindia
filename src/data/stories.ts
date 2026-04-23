@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-crypto-market-rally',
+        title: 'क्या Bitcoin फिर से उड़ान भरेगा? 🚀',
+        subtitle: 'Bitcoin और Ether की कीमतें बढ़ीं, यूएस लिक्विडिटी मेजर्स और रिकॉर्ड स्पॉट ईटीएफ इनफ्लो ने निवेशकों क',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/Four%20reasons%20why%20the%20crypto%20market%20is%20rallying%20today:%20Will%20bulls%20maintain%20co?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-longitude-crypto-regulation-discussion',
         title: 'LONGITUDE: Crypto Regulation की बातचीत 🤔',
         subtitle: 'LONGITUDE में Adam Back ने Satoshi के बारे में बात की, और OKX Europe के CEO ने MiCA को फायदेमंद बताय',
