@@ -121,6 +121,10 @@ export function getSortedPostsData(): PostData[] {
                 authorRole,
                 authorImage,
                 ...(safeData as { title: string; date: string; category: string; excerpt: string, image?: string }),
+                // Ensure required fields always have a value (some old articles may lack them)
+                category: safeData.category || category || 'Tech',
+                excerpt: safeData.excerpt || safeData.title || '',
+                title: safeData.title || slug,
             };
         });
 

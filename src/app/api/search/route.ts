@@ -9,16 +9,21 @@ export async function GET(request: Request) {
         return NextResponse.json({ results: [] });
     }
 
-    const allPosts = getSortedPostsData();
-    const lowercaseQuery = query.toLowerCase();
+    try {
+        const allPosts = getSortedPostsData();
+        const lowercaseQuery = query.toLowerCase();
 
-    const results = allPosts.filter((post) => {
-        return (
-            post.title.toLowerCase().includes(lowercaseQuery) ||
-            post.excerpt.toLowerCase().includes(lowercaseQuery) ||
-            post.category.toLowerCase().includes(lowercaseQuery)
-        );
-    });
+        const results = allPosts.filter((post) => {
+            return (
+                (post.title || '').toLowerCase().includes(lowercaseQuery) ||
+                (post.excerpt || '').toLowerCase().includes(lowercaseQuery) ||
+                (post.category || '').toLowerCase().includes(lowercaseQuery)
+            );
+        }).slice(0, 20); // Limit to 20 results for performance
 
-    return NextResponse.json({ results });
+        return NextResponse.json({ results });
+    } catch (error) {
+        console.error('Search API error:', error);
+        return NextResponse.json({ results: [], error: 'Search failed' }, { status: 500 });
+    }
 }
