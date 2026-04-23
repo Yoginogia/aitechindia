@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-ka-naya-ai-update',
+        title: 'Google का नया AI Update — क्रांति है या हype? 🤔',
+        subtitle: 'यार, अब Google ने अपने **Workspace** में नया **AI** सिस्टम लॉन्च किया है। इसके साथ ही कई नए ऑटोमेटेड',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Google%20updates%20Workspace%20to%20make%20AI%20your%20new%20office%20intern?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-tesla-increases-spending-plan-to-25b',
         title: 'Tesla का $25B Spend Plan — क्या होगा असर? 🚀',
         subtitle: 'Tesla ने अपना स्पेंडिंग प्लान बढ़ाया, क्या यह कंपनी के लिए फायदेमंद होगा? जानने के लिए पढ़ें।',
