@@ -1,9 +1,9 @@
----
+﻿---
 title: "Google का नया AI Update — क्रांति है या हype? 🤔"
 date: "23 April 2026"
 category: "AI"
 excerpt: "यार, अब Google ने अपने **Workspace** में नया **AI** सिस्टम लॉन्च किया है। इसके साथ ही कई नए ऑटोमेटेड फीचर्स भी जोड़े गए हैं। क्या यह सचमुच क्रांति लाने वाला है या सिर्फ हYPE?"
-image: "https://image.pollinations.ai/prompt/Google%20updates%20Workspace%20to%20make%20AI%20your%20new%20office%20intern?width=1200&height=630&nologo=true"
+image: "/images/blog/google_ai_update.png"
 readingTime: "5 min read"
 ---
 

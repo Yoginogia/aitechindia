@@ -1,9 +1,9 @@
----
+﻿---
 title: "X का नया AI-Powered Feed — Custom है या Flop? 🤔"
 date: "23 April 2026"
 category: "AI"
 excerpt: "यार, अब X के नए AI-Powered Custom Feeds के साथ अपने फीड को कस्टमाइज़ करो! Grok-curated feeds और नए ad slots के साथ यह क्या बदलाव ला सकता है"
-image: "https://image.pollinations.ai/prompt/Hands%20on%20with%20X’s%20new%20AI-powered%20custom%20feeds?width=1200&height=630&nologo=true"
+image: "/images/blog/x_twitter_ai_feed.png"
 readingTime: "5 min read"
 ---
 

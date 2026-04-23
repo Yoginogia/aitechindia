@@ -1,9 +1,9 @@
----
+﻿---
 title: "क्या Bitcoin फिर से उड़ान भरेगा? 🚀"
 date: "23 April 2026"
 category: "Crypto"
 excerpt: "Bitcoin और Ether की कीमतें बढ़ीं, यूएस लिक्विडिटी मेजर्स और रिकॉर्ड स्पॉट ईटीएफ इनफ्लो ने निवेशकों को राहत दी"
-image: "https://image.pollinations.ai/prompt/Four%20reasons%20why%20the%20crypto%20market%20is%20rallying%20today:%20Will%20bulls%20maintain%20co?width=1200&height=630&nologo=true"
+image: "/images/blog/crypto_market_rally.png"
 readingTime: "5 min read"
 ---
 

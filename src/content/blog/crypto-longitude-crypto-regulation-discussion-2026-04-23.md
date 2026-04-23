@@ -1,9 +1,9 @@
----
+﻿---
 title: "LONGITUDE: Crypto Regulation की बातचीत 🤔"
 date: "23 April 2026"
 category: "Crypto"
 excerpt: "LONGITUDE में Adam Back ने Satoshi के बारे में बात की, और OKX Europe के CEO ने MiCA को फायदेमंद बताया। क्या है इसका **Bitcoin** पर असर?"
-image: "https://image.pollinations.ai/prompt/LONGITUDE%20recap:%20Adam%20Back%20on%20Satoshi,%20crypto%20regulation%20needs%20tweaks?width=1200&height=630&nologo=true"
+image: "/images/blog/crypto_market_rally.png"
 readingTime: "5 min read"
 ---
 

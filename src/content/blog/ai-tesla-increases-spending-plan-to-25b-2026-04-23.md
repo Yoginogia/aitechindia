@@ -1,9 +1,9 @@
----
+﻿---
 title: "Tesla का $25B Spend Plan — क्या होगा असर? 🚀"
 date: "23 April 2026"
 category: "AI"
 excerpt: "Tesla ने अपना स्पेंडिंग प्लान बढ़ाया, क्या यह कंपनी के लिए फायदेमंद होगा? जानने के लिए पढ़ें।"
-image: "https://image.pollinations.ai/prompt/Tesla%20just%20increased%20its%20spending%20plan%20to%20$25B%20—%20here’s%20where%20the%20money%20is?width=1200&height=630&nologo=true"
+image: "/images/blog/tesla_spending.png"
 readingTime: "5 min read"
 ---
 
