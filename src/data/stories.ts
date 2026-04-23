@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-spacex-60b-deal-ai-future',
+        title: 'SpaceX का $60B Deal — क्या ये AI का भविष्य है? 🚀',
+        subtitle: 'SpaceX ने Cursor को $2B फंडिंग के बजाय $60B डील का ऑफर दिया, क्या ये AI के भविष्य को बदल देगा? यार, ',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/How%20SpaceX%20preempted%20a%20$2B%20fundraise%20with%20a%20$60B%20buyout%20offer?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-x-ka-naya-ai-powered-feed',
         title: 'X का नया AI-Powered Feed — Custom है या Flop? 🤔',
         subtitle: 'यार, अब X के नए AI-Powered Custom Feeds के साथ अपने फीड को कस्टमाइज़ करो! Grok-curated feeds और नए a',
