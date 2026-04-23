@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-asus-expertbook-ultra-deal',
+        title: 'Asus ExpertBook Ultra: शानदार Deal! 📊',
+        subtitle: 'Asus ExpertBook Ultra भारत में लॉन्च हो गया है, इसकी कीमत **Rs. 1,49,990** से शुरू होती है। यह लैपटॉ',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/Asus%20ExpertBook%20Ultra%20Arrives%20in%20India:%20Panther%20Lake%20Power,%20Military%20Toughness,%?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-gm-g-isport-qi2-2-in-1-wireless-charger-deal',
         title: 'GM G+ iSmart Qi2 2-in-1 Wireless Charger Deal 📈',
         subtitle: 'GM G+ iSmart Qi2 2-in-1 Wireless Charger की समीक्षा — क्या यह **iPhone** और **Apple Watch** यूजर्स क',
