@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-x-ka-naya-ai-powered-feed',
+        title: 'X का नया AI-Powered Feed — Custom है या Flop? 🤔',
+        subtitle: 'यार, अब X के नए AI-Powered Custom Feeds के साथ अपने फीड को कस्टमाइज़ करो! Grok-curated feeds और नए a',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Hands%20on%20with%20X’s%20new%20AI-powered%20custom%20feeds?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-ka-naya-ai-update',
         title: 'Google का नया AI Update — क्रांति है या हype? 🤔',
         subtitle: 'यार, अब Google ने अपने **Workspace** में नया **AI** सिस्टम लॉन्च किया है। इसके साथ ही कई नए ऑटोमेटेड',
