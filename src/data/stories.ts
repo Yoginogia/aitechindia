@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-bmw-7-series-facelift-electric-vehicle',
+        title: 'BMW 7 Series फेसलिफ्ट — Electric का नया दौर 🚗',
+        subtitle: 'BMW ने अपनी फ्लैगशिप ल्यूक्सुरी सेडान 7 Series का फेसलिफ्ट वर्जन लॉन्च किया है, जिसमें **petrol**, *',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/BMW%20unveils%207%20Series%20facelift?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-kawasaki-ninja-1100sx-panniers-offer',
         title: 'Kawasaki Ninja 1100SX: **₹1.25 लाख** के पैनियर्स फ्री में! 🚴',
         subtitle: 'कावासाकी निन्जा 1100एसएक्स पर **₹1.25 लाख** के पैनियर्स फ्री में मिल रहे हैं! यह ऑफर सीमित समय के लि',
