@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-apple-ka-naya-update-bug-fix-hai',
+        title: 'Apple का नया **Update** — **Bug** Fix है! 📱',
+        subtitle: 'Apple ने अपने **iOS** में एक新的 **Bug** को फिक्स किया है, जो नोटिफिकेशन को डिलीट करने के बाद भी स्टोर',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: 'https://image.pollinations.ai/prompt/Apple%20fixes%20iOS%20bug%20that%20retained%20deleted%20notification%20data?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-asus-expertbook-ultra-deal',
         title: 'Asus ExpertBook Ultra: शानदार Deal! 📊',
         subtitle: 'Asus ExpertBook Ultra भारत में लॉन्च हो गया है, इसकी कीमत **Rs. 1,49,990** से शुरू होती है। यह लैपटॉ',
