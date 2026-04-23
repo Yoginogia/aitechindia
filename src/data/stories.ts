@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-tesla-increases-spending-plan-to-25b',
+        title: 'Tesla का $25B Spend Plan — क्या होगा असर? 🚀',
+        subtitle: 'Tesla ने अपना स्पेंडिंग प्लान बढ़ाया, क्या यह कंपनी के लिए फायदेमंद होगा? जानने के लिए पढ़ें।',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Tesla%20just%20increased%20its%20spending%20plan%20to%20$25B%20—%20here’s%20where%20the%20money%20is?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-royal-enfield-himalayan-440-launch',
         title: 'Royal Enfield Himalayan 440 आ रही है! 🚴',
         subtitle: 'Royal Enfield की नई **Himalayan 440** आ रही है, जो पुरानी 411 की जगह लेगी। यह बाइक **D4G** कोडनेम से',
