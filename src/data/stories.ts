@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-longitude-crypto-regulation-discussion',
+        title: 'LONGITUDE: Crypto Regulation की बातचीत 🤔',
+        subtitle: 'LONGITUDE में Adam Back ने Satoshi के बारे में बात की, और OKX Europe के CEO ने MiCA को फायदेमंद बताय',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/LONGITUDE%20recap:%20Adam%20Back%20on%20Satoshi,%20crypto%20regulation%20needs%20tweaks?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-apple-ka-naya-update-bug-fix-hai',
         title: 'Apple का नया **Update** — **Bug** Fix है! 📱',
         subtitle: 'Apple ने अपने **iOS** में एक新的 **Bug** को फिक्स किया है, जो नोटिफिकेशन को डिलीट करने के बाद भी स्टोर',
