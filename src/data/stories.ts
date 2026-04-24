@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-invests-in-alps-data-center',
+        title: 'Google का नया Data Center — Alps में क्या है खास? 🏔️',
+        subtitle: 'Google ने अपना पहला **Data Center** Alps में लगाया है, जो कि एक बड़ी खबर है! यार, अब imagine करो — **',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Elevating%20Austria:%20Google%20invests%20in%20its%20first%20data%20center%20in%20the%20Alps.?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-bmw-f-450-gs-launched-in-india',
         title: 'BMW F 450 GS लॉन्च — क्या यह बेस्ट बाइक है? 🚴',
         subtitle: 'BMW Motorrad ने अपनी नई बाइक F 450 GS लॉन्च कर दी है, जिसकी कीमत **Rs 4.70 lakh** से शुरू होती है। य',
