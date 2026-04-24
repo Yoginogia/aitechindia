@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-metaplanet-raises-50m-in-zero-interest-bonds',
+        title: 'Metaplanet का **Bitcoin** Deal — क्या है इसका Meaning? 🚀',
+        subtitle: 'Metaplanet ने **$50M** के zero-interest bonds जारी किए, **Bitcoin** खरीदने के लिए। क्या यह भारतीय नि',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/Metaplanet%20raises%20$50M%20in%20zero-interest%20bonds%20to%20buy%20more%20Bitcoin?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-microsoft-copilot-uninstall-feature',
         title: 'Microsoft Copilot को Uninstall करें! 🚀',
         subtitle: 'Microsoft ने Copilot को Uninstall करने की अनुमति दी है, **IT administrators** के लिए नया पॉलिसी सेटि',
