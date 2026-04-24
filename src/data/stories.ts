@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-bmw-f-450-gs-launched-in-india',
+        title: 'BMW F 450 GS लॉन्च — क्या यह बेस्ट बाइक है? 🚴',
+        subtitle: 'BMW Motorrad ने अपनी नई बाइक F 450 GS लॉन्च कर दी है, जिसकी कीमत **Rs 4.70 lakh** से शुरू होती है। य',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/BMW%20F%20450%20GS%20launched%20from%20Rs%204.70%20lakh?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-lamborghini-urus-se-tettonero-capsule',
         title: 'Lamborghini Urus SE Tettonero Capsule 🚗',
         subtitle: 'Lamborghini ने अपनी Limited Edition Urus SE Tettonero Capsule लॉन्च कर दी है, जो केवल 630 यूनिट्स तक',
