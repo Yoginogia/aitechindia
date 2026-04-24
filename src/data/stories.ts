@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-nissan-urban-suv-terrano-phev-launch',
+        title: 'Nissan का नया Urban SUV और Terrano PHEV — EV क्रांति में बड़',
+        subtitle: 'Nissan ने अपने नए Urban SUV और Terrano PHEV कॉन्सेप्ट्स से पर्दा उठा दिया है, जो कि चीनी मार्केट के ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Nissan%20unveils%20Urban%20SUV%20and%20Terrano%20PHEV%20concepts?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-crypto-strike-701m-frozen',
         title: 'Crypto Strike: $701M फ्रीज हुए! 🚨',
         subtitle: 'US DOJ ने $701M क्रिप्टो फ्रीज किए, 503 फेक वेबसाइट्स बंद की, क्या आपके पैसे सुरक्षित हैं?',
