@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-codex-top-10-uses-at-work',
+        title: 'Codex के Top 10 Uses — Work को आसान बनाएं! 🚀',
+        subtitle: 'Codex के साथ अपने काम को आसान बनाएं, जानें इसके 10 सबसे उपयोगी तरीके, AI और Automation के साथ काम को',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Top%2010%20uses%20for%20Codex%20at%20work?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-invests-in-alps-data-center',
         title: 'Google का नया Data Center — Alps में क्या है खास? 🏔️',
         subtitle: 'Google ने अपना पहला **Data Center** Alps में लगाया है, जो कि एक बड़ी खबर है! यार, अब imagine करो — **',
