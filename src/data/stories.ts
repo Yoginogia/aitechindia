@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-trump-memecoin-gala-bitcoin',
+        title: 'Trump का Memecoin Gala पर Address — क्या होगा **Bitcoin** का',
+        subtitle: 'यार, **Crypto** मार्केट में हो रहा है क्या? **Trump** का मेमेकॉइन गाला पर एड्रेस देने का क्या मतलब ह',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/White%20House%20confirms%20Trump%20to%20address%20memecoin%20gala%20on%20Saturday?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-bitwarden-cli-compromised',
         title: 'Bitwarden CLI Compromised: डेवलपर क्रेडेंशियल्स चोरी हो सकते',
         subtitle: 'Bitwarden CLI npm पैकेज में मैलिशस कोड मिला, डेवलपर क्रेडेंशियल्स चोरी हो सकते हैं। सावधानी बरतें और',
