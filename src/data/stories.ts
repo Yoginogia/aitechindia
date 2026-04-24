@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-price-prediction',
+        title: 'Bitcoin की नई Height — $86K तक पहुंचेगा? 🚀',
+        subtitle: 'Bitcoin की कीमत में 30% से 60% की वृद्धि हो सकती है अगर यह $86,000 तक पहुंच जाता है। MN Trading Capi',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/Altcoins%20have%20‘30%%20to%2060%’%20upside%20if%20Bitcoin%20taps%20$86K:%20Analyst?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-breeze-cache-bug-exploit',
         title: 'Breeze Cache में Bug का खतरा 🚨',
         subtitle: 'हैकर्स ने Breeze Cache प्लगिन में एक_critical वल्नरेबिलिटी का फायदा उठाया है, जिससे वे किसी भी फाइल ',
