@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-bret-taylor-sierra-buys-fragment-ai-deal',
+        title: 'Bret Taylor की Sierra ने Fragment खरीदा — AI में नया Deal 🚀',
+        subtitle: 'यार, अब Fragment एक नए घर में है! Bret Taylor की Sierra ने इस YC-backed AI स्टार्टअप को खरीद लिया है',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Bret%20Taylor’s%20Sierra%20buys%20YC-backed%20AI%20startup%20Fragment?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-bmw-7-series-facelift-electric-vehicle',
         title: 'BMW 7 Series फेसलिफ्ट — Electric का नया दौर 🚗',
         subtitle: 'BMW ने अपनी फ्लैगशिप ल्यूक्सुरी सेडान 7 Series का फेसलिफ्ट वर्जन लॉन्च किया है, जिसमें **petrol**, *',
