@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-oppo-k14-5g-lag-killer-smartphone-under-25000',
+        title: 'OPPO K14 5G: ₹25,000 से कम में Lag Killer Smartphone 📱',
+        subtitle: 'OPPO K14 5G एक ऐसा स्मार्टफोन है जो आपको **₹25,000** से कम में मिल सकता है और यह एक **Lag Killer** स',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/OPPO%20K14%205G%20Overview:%20Lag%20Killer%20Smartphone%20Under%20₹25,000,%20That%20Actually%20Stays?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-poco-c81-series-launched-in-india',
         title: 'POCO C81 सीरीज़ लॉन्च — **₹9,999** से शुरू 📱',
         subtitle: 'POCO C81 सीरीज़ में **4G** कनेक्टिविटी के साथ लॉन्च हुई है, जिसकी कीमत **₹9,999** से शुरू होती है। य',
