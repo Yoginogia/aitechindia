@@ -1,7 +1,7 @@
 ---
 title: "हिंदी बोलो, French सुनो! DeepL का Real-Time Voice Translator हुआ Launch 🎙️"
 slug: "deepl-voice-to-voice-real-time-translation-launch"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "Language AI की दिग्गज कंपनी DeepL ने अपना नया 'Voice-to-Voice' Translation Tool Launch किया है। अब आप Live Meeting में Hindi बोलें और दूसरे को अपनी भाषा में सुनाई देगा — बिल्कुल Real-Time!"
 image: "/images/blog/deepl_voice_translator.webp"
 category: "AI"

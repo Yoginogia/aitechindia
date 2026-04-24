@@ -3,7 +3,7 @@ title: "Tecno Spark 30 Ultra: ₹13,000 में 108MP Camera — Budget Champi
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Tecno Spark 30 Ultra May 2026 में Launching Soon! 108MP Camera, 5000mAh Battery, 33W Charging — सबसे सस्ते में सबसे best!"
-image: "/images/blog/upcoming_budget_phones.png"
+image: "/images/blog/upcoming_budget_phones.webp"
 readingTime: "4 min read"
 ---
 

@@ -1,6 +1,6 @@
 ﻿---
 title: "XRP की कीमत में उछाल! Ripple सबसे आगे 🚀"
-date: "20 April 2026"
+date: "2026-04-20"
 category: "Crypto"
 excerpt: "XRP की कीमत इस हफ्ते $1.40 के ऊपर पहुँच गई है। क्या अगले हफ्ते भी ऐसा होगा? Ripple की पूरी analysis यहाँ पढ़ें।"
 image: "https://images.unsplash.com/photo-1622630998477-20aa696ecb05?auto=format&fit=crop&q=80&w=1200"

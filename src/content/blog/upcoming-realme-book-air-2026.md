@@ -3,7 +3,7 @@ title: "Realme Book Air: ₹40,000 में Metal Body Laptop — Budget King"
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Realme का upcoming laptop — Ryzen 5 8645HS, 8GB LPDDR5, 14 inch FHD+, Metal 1.3kg। Expected Price ₹39,999 से शुरू, Launch June 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

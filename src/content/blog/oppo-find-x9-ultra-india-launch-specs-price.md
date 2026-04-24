@@ -1,7 +1,7 @@
 ---
 title: "Oppo Find X9 Ultra India Launch: 7050mAh Battery + 100W Charging, Samsung S26 Ultra का सबसे बड़ा दुश्मन आया! 🔥"
 slug: "oppo-find-x9-ultra-india-launch-specs-price"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "Oppo का सबसे ताकतवर Flagship Phone 'Find X9 Ultra' भारत में आने वाला है! Snapdragon 8 Elite Gen 5, 144Hz LTPO AMOLED Display और एक राक्षसी 7050mAh Battery के साथ यह Samsung Galaxy S26 Ultra का कड़ा मुकाबला करेगा।"
 image: "/images/blog/oppo_find_x9_ultra.webp"
 category: "Gadgets"

@@ -3,7 +3,7 @@ title: "Samsung Galaxy Book 5 Ultra: Galaxy AI और 3K AMOLED — Samsung Ecos
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Samsung का upcoming laptop — Arrow Lake Ultra 9, RTX 5060, 16 inch 3K AMOLED, Galaxy AI। Expected Price ₹1,39,999 से शुरू, Launch July 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

@@ -3,7 +3,7 @@ title: "Lenovo Yoga Pro 9i: Mini-LED 165Hz Display और Premium Speakers"
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Lenovo का upcoming laptop — Arrow Lake Ultra 7, RTX 5060, Mini-LED 165Hz, B&W Speakers। Expected Price ₹1,69,999 से शुरू, Launch July 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

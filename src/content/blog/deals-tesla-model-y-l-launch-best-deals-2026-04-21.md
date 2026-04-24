@@ -1,6 +1,6 @@
 ﻿---
 title: "Tesla Model Y L India Launch — Best Tech Deals भी देखो! 🚀"
-date: "21 April 2026"
+date: "2026-04-21"
 category: "Deals"
 excerpt: "Tesla Model Y L India में launch होने वाली है! साथ में Amazon और Flipkart पर best tech deals भी देखो — ₹50,000 तक की छूट!"
 image: "https://images.unsplash.com/photo-1560958089-b8a1929cea89?auto=format&fit=crop&q=80&w=1200"

@@ -3,7 +3,7 @@ title: "MacBook Pro 16 M5 Pro: Workstation Power — Video Editing ka Raja"
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Apple का upcoming laptop — M5 Pro Chip, 36GB RAM, Liquid Retina XDR, 24-hr Battery। Expected Price ₹2,49,900 से शुरू, Launch October 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

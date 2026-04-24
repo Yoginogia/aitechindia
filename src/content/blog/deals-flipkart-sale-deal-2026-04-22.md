@@ -1,9 +1,9 @@
 ---
 title: "Flipkart पर **Sale**! 🛍️"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "Deals"
 excerpt: "यार, **Flipkart** पर अभी बहुत ही बढ़िया **Deal** है! **Price** कम है और **Discount** ज्यादा है!"
-image: "/images/blog/flipkart_sale.png"
+image: "/images/blog/flipkart_sale.webp"
 readingTime: "5 min read"
 ---
 

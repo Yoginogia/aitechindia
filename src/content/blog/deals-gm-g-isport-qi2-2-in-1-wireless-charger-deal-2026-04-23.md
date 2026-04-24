@@ -1,9 +1,9 @@
 ﻿---
 title: "GM G+ iSmart Qi2 2-in-1 Wireless Charger Deal 📈"
-date: "23 April 2026"
+date: "2026-04-23"
 category: "Deals"
 excerpt: "GM G+ iSmart Qi2 2-in-1 Wireless Charger की समीक्षा — क्या यह **iPhone** और **Apple Watch** यूजर्स के लिए जरूरी है? **15W** की दर से चार्ज होने वाला यह चार्जर कितना फायदेमंद हो सकता है?"
-image: "/images/blog/wireless_charger_qi2.png"
+image: "/images/blog/wireless_charger_qi2.webp"
 readingTime: "5 min read"
 ---
 

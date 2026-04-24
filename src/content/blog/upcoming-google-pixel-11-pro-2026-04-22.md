@@ -3,7 +3,7 @@ title: "Google Pixel 11 Pro: AI Camera King और 7 साल Updates — Googl
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Google Pixel 11 Pro October 2026 में आ सकता है। Tensor G6 Chip, AI Camera Pro, 7 Years Updates — Google का सबसे smart phone!"
-image: "/images/blog/upcoming_pixel_11.png"
+image: "/images/blog/upcoming_pixel_11.webp"
 readingTime: "4 min read"
 ---
 

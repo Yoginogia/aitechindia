@@ -3,7 +3,7 @@ title: "OnePlus 14: Hasselblad Camera और 100W Charging — Performance Beast
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "OnePlus 14 June 2026 में confirmed launch है! Snapdragon 8 Gen 4+, Hasselblad Camera, 100W SUPERVOOC — ये होगा OnePlus का सबसे powerful phone!"
-image: "/images/blog/upcoming_oneplus_14.png"
+image: "/images/blog/upcoming_oneplus_14.webp"
 readingTime: "4 min read"
 ---
 

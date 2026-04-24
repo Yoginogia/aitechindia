@@ -3,7 +3,7 @@ title: "Lenovo IdeaPad Slim 5: Students ka Best Friend — ₹55,000 में P
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Lenovo का upcoming laptop — Ryzen 7 8845HS, RDNA 3.5, 15.6 inch FHD+, 16GB DDR5। Expected Price ₹54,999 से शुरू, Launch June 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

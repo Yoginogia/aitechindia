@@ -1,9 +1,9 @@
 ﻿---
 title: "Gemini App में अब बनाओ अपनी Personalized Images! 📸"
-date: "20 April 2026"
+date: "2026-04-20"
 category: "AI"
 excerpt: "Gemini App में अब आप आसानी से Personal Intelligence का उपयोग करके अपनी पसंद की Images बना सकते हैं। यहाँ जानें कैसे!"
-image: "/images/blog/gemini_personalized.png"
+image: "/images/blog/gemini_personalized.webp"
 readingTime: "5 min read"
 ---
 

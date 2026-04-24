@@ -3,7 +3,7 @@ title: "Vivo X300 Pro: Zeiss Camera और Curved AMOLED — Photography Lovers 
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Vivo X300 Pro May 2026 में confirmed launch! Dimensity 9400, Zeiss Camera, Curved AMOLED — professional photography अब हर किसी की पहुँच में!"
-image: "/images/blog/upcoming_budget_phones.png"
+image: "/images/blog/upcoming_budget_phones.webp"
 readingTime: "4 min read"
 ---
 

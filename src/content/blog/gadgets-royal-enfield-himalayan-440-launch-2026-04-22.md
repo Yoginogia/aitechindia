@@ -1,6 +1,6 @@
 ---
 title: "Royal Enfield Himalayan 440 आ रही है! 🚴"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "Gadgets"
 excerpt: "Royal Enfield की नई **Himalayan 440** आ रही है, जो पुरानी 411 की जगह लेगी। यह बाइक **D4G** कोडनेम से जानी जा रही है और इसके **Launch** की उम्मीद है।"
 image: "https://image.pollinations.ai/prompt/Royal%20Enfield%20Himalayan%20440%20in%20the%20works?width=1200&height=630&nologo=true"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Vercel का Security Breach — Hackers ने Data बेचने का दावा किया! 🚨"
-date: "20 April 2026"
+date: "2026-04-20"
 category: "Software"
 excerpt: "Vercel का Security Breach हुआ है, जिसमें Hackers ने Stolen Data बेचने का दावा किया है। Developers के लिए क्या करना ज़रूरी?"
 image: "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80&w=1200"

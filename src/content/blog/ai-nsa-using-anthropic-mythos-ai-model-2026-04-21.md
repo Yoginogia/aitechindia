@@ -1,6 +1,6 @@
 ﻿---
 title: "NSA का Anthropic के साथ Deal — क्या है ये Mythos AI? 🤔"
-date: "21 April 2026"
+date: "2026-04-21"
 category: "AI"
 excerpt: "NSA ने Anthropic के साथ Deal की है, जिसमें उनका Mythos AI Model शामिल है। ये Deal Pentagon के साथ feud के बावजूद हुई है। तो क्या है ये Mythos AI Model?"
 image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=1200"

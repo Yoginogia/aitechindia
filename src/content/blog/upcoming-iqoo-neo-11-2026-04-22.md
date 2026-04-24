@@ -3,7 +3,7 @@ title: "iQOO Neo 11: Gaming Beast ₹30,000 में — 144Hz Display और 6
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "iQOO Neo 11 June 2026 में आ रहा है! Snapdragon 8s Gen 4, 144Hz AMOLED, 6000mAh — Budget gaming का undisputed king!"
-image: "/images/blog/upcoming_poco_f8.png"
+image: "/images/blog/upcoming_poco_f8.webp"
 readingTime: "4 min read"
 ---
 

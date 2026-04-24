@@ -1,7 +1,7 @@
 ---
 title: "आ गया दुनिया का सबसे 'स्लिम' Power Bank! Xiaomi के इस Gadget ने उड़ाए होश"
 slug: "xiaomi-ultrathin-magnetic-power-bank-launch"
-date: "16 April 2026"
+date: "2026-04-16"
 excerpt: "क्या आप भारी-भरकम Power Bank ढो कर थक गए हैं? Xiaomi ने अपना नया UltraThin Magnetic Power Bank लॉन्च किया है जो स्मार्टफोन से भी ज़्यादा पतला है!"
 image: "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&q=80&w=800"
 category: "Gadgets"

@@ -1,7 +1,7 @@
 ---
 title: "किसानों का नया दोस्त बना AI! सरकार ने 22 भाषाओं में Launch किया 'Agri Param' — कृषि क्रांति 2.0 शुरू 🌾"
 slug: "india-agri-param-ai-farmers-22-languages-launch"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "India AI Mission के तहत सरकार ने Farmers के लिए 'Agri Param' AI Tool Launch किया है जो 22 Indian Languages में Farmers को Real-Time Advice देता है। यह भारत की Agricultural Revolution 2.0 की शुरुआत है!"
 image: "/images/blog/india_ai_agriculture_farmers.webp"
 category: "AI"

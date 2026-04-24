@@ -1,6 +1,6 @@
 ﻿---
 title: "Crypto Market में आज क्या हुआ? पूरी खबर! 🤔"
-date: "20 April 2026"
+date: "2026-04-20"
 category: "Crypto"
 excerpt: "Crypto Market में Bitcoin और Ethereum की कीमतें बढ़ीं, NFTs और Web3 की demand बढ़ी।"
 image: "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=1200"

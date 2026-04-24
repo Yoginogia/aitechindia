@@ -3,7 +3,7 @@ title: "Redmi Note 16 Pro: 200MP Camera ₹20,000 में — Budget Camera Ki
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Redmi Note 16 Pro September 2026 में आ सकता है! Dimensity 8400 Ultra, 200MP Camera, 67W Charging — ₹20,000 में camera king!"
-image: "/images/blog/upcoming_budget_phones.png"
+image: "/images/blog/upcoming_budget_phones.webp"
 readingTime: "4 min read"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Bitcoin $75,000 के करीब! क्या June 2026 में होगा $1 Lakh का धमाका? Expert Analysis 📈"
 slug: "bitcoin-75000-june-2026-target-prediction"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "Bitcoin आज $74,600–$75,000 के पास Trade कर रहा है! Middle East Tensions में कमी और Institutional Buying से Market में जान आई है। Experts का कहना है June 2026 तक $1 Lakh संभव। India में ₹69 लाख तक पहुँचा BTC!"
 image: "/images/blog/bitcoin_75k_target.webp"
 category: "Crypto"

@@ -1,6 +1,6 @@
 ﻿---
 title: "Palantir का 'Mini-Manifesto' — AI की दुनिया में नया मोड़! 🤖"
-date: "20 April 2026"
+date: "2026-04-20"
 category: "AI"
 excerpt: "Palantir ने अपने Mini-Manifesto में Inclusivity और 'Regressive' संस्कृतियों की निंदा की है। ये AI और Data Analytics company क्या सोच रही है?"
 image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=1200"

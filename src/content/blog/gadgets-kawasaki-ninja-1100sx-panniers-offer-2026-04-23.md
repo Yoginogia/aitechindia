@@ -1,9 +1,9 @@
 ﻿---
 title: "Kawasaki Ninja 1100SX: **₹1.25 लाख** के पैनियर्स फ्री में! 🚴"
-date: "23 April 2026"
+date: "2026-04-23"
 category: "Gadgets"
 excerpt: "कावासाकी निन्जा 1100एसएक्स पर **₹1.25 लाख** के पैनियर्स फ्री में मिल रहे हैं! यह ऑफर सीमित समय के लिए है और पहले आओ पहले पाओ के आधार पर उपलब्ध है।"
-image: "/images/blog/kawasaki_ninja_bike.png"
+image: "/images/blog/kawasaki_ninja_bike.webp"
 readingTime: "5 min read"
 ---
 

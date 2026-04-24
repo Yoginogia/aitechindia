@@ -3,7 +3,7 @@ title: "Samsung Galaxy A57: Mid-Range King — ₹25,000 में Samsung क�
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Samsung Galaxy A57 May 2026 में Launching Soon! Exynos 1580, 50MP OIS Camera, One UI 7 — ₹25,000 में Samsung experience!"
-image: "/images/blog/upcoming_samsung_s27.png"
+image: "/images/blog/upcoming_samsung_s27.webp"
 readingTime: "4 min read"
 ---
 

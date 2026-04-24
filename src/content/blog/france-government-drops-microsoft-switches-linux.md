@@ -1,7 +1,7 @@
 ---
 title: "France ने Microsoft को कहा 'Bye Bye'! पूरी सरकार अब चलेगी Free Linux पर 🇫🇷"
 slug: "france-government-drops-microsoft-switches-linux"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "America की Tech Giants पर निर्भरता कम करने के लिए France ने एक ऐतिहासिक फैसला किया है। सरकारी दफ्तरों से Microsoft Windows हटाकर Free और Open Source Linux OS लगाया जाएगा।"
 image: "/images/blog/france_linux_microsoft.webp"
 category: "AI"

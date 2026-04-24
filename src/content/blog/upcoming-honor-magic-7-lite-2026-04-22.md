@@ -3,7 +3,7 @@ title: "Honor Magic 7 Lite: 6000mAh Battery Monster — दो दिन चल�
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Honor Magic 7 Lite May 2026 में confirmed launch! 6000mAh Battery, 108MP Camera, MagicOS 9.0 — Battery Life का Champion!"
-image: "/images/blog/upcoming_budget_phones.png"
+image: "/images/blog/upcoming_budget_phones.webp"
 readingTime: "4 min read"
 ---
 

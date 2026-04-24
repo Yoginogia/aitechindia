@@ -1,6 +1,6 @@
 ﻿---
 title: "_codex क्रांति ⚡_"
-date: "19 April 2026"
+date: "2026-04-19"
 category: "AI"
 excerpt: "नया Codex ऐप डेवलपर्स के लिए game changer साबित हो सकता है। यह ऐप macOS और Windows पर उपलब्ध है और इसमें कई नए फीचर्स जोड़े गए हैं। यह ऐप डेवलपर्स को उनके काम में मदद करेगा और उनकी प्रोडक्टिविटी बढ़ाएगा"
 image: "/images/blog/gpt-5-gemini-3.webp"

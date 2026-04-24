@@ -1,9 +1,9 @@
 ﻿---
 title: "Apple का नया **Update** — **Bug** Fix है! 📱"
-date: "23 April 2026"
+date: "2026-04-23"
 category: "Software"
 excerpt: "Apple ने अपने **iOS** में एक新的 **Bug** को फिक्स किया है, जो नोटिफिकेशन को डिलीट करने के बाद भी स्टोर करता था। यह **Update** आपके **iPhone** और **iPad** को सुरक्षित बनाने में मदद करेगा।"
-image: "/images/blog/apple_software_update.png"
+image: "/images/blog/apple_software_update.webp"
 readingTime: "5 min read"
 ---
 

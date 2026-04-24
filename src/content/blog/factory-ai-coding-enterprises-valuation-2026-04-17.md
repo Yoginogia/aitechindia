@@ -1,6 +1,6 @@
 ﻿---
 title: "🤖 Factory ने $1.5 Billion Valuation के साथ मचाई धूम: Enterprise AI Coding का भविष्य"
-date: "17 April 2026"
+date: "2026-04-17"
 category: "AI News"
 excerpt: "Enterprise AI coding platform 'Factory' ने अपनी नई funding round में $1.5 Billion की valuation hit कर दी है। जानिए यह IT sector को कैसे बदलेगा।"
 image: "/images/blog/agentic_ai_explained.webp"

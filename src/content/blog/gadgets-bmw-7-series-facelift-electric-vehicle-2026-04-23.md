@@ -1,9 +1,9 @@
 ﻿---
 title: "BMW 7 Series फेसलिफ्ट — Electric का नया दौर 🚗"
-date: "23 April 2026"
+date: "2026-04-23"
 category: "Gadgets"
 excerpt: "BMW ने अपनी फ्लैगशिप ल्यूक्सुरी सेडान 7 Series का फेसलिफ्ट वर्जन लॉन्च किया है, जिसमें **petrol**, **diesel**, **plug-in hybrid** और **fully electric** विकल्प शामिल हैं। इस नए वर्जन में **interior** और **exterior** डिज़ाइन में बदलाव किए गए हैं और **onboard technology** में भी सुधार किया गया है।"
-image: "/images/blog/bmw_electric_car.png"
+image: "/images/blog/bmw_electric_car.webp"
 readingTime: "5 min read"
 ---
 

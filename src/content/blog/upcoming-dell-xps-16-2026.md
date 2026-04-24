@@ -3,7 +3,7 @@ title: "Dell XPS 16 (2026): 4K OLED और RTX 5070 Ti — Creators का स�
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Dell का upcoming laptop — Arrow Lake Ultra 9, RTX 5070 Ti, 16 inch 4K OLED, 32GB RAM। Expected Price ₹1,49,999 से शुरू, Launch August 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

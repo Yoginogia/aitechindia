@@ -3,7 +3,7 @@ title: "Xiaomi 16 Ultra: Leica Camera और 120W Charging — Samsung Killer �
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Xiaomi 16 Ultra May 2026 में launching soon! Leica 50MP Camera, 6000mAh Battery, 120W HyperCharge — Samsung S26 Ultra को सीधी टक्कर!"
-image: "/images/blog/upcoming_xiaomi_16.png"
+image: "/images/blog/upcoming_xiaomi_16.webp"
 readingTime: "4 min read"
 ---
 

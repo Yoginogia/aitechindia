@@ -1,6 +1,6 @@
 ---
 title: "France में Data Breach — क्या है ये **Bug**? 🚨"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "Software"
 excerpt: "France की सरकारी एजेंसी France Titres में **Data Breach** हुआ है, जिसमें नागरिकों का डेटा चोरी हो गया है। एक **Hacker** ने इस डेटा को बेचने की पेशकश की है।"
 image: "https://image.pollinations.ai/prompt/French%20govt%20agency%20confirms%20breach%20as%20hacker%20offers%20to%20sell%20data?width=1200&height=630&nologo=true"

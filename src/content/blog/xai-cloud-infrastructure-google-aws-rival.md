@@ -1,7 +1,7 @@
 ---
 title: "Google और AWS की छुट्टी करने आ गए Elon Musk! xAI ने शुरू किया Cloud Business"
 slug: "xai-cloud-infrastructure-google-aws-rival"
-date: "16 April 2026"
+date: "2026-04-16"
 excerpt: "Elon Musk की AI कंपनी 'xAI' अब सीधे Google Cloud और Amazon Web Services (AWS) को टक्कर देने जा रही है। कंपनी ने दूसरे स्टार्टअप्स को अपने Supercomputers किराए पर देना शुरू कर दिया है।"
 image: "/images/blog/xai_cloud_musk.webp"
 category: "AI"

@@ -1,9 +1,9 @@
 ﻿---
 title: "KelpDAO Hack: $290 Million की सबसे बड़ी Crypto चोरी! 🚨"
-date: "21 April 2026"
+date: "2026-04-21"
 category: "Software"
 excerpt: "KelpDAO DeFi Project में $290 Million की चोरी, Lazarus Hackers का हाथ! ये कैसे हुआ और Crypto Security कैसे बढ़ाएं?"
-image: "/images/blog/kelpdao_hack.png"
+image: "/images/blog/kelpdao_hack.webp"
 readingTime: "5 min read"
 ---
 

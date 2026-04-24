@@ -3,7 +3,7 @@ title: "iPhone 18 Pro: A20 Chip, Periscope Camera और Titanium Body — क�
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Apple का अगला flagship iPhone 18 Pro September 2026 में launch हो सकता है। A20 Pro Chip, 48MP Periscope Camera, और Titanium Body — जानिए पूरी Details!"
-image: "/images/blog/upcoming_iphone_18.png"
+image: "/images/blog/upcoming_iphone_18.webp"
 readingTime: "4 min read"
 ---
 

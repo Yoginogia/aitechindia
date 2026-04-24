@@ -1,6 +1,6 @@
 ---
 title: "Google Ads का नया AI सुरक्षा Update 🚀"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "AI"
 excerpt: "Google Ads ने 3 नए तरीके से अपनी सुरक्षा को मजबूत किया है, जानें क्या हैं वे तरीके और कैसे वे आपके व्यवसाय को फायदा पहुंचा सकते हैं।"
 image: "https://image.pollinations.ai/prompt/3%20new%20ways%20Ads%20Advisor%20is%20making%20Google%20Ads%20safer%20and%20faster?width=1200&height=630&nologo=true"

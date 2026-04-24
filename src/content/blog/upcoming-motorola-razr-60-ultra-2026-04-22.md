@@ -3,7 +3,7 @@ title: "Motorola Razr 60 Ultra: Foldable Flip Phone — 4 inch Cover Display क
 date: "2026-04-22"
 category: "Gadgets"
 excerpt: "Motorola Razr 60 Ultra August 2026 में launch हो सकता है! 4 inch Cover Display, Snapdragon 8 Gen 4, Foldable Design — Samsung Flip को टक्कर!"
-image: "/images/blog/upcoming_motorola_razr.png"
+image: "/images/blog/upcoming_motorola_razr.webp"
 readingTime: "4 min read"
 ---
 

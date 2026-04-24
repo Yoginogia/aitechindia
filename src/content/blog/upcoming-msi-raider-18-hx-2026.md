@@ -3,7 +3,7 @@ title: "MSI Raider 18 HX: RTX 5090 और UHD+ Display — No-Compromise Gaming"
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "MSI का upcoming laptop — Arrow Lake HX i9, RTX 5090, 18 inch UHD+ 120Hz, 99.9Whr Battery। Expected Price ₹2,29,999 से शुरू, Launch September 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

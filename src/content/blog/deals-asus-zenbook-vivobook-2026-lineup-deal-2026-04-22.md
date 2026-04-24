@@ -1,6 +1,6 @@
 ---
 title: "ASUS Zenbook और Vivobook 2026 लाइनअप — Best Deal है या नहीं? 🤔"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "Deals"
 excerpt: "ASUS ने अपना नया Zenbook और Vivobook 2026 लाइनअप लॉन्च कर दिया है, जिसमें कई **CPU** और **GPU** विकल्प हैं। इस लाइनअप में **ASUS Zenbook S14**, **ASUS Zenbook DUO**, **ASUS Zenbook A14**, **ASUS Vivobook 14**, **ASUS Vivobook 16**, **ASUS Vivobook S14**, और **ASUS Vivobook S16** शामिल हैं।"
 image: "https://image.pollinations.ai/prompt/ASUS%20Zenbook%20and%20Vivobook%202026%20Lineup%20Now%20Available%20in%20India?width=1200&height=630&nologo=true"

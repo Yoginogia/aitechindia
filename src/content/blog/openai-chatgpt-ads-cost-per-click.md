@@ -1,7 +1,7 @@
 ---
 title: "ChatGPT चलाने वालों के लिए बुरी खबर! अब स्क्रीन पर दिखेंगे Ads, OpenAI ने की गूगल जैसी तैयारी"
 slug: "openai-chatgpt-ads-cost-per-click"
-date: "16 April 2026"
+date: "2026-04-16"
 excerpt: "क्या आप ChatGPT का इस्तेमाल बिना रुकावट के करते आ रहे हैं? अब तैयार हो जाइये विज्ञापनों (Ads) के लिए। OpenAI बहुत जल्द Google की तरह 'Cost-Per-Click' Ads शुरू करने वाला है।"
 image: "/images/blog/chatgpt_ads_openai.webp"
 category: "AI"

@@ -3,7 +3,7 @@ title: "Nothing Phone (4): Glyph Interface 3.0 और Unique Design — कु�
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Nothing Phone 4 July 2026 में आ सकता है! Snapdragon 8 Gen 4, Glyph Interface 3.0, NothingOS 4.0 — बाकी phones से बिल्कुल अलग!"
-image: "/images/blog/upcoming_nothing_4.png"
+image: "/images/blog/upcoming_nothing_4.webp"
 readingTime: "4 min read"
 ---
 

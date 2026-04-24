@@ -1,7 +1,7 @@
 ---
 title: "WhatsApp पर आया नया 'Muse Spark' AI: अब Messaging खुद करेगा आपके सारे काम!"
 slug: "meta-muse-spark-whatsapp-ai-agent-2026"
-date: "16 April 2026"
+date: "2026-04-16"
 excerpt: "Meta ने WhatsApp, Instagram और Facebook पर अपना सबसे पावरफुल AI Agent 'Muse Spark' रोलआउट कर दिया है। जानिए कैसे ये AI खुद से आपके लिए फ्लाइट बुक कर सकता है और ईमेल्स रिप्लाई कर सकता है।"
 image: "/images/blog/meta_muse_spark_whatsapp.webp"
 category: "AI"

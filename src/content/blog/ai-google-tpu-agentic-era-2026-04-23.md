@@ -1,9 +1,9 @@
 ﻿---
 title: "Google का नया TPU — Agentic Era में क्रांति ला सकता है! 🚀"
-date: "23 April 2026"
+date: "2026-04-23"
 category: "AI"
 excerpt: "Google ने अपने नए TPU को लॉन्च किया है, जो Agentic Era में क्रांति ला सकता है। यह **AI** के भविष्य को बदलने वाला है।"
-image: "/images/blog/google_ai_update.png"
+image: "/images/blog/google_ai_update.webp"
 readingTime: "5 min read"
 ---
 

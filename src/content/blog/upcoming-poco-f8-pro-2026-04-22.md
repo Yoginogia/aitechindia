@@ -3,7 +3,7 @@ title: "POCO F8 Pro: ₹28,000 में 200MP Camera और Flagship Chip — P
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "POCO F8 Pro June 2026 में confirmed launch! Snapdragon 8s Gen 4, 200MP Camera, 120W Charging — सब कुछ ₹28,000 में!"
-image: "/images/blog/upcoming_poco_f8.png"
+image: "/images/blog/upcoming_poco_f8.webp"
 readingTime: "4 min read"
 ---
 

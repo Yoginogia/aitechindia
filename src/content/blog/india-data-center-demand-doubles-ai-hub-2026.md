@@ -1,7 +1,7 @@
 ---
 title: "भारत बनेगा दुनिया का 'AI Data Center Hub'! Demand 8GW से बढ़कर 16GW पर पहुंची"
 slug: "india-data-center-demand-doubles-ai-hub-2026"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "Economic Times की रिपोर्ट के अनुसार, भारत में AI और Cloud Computing की वजह से Data Centers की Demand तेज़ी से Double हो रही है। Google, Microsoft और Amazon भारत में Billions Invest कर रहे हैं।"
 image: "/images/blog/india_data_center_boom.webp"
 category: "AI"

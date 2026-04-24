@@ -1,6 +1,6 @@
 ---
 title: "Mythos हैक हुआ? 🚨"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "AI"
 excerpt: "एक Unauthorized ग्रुप ने Mythos तक पहुंच बना ली है, क्या ये सच है? Anthropic का क्या कहना है?"
 image: "https://image.pollinations.ai/prompt/Unauthorized%20group%20has%20gained%20access%20to%20Anthropic’s%20exclusive%20cyber%20tool%20Mythos,?width=1200&height=630&nologo=true"

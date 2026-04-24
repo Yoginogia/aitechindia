@@ -1,7 +1,7 @@
 ---
 title: "मार्केट में तूफ़ान: MicroStrategy ने अकेले ख़रीदा 1 Billion Dollar का Bitcoin!"
 slug: "microstrategy-buys-1-billion-bitcoin-april-2026"
-date: "16 April 2026"
+date: "2026-04-16"
 excerpt: "Michael Saylor की कंपनी MicroStrategy ने सिर्फ एक हफ्ते में $1 Billion का Bitcoin खरीद कर सबको चौंका दिया है। क्या इस भयंकर डिमांड से Bitcoin 1 लाख डॉलर का आंकड़ा पार करेगा?"
 image: "/images/blog/microstrategy_bitcoin_billion.webp"
 category: "Crypto"

@@ -3,7 +3,7 @@ title: "ASUS ROG Strix G18 (2026): RTX 5090 और 240Hz Display — Gaming क�
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "ASUS का upcoming laptop — Arrow Lake i9, RTX 5090, 18 inch 240Hz, 4TB SSD। Expected Price ₹1,89,999 से शुरू, Launch July 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

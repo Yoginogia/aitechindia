@@ -1,7 +1,7 @@
 ---
 title: "OnePlus Pad 4 अप्रैल के अंत में होगा Launch: 144Hz डिस्प्ले और Snapdragon 8 Gen 5"
 slug: "oneplus-pad-4-launch-date-india-specs"
-date: "16 April 2026"
+date: "2026-04-16"
 excerpt: "OnePlus फैंस के लिए खुशखबरी! कंपनी 30 अप्रैल को अपना नया प्रीमियम टैबलेट 'OnePlus Pad 4' लॉन्च कर रही है। इसमें 3.4K डिस्प्ले और धांसू प्रोसेसर का सपोर्ट मिलेगा।"
 image: "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?auto=format&fit=crop&q=80&w=800"
 category: "Gadgets"

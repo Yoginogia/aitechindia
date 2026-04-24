@@ -1,7 +1,7 @@
 ---
 title: "Kraken Crypto Exchange लाया ₹1 लाख करोड़ का IPO: Public Market में Binance को मिलेगी टक्कर!"
 slug: "kraken-crypto-ipo-valuation-russia-ban-2026"
-date: "16 April 2026"
+date: "2026-04-16"
 excerpt: "Kraken Crypto Exchange ने $12 Billion (लगभग ₹1 लाख करोड़) के वैल्यूएशन पर अपना IPO फाइल कर दिया है! जानिए इस बड़े कदम से Crypto Market और Bitcoin पर क्या असर पड़ेगा।"
 image: "/images/blog/kraken_crypto_ipo.webp"
 category: "Crypto"

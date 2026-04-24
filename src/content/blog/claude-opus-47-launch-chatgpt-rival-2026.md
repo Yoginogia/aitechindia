@@ -1,7 +1,7 @@
 ---
 title: "Claude Opus 4.7 Launch: Coding में ChatGPT को पीछे छोड़ा! Anthropic का नया AI Model आया"
 slug: "claude-opus-47-launch-chatgpt-rival-2026"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "Anthropic ने आज अपना सबसे ताकतवर AI Model 'Claude Opus 4.7' पब्लिक के लिए जारी कर दिया है। Software Engineering, Agentic Tasks और High-Resolution Vision में यह ChatGPT-4o को कड़ी चुनौती दे रहा है।"
 image: "/images/blog/claude_opus_47_launch.webp"
 category: "AI"

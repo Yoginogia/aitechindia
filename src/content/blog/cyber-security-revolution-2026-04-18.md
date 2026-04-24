@@ -1,6 +1,6 @@
 ---
 title: "🛡️ OpenAI का 'Trusted Access': Cyber Security की दुनिया में एक बड़ा कदम ⚡"
-date: "18 April 2026"
+date: "2026-04-18"
 category: "AI"
 excerpt: "OpenAI ने 'Trusted Access for Cyber' लॉन्च किया है जो दुनिया भर के cyber defence systems को AI के सहारे और मजबूत करेगा।"
 image: "/images/blog/cyber-security-revolution-2026-04-18.jpg"

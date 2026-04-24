@@ -1,6 +1,6 @@
 ---
 title: "Kalshi का Crypto Expansion — Future Bright है? 🚀"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "Crypto"
 excerpt: "Kalshi में Crypto Perpetual Futures लॉन्च होने वाला है, जो US में Regulated Derivatives Offerings को और भी मजबूत बनाएगा। क्या यह भारतीय निवेशकों के लिए अच्छा है?"
 image: "https://image.pollinations.ai/prompt/Kalshi%20mulls%20crypto%20expansion%20with%20perpetual%20futures%20launch:%20Report?width=1200&height=630&nologo=true"

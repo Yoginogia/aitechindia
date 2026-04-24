@@ -1,6 +1,6 @@
 ---
 title: "DoorDash में Stablecoin Payment — Crypto का नया दौर? 🚀"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "Crypto"
 excerpt: "DoorDash ने Tempo blockchain के साथ मिलकर stablecoin-powered payment infrastructure लॉन्च किया है। यह क्या है और इसका क्या मतलब है India के investors के लिए?"
 image: "https://image.pollinations.ai/prompt/DoorDash%20to%20offer%20stablecoin%20payments%20to%20users%20via%20Tempo%20blockchain?width=1200&height=630&nologo=true"

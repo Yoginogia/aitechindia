@@ -1,7 +1,7 @@
 ---
 title: "Apple MacBook Neo Launch: ₹50,000 से कम में असली MacBook! Students के लिए Game Changer 🍎"
 slug: "apple-macbook-neo-budget-599-dollar-launch"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "Apple ने पहली बार एक Budget MacBook लॉन्च की है! $599 (लगभग ₹50,000) में MacBook Neo आ गई है। क्या यह Students और Budget Buyers के लिए असली Game Changer है? जानिए पूरी Details।"
 image: "/images/blog/apple_macbook_neo_budget.webp"
 category: "Gadgets"

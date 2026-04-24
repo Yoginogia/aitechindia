@@ -1,7 +1,7 @@
 ---
 title: "⚠️ खतरा! 1 Billion Android Phones Hack हो सकते हैं — Google की बड़ी चेतावनी, अभी करें यह काम"
 slug: "google-1-billion-android-phones-security-warning-2026"
-date: "17 April 2026"
+date: "2026-04-17"
 excerpt: "Google ने एक डरावनी चेतावनी जारी की है — दुनिया में 1 Billion से ज़्यादा Android Phones अब Security Updates नहीं पा रहे। Android 12 या उससे पुराने Version वाले Users तुरंत यह कदम उठाएं!"
 image: "/images/blog/android_billion_hack_warning.webp"
 category: "AI"

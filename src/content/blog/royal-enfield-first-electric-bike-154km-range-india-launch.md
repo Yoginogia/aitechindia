@@ -1,7 +1,7 @@
 ---
 title: "धमाका! Royal Enfield की पहली Electric Bike आई सामने, फुल चार्ज में 154 Km की रेंज, एकदम 'बुलेट' वाले लुक्स"
 slug: "royal-enfield-first-electric-bike-154km-range-india-launch"
-date: "16 April 2026"
+date: "2026-04-16"
 excerpt: "Royal Enfield ने अपनी पहली इलेक्ट्रिक बाइक (Electric Bike) पेश कर दी है! 154 किलोमीटर की सिंगल चार्ज रेंज, गजब के विंटेज लुक्स और मॉडर्न फीचर्स के साथ यह E-Bike भारतीय सड़कों पर राज करने आ रही है।"
 image: "/images/blog/royal_enfield_electric_bike.webp"
 category: "Gadgets"

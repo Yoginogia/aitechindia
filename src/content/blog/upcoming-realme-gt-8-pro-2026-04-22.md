@@ -3,7 +3,7 @@ title: "Realme GT 8 Pro: Budget में Flagship Experience — ₹35,000 म�
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Realme GT 8 Pro July 2026 में आएगा। Snapdragon 8s Gen 4, 50MP Sony Camera, 100W Charging — सब कुछ ₹35,000 में!"
-image: "/images/blog/upcoming_budget_phones.png"
+image: "/images/blog/upcoming_budget_phones.webp"
 readingTime: "4 min read"
 ---
 

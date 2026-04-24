@@ -3,7 +3,7 @@ title: "Xiaomi Book Pro 16: ₹80,000 में 3.1K OLED — Premium Budget Lap
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Xiaomi का upcoming laptop — Arrow Lake Ultra 7, Arc GPU, 16 inch 3.1K OLED, 100W USB-C। Expected Price ₹79,999 से शुरू, Launch August 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

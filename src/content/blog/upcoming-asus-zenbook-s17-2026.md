@@ -3,7 +3,7 @@ title: "ASUS Zenbook S17: Ultra-Thin OLED Premium — Office का King"
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "ASUS का upcoming laptop — Arrow Lake Ultra 7, Intel Arc, 17 inch 3K OLED, Ceraluminum। Expected Price ₹1,29,999 से शुरू, Launch June 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

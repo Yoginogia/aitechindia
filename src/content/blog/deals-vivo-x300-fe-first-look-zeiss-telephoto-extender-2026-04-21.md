@@ -1,6 +1,6 @@
 ﻿---
 title: "Vivo X300 FE: Zeiss Telephoto Extender के साथ First Look! 📸"
-date: "21 April 2026"
+date: "2026-04-21"
 category: "Deals"
 excerpt: "Vivo X300 FE में Zeiss Telephoto Extender है! ₹50,000 की actual price पर 10% discount। Flipkart पर available है।"
 image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=1200"

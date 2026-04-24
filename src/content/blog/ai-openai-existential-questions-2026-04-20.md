@@ -1,6 +1,6 @@
 ﻿---
 title: "OpenAI के सामने दो बड़े Existential Problems! 🤔"
-date: "20 April 2026"
+date: "2026-04-20"
 category: "AI"
 excerpt: "OpenAI के लिए दो बड़े Existential Problems हैं — Data की ज़रूरत और Security। AI की दुनिया में आगे क्या होगा?"
 image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?auto=format&fit=crop&q=80&w=1200"

@@ -1,6 +1,6 @@
 ---
 title: "Apple का नया Boss: John Ternus — Power और Pressure 🚀"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "AI"
 excerpt: "यार, अब Apple का नया Boss है John Ternus, जो कंपनी को आगे ले जाने की कोशिश करेगा। क्या वो सफल हो पाएंगे?"
 image: "https://image.pollinations.ai/prompt/Apple’s%20John%20Ternus%20will%20run%20one%20of%20the%20world’s%20most%20powerful%20companies;%20the?width=1200&height=630&nologo=true"

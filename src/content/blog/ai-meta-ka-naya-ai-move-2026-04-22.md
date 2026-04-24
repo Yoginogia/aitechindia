@@ -1,6 +1,6 @@
 ---
 title: "Meta का नया AI Move 🤖"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "AI"
 excerpt: "Meta ने अपने कर्मचारियों के कीस्ट्रोक्स को रिकॉर्ड करने का फैसला किया है, तो क्या यह हमारी प्राइवेसी के लिए खतरा है?"
 image: "https://image.pollinations.ai/prompt/Meta%20will%20record%20employees’%20keystrokes%20and%20use%20it%20to%20train%20its%20AI%20models?width=1200&height=630&nologo=true"

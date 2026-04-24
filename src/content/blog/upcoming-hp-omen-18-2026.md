@@ -3,7 +3,7 @@ title: "HP OMEN 18: AMD Ryzen 9 और RTX 5080 — Gaming Beast Incoming"
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "HP का upcoming laptop — Ryzen 9 9950X, RTX 5080, 18 inch 240Hz, RGB Keyboard। Expected Price ₹1,59,999 से शुरू, Launch September 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

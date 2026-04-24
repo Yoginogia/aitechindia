@@ -1,9 +1,9 @@
 ﻿---
 title: "SpaceX का $60B Deal — क्या ये AI का भविष्य है? 🚀"
-date: "23 April 2026"
+date: "2026-04-23"
 category: "AI"
 excerpt: "SpaceX ने Cursor को $2B फंडिंग के बजाय $60B डील का ऑफर दिया, क्या ये AI के भविष्य को बदल देगा? यार, आइए जानते हैं इस डील के पीछे की कहानी।"
-image: "/images/blog/spacex_ai_deal.png"
+image: "/images/blog/spacex_ai_deal.webp"
 readingTime: "5 min read"
 ---
 

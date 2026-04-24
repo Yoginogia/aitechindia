@@ -3,7 +3,7 @@ title: "MacBook Air M5: सबसे पतला MacBook — M5 Chip और 22 
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Apple का upcoming laptop — M5 Chip, 24GB RAM, Liquid Retina, 22-hr Battery। Expected Price ₹1,14,900 से शुरू, Launch June 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

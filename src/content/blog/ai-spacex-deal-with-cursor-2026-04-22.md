@@ -1,6 +1,6 @@
 ---
 title: "SpaceX का नया Deal — $60 Billion का **Option**! 🚀"
-date: "22 April 2026"
+date: "2026-04-22"
 category: "AI"
 excerpt: "यार, अब imagine करो — SpaceX और Cursor का नया Deal क्या है?, यह सिर्फ एक **Option** है या कुछ और?, जानें पूरी खबर"
 image: "https://image.pollinations.ai/prompt/SpaceX%20is%20working%20with%20Cursor%20and%20has%20an%20option%20to%20buy%20the%20startup%20for%20$?width=1200&height=630&nologo=true"

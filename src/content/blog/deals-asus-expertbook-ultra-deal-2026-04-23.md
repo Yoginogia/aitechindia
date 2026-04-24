@@ -1,9 +1,9 @@
 ﻿---
 title: "Asus ExpertBook Ultra: शानदार Deal! 📊"
-date: "23 April 2026"
+date: "2026-04-23"
 category: "Deals"
 excerpt: "Asus ExpertBook Ultra भारत में लॉन्च हो गया है, इसकी कीमत **Rs. 1,49,990** से शुरू होती है। यह लैपटॉप **Panther Lake Power** और **Military Toughness** के साथ आता है।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "5 min read"
 ---
 

@@ -3,7 +3,7 @@ title: "Acer Predator Helios 18: 5th Gen Cooling और RTX 5080 — Gamers क�
 date: "2026-04-23"
 category: "Best Phones"
 excerpt: "Acer का upcoming laptop — Arrow Lake i9, RTX 5080, 18 inch 240Hz, AeroBlade Fan। Expected Price ₹1,74,999 से शुरू, Launch August 2026।"
-image: "/images/blog/asus_expertbook_ultra.png"
+image: "/images/blog/asus_expertbook_ultra.webp"
 readingTime: "4 min read"
 ---
 

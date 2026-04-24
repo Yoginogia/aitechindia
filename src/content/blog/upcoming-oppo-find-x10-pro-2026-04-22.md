@@ -3,7 +3,7 @@ title: "OPPO Find X10 Pro: Hasselblad Camera और 100W Charging — Premium Ex
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "OPPO Find X10 Pro August 2026 में India आ सकता है। Dimensity 9500, Hasselblad Camera, 5800mAh Battery — Photography का नया king!"
-image: "/images/blog/upcoming_budget_phones.png"
+image: "/images/blog/upcoming_budget_phones.webp"
 readingTime: "4 min read"
 ---
 

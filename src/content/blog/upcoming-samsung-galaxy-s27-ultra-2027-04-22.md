@@ -3,7 +3,7 @@ title: "Samsung Galaxy S27 Ultra: Snapdragon 8 Gen 5 और 200MP Camera — स
 date: "2026-04-22"
 category: "Best Phones"
 excerpt: "Samsung का अगला flagship Galaxy S27 Ultra January 2027 में आ सकता है। 200MP Camera, 6000mAh Battery, और Gorilla Glass Armor 2 — पूरी details यहाँ!"
-image: "/images/blog/upcoming_samsung_s27.png"
+image: "/images/blog/upcoming_samsung_s27.webp"
 readingTime: "4 min read"
 ---
 

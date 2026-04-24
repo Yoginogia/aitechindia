@@ -1,6 +1,6 @@
 ﻿---
 title: "⚡ Anthropic ने Launch किया 'Claude Design' — क्या ChatGPT को मिलेगी कड़ी टक्कर?"
-date: "17 April 2026"
+date: "2026-04-17"
 category: "AI Tools"
 excerpt: "Anthropic का नया tool Claude Design अब UI/UX design और creative tasks को और भी आसान बना देगा। जानिए इसके features।"
 image: "/images/blog/claude_opus_47_launch.webp"
