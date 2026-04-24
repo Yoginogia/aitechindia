@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-vivo-v70-alternatives',
+        title: 'Vivo V70 के Top 5 Alternatives 📱',
+        subtitle: 'Vivo V70 के बेस्ट अल्टरनेटिव्स की जानकारी, **Price** और **Features** के साथ। **Smartphone** की दुनिय',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/Top%205%20alternatives%20to%20Vivo%20V70:%20Similar%20pricing,%20more%20value?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-honor-360w-gan-adapter-launch',
         title: 'Honor का 360W GaN Adapter — सस्ता और Powerful! 💻',
         subtitle: 'Honor ने अपना नया **GaN Adapter** लॉन्च कर दिया है, जो कि सिर्फ 499 yuan (~ **$75**) में मिलेगा। यह ',
