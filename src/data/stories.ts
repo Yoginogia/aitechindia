@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-moto-g87-schematics-confirm-design-ahead-of-offici',
+        title: 'Moto G87 की पहली झलक — **Launch** से पहले! 📱',
+        subtitle: 'Moto G87 की स्कीमेटिक्स ऑनलाइन लीक हो गई है, जिससे फोन के डिज़ाइन का पता चलता है। **Deal** के बारे म',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/Moto%20G87%20schematics%20confirm%20design%20ahead%20of%20official%20launch?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-oneplus-ace-6-ultra-battery-deal',
         title: 'OnePlus Ace 6 Ultra: 8,600mAh बैटरी के साथ 🚀',
         subtitle: 'यार, अब OnePlus Ace 6 Ultra के बारे में जानें! 8,600mAh बैटरी और 120W फास्ट चार्जिंग के साथ, यह स्मा',
