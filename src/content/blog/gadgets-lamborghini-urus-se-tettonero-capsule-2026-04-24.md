@@ -1,18 +1,49 @@
----
-title: "Lamborghini Urus SE Tettonero Capsule 🚗"
-date: "24 April 2026"
+﻿---
+title: "Lamborghini Urus SE Tettonero Capsule — Limited Edition Luxury Beast!"
+date: "2026-04-24"
 category: "Gadgets"
-excerpt: "Lamborghini ने अपनी Limited Edition Urus SE Tettonero Capsule लॉन्च कर दी है, जो केवल 630 यूनिट्स तक सीमित है। यह **Luxury Car** अपने 70 से अधिक कस्टमाइजेशन विकल्पों के साथ आती है।"
-image: "https://image.pollinations.ai/prompt/Lamborghini%20reveals%20limited-run%20Urus%20SE%20Tettonero%20Capsule?width=1200&height=630&nologo=true"
-readingTime: "5 min read"
+excerpt: "Lamborghini ने limited-run Urus SE Tettonero Capsule reveal किया है। सिर्फ 630 units बनेंगी, 70+ customization options — ultimate luxury SUV!"
+image: "/images/blog/lamborghini_urus_se.png"
+readingTime: "4 min read"
 ---
 
-यार, अब imagine करो — Lamborghini की यह नई **Limited Edition Urus SE Tettonero Capsule** कितनी शानदार होगी! यह कार केवल 630 यूनिट्स तक सीमित है, जो इसे और भी खास बनाती है। यह **Urus SE** अपने 70 से अधिक कस्टमाइजेशन विकल्पों के साथ आती है, जो इसे सबसे अधिक कस्टमाइज करने योग्य **Urus** बनाती है।
+Lamborghini ने अपनी **Urus SE** SUV का एक **ultra-exclusive limited edition** version reveal किया है — **Tettonero Capsule**! सिर्फ **630 units** बनेंगी worldwide!
 
- तो अगर आप सोच रहे हैं कि यह कार कैसी होगी, तो बता दें कि यह कार एक ब्लैक रूफ और छह रंग विकल्पों के साथ आती है, जो इसके एक्सटीरियर पेंट, लिवरी और ब्रेक कैलिपर के लिए हैं। यह **Car** अपने शानदार डिज़ाइन और फीचर्स के साथ आती है, जो इसे एक **Luxury Car** बनाते हैं।
+## 🏎️ Tettonero Capsule क्या है?
 
- सीधी बात करते हैं — यह **Urus SE Tettonero Capsule** एक बहुत ही शानदार कार है, जो अपने फीचर्स और डिज़ाइन के साथ आती है। इसकी कीमत अभी तक नहीं बताई गई है, लेकिन यह उम्मीद की जा रही है कि इसकी कीमत बहुत अधिक होगी। यह **Car** उन लोगों के लिए है जो एक **Luxury Car** की तलाश में हैं और इसके लिए कोई कीमत नहीं है।
+* **Tettonero** = Italian mein "Dark/Black" — matte black theme
+* **630 units only** — each one individually numbered
+* **70+ customization options** — interior colors, trims, aur finishes
+* **Urus SE hybrid platform** — 800 bhp combined power!
 
- तो अगर आप इस कार को खरीदने की सोच रहे हैं, तो बता दें कि इसकी बुकिंग जल्द ही शुरू होगी। आप इसकी आधिकारिक वेबसाइट पर जाकर इसकी बुकिंग कर सकते हैं। यह **Car** अपने फीचर्स और डिज़ाइन के साथ आती है, जो इसे एक **Luxury Car** बनाते हैं।
+## ⚡ Performance Specs
 
- यार, यह **Urus SE Tettonero Capsule** वास्तव में एक शानदार कार है, जो अपने फीचर्स और डिज़ाइन के साथ आती है। इसकी कीमत अभी तक नहीं बताई गई है, लेकिन यह उम्मीद की जा रही है कि इसकी कीमत बहुत अधिक होगी। यह **Car** उन लोगों के लिए है जो एक **Luxury Car** की तलाश में हैं और इसके लिए कोई कीमत नहीं है।
+| Feature | Detail |
+|---|---|
+| **Engine** | 4.0L Twin-Turbo V8 + Electric Motor |
+| **Power** | 800 bhp (combined) |
+| **0-100 km/h** | 3.4 seconds |
+| **Top Speed** | 312 km/h |
+| **Electric Range** | ~60 km |
+| **Drive** | AWD |
+
+## 💰 Price?
+
+* Expected price **₹5+ Crore** (India mein)
+* 630 lucky buyers already selection process mein hain
+* India allocation **bahut limited** hogi — maybe 10-15 units max
+
+## 🎨 Design Highlights
+
+* **Nero Noctis** matte black exterior — stealth look
+* **Carbon fiber** body panels — lightweight + aggressive
+* **Exclusive interior** — Alcantara + leather mix
+* **Numbered badge** — har car unique hai
+
+## 🇮🇳 India mein Kaun Lega?
+
+India mein Lamborghini ke **top 100 customers** ko pehle offer jaayega। Mumbai, Delhi, aur Bangalore ke showrooms pe **by-appointment only** viewing hogi!
+
+## 💡 Fun Fact
+
+₹5 Crore mein aap **25 Mercedes C-Class** ya **10 BMW 5 Series** khareed sakte hain! But Lamborghini waalon ko ye comparison pasand nahi aata 😄
