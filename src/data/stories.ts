@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-openai-gpt-5-5-ai-super-app',
+        title: 'OpenAI का GPT-5.5 — AI \'सुपर ऐप\' की ओर एक कदम आगे! 🚀',
+        subtitle: 'OpenAI ने अपना नया **GPT-5.5** मॉडल लॉन्च किया है, जो कंपनी को **AI** \'सुपर ऐप\' की ओर एक कदम आगे ले ',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/OpenAI%20releases%20GPT-5.5,%20bringing%20company%20one%20step%20closer%20to%20an%20AI%20‘super%20ap?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-noscroll-ai-assistant',
         title: 'Noscroll: आपका निजी AI सहायक 🤖',
         subtitle: 'Noscroll एक AI बॉट है जो आपके लिए इंटरनेट पढ़ता है, आपका समय बचाता है और आपको महत्वपूर्ण जानकारी प्र',
