@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-bitwarden-cli-compromised',
+        title: 'Bitwarden CLI Compromised: डेवलपर क्रेडेंशियल्स चोरी हो सकते',
+        subtitle: 'Bitwarden CLI npm पैकेज में मैलिशस कोड मिला, डेवलपर क्रेडेंशियल्स चोरी हो सकते हैं। सावधानी बरतें और',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: 'https://image.pollinations.ai/prompt/Bitwarden%20CLI%20npm%20package%20compromised%20to%20steal%20developer%20credentials?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-vivo-v70-alternatives',
         title: 'Vivo V70 के Top 5 Alternatives 📱',
         subtitle: 'Vivo V70 के बेस्ट अल्टरनेटिव्स की जानकारी, **Price** और **Features** के साथ। **Smartphone** की दुनिय',
