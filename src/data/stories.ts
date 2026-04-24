@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-tpu-ai-workloads',
+        title: 'Google का TPU - AI की गति को बढ़ाने वाला है! 🚀',
+        subtitle: 'Google के TPUs के साथ AI की दुनिया में क्रांति आ रही है, जानें कैसे ये TPUs AI workloads को पावर देत',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Here’s%20how%20our%20TPUs%20power%20increasingly%20demanding%20AI%20workloads.?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-era-raises-11m-for-ai-platform',
         title: 'Era का **AI** प्लेटफ़ॉर्म — भविष्य है या धोखा? 🤖',
         subtitle: 'Era ने **$11M** जुटाए हैं एक सॉफ़्टवेयर प्लेटफ़ॉर्म बनाने के लिए, जो **AI** गैजेट्स के लिए होगा। क्य',
