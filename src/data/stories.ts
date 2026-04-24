@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-crypto-strike-701m-frozen',
+        title: 'Crypto Strike: $701M फ्रीज हुए! 🚨',
+        subtitle: 'US DOJ ने $701M क्रिप्टो फ्रीज किए, 503 फेक वेबसाइट्स बंद की, क्या आपके पैसे सुरक्षित हैं?',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/US%20DOJ%20strike%20force%20'restrains'%20$701M%20in%20crypto%20in%20ongoing%20scam%20crackdown?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-trump-memecoin-gala-bitcoin',
         title: 'Trump का Memecoin Gala पर Address — क्या होगा **Bitcoin** का',
         subtitle: 'यार, **Crypto** मार्केट में हो रहा है क्या? **Trump** का मेमेकॉइन गाला पर एड्रेस देने का क्या मतलब ह',
