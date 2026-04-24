@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-honor-360w-gan-adapter-launch',
+        title: 'Honor का 360W GaN Adapter — सस्ता और Powerful! 💻',
+        subtitle: 'Honor ने अपना नया **GaN Adapter** लॉन्च कर दिया है, जो कि सिर्फ 499 yuan (~ **$75**) में मिलेगा। यह ',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/Honor%20launches%20360W%20GaN%20adapter%20for%20just%20$75?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-codex-top-10-uses-at-work',
         title: 'Codex के Top 10 Uses — Work को आसान बनाएं! 🚀',
         subtitle: 'Codex के साथ अपने काम को आसान बनाएं, जानें इसके 10 सबसे उपयोगी तरीके, AI और Automation के साथ काम को',
