@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-royal-enfield-scram-450-launch-2027',
+        title: 'Royal Enfield Scram 450 आ रहा है - 2027 में लॉन्च! 🚴',
+        subtitle: 'रॉयल एनफील्ड स्क्रैम 450 जल्द ही भारत में लॉन्च होगा, यह बाइक **Himalayan 450** और **Guerrilla** के ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Royal%20Enfield%20Scram%20450%20to%20arrive%20in%202027?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-nissan-urban-suv-terrano-phev-launch',
         title: 'Nissan का नया Urban SUV और Terrano PHEV — EV क्रांति में बड़',
         subtitle: 'Nissan ने अपने नए Urban SUV और Terrano PHEV कॉन्सेप्ट्स से पर्दा उठा दिया है, जो कि चीनी मार्केट के ',
