@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-era-raises-11m-for-ai-platform',
+        title: 'Era का **AI** प्लेटफ़ॉर्म — भविष्य है या धोखा? 🤖',
+        subtitle: 'Era ने **$11M** जुटाए हैं एक सॉफ़्टवेयर प्लेटफ़ॉर्म बनाने के लिए, जो **AI** गैजेट्स के लिए होगा। क्य',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Era%20raises%20$11M%20to%20build%20a%20software%20platform%20for%20AI%20gadgets?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-openai-gpt-5-5-ai-super-app',
         title: 'OpenAI का GPT-5.5 — AI \'सुपर ऐप\' की ओर एक कदम आगे! 🚀',
         subtitle: 'OpenAI ने अपना नया **GPT-5.5** मॉडल लॉन्च किया है, जो कंपनी को **AI** \'सुपर ऐप\' की ओर एक कदम आगे ले ',
