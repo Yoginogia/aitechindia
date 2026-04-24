@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-breeze-cache-bug-exploit',
+        title: 'Breeze Cache में Bug का खतरा 🚨',
+        subtitle: 'हैकर्स ने Breeze Cache प्लगिन में एक_critical वल्नरेबिलिटी का फायदा उठाया है, जिससे वे किसी भी फाइल ',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: 'https://image.pollinations.ai/prompt/Hackers%20exploit%20file%20upload%20bug%20in%20Breeze%20Cache%20WordPress%20plugin?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-oppo-k14-5g-lag-killer-smartphone-under-25000',
         title: 'OPPO K14 5G: ₹25,000 से कम में Lag Killer Smartphone 📱',
         subtitle: 'OPPO K14 5G एक ऐसा स्मार्टफोन है जो आपको **₹25,000** से कम में मिल सकता है और यह एक **Lag Killer** स',
