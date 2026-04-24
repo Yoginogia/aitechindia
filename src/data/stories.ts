@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-morgan-stanley-stablecoin-offer',
+        title: 'Morgan Stanley का Stablecoin Offer 🚀',
+        subtitle: 'मॉर्गन स्टैनली ने अपना स्टेबलकॉइन ऑफर लॉन्च किया है, जिसमें कम से कम **$10 मिलियन** का निवेश करना हो',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/Morgan%20Stanley%20launches%20stablecoin%20offering%20through%20money%20market%20fund?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-metaplanet-raises-50m-in-zero-interest-bonds',
         title: 'Metaplanet का **Bitcoin** Deal — क्या है इसका Meaning? 🚀',
         subtitle: 'Metaplanet ने **$50M** के zero-interest bonds जारी किए, **Bitcoin** खरीदने के लिए। क्या यह भारतीय नि',
