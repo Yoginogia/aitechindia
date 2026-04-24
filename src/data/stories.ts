@@ -1,4 +1,4 @@
-﻿export interface StoryItem {
+export interface StoryItem {
     slug: string;
     title: string;
     subtitle: string;
@@ -36,7 +36,7 @@ export const STORIES: StoryItem[] = [
         subtitle: 'US DOJ ने $701M क्रिप्टो फ्रीज किए, 503 फेक वेबसाइट्स बंद की, क्या आपके पैसे सुरक्षित हैं?',
         category: '₿ Crypto',
         categoryColor: '#f59e0b',
-        image: 'https://image.pollinations.ai/prompt/US%20DOJ%20strike%20force%20'restrains'%20$701M%20in%20crypto%20in%20ongoing%20scam%20crackdown?width=1200&height=630&nologo=true',
+        image: 'https://image.pollinations.ai/prompt/US%20DOJ%20strike%20force%20restrains%20%24701M%20in%20crypto%20in%20ongoing%20scam%20crackdown?width=1200&height=630&nologo=true',
         pages: 4,
         isTrending: true,
     },
