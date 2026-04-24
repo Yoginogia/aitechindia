@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-crypto-texas-senate-race',
+        title: 'Crypto में बड़ा दांव - Texas Senate Race पर नज़र 🚀',
+        subtitle: 'Crypto-aligned Fellowship PAC ने Texas Senate रेस पर बड़ा दांव लगाया है, जानें क्या है इसका मतलब भार',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: 'https://image.pollinations.ai/prompt/Crypto-aligned%20Fellowship%20PAC%20bets%20big%20on%20Texas%20Senate%20race?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-price-prediction',
         title: 'Bitcoin की नई Height — $86K तक पहुंचेगा? 🚀',
         subtitle: 'Bitcoin की कीमत में 30% से 60% की वृद्धि हो सकती है अगर यह $86,000 तक पहुंच जाता है। MN Trading Capi',
