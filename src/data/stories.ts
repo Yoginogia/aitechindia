@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-noscroll-ai-assistant',
+        title: 'Noscroll: आपका निजी AI सहायक 🤖',
+        subtitle: 'Noscroll एक AI बॉट है जो आपके लिए इंटरनेट पढ़ता है, आपका समय बचाता है और आपको महत्वपूर्ण जानकारी प्र',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Meet%20Noscroll,%20an%20AI%20bot%20that%20does%20your%20doomscrolling%20for%20you?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-bret-taylor-sierra-buys-fragment-ai-deal',
         title: 'Bret Taylor की Sierra ने Fragment खरीदा — AI में नया Deal 🚀',
         subtitle: 'यार, अब Fragment एक नए घर में है! Bret Taylor की Sierra ने इस YC-backed AI स्टार्टअप को खरीद लिया है',
