@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-oneplus-ace-6-ultra-battery-deal',
+        title: 'OnePlus Ace 6 Ultra: 8,600mAh बैटरी के साथ 🚀',
+        subtitle: 'यार, अब OnePlus Ace 6 Ultra के बारे में जानें! 8,600mAh बैटरी और 120W फास्ट चार्जिंग के साथ, यह स्मा',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/OnePlus%20Ace%206%20Ultra%20confirmed%20to%20pack%208,600mAh%20battery,%20120W%20fast%20charging?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-royal-enfield-scram-450-launch-2027',
         title: 'Royal Enfield Scram 450 आ रहा है - 2027 में लॉन्च! 🚴',
         subtitle: 'रॉयल एनफील्ड स्क्रैम 450 जल्द ही भारत में लॉन्च होगा, यह बाइक **Himalayan 450** और **Guerrilla** के ',
