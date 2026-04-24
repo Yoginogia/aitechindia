@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-ev-cars-future-or-hype',
+        title: 'EV कारें — Future है या Just Hype? 🚀',
+        subtitle: 'EV कारें भारत में आने वाली हैं, लेकिन क्या वे सचमुच भविष्य हैं? **Electric Vehicles** की दुनिया में ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Vienna%20Motor%20Symposium%20Calls%20for%20a%20Resilient%20Technology%20Portfolio?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-morgan-stanley-stablecoin-offer',
         title: 'Morgan Stanley का Stablecoin Offer 🚀',
         subtitle: 'मॉर्गन स्टैनली ने अपना स्टेबलकॉइन ऑफर लॉन्च किया है, जिसमें कम से कम **$10 मिलियन** का निवेश करना हो',
