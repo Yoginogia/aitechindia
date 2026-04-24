@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-lamborghini-urus-se-tettonero-capsule',
+        title: 'Lamborghini Urus SE Tettonero Capsule 🚗',
+        subtitle: 'Lamborghini ने अपनी Limited Edition Urus SE Tettonero Capsule लॉन्च कर दी है, जो केवल 630 यूनिट्स तक',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Lamborghini%20reveals%20limited-run%20Urus%20SE%20Tettonero%20Capsule?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-crypto-texas-senate-race',
         title: 'Crypto में बड़ा दांव - Texas Senate Race पर नज़र 🚀',
         subtitle: 'Crypto-aligned Fellowship PAC ने Texas Senate रेस पर बड़ा दांव लगाया है, जानें क्या है इसका मतलब भार',
