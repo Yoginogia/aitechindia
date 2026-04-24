@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-hyundai-ioniq-v-china-exclusive-ev',
+        title: 'Hyundai Ioniq V: पहला China-Exclusive EV 🚀',
+        subtitle: 'Hyundai ने अपना पहला China-Exclusive EV लॉन्च किया है, जो Ioniq V है। यह **EV** मॉडल वेनस कॉन्सेप्ट ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: 'https://image.pollinations.ai/prompt/Hyundai%20reveals%20Ioniq%20V%20as%20its%20first%20China-exclusive%20EV?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-ev-cars-future-or-hype',
         title: 'EV कारें — Future है या Just Hype? 🚀',
         subtitle: 'EV कारें भारत में आने वाली हैं, लेकिन क्या वे सचमुच भविष्य हैं? **Electric Vehicles** की दुनिया में ',
