@@ -11,6 +11,16 @@
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-poco-c81-series-launched-in-india',
+        title: 'POCO C81 सीरीज़ लॉन्च — **₹9,999** से शुरू 📱',
+        subtitle: 'POCO C81 सीरीज़ में **4G** कनेक्टिविटी के साथ लॉन्च हुई है, जिसकी कीमत **₹9,999** से शुरू होती है। य',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: 'https://image.pollinations.ai/prompt/POCO%20C81%20series%20with%204G%20launched%20in%20India,%20prices%20start%20at%20₹9,999?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-tpu-ai-workloads',
         title: 'Google का TPU - AI की गति को बढ़ाने वाला है! 🚀',
         subtitle: 'Google के TPUs के साथ AI की दुनिया में क्रांति आ रही है, जानें कैसे ये TPUs AI workloads को पावर देत',
