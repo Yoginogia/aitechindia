@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-microsoft-copilot-uninstall-feature',
+        title: 'Microsoft Copilot को Uninstall करें! 🚀',
+        subtitle: 'Microsoft ने Copilot को Uninstall करने की अनुमति दी है, **IT administrators** के लिए नया पॉलिसी सेटि',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: 'https://image.pollinations.ai/prompt/Microsoft%20now%20lets%20admins%20uninstall%20Copilot%20on%20enterprise%20devices?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-moto-g87-schematics-confirm-design-ahead-of-offici',
         title: 'Moto G87 की पहली झलक — **Launch** से पहले! 📱',
         subtitle: 'Moto G87 की स्कीमेटिक्स ऑनलाइन लीक हो गई है, जिससे फोन के डिज़ाइन का पता चलता है। **Deal** के बारे म',
