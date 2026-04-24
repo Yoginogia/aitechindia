@@ -1,6 +1,6 @@
 ---
 title: "Nissan का नया Urban SUV और Terrano PHEV — EV क्रांति में बड़ा बदलाव? 🚀"
-date: "24 April 2026"
+date: "2026-04-24"
 category: "Gadgets"
 excerpt: "Nissan ने अपने नए Urban SUV और Terrano PHEV कॉन्सेप्ट्स से पर्दा उठा दिया है, जो कि चीनी मार्केट के लिए बनाए गए हैं। ये दोनों कॉन्सेप्ट्स **Electric Vehicles** की दुनिया में बड़ा बदलाव ला सकते हैं।"
 image: "https://image.pollinations.ai/prompt/Nissan%20unveils%20Urban%20SUV%20and%20Terrano%20PHEV%20concepts?width=1200&height=630&nologo=true"

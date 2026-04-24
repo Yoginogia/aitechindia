@@ -1,6 +1,6 @@
 ---
 title: "Honor का 360W GaN Adapter — सस्ता और Powerful! 💻"
-date: "24 April 2026"
+date: "2026-04-24"
 category: "Deals"
 excerpt: "Honor ने अपना नया **GaN Adapter** लॉन्च कर दिया है, जो कि सिर्फ 499 yuan (~ **$75**) में मिलेगा। यह एडाप्टर खास तौर पर गेमिंग लैपटॉप के लिए डिज़ाइन किया गया है।"
 image: "https://image.pollinations.ai/prompt/Honor%20launches%20360W%20GaN%20adapter%20for%20just%20$75?width=1200&height=630&nologo=true"

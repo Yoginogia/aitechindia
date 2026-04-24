@@ -1,6 +1,6 @@
 ---
 title: "Google का नया Data Center — Alps में क्या है खास? 🏔️"
-date: "24 April 2026"
+date: "2026-04-24"
 category: "AI"
 excerpt: "Google ने अपना पहला **Data Center** Alps में लगाया है, जो कि एक बड़ी खबर है! यार, अब imagine करो — **ChatGPT** से सवाल पूछो, **YouTube** पर वीडियो देखो — ये सब '**Data Centers**' में process होता है!"
 image: "https://image.pollinations.ai/prompt/Elevating%20Austria:%20Google%20invests%20in%20its%20first%20data%20center%20in%20the%20Alps.?width=1200&height=630&nologo=true"

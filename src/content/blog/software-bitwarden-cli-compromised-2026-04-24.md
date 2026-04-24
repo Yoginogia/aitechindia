@@ -1,6 +1,6 @@
 ---
 title: "Bitwarden CLI Compromised: डेवलपर क्रेडेंशियल्स चोरी हो सकते हैं! 🚨"
-date: "24 April 2026"
+date: "2026-04-24"
 category: "Software"
 excerpt: "Bitwarden CLI npm पैकेज में मैलिशस कोड मिला, डेवलपर क्रेडेंशियल्स चोरी हो सकते हैं। सावधानी बरतें और अपने पासवर्ड बदलें।"
 image: "https://image.pollinations.ai/prompt/Bitwarden%20CLI%20npm%20package%20compromised%20to%20steal%20developer%20credentials?width=1200&height=630&nologo=true"

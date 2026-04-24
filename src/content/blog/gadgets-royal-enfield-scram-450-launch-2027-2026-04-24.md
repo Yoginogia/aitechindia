@@ -1,6 +1,6 @@
 ---
 title: "Royal Enfield Scram 450 आ रहा है - 2027 में लॉन्च! 🚴"
-date: "24 April 2026"
+date: "2026-04-24"
 category: "Gadgets"
 excerpt: "रॉयल एनफील्ड स्क्रैम 450 जल्द ही भारत में लॉन्च होगा, यह बाइक **Himalayan 450** और **Guerrilla** के बाद एक और मॉडल होगी। इसके **Key Specs** और **Features** क्या होंगे?"
 image: "https://image.pollinations.ai/prompt/Royal%20Enfield%20Scram%20450%20to%20arrive%20in%202027?width=1200&height=630&nologo=true"

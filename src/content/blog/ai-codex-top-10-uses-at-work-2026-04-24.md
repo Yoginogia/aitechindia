@@ -1,6 +1,6 @@
 ---
 title: "Codex के Top 10 Uses — Work को आसान बनाएं! 🚀"
-date: "24 April 2026"
+date: "2026-04-24"
 category: "AI"
 excerpt: "Codex के साथ अपने काम को आसान बनाएं, जानें इसके 10 सबसे उपयोगी तरीके, AI और Automation के साथ काम को आसान और तेज बनाएं"
 image: "https://image.pollinations.ai/prompt/Top%2010%20uses%20for%20Codex%20at%20work?width=1200&height=630&nologo=true"

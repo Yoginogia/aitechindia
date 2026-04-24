@@ -1,6 +1,6 @@
 ---
 title: "Trump का Memecoin Gala पर Address — क्या होगा **Bitcoin** का हाल? 🤔"
-date: "24 April 2026"
+date: "2026-04-24"
 category: "Crypto"
 excerpt: "यार, **Crypto** मार्केट में हो रहा है क्या? **Trump** का मेमेकॉइन गाला पर एड्रेस देने का क्या मतलब है? जानिए **Bitcoin** के भविष्य के बारे में"
 image: "https://image.pollinations.ai/prompt/White%20House%20confirms%20Trump%20to%20address%20memecoin%20gala%20on%20Saturday?width=1200&height=630&nologo=true"
