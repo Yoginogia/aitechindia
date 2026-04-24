@@ -7,51 +7,43 @@ image: "/images/blog/google_ai_update.png"
 readingTime: "6 min read"
 ---
 
-Google ने detail mein explain kiya hai ki unke **custom TPU (Tensor Processing Unit)** chips kaise duniya ke sabse **demanding AI workloads** ko power kar rahe hain। TPU basically Google ka secret weapon hai AI race mein — ye specially designed chips hain jo sirf AI tasks ke liye bane hain।
+Google ने detail में बताया है कि उनके **custom TPU (Tensor Processing Unit)** chips कैसे दुनिया के सबसे **demanding AI workloads** को power कर रहे हैं। TPU basically Google का secret weapon है AI race में — ये specially designed chips हैं जो सिर्फ AI tasks के लिए बने हैं।
 
-## 🔧 TPU Kya Hai — Simple Language Mein
+## 🔧 TPU क्या है — Simple Language में
 
-Normal computers mein **CPU (Central Processing Unit)** hota hai jo general tasks karta hai, aur **GPU (Graphics Processing Unit)** hota hai jo graphics aur parallel computing karta hai। **TPU** ek step aur aage hai — ye chip **sirf aur sirf AI calculations** ke liye design ki gayi hai।
+Normal computers में **CPU** होता है जो general tasks करता है, और **GPU** होता है जो graphics और parallel computing करता है। **TPU** एक step और आगे है — ये chip **सिर्फ और सिर्फ AI calculations** के लिए design की गई है।
 
-Imagine karo:
-* **CPU** = Swiss Army Knife — sab kuch karta hai but specialized nahi hai
-* **GPU** = Power Drill — heavy tasks ke liye achha hai
-* **TPU** = Surgical Robot — ek specific kaam ke liye perfectly designed
+Imagine करो:
+* **CPU** = Swiss Army Knife — सब कुछ करता है लेकिन specialized नहीं है
+* **GPU** = Power Drill — heavy tasks के लिए अच्छा है
+* **TPU** = Surgical Robot — एक specific काम के लिए perfectly designed
 
-Google ne 2015 mein pehla TPU banaya tha aur tab se har generation better hoti ja rahi hai।
+Google ने 2015 में पहला TPU बनाया था और तब से हर generation better होती जा रही है।
 
-## ⚡ TPU Kya Kya Power Karta Hai?
+## ⚡ TPU क्या क्या Power करता है?
 
-Aapko shayad pata na ho, lekin aap rozana TPU-powered AI use karte ho:
+आपको शायद पता न हो, लेकिन आप रोज़ाना TPU-powered AI use करते हो:
 
 ### 1. Google Search
-Jab aap Google pe kuch search karte ho, toh AI **search intent** samajhti hai aur relevant results dikhati hai। Ye sab TPU pe chalta hai। **Daily 8.5 billion searches** — sab TPU handle karta hai!
+जब आप Google पर कुछ search करते हो, तो AI **search intent** समझती है और relevant results दिखाती है। ये सब TPU पर चलता है। **Daily 8.5 billion searches** — सब TPU handle करता है!
 
 ### 2. Gemini AI Model
-Google ka sabse powerful AI model **Gemini** — jo ChatGPT ka competitor hai — poora TPU pe train hua hai aur TPU pe hi run hota hai। Gemini ke features:
-* Text generation aur analysis
-* Image understanding aur creation
-* Code generation
-* Multi-language support (Hindi bhi!)
-* Video understanding
+Google का सबसे powerful AI model **Gemini** — जो ChatGPT का competitor है — पूरा TPU पर train हुआ है और TPU पर ही run होता है। Text generation, image understanding, code generation, multi-language support (Hindi भी!) — सब Gemini TPU की बदौलत करता है।
 
 ### 3. YouTube Recommendations
-Aapko YouTube pe jo videos recommend hoti hain — wo sab **TPU-powered AI** decide karta hai। Algorithm aapki watch history, likes, aur behavior analyze karke personalized recommendations deta hai।
+आपको YouTube पर जो videos recommend होती हैं — वो सब **TPU-powered AI** decide करता है। Algorithm आपकी watch history, likes, और behavior analyze करके personalized recommendations देता है।
 
 ### 4. Google Photos Magic Features
-* **Magic Eraser** — unwanted objects photos se remove karo
-* **Photo Unblur** — blurry photos clear karo
-* **Magic Editor** — AI se photos edit karo
-* Ye sab features **TPU** ke bina possible nahi the
+**Magic Eraser** (unwanted objects remove करो), **Photo Unblur** (blurry photos clear करो), **Magic Editor** (AI से photos edit करो) — ये सब features TPU के बिना possible नहीं थे।
 
 ### 5. Google Translate
-**100+ languages** mein real-time translation — ye bhi TPU pe chalta hai। Accuracy pichle 5 saal mein dramatically improve hui hai TPU improvements ki wajah se।
+**100+ languages** में real-time translation — ये भी TPU पर चलता है। Accuracy पिछले 5 सालों में dramatically improve हुई है TPU improvements की वजह से।
 
-## 📊 TPU Generations — Kaise Evolve Hua
+## 📊 TPU Generations — कैसे Evolve हुआ
 
 | Generation | Year | Performance | Key Feature |
 |---|---|---|---|
-| **TPU v1** | 2016 | Baseline | First custom AI chip |
+| **TPU v1** | 2016 | Baseline | पहला custom AI chip |
 | **TPU v2** | 2017 | 5x faster | Training support added |
 | **TPU v3** | 2018 | 8x faster | Liquid cooling |
 | **TPU v4** | 2021 | 15x faster | 4,096 chip pods |
@@ -59,77 +51,52 @@ Aapko YouTube pe jo videos recommend hoti hain — wo sab **TPU-powered AI** dec
 | **TPU v5p** | 2024 | 30x faster | Highest performance |
 | **TPU v6 (Trillium)** | 2025 | 50x faster | Next-gen architecture |
 
-Har generation mein **2-3x performance jump** hota hai — iska matlab hai ki aaj ka TPU 2016 ke TPU se **50 guna zyada powerful** hai!
+हर generation में **2-3x performance jump** होता है — इसका मतलब है कि आज का TPU 2016 के TPU से **50 गुना ज़्यादा powerful** है!
 
 ## 🆚 NVIDIA GPU vs Google TPU
 
-Ye AI industry ka sabse bada rivalry hai — NVIDIA apne GPUs sell karta hai sabko, jabki Google TPU sirf khud ke liye aur Google Cloud customers ke liye rakhta hai।
+ये AI industry की सबसे बड़ी rivalry है — NVIDIA अपने GPUs sell करता है सबको, जबकि Google TPU सिर्फ खुद के लिए और Google Cloud customers के लिए रखता है।
 
 | Feature | NVIDIA GPU (H100/B200) | Google TPU v6 |
 |---|---|---|
-| **Availability** | Sabke liye (buy/rent) | Sirf Google Cloud pe |
+| **Availability** | सबके लिए (buy/rent) | सिर्फ Google Cloud पर |
 | **Price** | Expensive ($25,000+/chip) | Competitive cloud pricing |
 | **Training** | Industry standard | Google ecosystem optimized |
-| **Inference** | Excellent | Better for Google models |
+| **Inference** | Excellent | Google models पर better |
 | **Software** | CUDA (universal) | JAX/TensorFlow (Google) |
 | **Market Share** | ~80% AI training | ~15% (growing) |
 
-### NVIDIA ki Strength:
-* Universal compatibility — koi bhi AI model chala sakte ho
-* Massive developer ecosystem — CUDA millions of developers use karte hain
-* Hardware availability — buy kar sakte ho
+### NVIDIA की Strength:
+Universal compatibility, massive developer ecosystem (CUDA millions of developers use करते हैं), और hardware availability।
 
-### Google TPU ki Strength:
-* Google ke own models pe **optimized performance**
-* **Cost-effective** agar Google Cloud use kar rahe ho
-* **Energy efficient** — kam power consumption
-* **Scaling** — thousands of TPUs ko connect kar sakte hain easily
+### Google TPU की Strength:
+Google के own models पर **optimized performance**, **cost-effective** अगर Google Cloud use कर रहे हो, **energy efficient** (कम power consumption), और **scaling** (thousands of TPUs को connect कर सकते हैं easily)।
 
 ## 🏗️ TPU Infrastructure
 
-Google ke paas duniya ke **sabse bade AI data centers** hain:
-
-* **Oklahoma, USA** — massive TPU farm
-* **Netherlands** — European AI hub
-* **Singapore** — Asia-Pacific operations
-* **India (coming)** — Google Cloud region expansion
-
-In data centers mein **thousands of TPUs** ek saath connected hote hain **TPU pods** mein। Ek single TPU pod itna powerful hai ki **Gemini jaise massive AI model** ko train kar sakta hai।
+Google के पास दुनिया के **सबसे बड़े AI data centers** हैं — Oklahoma (USA), Netherlands (European AI hub), Singapore (Asia-Pacific), और India (coming — Google Cloud region expansion)। इन data centers में **thousands of TPUs** एक साथ connected होते हैं **TPU pods** में।
 
 ## 🇮🇳 India Connection
 
-Google ka TPU infrastructure India ke liye bhi important hai:
+### Developers के लिए:
+**Google Cloud TPU** India region पर available है। Indian startups **affordable AI training** कर सकते हैं। **Hindi और regional language AI models** train करने में TPU help करता है।
 
-### For Developers:
-* **Google Cloud TPU** India region pe available hai
-* Indian startups **affordable AI training** kar sakte hain
-* **Hindi aur regional language AI models** train karne mein TPU help karta hai
+### Users के लिए:
+Google Search India में **faster और more relevant** results देता है TPU की वजह से। **Google Translate** Hindi-English translation बहुत accurate है। **YouTube** की recommendations Indian content के लिए optimized हैं।
 
-### For Users:
-* Google Search India mein **faster aur more relevant** results deta hai TPU ki wajah se
-* **Google Translate** Hindi-English translation bahut accurate hai
-* **YouTube** ki recommendations Indian content ke liye optimized hain
+### Businesses के लिए:
+Indian enterprises **Google Cloud के through TPU access** ले सकते हैं। **Healthcare, finance, और e-commerce** में AI deployment faster होता है। **Cost** NVIDIA GPUs से competitive है cloud pricing में।
 
-### For Businesses:
-* Indian enterprises **Google Cloud ke through TPU access** le sakte hain
-* **Healthcare, finance, aur e-commerce** mein AI deployment faster hota hai
-* **Cost** NVIDIA GPUs se competitive hai cloud pricing mein
+## 🔮 Future — क्या आने वाला है?
 
-## 🔮 Future — Kya Aane Wala Hai?
-
-Google ka AI hardware roadmap exciting hai:
-
-1. **TPU v7 (2026-27)** — expected 3x performance jump over v6
-2. **Custom AI chips for phones** — Tensor chip already Pixel mein hai, aur improve hoga
-3. **Edge TPU** — small devices mein AI processing (IoT, cameras)
-4. **Quantum + AI hybrid** — Google Willow quantum chip ke saath TPU integration
+Google का AI hardware roadmap exciting है — **TPU v7 (2026-27)** expected 3x performance jump, **custom AI chips for phones** (Tensor chip already Pixel में है), **Edge TPU** (small devices में AI processing), और **Quantum + AI hybrid** (Google Willow quantum chip के साथ TPU integration)।
 
 ## 💡 Key Takeaways
 
-1. **TPU** Google ka sabse important competitive advantage hai AI race mein
-2. Har Google product jo aap use karte ho — **TPU pe chalta hai**
-3. **NVIDIA vs Google TPU** rivalry AI industry ko drive kar raha hai
-4. **Indian developers** Google Cloud TPU se affordable AI training kar sakte hain
-5. **Future** mein aur powerful TPUs aayenge jo AI ko aur accessible banayenge
+1. **TPU** Google का सबसे important competitive advantage है AI race में
+2. हर Google product जो आप use करते हो — **TPU पर चलता है**
+3. **NVIDIA vs Google TPU** rivalry AI industry को drive कर रहा है
+4. **Indian developers** Google Cloud TPU से affordable AI training कर सकते हैं
+5. **Future** में और powerful TPUs आएंगे जो AI को और accessible बनाएंगे
 
-Google ke TPUs silently duniya ki sabse zyada use hone wali AI services power kar rahe hain — aur ye sirf shuruat hai! 🚀
+Google के TPUs silently दुनिया की सबसे ज़्यादा use होने वाली AI services power कर रहे हैं — और ये सिर्फ शुरुआत है! 🚀

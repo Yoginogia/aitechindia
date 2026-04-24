@@ -7,18 +7,18 @@ image: "/images/blog/lamborghini_urus_se.png"
 readingTime: "5 min read"
 ---
 
-Lamborghini ne apni **Urus SE** SUV ka ek **ultra-exclusive limited edition** version reveal kiya hai — **Tettonero Capsule**! Duniya bhar mein sirf **630 units** banegi — matlab ye ek extreme rare car hai jo sirf lucky few ke paas hogi।
+Lamborghini ने अपनी **Urus SE** SUV का एक **ultra-exclusive limited edition** version reveal किया है — **Tettonero Capsule**! दुनिया भर में सिर्फ **630 units** बनेंगी — मतलब ये एक extreme rare car है जो सिर्फ lucky few के पास होगी।
 
-## 🏎️ Tettonero Capsule Kya Hai?
+## 🏎️ Tettonero Capsule क्या है?
 
-**"Tettonero"** Italian word hai jiska matlab hai **"Dark/Black"**. Ye Lamborghini ki **Ad Personam** customization program ka hissa hai jismein buyers ko near-unlimited personalization options milte hain।
+**"Tettonero"** Italian word है जिसका मतलब है **"Dark/Black"**। ये Lamborghini की **Ad Personam** customization program का हिस्सा है जिसमें buyers को near-unlimited personalization options मिलते हैं।
 
 ### Key Facts:
-* **Limited to 630 units** worldwide — each car individually numbered
-* **70+ customization options** — interior colors, trims, stitching patterns, aur finishes
+* **सिर्फ 630 units** worldwide — हर car individually numbered
+* **70+ customization options** — interior colors, trims, stitching patterns, और finishes
 * **Urus SE hybrid platform** — 800 bhp combined power!
 * **Matte Nero Noctis** — exclusive matte black paint finish
-* **Carbon fiber** body panels — aggressive aur lightweight
+* **Carbon fiber** body panels — aggressive और lightweight
 
 ## ⚡ Performance — Pure Beast!
 
@@ -31,60 +31,37 @@ Lamborghini ne apni **Urus SE** SUV ka ek **ultra-exclusive limited edition** ve
 | **Top Speed** | 312 km/h |
 | **Electric Range** | ~60 km (city driving) |
 | **Drivetrain** | AWD (All-Wheel Drive) |
-| **Transmission** | 8-speed Automatic |
-| **Weight** | 2,350 kg |
-| **Fuel Type** | Petrol + Electric Hybrid |
 
-### Performance in Context:
-* **3.4 seconds** 0-100 km/h — ye ek **SUV** hai, sports car nahi! Most sports cars bhi itne fast nahi hain
-* **312 km/h top speed** — duniya ki sabse fast SUVs mein se ek
-* **800 bhp** — Lamborghini Huracan se bhi zyada powerful hai!
-* **60 km electric range** — city mein sirf electric pe bhi chal sakti hai — zero emissions!
+### Performance को Context में समझो:
+* **3.4 seconds** 0-100 km/h — ये एक **SUV** है, sports car नहीं! Most sports cars भी इतनी fast नहीं हैं
+* **312 km/h top speed** — दुनिया की सबसे fast SUVs में से एक
+* **800 bhp** — Lamborghini Huracan से भी ज़्यादा powerful!
+* **60 km electric range** — city में सिर्फ electric पर भी चल सकती है — zero emissions!
 
 ## 🎨 Design — Dark Elegance
 
 ### Exterior:
-* **Nero Noctis matte black** — exclusive paint finish sirf Tettonero capsule ke liye
-* **Carbon fiber front splitter** — aggressive look + functional downforce
-* **Blacked-out badges** — Lamborghini logo bhi dark finish mein
-* **23-inch forged wheels** — exclusive design, matte black finish
-* **Darkened headlights** — sinister look jo ek nazar mein pehchaan aa jaaye
-* **Carbon fiber rear diffuser** — race-inspired design
-* **Quad exhaust tips** — titanium finish
+**Nero Noctis matte black** (exclusive paint finish सिर्फ Tettonero capsule के लिए), **carbon fiber front splitter** (aggressive look + functional downforce), **blacked-out badges** (Lamborghini logo भी dark finish में), **23-inch forged wheels** (exclusive design, matte black finish), **darkened headlights** (sinister look), और **quad exhaust tips** (titanium finish)।
 
 ### Interior:
-* **Alcantara + leather combination** — premium feel har jagah
-* **Contrast stitching** — buyer choose kar sakta hai — red, yellow, green, ya koi bhi color
-* **Carbon fiber trim** — dashboard aur door panels pe
-* **Illuminated door sills** — "Tettonero" badge with lighting
-* **Exclusive seat pattern** — hexagonal quilting design
-* **Numbered plaque** — "X of 630" — har car unique hai
-* **Bang & Olufsen 3D audio** — 21-speaker system jo concert hall jaisa sound deta hai
+**Alcantara + leather combination** (premium feel हर जगह), **contrast stitching** (buyer choose कर सकता है — red, yellow, green, या कोई भी color), **carbon fiber trim** (dashboard और door panels पर), **illuminated door sills** ("Tettonero" badge with lighting), **numbered plaque** ("X of 630" — हर car unique है), और **Bang & Olufsen 3D audio** (21-speaker system)।
 
 ## 💰 Price — Ultra Premium
 
 | Market | Estimated Price |
 |---|---|
-| **Europe** | €300,000+ (~₹2.8 Crore) |
-| **USA** | $350,000+ (~₹3 Crore) |
-| **India** | ₹5+ Crore (on-road, after import duties) |
-| **Middle East** | $320,000+ |
+| **Europe** | €300,000+ (~₹2.8 करोड़) |
+| **USA** | $350,000+ (~₹3 करोड़) |
+| **India** | ₹5+ करोड़ (on-road, import duties के बाद) |
 
-### India Mein Kitne Aayenge?
+### India में कितने आएंगे?
+India allocation **बहुत limited** है — estimates के मुताबिक **10-15 units maximum** India के लिए allocate होंगी। Mumbai, Delhi, और Bangalore के showrooms पर **by-appointment only** viewing होगी। Buyers को **advance booking** करवानी पड़ेगी — waiting period 6+ months।
 
-India allocation **bahut limited** hai — estimates ke mutabik:
-* **10-15 units maximum** India ke liye allocate hongi
-* Mumbai, Delhi, aur Bangalore ke showrooms pe **by-appointment only** viewing
-* Buyers ko **advance booking** karwani padegi — waiting period 6+ months
-* **Customization** India se bhi possible hai — factory mein order doge
-
-### Fun Fact — ₹5 Crore Mein Kya Kya Aa Sakta Hai?
-
-* **25 Mercedes C-Class** (₹20 lakh each) — poore mohalle ko de do!
-* **10 BMW 5 Series** (₹50 lakh each)
-* **5 Audi Q7** (₹1 crore each)
-* **2 Range Rover** (₹2.5 crore each)
-* Ya phir **1 Lamborghini Urus SE Tettonero** — because why not? 😄
+### Fun Fact — ₹5 करोड़ में क्या क्या आ सकता है?
+* **25 Mercedes C-Class** (₹20 लाख each) — पूरे मोहल्ले को दे दो!
+* **10 BMW 5 Series** (₹50 लाख each)
+* **5 Audi Q7** (₹1 करोड़ each)
+* या फिर **1 Lamborghini Urus SE Tettonero** — because why not? 😄
 
 ## 🆚 Lamborghini Urus SE vs Competition
 
@@ -97,49 +74,31 @@ India allocation **bahut limited** hai — estimates ke mutabik:
 | **Price (India)** | ~₹5 Cr | ~₹3.5 Cr | ~₹10 Cr | ~₹4.5 Cr |
 | **Exclusivity** | 630 units | Mass produced | Limited | Mass produced |
 
-### Urus SE Tettonero vs Ferrari Purosangue:
-* Ferrari zyada mehenga hai but Lamborghini zyada powerful (hybrid advantage)
-* Ferrari ka **V12 naturally aspirated** sound unmatched hai
-* Lamborghini ki **exclusivity** (630 units) Ferrari se zyada hai is model mein
-* Dono apne segment ke **ultimate** SUVs hain
+## 🇮🇳 India में Lamborghini Market
 
-## 🇮🇳 India Mein Lamborghini Market
-
-India mein luxury car market rapidly grow ho raha hai:
-
-* **Lamborghini India sales** 2025 mein **record 100+ units** cross kiye
-* **Urus** accounts for **~70%** of all Lamborghini sales in India
-* **Top cities:** Mumbai (40%), Delhi (25%), Bangalore (15%), Hyderabad (10%)
-* **Buyer profile:** Young entrepreneurs, tech founders, second-gen business families
-* **Average age** of Indian Lamborghini buyer: **38 years** — duniya mein sabse young!
-
-### Lamborghini Showrooms in India:
-* **Mumbai** — Lamborghini Mumbai (BKC)
-* **Delhi NCR** — Lamborghini Delhi (Gurgaon)
-* **Bangalore** — Lamborghini Bengaluru
+India में luxury car market rapidly grow हो रहा है: **Lamborghini India sales** 2025 में **record 100+ units** cross किए। **Urus** accounts for **~70%** of all Lamborghini sales in India। **Top cities:** Mumbai (40%), Delhi (25%), Bangalore (15%), Hyderabad (10%)। **Average age** of Indian Lamborghini buyer: **38 years** — दुनिया में सबसे young!
 
 ## 🔧 Ownership Experience
 
-Lamborghini own karna sirf car khareedne se khatam nahi hota:
+Lamborghini own करना सिर्फ car खरीदने से खत्म नहीं होता:
 
 | Expense | Annual Cost (approx.) |
 |---|---|
-| **Insurance** | ₹15-20 Lakh |
-| **Service (annual)** | ₹3-5 Lakh |
-| **Tyres (set of 4)** | ₹4-6 Lakh |
-| **Fuel (average use)** | ₹2-3 Lakh |
-| **Depreciation** | Limited editions hold value better |
+| **Insurance** | ₹15-20 लाख |
+| **Service (annual)** | ₹3-5 लाख |
+| **Tyres (set of 4)** | ₹4-6 लाख |
+| **Fuel (average use)** | ₹2-3 लाख |
 
-**Total annual running cost: ₹25-35 Lakh** — matlab sirf rakhne ka kharcha ek average Indian ki annual salary se zyada hai!
+**Total annual running cost: ₹25-35 लाख** — मतलब सिर्फ रखने का खर्चा एक average Indian की annual salary से ज़्यादा है!
 
 ## 💡 Key Takeaways
 
 1. Lamborghini Urus SE Tettonero **630 units only** — extreme exclusivity
-2. **800 bhp hybrid** — powerful aur environmentally conscious (relatively!)
-3. **₹5+ Crore India mein** — sirf ultra-rich ke liye
-4. **Customization** virtually unlimited hai — har car unique
-5. India allocation **bahut limited** — jaldi book karna padega
+2. **800 bhp hybrid** — powerful और environmentally conscious (relatively!)
+3. **₹5+ करोड़ India में** — सिर्फ ultra-rich के लिए
+4. **Customization** virtually unlimited है — हर car unique
+5. India allocation **बहुत limited** — जल्दी book करना पड़ेगा
 
 ## 🎯 Verdict
 
-Lamborghini Urus SE Tettonero Capsule ek **rolling work of art** hai jo performance, luxury, aur exclusivity ko ek saath deliver karta hai। 99.99% logo ke liye ye sapna hai — but sapne dekhne mein koi harj nahi! 🏎️✨
+Lamborghini Urus SE Tettonero Capsule एक **rolling work of art** है जो performance, luxury, और exclusivity को एक साथ deliver करता है। 99.99% लोगों के लिए ये सपना है — लेकिन सपने देखने में कोई हर्ज नहीं! 🏎️✨
