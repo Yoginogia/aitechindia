@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-memecoin-trump-luncheon',
+        title: 'मेमेकॉइन में उबाल 🚀',
+        subtitle: 'ट्रंप के लंच में शामिल होंगे मेमेकॉइन के टॉप होल्डर, जस्टिन सन की अनुपस्थिति से बढ़ी असमंजस',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-memecoin-trump-luncheon.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-hyperliquid-whale-holds-38m-short-against-bitcoin',
         title: 'बिटकॉइन के खिलाफ $38M शॉर्ट पोजीशन: क्या यह मायने रखता है? 📊',
         subtitle: 'एक Hyperliquid व्हेल ने **$38M** की शॉर्ट पोजीशन ली है, लेकिन क्या यह बाजार के भविष्य के परिणामों का',
