@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-hyperliquid-whale-holds-38m-short-against-bitcoin',
+        title: 'बिटकॉइन के खिलाफ $38M शॉर्ट पोजीशन: क्या यह मायने रखता है? 📊',
+        subtitle: 'एक Hyperliquid व्हेल ने **$38M** की शॉर्ट पोजीशन ली है, लेकिन क्या यह बाजार के भविष्य के परिणामों का',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-hyperliquid-whale-holds-38m-short-against-bitcoin.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-hyundai-ioniq-v-china-exclusive-ev',
         title: 'Hyundai Ioniq V: पहला China-Exclusive EV 🚀',
         subtitle: 'Hyundai ने अपना पहला China-Exclusive EV लॉन्च किया है, जो Ioniq V है। यह **EV** मॉडल वेनस कॉन्सेप्ट ',
