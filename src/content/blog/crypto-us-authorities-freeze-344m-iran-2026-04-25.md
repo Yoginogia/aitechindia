@@ -3,7 +3,7 @@ title: "क्रिप्टो का महा-एक्शन: US ने Ira
 date: "2026-04-25"
 category: "Crypto"
 excerpt: "US Authorities ने एक बड़ी करवाई करते हुए ईरान (Iran) से जुड़ी $344 Million की क्रिप्टोकरेंसी को फ्रीज़ कर दिया है। जानिए क्या है पूरा मामला और इसका क्रिप्टो मार्किट पर असर।"
-image: "/images/blog/ai-crypto-2026.jpg"
+image: "/images/blog/crypto_crash.webp"
 readingTime: "4 min read"
 ---
 

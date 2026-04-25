@@ -3,7 +3,7 @@ title: "Amazon Tech Week Sale: Laptops और Earbuds पर टॉप 5 Deals �
 date: "2026-04-25"
 category: "Deals"
 excerpt: "Amazon की धांसू Tech Week Sale शुरू हो चुकी है! 50% तक के भारी डिस्काउंट के साथ Laptops, Smartwatches और TWS Earbuds खरीदने का सबसे सही मौका।"
-image: "/images/blog/deals-sale.jpg"
+image: "/images/blog/budget_student_laptop.webp"
 readingTime: "4 min read"
 ---
 

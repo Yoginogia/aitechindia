@@ -3,7 +3,7 @@ title: "Google की $40B डील: Anthropic में महा-इन्व
 date: "2026-04-25"
 category: "AI"
 excerpt: "Google अब AI की दुनिया का सबसे बड़ा कदम उठाने जा रहा है। रिपोर्ट्स के अनुसार, Google Anthropic (Claude AI) में $40 Billion इन्वेस्ट करने वाला है। जानिए इसका AI भविष्य पर क्या असर होगा।"
-image: "/images/blog/ai-future-2026.jpg"
+image: "/images/blog/google_anthropic.png"
 readingTime: "4 min read"
 ---
 

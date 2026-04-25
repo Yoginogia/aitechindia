@@ -3,7 +3,7 @@ title: "WhatsApp से करें सीधा Recharge! Jio, Airtel और V
 date: "2026-04-25"
 category: "Deals"
 excerpt: "अब आपको अपना फोन रिचार्ज करने के लिए Google Pay या Paytm की जरूरत नहीं! WhatsApp ने Jio, Airtel और Vi यूजर्स के लिए इन-ऐप रिचार्ज फीचर रोलआउट कर दिया है।"
-image: "/images/blog/deals-sale.jpg"
+image: "/images/blog/whatsapp-meta-ai-2026.webp"
 readingTime: "3 min read"
 ---
 
