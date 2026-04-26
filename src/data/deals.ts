@@ -21,6 +21,103 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "iphone-15-massive-discount-april-26",
+        title: "Apple iPhone 15 (128GB) — ₹14,000 Off! 🍎",
+        category: "Smartphone",
+        description: "आज की सबसे बड़ी डील! Apple iPhone 15 (128GB) पर Amazon पर ₹14,000 का भारी डिस्काउंट मिल रहा है।",
+        price: "₹65,999",
+        discount: "₹14,000 Off (था ₹79,900)",
+        rating: 4.8,
+        tag: "🔥 Deal of the Day",
+        image: "https://images.unsplash.com/photo-1696446701796-da61225697cc?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=iphone+15&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India",
+        specs: [
+            "6.1-inch Super Retina XDR display",
+            "A16 Bionic Chip",
+            "48MP Main Camera + 12MP Ultrawide",
+            "USB-C Port",
+            "Dynamic Island",
+            "All-day battery life"
+        ],
+        variants: [
+            "128GB — ₹65,999",
+            "256GB — ₹75,999"
+        ],
+        bankOffers: [
+            "SBI Credit Card — ₹4,000 Instant Off",
+            "No-Cost EMI — 6 months",
+            "Exchange Bonus — Up to ₹20,000"
+        ],
+        colors: ["Black", "Blue", "Green", "Pink", "Yellow"],
+        content: "आज Amazon पर Apple iPhone 15 (128GB) अपनी सबसे कम कीमत पर उपलब्ध है। ₹79,900 का यह फोन सीधे ₹65,999 में मिल रहा है। A16 Bionic चिप, 48MP कैमरा और नए USB-C पोर्ट के साथ यह 2026 की सबसे बेहतरीन डील है। स्टॉक बहुत तेजी से खत्म हो रहा है, इसलिए तुरंत चेक करें!"
+    },
+    {
+        slug: "samsung-galaxy-s24-ultra-april-deal",
+        title: "Samsung Galaxy S24 Ultra 5G AI Smartphone 🚀",
+        category: "Flagship",
+        description: "Titanium Body और 200MP कैमरा वाला Samsung का प्रीमियम फोन। HDFC कार्ड पर ₹12,000 की एक्स्ट्रा छूट!",
+        price: "₹1,17,999",
+        discount: "₹12,000 Bank Off",
+        rating: 4.9,
+        tag: "⭐ Premium Pick",
+        image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s24+ultra&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India",
+        specs: [
+            "6.8-inch Dynamic AMOLED 2X, 120Hz",
+            "Snapdragon 8 Gen 3 for Galaxy",
+            "200MP Main + 50MP Periscope + 12MP UW",
+            "Titanium Frame, Built-in S Pen",
+            "Galaxy AI Features (Live Translate, Circle to Search)",
+            "5000mAh Battery"
+        ],
+        variants: [
+            "12GB + 256GB — ₹1,17,999",
+            "12GB + 512GB — ₹1,27,999"
+        ],
+        bankOffers: [
+            "HDFC Credit Card — ₹12,000 Instant Discount",
+            "Samsung Upgrade — ₹5,000 Extra Value",
+            "No-Cost EMI — Up to 24 Months"
+        ],
+        colors: ["Titanium Gray", "Titanium Black", "Titanium Violet"],
+        content: "Samsung Galaxy S24 Ultra 5G पर आज HDFC कार्ड्स के साथ ₹12,000 का भारी इंस्टेंट डिस्काउंट मिल रहा है। इसके Galaxy AI फीचर्स और 200MP कैमरे का कोई मुकाबला नहीं है। अगर आप एक प्रीमियम फ्लैगशिप फोन लेने का मन बना रहे हैं, तो इससे बेहतर समय नहीं मिलेगा!"
+    },
+    {
+        slug: "oneplus-12r-bestseller-deal",
+        title: "OnePlus 12R (8GB+256GB) — Best 5G Phone Under 40K",
+        category: "Smartphone",
+        description: "Snapdragon 8 Gen 2, 5500mAh बैटरी और 100W चार्जिंग। ₹2,000 का कूपन डिस्काउंट लाइव!",
+        price: "₹37,999",
+        discount: "₹2,000 Coupon Off",
+        rating: 4.6,
+        tag: "🔥 Bestseller",
+        image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800",
+        buyLink: `https://www.amazon.in/s?k=oneplus+12r&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India",
+        specs: [
+            "Snapdragon 8 Gen 2 Processor",
+            "6.78-inch 1.5K AMOLED 120Hz ProXDR Display",
+            "50MP Sony IMX890 Camera",
+            "5500mAh Battery",
+            "100W SUPERVOOC Fast Charging",
+            "OxygenOS 14"
+        ],
+        variants: [
+            "8GB + 128GB — ₹37,999",
+            "8GB + 256GB — ₹39,999",
+            "16GB + 256GB — ₹43,999"
+        ],
+        bankOffers: [
+            "Amazon Coupon — Apply ₹2,000 Off",
+            "ICICI Bank — ₹1,000 Instant Discount",
+            "No-Cost EMI — 6 months"
+        ],
+        colors: ["Iron Gray", "Cool Blue"],
+        content: "OnePlus 12R अपने प्राइस सेगमेंट का 'Performance King' है। इसमें Snapdragon 8 Gen 2 प्रोसेसर है जो पिछले साल के फ्लैगशिप फोन्स में था। 5500mAh की विशाल बैटरी और 100W चार्जिंग इसे गेमर्स और हेवी यूज़र्स के लिए परफेक्ट बनाती है। आज Amazon पर ₹2,000 का कूपन मिल रहा है, चेकआउट के समय इसे अप्लाई करना न भूलें।"
+    },
+    {
         slug: "vivo-t5-pro-9020mah-launch-deal",
         title: "Vivo T5 Pro — 9020mAh Monster Battery + 144Hz AMOLED! 🔋 (₹22,999)",
         category: "Smartphone",
