@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-byd-atto-3-new-gen-630km-range',
+        title: 'BYD Atto 3 का नया जनरेशन, 630km तक की दूरी के साथ 🚗💨',
+        subtitle: 'BYD Atto 3 का नया जनरेशन 19-इंच अलॉय व्हील और 16-स्पीकर ऑडियो सिस्टम के साथ आया है, और यह 630km तक क',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-byd-atto-3-new-gen-630km-range.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-bovensiepen-zagato-motor-sports-new-price',
         title: 'बोवेनसीपेन ज़ागाटो: मोटरस्पोर्ट्स की नई श्रेणी में प्रवेश कर',
         subtitle: 'बोवेनसीपेन परिवार की पहली स्वतंत्र बुटीक कारमेकर की पहली कार, ज़ागाटो कूपे, बीएमडब्ल्यू एम4 पर आधारि',
