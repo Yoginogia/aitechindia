@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-263m-crypto-scam-us-doj-imposes-70-month-sentence',
+        title: '📊 **$263M Crypto Scam: US DOJ Imposes 70-Month Sentence** 🇮🇳',
+        subtitle: 'एक बड़े **$263M** क्रिप्टो घोटाले में शामिल एक व्यक्ति को अमेरिकी न्याय विभाग ने **70 महीने** की सजा',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-263m-crypto-scam-us-doj-imposes-70-month-sentence.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-freelancers-divided-on-the-impact-of-ai',
         title: 'AI की Impact पर Freelancers का विभाजित राय 📊💻',
         subtitle: 'भारत में AI की बढ़ती उपयोगिता के बीच, फ्रीलांसर विकासकर्ताओं और IT पेशेवरों में AI के प्रभाव के बारे',
