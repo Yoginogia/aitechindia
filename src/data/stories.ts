@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-bovensiepen-zagato-motor-sports-new-price',
+        title: 'बोवेनसीपेन ज़ागाटो: मोटरस्पोर्ट्स की नई श्रेणी में प्रवेश कर',
+        subtitle: 'बोवेनसीपेन परिवार की पहली स्वतंत्र बुटीक कारमेकर की पहली कार, ज़ागाटो कूपे, बीएमडब्ल्यू एम4 पर आधारि',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-bovensiepen-zagato-motor-sports-new-price.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-cftc-sues-new-york-over-bid-to-apply-gambling-laws',
         title: 'न्यूयॉर्क के खिलाफ CFTC की कार्रवाई: भविष्यवाणी बाजारों पर ज',
         subtitle: 'CFTC ने भविष्यवाणी बाजारों पर जुए के कानून लागू करने के लिए न्यूयॉर्क के खिलाफ कार्रवाई की है। CFTC ',
