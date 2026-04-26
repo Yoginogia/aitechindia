@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deepseek-v4-launch-china-open-source-ai-model-2026',
+        title: 'DeepSeek V4: OpenAI को कड़ी टक्कर! 🤖',
+        subtitle: 'China की AI startup DeepSeek ने अपना नया flagship model V4 launch किया — जो open-source दुनिया का सबसे powerful model है।',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/deepseek-v4-launch.png',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-byd-atto-3-new-gen-630km-range',
         title: 'BYD Atto 3 का नया जनरेशन, 630km तक की दूरी के साथ 🚗💨',
         subtitle: 'BYD Atto 3 का नया जनरेशन 19-इंच अलॉय व्हील और 16-स्पीकर ऑडियो सिस्टम के साथ आया है, और यह 630km तक क',
