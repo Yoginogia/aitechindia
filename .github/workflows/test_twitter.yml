@@ -29,16 +29,21 @@ jobs:
           python -c "
           import tweepy, os
           try:
+              k1 = os.environ.get('TWITTER_API_KEY', '').strip()
+              k2 = os.environ.get('TWITTER_API_SECRET', '').strip()
+              k3 = os.environ.get('TWITTER_ACCESS_TOKEN', '').strip()
+              k4 = os.environ.get('TWITTER_ACCESS_SECRET', '').strip()
+              
               client = tweepy.Client(
-                  consumer_key=os.environ.get('TWITTER_API_KEY'),
-                  consumer_secret=os.environ.get('TWITTER_API_SECRET'),
-                  access_token=os.environ.get('TWITTER_ACCESS_TOKEN'),
-                  access_token_secret=os.environ.get('TWITTER_ACCESS_SECRET')
+                  consumer_key=k1,
+                  consumer_secret=k2,
+                  access_token=k3,
+                  access_token_secret=k4
               )
-              user = client.get_me()
-              msg = f'SUCCESS! Authenticated as: {user.data.username}\n'
+              
+              # Do not use get_me() as Free Tier might not support it
               client.create_tweet(text='Testing AITechNews Auto-post API Integration! 🚀 #TechNews')
-              msg += 'Test tweet posted successfully!'
+              msg = 'SUCCESS! Test tweet posted successfully!'
               with open('twitter_test_result.txt', 'w') as f:
                   f.write(msg)
           except Exception as e:
