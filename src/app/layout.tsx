@@ -11,7 +11,7 @@ import ChatbotWidget from "@/components/ChatbotWidget";
 import { getSortedPostsData } from "@/lib/markdown";
 import NewsTicker from "@/components/NewsTicker";
 import ProgressBar from "@/components/ProgressBar";
-import DealToast from "@/components/DealToast";
+
 import OneSignalSetup from "@/components/OneSignalSetup";
 import StickySocialShare from "@/components/StickySocialShare";
 import InstallPrompt from "@/components/InstallPrompt";
@@ -100,7 +100,6 @@ export default function RootLayout({
             <main className="flex-1 flex flex-col">
               {children}
             </main>
-            <DealToast />
             <WhatsAppButton />
             <ChatbotWidget />
             <Footer />
