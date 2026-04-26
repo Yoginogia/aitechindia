@@ -1,3 +1,3 @@
-[2026-04-26 13:26:07.538111] ERROR: 401 Unauthorized
-Unauthorized
-Lengths: 0, 0, 0, 0
+[2026-04-26 13:36:37.617802] ERROR: 402 Payment Required
+Your enrolled account [2045547469874794496] does not have any credits to fulfill this request.
+Lengths: 25, 50, 50, 45
