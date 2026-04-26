@@ -29,7 +29,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "₹14,000 Off (था ₹79,900)",
         rating: 4.8,
         tag: "🔥 Deal of the Day",
-        image: "/images/deals/iphone-15.png",
+        image: "https://images.unsplash.com/photo-1696446701796-da61225697cc?auto=format&fit=crop&q=80&w=800",
         buyLink: `https://www.amazon.in/s?k=iphone+15&tag=${AFFILIATE_TAG}`,
         platform: "Amazon India",
         specs: [
@@ -61,7 +61,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "₹12,000 Bank Off",
         rating: 4.9,
         tag: "⭐ Premium Pick",
-        image: "/images/deals/s24-ultra.png",
+        image: "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&q=80&w=800",
         buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s24+ultra&tag=${AFFILIATE_TAG}`,
         platform: "Amazon India",
         specs: [
@@ -93,7 +93,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "₹2,000 Coupon Off",
         rating: 4.6,
         tag: "🔥 Bestseller",
-        image: "/images/deals/oneplus-12r.png",
+        image: "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&q=80&w=800",
         buyLink: `https://www.amazon.in/s?k=oneplus+12r&tag=${AFFILIATE_TAG}`,
         platform: "Amazon India",
         specs: [
