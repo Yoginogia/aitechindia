@@ -27,7 +27,7 @@ jobs:
           TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
         run: |
           python -c "
-          import tweepy, os
+          import tweepy, os, datetime
           try:
               k1 = os.environ.get('TWITTER_API_KEY', '').strip()
               k2 = os.environ.get('TWITTER_API_SECRET', '').strip()
@@ -41,17 +41,16 @@ jobs:
                   access_token_secret=k4
               )
               
-              # Do not use get_me() as Free Tier might not support it
               client.create_tweet(text='Testing AITechNews Auto-post API Integration! 🚀 #TechNews')
-              msg = 'SUCCESS! Test tweet posted successfully!'
+              msg = f'[{datetime.datetime.now()}] SUCCESS! Test tweet posted successfully!'
               with open('twitter_test_result.txt', 'w') as f:
                   f.write(msg)
           except Exception as e:
               with open('twitter_test_result.txt', 'w') as f:
-                  f.write(f'ERROR: {e}')
+                  f.write(f'[{datetime.datetime.now()}] ERROR: {e}\nLengths: {len(k1)}, {len(k2)}, {len(k3)}, {len(k4)}')
           "
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add twitter_test_result.txt || true
-          git commit -m "Auto: Update Twitter test result" || true
+          git commit -m "Auto: Update Twitter test result with timestamp" || true
           git push || true
