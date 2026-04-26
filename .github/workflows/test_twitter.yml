@@ -1,0 +1,52 @@
+name: Test Twitter API
+on:
+  push:
+    paths:
+      - 'trigger_twitter_test.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  test-twitter:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Setup python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install tweepy
+        run: pip install tweepy
+      - name: Run Test
+        env:
+          TWITTER_API_KEY: ${{ secrets.TWITTER_API_KEY }}
+          TWITTER_API_SECRET: ${{ secrets.TWITTER_API_SECRET }}
+          TWITTER_ACCESS_TOKEN: ${{ secrets.TWITTER_ACCESS_TOKEN }}
+          TWITTER_ACCESS_SECRET: ${{ secrets.TWITTER_ACCESS_SECRET }}
+        run: |
+          python -c "
+          import tweepy, os
+          try:
+              client = tweepy.Client(
+                  consumer_key=os.environ.get('TWITTER_API_KEY'),
+                  consumer_secret=os.environ.get('TWITTER_API_SECRET'),
+                  access_token=os.environ.get('TWITTER_ACCESS_TOKEN'),
+                  access_token_secret=os.environ.get('TWITTER_ACCESS_SECRET')
+              )
+              user = client.get_me()
+              msg = f'SUCCESS! Authenticated as: {user.data.username}\n'
+              client.create_tweet(text='Testing AITechNews Auto-post API Integration! 🚀 #TechNews')
+              msg += 'Test tweet posted successfully!'
+              with open('twitter_test_result.txt', 'w') as f:
+                  f.write(msg)
+          except Exception as e:
+              with open('twitter_test_result.txt', 'w') as f:
+                  f.write(f'ERROR: {e}')
+          "
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add twitter_test_result.txt || true
+          git commit -m "Auto: Update Twitter test result" || true
+          git push || true
