@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-gemini-8-tips-organizing-life-space-hindi',
+        title: 'Gemini: अपनी ज़िंदगी और जगह को Organized करने के 8 Smart Tip',
+        subtitle: 'Google Gemini की मदद से अपनी ज़िंदगी और डिजिटल स्पेस को व्यवस्थित करें। AITechNews.co.in आपको बता रह',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-gemini-8-tips-organizing-life-space-hindi.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-renault-bridger-new-engine',
         title: 'रेनो Bridger: नए 1.2-लीटर MPFi इंजन के साथ 🚗',
         subtitle: 'रेनो Bridger कompact SUV में नए **1.2-litre MPFi** इंजन के साथ आने वाली है, जो भारत में कंपनी की वाप',
