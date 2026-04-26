@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-freelancers-divided-on-the-impact-of-ai',
+        title: 'AI की Impact पर Freelancers का विभाजित राय 📊💻',
+        subtitle: 'भारत में AI की बढ़ती उपयोगिता के बीच, फ्रीलांसर विकासकर्ताओं और IT पेशेवरों में AI के प्रभाव के बारे',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-freelancers-divided-on-the-impact-of-ai.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-gemini-8-tips-organizing-life-space-hindi',
         title: 'Gemini: अपनी ज़िंदगी और जगह को Organized करने के 8 Smart Tip',
         subtitle: 'Google Gemini की मदद से अपनी ज़िंदगी और डिजिटल स्पेस को व्यवस्थित करें। AITechNews.co.in आपको बता रह',
