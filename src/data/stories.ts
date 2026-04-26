@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-renault-bridger-new-engine',
+        title: 'रेनो Bridger: नए 1.2-लीटर MPFi इंजन के साथ 🚗',
+        subtitle: 'रेनो Bridger कompact SUV में नए **1.2-litre MPFi** इंजन के साथ आने वाली है, जो भारत में कंपनी की वाप',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-renault-bridger-new-engine.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-memecoin-trump-luncheon',
         title: 'मेमेकॉइन में उबाल 🚀',
         subtitle: 'ट्रंप के लंच में शामिल होंगे मेमेकॉइन के टॉप होल्डर, जस्टिन सन की अनुपस्थिति से बढ़ी असमंजस',
