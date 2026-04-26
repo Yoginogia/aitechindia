@@ -11,7 +11,7 @@ export default function TopDealsPage() {
                     Today&apos;s <span className="gradient-text">Top Deals</span> 🛒
                 </h1>
                 <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-                    Amazon &amp; Flipkart के बेस्ट ऑफर्स! (Updated: 18 March 2026)
+                    Amazon &amp; Flipkart के बेस्ट ऑफर्स! (Updated: {new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Kolkata' }).format(new Date())})
                 </p>
             </div>
 
