@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-cftc-sues-new-york-over-bid-to-apply-gambling-laws',
+        title: 'न्यूयॉर्क के खिलाफ CFTC की कार्रवाई: भविष्यवाणी बाजारों पर ज',
+        subtitle: 'CFTC ने भविष्यवाणी बाजारों पर जुए के कानून लागू करने के लिए न्यूयॉर्क के खिलाफ कार्रवाई की है। CFTC ',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-cftc-sues-new-york-over-bid-to-apply-gambling-laws.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-263m-crypto-scam-us-doj-imposes-70-month-sentence',
         title: '📊 **$263M Crypto Scam: US DOJ Imposes 70-Month Sentence** 🇮🇳',
         subtitle: 'एक बड़े **$263M** क्रिप्टो घोटाले में शामिल एक व्यक्ति को अमेरिकी न्याय विभाग ने **70 महीने** की सजा',
