@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-oppo-f33-pro-review',
+        title: 'OPPO F33 प्रो की समीक्षा: सेल्फी फोन जिसका मतलब है किसी भी क',
+        subtitle: 'OPPO F33 प्रो: भारत के लिए सबसे अच्छा सेल्फी फोन जो आपको किसी को भी छोड़ने के लिए नहीं कहेगा! OPPO न',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-oppo-f33-pro-review.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-openai-ceo-mafinama-tumbler-ridge-kaparaai-ai-ki-j',
         title: 'OpenAI CEO का माफीनामा: टंबलर रिज परिवार को माफी, AI की जिम्',
         subtitle: 'ऑपनै AI CEO Sam Altman ने टंबलर रिज, कनाडा की निवासियों को माफी मांगी, AI की जिम्मेदारी का सवाल खड़ा',
