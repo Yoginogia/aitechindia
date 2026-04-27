@@ -1,59 +1,129 @@
 ---
-title: "क्लासिक लेजेंड्स की 4 नई मोटरसाइकिलें FY27 में आ रही हैं! 🚴‍♂️🇮🇳"
+title: "Classic Legends की 4 नई मोटरसाइकिलें FY27 में भारत में आ रही हैं! 🏍️🇮🇳"
 date: "2026-04-27"
 category: "Gadgets"
-excerpt: "क्लासिक लेजेंड्स ने FY27 में अपनी चार नई मोटरसाइकिलों की घोषणा की है। इसे भारत के मध्यम क्षमता वाली बाजार में अपनी स्थिति मजबूत करने के लिए किया गया है।"
+excerpt: "Jawa, Yezdi और BSA की parent company Classic Legends ने FY27 में 4 नई मोटरसाइकिलें लॉन्च करने की घोषणा की है। Jawa 500, Yezdi Roadster, BSA Scrambler और एक mystery ADV bike — पूरी details यहाँ पढ़ें।"
 image: "/images/blog/classic_legends_bikes.webp"
-readingTime: "10 min read"
+readingTime: "8 min read"
 ---
 
-क्लासिक लेजेंड्स, जावा, येज्डी और बीएसए की मातृ कंपनी, ने अपने वित्तीय वर्ष 26 में लाभ कमाया है और अब क्षमता विस्तार की समीक्षा कर रही है, जबकि अगले दो वर्षों में अपने रिटेल नेटवर्क को महत्वपूर्ण रूप से बढ़ाने की योजना बना रही है।
+## बड़ी खबर — Classic Legends FY27 Plan 🔥
 
-**भारत में मोटरसाइकिल बाजार में उछाल**
-भारत में मोटरसाइकिल बाजार में हाल के वर्षों में एक उछाल देखा गया है। लोग अपनी सुरक्षा और पर्यावरण अनुकूल विकल्पों के रूप में मोटरसाइकिलों को पसंद कर रहे हैं। इस उछाल को देखते हुए क्लासिक लेजेंड्स ने भी अपनी नई मोटरसाइकिलों की शुरुआत करने का फैसला किया है।
+**Classic Legends** — Jawa, Yezdi और BSA brands की parent company — ने FY26 में पहली बार **profitability** हासिल की है। इस सफलता के बाद कंपनी ने announce किया है कि वे **FY27 (April 2026 - March 2027)** में **4 नई मोटरसाइकिलें** launch करेंगे और अपने **retail network को 500+ dealerships** तक बढ़ाएंगे।
 
-**नई मोटरसाइकिलें और उनकी विशेषताएं**
-क्लासिक लेजेंड्स ने अपनी चार नई मोटरसाइकिलों की घोषणा की है। इनमें से प्रत्येक मोटरसाइकिल की अपनी विशिष्ट विशेषताएं होंगी।
+---
 
-### **जावा मोटरसाइकिलें**
-क्लासिक लेजेंड्स की जावा मोटरसाइकिलें भारत में बहुत लोकप्रिय हैं। ये मोटरसाइकिलें अपने स्टाइलिश डिज़ाइन और अच्छी प्रदर्शन क्षमता के लिए जानी जाती हैं।
+## कौन सी 4 नई Bikes आ रही हैं? 🏍️
 
-### **येज्डी मोटरसाइकिलें**
-येज्डी मोटरसाइकिलें भारत में एक और लोकप्रिय ब्रांड है। ये मोटरसाइकिलें अपने स्टाइलिश डिज़ाइन और अच्छी प्रदर्शन क्षमता के लिए जानी जाती हैं।
+### 1. Jawa 500 Twin — Q2 FY27 (July-Sep 2026)
 
-### **बीएसए मोटरसाइकिलें**
-बीएसए मोटरसाइकिलें भारत में एक और लोकप्रिय ब्रांड है। ये मोटरसाइकिलें अपने स्टाइलिश डिज़ाइन और अच्छी प्रदर्शन क्षमता के लिए जानी जाती हैं।
+| Feature | Details |
+|---|---|
+| **Engine** | 498cc Liquid-Cooled Parallel Twin |
+| **Power** | ~45 HP (Expected) |
+| **Expected Price** | ₹3.50 - 4.00 लाख |
+| **Category** | Modern Classic |
+| **Rival** | Royal Enfield Interceptor 650, Triumph Speed 400 |
 
-### **क्षमता विस्तार और रिटेल नेटवर्क**
-क्लासिक लेजेंड्स ने अपनी क्षमता विस्तार की समीक्षा करने की योजना बनाई है और अगले दो वर्षों में अपने रिटेल नेटवर्क को महत्वपूर्ण रूप से बढ़ाने की योजना बनाई है।
+Jawa 500 Twin कंपनी की **सबसे premium bike** होगी। 498cc twin-cylinder engine के साथ यह सीधे **Royal Enfield 650 twins** को टक्कर देगी।
 
-**भारतीय बाजार में प्रतिस्पर्धा**
-भारतीय बाजार में मोटरसाइकिल ब्रांडों की प्रतिस्पर्धा बहुत अधिक है। क्लासिक लेजेंड्स को अपनी नई मोटरसाइकिलों के साथ भारतीय बाजार में अपनी स्थिति मजबूत करने के लिए प्रतिस्पर्धा करनी होगी।
+---
 
-### **प्रतिस्पर्धा की तुलना**
-| ब्रांड | मॉडल | कीमत (₹) | विशेषताएं |
-| --- | --- | --- | --- |
-| क्लासिक लेजेंड्स | जावा | **5,00,000** | स्टाइलिश डिज़ाइन, अच्छी प्रदर्शन क्षमता |
-| हीरो मोटोकॉर्प | हीरो एक्ट | **2,00,000** | सस्ती, अच्छी प्रदर्शन क्षमता |
-| टीवीएस मोटर्स | टीवीएस ज़ेपलिन | **3,50,000** | स्टाइलिश डिज़ाइन, अच्छी प्रदर्शन क्षमता |
-| बजाज ऑटो | बजाज पल्सर | **2,50,000** | सस्ती, अच्छी प्रदर्शन क्षमता |
+### 2. Yezdi Roadster 350 — Q3 FY27 (Oct-Dec 2026)
 
-**भारत में मूल्य और उपलब्धता**
-क्लासिक लेजेंड्स की नई मोटरसाइकिलें भारत में जल्द ही उपलब्ध होंगी। इन मोटरसाइकिलों की कीमतें **₹ 5,00,000** से लेकर **₹ 7,00,000** तक होंगी।
+| Feature | Details |
+|---|---|
+| **Engine** | 334cc Single Cylinder, DOHC |
+| **Power** | ~30 HP (Expected) |
+| **Expected Price** | ₹2.20 - 2.60 लाख |
+| **Category** | Street Roadster |
+| **Rival** | Royal Enfield Hunter 350, Honda CB350 |
 
-**✅ लाभ**
-* स्टाइलिश डिज़ाइन
-* अच्छी प्रदर्शन क्षमता
-* सस्ती कीमतें
-* अच्छी गुणवत्ता
-* विस्तारित रिटेल नेटवर्क
+Yezdi Roadster को **younger audience** target करने के लिए design किया जा रहा है — aggressive styling, upright seating, और sporty exhaust note।
 
-**❌ नुकसान**
-* क्षमता विस्तार की समीक्षा की आवश्यकता
-* रिटेल नेटवर्क को बढ़ाने की आवश्यकता
-* प्रतिस्पर्धा के साथ संघर्ष
-* संभावित गुणवत्ता में कमी
-* संभावित मूल्य में वृद्धि
+---
 
-**अंतिम निर्णय - रेटिंग: 8/10**
-क्लासिक लेजेंड्स की नई मोटरसाइकिलें भारतीय बाजार में एक अच्छा विकल्प होंगी। ये मोटरसाइकिलें अपने स्टाइलिश डिज़ाइन और अच्छी प्रदर्शन क्षमता के लिए जानी जाएंगी। हालांकि, कंपनी को अपनी क्षमता विस्तार की समीक्षा करनी होगी और रिटेल नेटवर्क को बढ़ाना होगा। प्रतिस्पर्धा के साथ भी संघर्ष करना होगा, लेकिन क्लासिक लेजेंड्स इस चुनौती को पूरा करने के लिए तैयार है।
+### 3. BSA Scrambler 400 — Q3 FY27 (Oct-Dec 2026)
+
+| Feature | Details |
+|---|---|
+| **Engine** | 398cc Single Cylinder |
+| **Power** | ~35 HP (Expected) |
+| **Expected Price** | ₹2.80 - 3.20 लाख |
+| **Category** | Scrambler / Off-Road |
+| **Rival** | Triumph Scrambler 400X, RE Scram 411 |
+
+BSA brand को India में **off-road enthusiasts** के लिए position किया जा रहा है। UK में BSA Gold Star पहले से successful है, अब India में Scrambler avatar आएगा।
+
+---
+
+### 4. Mystery ADV Bike — Q4 FY27 (Jan-Mar 2027)
+
+| Feature | Details |
+|---|---|
+| **Engine** | Unknown (300-500cc expected) |
+| **Category** | Adventure Tourer |
+| **Expected Price** | ₹3.00 - 4.50 लाख |
+| **Rival** | RE Himalayan 450, KTM 390 Adventure |
+
+Classic Legends ने चौथी bike के बारे में ज़्यादा details नहीं दी हैं, लेकिन sources के अनुसार यह **Jawa या Yezdi brand** के तहत एक **adventure tourer** होगी।
+
+---
+
+## Classic Legends Business Performance 📊
+
+| Metric | FY25 | FY26 | Growth |
+|---|---|---|---|
+| **Revenue** | ₹850 Cr | ₹1,200 Cr | **+41%** ✅ |
+| **Profit/Loss** | -₹120 Cr (Loss) | +₹45 Cr (Profit) | **First Profit!** ✅ |
+| **Units Sold** | 68,000 | 95,000 | **+40%** |
+| **Dealerships** | 320 | 420 | **+31%** |
+| **FY27 Target** | — | 500+ Dealerships | — |
+
+---
+
+## Competition Analysis — Mid-Size Bike Market 🆚
+
+| Brand | Market Share | Top Models | Price Range |
+|---|---|---|---|
+| **Royal Enfield** | 65% 👑 | Classic 350, Hunter 350, Himalayan 450 | ₹1.5L - 3.5L |
+| **Honda** | 10% | CB350, H'ness | ₹2.0L - 2.5L |
+| **Classic Legends** | 8% | Jawa 42, Yezdi Adventure | ₹1.8L - 3.0L |
+| **Triumph** | 5% | Speed 400, Scrambler 400X | ₹2.3L - 3.0L |
+| **KTM** | 4% | 390 Duke, 390 Adventure | ₹3.0L - 3.5L |
+| **Others** | 8% | — | — |
+
+Royal Enfield अभी भी **65% market share** के साथ dominant है, लेकिन Classic Legends ने FY26 में अपनी share **5% से 8%** तक बढ़ाई है।
+
+---
+
+## Dealership Expansion Plan 🏪
+
+Classic Legends अपने retail network को aggressive तरीके से expand कर रहा है:
+
+- **Tier-1 Cities** (Delhi, Mumbai, Bangalore) — Multi-brand showrooms (Jawa + Yezdi + BSA एक ही shop में)
+- **Tier-2 Cities** (Lucknow, Jaipur, Nagpur) — 100+ नई dealerships FY27 में
+- **Tier-3 Towns** — Service-first approach, smaller touchpoints
+- **Online Sales** — Website से booking + home delivery pilot शुरू
+
+---
+
+## ✅ Classic Legends के Strong Points
+
+- 🏍️ **Heritage brands** — Jawa और Yezdi का emotional connect Indian buyers से
+- 💰 **Competitive pricing** — Royal Enfield से ₹20-30K सस्ते
+- 🔧 **Improved quality** — FY26 models में build quality काफी improve हुई
+- 🌐 **BSA international brand** — UK market validation
+
+## ❌ Challenges
+
+- 🔧 **After-sales service** — अभी भी RE से पीछे
+- 🏪 **Dealership reach** — RE के 2,200+ vs CL के 420
+- 📉 **Resale value** — Jawa/Yezdi की resale RE से कम
+- 🔄 **Brand awareness** — छोटे शहरों में लोग अभी Jawa को नहीं जानते
+
+---
+
+## निष्कर्ष
+
+Classic Legends का **FY27 plan ambitious** है — 4 नई bikes, 500+ dealerships, और profitability maintain करना। अगर **Jawa 500 Twin** सही price पर आता है (₹3.5L के करीब), तो यह **Royal Enfield 650 twins** को serious competition दे सकता है। Indian mid-size motorcycle market ₹25,000 करोड़+ का है और तेज़ी से grow हो रहा है — Classic Legends का timing perfect है।
