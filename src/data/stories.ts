@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-classic-legends-new-motorcycles-fy27-india',
+        title: 'क्लासिक लेजेंड्स की 4 नई मोटरसाइकिलें FY27 में आ रही हैं! 🚴‍',
+        subtitle: 'क्लासिक लेजेंड्स ने FY27 में अपनी चार नई मोटरसाइकिलों की घोषणा की है। इसे भारत के मध्यम क्षमता वाली ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-classic-legends-new-motorcycles-fy27-india.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-saylor-btc-purchase',
         title: '🚀 **Bitcoin** की बंपर बढ़ति: **Michael Saylor** ने फिर से प्',
         subtitle: 'भारतीय निवेशकों के लिए **Bitcoin** का मौका क्या है? क्या **Michael Saylor** की निवेश रणनीति भी सही ह',
