@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-boat-nirvana-ion-anc',
+        title: 'boAt Nirvana Ion ANC: एक मजबूत मामला बनाता है',
+        subtitle: 'boAt Nirvana Ion ANC: एक मजबूत मामला बनाता है, जो 32डीबीसी एएनसी, 120-घंटे की बैटरी और **₹1,999** मे',
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-boat-nirvana-ion-anc.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-oppo-f33-pro-review',
         title: 'OPPO F33 प्रो की समीक्षा: सेल्फी फोन जिसका मतलब है किसी भी क',
         subtitle: 'OPPO F33 प्रो: भारत के लिए सबसे अच्छा सेल्फी फोन जो आपको किसी को भी छोड़ने के लिए नहीं कहेगा! OPPO न',
