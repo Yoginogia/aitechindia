@@ -3,7 +3,7 @@ title: "Gemini: अपनी ज़िंदगी और जगह को Organ
 date: "2026-04-26"
 category: "AI"
 excerpt: "Google Gemini की मदद से अपनी ज़िंदगी और डिजिटल स्पेस को व्यवस्थित करें। AITechNews.co.in आपको बता रहा है 8 ऐसे कमाल के टिप्स जो आपकी प्रोडक्टिविटी बढ़ाएंगे। जानें कैसे AI आपकी रोज़मर्रा की मुश्किलों को आसान बना सकता है।"
-image: "/images/blog/ai_gemini_organizing.jpg"
+image: "/images/blog/ai_gemini_organizing_new.png"
 readingTime: "5 min read"
 ---
 

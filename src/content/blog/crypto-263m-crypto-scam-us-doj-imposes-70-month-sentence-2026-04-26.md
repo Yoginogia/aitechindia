@@ -3,7 +3,7 @@ title: "📊 **$263M Crypto Scam: US DOJ Imposes 70-Month Sentence** 🇮🇳"
 date: "2026-04-26"
 category: "Crypto"
 excerpt: "एक बड़े **$263M** क्रिप्टो घोटाले में शामिल एक व्यक्ति को अमेरिकी न्याय विभाग ने **70 महीने** की सजा सुनाई है। इस घोटाले में क्रिप्टो उपयोगकर्ताओं से की गई सोशल इंजीनियरिंग घोटाले से चुराए गए पैसे का उपयोग करेंसी स्टॉक्स, लक्जरी आइटम्स और रियल एस्टेट में किया गया था।"
-image: "/images/blog/crypto_scam_doj.jpg"
+image: "/images/blog/crypto_scam_doj_new.png"
 readingTime: "5 min read"
 ---
 
