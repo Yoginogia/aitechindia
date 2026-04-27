@@ -3,7 +3,7 @@ title: "Bitcoin की नीचे की ओर क्या हो रहा 
 date: "2026-04-27"
 category: "Crypto"
 excerpt: "Bitcoin की कीमतें **$57K** के स्तर की ओर जा रही हैं, जिससे निवेशकों के मन में सवाल उठ रहे हैं कि क्या यह **$100K** की ओर जाने के लिए एक मौका है?"
-image: "/images/blog/ai-crypto-2026.jpg"
+image: "/images/blog/bitcoin_kirana_store.png"
 readingTime: "5 min read"
 ---
 
