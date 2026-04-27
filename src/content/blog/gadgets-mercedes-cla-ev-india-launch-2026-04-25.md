@@ -3,7 +3,7 @@ title: "Mercedes CLA EV भारत में लॉन्च: ₹55 लाख 
 date: "2026-04-25"
 category: "EV"
 excerpt: "Mercedes-Benz ने अपनी नई एंट्री-लेवल लग्ज़री इलेक्ट्रिक सेडान 'CLA EV' को भारत में लॉन्च कर दिया है। 750KM की रेंज और 800V आर्किटेक्चर के साथ यह कार तहलका मचाने वाली है।"
-image: "/images/blog/mercedes_cla_ev.png"
+image: "/images/blog/mercedes_cla_ev.webp"
 readingTime: "4 min read"
 ---
 

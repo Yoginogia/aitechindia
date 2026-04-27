@@ -3,7 +3,7 @@ title: "BMW F 450 GS India में Launch — ₹4.70 Lakh से शुरू
 date: "2026-04-24"
 category: "Gadgets"
 excerpt: "BMW Motorrad ने India में F 450 GS launch कर दी है। ₹4.70 lakh ex-showroom price, 450cc engine, 48 bhp power — mid-size adventure segment का नया king!"
-image: "/images/blog/bmw_f450gs_bike.png"
+image: "/images/blog/bmw_f450gs_bike.webp"
 readingTime: "6 min read"
 ---
 

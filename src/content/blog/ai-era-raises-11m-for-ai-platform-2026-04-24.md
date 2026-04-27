@@ -3,7 +3,7 @@ title: "Era ने $11M Raise किए — AI Gadgets के लिए Software
 date: "2026-04-24"
 category: "AI"
 excerpt: "AI startup Era ने $11 Million की funding raise की है। ये company AI gadgets जैसे smart glasses और wearables के लिए unified software platform बना रही है।"
-image: "/images/blog/era_ai_gadgets.png"
+image: "/images/blog/era_ai_gadgets.webp"
 readingTime: "5 min read"
 ---
 

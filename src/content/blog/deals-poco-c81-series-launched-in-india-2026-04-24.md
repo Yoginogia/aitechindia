@@ -3,7 +3,7 @@ title: "POCO C81 Series India में Launch — ₹9,999 से शुरू,
 date: "2026-04-24"
 category: "Best Phones"
 excerpt: "POCO C81 series India में launch हो गई है। ₹9,999 starting price, 6.9 inch display, 120Hz refresh rate — budget segment में धमाकेदार entry!"
-image: "/images/blog/poco_c81_launch.png"
+image: "/images/blog/poco_c81_launch.webp"
 readingTime: "6 min read"
 ---
 

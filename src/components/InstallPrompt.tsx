@@ -18,8 +18,13 @@ export default function InstallPrompt() {
     const handler = (e: any) => {
       e.preventDefault();
       setDeferredPrompt(e);
-      // Wait a few seconds before showing to not overwhelm the user
-      setTimeout(() => setShowPrompt(true), 5000);
+      // Only show on 2nd+ visit to reduce popup fatigue
+      const visitCount = parseInt(localStorage.getItem('ait-visits') || '0', 10) + 1;
+      localStorage.setItem('ait-visits', String(visitCount));
+      if (visitCount >= 2) {
+        // Delay 15s to not overlap with other prompts
+        setTimeout(() => setShowPrompt(true), 15000);
+      }
     };
 
     window.addEventListener("beforeinstallprompt", handler);

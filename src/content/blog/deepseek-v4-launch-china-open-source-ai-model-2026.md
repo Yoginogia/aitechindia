@@ -3,7 +3,7 @@ title: "DeepSeek V4 Launch: China का नया AI हथियार जो 
 slug: "deepseek-v4-launch-china-open-source-ai-model-2026"
 date: "2026-04-26"
 excerpt: "China की AI startup DeepSeek ने अपना नया flagship model V4 launch किया - जो open-source दुनिया का सबसे powerful model होने का दावा करता है। 1M token window और free access के साथ यह ChatGPT को कड़ी टक्कर दे रहा है।"
-image: "/images/blog/deepseek-v4-launch.png"
+image: "/images/blog/deepseek-v4-launch.webp"
 category: "AI"
 ---
 

@@ -3,7 +3,7 @@ title: "OpenAI ने GPT-5.5 Launch किया — AI Super App बनने 
 date: "2026-04-24"
 category: "AI"
 excerpt: "OpenAI ने GPT-5.5 release कर दिया है जो company को AI super app बनाने के एक कदम और करीब ले जाता है। नए features और capabilities जानिए।"
-image: "/images/blog/gpt55_super_app.png"
+image: "/images/blog/gpt55_super_app.webp"
 readingTime: "6 min read"
 ---
 

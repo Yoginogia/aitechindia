@@ -3,7 +3,7 @@ title: "Bret Taylor की Sierra ने Fragment AI को खरीदा — 
 date: "2026-04-24"
 category: "AI"
 excerpt: "Bret Taylor की कंपनी Sierra ने YC-backed AI startup Fragment को acquire किया। जानिए इस deal का मतलब क्या है और AI industry में क्या बदलने वाला है।"
-image: "/images/blog/sierra_ai_deal.png"
+image: "/images/blog/sierra_ai_deal.webp"
 readingTime: "5 min read"
 ---
 

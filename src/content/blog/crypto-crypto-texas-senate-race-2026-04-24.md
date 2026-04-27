@@ -3,7 +3,7 @@ title: "Crypto PAC ने Texas Senate Race में Big Bet लगाया �
 date: "2026-04-24"
 category: "Crypto"
 excerpt: "Crypto-aligned Fellowship PAC ने Texas Senate race में बड़ा पैसा लगाया है। Crypto-friendly candidates को support करने की strategy से US regulation बदल सकती है।"
-image: "/images/blog/crypto_texas_politics.png"
+image: "/images/blog/crypto_texas_politics.webp"
 readingTime: "5 min read"
 ---
 

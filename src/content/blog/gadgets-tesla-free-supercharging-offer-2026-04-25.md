@@ -3,7 +3,7 @@ title: "Tesla का महा-ऑफर: 1 साल तक फ्री Superc
 date: "2026-04-25"
 category: "EV"
 excerpt: "Tesla ने इलेक्ट्रिक कार बाज़ार में तहलका मचाते हुए अपनी नई गाड़ियों की खरीद पर पूरे 1 साल की Free Supercharging का ऐलान किया है। जानिए इसके पीछे की रणनीति!"
-image: "/images/blog/tesla_supercharger.png"
+image: "/images/blog/tesla_supercharger.webp"
 readingTime: "3 min read"
 ---
 

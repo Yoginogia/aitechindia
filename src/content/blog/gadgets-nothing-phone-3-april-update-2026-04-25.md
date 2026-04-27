@@ -3,7 +3,7 @@ title: "Nothing Phone (3) April Update: Calling और Notifications हुए �
 date: "2026-04-25"
 category: "Gadgets"
 excerpt: "Nothing Phone (3) यूजर्स के लिए खुशखबरी! नया April Update आ गया है, जिसमें Notifications, Calling क्वालिटी और कैमरा परफॉरमेंस में शानदार सुधार किए गए हैं।"
-image: "/images/blog/nothing_phone_3.png"
+image: "/images/blog/nothing_phone_3.webp"
 readingTime: "3 min read"
 ---
 

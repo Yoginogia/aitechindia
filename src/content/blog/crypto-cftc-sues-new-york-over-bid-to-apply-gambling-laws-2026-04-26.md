@@ -3,7 +3,7 @@ title: "न्यूयॉर्क के खिलाफ CFTC की कार
 date: "2026-04-26"
 category: "Crypto"
 excerpt: "CFTC ने भविष्यवाणी बाजारों पर जुए के कानून लागू करने के लिए न्यूयॉर्क के खिलाफ कार्रवाई की है। CFTC का तर्क है कि संघीय प्राधिकरण को भविष्यवाणी आधारित अनुबंधों पर नियंत्रण है।"
-image: "/images/blog/cftc_gambling_law_new.png"
+image: "/images/blog/cftc_gambling_law_new.webp"
 readingTime: "10 min read"
 ---
 

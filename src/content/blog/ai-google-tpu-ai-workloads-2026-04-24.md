@@ -3,7 +3,7 @@ title: "Google TPU Update — AI Workloads के लिए कैसे बन 
 date: "2026-04-24"
 category: "AI"
 excerpt: "Google ने बताया कि उनके TPU chips कैसे demanding AI workloads को handle कर रहे हैं। Gemini से लेकर Search तक — सब TPU पर चलता है।"
-image: "/images/blog/google_ai_update.png"
+image: "/images/blog/google_ai_update.webp"
 readingTime: "6 min read"
 ---
 

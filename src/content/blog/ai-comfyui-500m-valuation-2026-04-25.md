@@ -3,7 +3,7 @@ title: "ComfyUI ने मचाया तहलका: $500M Valuation! 🎨"
 date: "2026-04-25"
 category: "AI"
 excerpt: "AI Image Generation टूल ComfyUI की Valuation रातों-रात $500 Million पहुँच गई है! क्रिएटर्स और AI आर्टिस्ट्स के बीच यह टूल इतना लोकप्रिय क्यों हो रहा है?"
-image: "/images/blog/comfyui_valuation.png"
+image: "/images/blog/comfyui_valuation.webp"
 readingTime: "3 min read"
 ---
 

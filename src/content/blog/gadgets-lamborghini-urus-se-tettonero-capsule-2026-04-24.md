@@ -3,7 +3,7 @@ title: "Lamborghini Urus SE Tettonero Capsule — Limited Edition Luxury Beast!"
 date: "2026-04-24"
 category: "Gadgets"
 excerpt: "Lamborghini ने limited-run Urus SE Tettonero Capsule reveal किया है। सिर्फ 630 units बनेंगी, 70+ customization options — ultimate luxury SUV!"
-image: "/images/blog/lamborghini_urus_se.png"
+image: "/images/blog/lamborghini_urus_se.webp"
 readingTime: "5 min read"
 ---
 

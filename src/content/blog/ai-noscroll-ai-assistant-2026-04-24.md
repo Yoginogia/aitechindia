@@ -3,7 +3,7 @@ title: "Noscroll — AI Bot जो आपकी Doomscrolling करता ह�
 date: "2026-04-24"
 category: "AI"
 excerpt: "Noscroll एक नया AI assistant है जो आपकी जगह social media scroll करता है और important updates बता देता है। Doomscrolling का अंत?"
-image: "/images/blog/noscroll_ai_bot.png"
+image: "/images/blog/noscroll_ai_bot.webp"
 readingTime: "5 min read"
 ---
 

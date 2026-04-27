@@ -3,7 +3,7 @@ title: "क्लासिक लेजेंड्स की 4 नई मोट
 date: "2026-04-27"
 category: "Gadgets"
 excerpt: "क्लासिक लेजेंड्स ने FY27 में अपनी चार नई मोटरसाइकिलों की घोषणा की है। इसे भारत के मध्यम क्षमता वाली बाजार में अपनी स्थिति मजबूत करने के लिए किया गया है।"
-image: "/images/blog/classic_legends_bikes.png"
+image: "/images/blog/classic_legends_bikes.webp"
 readingTime: "10 min read"
 ---
 

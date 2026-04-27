@@ -3,7 +3,7 @@ title: "OPPO K14 5G Review — ₹25,000 से कम में Lag Killer Smar
 date: "2026-04-24"
 category: "Best Phones"
 excerpt: "OPPO K14 5G एक budget smartphone है जो ₹25,000 से कम में lag-free experience देता है। Full specs, camera quality, battery life — सब जानिए!"
-image: "/images/blog/oppo_k14_5g.png"
+image: "/images/blog/oppo_k14_5g.webp"
 readingTime: "6 min read"
 ---
 

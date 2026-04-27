@@ -3,7 +3,7 @@ title: "🚀 **Bitcoin** की बंपर बढ़ति: **Michael Saylor**
 date: "2026-04-27"
 category: "Crypto"
 excerpt: "भारतीय निवेशकों के लिए **Bitcoin** का मौका क्या है? क्या **Michael Saylor** की निवेश रणनीति भी सही हो सकती है? जानें दिलचस्प फीचर्स और **Bitcoin** की जानकारी"
-image: "/images/blog/bitcoin_saylor_purchase.png"
+image: "/images/blog/bitcoin_saylor_purchase.webp"
 readingTime: "10 min read"
 ---
 
