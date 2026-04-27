@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-itron-hack-impact-on-india',
+        title: 'Itron का IT नेटवर्क हैक: क्या भारत में इसका प्रभाव होगा? 📱🔥',
+        subtitle: 'अमेरिकी यूटिलिटी कंपनी Itron ने अपने आंतरिक IT नेटवर्क में हैक की सूचना दी है। इस हैक के परिणामस्वरू',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-itron-hack-impact-on-india.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-boat-nirvana-ion-anc',
         title: 'boAt Nirvana Ion ANC: एक मजबूत मामला बनाता है',
         subtitle: 'boAt Nirvana Ion ANC: एक मजबूत मामला बनाता है, जो 32डीबीसी एएनसी, 120-घंटे की बैटरी और **₹1,999** मे',
