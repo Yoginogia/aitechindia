@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-maines-governor-vetoes-data-center-moratorium',
+        title: 'मेने के गवर्नर ने डेटा सेंटर्स पर लगाम की वेटो दी 💰',
+        subtitle: 'मेने के लिए एक नई खبری! डेटा सेंटर्स पर लगाम लगाने के प्रस्ताव को गवर्नर ने वेटो दे दिया है। इससे क्',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-maines-governor-vetoes-data-center-moratorium.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deepseek-v4-launch-china-open-source-ai-model-2026',
         title: 'DeepSeek V4: OpenAI को कड़ी टक्कर! 🤖',
         subtitle: 'China की AI startup DeepSeek ने अपना नया flagship model V4 launch किया — जो open-source दुनिया का सबसे powerful model है।',
