@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-openai-ceo-mafinama-tumbler-ridge-kaparaai-ai-ki-j',
+        title: 'OpenAI CEO का माफीनामा: टंबलर रिज परिवार को माफी, AI की जिम्',
+        subtitle: 'ऑपनै AI CEO Sam Altman ने टंबलर रिज, कनाडा की निवासियों को माफी मांगी, AI की जिम्मेदारी का सवाल खड़ा',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-openai-ceo-mafinama-tumbler-ridge-kaparaai-ai-ki-j.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-maines-governor-vetoes-data-center-moratorium',
         title: 'मेने के गवर्नर ने डेटा सेंटर्स पर लगाम की वेटो दी 💰',
         subtitle: 'मेने के लिए एक नई खبری! डेटा सेंटर्स पर लगाम लगाने के प्रस्ताव को गवर्नर ने वेटो दे दिया है। इससे क्',
