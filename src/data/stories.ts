@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-fortescue-electric-haul-trucks-investment-saving',
+        title: 'Fortescue के Electric Haul ट्रक ने ₹300 करोड़ की बचत दिलाई! ',
+        subtitle: 'Fortescue ने किए नए शून्य-उत्सर्जन माइनिंग इक्विपमेंट के निवेश के परिणामस्वरूप हर साल $400 मिलियन (₹',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-fortescue-electric-haul-trucks-investment-saving.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-classic-legends-new-motorcycles-fy27-india',
         title: 'क्लासिक लेजेंड्स की 4 नई मोटरसाइकिलें FY27 में आ रही हैं! 🚴‍',
         subtitle: 'क्लासिक लेजेंड्स ने FY27 में अपनी चार नई मोटरसाइकिलों की घोषणा की है। इसे भारत के मध्यम क्षमता वाली ',
