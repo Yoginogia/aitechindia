@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-nichi-kirana',
+        title: 'Bitcoin की नीचे की ओर क्या हो रहा है? 📊💰',
+        subtitle: 'Bitcoin की कीमतें **$57K** के स्तर की ओर जा रही हैं, जिससे निवेशकों के मन में सवाल उठ रहे हैं कि क्य',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-nichi-kirana.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-itron-hack-impact-on-india',
         title: 'Itron का IT नेटवर्क हैक: क्या भारत में इसका प्रभाव होगा? 📱🔥',
         subtitle: 'अमेरिकी यूटिलिटी कंपनी Itron ने अपने आंतरिक IT नेटवर्क में हैक की सूचना दी है। इस हैक के परिणामस्वरू',
