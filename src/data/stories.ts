@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-saylor-btc-purchase',
+        title: '🚀 **Bitcoin** की बंपर बढ़ति: **Michael Saylor** ने फिर से प्',
+        subtitle: 'भारतीय निवेशकों के लिए **Bitcoin** का मौका क्या है? क्या **Michael Saylor** की निवेश रणनीति भी सही ह',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-saylor-btc-purchase.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-nichi-kirana',
         title: 'Bitcoin की नीचे की ओर क्या हो रहा है? 📊💰',
         subtitle: 'Bitcoin की कीमतें **$57K** के स्तर की ओर जा रही हैं, जिससे निवेशकों के मन में सवाल उठ रहे हैं कि क्य',
