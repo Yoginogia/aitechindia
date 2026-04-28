@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-mercedes-benz-launch-6-evs-india',
+        title: 'मेर्सिडीज़-बेंज़ की 6+ इलेक्ट्रिक वाहनें अगले 2 सालों में 🚀',
+        subtitle: 'मेर्सिडीज़-बेंज़ ने भारत में अपने इलेक्ट्रिक वाहन पोर्टफोलियो में विस्तार करने का फैसला किया है और अ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-mercedes-benz-launch-6-evs-india.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-ether-triple-top-strikes-at-2-4k-as-eth-analysts-d',
         title: 'Ether Triple Top Strikes at **$2.4K** के रूप में ETH विश्लेष',
         subtitle: 'Ether के चार्ट एक चेतावनी देने वाले triple-top पैटर्न के साथ flash हो रहे हैं जैसे ETH **$2,400** को',
