@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-audi-r8-bmw-s1000rr-valley-run-2026',
+        title: 'Audi R8, BMW S1000RR ने Valley Run 2026 Summer Edition में स',
+        subtitle: 'Audi R8 और BMW S1000RR ने 16वीं Valley Run के 2026 Summer Edition में शीर्ष स्थान हासिल किया।',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-audi-r8-bmw-s1000rr-valley-run-2026.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-mercedes-benz-launch-6-evs-india',
         title: 'मेर्सिडीज़-बेंज़ की 6+ इलेक्ट्रिक वाहनें अगले 2 सालों में 🚀',
         subtitle: 'मेर्सिडीज़-बेंज़ ने भारत में अपने इलेक्ट्रिक वाहन पोर्टफोलियो में विस्तार करने का फैसला किया है और अ',
