@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-latest-news-in-india',
+        title: 'Bitcoin की एक नई उंगली 📊💸 - $1.4B Liquidation Risk: क्या $80',
+        subtitle: 'Bitcoin के शॉर्ट्स के 1.4 अरब अमेरिकी डॉलर का जोखिम: क्या भारतीय निवेशकों को इसका लाभ उठाना चाहिए?',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-latest-news-in-india.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-spotify-peloton-fitness-partnership',
         title: 'स्पॉटिफाई ने अपनी नई दिशा में एक और स्ट्रिंग जोड़ दी - **Pel',
         subtitle: 'स्पॉटिफाई ने **Peloton** के साथ मिलकर एक नई प्रक्रिया की शुरुआत की है जिसमें फिटनेस को शामिल किया गय',
