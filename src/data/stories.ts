@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-spotify-peloton-fitness-partnership',
+        title: 'स्पॉटिफाई ने अपनी नई दिशा में एक और स्ट्रिंग जोड़ दी - **Pel',
+        subtitle: 'स्पॉटिफाई ने **Peloton** के साथ मिलकर एक नई प्रक्रिया की शुरुआत की है जिसमें फिटनेस को शामिल किया गय',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-spotify-peloton-fitness-partnership.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-microsoft-openai-partnership-next-phase',
         title: 'ऑपने और माइक्रोसॉफ्ट की नई साझेदारी: **AI** की अगली क्रांति ',
         subtitle: 'ऑपने और माइक्रोसॉफ्ट ने अपनी साझेदारी को सुविधाजनक बनाने और **AI** की क्रांति को आगे बढ़ाने के लिए ए',
