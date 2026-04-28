@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-ether-triple-top-strikes-at-2-4k-as-eth-analysts-d',
+        title: 'Ether Triple Top Strikes at **$2.4K** के रूप में ETH विश्लेष',
+        subtitle: 'Ether के चार्ट एक चेतावनी देने वाले triple-top पैटर्न के साथ flash हो रहे हैं जैसे ETH **$2,400** को',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-ether-triple-top-strikes-at-2-4k-as-eth-analysts-d.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-latest-news-in-india',
         title: 'Bitcoin की एक नई उंगली 📊💸 - $1.4B Liquidation Risk: क्या $80',
         subtitle: 'Bitcoin के शॉर्ट्स के 1.4 अरब अमेरिकी डॉलर का जोखिम: क्या भारतीय निवेशकों को इसका लाभ उठाना चाहिए?',
