@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-microsoft-openai-partnership-next-phase',
+        title: 'ऑपने और माइक्रोसॉफ्ट की नई साझेदारी: **AI** की अगली क्रांति ',
+        subtitle: 'ऑपने और माइक्रोसॉफ्ट ने अपनी साझेदारी को सुविधाजनक बनाने और **AI** की क्रांति को आगे बढ़ाने के लिए ए',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-microsoft-openai-partnership-next-phase.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-fortescue-electric-haul-trucks-investment-saving',
         title: 'Fortescue के Electric Haul ट्रक ने ₹300 करोड़ की बचत दिलाई! ',
         subtitle: 'Fortescue ने किए नए शून्य-उत्सर्जन माइनिंग इक्विपमेंट के निवेश के परिणामस्वरूप हर साल $400 मिलियन (₹',
