@@ -15,6 +15,7 @@ import ProgressBar from "@/components/ProgressBar";
 import OneSignalSetup from "@/components/OneSignalSetup";
 import StickySocialShare from "@/components/StickySocialShare";
 import InstallPrompt from "@/components/InstallPrompt";
+import { Analytics } from "@vercel/analytics/next";
 
 const GA_ID = "G-9MKDQQ6NEH";
 
@@ -107,6 +108,7 @@ export default function RootLayout({
             <OneSignalSetup />
             <StickySocialShare />
             <InstallPrompt />
+            <Analytics />
         </ThemeProvider>
       </body>
     </html>
