@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-sam-bankman-fried-new-trial-rejected-ftx-crypto-in',
+        title: 'Sam Bankman-Fried को नहीं मिलेगी नई Trial, Judge ने ठुकराई अ',
+        subtitle: 'पूर्व **FTX CEO Sam Bankman-Fried** को अमेरिकी संघीय जज से बड़ा झटका लगा है, क्योंकि उनकी नई **trial',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-sam-bankman-fried-new-trial-rejected-ftx-crypto-in.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-vimeo-anodot-breach-user-data-exposed',
         title: '**विमियो के यूजर्स को बड़ा झटका! Anodot ब्रीच ने लीक किया डी',
         subtitle: 'विमियो ने खुलासा किया है कि उनके कुछ ग्राहकों और यूजर्स के डेटा को अनधिकृत रूप से एक्सेस किया गया है',
