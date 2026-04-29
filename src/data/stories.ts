@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-amazon-ai-audio-qna-experience-launch',
+        title: 'Amazon ने AI-पॉवर्ड ऑडियो Q&A अनुभव लॉन्च किया 📱💬',
+        subtitle: 'अमेज़ॉन ने अपने उत्पाद पृष्ठों पर AI-पॉवर्ड ऑडियो Q&A अनुभव पेश किया है। यह **Join the chat** फ़ीचर ',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-amazon-ai-audio-qna-experience-launch.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-amazon-opens-aws-openai-products',
         title: '💻 **Amazon ले ली OpenAI के नए उत्पादों की बिक्री**',
         subtitle: 'अमेज़ॉन ने ओपनएआई के नए उत्पादों को AWS पर लॉन्च कर दिया है, जिसमें एक नया एजेंट सेवा शामिल है।',
