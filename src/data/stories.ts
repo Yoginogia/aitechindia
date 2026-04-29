@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-rally-falters-as-ai-industry-weakens-and-c',
+        title: 'बिटकॉइन की रैली फुसफुसाती है: AI उद्योग की कमजोरी और CLARITY',
+        subtitle: 'बिटकॉइन की कीमतें **$76,000** से नीचे गिर गई हैं, जिसका कारण AI सेक्टर में बिकवाली और निवेशकों की चि',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-rally-falters-as-ai-industry-weakens-and-c.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-sam-bankman-fried-new-trial-rejected-ftx-crypto-in',
         title: 'Sam Bankman-Fried को नहीं मिलेगी नई Trial, Judge ने ठुकराई अ',
         subtitle: 'पूर्व **FTX CEO Sam Bankman-Fried** को अमेरिकी संघीय जज से बड़ा झटका लगा है, क्योंकि उनकी नई **trial',
