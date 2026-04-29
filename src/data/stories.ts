@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-amazon-opens-aws-openai-products',
+        title: '💻 **Amazon ले ली OpenAI के नए उत्पादों की बिक्री**',
+        subtitle: 'अमेज़ॉन ने ओपनएआई के नए उत्पादों को AWS पर लॉन्च कर दिया है, जिसमें एक नया एजेंट सेवा शामिल है।',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-amazon-opens-aws-openai-products.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-audi-r8-bmw-s1000rr-valley-run-2026',
         title: 'Audi R8, BMW S1000RR ने Valley Run 2026 Summer Edition में स',
         subtitle: 'Audi R8 और BMW S1000RR ने 16वीं Valley Run के 2026 Summer Edition में शीर्ष स्थान हासिल किया।',
