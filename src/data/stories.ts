@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-maruti-highest-ever-exports-2026',
+        title: 'Maruti के **Highest-Ever Exports** की कहानी: 4.48 लाख यूनिट्',
+        subtitle: 'Maruti Suzuki ने अपने **Highest-Ever Exports** की रिकॉर्ड की है, 4.48 लाख यूनिट्स की बिक्री के साथ, ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-maruti-highest-ever-exports-2026.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-keeway-v302c-2026-price-launch-date-india',
         title: 'नई **Yellow** रंग के साथ **Keeway V302C** 2026 में Rs 4.22 ल',
         subtitle: '**Keeway V302C** की नई येलो रंग की लॉन्च, भारत में 298cc V-twin इंजन से लैस',
