@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-vimeo-anodot-breach-user-data-exposed',
+        title: '**विमियो के यूजर्स को बड़ा झटका! Anodot ब्रीच ने लीक किया डी',
+        subtitle: 'विमियो ने खुलासा किया है कि उनके कुछ ग्राहकों और यूजर्स के डेटा को अनधिकृत रूप से एक्सेस किया गया है',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-vimeo-anodot-breach-user-data-exposed.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-amazon-ai-audio-qna-experience-launch',
         title: 'Amazon ने AI-पॉवर्ड ऑडियो Q&A अनुभव लॉन्च किया 📱💬',
         subtitle: 'अमेज़ॉन ने अपने उत्पाद पृष्ठों पर AI-पॉवर्ड ऑडियो Q&A अनुभव पेश किया है। यह **Join the chat** फ़ीचर ',
