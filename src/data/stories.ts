@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-maruti-small-car-market-revival-inevitable',
+        title: 'Small Car Market Revival Inevitable: Maruti Chairman RC Bhar',
+        subtitle: 'Maruti Suzuki के चेयरमैन RC Bhargava ने कहा है कि छोटी गाड़ियों का बाजार \'अवश्यंभावी\' है और अगले कुछ',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-maruti-small-car-market-revival-inevitable.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-jack-mallers-twenty-one-capital-tether-proposes-3',
         title: 'ट्वेंटी वन कैपिटल ने **Tether** की ३-वे मर्जर प्रस्ताव के बा',
         subtitle: 'ट्वेंटी वन कैपिटल के शेयरों में बड़ी वृद्धि हुई है क्योंकि तिजर ने ३-वे मर्जर प्रस्ताव दिया है, जिसस',
