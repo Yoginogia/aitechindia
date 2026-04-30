@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-wordpress-plugin-backdoor-discovered',
+        title: 'WordPress Plugin का एक पुराना **Backdoor** मिला, 70,000 साइट',
+        subtitle: 'Quick Page/Post Redirect Plugin में पांच साल से एक **Backdoor** था, जिससे साइटों पर कोड इंजेक्ट किया',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-wordpress-plugin-backdoor-discovered.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-kaggle-new-ai-agents-vibe-coding-course-in',
         title: '📱Google और Kaggle की नई AI एजेंट्स वाइब कोडिंग कोर्स का भारत',
         subtitle: 'भारत में नई AI एजेंट्स वाइब कोडिंग कोर्स की शुरुआत, जो भारतीय युवाओं को AI के क्षेत्र में तेजी से वि',
