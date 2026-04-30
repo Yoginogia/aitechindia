@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-kaggle-new-ai-agents-vibe-coding-course-in',
+        title: '📱Google और Kaggle की नई AI एजेंट्स वाइब कोडिंग कोर्स का भारत',
+        subtitle: 'भारत में नई AI एजेंट्स वाइब कोडिंग कोर्स की शुरुआत, जो भारतीय युवाओं को AI के क्षेत्र में तेजी से वि',
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-google-kaggle-new-ai-agents-vibe-coding-course-in.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-maruti-highest-ever-exports-2026',
         title: 'Maruti के **Highest-Ever Exports** की कहानी: 4.48 लाख यूनिट्',
         subtitle: 'Maruti Suzuki ने अपने **Highest-Ever Exports** की रिकॉर्ड की है, 4.48 लाख यूनिट्स की बिक्री के साथ, ',
