@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-altcoins-price-predictions-hindi',
+        title: 'Bitcoin और altcoins की Price Predictions: हिंदी में जानें📊💰',
+        subtitle: 'Bitcoin की sell-off के बाद altcoins में क्या दिख रहा है? जानें BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-altcoins-price-predictions-hindi.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-wordpress-plugin-backdoor-discovered',
         title: 'WordPress Plugin का एक पुराना **Backdoor** मिला, 70,000 साइट',
         subtitle: 'Quick Page/Post Redirect Plugin में पांच साल से एक **Backdoor** था, जिससे साइटों पर कोड इंजेक्ट किया',
