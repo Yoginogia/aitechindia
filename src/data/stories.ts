@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-jack-mallers-twenty-one-capital-tether-proposes-3',
+        title: 'ट्वेंटी वन कैपिटल ने **Tether** की ३-वे मर्जर प्रस्ताव के बा',
+        subtitle: 'ट्वेंटी वन कैपिटल के शेयरों में बड़ी वृद्धि हुई है क्योंकि तिजर ने ३-वे मर्जर प्रस्ताव दिया है, जिसस',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-jack-mallers-twenty-one-capital-tether-proposes-3.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-altcoins-price-predictions-hindi',
         title: 'Bitcoin और altcoins की Price Predictions: हिंदी में जानें📊💰',
         subtitle: 'Bitcoin की sell-off के बाद altcoins में क्या दिख रहा है? जानें BTC, ETH, XRP, BNB, SOL, DOGE, HYPE, ',
