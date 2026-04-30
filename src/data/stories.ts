@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-volkswagen-id-polo-electric-hatchback-pre-launch-r',
+        title: 'वोल्सवैगन ने ID पोलो को दुनिया का पहला इलेक्ट्रिक हैचबैक किय',
+        subtitle: 'वोल्सवैगन ने अपना ID पोलो इलेक्ट्रिक हैचबैक पेश किया, जो 211हॉर्सपावर और **454km** की मैक्सिमम क्लेम',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-volkswagen-id-polo-electric-hatchback-pre-launch-r.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-maruti-small-car-market-revival-inevitable',
         title: 'Small Car Market Revival Inevitable: Maruti Chairman RC Bhar',
         subtitle: 'Maruti Suzuki के चेयरमैन RC Bhargava ने कहा है कि छोटी गाड़ियों का बाजार \'अवश्यंभावी\' है और अगले कुछ',
