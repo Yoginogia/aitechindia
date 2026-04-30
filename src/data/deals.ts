@@ -21,6 +21,69 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "samsung-galaxy-s25-fe-launch",
+        title: "Samsung Galaxy S25 FE — AI Flagship Killer! 🚀 (₹39,999)",
+        category: "Smartphone",
+        description: "Samsung ने लॉन्च किया S25 FE! Exynos 2500, Galaxy AI और 144Hz स्क्रीन के साथ मिड-रेंज मार्केट का राजा।",
+        price: "₹39,999",
+        discount: "Launch Offer ₹5,000 Off",
+        rating: 4.8,
+        tag: "🔥 Bestseller",
+        image: "/images/blog/upcoming_samsung_s27.webp",
+        buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s25+fe&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India",
+        specs: [
+            "Exynos 2500 (4nm) Processor",
+            "6.4-inch Dynamic AMOLED 2X, 144Hz",
+            "50MP OIS Main + 12MP UW + 8MP Telephoto (3x)",
+            "Galaxy AI Built-in",
+            "4500mAh Battery, 45W Fast Charging",
+            "IP68 Water Resistant"
+        ],
+        variants: [
+            "8GB + 128GB — ₹39,999",
+            "8GB + 256GB — ₹43,999"
+        ],
+        bankOffers: [
+            "HDFC Credit Card — ₹5,000 Instant Off",
+            "No-Cost EMI — 9 months",
+            "Exchange Bonus — ₹6,000"
+        ],
+        colors: ["Mint", "Graphite", "Lavender", "Cream"],
+        content: "Samsung Galaxy S25 FE फाइनली भारत में आ गया है! यह उन लोगों के लिए बेस्ट है जिन्हें ₹40,000 के बजट में प्रॉपर फ्लैगशिप और Samsung की विश्वसनीयता चाहिए। इसमें S25 सीरीज के सभी Galaxy AI फीचर्स दिए गए हैं, जैसे Live Translate और Circle to Search। HDFC बैंक के ₹5,000 डिस्काउंट के साथ यह फोन अपने सेगमेंट का सबसे बड़ा वैल्यू फॉर मनी ऑप्शन बन गया है!"
+    },
+    {
+        slug: "ipad-air-m3-student-deal",
+        title: "Apple iPad Air M3 (2026) — Student Offer! 🎓",
+        category: "Tablet",
+        description: "M3 चिप वाला नया iPad Air! स्टूडेंट्स के लिए ₹8,000 का फ्लैट डिस्काउंट और फ्री Apple Pencil USB-C।",
+        price: "₹51,900",
+        discount: "₹8,000 Off + Free Pencil",
+        rating: 4.9,
+        tag: "⭐ Student Deal",
+        image: "/images/blog/apple_macbook_neo_budget.webp",
+        buyLink: `https://www.amazon.in/s?k=ipad+air+m3&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon / Apple Education",
+        specs: [
+            "Apple M3 Chip",
+            "10.9-inch Liquid Retina Display",
+            "12MP Front Landscape Camera",
+            "Wi-Fi 6E Support",
+            "Supports Apple Pencil Pro & Magic Keyboard"
+        ],
+        variants: [
+            "128GB (Wi-Fi) — ₹51,900",
+            "256GB (Wi-Fi) — ₹61,900"
+        ],
+        bankOffers: [
+            "Student Discount — ₹8,000 Flat Off",
+            "Free Apple Pencil (USB-C) for Students",
+            "ICICI Bank — Extra ₹3,000 Cashback"
+        ],
+        colors: ["Space Gray", "Starlight", "Purple", "Blue"],
+        content: "Apple का नया iPad Air M3 अब स्टूडेंट्स के लिए एक बेजोड़ डील के साथ उपलब्ध है। M3 चिप के साथ यह पुराने मॉडल्स से दोगुना तेज़ है और 4K वीडियो एडिटिंग या हेवी गेमिंग आसानी से हैंडल करता है। अगर आपके पास Student ID है, तो आपको ₹8,000 का फ्लैट डिस्काउंट और एक Apple Pencil USB-C बिल्कुल मुफ्त मिलेगी। कॉलेज और क्रिएटिव काम के लिए इससे बेहतर टैबलेट इस कीमत में नहीं मिलेगा!"
+    },
+    {
         slug: "iphone-15-massive-discount-april-26",
         title: "Apple iPhone 15 (128GB) — ₹14,000 Off! 🍎",
         category: "Smartphone",
