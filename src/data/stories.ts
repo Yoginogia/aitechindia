@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-citroen-basalt-export-india-south-africa',
+        title: 'Citroen Basalt की शुरुआत, भारत से दक्षिण अफ्रीका के लिए निर्',
+        subtitle: 'Citroen Basalt की शुरुआत, भारत से दक्षिण अफ्रीका के लिए निर्यात शुरू, 500 यूनिट का पहला शipment 🚀',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-citroen-basalt-export-india-south-africa.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-mg4-beijing-auto-show-updates',
         title: 'MG4 electric hatchback: नई अपडेट्स और फीचर्स 📱',
         subtitle: 'MG4 इलेक्ट्रिक हैचबैक की नई अपडेट्स और फीचर्स, MG4X इलेक्ट्रिक एसयूवी की ग्लोबल डेब्यू की जानकारी',
