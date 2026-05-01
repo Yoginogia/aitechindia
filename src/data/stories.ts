@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-insider-trading-backlash-forces-polymarket-to-step',
+        title: 'भारतीय निवेशकों के लिए पुलिमार्केट की सुरक्षा चिंताओं का साम',
+        subtitle: 'भारत में पुलिमार्केट पर भारी निगरानी: क्या यह एक सुरक्षित निवेश है और क्या भारतीय निवेशकों को इसका स',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-insider-trading-backlash-forces-polymarket-to-step.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-cost-basis-key-support-zone-indian-investo',
         title: '**Bitcoin\'s ₹5.5 Lakh Cost Basis emerges as Key Support Zone',
         subtitle: '**भारतीय निवेशकों के लिए भी महत्वपूर्ण है बिटकॉइन का ₹5.5 लाख का कॉस्ट बेसिस** Bitcoin का कीमत निर्ध',
