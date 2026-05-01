@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-mg4-beijing-auto-show-updates',
+        title: 'MG4 electric hatchback: नई अपडेट्स और फीचर्स 📱',
+        subtitle: 'MG4 इलेक्ट्रिक हैचबैक की नई अपडेट्स और फीचर्स, MG4X इलेक्ट्रिक एसयूवी की ग्लोबल डेब्यू की जानकारी',
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-mg4-beijing-auto-show-updates.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-insider-trading-backlash-forces-polymarket-to-step',
         title: 'भारतीय निवेशकों के लिए पुलिमार्केट की सुरक्षा चिंताओं का साम',
         subtitle: 'भारत में पुलिमार्केट पर भारी निगरानी: क्या यह एक सुरक्षित निवेश है और क्या भारतीय निवेशकों को इसका स',
