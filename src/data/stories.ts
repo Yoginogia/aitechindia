@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-cost-basis-key-support-zone-indian-investo',
+        title: '**Bitcoin\'s ₹5.5 Lakh Cost Basis emerges as Key Support Zone',
+        subtitle: '**भारतीय निवेशकों के लिए भी महत्वपूर्ण है बिटकॉइन का ₹5.5 लाख का कॉस्ट बेसिस** Bitcoin का कीमत निर्ध',
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-cost-basis-key-support-zone-indian-investo.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-malwarebytes-adds-real-time-scam-detection-to-clau',
         title: '**Malwarebytes का शानदार फैसला: AI चैट में स्कैम डिटेक्शन की',
         subtitle: 'Malwarebytes ने अपने AI चैट में स्कैम डिटेक्शन की शुरुआत कर दी है। यह एक नए AI कनेक्टर के साथ शुरू ह',
