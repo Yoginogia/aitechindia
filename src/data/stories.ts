@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-malwarebytes-adds-real-time-scam-detection-to-clau',
+        title: '**Malwarebytes का शानदार फैसला: AI चैट में स्कैम डिटेक्शन की',
+        subtitle: 'Malwarebytes ने अपने AI चैट में स्कैम डिटेक्शन की शुरुआत कर दी है। यह एक नए AI कनेक्टर के साथ शुरू ह',
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-malwarebytes-adds-real-time-scam-detection-to-clau.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-volkswagen-id-polo-electric-hatchback-pre-launch-r',
         title: 'Volkswagen ID Polo EV: भारत आ रही है! 🚗⚡',
         subtitle: 'VW की सबसे लोकप्रिय हैचबैक अब इलेक्ट्रिक अवतार में। 450km रेंज और शानदार डिज़ाइन। जानिए डिटेल्स।',
