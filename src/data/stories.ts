@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-clarity-act-text-lets-crypto-firms-offer-stablecoi',
+        title: `**क्रिप्टो में गहराई का कानून, स्थिर सिक्का इनाम देता है और `,
+        subtitle: `**क्रिप्टो में गहराई का कानून** के बारे में जानें और जानें कि यह भारतीय निवेशकों के लिए क्या मतलब है`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-clarity-act-text-lets-crypto-firms-offer-stablecoi.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-xrp-sentiment-hits-2-year-high-but-why-is-price-st',
         title: `XRP की भावना 2-वर्ष के उच्च पर, लेकिन क्यों प्राइस फंसा हुआ `,
         subtitle: `XRP की सोशल मीडिया भावना राक़ूटेन वॉलेट के साथ एकीकरण के बाद bullish हो गई है, लेकिन **$1.40** से जु`,
