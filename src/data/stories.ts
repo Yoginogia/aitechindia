@@ -11,6 +11,47 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-pentagon-7-tech-giants-ai-contract-anthropic-out',
+        title: `Pentagon की सबसे बड़ी AI डील: 7 Tech Giants शामिल, लेकिन Anthropic बाहर! 🪖🤖`,
+        subtitle: `US Department of Defense (Pentagon) ने Google, Microsoft, OpenAI समेत 7 कंपनियों के साथ बड़ी AI डील की है। लेकिन Ethics के मुद्दे पर Anthropic को बाहर कर दिया गया।`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Futuristic_military_command_center_with_glowing_AI_holograms_and_Pentagon_logo_in_background_hyper_realistic?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-agentic-ai-governance-gaps-regulators-concern',
+        title: `Agentic AI आउट ऑफ कंट्रोल? Regulators ने 'Governance Gaps' पर जताई चिंता 🚨🤖`,
+        subtitle: `जैसे-जैसे Agentic AI (खुद काम करने वाले एजेंट्स) का चलन बढ़ रहा है, दुनिया भर के रेगुलेटर्स ने इसके Governance और कंट्रोल पर गहरी चिंता व्यक्त की है।`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Autonomous_AI_robot_agent_breaking_chains_of_code_with_government_regulators_watching_in_background_cyberpunk_style?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-proof-careers-education-shift',
+        title: `AI-Proof करियर: कॉलेज स्टूडेंट्स अब ढूंढ रहे हैं AI से सुरक्षित जॉब्स! 🎓💼`,
+        subtitle: `AI के बढ़ते प्रभाव के कारण स्टूडेंट्स अब 'AI-Proof' करियर की तलाश में हैं। जानिए कौन सी स्किल्स आपको 2026 और उसके बाद जॉब मार्केट में सुरक्षित रखेंगी।`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/College_students_collaborating_creatively_with_AI_holograms_in_a_modern_university_library_soft_lighting?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-data-centers-energy-infrastructure-boom',
+        title: `AI का पावर भूख: दुनिया भर में Data Centers और Energy Infrastructure का बूम ⚡🏢`,
+        subtitle: `AI के विकास ने डेटा सेंटर्स की मांग को आसमान पर पहुंचा दिया है। टेक कंपनियों और पावर ग्रिड्स के बीच अरबों डॉलर के नए इंफ्रास्ट्रक्चर प्रोजेक्ट्स बन रहे हैं।`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: 'https://image.pollinations.ai/prompt/Massive_futuristic_AI_data_center_facility_with_glowing_servers_and_clean_energy_solar_panels_dramatic_lighting?width=1200&height=630&nologo=true',
+        pages: 4,
+        isTrending: true,
+    },
+
+    {
         slug: 'gadgets-story-haryana-mandatory-ev-charging-infra-new-buildings',
         title: `Haryana में EV Revolution: नए घरों और बिल्डिंग्स में EV Charging Infrastructure हुआ अनिवार्य! ⚡🏢`,
         subtitle: `हरियाणा सरकार ने नए नियम जारी किए हैं जिसके तहत अब सभी नई बिल्डिंग्स और कॉलोनियों में EV Charging Infrastructure बनाना अनिवार्य (Mandatory) होगा।`,
