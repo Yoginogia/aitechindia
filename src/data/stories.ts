@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-microsoft-kb5083631-update-windows-11-perfomance-s',
+        title: `💻 Microsoft की नयी अपडेट KB5083631 से Windows 11 की प्रदर्शन`,
+        subtitle: `Microsoft ने Windows 11 के लिए नयी अपडेट KB5083631 जारी की है, जो प्रदर्शन और सुरक्षा में सुधार करने`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-microsoft-kb5083631-update-windows-11-perfomance-s.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-cost-basis-key-support-zone-indian-investo',
         title: `Bitcoin का $60k सपोर्ट ज़ोन 📊`,
         subtitle: `क्रिप्टो मार्केट में उतार-चढ़ाव के बीच Bitcoin का $60k (करीब ₹50 लाख) का लेवल एक बहुत ही मज़बूत 'Support Zone' बन गया है।`,
