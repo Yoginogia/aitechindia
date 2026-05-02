@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-haryana-mandatory-ev-charging-infra-new-buildings',
+        title: `हरियाणा में नए निर्माणों के लिए EV चार्जिंग इन्फ्रास्ट्रक्चर`,
+        subtitle: `हरियाणा के टाउन एंड कंट्री प्लानिंग विभाग ने अपने निर्माण कोड के संशोधन के लिए प्रस्ताव पेश किया है,`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-haryana-mandatory-ev-charging-infra-new-buildings.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-april-2026-car-sales-maruti-grows-tata-mahindra-wi',
         title: `अप्रैल 2026 में बिक्री: मारुति बढ़ता है, ताटा और महिंद्रा मे`,
         subtitle: `भारत की व्यक्तिगत वाहन (पीवी) बाजार में अप्रैल 2026 में मारुति सुजुकी ने अपनी सबसे बड़ी मासिक घरेलू `,
