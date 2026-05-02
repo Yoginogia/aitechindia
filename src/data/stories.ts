@@ -11,7 +11,7 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
-        slug: 'ai-pentagon-7-tech-giants-ai-contract-anthropic-out',
+        slug: 'ai-story-pentagon-7-tech-giants-ai-contract-anthropic-out',
         title: `Pentagon की सबसे बड़ी AI डील: 7 Tech Giants शामिल, लेकिन Anthropic बाहर! 🪖🤖`,
         subtitle: `US Department of Defense (Pentagon) ने Google, Microsoft, OpenAI समेत 7 कंपनियों के साथ बड़ी AI डील की है। लेकिन Ethics के मुद्दे पर Anthropic को बाहर कर दिया गया।`,
         category: '🤖 AI',
@@ -21,7 +21,7 @@ export const STORIES: StoryItem[] = [
         isTrending: true,
     },
     {
-        slug: 'ai-agentic-ai-governance-gaps-regulators-concern',
+        slug: 'ai-story-agentic-ai-governance-gaps-regulators-concern',
         title: `Agentic AI आउट ऑफ कंट्रोल? Regulators ने 'Governance Gaps' पर जताई चिंता 🚨🤖`,
         subtitle: `जैसे-जैसे Agentic AI (खुद काम करने वाले एजेंट्स) का चलन बढ़ रहा है, दुनिया भर के रेगुलेटर्स ने इसके Governance और कंट्रोल पर गहरी चिंता व्यक्त की है।`,
         category: '🤖 AI',
@@ -31,7 +31,7 @@ export const STORIES: StoryItem[] = [
         isTrending: true,
     },
     {
-        slug: 'ai-proof-careers-education-shift',
+        slug: 'ai-story-proof-careers-education-shift',
         title: `AI-Proof करियर: कॉलेज स्टूडेंट्स अब ढूंढ रहे हैं AI से सुरक्षित जॉब्स! 🎓💼`,
         subtitle: `AI के बढ़ते प्रभाव के कारण स्टूडेंट्स अब 'AI-Proof' करियर की तलाश में हैं। जानिए कौन सी स्किल्स आपको 2026 और उसके बाद जॉब मार्केट में सुरक्षित रखेंगी।`,
         category: '🤖 AI',
@@ -41,7 +41,7 @@ export const STORIES: StoryItem[] = [
         isTrending: true,
     },
     {
-        slug: 'ai-data-centers-energy-infrastructure-boom',
+        slug: 'ai-story-data-centers-energy-infrastructure-boom',
         title: `AI का पावर भूख: दुनिया भर में Data Centers और Energy Infrastructure का बूम ⚡🏢`,
         subtitle: `AI के विकास ने डेटा सेंटर्स की मांग को आसमान पर पहुंचा दिया है। टेक कंपनियों और पावर ग्रिड्स के बीच अरबों डॉलर के नए इंफ्रास्ट्रक्चर प्रोजेक्ट्स बन रहे हैं।`,
         category: '🤖 AI',
