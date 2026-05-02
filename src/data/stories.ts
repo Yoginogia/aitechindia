@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-april-2026-car-sales-maruti-grows-tata-mahindra-wi',
+        title: `अप्रैल 2026 में बिक्री: मारुति बढ़ता है, ताटा और महिंद्रा मे`,
+        subtitle: `भारत की व्यक्तिगत वाहन (पीवी) बाजार में अप्रैल 2026 में मारुति सुजुकी ने अपनी सबसे बड़ी मासिक घरेलू `,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-april-2026-car-sales-maruti-grows-tata-mahindra-wi.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-clarity-act-text-lets-crypto-firms-offer-stablecoi',
         title: `**क्रिप्टो में गहराई का कानून, स्थिर सिक्का इनाम देता है और `,
         subtitle: `**क्रिप्टो में गहराई का कानून** के बारे में जानें और जानें कि यह भारतीय निवेशकों के लिए क्या मतलब है`,
