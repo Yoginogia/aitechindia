@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-xrp-sentiment-hits-2-year-high-but-why-is-price-st',
+        title: `XRP की भावना 2-वर्ष के उच्च पर, लेकिन क्यों प्राइस फंसा हुआ `,
+        subtitle: `XRP की सोशल मीडिया भावना राक़ूटेन वॉलेट के साथ एकीकरण के बाद bullish हो गई है, लेकिन **$1.40** से जु`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-xrp-sentiment-hits-2-year-high-but-why-is-price-st.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-microsoft-kb5083631-update-windows-11-perfomance-s',
         title: `💻 Microsoft की नयी अपडेट KB5083631 से Windows 11 की प्रदर्शन`,
         subtitle: `Microsoft ने Windows 11 के लिए नयी अपडेट KB5083631 जारी की है, जो प्रदर्शन और सुरक्षा में सुधार करने`,
