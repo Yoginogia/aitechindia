@@ -3,7 +3,7 @@ title: "US Clarity Act: अब Crypto Firms भी ला सकेंगी अ
 date: "2026-05-02"
 category: "Crypto"
 excerpt: "US Clarity for Payment Stablecoins Act के नए ड्राफ्ट के अनुसार, अब non-bank crypto firms भी Stablecoins issue कर पाएंगी। इसका भारत पर क्या असर होगा?"
-image: "https://images.unsplash.com/photo-1621416894569-0f39ed31d247?q=80&w=1200&auto=format&fit=crop"
+image: "https://image.pollinations.ai/prompt/A_highly_detailed_image_showing_cryptocurrency_stablecoins_like_USDC_and_legal_documents_on_a_premium_desk_with_American_flag_in_background?width=1200&height=630&nologo=true"
 readingTime: "6 min read"
 ---
 

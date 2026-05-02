@@ -3,7 +3,7 @@ title: "Windows 11 KB5083631 Update: परफॉरमेंस और सि�
 date: "2026-05-02"
 category: "Software"
 excerpt: "Microsoft ने Windows 11 24H2 और 25H2 के लिए नया KB5083631 अपडेट रोलआउट कर दिया है। इसमें Xbox Mode, File Explorer fixes और बेहतर परफॉरमेंस शामिल हैं।"
-image: "https://images.unsplash.com/photo-1633419461186-7d40a38105ec?q=80&w=1200&auto=format&fit=crop"
+image: "https://image.pollinations.ai/prompt/A_glowing_Windows_11_logo_on_a_high_tech_computer_screen_with_performance_boost_and_cybersecurity_shield_graphics_around_it?width=1200&height=630&nologo=true"
 readingTime: "5 min read"
 ---
 

@@ -3,7 +3,7 @@ title: "XRP Sentiment 2 साल के उच्चतम स्तर पर!
 date: "2026-05-02"
 category: "Crypto"
 excerpt: "Ripple (XRP) की social media sentiment 2 साल के highest level पर है, लेकिन इसका price अभी भी $1.40 के resistance को नहीं तोड़ पा रहा है। जानिए पूरा एनालिसिस।"
-image: "https://images.unsplash.com/photo-1622630998477-20b492ca5611?q=80&w=1200&auto=format&fit=crop"
+image: "https://image.pollinations.ai/prompt/Glowing_blue_XRP_Ripple_cryptocurrency_coin_breaking_through_a_glass_barrier_with_bullish_stock_market_charts_background?width=1200&height=630&nologo=true"
 readingTime: "6 min read"
 ---
 

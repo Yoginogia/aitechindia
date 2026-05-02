@@ -3,7 +3,7 @@ title: "Haryana में EV Revolution: नए घरों और बिल्
 date: "2026-05-02"
 category: "Gadgets"
 excerpt: "हरियाणा सरकार ने नए नियम जारी किए हैं जिसके तहत अब सभी नई बिल्डिंग्स और कॉलोनियों में EV Charging Infrastructure बनाना अनिवार्य (Mandatory) होगा।"
-image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?q=80&w=1200&auto=format&fit=crop"
+image: "https://image.pollinations.ai/prompt/A_futuristic_modern_residential_building_in_India_with_multiple_electric_vehicle_EV_charging_stations_in_the_parking_lot?width=1200&height=630&nologo=true"
 readingTime: "7 min read"
 ---
 

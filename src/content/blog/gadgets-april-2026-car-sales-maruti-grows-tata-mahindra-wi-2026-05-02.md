@@ -3,7 +3,7 @@ title: "April 2026 Car Sales: Maruti Suzuki की भारी बढ़त, Tata 
 date: "2026-05-02"
 category: "Gadgets"
 excerpt: "अप्रैल 2026 की Auto Sales Report आ गई है! Maruti Suzuki ने सबसे ज़्यादा कारें बेचीं, जबकि Tata Motors और Mahindra की बिक्री में मासिक गिरावट दर्ज की गई।"
-image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?q=80&w=1200&auto=format&fit=crop"
+image: "https://image.pollinations.ai/prompt/A_modern_car_showroom_in_India_with_shiny_new_SUVs_and_sales_growth_charts_in_the_background_premium_lighting?width=1200&height=630&nologo=true"
 readingTime: "6 min read"
 ---
 
