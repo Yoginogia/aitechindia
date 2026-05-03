@@ -3,7 +3,7 @@ title: "a16z का बड़ा कदम: Prediction Markets के लिए 
 date: "2026-05-03"
 category: "Crypto"
 excerpt: "दुनिया की सबसे बड़ी वेंचर कैपिटल फर्म a16z ने Prediction Markets के रेगुलेशन पर अमेरिकी राज्यों (States) के खिलाफ जाकर CFTC का सपोर्ट किया है।"
-image: "https://image.pollinations.ai/prompt/A_glowing_holographic_prediction_market_chart_with_CFTC_and_a16z_logos_on_a_modern_tech_desk_cyberpunk_style?width=1200&height=630&nologo=true"
+image: "/images/blog/crypto-a16z-cftc-prediction-market.jpg"
 readingTime: "5 min read"
 ---
 
