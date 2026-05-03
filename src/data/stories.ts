@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-riot-platforms-q1-revenue-167m-data-center-arm-pul',
+        title: `📊 **Riot प्लेटफार्म्स** ने पहले क्वार्टर में $167M राजस्व का`,
+        subtitle: `रिट प्लेटफार्म्स का डेटा सेंटर व्यवसाय पहले क्वार्टर में **$33.2M** राजस्व का योगदान दिया, जबकि बिटक`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-riot-platforms-q1-revenue-167m-data-center-arm-pul.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-a16z-sides-with-cftc-against-states-on-prediction',
         title: `A16z का बड़ा दांव: Prediction Markets पर राज्यों के बैन के ख`,
         subtitle: `Venture Capital firm a16z ने prediction markets जैसे Kalshi और Polymarket पर राज्यों के प्रतिबंधों क`,
