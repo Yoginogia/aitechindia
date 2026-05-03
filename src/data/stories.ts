@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-a16z-sides-with-cftc-against-states-on-prediction',
+        title: `A16z का बड़ा दांव: Prediction Markets पर राज्यों के बैन के ख`,
+        subtitle: `Venture Capital firm a16z ने prediction markets जैसे Kalshi और Polymarket पर राज्यों के प्रतिबंधों क`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-a16z-sides-with-cftc-against-states-on-prediction.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-microsoft-tests-modern-windows-run-dialog',
         title: `Microsoft ने Windows 11 के लिए Modern Run डायलॉग का परीक्षण `,
         subtitle: `माइक्रोसॉफ्ट ने Windows 11 के लिए Modern Run डायलॉग का परीक्षण किया है, जो डार्क मोड का समर्थन करता `,
