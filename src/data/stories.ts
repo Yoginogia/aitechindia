@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-ex-f1-driver-paralympic-champion-alex-zanardi-dies',
+        title: `🏎️ भारत में नहीं रहे फॉर्मूला वन के पूर्व ड्राइवर अलेक्स ज़ा`,
+        subtitle: `भारतीय समयानुसार शुक्रवार रात अलेक्स ज़ानार्डी का निधन हो गया, जिनकी उम्र 59 साल थी। यह जानकारी उनके`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-ex-f1-driver-paralympic-champion-alex-zanardi-dies.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-bmw-m440i-convertible-launch-india-price',
         title: `**BMW M440i Convertible: भारत में लॉन्च, 1.09 करोड़ रुपये मे`,
         subtitle: `भारत में BMW M440i Convertible की शुरुआती कीमत **₹ 1.09 करोड़** है। ये सॉफ्ट-टॉप 4-सीटर कॉनवर्टिबल *`,
