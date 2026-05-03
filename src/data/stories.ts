@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-microsoft-tests-modern-windows-run-dialog',
+        title: `Microsoft ने Windows 11 के लिए Modern Run डायलॉग का परीक्षण `,
+        subtitle: `माइक्रोसॉफ्ट ने Windows 11 के लिए Modern Run डायलॉग का परीक्षण किया है, जो डार्क मोड का समर्थन करता `,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-microsoft-tests-modern-windows-run-dialog.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-pentagon-7-tech-giants-ai-contract-anthropic-out',
         title: `Pentagon की सबसे बड़ी AI डील: 7 Tech Giants शामिल, लेकिन Anthropic बाहर! 🪖🤖`,
         subtitle: `US Department of Defense (Pentagon) ने Google, Microsoft, OpenAI समेत 7 कंपनियों के साथ बड़ी AI डील की है। लेकिन Ethics के मुद्दे पर Anthropic को बाहर कर दिया गया।`,
