@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-buying-breather-ahead-of-q1-earnings-repor',
+        title: `बिटकॉइन की कीमतों पर ब्रेक लग सकता है? 📊💰`,
+        subtitle: `माइकल सैलर ने बिटकॉइन खरीदने के लिए "ब्रेक" लगाने की घोषणा की है, जिससे क्वार्टर लाभ की रिपोर्ट से प`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-buying-breather-ahead-of-q1-earnings-repor.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-cpanel-flaw-cve-2026-41940-sorry-ransomware-attack',
         title: `cPanel फ्लॉइंग में CVE-2026-41940 की mass-exploitation 'Sorr`,
         subtitle: `क्रिटिकल cPanel फ्लॉइंग में CVE-2026-41940 ट्रैक की गई है जो 'Sorry' रैंसमवेयर हमलों में mass-exploi`,
