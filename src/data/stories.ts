@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-xiaomi-battery-replacement-offer-20-discount-67-de',
+        title: `Xiaomi का धमाकेदार Battery Replacement Offer: 67 Devices पर `,
+        subtitle: `Xiaomi ने चीन में अपने यूज़र्स के लिए एक जबरदस्त **limited-time battery replacement program** लॉन्च क`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-xiaomi-battery-replacement-offer-20-discount-67-de.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-meta-manus-china-deal-blocked',
         title: `Meta को बड़ा झटका: चीन ने रोकी $2 Billion की 'Manus' AI डील! 🛑🇨🇳`,
         subtitle: `Mark Zuckerberg की कंपनी Meta, 'Manus' नाम के एक AI स्टार्टअप को $2 Billion में खरीदना चाहती थी, लेकिन चीन की सरकार ने इस पर रोक लगा दी है।`,
