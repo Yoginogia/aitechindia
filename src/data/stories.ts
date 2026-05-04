@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-2026-bmw-x6-m60i-review',
+        title: `2026 बीएमडब्ल्यू X6 M60i: एक कूपे एसयूवी की वापसी 📱🔥`,
+        subtitle: `बीएमडब्ल्यू ने भारत में 2026 बीएमडब्ल्यू X6 M60i का प्रदर्शन किया है, जो एक कूपे एसयूवी डिज़ाइन और *`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-2026-bmw-x6-m60i-review.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-honda-elevate-city-may-2026-offers',
         title: `Honda Elevate, City में मिलने वाले ऑफ़र ₹2.12 लाख तक के होंग`,
         subtitle: `होंडा के न्यू ऑफर्स होंगे उपलब्ध, मैक्सिमम बेनिफिट्स होंगे 2.12 लाख तक`,
