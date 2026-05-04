@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-honda-elevate-city-may-2026-offers',
+        title: `Honda Elevate, City में मिलने वाले ऑफ़र ₹2.12 लाख तक के होंग`,
+        subtitle: `होंडा के न्यू ऑफर्स होंगे उपलब्ध, मैक्सिमम बेनिफिट्स होंगे 2.12 लाख तक`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-honda-elevate-city-may-2026-offers.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-morgan-stanleys-oldenburg-bitcoin-on-u-s-bank-bala',
         title: `Bitcoin India पर U.S. बैंक शीट में आने वाला है! 📊💰`,
         subtitle: `मॉर्गन स्टेनले के ओल्डेंबर्ग ने बोला है कि भारत में Bitcoin U.S. बैंक शीट में आने वाला है, लेकिन अभी`,
