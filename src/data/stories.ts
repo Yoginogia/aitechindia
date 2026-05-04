@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-cpanel-flaw-cve-2026-41940-sorry-ransomware-attack',
+        title: `cPanel फ्लॉइंग में CVE-2026-41940 की mass-exploitation 'Sorr`,
+        subtitle: `क्रिटिकल cPanel फ्लॉइंग में CVE-2026-41940 ट्रैक की गई है जो 'Sorry' रैंसमवेयर हमलों में mass-exploi`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-cpanel-flaw-cve-2026-41940-sorry-ransomware-attack.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-xiaomi-battery-replacement-offer-20-discount-67-de',
         title: `Xiaomi का धमाकेदार Battery Replacement Offer: 67 Devices पर `,
         subtitle: `Xiaomi ने चीन में अपने यूज़र्स के लिए एक जबरदस्त **limited-time battery replacement program** लॉन्च क`,
