@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-morgan-stanleys-oldenburg-bitcoin-on-u-s-bank-bala',
+        title: `Bitcoin India पर U.S. बैंक शीट में आने वाला है! 📊💰`,
+        subtitle: `मॉर्गन स्टेनले के ओल्डेंबर्ग ने बोला है कि भारत में Bitcoin U.S. बैंक शीट में आने वाला है, लेकिन अभी`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-morgan-stanleys-oldenburg-bitcoin-on-u-s-bank-bala.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-buying-breather-ahead-of-q1-earnings-repor',
         title: `बिटकॉइन की कीमतों पर ब्रेक लग सकता है? 📊💰`,
         subtitle: `माइकल सैलर ने बिटकॉइन खरीदने के लिए "ब्रेक" लगाने की घोषणा की है, जिससे क्वार्टर लाभ की रिपोर्ट से प`,
