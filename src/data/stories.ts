@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-dtcc-tokenized-securities-launch-50-defi-tradfi-gi',
+        title: `DTCC का **Tokenized Securities** लॉन्च: 50 DeFi और TradFi के`,
+        subtitle: `दुनिया की सबसे बड़ी डिपॉजिटरी ट्रस्ट और क्लियरिंग कॉर्पोरेशन (डीटीसीसी) ने अपना **Tokenized Securiti`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-dtcc-tokenized-securities-launch-50-defi-tradfi-gi.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-weaver-e-cology-office-automation-bug-exploited-si',
         title: `Weaver E-cology office automation में बड़ा bug, March से att`,
         subtitle: `Weaver E-cology office automation में एक बड़ा bug CVE-2026-22679 नाम का है, जिसका इस्तेमाल hackers न`,
