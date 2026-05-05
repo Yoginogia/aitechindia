@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-bajaj-avenger-220-street-launch-soon-160-street-di',
+        title: `बजाज अवेंजर 220 स्ट्रीट लॉन्च जल्द, 160 स्ट्रीट बंद करने की `,
+        subtitle: `बजाज अवेंजर लाइनअप में कई बदलाव देखे गए हैं, जिससे यह एक चुनौतीपूर्ण काम हो गया है कि इन्हें कैसे पा`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-bajaj-avenger-220-street-launch-soon-160-street-di.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-gamestop-55-5-billion-ebay-takeover-bid-puts-its-3',
         title: `बिटकॉइन में बड़ा जोखिम: GameStop का $55.5 बिलियन ईबे अधिग्रह`,
         subtitle: `GameStop का ईबे पर **$55.5 बिलियन** का लचीला प्रस्ताव बिटकॉइन के मूल्य पर बड़ा प्रभाव डाल सकता है। भ`,
