@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-weaver-e-cology-office-automation-bug-exploited-si',
+        title: `Weaver E-cology office automation में बड़ा bug, March से att`,
+        subtitle: `Weaver E-cology office automation में एक बड़ा bug CVE-2026-22679 नाम का है, जिसका इस्तेमाल hackers न`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-weaver-e-cology-office-automation-bug-exploited-si.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-2026-bmw-x6-m60i-review',
         title: `2026 BMW X6 M60i Review: शानदार डिज़ाइन और धांसू परफॉरमेंस! 🏎️💨`,
         subtitle: `BMW ने भारत में अपनी नई X6 M60i लॉन्च कर दी है। कूपे एसयूवी का यह अवतार लग्जरी और पावर का एक बेजोड़ कॉम्बिनेशन है।`,
