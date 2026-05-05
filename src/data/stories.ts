@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-gamestop-55-5-billion-ebay-takeover-bid-puts-its-3',
+        title: `बिटकॉइन में बड़ा जोखिम: GameStop का $55.5 बिलियन ईबे अधिग्रह`,
+        subtitle: `GameStop का ईबे पर **$55.5 बिलियन** का लचीला प्रस्ताव बिटकॉइन के मूल्य पर बड़ा प्रभाव डाल सकता है। भ`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-gamestop-55-5-billion-ebay-takeover-bid-puts-its-3.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-dtcc-tokenized-securities-launch-50-defi-tradfi-gi',
         title: `DTCC का **Tokenized Securities** लॉन्च: 50 DeFi और TradFi के`,
         subtitle: `दुनिया की सबसे बड़ी डिपॉजिटरी ट्रस्ट और क्लियरिंग कॉर्पोरेशन (डीटीसीसी) ने अपना **Tokenized Securiti`,
