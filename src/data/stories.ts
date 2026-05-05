@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-mcl-hy-gtr-track-only-mcl-hy-gtr-revealed-by-mclar',
+        title: `मैकलारेन ने 730हॉर्सपावर वाले ट्रैक-ओनली MCL-HY GTR का अनावर`,
+        subtitle: `मैकलारेन रेसिंग और मैकलारेन ऑटोमोबाइल के संयुक्त प्रयास से मैकलारेन ने अपना ट्रैक-ओनली MCL-HY GTR 73`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-mcl-hy-gtr-track-only-mcl-hy-gtr-revealed-by-mclar.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-bajaj-avenger-220-street-launch-soon-160-street-di',
         title: `बजाज अवेंजर 220 स्ट्रीट लॉन्च जल्द, 160 स्ट्रीट बंद करने की `,
         subtitle: `बजाज अवेंजर लाइनअप में कई बदलाव देखे गए हैं, जिससे यह एक चुनौतीपूर्ण काम हो गया है कि इन्हें कैसे पा`,
