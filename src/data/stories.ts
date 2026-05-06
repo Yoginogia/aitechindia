@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-altara-secures-7m-to-bridge-data-gap',
+        title: `अल्टारा ने $7M से भरी डेटा खाई को पाटने की कोशिश की`,
+        subtitle: `अल्टारा की AI ने खोजी की कि भौतिक विज्ञान की खोज में डेटा की खाई से कैसे निपटा जाए`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-altara-secures-7m-to-bridge-data-gap.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-ibm-think-2026-sovereign-core-agentic-enterprise',
         title: `IBM का 'Think 2026': Sovereign Core और Agentic AI से मचाया तहलका! 🤖🏢`,
         subtitle: `IBM ने अपनी थिंक 2026 कांफ्रेंस में एंटरप्राइज AI के लिए Sovereign Core और Concert Platform लॉन्च किया है, जो Agentic AI को बढ़ावा देंगे।`,
