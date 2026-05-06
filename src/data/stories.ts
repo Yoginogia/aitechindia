@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-ugreen-launches-new-45w-10000mah-power-bank',
+        title: `अपने दोस्त को दें दें 45W पॉवर बैंक - उग्रीन का 10,000mAh पॉ`,
+        subtitle: `उग्रीन ने अपना नया **45W** 10,000mAh पॉवर बैंक लॉन्च किया है जिसमें एक आंतरिक **PD3.0 USB-C केबल** ह`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-ugreen-launches-new-45w-10000mah-power-bank.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-casio-electro-green-g-shock-review',
         title: `नई Casio Electro Green G-Shock घड़ियों की जांच: US में **$15`,
         subtitle: `कैसी हैं Casio की नई **Electro Green G-Shock** घड़ियां? जानें क्या है **$150** से शुरू होने वाली US `,
