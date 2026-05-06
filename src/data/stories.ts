@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-quasar-linux-malware-software-developers-targeted',
+        title: `सॉफ्टवेयर डेवलपर्स के लिए खतरा 🚨 Quasar Linux मैलवेयर: एक वि`,
+        subtitle: `भारत में सॉफ्टवेयर डेवलपर्स के लिए एक नई चुनौती आ गई है: Quasar Linux मैलवेयर। यह मैलवेयर एक जासूसी `,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-quasar-linux-malware-software-developers-targeted.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-ugreen-launches-new-45w-10000mah-power-bank',
         title: `अपने दोस्त को दें दें 45W पॉवर बैंक - उग्रीन का 10,000mAh पॉ`,
         subtitle: `उग्रीन ने अपना नया **45W** 10,000mAh पॉवर बैंक लॉन्च किया है जिसमें एक आंतरिक **PD3.0 USB-C केबल** ह`,
