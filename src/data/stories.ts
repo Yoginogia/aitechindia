@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-casio-electro-green-g-shock-review',
+        title: `नई Casio Electro Green G-Shock घड़ियों की जांच: US में **$15`,
+        subtitle: `कैसी हैं Casio की नई **Electro Green G-Shock** घड़ियां? जानें क्या है **$150** से शुरू होने वाली US `,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-casio-electro-green-g-shock-review.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-altara-secures-7m-to-bridge-data-gap',
         title: `अल्टारा ने $7M से भरी डेटा खाई को पाटने की कोशिश की`,
         subtitle: `अल्टारा की AI ने खोजी की कि भौतिक विज्ञान की खोज में डेटा की खाई से कैसे निपटा जाए`,
