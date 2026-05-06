@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-mahindra-production-capacity-plans',
+        title: `महिंद्रा ने उत्पादन क्षमता बढ़ाने की योजना बनाई 📈`,
+        subtitle: `महिंद्रा अपनी उत्पादन क्षमता बढ़ाने की योजना बना रही है, जिससे उनकी मासिक उत्पादन क्षमता 82,000 इकाइ`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-mahindra-production-capacity-plans.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-mahindra-16-launches-by-2031-6-ev-10-ice',
         title: `महिंद्रा की 16 नई लॉन्चिंगें 2031 तक, 6 ईवी और 10 आईसीई!`,
         subtitle: `महिंद्रा ने 2031 तक 16 नई लॉन्चिंगें करने की योजना बनाई है, जिनमें 6 ईवी और 10 आईसीई वाहन शामिल हैं।`,
