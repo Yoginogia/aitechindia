@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-michael-saylor-strategy-indian-investors-bitcoin-s',
+        title: `माइकल सेलर की रणनीति भारतीय निवेशकों के लिए संभावित बिटकॉइन `,
+        subtitle: `भारतीय बाजार में बिटकॉइन की कीमतें बढ़ रही हैं, लेकिन माइकल सेलर की रणनीति से भारतीय निवेशकों के लिए`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-michael-saylor-strategy-indian-investors-bitcoin-s.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-quasar-linux-malware-software-developers-targeted',
         title: `सॉफ्टवेयर डेवलपर्स के लिए खतरा 🚨 Quasar Linux मैलवेयर: एक वि`,
         subtitle: `भारत में सॉफ्टवेयर डेवलपर्स के लिए एक नई चुनौती आ गई है: Quasar Linux मैलवेयर। यह मैलवेयर एक जासूसी `,
