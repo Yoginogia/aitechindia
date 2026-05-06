@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-tokenized-world-economy-consensys-joseph-lubin',
+        title: `विश्व अर्थव्यवस्था पूरी तरह से टोकनाइज हो जाएगी: कंसेंसिस के`,
+        subtitle: `कंसेंसिस के सह-संस्थापक जोसेफ लुबिन द्वारा दिए गए एक महत्वपूर्ण बयान को जानें और जानें कि यह भारतीय `,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-tokenized-world-economy-consensys-joseph-lubin.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-michael-saylor-strategy-indian-investors-bitcoin-s',
         title: `माइकल सेलर की रणनीति भारतीय निवेशकों के लिए संभावित बिटकॉइन `,
         subtitle: `भारतीय बाजार में बिटकॉइन की कीमतें बढ़ रही हैं, लेकिन माइकल सेलर की रणनीति से भारतीय निवेशकों के लिए`,
