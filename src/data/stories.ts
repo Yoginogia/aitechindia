@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-mahindra-16-launches-by-2031-6-ev-10-ice',
+        title: `महिंद्रा की 16 नई लॉन्चिंगें 2031 तक, 6 ईवी और 10 आईसीई!`,
+        subtitle: `महिंद्रा ने 2031 तक 16 नई लॉन्चिंगें करने की योजना बनाई है, जिनमें 6 ईवी और 10 आईसीई वाहन शामिल हैं।`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-mahindra-16-launches-by-2031-6-ev-10-ice.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-tokenized-world-economy-consensys-joseph-lubin',
         title: `विश्व अर्थव्यवस्था पूरी तरह से टोकनाइज हो जाएगी: कंसेंसिस के`,
         subtitle: `कंसेंसिस के सह-संस्थापक जोसेफ लुबिन द्वारा दिए गए एक महत्वपूर्ण बयान को जानें और जानें कि यह भारतीय `,
