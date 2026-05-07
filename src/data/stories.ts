@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-godaddy-managewp-phishing-google-ads-abuse',
+        title: `गूगल ऐड्स का दुरुपयोग, GoDaddy ManageWP लॉगिन फ़िशिंग की प्र`,
+        subtitle: `गूगल स्पॉन्सर्ड सर्च रिजल्ट्स के माध्यम से GoDaddy के ManageWP प्लेटफ़ॉर्म के लिए लॉगिन क्रेडेंशियल्`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-godaddy-managewp-phishing-google-ads-abuse.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-google-pixel-11-specs-detailed-2nm-chip-new-image',
         title: `गूगल पिक्सल 11 सीरीज़ स्पेसिफिकेशन्स डिटेल्स: 2एनएम-आधारित च`,
         subtitle: `गूगल की अगली पिक्सल लाइनअप अब अधिक स्पष्ट होने लगी है। एक बड़ा स्पेसिफिकेशन डंप अब पूरी पिक्सल 11 ला`,
