@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-three-reasons-why-ether-price-rallies-fizzle-near',
+        title: `Ether का **$2.4K** के पास फ्लॉप होने की 3 बड़ी वजहें`,
+        subtitle: ` Ether की कीमतें **$2.4K** के पास फ्लॉप होने की बड़ी, दिलचस्प वजहें जानते हैं कि क्यों,`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-three-reasons-why-ether-price-rallies-fizzle-near.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-godaddy-managewp-phishing-google-ads-abuse',
         title: `गूगल ऐड्स का दुरुपयोग, GoDaddy ManageWP लॉगिन फ़िशिंग की प्र`,
         subtitle: `गूगल स्पॉन्सर्ड सर्च रिजल्ट्स के माध्यम से GoDaddy के ManageWP प्लेटफ़ॉर्म के लिए लॉगिन क्रेडेंशियल्`,
