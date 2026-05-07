@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-mahindra-ev-share-lakshya-cafe-iii-niyamon-ke-baad',
+        title: `महिंद्रा का 17% ईवी शेयर लक्ष्य: CAFE III नियमों के बाद क्या`,
+        subtitle: `महिंद्रा ने 2027 तक ईवी शेयर पर 13-17% का लक्ष्य रखा है, CAFE III नियमों के बाद क्या होगा और कैसे यह`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-mahindra-ev-share-lakshya-cafe-iii-niyamon-ke-baad.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-market-dominance-altcoins-follow',
         title: `बिटकॉइन की बाजार हावी 61%: क्या अल्गोइन्स अपनी ट्रेल पर चलें`,
         subtitle: `बिटकॉइन की बाजार हावी 61% पहुंचकर नई ऊंचाइयों को चूम रही है। अल्गोइन्स के लिए सवाल है कि क्या वे अपन`,
