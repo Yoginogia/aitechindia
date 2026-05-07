@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-google-pixel-11-specs-detailed-2nm-chip-new-image',
+        title: `गूगल पिक्सल 11 सीरीज़ स्पेसिफिकेशन्स डिटेल्स: 2एनएम-आधारित च`,
+        subtitle: `गूगल की अगली पिक्सल लाइनअप अब अधिक स्पष्ट होने लगी है। एक बड़ा स्पेसिफिकेशन डंप अब पूरी पिक्सल 11 ला`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-google-pixel-11-specs-detailed-2nm-chip-new-image.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-openai-gpt-55-instant-launch-india',
         title: `OpenAI का GPT-5.5 Instant आ गया: कम हॉल्यूसिनेशन, कम गड़बड़ी`,
         subtitle: `OpenAI ने ChatGPT के लिए नई डिफ़ॉल्ट मॉडल को पेश किया है, जो ग्लोबल यूजर्स के लिए उपलब्ध है, GPT-5.5`,
