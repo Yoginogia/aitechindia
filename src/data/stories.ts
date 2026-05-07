@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-maruti-invicto-fronx-baleno-discounts-may-2026',
+        title: `Maruti Invicto, Fronx, Baleno में भारी छूट, ₹ 2.15 लाख तक बच`,
+        subtitle: `Maruti Suzuki ने अपनी Nexa लाइनअप के लिए मई 2026 में छूट और लाभ प्रदान किए हैं। इनमें ग्राहक ऑफर, एच`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-maruti-invicto-fronx-baleno-discounts-may-2026.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-mahindra-ev-share-lakshya-cafe-iii-niyamon-ke-baad',
         title: `महिंद्रा का 17% ईवी शेयर लक्ष्य: CAFE III नियमों के बाद क्या`,
         subtitle: `महिंद्रा ने 2027 तक ईवी शेयर पर 13-17% का लक्ष्य रखा है, CAFE III नियमों के बाद क्या होगा और कैसे यह`,
