@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-openai-gpt-55-instant-launch-india',
+        title: `OpenAI का GPT-5.5 Instant आ गया: कम हॉल्यूसिनेशन, कम गड़बड़ी`,
+        subtitle: `OpenAI ने ChatGPT के लिए नई डिफ़ॉल्ट मॉडल को पेश किया है, जो ग्लोबल यूजर्स के लिए उपलब्ध है, GPT-5.5`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-openai-gpt-55-instant-launch-india.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-uber-uses-openai-to-help-people-earn-smarter-and-b',
         title: `यूबेर का नवीनतम **AI** अपग्रेड: लोगों को बेहतर कमाई करने और `,
         subtitle: `यूबेर ने ओपनएआई का उपयोग करके ग्राहकों की बुकिंग की गति और ड्राइवरों की कमाई को बेहतर बनाने के लिए ए`,
