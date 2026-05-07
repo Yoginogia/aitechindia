@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-uber-uses-openai-to-help-people-earn-smarter-and-b',
+        title: `यूबेर का नवीनतम **AI** अपग्रेड: लोगों को बेहतर कमाई करने और `,
+        subtitle: `यूबेर ने ओपनएआई का उपयोग करके ग्राहकों की बुकिंग की गति और ड्राइवरों की कमाई को बेहतर बनाने के लिए ए`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-uber-uses-openai-to-help-people-earn-smarter-and-b.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-mahindra-production-capacity-plans',
         title: `Mahindra बढ़ाएगा प्रोडक्शन: SUV लवर्स के लिए बड़ी खुशखबरी 🏭🚗`,
         subtitle: `Mahindra अपनी भारी पेंडिंग डिलीवरीज़ को कम करने के लिए अपने मैन्युफैक्चरिंग प्लांट्स की प्रोडक्शन कैपेसिटी को भारी मात्रा में बढ़ाने जा रहा है।`,
