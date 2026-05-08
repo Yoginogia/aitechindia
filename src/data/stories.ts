@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-crypto-pacs-spend-7-2m-to-support-candidates-in-5',
+        title: `क्रिप्टो PACs ने 5 अमेरिकी राज्यों में $7.2M खर्च किए, चुनाव`,
+        subtitle: `क्रिप्टो PACs ने $7.2M खर्च किए, जिससे अमेरिकी चुनावों में उम्मीदवारों का समर्थन बढ़ गया है। Fairsha`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-crypto-pacs-spend-7-2m-to-support-candidates-in-5.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-us-treasury-privately-demanded-binance-comply-with',
         title: `अमेरिकी खजाने की विश्वासघाती मांग: बिनेंस को विशेषज्ञ बाजार `,
         subtitle: `अमेरिकी खजाने की विश्वासघाती मांग: बिनेंस को विशेषज्ञ बाजार प्रबंधन समझौते से बाहर निकालने के लिए दब`,
