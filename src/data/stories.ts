@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-xiaomi-launches-new-titanium-steel-electric-kettle',
+        title: `Xiaomi लॉन्च करता है **नई तांबे की स्टील इलेक्ट्रिक केतली के`,
+        subtitle: `Xiaomi की नई इलेक्ट्रिक केतली में तांबे की स्टील का उपयोग किया गया है, जिससे यह और भी टिकाऊ और टैंटल`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-xiaomi-launches-new-titanium-steel-electric-kettle.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-parloa-ai-customer-service-openai-india',
         title: `Parloa का AI कमाल: ग्राहक सेवा में क्रांति लाएगा OpenAI-पावर`,
         subtitle: `Parloa ने OpenAI की शक्ति से ऐसे AI ग्राहक सेवा एजेंट बनाए हैं जिनसे ग्राहक बात करना चाहेंगे। जानिए `,
