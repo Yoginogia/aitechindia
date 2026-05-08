@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-aprilia-sr-160-sxr-125-sxr-160-discontinued',
+        title: `Aprilia SR 160, SXR 125 और SXR 160 कैंसल कर दिए गए हैं 🚨`,
+        subtitle: `अप्रिलिया ने अपनी शानदार स्कूटर रेंज से SR 160, SXR 125 और SXR 160 को हटा दिया है, जिसकी जगह SR 175 `,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-aprilia-sr-160-sxr-125-sxr-160-discontinued.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-crypto-pacs-spend-7-2m-to-support-candidates-in-5',
         title: `क्रिप्टो PACs ने 5 अमेरिकी राज्यों में $7.2M खर्च किए, चुनाव`,
         subtitle: `क्रिप्टो PACs ने $7.2M खर्च किए, जिससे अमेरिकी चुनावों में उम्मीदवारों का समर्थन बढ़ गया है। Fairsha`,
