@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-parloa-ai-customer-service-openai-india',
+        title: `Parloa का AI कमाल: ग्राहक सेवा में क्रांति लाएगा OpenAI-पावर`,
+        subtitle: `Parloa ने OpenAI की शक्ति से ऐसे AI ग्राहक सेवा एजेंट बनाए हैं जिनसे ग्राहक बात करना चाहेंगे। जानिए `,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-parloa-ai-customer-service-openai-india.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-maruti-invicto-fronx-baleno-discounts-may-2026',
         title: `Maruti Invicto, Fronx, Baleno पर भारी Discount: ₹2.15 लाख तक की छूट! 🚗💸`,
         subtitle: `Maruti Suzuki ने May 2026 में Nexa lineup पर massive discounts announce किए हैं। Invicto, Fronx, Baleno पर ₹2.15 लाख तक benefit!`,
