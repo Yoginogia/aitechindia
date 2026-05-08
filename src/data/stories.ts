@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-xiaomi-new-aluminum-body-electric-toothbrush-real',
+        title: `Xiaomi ने लॉन्च किया नया **Aluminum-Body** इलेक्ट्रिक टूथब्र`,
+        subtitle: `Xiaomi का नया इलेक्ट्रिक टूथब्रश जो चीन में लॉन्च हुआ है, इसकी कीमत लगभग **₹ 5,549** है और यह तीन रं`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-xiaomi-new-aluminum-body-electric-toothbrush-real.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-xiaomi-launches-new-titanium-steel-electric-kettle',
         title: `Xiaomi लॉन्च करता है **नई तांबे की स्टील इलेक्ट्रिक केतली के`,
         subtitle: `Xiaomi की नई इलेक्ट्रिक केतली में तांबे की स्टील का उपयोग किया गया है, जिससे यह और भी टिकाऊ और टैंटल`,
