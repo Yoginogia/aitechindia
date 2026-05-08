@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-us-treasury-privately-demanded-binance-comply-with',
+        title: `अमेरिकी खजाने की विश्वासघाती मांग: बिनेंस को विशेषज्ञ बाजार `,
+        subtitle: `अमेरिकी खजाने की विश्वासघाती मांग: बिनेंस को विशेषज्ञ बाजार प्रबंधन समझौते से बाहर निकालने के लिए दब`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-us-treasury-privately-demanded-binance-comply-with.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-canvas-login-portal-hack-shinyhunters-extortion-ca',
         title: `कैनवास लॉगिन पोर्टल्स पर हैकिंग का बड़ा मामला, शिनीहंटर्स गै`,
         subtitle: `शिनीहंटर्स गैंग ने फिर से इन्स्ट्रक्चर को टारगेट किया है, जिससे कई विश्वविद्यालयों और कॉलेजों के कैन`,
