@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-amg-glc-53-coupe-launch-in-india-next-year',
+        title: `AMG GLC 53 Coupe: भारत में जल्द आने वाली सबसे तेज़ Mercedes `,
+        subtitle: `भारत में अगले साल आने वाली Mercedes AMG GLC 53 Coupe की जानकारी और खासियतें`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-amg-glc-53-coupe-launch-in-india-next-year.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-aprilia-sr-160-sxr-125-sxr-160-discontinued',
         title: `Aprilia SR 160, SXR 125 और SXR 160 कैंसल कर दिए गए हैं 🚨`,
         subtitle: `अप्रिलिया ने अपनी शानदार स्कूटर रेंज से SR 160, SXR 125 और SXR 160 को हटा दिया है, जिसकी जगह SR 175 `,
