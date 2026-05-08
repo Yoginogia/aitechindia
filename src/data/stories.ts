@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-canvas-login-portal-hack-shinyhunters-extortion-ca',
+        title: `कैनवास लॉगिन पोर्टल्स पर हैकिंग का बड़ा मामला, शिनीहंटर्स गै`,
+        subtitle: `शिनीहंटर्स गैंग ने फिर से इन्स्ट्रक्चर को टारगेट किया है, जिससे कई विश्वविद्यालयों और कॉलेजों के कैन`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-canvas-login-portal-hack-shinyhunters-extortion-ca.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-xiaomi-new-aluminum-body-electric-toothbrush-real',
         title: `Xiaomi ने लॉन्च किया नया **Aluminum-Body** इलेक्ट्रिक टूथब्र`,
         subtitle: `Xiaomi का नया इलेक्ट्रिक टूथब्रश जो चीन में लॉन्च हुआ है, इसकी कीमत लगभग **₹ 5,549** है और यह तीन रं`,
