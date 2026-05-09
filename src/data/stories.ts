@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-crypto-exchanges-push-us-lawmakers-to-bar-provisio',
+        title: `क्रिप्टो एक्सचेंजेज़ ने अमेरिकी सांसदों को जोखिम भरे टोकन पर`,
+        subtitle: `क्रिप्टोकरेंसी एक्सचेंजेज़ ने अमेरिकी सांसदों को जोखिम भरे टोकन पर प्रावधान हटाने के लिए मजबूर किया,`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-crypto-exchanges-push-us-lawmakers-to-bar-provisio.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-alert-fatigue-ai-analysts-alert-problem-nipatne-me',
         title: `**Alert Fatigue: AI से Analysts को Alert Problem से निपटने म`,
         subtitle: `भारत में SOC टीमों के लिए Alert Fatigue एक बड़ी समस्या है, जिसे AI से हल करना संभव है।`,
