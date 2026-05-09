@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-hyundai-fy26-hatchback-sedan-sales-growth',
+        title: `हायंडई ने दिखाया FY26 में hatchback और sedan बिक्री का उछाल `,
+        subtitle: `हायंडई ने अपने FY26 के बिक्री डेटा में hatchback और sedan बिक्री में इजाफे की रिपोर्ट की है, जबकि SU`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-hyundai-fy26-hatchback-sedan-sales-growth.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-tata-nexon-pure-plus-launch-price',
         title: `Tata Nexon Pure+ PS का Launch, शुरुआती Price ₹9.59 लाख 💰`,
         subtitle: `Tata Nexon Pure+ PS का launch हुआ, शुरुआती Price ₹9.59 लाख, panoramic sunroof और 10.25-inch infotain`,
