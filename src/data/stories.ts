@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-estonia-fsa-zondacrypto-investor-warning',
+        title: `📊**Estonia के FSA ने जारी किया जारदार अलर्ट: ब्लैकलिस्ट हुआ `,
+        subtitle: `Estonia के FSA ने जारी किया जारदार अलर्ट: जांच के बाद Zondacrypto पर लगा ब्लैकलिस्ट, भारतीय निवेशकों`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-estonia-fsa-zondacrypto-investor-warning.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-crypto-exchanges-push-us-lawmakers-to-bar-provisio',
         title: `क्रिप्टो एक्सचेंजेज़ ने अमेरिकी सांसदों को जोखिम भरे टोकन पर`,
         subtitle: `क्रिप्टोकरेंसी एक्सचेंजेज़ ने अमेरिकी सांसदों को जोखिम भरे टोकन पर प्रावधान हटाने के लिए मजबूर किया,`,
