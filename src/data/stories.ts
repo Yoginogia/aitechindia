@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-alert-fatigue-ai-analysts-alert-problem-nipatne-me',
+        title: `**Alert Fatigue: AI से Analysts को Alert Problem से निपटने म`,
+        subtitle: `भारत में SOC टीमों के लिए Alert Fatigue एक बड़ी समस्या है, जिसे AI से हल करना संभव है।`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-alert-fatigue-ai-analysts-alert-problem-nipatne-me.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-flipkart-sasa-lele-summer-sale-2026',
         title: `Flipkart Sasa Lele Summer Sale 2026: AI-Powered Deals! 🛒🔥`,
         subtitle: `Flipkart की Sasa Lele Summer Sale शुरू! AI-powered recommendations और SBI 10% discount के साथ।`,
