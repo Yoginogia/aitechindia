@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-tata-nexon-pure-plus-launch-price',
+        title: `Tata Nexon Pure+ PS का Launch, शुरुआती Price ₹9.59 लाख 💰`,
+        subtitle: `Tata Nexon Pure+ PS का launch हुआ, शुरुआती Price ₹9.59 लाख, panoramic sunroof और 10.25-inch infotain`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-tata-nexon-pure-plus-launch-price.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-estonia-fsa-zondacrypto-investor-warning',
         title: `📊**Estonia के FSA ने जारी किया जारदार अलर्ट: ब्लैकलिस्ट हुआ `,
         subtitle: `Estonia के FSA ने जारी किया जारदार अलर्ट: जांच के बाद Zondacrypto पर लगा ब्लैकलिस्ट, भारतीय निवेशकों`,
