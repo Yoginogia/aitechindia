@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-mahindra-hybrid-powertrain-xev-9e-xuv-7xo',
+        title: `😎 महिंद्रा का Hybrid Powertrain विकल्प: XEV 9e और XUV 7XO के`,
+        subtitle: `महिंद्रा ने अपने भविष्य के एसयूवी के लिए Hybrid Powertrain विकल्पों का विकास करने के लिए काम शुरू कि`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-mahindra-hybrid-powertrain-xev-9e-xuv-7xo.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-mining-pools-join-stratum-v2',
         title: `₹ Bitcoin mining पूलों ने Stratum V2 में शामिल हुए, कार्य सम`,
         subtitle: `₹ Bitcoin mining पूलों ने Stratum V2 में शामिल हुए, कार्य समूह | AITechNews.co.in`,
