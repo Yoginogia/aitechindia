@@ -1,55 +1,55 @@
 ---
-title: "AI Se Cancer Detection: Indian Startup Ne Banaya 99% Accurate Tech! ⚕️🔬"
+title: "AI से Cancer Detection: Indian Startup ने बनाया 99% Accurate Tech! ⚕️🔬"
 date: "2026-05-10"
 category: "AI"
-excerpt: "Bharat ke ek health-tech startup ne ek aisi AI technology banayi hai jo standard blood test se early-stage cancer ko 99% accuracy ke sath detect kar sakti hai."
-image: "/images/blog/google_turboquant_tech.webp"
+excerpt: "भारत के एक health-tech startup ने एक ऐसी AI technology बनाई है जो standard blood test से early-stage cancer को 99% accuracy के साथ detect कर सकती है।"
+image: "/images/blog/ai-cancer-detection-startup-2026-05-10.png"
 readingTime: "5 min read"
 ---
 
-# AI Se Cancer Detection: Indian Startup Ne Banaya 99% Accurate Tech! ⚕️🔬
+# AI से Cancer Detection: Indian Startup ने बनाया 99% Accurate Tech! ⚕️🔬
 
-Artificial Intelligence sirf coding karne ya chitra (images) banane ke kaam nahi aa raha, balki ab yeh insano ki jaan bachane ka sabse bada tool ban gaya hai. Bharat (India) ke Medical-Tech sector se ek aisi khabar aayi hai jo puri duniya ke health system ko badal kar rakh degi.
+Artificial Intelligence सिर्फ coding करने या चित्र (images) बनाने के काम नहीं आ रहा, बल्कि अब यह इंसानों की जान बचाने का सबसे बड़ा tool बन गया है। भारत (India) के Medical-Tech sector से एक ऐसी ख़बर आई है जो पूरी दुनिया के health system को बदल कर रख देगी।
 
-Bengaluru-based ek health-tech startup **"OncoSight AI"** (naam parivartit) ne haal hi mein ek aisi krantikari (revolutionary) AI technology ka pradarshan kiya hai, jo sirf ek basic blood test ki report se **Early-Stage Cancer** ko detect kar sakti hai, aur woh bhi **99% accuracy** ke sath!
+Bengaluru-based एक health-tech startup **"OncoSight AI"** (नाम परिवर्तित) ने हाल ही में एक ऐसी क्रांतिकारी (revolutionary) AI technology का प्रदर्शन किया है, जो सिर्फ एक basic blood test की report से **Early-Stage Cancer** को detect कर सकती है, और वह भी **99% accuracy** के साथ!
 
-## Kaise Kaam Karti Hai Yeh AI Technology? 🧠🩸
+## कैसे काम करती है यह AI Technology? 🧠🩸
 
-Aam taur par cancer ka pata tab chalta hai jab mareez (patient) ke andar symptoms (lakshan) nazar aane lagte hain. Tab tak cancer aksar 2nd ya 3rd stage tak pahunch chuka hota hai. Is stage par biopsys, MRI aur PET scans kiye jate hain.
+आम तौर पर cancer का पता तब चलता है जब मरीज़ (patient) के अंदर symptoms (लक्षण) नज़र आने लगते हैं। तब तक cancer अक्सर 2nd या 3rd stage तक पहुँच चुका होता है। इस stage पर biopsys, MRI और PET scans किये जाते हैं।
 
-Lekin "OncoSight" ka AI model bilkul alag approach par kaam karta hai:
+लेकिन "OncoSight" का AI model बिल्कुल अलग approach पर काम करता है:
 
-1. **Deep Learning on Blood Markers:** Jab humara routine blood test (CBC) hota hai, toh usme hazaaron aise micro-patterns aur biomarkers hote hain jo human doctors ki aakhon se chhut jate hain. 
-2. **AI Pattern Recognition:** Is startup ne apne AI model ko pichle 10 saalon ke lakhon cancer patients aur healthy logo ke blood test data par train kiya hai.
-3. **Early Warning System:** Yeh AI model blood report dekhte hi un chote se chote badlavon (anomalies) ko pakad leta hai jo body mein kisi tumor ke banne ka ishara dete hain, stage 1 se bhi pehle!
+1. **Deep Learning on Blood Markers:** जब हमारा routine blood test (CBC) होता है, तो उसमें हज़ारों ऐसे micro-patterns और biomarkers होते हैं जो human doctors की आँखों से छूट जाते हैं। 
+2. **AI Pattern Recognition:** इस startup ने अपने AI model को पिछले 10 सालों के लाखों cancer patients और healthy लोगो के blood test data पर train किया है।
+3. **Early Warning System:** यह AI model blood report देखते ही उन छोटे से छोटे बदलावों (anomalies) को पकड़ लेता है जो body में किसी tumor के बनने का इशारा देते हैं, stage 1 से भी पहले!
 
 ### Traditional Methods vs AI Detection 📊
 
 | **Feature** | **Traditional Detection (Scans/Biopsy)** | **AI-Powered Detection (Blood Test)** |
 | --- | --- | --- |
 | **Detection Stage** | Usually Stage 2 or 3 | Stage 0 or Stage 1 |
-| **Cost (Kharch)** | High (₹10,000 to ₹50,000+) | Very Low (Standard Blood Test Cost) |
+| **Cost (ख़र्च)** | High (₹10,000 to ₹50,000+) | Very Low (Standard Blood Test Cost) |
 | **Time Taken** | Days to Weeks | Minutes (AI Analysis) |
 | **Invasiveness** | Sometimes Painful (Biopsy) | Non-Invasive (Just a blood sample) |
 
-## Indian Healthcare Ke Liye Ek Vardan (Boon) 🏥
+## Indian Healthcare के लिए एक वरदान (Boon) 🏥
 
-Bharat jaisi badi aabadi (population) wale desh mein yeh technology ek game-changer saabit hogi. 
+भारत जैसी बड़ी आबादी (population) वाले देश में यह technology एक game-changer साबित होगी। 
 
-* **Gaon (Villages) Mein Access:** Bharat ke remote ilakon mein bade MRI machines ya expert oncologists nahi hote. Lekin ab wahan ke kisi chote lab mein hone wale blood test ki report ko internet ke zariye is AI system mein upload karke turant pata lagaya ja sakega ki patient ko cancer ka risk hai ya nahi.
-* **Affordability:** Ek garib aadmi expensive scans afford nahi kar sakta. Agar cancer ka pata sirf 500 rupaye ke blood test se lag jaye, toh isse lakho janein bachai ja sakti hain.
-* **Reduced Workload:** Doctors par se routine checks ka bojh kam hoga, aur woh apna pura dhyan critical patients ka ilaaj karne mein laga sakenge.
+* **गाँव (Villages) में Access:** भारत के remote इलाकों में बड़े MRI machines या expert oncologists नहीं होते। लेकिन अब वहाँ के किसी छोटे lab में होने वाले blood test की report को internet के ज़रिये इस AI system में upload करके तुरंत पता लगाया जा सकेगा कि patient को cancer का risk है या नहीं।
+* **Affordability:** एक गरीब आदमी expensive scans afford नहीं कर सकता। अगर cancer का पता सिर्फ 500 रुपये के blood test से लग जाए, तो इससे लाखों जानें बचाई जा सकती हैं।
+* **Reduced Workload:** Doctors पर से routine checks का बोझ कम होगा, और वे अपना पूरा ध्यान critical patients का इलाज़ करने में लगा सकेंगे।
 
-## Aage Ka Rasta (Future Roadmap) 🚀
+## आगे का रास्ता (Future Roadmap) 🚀
 
-Khabar hai ki Bharat Sarkar ke **Health Ministry** aur **ICMR (Indian Council of Medical Research)** is startup ke sath milkar pilot project shuru karne wale hain. Shuruaati daur mein is technology ko 50+ sarkari aspataalon (Government Hospitals) mein test kiya jayega.
+ख़बर है कि भारत सरकार के **Health Ministry** और **ICMR (Indian Council of Medical Research)** इस startup के साथ मिलकर pilot project शुरू करने वाले हैं। शुरुआती दौर में इस technology को 50+ सरकारी अस्पतालों (Government Hospitals) में test किया जाएगा।
 
-Iske alawa, global medical bodies (jaise FDA) se bhi is software ko approve karwane ki koshish chal rahi hai. Agar yeh AI tool officially mass-market mein aa jata hai, toh yeh Bharat ki taraf se puri duniya ko ek bahut bada tohfa (gift) hoga.
+इसके अलावा, global medical bodies (जैसे FDA) से भी इस software को approve करवाने की कोशिश चल रही है। अगर यह AI tool officially mass-market में आ जाता है, तो यह भारत की तरफ से पूरी दुनिया को एक बहुत बड़ा तोहफ़ा (gift) होगा।
 
 ## Conclusion 🎯
 
-Artificial Intelligence ka sabse behtareen use wahi hai jo humanity ki bhalai ke liye ho. "OncoSight AI" jaisi bharteey (Indian) companies dikha rahi hain ki AI innovation mein Bharat kisi se piche nahi hai. 
+Artificial Intelligence का सबसे बेहतरीन use वही है जो humanity की भलाई के लिए हो। "OncoSight AI" जैसी भारतीय (Indian) companies दिखा रही हैं कि AI innovation में भारत किसी से पीछे नहीं है। 
 
-Jaldi hi woh din door nahi jab humara annual health checkup routine hi humein saalon pehle aane wali bimariyon se aagah kar dega, aur us bimari ko shuru hone se pehle hi khatam kiya ja sakega. 
+जल्दी ही वह दिन दूर नहीं जब हमारा annual health checkup routine ही हमें सालों पहले आने वाली बीमारियों से आगाह कर देगा, और उस बीमारी को शुरू होने से पहले ही ख़त्म किया जा सकेगा। 
 
-*Aapko kya lagta hai, kya AI aane wale samay mein doctors ko completely replace kar dega, ya sirf ek behtareen assistant bankar rahega? Comment karke apne vichaar batayein!* 💬
+*आपको क्या लगता है, क्या AI आने वाले समय में doctors को completely replace कर देगा, या सिर्फ एक बेहतरीन assistant बनकर रहेगा? Comment करके अपने विचार बताएं!* 💬
