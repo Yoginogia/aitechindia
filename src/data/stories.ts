@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-windows-11-update-installation-microsoft-explanati',
+        title: `विंडोज 11 अपडेट इंस्टॉलेशन के लिए **Microsoft** का जवाब - क्`,
+        subtitle: `विंडोज 11 अपडेट इंस्टॉलेशन में देरी के कई कारण हो सकते हैं, लेकिन **Microsoft** ने अब अपने जवाब में `,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-windows-11-update-installation-microsoft-explanati.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-indian-it-boom-tcs-infosys',
         title: `Indian IT Sector Mein AI Boom! 💻🚀`,
         subtitle: `TCS aur Infosys ko mil rahe hain naye SaaS AI integration contracts. Indian IT professionals ke liye naye mauke.`,
