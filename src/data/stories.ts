@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-crypto-exchange-rivals-opposed-cz-pardon-bid',
+        title: `**क्रिप्टो में बड़ा झटका: चांगपेंग 'CZ' ज़हाओ ने कहा, प्रतिद`,
+        subtitle: `भारतीय निवेशकों के लिए क्रिप्टो एक्सचेंजों में एक बड़ा झटका, क्योंकि बिनेंस के सह-संस्थापक चांगपेंग `,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-crypto-exchange-rivals-opposed-cz-pardon-bid.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-windows-11-update-installation-microsoft-explanati',
         title: `विंडोज 11 अपडेट इंस्टॉलेशन के लिए **Microsoft** का जवाब - क्`,
         subtitle: `विंडोज 11 अपडेट इंस्टॉलेशन में देरी के कई कारण हो सकते हैं, लेकिन **Microsoft** ने अब अपने जवाब में `,
