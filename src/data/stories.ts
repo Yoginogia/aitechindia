@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-mining-pools-join-stratum-v2',
+        title: `₹ Bitcoin mining पूलों ने Stratum V2 में शामिल हुए, कार्य सम`,
+        subtitle: `₹ Bitcoin mining पूलों ने Stratum V2 में शामिल हुए, कार्य समूह | AITechNews.co.in`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-mining-pools-join-stratum-v2.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-crypto-exchange-rivals-opposed-cz-pardon-bid',
         title: `**क्रिप्टो में बड़ा झटका: चांगपेंग 'CZ' ज़हाओ ने कहा, प्रतिद`,
         subtitle: `भारतीय निवेशकों के लिए क्रिप्टो एक्सचेंजों में एक बड़ा झटका, क्योंकि बिनेंस के सह-संस्थापक चांगपेंग `,
