@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-skoda-vw-ice-conversion-imp-basis-future-hybrid-mo',
+        title: `Skoda-VW की IMP बेस पर ICE परिवर्तन की समीक्षा: भारत में इले`,
+        subtitle: `वोक्सवैगन समूह की IMP प्लेटफ़ॉर्म पर आधारित अपनी पहली इलेक्ट्रिक वाहन की उम्मीदें 2028 तक हैं। इस बी`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-skoda-vw-ice-conversion-imp-basis-future-hybrid-mo.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-mahindra-hybrid-powertrain-xev-9e-xuv-7xo',
         title: `😎 महिंद्रा का Hybrid Powertrain विकल्प: XEV 9e और XUV 7XO के`,
         subtitle: `महिंद्रा ने अपने भविष्य के एसयूवी के लिए Hybrid Powertrain विकल्पों का विकास करने के लिए काम शुरू कि`,
