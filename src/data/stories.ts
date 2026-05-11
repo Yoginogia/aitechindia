@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-residential-proxy-networks-malware-infrastructure',
+        title: `📱🔥 Residential Proxy Network Alert: एक खतरनाक मैलवेयर संरचना`,
+        subtitle: `भारत में मैलवेयर हमलों के बढ़ते खतरे के बीच, रेजीडेंशियल प्रॉक्सी नेटवर्क्स एक खतरनाक संरचना का हिस्`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-residential-proxy-networks-malware-infrastructure.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-gemini-3-leak-gpt5',
         title: `Google Gemini 3.0 Leak! 🤖💥`,
         subtitle: `Gemini 3.0 ke features leak, 10 Million token context aur Agentic capabilities ke sath GPT-5.5 ko dega takkar.`,
