@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-mg-windsor-ev-may-2026-offers',
+        title: `MG विंडसर ईवी में मई 2026 में 85,000 रुपये तक के फायदे 🚗💰`,
+        subtitle: `MG विंडसर ईवी में मई 2026 में आकर्षक ऑफर्स, 85,000 रुपये तक के फायदे, इंडिया की बेस्ट सेलिंग कार`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-mg-windsor-ev-may-2026-offers.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bitcoin-holds-80k-into-weekly-close-as-traders-say',
         title: `भारतीय निवेशकों के लिए बिटकॉइन (Bitcoin) का संकेत 📊💰✅`,
         subtitle: `भारतीय निवेशकों के लिए बिटकॉइन (Bitcoin) का संकेत और विश्लेषण, भारतीय बाजार पर प्रभाव, जोखिम कारक और`,
