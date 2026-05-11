@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-honda-mobile-power-pack-e-battery-swap-tech-us-lau',
+        title: `🔋 Honda की Mobile Power Pack e: Battery Swap Tech अमेरिका मे`,
+        subtitle: `Honda ने अपनी Mobile Power Pack e: बैटरी एक्सचेंज सिस्टम को ACT Expo में शोकेस किया, जो जून 2026 से `,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-honda-mobile-power-pack-e-battery-swap-tech-us-lau.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-mg-windsor-ev-may-2026-offers',
         title: `MG विंडसर ईवी में मई 2026 में 85,000 रुपये तक के फायदे 🚗💰`,
         subtitle: `MG विंडसर ईवी में मई 2026 में आकर्षक ऑफर्स, 85,000 रुपये तक के फायदे, इंडिया की बेस्ट सेलिंग कार`,
