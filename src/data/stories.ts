@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-openai-sora-2-public-release-2026-05-11',
+        title: `OpenAI Sora 2.0 Public Release! 🎬🔥`,
+        subtitle: `Sora 2.0 अब 3 मिनट तक के 4K वीडियो और ऑडियो जनरेट कर सकता है। जानिए इसके नए फीचर्स।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-sora-2-public-2026-05-11.png',
+        pages: 2,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-whatsapp-llama-4-agent-integration-2026-05-11',
+        title: `WhatsApp में Llama-4 Agent! 💬🤖`,
+        subtitle: `Meta ने WhatsApp को एक पर्सनल AI असिस्टेंट में बदल दिया है। जानिए यह कैसे काम करता है।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-whatsapp-llama4-2026-05-11.png',
+        pages: 2,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-india-first-homegrown-server-chip-launch-2026-05-11',
+        title: `भारत की पहली AI Server Chip! 🇮🇳🚀`,
+        subtitle: `Nvidia को टक्कर देने के लिए भारत के 'AI-Mission' के तहत स्वदेशी AI चिप का सफल परीक्षण।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-india-chip-launch-2026-05-11.png',
+        pages: 2,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-honda-mobile-power-pack-e-battery-swap-tech-us-lau',
         title: `🔋 Honda की Mobile Power Pack e: Battery Swap Tech अमेरिका मे`,
         subtitle: `Honda ने अपनी Mobile Power Pack e: बैटरी एक्सचेंज सिस्टम को ACT Expo में शोकेस किया, जो जून 2026 से `,
