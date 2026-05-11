@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bitcoin-holds-80k-into-weekly-close-as-traders-say',
+        title: `भारतीय निवेशकों के लिए बिटकॉइन (Bitcoin) का संकेत 📊💰✅`,
+        subtitle: `भारतीय निवेशकों के लिए बिटकॉइन (Bitcoin) का संकेत और विश्लेषण, भारतीय बाजार पर प्रभाव, जोखिम कारक और`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bitcoin-holds-80k-into-weekly-close-as-traders-say.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-ethereum-vs-bitcoin-eth-price-downtrend',
         title: `ETH दोहरी गिरावट! Ethereum 35% नीचे Bitcoin के मुकाबले: क्या`,
         subtitle: `Ethereum की कीमत Bitcoin के मुकाबले 35% नीचे है, जिससे निवेशकों में चिंता बढ़ रही है। क्या ETH की की`,
