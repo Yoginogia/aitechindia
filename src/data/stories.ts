@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-ethereum-vs-bitcoin-eth-price-downtrend',
+        title: `ETH दोहरी गिरावट! Ethereum 35% नीचे Bitcoin के मुकाबले: क्या`,
+        subtitle: `Ethereum की कीमत Bitcoin के मुकाबले 35% नीचे है, जिससे निवेशकों में चिंता बढ़ रही है। क्या ETH की की`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-ethereum-vs-bitcoin-eth-price-downtrend.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-residential-proxy-networks-malware-infrastructure',
         title: `📱🔥 Residential Proxy Network Alert: एक खतरनाक मैलवेयर संरचना`,
         subtitle: `भारत में मैलवेयर हमलों के बढ़ते खतरे के बीच, रेजीडेंशियल प्रॉक्सी नेटवर्क्स एक खतरनाक संरचना का हिस्`,
