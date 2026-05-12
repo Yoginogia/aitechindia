@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-2026-royal-enfield-gt-cup-registrations-open',
+        title: `🏎️ 2026 Royal Enfield GT Cup Registrations Open: जानें क्या `,
+        subtitle: `Royal Enfield GT Cup 2026 की छठी सीज़न में अलग-अलग ग्रिड के लिए रजिस्ट्रेशन खुल गए हैं। यह सीज़न पेश`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-2026-royal-enfield-gt-cup-registrations-open.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-crypto-market-structure-bill-ethics-remain-a-stick',
         title: `क्रिप्टो बाजार संरचना बिल पर नैतिकता एक अड़चन बनी रही 💰✅`,
         subtitle: `सीनेट बैंकिंग समिति ने संकेत दिया है कि क्लैरिटी एक्ट का संशोधन इस सप्ताह हो सकता है, लेकिन सीनेट मे`,
