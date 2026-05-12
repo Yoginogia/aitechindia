@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-dji-osmo-pocket-4p-launching-globally-on-may-14',
+        title: `दुनिया की सबसे बड़ी DJI Osmo Pocket 4P कैमरा 14 मई को होगी ल`,
+        subtitle: `DJI ने अपनी सबसे बड़ी कैमरा Osmo Pocket 4P को 14 मई को दुनिया भर में लॉन्च करने की घोषणा की है। इस क`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-dji-osmo-pocket-4p-launching-globally-on-may-14.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-openai-sora-2-public-release-2026-05-11',
         title: `OpenAI Sora 2.0 Public Release! 🎬🔥`,
         subtitle: `Sora 2.0 अब 3 मिनट तक के 4K वीडियो और ऑडियो जनरेट कर सकता है। जानिए इसके नए फीचर्स।`,
