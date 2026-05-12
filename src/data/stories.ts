@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-crypto-market-structure-bill-ethics-remain-a-stick',
+        title: `क्रिप्टो बाजार संरचना बिल पर नैतिकता एक अड़चन बनी रही 💰✅`,
+        subtitle: `सीनेट बैंकिंग समिति ने संकेत दिया है कि क्लैरिटी एक्ट का संशोधन इस सप्ताह हो सकता है, लेकिन सीनेट मे`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-crypto-market-structure-bill-ethics-remain-a-stick.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-circle-stock-rally-stablecoin-adoption-indian-inve',
         title: `Circle Stock में 15% का उछाल: Stablecoin Adoption और भारतीय `,
         subtitle: `Circle के stock में stablecoin USDC की बढ़ती स्वीकार्यता के कारण 15% का उछाल आया। भारतीय निवेशक इस ट`,
