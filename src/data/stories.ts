@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-circle-stock-rally-stablecoin-adoption-indian-inve',
+        title: `Circle Stock में 15% का उछाल: Stablecoin Adoption और भारतीय `,
+        subtitle: `Circle के stock में stablecoin USDC की बढ़ती स्वीकार्यता के कारण 15% का उछाल आया। भारतीय निवेशक इस ट`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-circle-stock-rally-stablecoin-adoption-indian-inve.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-general-motors-12-75-million-california-settlement',
         title: `कैलिफोर्निया में ड्राइवरों के डेटा की बिक्री के मामले में जे`,
         subtitle: `कैलिफोर्निया के अटॉर्नी जनरल रोब बोंटा ने जेनरल मोटर्स के साथ एक प्रस्तावित 12.75 मिलियन डॉलर के समझ`,
