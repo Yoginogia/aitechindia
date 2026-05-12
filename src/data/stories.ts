@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-general-motors-12-75-million-california-settlement',
+        title: `कैलिफोर्निया में ड्राइवरों के डेटा की बिक्री के मामले में जे`,
+        subtitle: `कैलिफोर्निया के अटॉर्नी जनरल रोब बोंटा ने जेनरल मोटर्स के साथ एक प्रस्तावित 12.75 मिलियन डॉलर के समझ`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-general-motors-12-75-million-california-settlement.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-dji-osmo-pocket-4p-launching-globally-on-may-14',
         title: `दुनिया की सबसे बड़ी DJI Osmo Pocket 4P कैमरा 14 मई को होगी ल`,
         subtitle: `DJI ने अपनी सबसे बड़ी कैमरा Osmo Pocket 4P को 14 मई को दुनिया भर में लॉन्च करने की घोषणा की है। इस क`,
