@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-google-gemini-2-nano-voice-android-16-2026-05-12',
+        title: `Google Gemini 2.0 Live Voice: बिना इंटरनेट रियल-टाइम ट्रांसलेशन! 🎙️🤖`,
+        subtitle: `Google ने Android 16 के लिए 'Gemini Nano 2.0' का नया वॉयस फीचर टीज़ किया है।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai_gemini_2_voice_2026.png',
+        pages: 3,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-apple-siri-2-leaks-wwdc-2026-05-12',
+        title: `Apple Siri 2.0 Leaks: Autonomous Agent का उदय! 🍏📲`,
+        subtitle: `WWDC 2026 से पहले Apple Siri 2.0 के बड़े लीक्स सामने आए हैं। नई सिरी अब ऑटोनॉमस एजेंट बन गई है।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai_apple_siri_2_leaks_2026.png',
+        pages: 3,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-midjourney-v7-3d-model-generation-2026-05-12',
+        title: `Midjourney V7 Release: 2D नहीं, सीधे 3D मॉडल्स जेनरेट करें! 🎮🎨`,
+        subtitle: `मशहूर AI इमेज जनरेटर Midjourney ने अपना V7 वर्शन लॉन्च कर दिया है, सीधे 3D मॉडल्स और गेम एसेट्स बनाएं।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai_midjourney_v7_3d_2026.png',
+        pages: 3,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-dusri-pidhi-ki-kia-sonet-spyi-features',
         title: `दूसरी पीढ़ी की **Kia Sonet** का स्पाई: ये हैं पहली बार दिखने`,
         subtitle: `किया सोनेट की दूसरी पीढ़ी जल्द ही भारत में लॉन्च होने वाली है, जिसकी टेस्टिंग पहली बार सामने आई है। `,
