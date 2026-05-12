@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-dusri-pidhi-ki-kia-sonet-spyi-features',
+        title: `दूसरी पीढ़ी की **Kia Sonet** का स्पाई: ये हैं पहली बार दिखने`,
+        subtitle: `किया सोनेट की दूसरी पीढ़ी जल्द ही भारत में लॉन्च होने वाली है, जिसकी टेस्टिंग पहली बार सामने आई है। `,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-dusri-pidhi-ki-kia-sonet-spyi-features.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-2026-royal-enfield-gt-cup-registrations-open',
         title: `🏎️ 2026 Royal Enfield GT Cup Registrations Open: जानें क्या `,
         subtitle: `Royal Enfield GT Cup 2026 की छठी सीज़न में अलग-अलग ग्रिड के लिए रजिस्ट्रेशन खुल गए हैं। यह सीज़न पेश`,
