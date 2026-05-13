@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-sony-reon-pocket-pro-plus-wearable-ac-review',
+        title: `Sony ले आया Reon Pocket Pro Plus वियरेबल AC: बेहतर ठंडक के स`,
+        subtitle: `Sony ने अपने Reon Pocket Pro Plus वियरेबल AC को लॉन्च किया है, जो बेहतर ठंडक के साथ आता है। इसे केवल`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-sony-reon-pocket-pro-plus-wearable-ac-review.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-google-search-ai-powered-gardening-tips-india',
         title: `Google Search में AI-powered Gardening Tips: अब घर बैठे सीखे`,
         subtitle: `Google Search अब अपने यूज़र्स के लिए AI-आधारित गार्डनिंग टिप्स लेकर आया है। इस नई सुविधा से आप घर बैठ`,
