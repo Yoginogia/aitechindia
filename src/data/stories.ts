@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-kevin-warsh-federal-reserve-governor-senate-confir',
+        title: `**सेंट्रल बैंक का गवर्नर चुना गया है** 📊💰 Kevin Warsh के साथ`,
+        subtitle: `अमेरिकी सेंट्रल बैंक के गवर्नर के रूप में केविन वार्श की पुष्टि हो गई है, लेकिन कई डेमोक्रेटों ने बै`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-kevin-warsh-federal-reserve-governor-senate-confir.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-bermuda-stellar-blockchain-transition',
         title: `बेर्मूडा ने स्टेलर ब्लॉकचेन पर अपने 'कुंजी' वित्तीय सेवाओं क`,
         subtitle: `बेर्मूड के प्रधानमंत्री डेविड बर्ट ने क्रिप्टो संबंधित कई पहलों की घोषणा की है जिससे द्वीप राष्ट्र क`,
