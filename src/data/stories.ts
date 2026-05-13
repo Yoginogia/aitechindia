@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'deals-story-lenovo-legion-y70-2026-features-price-specs',
+        title: `Lenovo Legion Y70 2026: भारत में जल्द आ रहा है गेमिंग फोन, ज`,
+        subtitle: `Lenovo Legion Y70 2026 की लॉन्च डेट 19 मई है, जानें फोन की विशेषताओं, कीमत और भारत में उपलब्धता के ब`,
+        category: '🛍️ Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-lenovo-legion-y70-2026-features-price-specs.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-sony-reon-pocket-pro-plus-wearable-ac-review',
         title: `Sony ले आया Reon Pocket Pro Plus वियरेबल AC: बेहतर ठंडक के स`,
         subtitle: `Sony ने अपने Reon Pocket Pro Plus वियरेबल AC को लॉन्च किया है, जो बेहतर ठंडक के साथ आता है। इसे केवल`,
