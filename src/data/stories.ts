@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-honda-air-blade-maxi-scooter-india-patented',
+        title: `Honda Air Blade Maxi-Scooter Patented in India 🚀`,
+        subtitle: `होंडा एयर ब्लेड मैक्सी स्कूटर का पेटेंट भारत में किया गया है, जो भारतीय बाजार में एक प्रतिस्पर्धी उत`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-honda-air-blade-maxi-scooter-india-patented.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-range-rover-sport-sv-launched-in-india-at-rs-205-c',
         title: `Range रोवेर Sport SV लॉन्च, ₹2.05 करोड़ में मिलेगी यह स्पोर्`,
         subtitle: `लैंड रोवर ने Range रोवेर Sport SV को भारत में ₹2.05 करोड़ में लॉन्च किया है, जो इस सेगमेंट में सबसे `,
