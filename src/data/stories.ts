@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-medicare-new-ai-payment-model-healthcare-revolutio',
+        title: `Medicare का नया AI-आधारित पेमेंट मॉडल: Healthcare में क्रांत`,
+        subtitle: `Medicare ने एक ऐसा नया पेमेंट मॉडल, **ACCESS**, पेश किया है जो **AI**-आधारित patient monitoring और c`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-medicare-new-ai-payment-model-healthcare-revolutio.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-google-gemini-2-nano-voice-android-16-2026-05-12',
         title: `Google Gemini 2.0 Live Voice: बिना इंटरनेट रियल-टाइम ट्रांसलेशन! 🎙️🤖`,
         subtitle: `Google ने Android 16 के लिए 'Gemini Nano 2.0' का नया वॉयस फीचर टीज़ किया है।`,
