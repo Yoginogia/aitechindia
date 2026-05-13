@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-search-ai-powered-gardening-tips-india',
+        title: `Google Search में AI-powered Gardening Tips: अब घर बैठे सीखे`,
+        subtitle: `Google Search अब अपने यूज़र्स के लिए AI-आधारित गार्डनिंग टिप्स लेकर आया है। इस नई सुविधा से आप घर बैठ`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-google-search-ai-powered-gardening-tips-india.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-medicare-new-ai-payment-model-healthcare-revolutio',
         title: `Medicare का नया AI-आधारित पेमेंट मॉडल: Healthcare में क्रांत`,
         subtitle: `Medicare ने एक ऐसा नया पेमेंट मॉडल, **ACCESS**, पेश किया है जो **AI**-आधारित patient monitoring और c`,
