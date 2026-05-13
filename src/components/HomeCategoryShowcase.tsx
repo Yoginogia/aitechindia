@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Sparkles, Smartphone, Code, ArrowRight, Clock } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/markdown';
 
@@ -59,9 +60,9 @@ export default function HomeCategoryShowcase() {
                                             href={`/blog/${post.slug}`}
                                             className="group flex gap-4 items-start hover:bg-secondary/20 -mx-2 px-2 py-2 rounded-lg transition-colors"
                                         >
-                                            <div className="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-border/20 group-hover:border-primary/30 transition-colors">
+                                            <div className="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-border/20 group-hover:border-primary/30 transition-colors relative">
                                                 {post.image ? (
-                                                    <img src={post.image} alt={post.title} className="w-full h-full object-cover" />
+                                                    <Image src={post.image} alt={post.title} fill className="object-cover" sizes="64px" />
                                                 ) : (
                                                     <div className={`w-full h-full bg-gradient-to-br ${style.gradient}`}></div>
                                                 )}

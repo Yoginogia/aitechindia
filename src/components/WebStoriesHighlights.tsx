@@ -1,6 +1,7 @@
 "use client";
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { STORIES, StoryItem } from '@/data/stories';
 
 export default function WebStoriesHighlights() {
@@ -25,10 +26,12 @@ export default function WebStoriesHighlights() {
             {/* The Instagram Style Circle */}
             <div className={`relative p-[3px] rounded-full transition-all duration-300 group-hover:scale-105 ${story.isTrending ? 'bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 animate-pulse-slow shadow-lg shadow-pink-500/20' : 'bg-border hover:bg-primary/50'}`}>
               <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border-2 border-background overflow-hidden relative">
-                <img 
+                <Image 
                   src={story.image} 
                   alt={story.title} 
-                  className="w-full h-full object-cover"
+                  fill
+                  className="object-cover"
+                  sizes="96px"
                 />
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
               </div>

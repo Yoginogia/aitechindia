@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Star, ChevronRight, Clock } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/markdown';
 
@@ -28,11 +29,15 @@ export default function EditorsPicksWidget() {
                         className="group flex gap-3 items-start border-b border-border/10 pb-4 last:border-0 last:pb-0 hover:bg-secondary/20 -mx-2 px-2 py-1 rounded-lg transition-colors"
                     >
                         {post.image ? (
-                            <img 
-                                src={post.image} 
-                                alt={post.title} 
-                                className="w-16 h-16 rounded-xl object-cover shrink-0 border border-border/20 group-hover:border-primary/30 transition-colors"
-                            />
+                            <div className="w-16 h-16 rounded-xl overflow-hidden shrink-0 border border-border/20 group-hover:border-primary/30 transition-colors relative">
+                                <Image 
+                                    src={post.image} 
+                                    alt={post.title} 
+                                    fill
+                                    className="object-cover"
+                                    sizes="64px"
+                                />
+                            </div>
                         ) : (
                             <div className="w-16 h-16 rounded-xl bg-secondary/50 flex items-center justify-center shrink-0 border border-border/20">
                                 <span className="text-xl font-bold text-muted-foreground/30">{index + 1}</span>
