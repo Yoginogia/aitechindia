@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-uk-fines-south-staffordshire-water-plc-for-data-br',
+        title: `**UK ne ₹94.39 करोड़ का जुर्माना लगाया 6.64 लाख ग्राहकों के `,
+        subtitle: `UK की जानकारी प्रवर्तन एजेंसी ने साउथ स्टाफोर्डशायर वाटर प्लीसी और इसके माता-पिता कंपनी पर 6.64 लाख `,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-uk-fines-south-staffordshire-water-plc-for-data-br.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'deals-story-lenovo-legion-y70-2026-features-price-specs',
         title: `Lenovo Legion Y70 2026: भारत में जल्द आ रहा है गेमिंग फोन, ज`,
         subtitle: `Lenovo Legion Y70 2026 की लॉन्च डेट 19 मई है, जानें फोन की विशेषताओं, कीमत और भारत में उपलब्धता के ब`,
