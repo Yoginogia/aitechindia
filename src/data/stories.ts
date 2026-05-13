@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-bermuda-stellar-blockchain-transition',
+        title: `बेर्मूडा ने स्टेलर ब्लॉकचेन पर अपने 'कुंजी' वित्तीय सेवाओं क`,
+        subtitle: `बेर्मूड के प्रधानमंत्री डेविड बर्ट ने क्रिप्टो संबंधित कई पहलों की घोषणा की है जिससे द्वीप राष्ट्र क`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-bermuda-stellar-blockchain-transition.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-uk-fines-south-staffordshire-water-plc-for-data-br',
         title: `**UK ne ₹94.39 करोड़ का जुर्माना लगाया 6.64 लाख ग्राहकों के `,
         subtitle: `UK की जानकारी प्रवर्तन एजेंसी ने साउथ स्टाफोर्डशायर वाटर प्लीसी और इसके माता-पिता कंपनी पर 6.64 लाख `,
