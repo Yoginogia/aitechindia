@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-range-rover-sport-sv-launched-in-india-at-rs-205-c',
+        title: `Range रोवेर Sport SV लॉन्च, ₹2.05 करोड़ में मिलेगी यह स्पोर्`,
+        subtitle: `लैंड रोवर ने Range रोवेर Sport SV को भारत में ₹2.05 करोड़ में लॉन्च किया है, जो इस सेगमेंट में सबसे `,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-range-rover-sport-sv-launched-in-india-at-rs-205-c.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-kevin-warsh-federal-reserve-governor-senate-confir',
         title: `**सेंट्रल बैंक का गवर्नर चुना गया है** 📊💰 Kevin Warsh के साथ`,
         subtitle: `अमेरिकी सेंट्रल बैंक के गवर्नर के रूप में केविन वार्श की पुष्टि हो गई है, लेकिन कई डेमोक्रेटों ने बै`,
