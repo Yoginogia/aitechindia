@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-exim-mailer-flaw-remote-code-execution-india-email',
+        title: `Exim Mailer Flaw: 📧💻 **Remote Code Execution** के खतरे में ह`,
+        subtitle: `Exim Mailer Flaw: **Remote Code Execution** के खतरे में है **India** की ईमेल सुरक्षा, **क्या है समस्`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-exim-mailer-flaw-remote-code-execution-india-email.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-autoscout24-scales-engineering-with-ai-powered-wor',
         title: `AutoScout24 का AI-Powered Workflow से Engineering का स्केलिं`,
         subtitle: `अटोस्काउट24 ग्रुप ने कोडेक्स और चैटजीपीटी का उपयोग करके विकास चक्रों को गति देने, कोड की गुणवत्ता मे`,
