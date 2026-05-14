@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-solana-alpenglow-upgrade-indian-investors',
+        title: `सोलाना का 'अल्पेंग्लो' अपग्रेड : भारतीय निवेशकों के लिए जोखि`,
+        subtitle: `सोलाना ने अपने अल्पेंग्लो अपग्रेड को लाइव किया है, जो भारतीय निवेशकों के लिए नए अवसर और जोखिम प्रस्त`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-solana-alpenglow-upgrade-indian-investors.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-consensys-ipo-delayed-fall-ethereum-app-builder',
         title: `Ethereum App Builder Consensys का IPO फ़ली में होगा - **IPO*`,
         subtitle: `कंसेंसीस, आइपीओ की तारीख फ़ेली में स्थगित की जा सकती है। कंसेंसीस का आइपीओ **क्रिप्टोकरेंसी** बाज़ार`,
