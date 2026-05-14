@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-ai-assisted-research-golf-parameter-golf',
+        title: `गोल्फ़ के साथ हमें AI-एसिस्टेड रिसर्च में क्या सीखने को मिला`,
+        subtitle: `गोल्फ़ के साथ AI-एसिस्टेड रिसर्च में क्या सीखने को मिला? 1,000+ प्रतिभागियों और 2,000+ सब्मिशन के सा`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-ai-assisted-research-golf-parameter-golf.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-honda-air-blade-maxi-scooter-india-patented',
         title: `Honda Air Blade: भारत में पेटेंट हुआ नया मैक्सी-स्कूटर! 🛵🔥`,
         subtitle: `Activa के बाद होंडा भारत में अपना सबसे धांसू स्पोर्टी मैक्सी-स्कूटर 'Air Blade' लॉन्च करने जा रहा है।`,
