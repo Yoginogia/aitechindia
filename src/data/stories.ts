@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-autoscout24-scales-engineering-with-ai-powered-wor',
+        title: `AutoScout24 का AI-Powered Workflow से Engineering का स्केलिं`,
+        subtitle: `अटोस्काउट24 ग्रुप ने कोडेक्स और चैटजीपीटी का उपयोग करके विकास चक्रों को गति देने, कोड की गुणवत्ता मे`,
+        category: '🤖 AI',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-autoscout24-scales-engineering-with-ai-powered-wor.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-ai-assisted-research-golf-parameter-golf',
         title: `गोल्फ़ के साथ हमें AI-एसिस्टेड रिसर्च में क्या सीखने को मिला`,
         subtitle: `गोल्फ़ के साथ AI-एसिस्टेड रिसर्च में क्या सीखने को मिला? 1,000+ प्रतिभागियों और 2,000+ सब्मिशन के सा`,
