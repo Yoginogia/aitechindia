@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-honda-city-facelift-leaked',
+        title: `Honda City फेसलिफ्ट का पहला झलक 📱🔥`,
+        subtitle: `Honda City फेसलिफ्ट की आधिकारिक प्रदर्शनी होने से पहले ऑनलाइन लीक हुई है, जिससे हमें अपडेटेड डिज़ाइन`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-honda-city-facelift-leaked.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-royal-enfield-sherpa-ft-mk2-flat-track-world-champ',
         title: `रॉयल एनफील्ड शेरपा एफटी एमके 2: फ्लैट ट्रैक विश्व चैंपियनशिप`,
         subtitle: `रॉयल एनफील्ड ने फ्लैट ट्रैक विश्व चैंपियनशिप में अपनी शानदार प्रारंभिक प्रदर्शन के साथ धूम मचाई है, `,
