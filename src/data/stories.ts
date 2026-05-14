@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-royal-enfield-sherpa-ft-mk2-flat-track-world-champ',
+        title: `रॉयल एनफील्ड शेरपा एफटी एमके 2: फ्लैट ट्रैक विश्व चैंपियनशिप`,
+        subtitle: `रॉयल एनफील्ड ने फ्लैट ट्रैक विश्व चैंपियनशिप में अपनी शानदार प्रारंभिक प्रदर्शन के साथ धूम मचाई है, `,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-royal-enfield-sherpa-ft-mk2-flat-track-world-champ.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-solana-alpenglow-upgrade-indian-investors',
         title: `सोलाना का 'अल्पेंग्लो' अपग्रेड : भारतीय निवेशकों के लिए जोखि`,
         subtitle: `सोलाना ने अपने अल्पेंग्लो अपग्रेड को लाइव किया है, जो भारतीय निवेशकों के लिए नए अवसर और जोखिम प्रस्त`,
