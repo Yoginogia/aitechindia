@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-consensys-ipo-delayed-fall-ethereum-app-builder',
+        title: `Ethereum App Builder Consensys का IPO फ़ली में होगा - **IPO*`,
+        subtitle: `कंसेंसीस, आइपीओ की तारीख फ़ेली में स्थगित की जा सकती है। कंसेंसीस का आइपीओ **क्रिप्टोकरेंसी** बाज़ार`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-consensys-ipo-delayed-fall-ethereum-app-builder.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-exim-mailer-flaw-remote-code-execution-india-email',
         title: `Exim Mailer Flaw: 📧💻 **Remote Code Execution** के खतरे में ह`,
         subtitle: `Exim Mailer Flaw: **Remote Code Execution** के खतरे में है **India** की ईमेल सुरक्षा, **क्या है समस्`,
