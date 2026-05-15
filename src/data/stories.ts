@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-dartmouth-endowment-invests-in-solana-etf-holds-14',
+        title: `Solana ETF में निवेश, Dartmouth के फंड में ₹10 करोड़ की क्रि`,
+        subtitle: `भारतीय निवेशकों के लिए क्रिप्टो निवेश का संदेश, Dartmouth के फंड में **$14M** की क्रिप्टो उजागर`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-dartmouth-endowment-invests-in-solana-etf-holds-14.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-cisco-sd-wan-flaw-cve-2026-20182-zero-day-attacks',
         title: `सीसी ने SD-WAN फ्लॉ की चेतावनी दी - **CVE-2026-20182** एक दि`,
         subtitle: `सीसी ने SD-WAN फ्लॉ की चेतावनी दी - **CVE-2026-20182** एक दिन में हमला किया गया, सीसी ने चेतावनी दी `,
