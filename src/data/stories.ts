@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-bmw-r20-production-ready-revealed',
+        title: `BMW R20 ने उत्पादन के लिए तैयार हो गया है 🚀💨`,
+        subtitle: `BMW R20 में 2,000cc बॉक्सर इंजन, उत्पादन-विशिष्ट घटक, और भारत में उपलब्धता`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-bmw-r20-production-ready-revealed.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-2026-nurburgring-24-hours-schedule-india-timings',
         title: `2026 न्यूरबर्गिंग 24 घंटे का शेड्यूल: भारत में देखें कैसे`,
         subtitle: `न्यूरबर्गिंग 24 घंटे की टीम में हिस्सा लेने के लिए मैक्स वर्स्टापेन, अर्जुन माइनी और अक्षय गुप्ता भी`,
