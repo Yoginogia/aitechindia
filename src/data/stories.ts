@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-cisco-sd-wan-flaw-cve-2026-20182-zero-day-attacks',
+        title: `सीसी ने SD-WAN फ्लॉ की चेतावनी दी - **CVE-2026-20182** एक दि`,
+        subtitle: `सीसी ने SD-WAN फ्लॉ की चेतावनी दी - **CVE-2026-20182** एक दिन में हमला किया गया, सीसी ने चेतावनी दी `,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-cisco-sd-wan-flaw-cve-2026-20182-zero-day-attacks.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-honda-city-facelift-leaked',
         title: `Honda City 2026 Facelift Leaked: नई ग्रिल, प्रीमियम लुक और हाइब्रिड पावर! 🚗🔥`,
         subtitle: `आधिकारिक लॉन्च से ठीक पहले Honda City 2026 फेसलिफ्ट की तस्वीरें ऑनलाइन लीक हो गई हैं। जानिए इस नई सेडान में क्या नया और ख़ास मिलने वाला है।`,
