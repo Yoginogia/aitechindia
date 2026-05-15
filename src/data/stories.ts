@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-2026-nurburgring-24-hours-schedule-india-timings',
+        title: `2026 न्यूरबर्गिंग 24 घंटे का शेड्यूल: भारत में देखें कैसे`,
+        subtitle: `न्यूरबर्गिंग 24 घंटे की टीम में हिस्सा लेने के लिए मैक्स वर्स्टापेन, अर्जुन माइनी और अक्षय गुप्ता भी`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-2026-nurburgring-24-hours-schedule-india-timings.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-celsius-exec-sentenced-time-served-guilty-plea',
         title: `भारतीय निवेशकों पर क्या हुआ? **Celsius** के पूर्व कार्यकारी `,
         subtitle: `भारत में **क्रिप्टो मार्केट** में **क्या बदलाव होंगे? **Celsius** के पूर्व कार्यकारी की दंड और भारती`,
