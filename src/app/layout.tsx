@@ -1,20 +1,23 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
+import dynamic from "next/dynamic";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "@/components/ThemeProvider";
-import WhatsAppButton from "@/components/WhatsAppButton";
-import Ticker from "@/components/Ticker";
-import ChatbotWidget from "@/components/ChatbotWidget";
 import { getSortedPostsData } from "@/lib/markdown";
-import NewsTicker from "@/components/NewsTicker";
 import ProgressBar from "@/components/ProgressBar";
 
-import OneSignalSetup from "@/components/OneSignalSetup";
-import StickySocialShare from "@/components/StickySocialShare";
-import InstallPrompt from "@/components/InstallPrompt";
+// Lazy-load non-critical client components (don't block initial render)
+const WhatsAppButton = dynamic(() => import("@/components/WhatsAppButton"), { ssr: false });
+const ChatbotWidget = dynamic(() => import("@/components/ChatbotWidget"), { ssr: false });
+const OneSignalSetup = dynamic(() => import("@/components/OneSignalSetup"), { ssr: false });
+const StickySocialShare = dynamic(() => import("@/components/StickySocialShare"), { ssr: false });
+const InstallPrompt = dynamic(() => import("@/components/InstallPrompt"), { ssr: false });
+const Ticker = dynamic(() => import("@/components/Ticker"), { ssr: false });
+const NewsTicker = dynamic(() => import("@/components/NewsTicker"));
+
 
 const GA_ID = "G-9MKDQQ6NEH";
 

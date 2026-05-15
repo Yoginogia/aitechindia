@@ -7,34 +7,10 @@ import { AFFILIATE_TAG } from '@/data/deals';
 
 const contentDirectory = path.join(process.cwd(), 'src/content/blog');
 
-// Auto-port original AI generated cover imagery into the static public dir
-const copyGeneratedImages = () => {
-    try {
-        const destDir = path.join(process.cwd(), 'public', 'images', 'blog');
-        if (!fs.existsSync(destDir)) fs.mkdirSync(destDir, { recursive: true });
-        
-        const srcDir = 'C:\\Users\\amit\\.gemini\\antigravity\\brain\\dae6f3ae-4629-466a-9c66-e684d7c34310';
-        if (fs.existsSync(srcDir)) {
-            const files = fs.readdirSync(srcDir);
-            const mappings: Record<string, string> = {
-                'nothing_fold_1': 'nothing-fold-1.png',
-                'apple_gpt_ios': 'apple-gpt.png',
-                'ethereum_zero_fees': 'ethereum-zero.png',
-                'tesla_model_2_india': 'tesla-model-2.png',
-                'iphone_18_pro_max': 'iphone-18-pro.png',
-                'pixel_10_pro': 'pixel-10-pro.png'
-            };
-            files.forEach(file => {
-                Object.keys(mappings).forEach(key => {
-                    if (file.includes(key)) {
-                        fs.copyFileSync(path.join(srcDir, file), path.join(destDir, mappings[key]));
-                    }
-                });
-            });
-        }
-    } catch(e) { console.error('Image sync error:', e); }
-};
-copyGeneratedImages();
+// In-memory cache for sorted posts data (avoids re-reading 532+ files on every call)
+let _cachedPosts: PostData[] | null = null;
+let _cacheTimestamp = 0;
+const CACHE_TTL_MS = 60_000; // 1 minute cache in dev, effectively permanent in production build
 
 export type PostData = {
     slug: string;
@@ -86,6 +62,12 @@ function getAuthorProfile(category: string, matterData: Record<string, any>) {
 }
 
 export function getSortedPostsData(): PostData[] {
+    // Return cached data if still valid (prevents reading 532+ files multiple times per render)
+    const now = Date.now();
+    if (_cachedPosts && (now - _cacheTimestamp) < CACHE_TTL_MS) {
+        return _cachedPosts;
+    }
+
     if (!fs.existsSync(contentDirectory)) {
         fs.mkdirSync(contentDirectory, { recursive: true });
         return [];
@@ -129,7 +111,7 @@ export function getSortedPostsData(): PostData[] {
         });
 
     // Sort posts by date descending
-    return allPostsData.sort((a, b) => {
+    const sorted = allPostsData.sort((a, b) => {
         const dateA = new Date(a.date).getTime();
         const dateB = new Date(b.date).getTime();
         if (dateA < dateB) {
@@ -139,6 +121,11 @@ export function getSortedPostsData(): PostData[] {
         }
         return 0;
     });
+
+    // Cache the result
+    _cachedPosts = sorted;
+    _cacheTimestamp = now;
+    return sorted;
 }
 
 export function getAllPostSlugs() {
