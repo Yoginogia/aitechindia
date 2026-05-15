@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-celsius-exec-sentenced-time-served-guilty-plea',
+        title: `भारतीय निवेशकों पर क्या हुआ? **Celsius** के पूर्व कार्यकारी `,
+        subtitle: `भारत में **क्रिप्टो मार्केट** में **क्या बदलाव होंगे? **Celsius** के पूर्व कार्यकारी की दंड और भारती`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-celsius-exec-sentenced-time-served-guilty-plea.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-dartmouth-endowment-invests-in-solana-etf-holds-14',
         title: `Solana ETF में निवेश, Dartmouth के फंड में ₹10 करोड़ की क्रि`,
         subtitle: `भारतीय निवेशकों के लिए क्रिप्टो निवेश का संदेश, Dartmouth के फंड में **$14M** की क्रिप्टो उजागर`,
