@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-volkswagen-id-polo-gti-electric-gti-model-launched',
+        title: `वॉल्वोगन का पहला इलेक्ट्रिक GTI मॉडल ID पोलो GTI - 424km की `,
+        subtitle: `वॉल्वोगन ने अपना पहला इलेक्ट्रिक GTI मॉडल ID पोलो GTI पेश किया है, जिसमें 424km की रेंज के साथ एक पा`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-volkswagen-id-polo-gti-electric-gti-model-launched.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-spacex-ipo-bharatiya-niveshakon-par-kya-hoga',
         title: `स्पेसएक्स का IPO: भारतीय निवेशकों पर क्या होगा? 📊💰`,
         subtitle: `स्पेसएक्स का IPO जल्द ही निकलने वाला है, जिससे भारतीय निवेशकों के लिए कई अवसर और चुनौतियां सामने आ स`,
