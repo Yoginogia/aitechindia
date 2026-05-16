@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-pwn2own-berlin-2026-microsoft-exchange-windows-11',
+        title: `Microsoft भी हैक हुआ, Pwn2Own Berlin 2026 में Windows 11 और `,
+        subtitle: `प्रश्न है कि क्या Microsoft के इन दोनों उत्पादों को पुनः सुरक्षित करने के लिए कोई ठोस कदम उठाए जाएंग`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/software-pwn2own-berlin-2026-microsoft-exchange-windows-11.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-bmw-r20-production-ready-revealed',
         title: `BMW R20 Production Ready: 2000cc के महादानव इंजन के साथ तहलका मचाने को तैयार! 🏍️🔥`,
         subtitle: `BMW Motorrad ने अपनी सबसे दमदार क्रूज़र 'BMW R20' का प्रोडक्शन रेडी वर्ज़न दिखा दिया है।`,
