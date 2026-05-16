@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-hyperliquid-energy-trading-us-regulators-crypto',
+        title: `Hyperliquid Energy Trading की दुनिया में US रेगुलेटर्स को चु`,
+        subtitle: `Hyperliquid डिकेंट्रलाइज्ड एक्सचेंज ने अपने डिप्लॉयमेंट मार्केट्स को लॉन्च करने के लिए $22.2 मिलियन `,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-hyperliquid-energy-trading-us-regulators-crypto.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'software-story-pwn2own-berlin-2026-microsoft-exchange-windows-11',
         title: `Microsoft भी हैक हुआ, Pwn2Own Berlin 2026 में Windows 11 और `,
         subtitle: `प्रश्न है कि क्या Microsoft के इन दोनों उत्पादों को पुनः सुरक्षित करने के लिए कोई ठोस कदम उठाए जाएंग`,
