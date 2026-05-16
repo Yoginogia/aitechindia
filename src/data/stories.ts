@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-honda-new-hybrid-sedan-prototype-2030',
+        title: `नई हाइब्रिड सेडान: होंडा ने 2030 में उतारेगी अगली पीढ़ी की स`,
+        subtitle: `होंडा ने अपनी नई हाइब्रिड सेडान प्रोटोटाइप का अनावरण किया है, जो 2030 में उतारी जाएगी। यह एक नए प्ले`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/gadgets-honda-new-hybrid-sedan-prototype-2030.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-volkswagen-id-polo-gti-electric-gti-model-launched',
         title: `वॉल्वोगन का पहला इलेक्ट्रिक GTI मॉडल ID पोलो GTI - 424km की `,
         subtitle: `वॉल्वोगन ने अपना पहला इलेक्ट्रिक GTI मॉडल ID पोलो GTI पेश किया है, जिसमें 424km की रेंज के साथ एक पा`,
