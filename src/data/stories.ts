@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-spacex-ipo-bharatiya-niveshakon-par-kya-hoga',
+        title: `स्पेसएक्स का IPO: भारतीय निवेशकों पर क्या होगा? 📊💰`,
+        subtitle: `स्पेसएक्स का IPO जल्द ही निकलने वाला है, जिससे भारतीय निवेशकों के लिए कई अवसर और चुनौतियां सामने आ स`,
+        category: '₿ Crypto',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto-spacex-ipo-bharatiya-niveshakon-par-kya-hoga.jpg',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-hyperliquid-energy-trading-us-regulators-crypto',
         title: `Hyperliquid Energy Trading की दुनिया में US रेगुलेटर्स को चु`,
         subtitle: `Hyperliquid डिकेंट्रलाइज्ड एक्सचेंज ने अपने डिप्लॉयमेंट मार्केट्स को लॉन्च करने के लिए $22.2 मिलियन `,
