@@ -3,10 +3,29 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { STORIES, StoryItem } from '@/data/stories';
+import { Instagram } from 'lucide-react';
 
 export default function WebStoriesHighlights() {
   // Use the top 7 trending stories from our centralized data
   const highlights: StoryItem[] = STORIES.slice(0, 7);
+
+  const highlights: StoryItem[] = STORIES.slice(0, 7);
+
+  const handleShare = (e: React.MouseEvent, story: StoryItem) => {
+    e.preventDefault();
+    const url = `${window.location.origin}/web-stories/${story.slug}.html`;
+    
+    if (navigator.share) {
+      navigator.share({
+        title: story.title,
+        text: 'Check out this Web Story on AITechNews!',
+        url: url,
+      }).catch(console.error);
+    } else {
+      navigator.clipboard.writeText(url);
+      alert('Link copied to clipboard! Share it on Instagram.');
+    }
+  };
 
   return (
     <div className="w-full max-w-full overflow-hidden mt-6 mb-4">
@@ -35,6 +54,14 @@ export default function WebStoriesHighlights() {
                 />
                 <div className="absolute inset-0 bg-black/10 group-hover:bg-transparent transition-colors"></div>
               </div>
+              {/* Instagram Share Button */}
+              <button 
+                onClick={(e) => handleShare(e, story)}
+                className="absolute -top-1 -right-1 bg-gradient-to-tr from-purple-600 to-pink-500 text-white p-1 rounded-full shadow-md hover:scale-110 transition-transform z-10"
+                title="Share to Instagram"
+              >
+                <Instagram size={14} />
+              </button>
             </div>
             
             {/* Story Title */}
