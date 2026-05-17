@@ -8,9 +8,6 @@ import { Instagram } from 'lucide-react';
 export default function WebStoriesHighlights() {
   // Use the top 7 trending stories from our centralized data
   const highlights: StoryItem[] = STORIES.slice(0, 7);
-
-  const highlights: StoryItem[] = STORIES.slice(0, 7);
-
   const handleShare = (e: React.MouseEvent, story: StoryItem) => {
     e.preventDefault();
     const url = `${window.location.origin}/web-stories/${story.slug}.html`;
