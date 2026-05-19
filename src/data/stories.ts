@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'crypto-story-market-extreme-fear-echo-hack',
+        title: `Crypto Market 'Extreme Fear' में: $661M लिक्विडेट, हैकर्स ने फिर मचाई तबाही! 📉⚠️`,
+        subtitle: `ग्लोबल मार्केट क्रैश और Echo Protocol का $76 मिलियन का हैक। क्या है US SEC का नया प्लान?`,
+        category: '₿ Crypto News',
+        categoryColor: '#f59e0b',
+        image: '/images/blog/crypto_market_fear_echo_hack_2026.png',
+        pages: 2,
+        isTrending: true,
+    },
+    {
+        slug: 'deals-story-amazon-flipkart-summer-tech-sale',
+        title: `Amazon Great Summer & Flipkart Sale: गैजेट्स पर 80% तक महा-डिस्काउंट! 🛒🔥`,
+        subtitle: `स्मार्टफोन्स, लैपटॉप्स, और AC पर मिल रही है भारी छूट। जानिए 19 मई की सबसे बेहतरीन Tech Deals!`,
+        category: '🛍️ Tech Deals',
+        categoryColor: '#ef4444',
+        image: '/images/blog/deals-amazon-summer-sale-2026-05-08.png',
+        pages: 2,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-tencent-physical-robots-antalpha-mcp',
         title: `Physical AI का युग: Tencent और Antalpha ने बदल दिया रोबोटिक्स का खेल 🤖🏭`,
         subtitle: `Tencent Cloud ने Vision Agents लॉन्च किए और Antalpha ने नया MCP पेश किया। कोरिया में रोबोट सीख रहे हैं काम!`,
