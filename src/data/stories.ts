@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-google-io-2026-gemini35-spark-omni',
+        title: `Google I/O 2026: Gemini 3.5 Flash & Spark का धमाका! 🤖✨`,
+        subtitle: `Gemini 3.5 Flash Default बना, Spark Personal Agent लॉन्च हुआ, Omni Flash ने Physics-Based Video बनाया।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai_google_io_gemini35_spark_2026.png',
+        pages: 2,
+        isTrending: true,
+    },
+    {
+        slug: 'ev-story-iea-outlook-2026-lexus-tz-solid-state',
+        title: `IEA: 2.3 करोड़ EV Sales 2026! Lexus TZ & Solid-State Race ⚡`,
+        subtitle: `Global EV Market 30% हुआ। Lexus TZ Three-Row SUV लॉन्च और Dreame की Solid-State Battery कार 2027 में।`,
+        category: '⚡ EV News',
+        categoryColor: '#22c55e',
+        image: '/images/blog/ev_iea_outlook_lexus_tz_ev_2026.png',
+        pages: 2,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-github-breach-bitlocker-2026',
+        title: `GitHub Breach: 3,800 Repos Leak! BitLocker Zero-Day! ⚠️`,
+        subtitle: `VS Code Extension Attack से GitHub के Internal Repos चोरी। Windows BitLocker 'YellowKey' Alert जारी।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/software_github_breach_bitlocker_2026.png',
+        pages: 2,
+        isTrending: true,
+    },
+    {
         slug: 'crypto-story-market-extreme-fear-echo-hack',
         title: `Crypto Market 'Extreme Fear' में: $661M लिक्विडेट, हैकर्स ने फिर मचाई तबाही! 📉⚠️`,
         subtitle: `ग्लोबल मार्केट क्रैश और Echo Protocol का $76 मिलियन का हैक। क्या है US SEC का नया प्लान?`,
