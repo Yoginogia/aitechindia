@@ -158,6 +158,12 @@ export async function getPostData(slug: string): Promise<PostData> {
         
     let contentHtml = processedContent.toString();
     
+    // Inject internal links to boost SEO
+    contentHtml = injectInternalLinks(contentHtml, slug);
+    
+    // Inject dynamic in-article Adsense ads
+    contentHtml = injectAds(contentHtml);
+    
     // Auto-generate TOC and inject IDs into HTML headings
     const toc: { id: string, text: string, level: number }[] = [];
     contentHtml = contentHtml.replace(/<h([23])>(.*?)<\/h\1>/g, (match, level, text) => {
@@ -188,4 +194,100 @@ export async function getPostData(slug: string): Promise<PostData> {
         toc,
         ...(safeData as { title: string; date: string; category: string; excerpt: string, image?: string }),
     };
+}
+
+
+function escapeRegExp(string: string): string {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+}
+
+function injectInternalLinks(html: string, currentSlug: string): string {
+    const links = [
+        { keyword: 'Vision Agent', slug: 'tencent-vision-agents-physical-ai-robotic-revolutions' },
+        { keyword: 'Vision Agents', slug: 'tencent-vision-agents-physical-ai-robotic-revolutions' },
+        { keyword: 'XPeng Robotaxi', slug: 'xpeng-robotaxi-launch-autonomous-driving-china' },
+        { keyword: 'BMW Bidirectional', slug: 'bmw-bidirectional-charging-ev-grid-integration' },
+        { keyword: 'Moto G37 Power', slug: 'motorola-moto-g37-power-launch-price-specifications' },
+        { keyword: 'Google I/O 2026', slug: 'google-io-2026-gemini-intelligence-search-android-updates' },
+        { keyword: 'Gemini Intelligence', slug: 'google-io-2026-gemini-intelligence-search-android-updates' },
+        { keyword: 'Microsoft Patch Tuesday', slug: 'microsoft-patch-tuesday-critical-cve-bug-fixes-list' },
+        { keyword: 'Echo Protocol', slug: 'crypto-market-extreme-fear-echo-hack-2026-05-19' },
+        { keyword: 'Amazon Great Summer Sale', slug: 'deals-amazon-flipkart-summer-tech-sale-2026-05-19' },
+        { keyword: 'Flipkart Sale', slug: 'deals-amazon-flipkart-summer-tech-sale-2026-05-19' },
+        { keyword: 'Echo', slug: 'crypto-market-extreme-fear-echo-hack-2026-05-19' },
+        { keyword: 'Tencent', slug: 'tencent-vision-agents-physical-ai-robotic-revolutions' }
+    ];
+
+    const activeLinks = links.filter(l => l.slug !== currentSlug);
+    activeLinks.sort((a, b) => b.keyword.length - a.keyword.length);
+
+    const tokens = html.split(/(<[^>]+>)/g);
+    const linkedKeywords = new Set();
+    let inAnchor = false;
+
+    for (let i = 0; i < tokens.length; i++) {
+        const token = tokens[i];
+        if (token.startsWith('<')) {
+            if (token.toLowerCase().startsWith('<a ') || token.toLowerCase() === '<a>') {
+                inAnchor = true;
+            } else if (token.toLowerCase() === '</a>') {
+                inAnchor = false;
+            }
+        } else {
+            if (!inAnchor) {
+                let text = token;
+                for (const link of activeLinks) {
+                    if (linkedKeywords.has(link.keyword)) continue;
+
+                    const regex = new RegExp(`(?<=^|[^a-zA-Z0-9\\u0900-\\u097F])(${escapeRegExp(link.keyword)})(?=$|[^a-zA-Z0-9\\u0900-\\u097F])`, 'i');
+                    const replaced = text.replace(regex, `<a href="/blog/${link.slug}" class="text-primary hover:underline font-medium">$1</a>`);
+                    if (replaced !== text) {
+                        text = replaced;
+                        linkedKeywords.add(link.keyword);
+                        if (link.keyword === 'Vision Agent') linkedKeywords.add('Vision Agents');
+                        if (link.keyword === 'Vision Agents') linkedKeywords.add('Vision Agent');
+                    }
+                }
+                tokens[i] = text;
+            }
+        }
+    }
+
+    return tokens.join('');
+}
+
+function injectAds(html: string): string {
+    const paragraphs = html.split('</p>');
+    
+    // Insert after 3rd paragraph (index 2), meaning prepend to index 3
+    if (paragraphs.length > 3) {
+        const adHtml1 = `
+<div class="w-full relative mx-auto my-8 flex items-center justify-center bg-zinc-900/50 border border-dashed border-primary/20 rounded-2xl overflow-hidden p-6" style="min-height: 120px;">
+    <div class="absolute top-2 right-3 text-[10px] uppercase font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">
+        Advertisement
+    </div>
+    <div class="flex flex-col items-center justify-center opacity-60">
+        <span class="text-sm font-semibold text-muted-foreground font-mono">Google AdSense - Middle Ad 1</span>
+        <span class="text-xs text-muted-foreground/60 mt-1 font-mono">Slot ID: INLINE_MID_1</span>
+    </div>
+</div>\\n`;
+        paragraphs[3] = adHtml1 + paragraphs[3];
+    }
+
+    // Insert after 6th paragraph (index 5), meaning prepend to index 6
+    if (paragraphs.length > 6) {
+        const adHtml2 = `
+<div class="w-full relative mx-auto my-8 flex items-center justify-center bg-zinc-900/50 border border-dashed border-primary/20 rounded-2xl overflow-hidden p-6" style="min-height: 120px;">
+    <div class="absolute top-2 right-3 text-[10px] uppercase font-bold text-primary bg-primary/10 px-2 py-0.5 rounded">
+        Advertisement
+    </div>
+    <div class="flex flex-col items-center justify-center opacity-60">
+        <span class="text-sm font-semibold text-muted-foreground font-mono">Google AdSense - Middle Ad 2</span>
+        <span class="text-xs text-muted-foreground/60 mt-1 font-mono">Slot ID: INLINE_MID_2</span>
+    </div>
+</div>\\n`;
+        paragraphs[6] = adHtml2 + paragraphs[6];
+    }
+
+    return paragraphs.join('</p>');
 }
