@@ -3,7 +3,7 @@ title: "OPPO Find X9 India Launch: Hasselblad कैमरा और Snapdragon 
 date: "2026-05-21"
 category: "Gadgets"
 excerpt: "OPPO Find X9 India Launch हो चुका है! Hasselblad Master Camera System और Snapdragon 8 Elite Gen 5 चिपसेट के साथ जानिए इसकी कीमत और फीचर्स।"
-image: "/images/blog/smartphone-review.jpg"
+image: "/images/blog/oppo_find_x9_ultra.webp"
 ---
 
 ## 📱 OPPO Find X9 India Launch का धमाकेदार ऐलान
