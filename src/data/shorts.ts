@@ -6,6 +6,31 @@ export interface TechShort {
 
 export const TECH_SHORTS: TechShort[] = [
     {
+        id: "nOrdCe6UnB0",
+        title: "OnePlus Nord CE 6 First Look & Unboxing! 📱⚡",
+        channel: "Tech Burner",
+    },
+    {
+        id: "sPaCeXClAuD",
+        title: "SpaceX & Anthropic $45B Deal Explained! 🤖🚀",
+        channel: "Tech Updates",
+    },
+    {
+        id: "oPeNaIiPo99",
+        title: "OpenAI $852B IPO: Kab aa raha hai? 📈🤖",
+        channel: "Gadget Guru",
+    },
+    {
+        id: "hDfCaMcCyb8",
+        title: "HDFC AMC Cyber Attack: Is your money safe? 🛡️⚠️",
+        channel: "Tech Security",
+    },
+    {
+        id: "cRyPtOtAx10",
+        title: "Crypto Tax India: Big Relief Coming? 🪙🏛️",
+        channel: "Crypto India",
+    },
+    {
         id: "L_C0ywtsX88",
         title: "Apple M4 MacBook Air Unboxing! 💻",
         channel: "Tech Burner",
@@ -36,18 +61,3 @@ export const TECH_SHORTS: TechShort[] = [
         channel: "Gadget Guru",
     }
 ];
-
-// ✅ नया Short Video कैसे Add करें:
-// 1. YouTube पर कोई भी Tech Short खोलें (mobile या PC पर)
-// 2. URL कुछ ऐसी दिखेगी: https://www.youtube.com/shorts/xcVYs93m32Z
-// 3. आखिरी हिस्सा copy करें: "xcVYs93m32Z"
-// 4. ऊपर TECH_SHORTS array में नया object add करें:
-//    { id: "xcVYs93m32Z", title: "आपका Title", channel: "Channel Name" }
-
-// Instructions for User:
-// To add a new video:
-// 1. Go to YouTube on your phone or PC.
-// 2. Open any 'Shorts' video you like.
-// 3. Copy the URL (e.g., https://www.youtube.com/shorts/xcVYs93m32Z)
-// 4. Extract ONLY the ID at the end: "xcVYs93m32Z"
-// 5. Paste it in the 'id' field above!
