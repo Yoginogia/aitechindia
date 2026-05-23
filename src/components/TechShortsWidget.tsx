@@ -70,14 +70,14 @@ export default function TechShortsWidget() {
         {TECH_SHORTS.map((short, i) => (
           <div 
             key={i}
-            className="flex-shrink-0 w-[190px] sm:w-[220px] h-[338px] sm:h-[390px] rounded-[24px] overflow-hidden border-[3px] border-card/80 shadow-2xl bg-card relative group snap-center cursor-pointer"
+            className="flex-shrink-0 w-[160px] sm:w-[190px] h-[284px] sm:h-[338px] rounded-[20px] overflow-hidden border-2 border-card/80 shadow-2xl bg-card relative group snap-center cursor-pointer"
             onClick={() => setActiveVideoIndex(i)}
           >
             {activeVideoIndex === i ? (
                <iframe
                  width="100%"
                  height="100%"
-                 className="absolute inset-0 pointer-events-auto rounded-[20px]"
+                 className="absolute inset-0 pointer-events-auto rounded-[16px]"
                  src={`https://www.youtube.com/embed/${short.id}?autoplay=1&rel=0&modestbranding=1`}
                  title={short.title}
                  frameBorder="0"
@@ -90,7 +90,7 @@ export default function TechShortsWidget() {
                  <img 
                    src={`https://i.ytimg.com/vi/${short.id}/hqdefault.jpg`} 
                    alt={short.title} 
-                   className="w-full h-full object-cover rounded-[20px] group-hover:scale-105 transition-transform duration-500"
+                   className="w-full h-full object-cover rounded-[16px] group-hover:scale-105 transition-transform duration-500"
                  />
                  <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none z-10"></div>
                  
