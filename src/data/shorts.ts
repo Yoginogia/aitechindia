@@ -6,29 +6,29 @@ export interface TechShort {
 
 export const TECH_SHORTS: TechShort[] = [
     {
-        id: "nOrdCe6UnB0",
-        title: "OnePlus Nord CE 6 First Look & Unboxing! 📱⚡",
+        id: "dLFMvFhsc70",
+        title: "Nothing Phone (1) Unboxing in 1-Minute! ⚡",
+        channel: "Trakin Tech",
+    },
+    {
+        id: "QTUlHSaYUus",
+        title: "Viral IPL Gadgets! 🏏🔥",
         channel: "Tech Burner",
     },
     {
-        id: "sPaCeXClAuD",
-        title: "SpaceX & Anthropic $45B Deal Explained! 🤖🚀",
-        channel: "Tech Updates",
+        id: "z0NfE2a6nb4",
+        title: "Are Dell Laptops a smart business investment? 💻",
+        channel: "Technical Guruji",
     },
     {
-        id: "oPeNaIiPo99",
-        title: "OpenAI $852B IPO: Kab aa raha hai? 📈🤖",
-        channel: "Gadget Guru",
+        id: "rs5ke-CzzXg",
+        title: "IPL Majedaar Tech! 🏏⚡",
+        channel: "Tech Burner",
     },
     {
-        id: "hDfCaMcCyb8",
-        title: "HDFC AMC Cyber Attack: Is your money safe? 🛡️⚠️",
-        channel: "Tech Security",
-    },
-    {
-        id: "cRyPtOtAx10",
-        title: "Crypto Tax India: Big Relief Coming? 🪙🏛️",
-        channel: "Crypto India",
+        id: "i_yy1Xlh3sY",
+        title: "Xiaomi 13 Ultra Vs DSLR Camera - Mahayuddha! 📸",
+        channel: "Trakin Tech",
     },
     {
         id: "L_C0ywtsX88",
