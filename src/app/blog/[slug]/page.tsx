@@ -1,5 +1,6 @@
 import { getPostData, getAllPostSlugs, getSortedPostsData } from '@/lib/markdown';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowLeft, Calendar, Tag, Share2, Clock, ArrowRight } from 'lucide-react';
 import { notFound } from 'next/navigation';
 import SocialShare from '@/components/SocialShare';
@@ -71,6 +72,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
     } catch (error) {
         notFound();
     }
+    
+    const sanitizedImage = postData.image ? postData.image.split('?')[0] : '';
 
     const allPosts = getSortedPostsData();
     const relatedPosts = allPosts
@@ -162,15 +165,18 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
             {/* Article Cover Image */}
             <div className="aspect-[21/9] w-full rounded-2xl mb-12 overflow-hidden relative border border-border/30 bg-gradient-to-br from-primary/10 via-purple-500/10 to-pink-500/10">
                 {postData.image ? (
-                    (postData.image.includes('best_phones_') || postData.image.includes('/images/phones/')) ? (
+                    (sanitizedImage.includes('best_phones_') || sanitizedImage.includes('/images/phones/')) ? (
                         <>
-                            <img src={postData.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
-                            <img src={postData.image} alt={postData.title} className="absolute inset-0 w-full h-full object-contain z-10 drop-shadow-2xl p-4" />
+                            <Image src={sanitizedImage} alt="" fill sizes="(max-width: 768px) 100vw, 1200px" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
+                            <Image src={sanitizedImage} alt={postData.title} fill sizes="(max-width: 768px) 100vw, 1200px" className="absolute inset-0 w-full h-full object-contain z-10 drop-shadow-2xl p-4" />
                         </>
                     ) : (
-                        <img
-                            src={postData.image}
+                        <Image
+                            src={sanitizedImage}
                             alt={postData.title}
+                            fill
+                            priority
+                            sizes="(max-width: 768px) 100vw, 1200px"
                             className="absolute inset-0 w-full h-full object-cover"
                         />
                     )
@@ -261,10 +267,12 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                 <p className="text-xs font-bold uppercase tracking-widest text-primary mb-4">About the Author</p>
                 <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                     <div className="relative shrink-0">
-                        <img
+                        <Image
                             src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=120&h=120&q=80"
                             alt="Aryan Sharma"
-                            className="w-24 h-24 rounded-full object-cover border-4 border-primary/30 shadow-xl"
+                            width={96}
+                            height={96}
+                            className="rounded-full object-cover border-4 border-primary/30 shadow-xl"
                         />
                         <span className="absolute -bottom-1 -right-1 bg-primary text-primary-foreground text-[10px] font-bold px-2 py-0.5 rounded-full flex items-center gap-0.5 shadow">
                             <svg className="w-2.5 h-2.5" viewBox="0 0 24 24" fill="currentColor"><path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/></svg>
@@ -339,21 +347,23 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                     </div>
                     
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
-                        {relatedPosts.map((post) => (
-                             <Link
-                               key={post.slug}
-                               href={`/blog/${post.slug}`}
-                               className="group flex flex-col rounded-3xl border border-border/40 bg-card/40 backdrop-blur-sm overflow-hidden hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 hover:-translate-y-1"
-                             >
+                        {relatedPosts.map((post) => {
+                             const sanitizedRelatedImage = post.image ? post.image.split('?')[0] : '';
+                             return (
+                                 <Link
+                                   key={post.slug}
+                                   href={`/blog/${post.slug}`}
+                                   className="group flex flex-col rounded-3xl border border-border/40 bg-card/40 backdrop-blur-sm overflow-hidden hover:shadow-2xl hover:shadow-primary/5 transition-all duration-500 hover:-translate-y-1"
+                                 >
                                <div className="aspect-[4/3] w-full bg-secondary flex items-center justify-center relative overflow-hidden">
                                  {post.image ? (
                                    post.slug?.includes('best-phones-under') ? (
                                      <>
-                                       <img src={post.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
-                                       <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-out z-10 drop-shadow-lg" />
+                                       <Image src={sanitizedRelatedImage} alt="" fill sizes="(max-width: 768px) 100vw, 300px" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
+                                       <Image src={sanitizedRelatedImage} alt={post.title} fill sizes="(max-width: 768px) 100vw, 300px" className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-700 ease-out z-10 drop-shadow-lg" />
                                      </>
                                    ) : (
-                                     <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
+                                     <Image src={sanitizedRelatedImage} alt={post.title} fill sizes="(max-width: 768px) 100vw, 300px" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 ease-out" />
                                    )
                                  ) : (
                                    <div className="absolute inset-0 bg-grid opacity-30"></div>
@@ -375,7 +385,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
                                  </div>
                                </div>
                              </Link>
-                        ))}
+                             );
+                        })}
                     </div>
                 </div>
             )}
