@@ -5,6 +5,11 @@ export const metadata = {
     title: 'संपर्क करें | AITechNews',
     description: 'AITechNews team से बात करें — कोई सवाल, tip, या business inquiry हो।',
     alternates: { canonical: '/contact' },
+    openGraph: {
+        title: 'संपर्क करें | AITechNews',
+        description: 'AITechNews team से बात करें — कोई सवाल, tip, या business inquiry हो।',
+        url: 'https://aitechnews.co.in/contact',
+    }
 };
 
 export default function ContactPage() {

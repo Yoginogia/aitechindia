@@ -90,6 +90,7 @@ export default function TechShortsWidget() {
                  <img 
                    src={`https://i.ytimg.com/vi/${short.id}/hqdefault.jpg`} 
                    alt={short.title} 
+                   loading={i < 3 ? 'eager' : 'lazy'}
                    className="w-full h-full object-cover rounded-[16px] group-hover:scale-105 transition-transform duration-500"
                  />
                  <div className="absolute inset-x-0 bottom-0 h-2/3 bg-gradient-to-t from-black/90 via-black/40 to-transparent pointer-events-none z-10"></div>

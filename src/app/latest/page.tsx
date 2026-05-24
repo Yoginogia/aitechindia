@@ -16,6 +16,11 @@ export const metadata = {
     title: 'Latest News | AITechNews',
     description: 'AITechNews par AI aur Technology ki sabse taaza khabrein aur articles.',
     alternates: { canonical: '/latest' },
+    openGraph: {
+        title: 'Latest News | AITechNews',
+        description: 'AITechNews par AI aur Technology ki sabse taaza khabrein aur articles.',
+        url: 'https://aitechnews.co.in/latest',
+    }
 };
 
 export default function LatestNews() {
