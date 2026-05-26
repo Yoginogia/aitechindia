@@ -11,6 +11,37 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-tools-kerala-plus-two-result-career-guidance-ai-2026-05-26',
+        title: `Kerala Plus Two: AI से करियर चुनें! 📊🤖`,
+        subtitle: `केरल प्लस टू रिजल्ट 2026 घोषित हो गया है। छात्र अपना परिणाम keralaresults.nic.in पर देख सकते हैं।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/kerala_result_ai.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-hfcl-bel-telecom-defense-tech-boom-2026-05-26',
+        title: `HFCL & BEL Tech Boom: स्वदेशी इंफ्रा में तेजी! 📈⚡`,
+        subtitle: `5G/6G टेलीकॉम इंफ्रास्ट्रक्चर और डिफेंस इलेक्ट्रॉनिक्स ऑर्डर्स के कारण HFCL और BEL के शेयरों में भारी उछाल।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/hfcl_bel_stock.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'gadgets-story-hmd-vibe-2-5g-vs-oppo-a6c-comparison-2026-05-26',
+        title: `Vibe 2 vs Oppo A6c: बेस्ट 5G कौन सा? 📱🔥`,
+        subtitle: `₹10,000 के बजट में HMD Vibe 2 5G और Oppo A6c के बीच कांटे की टक्कर शुरू हो गई है।`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/vibe_vs_oppo.png',
+        pages: 5,
+        isTrending: true,
+    },
+
+    {
         slug: 'ai-story-vatican-pope-encyclical-magnifica-humanitas-2026-05-26',
         title: `Pope AI Encyclical: एआई हथियारों पर प्रहार! 🤖⛪`,
         subtitle: `पोप लियो XIV ने पहले एनसाइक्लिकल 'Magnifica Humanitas' में एआई हथियारों पर बैन की अपील की।`,
