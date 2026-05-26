@@ -19,6 +19,7 @@ type NavItem = {
 const NAV_CATEGORIES: NavItem[] = [
     { href: '/',            label: 'Home',          emoji: '🏠', color: 'from-slate-500 to-slate-700' },
     { href: '/latest',      label: 'Latest',        emoji: '🔥', color: 'from-orange-500 to-red-500' },
+    { href: '/trending',    label: 'Trending',      emoji: '📈', color: 'from-amber-500 to-orange-600' },
     { href: '/web-stories', label: 'Web Stories',   emoji: '⚡', color: 'from-yellow-400 to-orange-500' },
     { href: '/ai-tools',    label: 'AI Tools',      emoji: '🤖', color: 'from-blue-500 to-cyan-400' },
     { href: '/gadgets',     label: 'Gadgets & EVs', emoji: '📱🚗', color: 'from-purple-500 to-pink-500' },
@@ -54,6 +55,7 @@ const NAV_CATEGORIES: NavItem[] = [
 const MOBILE_LINKS = [
     { href: '/',            label: 'Home',          emoji: '🏠' },
     { href: '/latest',      label: 'Latest',        emoji: '🔥' },
+    { href: '/trending',    label: 'Trending',      emoji: '📈' },
     { href: '/web-stories', label: 'Web Stories',   emoji: '⚡' },
     { href: '/ai-tools',    label: 'AI Tools',      emoji: '🤖' },
     { href: '/gadgets',     label: 'Gadgets & EVs', emoji: '📱🚗' },

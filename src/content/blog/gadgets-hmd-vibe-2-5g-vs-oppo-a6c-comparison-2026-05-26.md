@@ -4,6 +4,7 @@ date: "2026-05-26"
 category: "Gadgets"
 excerpt: "HMD Vibe 2 5G और Oppo A6c के बीच कांटे की टक्कर है। ₹10,000 के बजट में 6000mAh vs 7000mAh बैटरी और AI फीचर्स में कौन सा फोन आपके लिए बेस्ट है?"
 image: "/images/blog/vibe_vs_oppo.png"
+trending: true
 ---
 
 ## HMD Vibe 2 5G vs Oppo A6c: बजट रेंज में दो दिग्गजों की जंग!

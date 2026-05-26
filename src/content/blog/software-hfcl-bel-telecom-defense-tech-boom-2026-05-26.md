@@ -4,6 +4,7 @@ date: "2026-05-26"
 category: "Software"
 excerpt: "HFCL और BEL के शेयर प्राइस में रिकॉर्ड तेजी आई है। जानिए कैसे भारत के 5G/6G और स्वदेशी डिफेंस इलेक्ट्रॉनिक्स प्रोजेक्ट्स ने इन कंपनियों को बूस्ट किया है।"
 image: "/images/blog/hfcl_bel_stock.png"
+trending: true
 ---
 
 ## HFCL & BEL Tech Boom: टेलीकॉम और डिफेंस में 'मेक इन इंडिया' का जलवा!

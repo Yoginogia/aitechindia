@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const staticRoutes = [
     '',
     '/latest',
+    '/trending',
     '/ai-tools',
     '/gadgets',
     '/software',
@@ -26,14 +27,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/disclaimer',
   ].map((route) => {
     let lastMod = defaultStaticDate
-    if (route === '' || route === '/latest') {
+    if (route === '' || route === '/latest' || route === '/trending') {
       lastMod = latestPostDate
     }
     
     return {
       url: `${baseUrl}${route}`,
       lastModified: lastMod,
-      changeFrequency: route === '' || route === '/latest' ? 'daily' as const : 'weekly' as const,
+      changeFrequency: route === '' || route === '/latest' || route === '/trending' ? 'daily' as const : 'weekly' as const,
       priority: route === '' ? 1.0 : 0.8,
     }
   })

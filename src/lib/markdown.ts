@@ -27,6 +27,7 @@ export type PostData = {
     toc?: { id: string, text: string, level: number }[];
     amazon?: string;
     flipkart?: string;
+    trending?: boolean;
 };
 
 // Default reading speed = 200 words per minute
@@ -102,7 +103,7 @@ export function getSortedPostsData(): PostData[] {
                 author,
                 authorRole,
                 authorImage,
-                ...(safeData as { title: string; date: string; category: string; excerpt: string, image?: string }),
+                ...(safeData as { title: string; date: string; category: string; excerpt: string, image?: string, trending?: boolean }),
                 // Ensure required fields always have a value (some old articles may lack them)
                 category: safeData.category || category || 'Tech',
                 excerpt: safeData.excerpt || safeData.title || '',
