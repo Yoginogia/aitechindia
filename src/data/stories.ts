@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-ipl-2026-rcb-playoff-jiocinema-ai-streaming-2026-05-27',
+        title: `RCB Playoff Live: AI स्ट्रीमिंग! 🏏⚡`,
+        subtitle: `JioCinema ने AI कंप्रेशन की मदद से आरसीबी मैच का 4.8 करोड़ लाइव ट्रैफिक संभाला।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/rcb_playoff_streaming.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-delhi-metro-heatwave-smart-grid-tech-2026-05-27',
+        title: `Metro Cool Tech: स्टेशन पर ठंडक! 🚇❄️`,
+        subtitle: `भीषण गर्मी में दिल्ली मेट्रो का आईओटी कूलिंग सिस्टम यात्रियों को दे रहा है राहत।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/metro_heatwave_tech.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-story-taiwan-stock-market-tsmc-semiconductor-boom-2026-05-27',
+        title: `Taiwan AI Boom: भारत को पछाड़ा! 📈🤖`,
+        subtitle: `टीएसएमसी के सेमीकंडक्टर बूम से ताइवान का मार्केट कैप भारत से आगे निकला।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/taiwan_india_chip_boom.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-zen-technologies-smart-border-suite-launch-2026-05-27',
         title: `Zen Technologies Smart Border: AI सेना! 🛡️🇮🇳`,
         subtitle: `Zen Technologies ने लॉन्च किया एआई-पावर्ड एंटी-ड्रोन स्मार्ट बॉर्डर सुइट।`,
