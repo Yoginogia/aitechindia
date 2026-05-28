@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-tools-story-eid-mubarak-ai-personalized-cards-2026-05-28',
+        title: `Eid AI Cards: एआई से बकरीद विश! 🌙🎨`,
+        subtitle: `बकरीद 2026 पर पुराने विशेज की छुट्टी, एआई टूल्स से मिनटों में बनाएं शानदार 3D बधाई कार्ड्स।`,
+        category: '🛠️ AI Tools',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/eid_mubarak_ai_cards.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-ipl-2026-rr-srh-playoff-drs-hawk-eye-tech-2026-05-28',
+        title: `IPL Playoff: DRS और AI का जादू! 🏏⚡`,
+        subtitle: `राजस्थान रॉयल्स बनाम हैदराबाद के रोमांचक मुकाबले में डीआरएस और स्मार्ट रिप्ले कैसे रहा हावी।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/ipl_playoff_broadcast_tech.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-story-astrology-apps-astrotalk-kundli-gpt-nlp-predictions-2026-05-28',
+        title: `AI Astrology: आपका भविष्यफल एआई हाथ! 🔮🤖`,
+        subtitle: `AstroTalk AI और Kundli GPT भारत में बदल रहे हैं राशिफल और जन्मकुंडली देखने का तरीका।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai_astrology_apps.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-kpmg-claude-global-deployment-2026-05-28',
         title: `KPMG Claude: 2.7 लाख एआई साथी! 🤖💼`,
         subtitle: `KPMG ने 2,76,000 वैश्विक कर्मचारियों के लिए एंथ्रोपिक का क्लॉड एआई तैनात किया।`,
