@@ -46,9 +46,7 @@ const NAV_CATEGORIES: NavItem[] = [
     },
     { href: '/crypto',      label: 'Crypto',        emoji: '💰', color: 'from-yellow-500 to-amber-400' },
     { href: '/top-deals',   label: 'Top Deals',     emoji: '🛒', color: 'from-pink-500 to-rose-500' },
-    { href: '/software',    label: 'Updates',       emoji: '🔄', color: 'from-cyan-500 to-blue-500' },
-    { href: '/daily-hints', label: 'Daily Hints',   emoji: '🧩', color: 'from-yellow-500 to-green-500' },
-    { href: '/dictionary',  label: 'Dictionary',    emoji: '📖', color: 'from-teal-400 to-cyan-500' },
+    { href: '/software',    label: 'Updates',       emoji: '🔄', color: 'from-cyan-500 to-blue-500' }
 ];
 
 // Mobile uses flat list
@@ -66,9 +64,7 @@ const MOBILE_LINKS = [
     { href: '/compare',     label: 'Compare',       emoji: '⚖️' },
     { href: '/crypto',      label: 'Crypto',        emoji: '💰' },
     { href: '/top-deals',   label: 'Top Deals',     emoji: '🛒' },
-    { href: '/software',    label: 'Updates',       emoji: '🔄' },
-    { href: '/daily-hints', label: 'Daily Hints',   emoji: '🧩' },
-    { href: '/dictionary',  label: 'Dictionary',    emoji: '📖' },
+    { href: '/software',    label: 'Updates',       emoji: '🔄' }
 ];
 
 export default function Navbar() {
