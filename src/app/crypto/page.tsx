@@ -7,6 +7,20 @@ export const metadata = {
     title: 'Crypto News | AITechNews',
     description: 'Bitcoin, Ethereum, Solana aur crypto market ki taaza khabren aur analysis — Hindi mein!',
     alternates: { canonical: '/crypto' },
+    openGraph: {
+        title: 'Crypto News | AITechNews',
+        description: 'Bitcoin, Ethereum, Solana aur crypto market ki taaza khabren aur analysis — Hindi mein!',
+        url: 'https://aitechnews.co.in/crypto',
+        siteName: 'AITechNews',
+        images: [{ url: '/logo.png', width: 512, height: 512 }],
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Crypto News | AITechNews',
+        description: 'Bitcoin, Ethereum, Solana aur crypto market ki taaza khabren aur analysis — Hindi mein!',
+        images: ['/logo.png'],
+    }
 };
 
 export default function CryptoNewsPage() {

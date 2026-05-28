@@ -39,3 +39,14 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Temporary helper scripts and test assets
+/*.py
+/*.js
+/*.bat
+/*.ps1
+/*.jpg
+/run_logs.txt
+/twitter_test_result.txt
+/trigger_twitter_test.txt
+/tmp/

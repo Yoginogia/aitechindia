@@ -16,6 +16,20 @@ export const metadata = {
     title: 'Gadgets & EVs | AITechNews',
     description: 'AITechNews par latest smartphones, laptops, aur Electric Vehicles (EVs) ki reviews aur updates.',
     alternates: { canonical: '/gadgets' },
+    openGraph: {
+        title: 'Gadgets & EVs | AITechNews',
+        description: 'AITechNews par latest smartphones, laptops, aur Electric Vehicles (EVs) ki reviews aur updates.',
+        url: 'https://aitechnews.co.in/gadgets',
+        siteName: 'AITechNews',
+        images: [{ url: '/logo.png', width: 512, height: 512 }],
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Gadgets & EVs | AITechNews',
+        description: 'AITechNews par latest smartphones, laptops, aur Electric Vehicles (EVs) ki reviews aur updates.',
+        images: ['/logo.png'],
+    }
 };
 
 export default function GadgetsPage() {

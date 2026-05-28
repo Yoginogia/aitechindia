@@ -5,6 +5,7 @@ import { STORIES } from '@/data/stories';
 export const metadata: Metadata = {
     title: 'Google Web Stories | AITechNews',
     description: 'AITechNews ke Google Web Stories — Top AI aur Tech news aaj ki, quick swipeable format mein. Google Discover par bhi available!',
+    alternates: { canonical: '/web-stories' },
 };
 
 export default function WebStoriesGallery() {

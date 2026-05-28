@@ -44,6 +44,16 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   alternates: {
     canonical: '/',
+    languages: {
+      'hi-IN': '/',
+      'en-IN': '/',
+    },
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: "AITechNews | AI & Tech News",
+    description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
+    images: ['/logo.png'],
   },
   other: {
     'google-news-publication': 'AITechNews',

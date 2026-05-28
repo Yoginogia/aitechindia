@@ -246,7 +246,8 @@ export default function Navbar() {
                         <span className="font-bold text-base gradient-text">AITechNews</span>
                     </div>
                     <button onClick={() => setIsMobileOpen(false)}
-                        className="p-2 rounded-full hover:bg-secondary/60 text-foreground/70 transition-all">
+                        className="p-2 rounded-full hover:bg-secondary/60 text-foreground/70 transition-all"
+                        aria-label="Close mobile menu">
                         <X className="h-5 w-5" />
                     </button>
                 </div>

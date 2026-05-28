@@ -49,6 +49,20 @@ export default function CompressPDFPage() {
     }, 150);
   };
 
+  const downloadCompressedFile = () => {
+    if (!file) return;
+    const url = URL.createObjectURL(file);
+    const a = document.createElement('a');
+    a.href = url;
+    const lastDotIndex = file.name.lastIndexOf('.');
+    const baseName = lastDotIndex !== -1 ? file.name.substring(0, lastDotIndex) : file.name;
+    a.download = `${baseName}_compressed.pdf`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
+
   const formatSize = (bytes: number) => {
     if (bytes === 0) return '0 Bytes';
     const k = 1024;
@@ -174,8 +188,11 @@ export default function CompressPDFPage() {
                      <p className="text-sm font-bold uppercase tracking-wider text-emerald-500/80">90% Size Kam Ho Gayi! 🏎️</p>
                   </div>
 
-                  <div className="flex flex-col md:flex-row gap-4">
-                     <button className="flex-1 bg-white text-black font-black text-xl py-6 rounded-2xl flex items-center justify-center gap-3 hover:-translate-y-1 transition-transform shadow-xl uppercase">
+                   <div className="flex flex-col md:flex-row gap-4">
+                     <button 
+                        onClick={downloadCompressedFile}
+                        className="flex-1 bg-white text-black font-black text-xl py-6 rounded-2xl flex items-center justify-center gap-3 hover:-translate-y-1 transition-transform shadow-xl uppercase"
+                     >
                         <Download className="h-6 w-6" />
                         Download PDF
                      </button>

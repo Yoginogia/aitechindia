@@ -69,7 +69,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                         value={query}
                         onChange={(e) => setQuery(e.target.value)}
                     />
-                    <button onClick={onClose} className="p-2 hover:bg-secondary rounded-full transition-colors text-muted-foreground hover:text-foreground">
+                    <button onClick={onClose} className="p-2 hover:bg-secondary rounded-full transition-colors text-muted-foreground hover:text-foreground" aria-label="Close search overlay">
                         <X className="h-5 w-5" />
                     </button>
                 </div>
@@ -93,7 +93,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                                     className="flex items-start gap-4 p-4 hover:bg-secondary/50 transition-colors group border-b border-border/30 last:border-0"
                                 >
                                      {post.image ? (
-                                        <img src={post.image} alt="" className="w-16 h-16 rounded-lg object-cover flex-shrink-0 border border-border/30" />
+                                        <img src={post.image} alt={post.title} className="w-16 h-16 rounded-lg object-cover flex-shrink-0 border border-border/30" />
                                      ) : (
                                         <div className="w-16 h-16 rounded-lg bg-secondary flex-shrink-0 border border-border/30 flex items-center justify-center text-xs text-muted-foreground">
                                             No Img

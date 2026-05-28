@@ -15,7 +15,10 @@ export function ThemeToggle() {
 
     if (!mounted) {
         return (
-            <button className="p-2 -mr-2 text-foreground/70 hover:text-foreground md:mr-0 md:bg-secondary/50 md:hover:bg-secondary md:border md:border-border/50 md:hover:border-primary/30 md:transition-all md:rounded-full flex items-center justify-center h-9 w-9 md:h-8 md:w-8">
+            <button 
+                className="p-2 -mr-2 text-foreground/70 hover:text-foreground md:mr-0 md:bg-secondary/50 md:hover:bg-secondary md:border md:border-border/50 md:hover:border-primary/30 md:transition-all md:rounded-full flex items-center justify-center h-9 w-9 md:h-8 md:w-8"
+                aria-label="Toggle theme"
+            >
                 <span className="w-4 h-4 bg-muted rounded-full animate-pulse"></span>
             </button>
         );

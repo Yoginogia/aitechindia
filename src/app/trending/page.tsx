@@ -22,6 +22,15 @@ export const metadata = {
         title: 'Trending Tech News & Topics | AITechNews',
         description: 'भारत में आज के सबसे लोकप्रिय Google Trends और टेक टॉपिक्स — AI, गैजेट्स, और सॉफ्टवेयर अपडेट्स की हर खबर पर टेक-नज़रिया।',
         url: 'https://aitechnews.co.in/trending',
+        siteName: 'AITechNews',
+        images: [{ url: '/logo.png', width: 512, height: 512 }],
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Trending Tech News & Topics | AITechNews',
+        description: 'भारत में आज के सबसे लोकप्रिय Google Trends और टेक टॉपिक्स — AI, गैजेट्स, और सॉफ्टवेयर अपडेट्स की हर खबर पर टेक-नज़रिया।',
+        images: ['/logo.png'],
     }
 };
 

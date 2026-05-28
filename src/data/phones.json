@@ -1,0 +1,1217 @@
+[
+  {
+    "id": "redmi-14c",
+    "name": "Redmi 14C",
+    "brand": "Xiaomi",
+    "price": 9499,
+    "priceDisplay": "₹9,499",
+    "score": 8.2,
+    "badge": "Best Under 10K",
+    "image": "/images/phones/redmi-14c.jpg",
+    "specs": {
+      "processor": "Helio G85",
+      "ram": "4GB/6GB",
+      "display": "6.88\" HD+ 90Hz",
+      "camera": "50MP",
+      "battery": "5160mAh",
+      "charging": "18W",
+      "os": "HyperOS (Android 14)"
+    },
+    "highlights": [
+      "50MP Camera at ₹9.5K",
+      "5160mAh Long Battery",
+      "128GB/256GB Storage",
+      "90Hz Smooth Display"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Redmi+14C&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Redmi+14C",
+    "pros": [
+      "₹10K के अंदर 50MP कैमरा मिलना बहुत बड़ी बात",
+      "बैटरी बैकअप शानदार है (2 दिन Easy)",
+      "Storage 256GB तक मिलता है"
+    ],
+    "cons": [
+      "Processor थोड़ा पुराना लगता है",
+      "HD+ display है, FHD नहीं"
+    ],
+    "verdict": "₹10,000 से कम में Redmi 14C सबसे balanced phone है। Camera और Battery दोनों solid हैं।",
+    "useCases": [
+      "All-Rounder",
+      "Battery"
+    ]
+  },
+  {
+    "id": "realme-c61",
+    "name": "Realme C61",
+    "brand": "Realme",
+    "price": 8999,
+    "priceDisplay": "₹8,999",
+    "score": 7.8,
+    "badge": "Fastest Charging",
+    "image": "/images/phones/realme-c61.jpg",
+    "specs": {
+      "processor": "Unisoc T612",
+      "ram": "4GB/6GB",
+      "display": "6.74\" HD+ 90Hz",
+      "camera": "32MP",
+      "battery": "5000mAh",
+      "charging": "33W SuperVOOC",
+      "os": "Realme UI"
+    },
+    "highlights": [
+      "33W Fast Charging under ₹9K",
+      "Clean Realme UI",
+      "Bright Display Outdoors",
+      "Light & Slim Design"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Realme+C61&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Realme+C61",
+    "pros": [
+      "₹9K में 33W फ़ास्ट चार्जिंग मिलना Rare है",
+      "डिज़ाइन स्लिम और लाइटवेट है",
+      "Clean UI बिना ज़्यादा Bloatware"
+    ],
+    "cons": [
+      "Unisoc प्रोसेसर heavy games नहीं चला पाएगा",
+      "कैमरा 32MP है, 50MP नहीं"
+    ],
+    "verdict": "Fast Charging पसंद है तो Realme C61 इस बजट में सबसे अच्छा ऑप्शन है।",
+    "useCases": [
+      "Battery"
+    ]
+  },
+  {
+    "id": "samsung-a06",
+    "name": "Samsung Galaxy A06",
+    "brand": "Samsung",
+    "price": 9999,
+    "priceDisplay": "₹9,999",
+    "score": 7.6,
+    "badge": "Best Brand Trust",
+    "image": "/images/phones/samsung-a06.jpg",
+    "specs": {
+      "processor": "Exynos 850",
+      "ram": "4GB/6GB",
+      "display": "6.7\" LCD 90Hz",
+      "camera": "50MP + 2MP",
+      "battery": "5000mAh",
+      "charging": "25W",
+      "os": "One UI 6 Core"
+    },
+    "highlights": [
+      "Samsung Brand Reliability",
+      "25W Charging at ₹10K",
+      "50MP Camera",
+      "Best After-Sales Service"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Samsung+Galaxy+A06&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Samsung+Galaxy+A06",
+    "pros": [
+      "Samsung का ब्रांड ट्रस्ट और After-sales सर्विस",
+      "25W चार्जिंग इस रेंज में अच्छी है",
+      "One UI Core काफी स्मूथ है"
+    ],
+    "cons": [
+      "Exynos 850 चिप काफी पुरानी है",
+      "Display brightness कम है"
+    ],
+    "verdict": "अगर Brand Trust और Service Center Network priority है, तो Samsung A06 सेफ़ चॉइस है।",
+    "useCases": [
+      "Trust & Brand"
+    ]
+  },
+  {
+    "id": "realme-narzo-70-pro",
+    "name": "Realme Narzo 70 Pro 5G",
+    "brand": "Realme",
+    "price": 14499,
+    "priceDisplay": "₹14,499",
+    "score": 8.9,
+    "badge": "⭐ Best Under 15K",
+    "image": "/images/phones/realme-narzo-70-pro.jpg",
+    "specs": {
+      "processor": "Dimensity 7050 5G",
+      "ram": "8GB",
+      "display": "6.67\" AMOLED 120Hz",
+      "camera": "50MP Sony OIS",
+      "battery": "5000mAh",
+      "charging": "67W SuperVOOC",
+      "os": "Realme UI 5"
+    },
+    "highlights": [
+      "67W Charging under ₹15K!",
+      "5G Future-Proof",
+      "AMOLED 120Hz Display",
+      "Sony OIS Camera"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Realme+Narzo+70+Pro+5G&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Realme+Narzo+70+Pro+5G",
+    "pros": [
+      "67W चार्जिंग ₹15K में Unbeatable है",
+      "AMOLED 120Hz डिस्प्ले colors बेहतरीन",
+      "5G Support से Future-proof है"
+    ],
+    "cons": [
+      "HyperOS में कुछ Ads आ सकते हैं",
+      "Ultrawide कैमरा नहीं है"
+    ],
+    "verdict": "₹15K के अंदर Narzo 70 Pro 5G overall best phone है — Charging, Display, और 5G तीनों मिलते हैं।",
+    "useCases": [
+      "All-Rounder",
+      "Battery"
+    ]
+  },
+  {
+    "id": "redmi-note-14",
+    "name": "Redmi Note 14",
+    "brand": "Xiaomi",
+    "price": 14999,
+    "priceDisplay": "₹14,999",
+    "score": 8.7,
+    "badge": "Best Camera",
+    "image": "/images/phones/redmi-note-14.jpg",
+    "specs": {
+      "processor": "Dimensity 7025",
+      "ram": "6GB/8GB",
+      "display": "6.67\" AMOLED 120Hz 2100nits",
+      "camera": "108MP + 8MP",
+      "battery": "5500mAh",
+      "charging": "33W Turbo",
+      "os": "HyperOS"
+    },
+    "highlights": [
+      "108MP Highest Resolution",
+      "IP64 Water Resistant",
+      "2100 nits Bright AMOLED",
+      "5500mAh Battery"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Redmi+Note+14&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Redmi+Note+14",
+    "pros": [
+      "108MP कैमरा इस प्राइस में सबसे ज़्यादा Resolution",
+      "IP64 Splash Proof बारिश में भी Safe",
+      "2100 nits धूप में भी साफ दिखता है"
+    ],
+    "cons": [
+      "33W चार्जिंग Competitors से Slow है",
+      "HyperOS में प्री-इंस्टॉल्ड Ads आते हैं"
+    ],
+    "verdict": "Camera Aur Display priority hai toh Redmi Note 14 best hai. Bas Fast Charging thodi kam hai.",
+    "useCases": [
+      "Camera",
+      "Display"
+    ]
+  },
+  {
+    "id": "samsung-m15-5g",
+    "name": "Samsung Galaxy M15 5G",
+    "brand": "Samsung",
+    "price": 13999,
+    "priceDisplay": "₹13,999",
+    "score": 8.3,
+    "badge": "6yr Updates",
+    "image": "/images/phones/samsung-m15-5g.jpg",
+    "specs": {
+      "processor": "Dimensity 6100+ 5G",
+      "ram": "4GB/6GB",
+      "display": "6.5\" Super AMOLED 90Hz",
+      "camera": "50MP + 5MP + 2MP",
+      "battery": "6000mAh",
+      "charging": "25W",
+      "os": "One UI 6 (6yr updates)"
+    },
+    "highlights": [
+      "6 Years OS Updates!",
+      "6000mAh Largest Battery",
+      "5G Network Ready",
+      "Samsung Super AMOLED"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Samsung+Galaxy+M15+5G&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Samsung+Galaxy+M15+5G",
+    "pros": [
+      "6000mAh बैटरी — इस रेंज में सबसे ज़्यादा",
+      "6 साल OS Updates की गारंटी",
+      "Samsung Super AMOLED बेहतरीन"
+    ],
+    "cons": [
+      "25W चार्जिंग 6000mAh बैटरी को चार्ज करने में समय लगेगा",
+      "प्रोसेसर Gaming के लिए कमज़ोर"
+    ],
+    "verdict": "लॉन्ग-टर्म यूज़ और बेस्ट बैटरी के लिए — Samsung M15 5G बेमिसाल है।",
+    "useCases": [
+      "Battery",
+      "Long-term"
+    ]
+  },
+  {
+    "id": "iqoo-z9x",
+    "name": "iQOO Z9x",
+    "brand": "iQOO",
+    "price": 13999,
+    "priceDisplay": "₹13,999",
+    "score": 8.1,
+    "badge": "Best Gaming",
+    "image": "/images/phones/iqoo-z9x.jpg",
+    "specs": {
+      "processor": "Snapdragon 6 Gen 1",
+      "ram": "4GB/6GB",
+      "display": "6.72\" LCD 120Hz",
+      "camera": "50MP Sony",
+      "battery": "6000mAh",
+      "charging": "44W FlashCharge",
+      "os": "FunTouchOS 14"
+    },
+    "highlights": [
+      "Snapdragon 6 Gen 1 Gaming",
+      "44W Fast Charging",
+      "6000mAh Huge Battery",
+      "V2e Gaming Chip"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=iQOO+Z9x&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=iQOO+Z9x",
+    "pros": [
+      "Snapdragon 6 Gen 1 — Budget Gaming King",
+      "6000mAh बैटरी + 44W चार्जिंग कॉम्बो",
+      "V2e चिप से Gaming smooth होती है"
+    ],
+    "cons": [
+      "LCD Display है, AMOLED नहीं",
+      "FunTouchOS में Bloatware ज़्यादा है"
+    ],
+    "verdict": "Budget में BGMI और Free Fire खेलना है? iQOO Z9x से बेहतर कोई ऑप्शन नहीं।",
+    "useCases": [
+      "Gaming",
+      "Battery"
+    ]
+  },
+  {
+    "id": "poco-x7-neo",
+    "name": "POCO X7 Neo 5G",
+    "brand": "POCO",
+    "price": 14499,
+    "priceDisplay": "₹14,499",
+    "score": 8.5,
+    "badge": "Budget Gaming Best",
+    "image": "/images/phones/poco-x7-neo.jpg",
+    "specs": {
+      "processor": "Dimensity 7050",
+      "ram": "8GB",
+      "display": "6.67\" FHD+ AMOLED 120Hz",
+      "camera": "50MP OIS",
+      "battery": "5000mAh",
+      "charging": "33W Fast",
+      "os": "HyperOS"
+    },
+    "highlights": [
+      "Dimensity 7050 Gaming",
+      "120Hz Fast AMOLED",
+      "50MP OIS Camera",
+      "Stereo Speakers"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Poco+X7+Neo&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Poco+X7+Neo",
+    "pros": [
+      "₹15K में AMOLED + 120Hz बहुत रेयर है",
+      "Dimensity 7050 से BGMI में Lag नहीं होता",
+      "OIS Camera होने से stable video आती है"
+    ],
+    "cons": [
+      "डिज़ाइन थोड़ा बेसिक है",
+      "HyperOS प्री-एप्प्स के साथ आता है"
+    ],
+    "verdict": "अगर अंडर 15K में शुद्ध गेमिंग और शानदार स्क्रीन चाहिए, तो POCO X7 Neo 5G से बेहतर फिलहाल कुछ नहीं।",
+    "useCases": [
+      "Gaming",
+      "Display"
+    ]
+  },
+  {
+    "id": "cmf-phone-2a",
+    "name": "CMF Phone (2a)",
+    "brand": "Nothing",
+    "price": 14999,
+    "priceDisplay": "₹14,999",
+    "score": 8.4,
+    "badge": "No Ads UI",
+    "image": "/images/phones/cmf-phone-2a.jpg",
+    "specs": {
+      "processor": "Dimensity 7020",
+      "ram": "6GB/8GB",
+      "display": "6.7\" OLED 120Hz",
+      "camera": "50MP + 8MP",
+      "battery": "5000mAh",
+      "charging": "33W",
+      "os": "Nothing OS 3.0"
+    },
+    "highlights": [
+      "Nothing OS Clean UI",
+      "Interchangeable Back Case",
+      "No Ads or Bloatware",
+      "50MP Dual Camera"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=CMF+Phone+2a&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=CMF+Phone+2a",
+    "pros": [
+      "Nothing OS 3.0 जीरो ऐड्स और ब्लोटवेयर के साथ",
+      "पीछे के कवर बदलने वाला यूनीक डिज़ाइन",
+      "काफी हल्का (Lightweight) और हैंडी है"
+    ],
+    "cons": [
+      "बॉक्स में चार्जर नहीं मिलता है",
+      "प्रोसेसर हैवी गेमिंग के लिए नहीं है"
+    ],
+    "verdict": "अगर बजट 15 हज़ार है और आपको iPhone जैसी क्लीन सॉफ्टवेयर फील चाहिए, तो ये फोन ले लें।",
+    "useCases": [
+      "Clean Software",
+      "Design"
+    ]
+  },
+  {
+    "id": "oneplus-nord-5",
+    "name": "OnePlus Nord 5",
+    "brand": "OnePlus",
+    "price": 24999,
+    "priceDisplay": "₹24,999",
+    "score": 8.0,
+    "badge": "Clean Software",
+    "image": "/images/phones/oneplus-nord-5.jpg",
+    "specs": {
+      "processor": "Snapdragon 7s Gen 3",
+      "ram": "8GB/12GB",
+      "display": "6.67\" AMOLED 120Hz",
+      "camera": "50MP OIS",
+      "battery": "5500mAh",
+      "charging": "80W",
+      "os": "OxygenOS 15"
+    },
+    "highlights": [
+      "OxygenOS — No Bloatware",
+      "80W SuperVOOC",
+      "4 Year Updates",
+      "Premium Design"
+    ],
+    "category": "midrange",
+    "amazon": "https://www.amazon.in/s?k=OnePlus+Nord+5&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=OnePlus+Nord+5",
+    "pros": [
+      "OxygenOS सबसे Clean Android Experience देता है",
+      "80W चार्जिंग — 30 मिनट में Full",
+      "प्रीमियम Glass-Metal डिज़ाइन"
+    ],
+    "cons": [
+      "Ultrawide Camera Missing है",
+      "IP Rating सिर्फ Splash Proof है"
+    ],
+    "verdict": "Clean software और fast charging चाहिए तो OnePlus Nord 5 ₹25K में बेस्ट पिक है।",
+    "useCases": [
+      "Clean Software",
+      "All-Rounder"
+    ]
+  },
+  {
+    "id": "redmi-note-15-pro",
+    "name": "Redmi Note 15 Pro",
+    "brand": "Xiaomi",
+    "price": 22999,
+    "priceDisplay": "₹22,999",
+    "score": 7.8,
+    "badge": "Budget Camera King",
+    "image": "/images/phones/redmi-note-15-pro.jpg",
+    "specs": {
+      "processor": "Dimensity 7300",
+      "ram": "8GB/12GB",
+      "display": "6.67\" AMOLED 120Hz",
+      "camera": "200MP OIS",
+      "battery": "5500mAh",
+      "charging": "90W HyperCharge",
+      "os": "HyperOS"
+    },
+    "highlights": [
+      "200MP Camera Under ₹23K",
+      "90W Fast Charging",
+      "Bright AMOLED Display",
+      "IP64 Splash Proof"
+    ],
+    "category": "midrange",
+    "amazon": "https://www.amazon.in/s?k=Redmi+Note+15+Pro&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Redmi+Note+15+Pro",
+    "pros": [
+      "200MP Camera ₹23K में — Unreal Value",
+      "90W HyperCharge बहुत तेज़ है",
+      "AMOLED Display Colors शानदार हैं"
+    ],
+    "cons": [
+      "Dimensity 7300 heavy gaming में गर्म होता है",
+      "HyperOS में Ads आते हैं"
+    ],
+    "verdict": "फोटोग्राफी पसंद है? ₹25K से कम में 200MP Camera सिर्फ Redmi Note 15 Pro में मिलेगा।",
+    "useCases": [
+      "Camera"
+    ]
+  },
+  {
+    "id": "iqoo-neo-10",
+    "name": "iQOO Neo 10",
+    "brand": "iQOO",
+    "price": 29999,
+    "priceDisplay": "₹29,999",
+    "score": 9.1,
+    "badge": "Best Value",
+    "image": "/images/phones/iqoo-neo-10.jpg",
+    "specs": {
+      "processor": "Snapdragon 8 Gen 3",
+      "ram": "8GB/12GB",
+      "display": "6.78\" AMOLED 144Hz",
+      "camera": "50MP Sony",
+      "battery": "6400mAh",
+      "charging": "120W",
+      "os": "Android 15"
+    },
+    "highlights": [
+      "SD 8 Gen 3 under ₹30K",
+      "120W Ultra Fast Charging",
+      "6400mAh Battery",
+      "144Hz AMOLED"
+    ],
+    "category": "midrange",
+    "amazon": "https://www.amazon.in/s?k=iQOO+Neo+10&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=iQOO+Neo+10",
+    "pros": [
+      "Snapdragon 8 Gen 3 ₹30K में — बेहतरीन Value",
+      "120W चार्जिंग — 15 मिनट में 50%",
+      "144Hz AMOLED Smoothness का बाप"
+    ],
+    "cons": [
+      "FunTouchOS में Bloatware है",
+      "Camera Average है इस Price में"
+    ],
+    "verdict": "Performance और Charging Speed चाहिए तो ₹30K में iQOO Neo 10 का कोई तोड़ नहीं।",
+    "useCases": [
+      "Gaming",
+      "Battery"
+    ]
+  },
+  {
+    "id": "motorola-edge-60-pro",
+    "name": "Motorola Edge 60 Pro",
+    "brand": "Motorola",
+    "price": 27999,
+    "priceDisplay": "₹27,999",
+    "score": 8.1,
+    "badge": "Best Display",
+    "image": "/images/phones/motorola-edge-60-pro.jpg",
+    "specs": {
+      "processor": "Dimensity 8350",
+      "ram": "12GB",
+      "display": "6.7\" pOLED 144Hz",
+      "camera": "50MP+50MP+10MP",
+      "battery": "5000mAh",
+      "charging": "68W",
+      "os": "Hello UI"
+    },
+    "highlights": [
+      "144Hz Curved pOLED",
+      "Triple 50MP Cameras",
+      "IP69 Waterproof",
+      "Near-Stock Android"
+    ],
+    "category": "midrange",
+    "amazon": "https://www.amazon.in/s?k=Motorola+Edge+60+Pro&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Motorola+Edge+60+Pro",
+    "pros": [
+      "144Hz Curved pOLED Display — Immersive Experience",
+      "Triple 50MP Camera System बहुत Sharp",
+      "Near-Stock Android — Clean और Fast"
+    ],
+    "cons": [
+      "Dimensity 8350 Flagship Chip नहीं है",
+      "Wireless चार्जिंग नहीं है"
+    ],
+    "verdict": "Display और Clean Software Priority है? Motorola Edge 60 Pro ₹30K में Hidden Gem है।",
+    "useCases": [
+      "Display",
+      "Clean Software"
+    ]
+  },
+  {
+    "id": "samsung-a56",
+    "name": "Samsung Galaxy A56 5G",
+    "brand": "Samsung",
+    "price": 27999,
+    "priceDisplay": "₹27,999",
+    "score": 7.9,
+    "badge": "Long-Term Pick",
+    "image": "/images/phones/samsung-a56.jpg",
+    "specs": {
+      "processor": "Exynos 1580",
+      "ram": "8GB/12GB",
+      "display": "6.7\" Super AMOLED 120Hz",
+      "camera": "50MP OIS + 12MP",
+      "battery": "5000mAh",
+      "charging": "45W",
+      "os": "One UI 7"
+    },
+    "highlights": [
+      "6 Years OS Updates!",
+      "MicroSD Card Support",
+      "IP67 Water Resistant",
+      "Samsung Brand Trust"
+    ],
+    "category": "midrange",
+    "amazon": "https://www.amazon.in/s?k=Samsung+Galaxy+A56+5G&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Samsung+Galaxy+A56+5G",
+    "pros": [
+      "6 साल OS Updates — लॉन्ग-टर्म में सबसे Safe",
+      "IP67 Waterproof — बारिश में Tension Free",
+      "MicroSD Support अभी भी है"
+    ],
+    "cons": [
+      "Exynos 1580 Mid-range Chip है",
+      "45W चार्जिंग Competitors से धीमी"
+    ],
+    "verdict": "Samsung Brand Trust + 6 Year Updates + IP67 चाहिए? A56 5G से बढ़िया Safe Bet नहीं मिलेगा।",
+    "useCases": [
+      "Long-term",
+      "Trust & Brand"
+    ]
+  },
+  {
+    "id": "realme-gt-7-pro",
+    "name": "Realme GT 7 Pro",
+    "brand": "Realme",
+    "price": 44999,
+    "priceDisplay": "₹44,999",
+    "score": 9.0,
+    "badge": "Performance King",
+    "image": "/images/phones/realme-gt-7-pro.jpg",
+    "specs": {
+      "processor": "Snapdragon 8 Elite",
+      "ram": "12GB/16GB",
+      "display": "6.78\" AMOLED 120Hz",
+      "camera": "50MP Sony LYT-808",
+      "battery": "6500mAh",
+      "charging": "120W+50W Wireless",
+      "os": "Realme UI 6"
+    },
+    "highlights": [
+      "Snapdragon 8 Elite Chip!",
+      "120W+50W Wireless",
+      "IP69 Military Grade",
+      "6500mAh Giant Battery"
+    ],
+    "category": "premium",
+    "amazon": "https://www.amazon.in/s?k=Realme+GT+7+Pro&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Realme+GT+7+Pro",
+    "pros": [
+      "Snapdragon 8 Elite ₹45K में — Flagship Performance",
+      "120W Wired + 50W Wireless चार्जिंग",
+      "IP69 Military-grade Durability"
+    ],
+    "cons": [
+      "Realme UI में Bloatware ज़्यादा है",
+      "Camera Premium Flagships से पीछे है"
+    ],
+    "verdict": "Raw Performance और Durability चाहिए? Realme GT 7 Pro पैसा वसूल है।",
+    "useCases": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "oneplus-15r",
+    "name": "OnePlus 15R",
+    "brand": "OnePlus",
+    "price": 42999,
+    "priceDisplay": "₹42,999",
+    "score": 8.8,
+    "badge": "Best Battery",
+    "image": "/images/phones/oneplus-15r.jpg",
+    "specs": {
+      "processor": "Snapdragon 8s Gen 4",
+      "ram": "12GB",
+      "display": "6.7\" BOE AMOLED 120Hz",
+      "camera": "50MP Triple",
+      "battery": "7400mAh",
+      "charging": "80W SuperVOOC",
+      "os": "OxygenOS 15"
+    },
+    "highlights": [
+      "7400mAh — India's Best Battery",
+      "80W Fast Charging",
+      "OxygenOS — No Bloatware",
+      "Excellent Thermals"
+    ],
+    "category": "premium",
+    "amazon": "https://www.amazon.in/s?k=OnePlus+15R&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=OnePlus+15R",
+    "pros": [
+      "7400mAh — India का सबसे बड़ा Battery वाला Phone",
+      "OxygenOS Clean और Ad-free है",
+      "Thermal Management Excellent है"
+    ],
+    "cons": [
+      "Secondary Cameras Average हैं",
+      "Full Flagship Chip इसमें नहीं है"
+    ],
+    "verdict": "Travel karte ho aur battery jaldi khatme ho jati hai? OnePlus 15R le lo, 2 din chalega.",
+    "useCases": [
+      "Battery",
+      "Clean Software"
+    ]
+  },
+  {
+    "id": "iqoo-15r",
+    "name": "iQOO 15R",
+    "brand": "iQOO",
+    "price": 38999,
+    "priceDisplay": "₹38,999",
+    "score": 8.7,
+    "badge": "Best Gaming",
+    "image": "/images/phones/iqoo-15r.jpg",
+    "specs": {
+      "processor": "Snapdragon 8 Gen 4",
+      "ram": "8GB/12GB",
+      "display": "6.77\" AMOLED 144Hz",
+      "camera": "50MP Sony IMX882",
+      "battery": "6400mAh",
+      "charging": "120W FlashCharge",
+      "os": "FunTouchOS 15"
+    },
+    "highlights": [
+      "SD 8 Gen 4 Gaming Beast",
+      "120W Lightning Charging",
+      "144Hz Gaming Display",
+      "6-Layer Vapor Cooling"
+    ],
+    "category": "premium",
+    "amazon": "https://www.amazon.in/s?k=iQOO+15R&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=iQOO+15R",
+    "pros": [
+      "SD 8 Gen 4 + 120W = Gaming का Ultimate Combo",
+      "144Hz Display Gaming के लिए Perfect",
+      "6-Layer Vapor Cooling कभी गर्म नहीं होने देता"
+    ],
+    "cons": [
+      "कैमरा सिर्फ Average है",
+      "FunTouchOS Bloatware भरा है"
+    ],
+    "verdict": "BGMI/GTA sab Max Settings par khelna hai? iQOO 15R gamers ka Dream Phone hai.",
+    "useCases": [
+      "Gaming"
+    ]
+  },
+  {
+    "id": "nothing-4a-pro",
+    "name": "Nothing Phone (4a) Pro",
+    "brand": "Nothing",
+    "price": 41999,
+    "priceDisplay": "₹41,999",
+    "score": 8.3,
+    "badge": "Best Design",
+    "image": "/images/phones/nothing-4a-pro.jpg",
+    "specs": {
+      "processor": "Snapdragon 7s Gen 3",
+      "ram": "12GB",
+      "display": "6.67\" AMOLED 120Hz",
+      "camera": "50MP + 50MP Telephoto",
+      "battery": "5200mAh",
+      "charging": "65W",
+      "os": "Nothing OS 3.5"
+    },
+    "highlights": [
+      "Glyph Bar LED Unique",
+      "50MP Telephoto Camera",
+      "Nothing OS Clean & Fast",
+      "Transparent Design Icon"
+    ],
+    "category": "premium",
+    "amazon": "https://www.amazon.in/s?k=Nothing+Phone+4a+Pro&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Nothing+Phone+4a+Pro",
+    "pros": [
+      "Glyph Bar LED पूरी इंडस्ट्री में Unique है",
+      "Nothing OS बहुत Clean और Fast है",
+      "Transparent Design देखने में Premium लगता है"
+    ],
+    "cons": [
+      "Processor Mid-range है (7s Gen 3)",
+      "65W चार्जिंग Competitors से कम है"
+    ],
+    "verdict": "Design और Unique Look चाहिए? Nothing Phone (4a) Pro से Stylish कोई Phone नहीं है.",
+    "useCases": [
+      "Design",
+      "Clean Software"
+    ]
+  },
+  {
+    "id": "vivo-v50-pro",
+    "name": "Vivo V50 Pro",
+    "brand": "Vivo",
+    "price": 39999,
+    "priceDisplay": "₹39,999",
+    "score": 8.8,
+    "badge": "Portrait King",
+    "image": "/images/phones/vivo-v50-pro.jpg",
+    "specs": {
+      "processor": "Dimensity 8250",
+      "ram": "8GB/12GB",
+      "display": "6.78\" Curved AMOLED 120Hz",
+      "camera": "50MP Zeiss + 50MP UW",
+      "battery": "5500mAh",
+      "charging": "80W FlashCharge",
+      "os": "Funtouch OS 15"
+    },
+    "highlights": [
+      "Zeiss Portrait Camera",
+      "Aura Light 3.0",
+      "Curved Super Thin Design",
+      "50MP Eye AF Selfie"
+    ],
+    "category": "premium",
+    "amazon": "https://www.amazon.in/s?k=Vivo+V50+Pro&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Vivo+V50+Pro",
+    "pros": [
+      "Zeiss के पोर्ट्रेट मोड्स DSLR लेवल की ब्लरिंग देते हैं",
+      "डिज़ाइन बहुत पतला और प्रीमियम है",
+      "50MP का फ्रंट कैमरा व्लॉगिंग के लिए बेस्ट है"
+    ],
+    "cons": [
+      "मोनो स्पीकर (Mono speaker) है, स्टीरियो नहीं",
+      "सॉफ्टवेयर (Funtouch) अभी भी थोड़ा Cluttered है"
+    ],
+    "verdict": "अगर आपका मेन गोल Instagram Reels और Portrait Photos खींचना है, तो Vivo V50 Pro बेस्ट है।",
+    "useCases": [
+      "Camera",
+      "Design"
+    ]
+  },
+  {
+    "id": "ai-nova-flip",
+    "name": "AI+ Nova Flip 5G",
+    "brand": "Nothing",
+    "price": 59999,
+    "priceDisplay": "₹59,999",
+    "score": 9.2,
+    "badge": "Best Foldable",
+    "image": "/images/blog/ai-nova-flip-5g.png",
+    "specs": {
+      "processor": "Dimensity 8300 Ultra",
+      "ram": "8GB",
+      "display": "6.9\" LTPO AMOLED 144Hz + 3.4\" Cover",
+      "camera": "50MP OIS + 13MP UW",
+      "battery": "4300mAh",
+      "charging": "65W Fast",
+      "os": "Clean Android + AI Tools"
+    },
+    "highlights": [
+      "Premium Flip Design",
+      "50MP Main / Selfie Camera",
+      "Local AI Translation",
+      "Dual AMOLED Screens"
+    ],
+    "category": "premium",
+    "amazon": "https://www.amazon.in/s?k=Nova+Flip+5G&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Nova+Flip+5g",
+    "pros": [
+      "कवर स्क्रीन से ही 50MP सेल्फी ली जा सकती है",
+      "Samsung Z Flip के मुकाबले बहुत सस्ता",
+      "Live Call Translation जैसा AI फीचर इनबिल्ट है"
+    ],
+    "cons": [
+      "बैटरी 4300mAh है, नॉर्मल फोंस से कम है",
+      "प्रोसेसर मिड-रेंज है (Snapdragon 8 Gen 3 नहीं है)"
+    ],
+    "verdict": "60 हज़ार के बजट में यह सबसे कूल दिखने वाला AI Flip स्मार्टफोन है। (Highly Recommended)",
+    "useCases": [
+      "Design",
+      "Premium",
+      "Camera"
+    ]
+  },
+  {
+    "id": "oneplus-15",
+    "name": "OnePlus 15",
+    "brand": "OnePlus",
+    "price": 64999,
+    "priceDisplay": "₹64,999",
+    "score": 8.6,
+    "badge": "Flagship Killer",
+    "image": "/images/phones/oneplus-15.jpg",
+    "specs": {
+      "processor": "Snapdragon 8 Elite",
+      "ram": "12GB/16GB",
+      "display": "6.82\" BOE LTPO OLED",
+      "camera": "50MP Hasselblad",
+      "battery": "6100mAh",
+      "charging": "100W + 50W Wireless",
+      "os": "OxygenOS 15"
+    },
+    "highlights": [
+      "100W Fastest in Class",
+      "Hasselblad Camera Tuning",
+      "LTPO OLED Display",
+      "Clean OxygenOS"
+    ],
+    "category": "flagship",
+    "amazon": "https://www.amazon.in/s?k=OnePlus+15&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=OnePlus+15",
+    "pros": [
+      "100W चार्जिंग — 28 मिनट में Full Charge",
+      "Hasselblad Camera Tuning प्रीमियम Colors",
+      "OxygenOS सबसे Smooth Android Experience"
+    ],
+    "cons": [
+      "Samsung/Apple के मुकाबले Camera थोड़ा पीछे",
+      "Base Variant में Plastic Frame है"
+    ],
+    "verdict": "Flagship Experience चाहिए Samsung के Price बिना? OnePlus 15 Flagship Killer है।",
+    "useCases": [
+      "Camera",
+      "Charging"
+    ]
+  },
+  {
+    "id": "samsung-s26-ultra",
+    "name": "Samsung Galaxy S26 Ultra",
+    "brand": "Samsung",
+    "price": 129999,
+    "priceDisplay": "₹1,29,999",
+    "score": 9.0,
+    "badge": "Best Overall",
+    "image": "/images/phones/samsung-s26-ultra.jpg",
+    "specs": {
+      "processor": "Snapdragon 8 Elite Gen 5",
+      "ram": "12GB/16GB",
+      "display": "6.9\" AMOLED 120Hz",
+      "camera": "200MP AI Quad",
+      "battery": "5000mAh",
+      "charging": "60W + 25W Wireless",
+      "os": "Android 16 (7yr)"
+    },
+    "highlights": [
+      "200MP AI Camera",
+      "S Pen Included",
+      "Privacy Display",
+      "7 Years Updates"
+    ],
+    "category": "flagship",
+    "amazon": "https://www.amazon.in/s?k=Samsung+Galaxy+S26+Ultra&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Samsung+Galaxy+S26+Ultra",
+    "pros": [
+      "200MP AI Camera — Best in Android",
+      "S Pen Included — Note-taking King",
+      "7 साल Updates बेजोड़ Long-term Value"
+    ],
+    "cons": [
+      "बहुत भारी (228g) और Expensive है",
+      "60W चार्जिंग Rivals से Slow है"
+    ],
+    "verdict": "पैसा कोई issue नहीं है? Samsung Galaxy S26 Ultra 2026 का Ultimate Android King है।",
+    "useCases": [
+      "Camera",
+      "Premium"
+    ]
+  },
+  {
+    "id": "google-pixel-10",
+    "name": "Google Pixel 10",
+    "brand": "Google",
+    "price": 65999,
+    "priceDisplay": "₹65,999",
+    "score": 8.9,
+    "badge": "Best AI Camera",
+    "image": "/images/phones/pixel-10.jpg",
+    "specs": {
+      "processor": "Tensor G5",
+      "ram": "12GB",
+      "display": "6.3\" Actua OLED 120Hz",
+      "camera": "50MP + 48MP UW",
+      "battery": "4700mAh",
+      "charging": "45W",
+      "os": "Android 16 (7yr OS)"
+    },
+    "highlights": [
+      "Amazing Pixel Camera",
+      "Tensor G5 Performance",
+      "Gemini AI Integration",
+      "Compact 6.3\" Size"
+    ],
+    "category": "flagship",
+    "amazon": "https://www.amazon.in/s?k=Google+Pixel+10&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Google+Pixel+10",
+    "pros": [
+      "कैमरा क्वालिटी (खासकर Night Sight) अनबीटेबल है",
+      "स्टॉक एंड्राइड और 7 साल के अपडेट्स",
+      "जेमिनी AI फीचर्स सिस्टम में deeply integrated हैं"
+    ],
+    "cons": [
+      "गेमिंग परफॉरमेंस SD8 Gen 4 जितनी फ़ास्ट नहीं",
+      "बैटरी चार्जिंग स्पीड सिर्फ 45W है"
+    ],
+    "verdict": "क्लीन एंड्राइड और बेस्ट कैमरा फोटोग्राफी के लिए Pixel 10 से बेहतर कुछ भी नहीं।",
+    "useCases": [
+      "Camera",
+      "Clean Software"
+    ]
+  },
+  {
+    "id": "apple-iphone-17",
+    "name": "Apple iPhone 17",
+    "brand": "Apple",
+    "price": 69900,
+    "priceDisplay": "₹69,900",
+    "score": 9.3,
+    "badge": "Best iOS Phone",
+    "image": "/images/phones/iphone-17.jpg",
+    "specs": {
+      "processor": "A19 Bionic",
+      "ram": "8GB",
+      "display": "6.1\" Super Retina XDR 120Hz",
+      "camera": "48MP Dual Camera",
+      "battery": "3800mAh",
+      "charging": "MagSafe 25W",
+      "os": "iOS 19"
+    },
+    "highlights": [
+      "Finally 120Hz in Base Model",
+      "Apple Intelligence Ready",
+      "A19 Supreme Chip",
+      "Best Video Recording"
+    ],
+    "category": "flagship",
+    "amazon": "https://www.amazon.in/s?k=iPhone+17&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=iPhone+17",
+    "pros": [
+      "फाइनली बेसिक मॉडल में 120Hz (ProMotion) मिल रहा है",
+      "यूट्यूबर्स/क्रिएटर्स के लिए वीडियो रिकॉर्डिंग किंग",
+      "रीसेल वैल्यू (Resale value) सबसे तगड़ी है"
+    ],
+    "cons": [
+      "बॉक्स में ना चार्जर है, ना ही फास्ट चार्जिंग (25W Only)",
+      "स्टोरेज अभी भी बेस 128GB है जो कम है"
+    ],
+    "verdict": "अगर 70 हज़ार में पहली बार Apple ईकोसिस्टम में आना है, तो 120Hz डिस्प्ले वाला iPhone 17 परफेक्ट है।",
+    "useCases": [
+      "Premium",
+      "Camera",
+      "Long-term"
+    ]
+  },
+  {
+    "id": "moto-g85-5g",
+    "name": "Motorola Moto G85 5G",
+    "brand": "Motorola",
+    "price": 17999,
+    "priceDisplay": "₹17,999",
+    "score": 8.4,
+    "badge": "Curved Display",
+    "image": "/images/phones/moto-g85-5g.jpg",
+    "specs": {
+      "processor": "Snapdragon 6s Gen 3",
+      "ram": "8GB/12GB",
+      "display": "6.67\" pOLED 120Hz",
+      "camera": "50MP OIS + 8MP UW",
+      "battery": "5000mAh",
+      "charging": "33W TurboPower",
+      "os": "Hello UI (Stock Android)"
+    },
+    "highlights": [
+      "pOLED Curved Display under ₹18K",
+      "Near-Stock Android — No Bloatware",
+      "Slim & Premium Design",
+      "IP52 Splash Proof"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Motorola+Moto+G85+5G&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Motorola+Moto+G85+5G",
+    "pros": [
+      "pOLED Curved Display ₹18K में बहुत Rare है",
+      "Near-Stock Android बिल्कुल Clean",
+      "डिज़ाइन Slim और Premium"
+    ],
+    "cons": [
+      "33W चार्जिंग Competitors से Slow",
+      "Night Photography में कमज़ोर"
+    ],
+    "verdict": "Stock Android और Curved Display चाहिए ₹18K में? Moto G85 5G Hidden Gem है।",
+    "useCases": [
+      "Display",
+      "Clean Software"
+    ]
+  },
+  {
+    "id": "vivo-t4x-5g",
+    "name": "Vivo T4x 5G",
+    "brand": "Vivo",
+    "price": 13999,
+    "priceDisplay": "₹13,999",
+    "score": 8.2,
+    "badge": "Budget 5G",
+    "image": "/images/phones/vivo-t4x-5g.jpg",
+    "specs": {
+      "processor": "Dimensity 6300 5G",
+      "ram": "4GB/6GB",
+      "display": "6.72\" IPS LCD 120Hz",
+      "camera": "50MP AI",
+      "battery": "6000mAh",
+      "charging": "44W FlashCharge",
+      "os": "Funtouch OS 14"
+    },
+    "highlights": [
+      "6000mAh Long Battery",
+      "5G Ready under ₹14K",
+      "44W Fast Charging",
+      "Slim 7.99mm Design"
+    ],
+    "category": "budget",
+    "amazon": "https://www.amazon.in/s?k=Vivo+T4x+5G&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Vivo+T4x+5G",
+    "pros": [
+      "6000mAh बैटरी + 44W चार्जिंग Excellent Combo",
+      "5G Support ₹14K में बढ़िया Value",
+      "Design Slim और Lightweight है"
+    ],
+    "cons": [
+      "LCD Display है, AMOLED नहीं",
+      "Funtouch OS में Bloatware है"
+    ],
+    "verdict": "Budget 5G Phone चाहिए Big Battery के साथ? Vivo T4x 5G सही Choice है।",
+    "useCases": [
+      "Battery",
+      "All-Rounder"
+    ]
+  },
+  {
+    "id": "poco-f7",
+    "name": "POCO F7",
+    "brand": "POCO",
+    "price": 28999,
+    "priceDisplay": "₹28,999",
+    "score": 9.0,
+    "badge": "Value King",
+    "image": "/images/phones/poco-f7.jpg",
+    "specs": {
+      "processor": "Snapdragon 8s Gen 3",
+      "ram": "8GB/12GB",
+      "display": "6.67\" AMOLED 120Hz 1800nits",
+      "camera": "50MP OIS + 8MP UW",
+      "battery": "5500mAh",
+      "charging": "90W HyperCharge",
+      "os": "HyperOS 2"
+    },
+    "highlights": [
+      "SD 8s Gen 3 under ₹30K!",
+      "90W HyperCharge",
+      "1800nits Bright AMOLED",
+      "IP54 Splash Proof"
+    ],
+    "category": "midrange",
+    "amazon": "https://www.amazon.in/s?k=POCO+F7&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=POCO+F7",
+    "pros": [
+      "SD 8s Gen 3 ₹29K में — Flagship Performance",
+      "90W चार्जिंग — 35 मिनट में Full",
+      "AMOLED 1800nits धूप में भी Clear"
+    ],
+    "cons": [
+      "HyperOS में Ads और Bloatware है",
+      "Plastic Frame Build Quality"
+    ],
+    "verdict": "Flagship Performance चाहिए Budget Price में? POCO F7 से बेहतर कुछ नहीं।",
+    "useCases": [
+      "Gaming",
+      "All-Rounder"
+    ]
+  },
+  {
+    "id": "google-pixel-10a",
+    "name": "Google Pixel 10a",
+    "brand": "Google",
+    "price": 39999,
+    "priceDisplay": "₹39,999",
+    "score": 8.7,
+    "badge": "Camera Champ",
+    "image": "/images/phones/pixel-10a.jpg",
+    "specs": {
+      "processor": "Tensor G4",
+      "ram": "8GB",
+      "display": "6.1\" OLED 120Hz",
+      "camera": "64MP + 13MP UW",
+      "battery": "5100mAh",
+      "charging": "23W + Wireless",
+      "os": "Android 16 (7yr OS)"
+    },
+    "highlights": [
+      "Pixel Camera Magic",
+      "7 Years Updates",
+      "Compact 6.1\" Size",
+      "AI Features Built-in"
+    ],
+    "category": "premium",
+    "amazon": "https://www.amazon.in/s?k=Google+Pixel+10a&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=Google+Pixel+10a",
+    "pros": [
+      "Pixel Camera Quality ₹40K में Unmatched",
+      "7 साल OS Updates — Longest Support",
+      "Compact Size One-Hand Use"
+    ],
+    "cons": [
+      "23W चार्जिंग बहुत Slow है",
+      "Tensor G4 Gaming में Average"
+    ],
+    "verdict": "Camera Quality और Software Updates Priority? Pixel 10a ₹40K में Best Camera Phone है।",
+    "useCases": [
+      "Camera",
+      "Clean Software"
+    ]
+  },
+  {
+    "id": "apple-iphone-17-pro-max",
+    "name": "Apple iPhone 17 Pro Max",
+    "brand": "Apple",
+    "price": 149900,
+    "priceDisplay": "₹1,49,900",
+    "score": 9.5,
+    "badge": "👑 Best Premium",
+    "image": "/images/phones/iphone-17-pro-max.jpg",
+    "specs": {
+      "processor": "A19 Pro",
+      "ram": "12GB",
+      "display": "6.9\" Super Retina XDR 120Hz",
+      "camera": "48MP Triple + 5x Telephoto",
+      "battery": "4685mAh",
+      "charging": "MagSafe 25W + USB-C 45W",
+      "os": "iOS 19"
+    },
+    "highlights": [
+      "Best Camera System",
+      "Titanium Build",
+      "5x Optical Zoom",
+      "Apple Intelligence"
+    ],
+    "category": "flagship",
+    "amazon": "https://www.amazon.in/s?k=iPhone+17+Pro+Max&tag=aitechnews-21",
+    "flipkart": "https://www.flipkart.com/search?q=iPhone+17+Pro+Max",
+    "pros": [
+      "Camera System Industry का Best है",
+      "Titanium Build Premium Feel",
+      "iOS Ecosystem और Resale Value unbeatable"
+    ],
+    "cons": [
+      "₹1.5L बहुत Expensive है",
+      "चार्जिंग Speed अभी भी Slow (45W)"
+    ],
+    "verdict": "पैसा कोई Issue नहीं? iPhone 17 Pro Max 2026 का Ultimate Smartphone है।",
+    "useCases": [
+      "Premium",
+      "Camera"
+    ]
+  }
+]

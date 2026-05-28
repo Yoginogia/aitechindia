@@ -20,6 +20,15 @@ export const metadata = {
         title: 'Latest News | AITechNews',
         description: 'AITechNews par AI aur Technology ki sabse taaza khabrein aur articles.',
         url: 'https://aitechnews.co.in/latest',
+        siteName: 'AITechNews',
+        images: [{ url: '/logo.png', width: 512, height: 512 }],
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Latest News | AITechNews',
+        description: 'AITechNews par AI aur Technology ki sabse taaza khabrein aur articles.',
+        images: ['/logo.png'],
     }
 };
 

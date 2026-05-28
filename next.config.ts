@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  poweredByHeader: false,
+  reactStrictMode: true,
   images: {
     formats: ['image/avif', 'image/webp'],
     deviceSizes: [640, 750, 828, 1080, 1200],
@@ -27,6 +29,21 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/home',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/dictionary',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/dictionary/:slug*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/daily-hints',
         destination: '/',
         permanent: true,
       },

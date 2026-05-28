@@ -27,7 +27,7 @@ export default function Ticker() {
                 // Cache check to prevent annoying CoinGecko 429 Rate Limit errors on reload
                 const cached = localStorage.getItem('aitechnews_ticker_cache');
                 const cacheTime = localStorage.getItem('aitechnews_ticker_time');
-                if (cached && cacheTime && (Date.now() - parseInt(cacheTime) < 3 * 60 * 1000)) {
+                if (cached && cacheTime && (Date.now() - parseInt(cacheTime) < 10 * 60 * 1000)) {
                     setTickerData(JSON.parse(cached));
                     return;
                 }
@@ -70,7 +70,7 @@ export default function Ticker() {
         }
         
         fetchLivePrices();
-        const intervalId = setInterval(fetchLivePrices, 3 * 60 * 1000); // refresh every 3 minutes
+        const intervalId = setInterval(fetchLivePrices, 10 * 60 * 1000); // refresh every 10 minutes
         return () => clearInterval(intervalId);
     }, []);
 

@@ -13,6 +13,20 @@ export const metadata = {
     title: 'Software Updates | AITechNews',
     description: 'AITechNews par Windows, Android, aur iOS ki latest software updates aur patches ki jankari.',
     alternates: { canonical: '/software' },
+    openGraph: {
+        title: 'Software Updates | AITechNews',
+        description: 'AITechNews par Windows, Android, aur iOS ki latest software updates aur patches ki jankari.',
+        url: 'https://aitechnews.co.in/software',
+        siteName: 'AITechNews',
+        images: [{ url: '/logo.png', width: 512, height: 512 }],
+        type: 'website',
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Software Updates | AITechNews',
+        description: 'AITechNews par Windows, Android, aur iOS ki latest software updates aur patches ki jankari.',
+        images: ['/logo.png'],
+    }
 };
 
 export default function SoftwarePage() {

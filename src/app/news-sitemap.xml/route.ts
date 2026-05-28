@@ -1,51 +1,51 @@
 import { getSortedPostsData } from '@/lib/markdown';
 
 export async function GET() {
-  const posts = getSortedPostsData();
-  
-  // Google News Sitemap only supports last 2 days of articles
-  // But we include last 30 days for broader coverage
-  const cutoffDate = new Date();
-  cutoffDate.setDate(cutoffDate.getDate() - 30);
-  
-  const recentPosts = posts.filter(post => {
-    const postDate = new Date(post.date);
-    return postDate >= cutoffDate;
-  });
+    const posts = getSortedPostsData().slice(0, 100); // Google News sitemap needs recent articles (latest 100 is ideal)
+    const baseUrl = 'https://aitechnews.co.in';
 
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
-${recentPosts.map(post => {
-  const imageUrl = post.image 
-    ? (post.image.startsWith('http') ? post.image : `https://aitechnews.co.in${post.image}`)
-    : 'https://aitechnews.co.in/logo.png';
-  
-  const pubDate = new Date(post.date).toISOString().split('T')[0];
-  
-  return `  <url>
-    <loc>https://aitechnews.co.in/blog/${post.slug}</loc>
+    const xmlItems = posts.map((post) => {
+        let lastModDate = new Date();
+        if (post.date) {
+            const parsed = new Date(post.date);
+            if (!isNaN(parsed.getTime())) {
+                lastModDate = parsed;
+            }
+        }
+
+        // XML entities escaping helper
+        const escapeXml = (str: string) => {
+            return str
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&apos;');
+        };
+
+        return `  <url>
+    <loc>${baseUrl}/blog/${post.slug}</loc>
     <news:news>
       <news:publication>
         <news:name>AITechNews</news:name>
         <news:language>hi</news:language>
       </news:publication>
-      <news:publication_date>${pubDate}</news:publication_date>
-      <news:title>${post.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&apos;')}</news:title>
+      <news:publication_date>${lastModDate.toISOString()}</news:publication_date>
+      <news:title>${escapeXml(post.title || '')}</news:title>
     </news:news>
-    <image:image>
-      <image:loc>${imageUrl.replace(/&/g, '&amp;')}</image:loc>
-      <image:title>${post.title.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')}</image:title>
-    </image:image>
   </url>`;
-}).join('\n')}
+    }).join('\n');
+
+    const sitemapXml = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+${xmlItems}
 </urlset>`;
 
-  return new Response(xml, {
-    headers: {
-      'Content-Type': 'application/xml',
-      'Cache-Control': 'public, max-age=3600, s-maxage=3600',
-    },
-  });
+    return new Response(sitemapXml, {
+        headers: {
+            'Content-Type': 'application/xml',
+            'Cache-Control': 'public, max-age=3600, s-maxage=3600, stale-while-revalidate=600',
+        },
+    });
 }
