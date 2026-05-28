@@ -29,7 +29,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "Launch Offer ₹5,000 Off",
         rating: 4.8,
         tag: "🔥 Bestseller",
-        image: "/images/blog/upcoming_samsung_s27.webp",
+        image: "/images/deals/samsung-a57-5g.png",
         buyLink: `https://www.amazon.in/s?k=samsung+galaxy+s25+fe&tag=${AFFILIATE_TAG}`,
         platform: "Amazon India",
         specs: [
@@ -61,7 +61,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "₹8,000 Off + Free Pencil",
         rating: 4.9,
         tag: "⭐ Student Deal",
-        image: "/images/blog/apple_macbook_neo_budget.webp",
+        image: "/images/deals/ipad_air_m3_deal.png",
         buyLink: `https://www.amazon.in/s?k=ipad+air+m3&tag=${AFFILIATE_TAG}`,
         platform: "Amazon / Apple Education",
         specs: [
@@ -110,22 +110,22 @@ export const TOP_DEALS: Deal[] = [
         bankOffers: [
             "SBI Credit Card — ₹2,000 Instant Off",
             "ICICI Credit Card — ₹2,000 Instant Off",
-            "No-Cost EMI — Up to 6 Months"
+            "No-Cost EMI — 6 months support"
         ],
         colors: ["Midnight Obsidian", "Lunar Ivory"],
         content: "OnePlus Nord CE 6 ने भारत के मिड-रेंज मार्केट में तहलका मचा दिया है। Snapdragon 7s Gen 4 और 8000mAh की सुपर-बैटरी का कॉम्बिनेशन आपको बिना चार्ज किए पूरे दो दिन तक भारी गेमिंग करने देता है। 100W फ़ास्ट चार्जर बॉक्स के अंदर ही आता है जो फोन को केवल 42 मिनट में पूरा चार्ज कर देता है। लॉन्च सेल में ₹2,000 बैंक डिस्काउंट के साथ यह बेहतरीन सौदा है।"
     },
     {
-        slug: "asus-predator-helios-neo-16-gaming-deal",
-        title: "ASUS Predator Helios Neo 16 — Core i5 + RTX 4050! 🎮",
+        slug: "acer-predator-helios-neo-16-gaming-deal",
+        title: "Acer Predator Helios Neo 16 — Core i5 + RTX 4050! 🎮",
         category: "Laptop",
-        description: "ASUS का धाकड़ गेमिंग लैपटॉप अब स्टूडेंट सेल में 22% डिस्काउंट पर! Intel Core i5-13500HX, RTX 4050 और 165Hz स्क्रीन के साथ गेमिंग का असली मज़ा।",
+        description: "Acer का धाकड़ गेमिंग लैपटॉप अब स्टूडेंट सेल में 22% डिस्काउंट पर! Intel Core i5-13500HX, RTX 4050 और 165Hz स्क्रीन के साथ गेमिंग का असली मज़ा।",
         price: "₹84,990",
         discount: "Flat 22% Off (Student Special)",
         rating: 4.8,
         tag: "🎮 Gaming Pick",
-        image: "/images/blog/asus_ai_pc.png",
-        buyLink: `https://www.amazon.in/s?k=asus+predator+helios+neo+16&tag=${AFFILIATE_TAG}`,
+        image: "/images/deals/acer_predator_helios_deal.png",
+        buyLink: `https://www.amazon.in/s?k=acer+predator+helios+neo+16&tag=${AFFILIATE_TAG}`,
         platform: "Flipkart / Amazon",
         specs: [
             "Intel Core i5-13500HX (Up to 4.70 GHz)",
@@ -145,7 +145,7 @@ export const TOP_DEALS: Deal[] = [
             "No-Cost EMI — 12 months with Zero Downpayment"
         ],
         colors: ["Abyssal Black"],
-        content: "ASUS Predator Helios Neo 16 गेमर्स और वीडियो एडिटर्स के लिए सर्वश्रेष्ठ मशीन है। Intel Core i5-13500HX एक डेस्कटॉप-क्लास प्रोसेसर है जो हैवी लोड के दौरान भी स्मूथ चलता है। RTX 4050 ग्राफ़िक्स कार्ड की मदद से आप AAA गेम्स को 1080p Ultra सेटिंग्स पर खेल सकते हैं। लिक्विड मेटल थर्मल सिस्टम की वजह से लैपटॉप गर्म नहीं होता। बैक टू कैंपस सेल में मिल रहा डिस्काउंट इसे इस बजट का बेस्ट गेमिंग लैपटॉप बनाता है।"
+        content: "Acer Predator Helios Neo 16 गेमर्स और वीडियो एडिटर्स के लिए सर्वश्रेष्ठ मशीन है। Intel Core i5-13500HX एक डेस्कटॉप-क्लास प्रोसेसर है जो हैवी लोड के दौरान भी स्मूथ चलता है। RTX 4050 ग्राफ़िक्स कार्ड की मदद से आप AAA गेम्स को 1080p Ultra सेटिंग्स पर खेल सकते हैं। लिक्विड मेटल थर्मल सिस्टम की वजह से लैपटॉप गर्म नहीं होता। बैक टू कैंपस सेल में मिल रहा डिस्काउंट इसे इस बजट का बेस्ट गेमिंग लैपटॉप बनाता है।"
     },
     {
         slug: "samsung-galaxy-tab-s9-fe-deal",
@@ -156,7 +156,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "Flat 26% Off + Free S Pen",
         rating: 4.7,
         tag: "✏️ Student Deal",
-        image: "/images/blog/samsung_ai_tv_deals.png",
+        image: "/images/deals/samsung_tab_s9_fe_deal.png",
         buyLink: `https://www.amazon.in/s?k=samsung+galaxy+tab+s9+fe&tag=${AFFILIATE_TAG}`,
         platform: "Amazon India",
         specs: [
@@ -188,7 +188,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "Launch Special Offer",
         rating: 4.8,
         tag: "🔥 Hot Deal",
-        image: "/images/blog/best_phones_15k.webp",
+        image: "/images/phones/redmi-note-15-pro.png",
         buyLink: `https://www.amazon.in/s?k=Redmi+Note+15+Special+Edition&tag=${AFFILIATE_TAG}`,
         platform: "Amazon India",
         specs: [
@@ -252,7 +252,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "₹1,500 Bank Discount",
         rating: 4.6,
         tag: "⚡ Budget Pick",
-        image: "/images/blog/best_phones_15k.webp",
+        image: "/images/deals/realme_narzo_100_lite_deal.png",
         buyLink: `https://www.amazon.in/s?k=realme+narzo+100+lite+5g&tag=${AFFILIATE_TAG}`,
         platform: "Amazon India",
         specs: [
@@ -284,7 +284,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "27% Off (Back to Campus Sale)",
         rating: 4.5,
         tag: "💻 Budget Student Pick",
-        image: "/images/blog/asus_ai_pc.png",
+        image: "/images/laptops/asus-vivobook-15-2026.jpg",
         buyLink: `https://www.amazon.in/s?k=asus+vivobook+15+i3&tag=${AFFILIATE_TAG}`,
         platform: "Flipkart / Amazon",
         specs: [
@@ -316,7 +316,7 @@ export const TOP_DEALS: Deal[] = [
         discount: "40% OFF + ₹4,000 Bank Off",
         rating: 4.9,
         tag: "🎮 Hardcore Gaming",
-        image: "/images/blog/xbox_new_era.webp",
+        image: "/images/deals/xbox-series-x.png",
         buyLink: `https://www.amazon.in/s?k=xbox+series+x&tag=${AFFILIATE_TAG}`,
         platform: "Amazon India",
         specs: [
