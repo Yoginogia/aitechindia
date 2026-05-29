@@ -12,8 +12,8 @@ export interface StoryItem {
 export const STORIES: StoryItem[] = [
     {
         slug: 'ai-story-anthropic-valuation-965b-2026-05-29',
-        title: `Anthropic: $965B Valuation! 🚀`,
-        subtitle: `Anthropic ne $65 Billion funding ke baad $965 Billion valuation haasil kiya.`,
+        title: `Anthropic: $965B वैल्युएशन! 🚀`,
+        subtitle: `Anthropic ने $65 Billion की नई फंडिंग के बाद $965 Billion वैल्युएशन हासिल किया।`,
         category: '🤖 AI News',
         categoryColor: '#8b5cf6',
         image: '/images/blog/anthropic_valuation_965b.png',
@@ -23,7 +23,7 @@ export const STORIES: StoryItem[] = [
     {
         slug: 'ai-story-mumbai-tech-week-2026-start-2026-05-29',
         title: `Mumbai Tech Week 2026! 🇮🇳`,
-        subtitle: `Jio World Centre mein shuru hua event, theme 'AI in Action'.`,
+        subtitle: `जियो वर्ल्ड सेंटर में शुरू हुआ इवेंट, थीम 'AI in Action'.`,
         category: '🤖 AI News',
         categoryColor: '#8b5cf6',
         image: '/images/blog/mumbai_tech_week_2026.png',
@@ -33,7 +33,7 @@ export const STORIES: StoryItem[] = [
     {
         slug: 'gadgets-story-vivo-x300-ultra-launch-india-2026-05-29',
         title: `Vivo X300 Ultra Launched! 📸`,
-        subtitle: `Noida factory mein bana 200MP camera beast phone launch.`,
+        subtitle: `नोएडा फैक्ट्री में बना 200MP कैमरा बीस्ट फोन लॉन्च।`,
         category: '📱 Gadgets',
         categoryColor: '#ec4899',
         image: '/images/blog/vivo_x300_ultra.png',
@@ -43,7 +43,7 @@ export const STORIES: StoryItem[] = [
     {
         slug: 'software-story-ibm-project-lightwell-cybersecurity-2026-05-29',
         title: `IBM Project Lightwell: $5B Plan! 🛡️`,
-        subtitle: `Claude AI security engine se inspired cybersecurity initiative launched.`,
+        subtitle: `Claude AI सिक्योरिटी इंजन से इंस्पायर्ड साइबर सिक्योरिटी इनिशिएटिव लॉन्च।`,
         category: '🛡️ Security',
         categoryColor: '#ef4444',
         image: '/images/blog/ibm_project_lightwell.png',
@@ -53,7 +53,7 @@ export const STORIES: StoryItem[] = [
     {
         slug: 'crypto-story-market-crash-iran-strike-2026-05-29',
         title: `Crypto Market Crash: $1B Liquidated! 📉`,
-        subtitle: `US-Iran military conflict ke tension mein Bitcoin $73,120 tak gira.`,
+        subtitle: `US-Iran सैन्य संघर्ष के तनाव में Bitcoin $73,120 तक गिरा।`,
         category: '🪙 Crypto',
         categoryColor: '#f59e0b',
         image: '/images/blog/crypto_market_crash_iran.png',
@@ -63,13 +63,19 @@ export const STORIES: StoryItem[] = [
     {
         slug: 'deals-story-flipkart-eoss-sale-offers-2026-05-29',
         title: `Flipkart EOSS Sale: Massive Deals! 🛒`,
-        subtitle: `Mobiles, Tablets aur Accessories par 50% tak discounts live.`,
+        subtitle: `मोबाइल्स, टैबलेट्स और एक्सेसरीज़ पर 50% तक डिस्काउंट लाइव।`,
         category: '🛒 Deals',
         categoryColor: '#10b981',
         image: '/images/blog/flipkart_eoss_sale.png',
         pages: 5,
         isTrending: true,
     },
+    
+    
+    
+    
+    
+    
     {
         slug: 'ai-tools-story-eid-mubarak-ai-personalized-cards-2026-05-28',
         title: `Eid AI Cards: एआई से बकरीद विश! 🌙🎨`,

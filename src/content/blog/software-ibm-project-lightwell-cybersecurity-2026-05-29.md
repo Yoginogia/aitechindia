@@ -1,42 +1,42 @@
 ---
-title: "IBM Project Lightwell ka ailan: Claude AI se inspired $5B cybersecurity plan 🛡️💻"
+title: "IBM Project Lightwell का ऐलान: Claude AI से इंस्पायर्ड $5B साइबर सिक्योरिटी प्लान 🛡️💻"
 date: "2026-05-29"
 category: "Software"
-excerpt: "$5 Billion ke Project Lightwell ka IBM ne kiya ailan. Anthropic ke Claude Mythos AI model ke secure code reviews se prerit hokar shuru hua ye mission."
+excerpt: "$5 Billion के Project Lightwell का IBM ने किया ऐलान। Anthropic के Claude Mythos AI मॉडल के सिक्योर कोड रिव्यूज से प्रेरित होकर शुरू हुआ यह मिशन।"
 image: "/images/blog/ibm_project_lightwell.png"
 trending: true
 ---
 
-## Cyber threats se ladne ke liye IBM ne kiya bada ailan
+## साइबर खतरों से लड़ने के लिए IBM ने किया बड़ा ऐलान
 
-Cyber security ki duniya mein aane wale samay mein AI ka dabdaba rehne wala hai, aur is baat ko samajhte hue tech giant IBM ne ek bada faisla liya hai. IBM ke CEO Arvind Krishna ne **IBM Project Lightwell** ke ailan ke sath tech community ko chaukha diya hai. Yeh $5 Billion (lagbhag ₹41,000 crore) ka ek comprehensive initiative hai jo poori tarah se software codes mein flaws aur bugs dhoondhne par focus karega.
+साइबर सिक्योरिटी की दुनिया में आने वाले समय में AI का दबदबा रहने वाला है, और इस बात को समझते हुए टेक दिग्गज IBM ने एक बड़ा फैसला लिया है। IBM के CEO अरविंद कृष्णा ने **IBM Project Lightwell** के ऐलान के साथ टेक कम्युनिटी को चौंका दिया है। यह $5 Billion (लगभग ₹41,000 crore) का एक व्यापक इनिशिएटिव है जो पूरी तरह से सॉफ्टवेयर कोड्स में कमियों और बग्स को ढूंढने पर फोकस करेगा।
 
-Yeh faisla tab liya gaya jab IBM ne Anthropic ke "Claude Mythos" AI security engine ka successful internal test kiya. Is testing mein AI model ne complex systems ke safety gaps aur loopholes ko sirf kuch seconds mein detect kar liya.
+यह फैसला तब लिया गया जब IBM ने Anthropic के "Claude Mythos" AI सिक्योरिटी इंजन का सफल इंटरनल टेस्ट किया। इस टेस्टिंग में AI मॉडल ने जटिल सिस्टम्स के सेफ्टी गैप्स और लूपहोल्स को सिर्फ कुछ सेकेंड्स में ढूंढ लिया।
 
-## Kyun khas hai IBM Project Lightwell initiative?
+## क्यों खास है IBM Project Lightwell इनिशिएटिव?
 
-Aise samay mein jab software leaks aur data breaches lagatar badh rahe hain, tab code bases ko secure karna har bada business enterprise chahta hai. IBM is project ke tahat cloud servers aur programming databases mein auto-patching tool systems deploy karega.
+ऐसे समय में जब सॉफ्टवेयर लीक्स और डेटा ब्रीचेस लगातार बढ़ रहे हैं, तब कोड बेस को सुरक्षित करना हर बड़ा बिजनेस एंटरप्राइज चाहता है। IBM इस प्रोजेक्ट के तहत क्लाउड सर्वर्स और प्रोग्रामिंग डेटाबेस में ऑटो-पैचिंग टूल सिस्टम्स तैनात करेगा।
 
-### Project Lightwell ke 3 sabse bade claims:
+### Project Lightwell के 3 सबसे बड़े दावे:
 
-* **Auto-Patching Engine:** AI sirf security bugs ko dhoondhega hi nahi, balki unhe code likh kar automatically fix bhi kar dega.
-* **Open-Source Libraries Safety:** GitHub aur basic components ki open-source libraries mein jo malicious packages chhipaye jaate hain, unhe dynamic screening se pehle hi block kar diya jayega.
-* **Low Latency for Enterprises:** Banking aur financial software codes ko compile karne ke sath hi real-time testing milti rahegi.
+* **Auto-Patching Engine:** AI सिर्फ सिक्योरिटी बग्स को ढूंढेगा ही नहीं, बल्कि उनके लिए कोड लिखकर उन्हें ऑटोमैटिकली ठीक भी कर देगा।
+* **Open-Source Libraries Safety:** GitHub और बेसिक कम्पोनेंट्स की ओपन-सोर्स लाइब्रेरीज में जो दुर्भावनापूर्ण पैकेज छिपाए जाते हैं, उन्हें डायनेमिक स्क्रीनिंग से पहले ही ब्लॉक कर दिया जाएगा।
+* **Low Latency for Enterprises:** बैंकिंग और फाइनेंशियल सॉफ्टवेयर कोड्स को कम्पाइल करने के साथ ही रियल-टाइम टेस्टिंग मिलती रहेगी।
 
 ### Cybersecurity Attacks Status (2025 vs 2026 Trends):
 
-* **Supply Chain Exploits:** 2025 ke muqable 2026 mein exploits lagbhag 45% badh gaye hain.
-* **AI Remediation Rate:** Manual testing mein jahan software patch karne mein 12 ghante lagte hain, wahi custom AI tools se yeh process sirf 10 seconds mein ho jata hai.
-* **Global Tech Losses:** Cyber crimes ke chalte global levels par business models ko lagbhag $9 Trillion ka annual nuksan uthana padta hai.
+* **Supply Chain Exploits:** 2025 के मुकाबले 2026 में हमले लगभग 45% बढ़ गए हैं।
+* **AI Remediation Rate:** मैनुअल टेस्टिंग में जहां सॉफ्टवेयर पैच करने में 12 घंटे लगते हैं, वहीं कस्टम AI टूल्स से यह प्रोसेस सिर्फ 10 सेकेंड में हो जाता है।
+* **Global Tech Losses:** साइबर क्राइम के चलते ग्लोबल लेवल पर बिज़नेस मॉडल्स को लगभग $9 Trillion का सालाना नुकसान उठाना पड़ता है।
 
 ## India Angle 🇮🇳
 
-Bharat ke IT hubs jaise Bengaluru, Hyderabad, aur Pune ke IT giants (TCS, Infosys, Wipro, Cognizant) ke liye Project Lightwell kafi relevant hone wala hai. Indian tech hubs mein software development operations ka kaam bade scale par hota hai. 
+भारत के IT हब्स जैसे बेंगलुरु, हैदराबाद, और पुणे के IT दिग्गजों (TCS, Infosys, Wipro, Cognizant) के लिए Project Lightwell काफी महत्वपूर्ण होने वाला है। भारतीय टेक हब्स में सॉफ्टवेयर डेवलपमेंट ऑपरेशन्स का काम बड़े पैमाने पर होता है।
 
-Hal hi mein CERT-In (Indian Computer Emergency Response Team) ne ek cybersecurity advisory jari ki thi, jisme software developers ko unke dependency models patch karne ke strict orders diye gaye the. IBM ka yeh tool local Indian organizations aur government services ko secure cloud frameworks deploy karne mein help karega.
+हाल ही में CERT-In (Indian Computer Emergency Response Team) ने एक साइबर सिक्योरिटी एडवाइजरी जारी की थी, जिसमें सॉफ्टवेयर डेवलपर्स को कमियों को पैच करने के सख्त निर्देश दिए गए थे। IBM का यह टूल स्थानीय भारतीय संगठनों और सरकारी सेवाओं को सुरक्षित क्लाउड फ्रेमवर्क तैनात करने में मदद करेगा।
 
 ## Conclusion — Aage Kya Hoga?
 
-IBM Project Lightwell cybersecurity sector mein ek revolutionary update sabit ho sakta hai. $5 Billion ka naya safety infrastructure lagne ke baad cyber attacks ko kafi hadd tak rokna aasan ho jayega. Users ke liye safety aur data privacy badhegi aur developers ko vulnerabilities se bachne ka ek automatic solution mil jayega.
+IBM Project Lightwell साइबर सिक्योरिटी सेक्टर में एक क्रांतिकारी कदम साबित हो सकता है। $5 Billion का नया सेफ्टी इंफ्रास्ट्रक्चर लगने के बाद साइबर हमलों को काफी हद तक रोकना आसान हो जाएगा। यूजर्स के लिए सुरक्षा और डेटा प्राइवेसी बढ़ेगी और डेवलपर्स को सुरक्षा कमियों से बचने का एक ऑटोमैटिक समाधान मिल जाएगा।
 
 Related: [software-cert-in-12-hour-patching-directive-2026-05-27]
