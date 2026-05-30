@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-ipl-smart-glasses-ban-bcci-rules-2026-05-30',
+        title: `IPL smart glasses ban: चश्मों पर रोक! 🚫🕶️`,
+        subtitle: `BCCI ने IPL प्रतिबंधित क्षेत्रों (PMOA) में स्मार्ट ग्लास पहनने पर पूर्ण रोक लगाई।`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/ipl_smart_glasses_ban.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-story-drishyam-3-de-aging-technology-vfx-2026-05-30',
+        title: `Drishyam 3: एआई डी-एजिंग तकनीक! 🎬🤖`,
+        subtitle: `फिल्म दृश्यम 3 में अजय देवगन को यंग लुक देने के लिए यूज़ होगी एआई VFX तकनीक।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/drishyam_3_ai_vfx.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-upi-ai-fraud-detection-banking-security-2026-05-30',
+        title: `UPI AI Security: फ्रॉड पर लगाम! 🛡️💸`,
+        subtitle: `NPCI ने यूपीआई पेमेंट फ्रॉड रोकने के लिए रीयल-टाइम एआई सिस्टम तैनात किया।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/upi_ai_fraud_detection.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-kling-ai-filmmaking-production-2026-05-30',
         title: `Kling AI: हॉलीवुड में जलवा! 🎥🤖`,
         subtitle: `Kling AI वीडियो जनरेटर का इस्तेमाल हॉलीवुड और ग्लोबल फिल्म प्रोडक्शन में शुरू हो गया है।`,
