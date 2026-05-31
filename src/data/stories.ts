@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-netrasemi-a2000-ai-chip-launch-2026-05-31',
+        title: `Netrasemi A2000: स्वदेशी AI चिप! 🚀🇮🇳`,
+        subtitle: `भारत की पहली 12nm AI चिप लॉन्च। Zoho ने ₹125 करोड़ किए इन्वेस्ट।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/netrasemi_a2000_ai_chip.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'gadgets-story-ipl-smart-glasses-ban-bcci-rules-2026-05-31',
+        title: `IPL Smart Glasses Ban: चश्मों पर रोक! 🚫🕶️`,
+        subtitle: `बीसीसीआई ने आईपीएल ड्रेसिंग रूम में स्मार्ट ग्लास पहनने पर प्रतिबंध लगाया।`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/ipl_smart_glasses_ban_may31.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-foxconn-ransomware-attack-nitrogen-group-2026-05-31',
+        title: `Foxconn Cyberattack: 8TB डेटा चोरी! 🛡️💻`,
+        subtitle: `नाइट्रोजन हैकर ग्रुप ने फॉक्सकॉन के डेटाबेस पर बड़ा रैनसमवेयर हमला किया।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/foxconn_ransomware_attack.png',
+        pages: 5,
+        isTrending: true,
+    },
+    {
         slug: 'gadgets-story-ipl-smart-glasses-ban-bcci-rules-2026-05-30',
         title: `IPL smart glasses ban: चश्मों पर रोक! 🚫🕶️`,
         subtitle: `BCCI ने IPL प्रतिबंधित क्षेत्रों (PMOA) में स्मार्ट ग्लास पहनने पर पूर्ण रोक लगाई।`,
