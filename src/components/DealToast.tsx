@@ -10,11 +10,21 @@ export default function DealToast() {
 
   useEffect(() => {
     // Check if user dismissed it this session
-    const dismissed = sessionStorage.getItem("aitechnews_deal_dismissed");
-    if (!dismissed) {
+    try {
+      const dismissed = sessionStorage.getItem("aitechnews_deal_dismissed");
+      if (!dismissed) {
+        setHasDismissed(false);
+        
+        // Delay popup by 5 seconds
+        const timer = setTimeout(() => {
+          setIsVisible(true);
+        }, 5000);
+        return () => clearTimeout(timer);
+      }
+    } catch (e) {
+      console.warn("sessionStorage is not available:", e);
+      // Fallback: show the toast anyway
       setHasDismissed(false);
-      
-      // Delay popup by 5 seconds
       const timer = setTimeout(() => {
         setIsVisible(true);
       }, 5000);
@@ -24,7 +34,11 @@ export default function DealToast() {
 
   const handleDismiss = () => {
     setIsVisible(false);
-    sessionStorage.setItem("aitechnews_deal_dismissed", "true");
+    try {
+      sessionStorage.setItem("aitechnews_deal_dismissed", "true");
+    } catch (e) {
+      console.warn("Failed to save dismissal to sessionStorage:", e);
+    }
   };
 
   if (hasDismissed) return null;
