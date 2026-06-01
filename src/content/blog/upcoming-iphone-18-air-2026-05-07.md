@@ -1,6 +1,6 @@
 ---
 title: "iPhone 18 Air: Apple का Thinnest Model — 5.9mm Ultra-Thin Dynamic Body"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "Apple iPhone 18 Air September 2026 में Launch होगा। A20 chip, 48MP single camera, 5.9mm ultra-thin frame, eSIM only। Expected Price ₹89,900।"
 image: "/images/blog/upcoming_samsung_s27.webp"

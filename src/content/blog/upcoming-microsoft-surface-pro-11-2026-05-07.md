@@ -1,6 +1,6 @@
 ---
 title: "Microsoft Surface Pro 11: Snapdragon X Elite Arm-based Premium Windows Tablet"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "Microsoft Surface Pro 11 October 2026 में Launch होगा। Snapdragon X Elite, Qualcomm Adreno GPU, 13 inch OLED 120Hz display, Copilot+ PC features। Expected Price ₹1,19,999।"
 image: "/images/blog/asus_expertbook_ultra.webp"

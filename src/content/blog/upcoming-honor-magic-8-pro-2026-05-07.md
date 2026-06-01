@@ -1,6 +1,6 @@
 ---
 title: "Honor Magic 8 Pro: 200MP Periscope Camera और Flagship Silicon Carbon Battery"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "Honor का upcoming AI photography beast — Snapdragon 8 Elite, 200MP Periscope Zoom Camera, 5800mAh Battery। Expected Price ₹44,999, Launch August 2026।"
 image: "/images/blog/upcoming_samsung_s27.webp"

@@ -1,6 +1,6 @@
 ---
 title: "Infinix GT 50 Pro: Cyberpunk Gaming Look और Dimensity 8350 Processor"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "Infinix का upcoming gaming phone — Dimensity 8350, 108MP Main Camera, 6000mAh Battery, JBL Dual Speakers। Expected Price ₹19,999, Launch May 2026।"
 image: "/images/blog/asus_expertbook_ultra.webp"

@@ -1,6 +1,6 @@
 ---
 title: "ASUS Zenbook A14 (2026): Snapdragon X Elite और 14 inch 2.8K OLED — Lightest Ultrabook"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "ASUS का upcoming Snapdragon AI PC — Snapdragon X Elite, 14 inch 2.8K OLED, Ceraluminum Body, 980g Weight। Expected Price ₹89,999, Launch May 2026।"
 image: "/images/blog/asus_expertbook_ultra.webp"

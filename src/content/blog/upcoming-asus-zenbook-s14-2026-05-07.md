@@ -1,6 +1,6 @@
 ---
 title: "ASUS Zenbook S14 (2026): Intel Arrow Lake Ultra 7 और Premium 3K OLED Screen"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "ASUS का Intel AI Ultrabook — Intel Arrow Lake Ultra 7, Intel Arc GPU, 14 inch 3K OLED 120Hz, 72Whr Battery। Expected Price ₹1,19,999, Launch May 2026।"
 image: "/images/blog/asus_expertbook_ultra.webp"

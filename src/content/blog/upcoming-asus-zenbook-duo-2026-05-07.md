@@ -1,6 +1,6 @@
 ---
 title: "ASUS Zenbook DUO (2026): Dual 14 inch OLED Screens और Arrow Lake Ultra 9 CPU"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "ASUS का Dual Screen Beast — Intel Arrow Lake Ultra 9, Intel Arc GPU, Dual 14 inch OLED Screens, 75Whr Battery। Expected Price ₹1,59,999, Launch May 2026।"
 image: "/images/blog/asus_expertbook_ultra.webp"

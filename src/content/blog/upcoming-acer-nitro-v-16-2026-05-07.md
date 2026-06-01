@@ -1,6 +1,6 @@
 ---
 title: "Acer Nitro V 16 (2026): Ryzen 7 8845HS और RTX 5060 — Best Gaming Under ₹75K"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "Acer Nitro V 16 (2026) July 2026 में Launch होगा। AMD Ryzen 7 8845HS, RTX 5060 8GB, 16 inch 165Hz FHD+, 16GB DDR5 — Expected Price ₹74,999।"
 image: "/images/blog/asus_expertbook_ultra.webp"

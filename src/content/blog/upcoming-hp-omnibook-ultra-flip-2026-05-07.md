@@ -1,6 +1,6 @@
 ---
 title: "HP OmniBook Ultra Flip (2026): Arrow Lake 2-in-1 Convertible Laptop"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "HP का convertible premium design — Intel Arrow Lake Ultra 7, Intel Arc GPU, 14 inch 2.8K OLED Touch, 2-in-1 Design। Expected Price ₹1,39,999, Launch June 2026।"
 image: "/images/blog/asus_expertbook_ultra.webp"

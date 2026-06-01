@@ -1,6 +1,6 @@
 ---
 title: "Xiaomi 17T: Leica Camera, Dimensity 9300+ और ₹35,000 में Flagship Experience"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "Xiaomi का upcoming flagship-killer — Dimensity 9300+, Leica 50MP Camera, 5500mAh Battery, और 67W Turbo Charge। Expected Price ₹34,999, Launch May 2026।"
 image: "/images/blog/asus_expertbook_ultra.webp"

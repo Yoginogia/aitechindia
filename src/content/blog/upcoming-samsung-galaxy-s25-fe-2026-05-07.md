@@ -1,6 +1,6 @@
 ---
 title: "Samsung Galaxy S25 FE: Fan Edition Flagship Features ₹50,000 के Budget में"
-date: "2026-06-01"
+date: "2026-05-07"
 category: "Best Phones"
 excerpt: "Samsung Galaxy S25 FE June 2026 में Launch हो सकता है। Exynos 2500, 50MP OIS Camera, Galaxy AI features — Expected Price ₹49,999।"
 image: "/images/blog/upcoming_samsung_s27.webp"
