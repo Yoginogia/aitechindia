@@ -16,9 +16,13 @@ export default function ArticleReactions({ slug }: { slug: string }) {
             mindblown: 8 + (slugHash % 15)
         });
 
-        const savedVote = localStorage.getItem(`voted_${slug}`);
-        if (savedVote) {
-            setUserVoted(savedVote);
+        try {
+            const savedVote = localStorage.getItem(`voted_${slug}`);
+            if (savedVote) {
+                setUserVoted(savedVote);
+            }
+        } catch (e) {
+            console.warn("localStorage is not available:", e);
         }
     }, [slug]);
 
@@ -27,7 +31,11 @@ export default function ArticleReactions({ slug }: { slug: string }) {
         
         setReactions(prev => ({ ...prev, [type]: prev[type] + 1 }));
         setUserVoted(type);
-        localStorage.setItem(`voted_${slug}`, type);
+        try {
+            localStorage.setItem(`voted_${slug}`, type);
+        } catch (e) {
+            console.warn("Failed to save vote to localStorage:", e);
+        }
         
         // Add a small celebration animation effect here if desired
     };

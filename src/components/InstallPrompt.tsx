@@ -19,11 +19,15 @@ export default function InstallPrompt() {
       e.preventDefault();
       setDeferredPrompt(e);
       // Only show on 2nd+ visit to reduce popup fatigue
-      const visitCount = parseInt(localStorage.getItem('ait-visits') || '0', 10) + 1;
-      localStorage.setItem('ait-visits', String(visitCount));
-      if (visitCount >= 2) {
-        // Delay 15s to not overlap with other prompts
-        setTimeout(() => setShowPrompt(true), 15000);
+      try {
+        const visitCount = parseInt(localStorage.getItem('ait-visits') || '0', 10) + 1;
+        localStorage.setItem('ait-visits', String(visitCount));
+        if (visitCount >= 2) {
+          // Delay 15s to not overlap with other prompts
+          setTimeout(() => setShowPrompt(true), 15000);
+        }
+      } catch (err) {
+        console.warn("localStorage is not available for install tracking:", err);
       }
     };
 

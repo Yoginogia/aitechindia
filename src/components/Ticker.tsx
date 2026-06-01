@@ -25,8 +25,14 @@ export default function Ticker() {
         async function fetchLivePrices() {
             try {
                 // Cache check to prevent annoying CoinGecko 429 Rate Limit errors on reload
-                const cached = localStorage.getItem('aitechnews_ticker_cache');
-                const cacheTime = localStorage.getItem('aitechnews_ticker_time');
+                let cached = null;
+                let cacheTime = null;
+                try {
+                    cached = localStorage.getItem('aitechnews_ticker_cache');
+                    cacheTime = localStorage.getItem('aitechnews_ticker_time');
+                } catch (e) {
+                    console.warn("localStorage is not available for ticker:", e);
+                }
                 if (cached && cacheTime && (Date.now() - parseInt(cacheTime) < 10 * 60 * 1000)) {
                     setTickerData(JSON.parse(cached));
                     return;
@@ -62,8 +68,12 @@ export default function Ticker() {
                 const finalData = [...liveData, ...STATIC_FALLBACK.filter(x => ['TSLA', 'AAPL', 'NVDA'].includes(x.symbol))];
                 setTickerData(finalData);
                 
-                localStorage.setItem('aitechnews_ticker_cache', JSON.stringify(finalData));
-                localStorage.setItem('aitechnews_ticker_time', Date.now().toString());
+                try {
+                    localStorage.setItem('aitechnews_ticker_cache', JSON.stringify(finalData));
+                    localStorage.setItem('aitechnews_ticker_time', Date.now().toString());
+                } catch (e) {
+                    // Ignore
+                }
             } catch (err) {
                 console.warn("CoinGecko Live API Error, using static fallback data", err);
             }

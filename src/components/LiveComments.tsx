@@ -19,11 +19,25 @@ export default function LiveComments({ slug }: { slug: string }) {
   // Load from local storage
   useEffect(() => {
     setIsClient(true);
-    const existing = localStorage.getItem(`comments_${slug}`);
-    if (existing) {
-      setComments(JSON.parse(existing));
-    } else {
-      // Default fake comment to start
+    try {
+      const existing = localStorage.getItem(`comments_${slug}`);
+      if (existing) {
+        setComments(JSON.parse(existing));
+      } else {
+        // Default fake comment to start
+        const defaultComment = {
+          id: "1",
+          name: "Aman Gupta",
+          text: "Bahut badhiya article hai! Is topic par aur bhi jankari chahiye thi.",
+          time: "2 hours ago",
+          likes: 14,
+        };
+        setComments([defaultComment]);
+        localStorage.setItem(`comments_${slug}`, JSON.stringify([defaultComment]));
+      }
+    } catch (e) {
+      console.warn("localStorage is not available for comments:", e);
+      // Fallback default comment
       const defaultComment = {
         id: "1",
         name: "Aman Gupta",
@@ -32,7 +46,6 @@ export default function LiveComments({ slug }: { slug: string }) {
         likes: 14,
       };
       setComments([defaultComment]);
-      localStorage.setItem(`comments_${slug}`, JSON.stringify([defaultComment]));
     }
   }, [slug]);
 
@@ -50,7 +63,11 @@ export default function LiveComments({ slug }: { slug: string }) {
 
     const updated = [newComment, ...comments];
     setComments(updated);
-    localStorage.setItem(`comments_${slug}`, JSON.stringify(updated));
+    try {
+      localStorage.setItem(`comments_${slug}`, JSON.stringify(updated));
+    } catch (e) {
+      console.warn("Failed to save comment to localStorage:", e);
+    }
     setNewText("");
     setNewName("");
   };
@@ -61,7 +78,11 @@ export default function LiveComments({ slug }: { slug: string }) {
       return c;
     });
     setComments(updated);
-    localStorage.setItem(`comments_${slug}`, JSON.stringify(updated));
+    try {
+      localStorage.setItem(`comments_${slug}`, JSON.stringify(updated));
+    } catch (e) {
+      console.warn("Failed to save comment like to localStorage:", e);
+    }
   };
 
   if (!isClient) return null;
