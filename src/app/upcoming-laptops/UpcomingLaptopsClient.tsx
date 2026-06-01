@@ -84,7 +84,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['AMD Ryzen 5 8645HS', '8GB LPDDR5', '14" FHD+ IPS', 'Metal Body 1.3kg'],
     highlight: 'Budget King Under ₹40K',
     useCase: 'Students',
-    articleSlug: 'upcoming-realme-book-air-2026-05-07',
+    articleSlug: 'upcoming-realme-book-air-2026',
   },
   // ── CONFIRMED (June-July 2026) ──
   {
@@ -98,7 +98,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Apple M5 Chip', '24GB Unified RAM', 'Liquid Retina Display', '22-hr Battery'],
     highlight: 'Thinnest MacBook Ever',
     useCase: 'Students & Creators',
-    articleSlug: 'upcoming-macbook-air-m5-2026-05-07',
+    articleSlug: 'upcoming-macbook-air-m5-2026',
   },
   {
     id: 'lenovo-ideapad-slim-5-2026',
@@ -111,7 +111,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['AMD Ryzen 7 8845HS', 'Integrated RDNA 3.5', '15.6" FHD+ IPS', '16GB DDR5'],
     highlight: 'Best Under ₹55K',
     useCase: 'Students',
-    articleSlug: 'upcoming-lenovo-ideapad-slim-5-2026-05-07',
+    articleSlug: 'upcoming-lenovo-ideapad-slim-5-2026',
   },
   {
     id: 'samsung-galaxy-book-6-ultra',
@@ -124,7 +124,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Intel Arrow Lake Ultra 9', 'RTX 5060 8GB', '16" 3K Dynamic AMOLED', 'Galaxy AI Suite'],
     highlight: 'Galaxy AI Ecosystem',
     useCase: 'Office',
-    articleSlug: 'upcoming-samsung-galaxy-book-6-ultra-2026-05-07',
+    articleSlug: 'upcoming-samsung-galaxy-book-5-ultra-2026',
   },
   {
     id: 'hp-omnibook-ultra-flip-2026',
@@ -150,7 +150,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Intel Arrow Lake Ultra 5 NPU', 'Intel Arc iGPU', '16" FHD+ IPS', 'Copilot+ PC'],
     highlight: 'AI Laptop Budget',
     useCase: 'Students',
-    articleSlug: 'upcoming-dell-inspiron-16-ai-2026-05-07',
+    articleSlug: 'upcoming-dell-inspiron-16-ai-2026',
   },
   {
     id: 'asus-rog-strix-g18-2026',
@@ -163,7 +163,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Intel Arrow Lake i9-14900HX', 'RTX 5090 16GB', '18" 240Hz QHD+', '4TB SSD'],
     highlight: 'Gaming Monster',
     useCase: 'Gaming',
-    articleSlug: 'upcoming-asus-rog-strix-g18-2026-05-07',
+    articleSlug: 'upcoming-asus-rog-strix-g18-2026',
   },
   {
     id: 'lenovo-yoga-pro-9i-2026',
@@ -176,7 +176,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Intel Arrow Lake Ultra 7', 'RTX 5060 8GB', '16" Mini-LED 165Hz', 'B&W Speakers'],
     highlight: 'Best Display Laptop',
     useCase: 'Creators',
-    articleSlug: 'upcoming-lenovo-yoga-pro-9i-2026-05-07',
+    articleSlug: 'upcoming-lenovo-yoga-pro-9i-2026',
   },
   {
     id: 'acer-nitro-v-16-2026',
@@ -203,7 +203,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Intel Arrow Lake Ultra 9', 'RTX 5070 Ti', '16" 4K OLED', '32GB LPDDR5X'],
     highlight: 'Creator\'s Dream',
     useCase: 'Creators',
-    articleSlug: 'upcoming-dell-xps-16-2026-05-07',
+    articleSlug: 'upcoming-dell-xps-16-2026',
   },
   {
     id: 'xiaomi-book-pro-2026',
@@ -216,7 +216,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Intel Arrow Lake Ultra 7', 'Integrated Arc GPU', '16" 3.1K OLED', '100W USB-C'],
     highlight: 'OLED Under ₹80K',
     useCase: 'Office',
-    articleSlug: 'upcoming-xiaomi-book-pro-16-2026-05-07',
+    articleSlug: 'upcoming-xiaomi-book-pro-16-2026',
   },
   {
     id: 'acer-predator-helios-18-2026',
@@ -229,7 +229,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Intel Arrow Lake i9', 'RTX 5080 12GB', '18" 240Hz IPS', '5th Gen AeroBlade Fan'],
     highlight: 'Cooling King',
     useCase: 'Gaming',
-    articleSlug: 'upcoming-acer-predator-helios-18-2026-05-07',
+    articleSlug: 'upcoming-acer-predator-helios-18-2026',
   },
   {
     id: 'hp-omen-18-2026',
@@ -242,7 +242,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['AMD Ryzen 9 9950X', 'RTX 5080 12GB', '18" 240Hz QHD', 'Per-key RGB Keyboard'],
     highlight: 'AMD Gaming Beast',
     useCase: 'Gaming',
-    articleSlug: 'upcoming-hp-omen-18-2026-05-07',
+    articleSlug: 'upcoming-hp-omen-18-2026',
   },
   {
     id: 'msi-raider-18-hx-2026',
@@ -255,7 +255,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Intel Arrow Lake HX i9', 'RTX 5090 16GB', '18" UHD+ 120Hz', '99.9Whr Battery'],
     highlight: 'No-Compromise Gaming',
     useCase: 'Gaming',
-    articleSlug: 'upcoming-msi-raider-18-hx-2026-05-07',
+    articleSlug: 'upcoming-msi-raider-18-hx-2026',
   },
   {
     id: 'macbook-pro-m5-pro',
@@ -268,7 +268,7 @@ const UPCOMING_LAPTOPS: UpcomingLaptop[] = [
     keySpecs: ['Apple M5 Pro Chip', '36GB Unified RAM', 'Liquid Retina XDR', '24-hr Battery'],
     highlight: 'Pro Workstation',
     useCase: 'Creators',
-    articleSlug: 'upcoming-macbook-pro-m5-pro-2026-05-07',
+    articleSlug: 'upcoming-macbook-pro-m5-pro-2026',
   },
   {
     id: 'microsoft-surface-pro-11',

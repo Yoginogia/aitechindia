@@ -51,7 +51,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'launching-soon',
     keySpecs: ['Dimensity 9400+', '200MP ZEISS Main Camera', '6500mAh Battery', '100W FlashCharge'],
     highlight: 'Camera Flagship',
-    articleSlug: 'upcoming-vivo-x300-ultra-2026-05-07',
+    articleSlug: 'gadgets-vivo-x300-ultra-launch-india-2026-05-29',
   },
   {
     id: 'oneplus-nord-ce-6',
@@ -63,7 +63,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'launching-soon',
     keySpecs: ['Snapdragon 7s Gen 3', '50MP Sony IMX882', '5500mAh Battery', '80W SUPERVOOC'],
     highlight: 'Mid-Range Winner',
-    articleSlug: 'upcoming-oneplus-nord-ce-6-2026-05-07',
+    articleSlug: 'gadgets-oneplus-nord-ce-6-launch-india-2026-05-28',
   },
   {
     id: 'oppo-find-x9-ultra',
@@ -75,7 +75,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'launching-soon',
     keySpecs: ['Snapdragon 8 Elite', 'Hasselblad Quad Camera', '6000mAh Battery', '100W SUPERVOOC'],
     highlight: 'Hasselblad Camera Beast',
-    articleSlug: 'upcoming-oppo-find-x9-ultra-2026-05-07',
+    articleSlug: 'oppo-find-x9-ultra-india-launch-specs-price',
   },
   {
     id: 'xiaomi-17t',
@@ -111,7 +111,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'launching-soon',
     keySpecs: ['Exynos 1580', '50MP OIS Camera', '5000mAh Battery', 'One UI 7'],
     highlight: 'Mid-range King',
-    articleSlug: 'upcoming-samsung-galaxy-a57-2026-05-07',
+    articleSlug: 'upcoming-samsung-galaxy-a57-2026-04-22',
   },
   // ── CONFIRMED (June-July 2026) ──
   {
@@ -124,7 +124,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Snapdragon 8 Elite+', 'Hasselblad 50MP Triple', '6000mAh Battery', '100W SUPERVOOC'],
     highlight: 'Performance Beast',
-    articleSlug: 'upcoming-oneplus-14-2026-05-07',
+    articleSlug: 'upcoming-oneplus-14-2026-04-22',
   },
   {
     id: 'poco-f8-pro',
@@ -136,7 +136,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Snapdragon 8s Gen 4', '200MP Camera', '5500mAh Battery', '120W HyperCharge'],
     highlight: 'Price Killer',
-    articleSlug: 'upcoming-poco-f8-pro-2026-05-07',
+    articleSlug: 'upcoming-poco-f8-pro-2026-04-22',
   },
   {
     id: 'samsung-galaxy-s25-fe',
@@ -160,7 +160,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Dimensity 7300', '50MP Sony Camera', '5500mAh Battery', 'Modular Design 2.0'],
     highlight: 'Most Unique Budget Phone',
-    articleSlug: 'upcoming-cmf-phone-3-2026-05-07',
+    articleSlug: 'gadgets-cmf-phone-3-launch-date-india-price-specs-2026-05-18',
   },
   {
     id: 'iqoo-neo-11',
@@ -172,7 +172,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Snapdragon 8s Gen 4', '144Hz AMOLED', '6000mAh Battery', '80W FlashCharge'],
     highlight: 'Gaming Value King',
-    articleSlug: 'upcoming-iqoo-neo-11-2026-05-07',
+    articleSlug: 'upcoming-iqoo-neo-11-2026-04-22',
   },
   {
     id: 'nothing-phone-4',
@@ -184,7 +184,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Snapdragon 8 Elite', 'Glyph Interface 3.0', '50MP Dual Camera', 'NothingOS 4.0'],
     highlight: 'Unique Design',
-    articleSlug: 'upcoming-nothing-phone-4-2026-05-07',
+    articleSlug: 'upcoming-nothing-phone-4-2026-04-22',
   },
   {
     id: 'realme-gt-8-pro',
@@ -196,7 +196,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'confirmed',
     keySpecs: ['Snapdragon 8s Gen 4', '50MP Sony IMX890', '5500mAh Battery', '100W Charge'],
     highlight: 'Budget Flagship',
-    articleSlug: 'upcoming-realme-gt-8-pro-2026-05-07',
+    articleSlug: 'upcoming-realme-gt-8-pro-2026-04-22',
   },
   // ── RUMORED (August-January 2027) ──
   {
@@ -209,7 +209,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Snapdragon 8 Elite', '4.2" Cover Display', '50MP Dual Camera', 'Foldable Design'],
     highlight: 'Best Flip Phone',
-    articleSlug: 'upcoming-motorola-razr-60-ultra-2026-05-07',
+    articleSlug: 'upcoming-motorola-razr-60-ultra-2026-04-22',
   },
   {
     id: 'honor-magic-8-pro',
@@ -233,7 +233,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['A20 Pro 3nm Chip', '48MP Periscope 5x Camera', 'ProMotion 120Hz', 'Titanium Grade 5'],
     highlight: 'Under-Display FaceID',
-    articleSlug: 'upcoming-iphone-18-pro-2026-05-07',
+    articleSlug: 'upcoming-iphone-18-pro-2026-04-22',
   },
   {
     id: 'iphone-18-air',
@@ -257,7 +257,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Dimensity 8400 Ultra', '200MP Camera', '5500mAh Battery', '67W Turbo Charge'],
     highlight: 'Budget Camera King',
-    articleSlug: 'upcoming-redmi-note-16-pro-plus-2026-05-07',
+    articleSlug: 'upcoming-redmi-note-16-pro-2026-04-22',
   },
   {
     id: 'pixel-11-pro',
@@ -269,7 +269,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Tensor G6 2nm Chip', 'AI Camera Pro 50MP', '7 Years Updates', '120Hz LTPO OLED'],
     highlight: 'Best AI Camera Phone',
-    articleSlug: 'upcoming-google-pixel-11-pro-2026-05-07',
+    articleSlug: 'upcoming-google-pixel-11-pro-2026-04-22',
   },
   {
     id: 'samsung-galaxy-s27-ultra',
@@ -281,7 +281,7 @@ const UPCOMING_PHONES: UpcomingPhone[] = [
     status: 'rumored',
     keySpecs: ['Snapdragon 8 Gen 5', '200MP + Periscope', '6000mAh Battery', 'Gorilla Armor 2'],
     highlight: 'Ultimate Flagship',
-    articleSlug: 'upcoming-samsung-galaxy-s27-ultra-2027-05-07',
+    articleSlug: 'upcoming-samsung-galaxy-s27-ultra-2027-04-22',
   },
 ];
 
