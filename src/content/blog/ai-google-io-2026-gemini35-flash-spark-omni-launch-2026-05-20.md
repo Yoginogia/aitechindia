@@ -3,7 +3,7 @@ title: "Google I/O 2026 का धमाका: Gemini 3.5 Flash, Gemini Spark �
 date: "2026-05-20"
 category: "AI"
 excerpt: "Google I/O 2026 में Gemini 3.5 Flash को डिफ़ॉल्ट मॉडल बनाया गया, Gemini Spark पर्सनल AI एजेंट लॉन्च हुआ, और Omni Flash वर्ल्ड मॉडल ने Physics-Based Video Generation से सबको हैरान किया।"
-image: "/images/blog/ai_google_io_gemini35_spark_2026.png"
+image: "/images/blog/ai_google_io_gemini35_spark_2026.webp"
 readingTime: "7 min read"
 ---
 

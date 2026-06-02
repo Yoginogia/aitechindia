@@ -3,7 +3,7 @@ title: "Crypto Legal Drama: Binance के Ex-CEO 'CZ' की Pardon Petition �
 date: "2026-05-10"
 category: "Crypto"
 excerpt: "Binance के founder Changpeng 'CZ' Zhao की क्षमादान (pardon) appeal का rival crypto exchanges विरोध कर रहे हैं। जानिए इस legal battle का crypto market पर क्या असर पड़ेगा।"
-image: "/images/blog/crypto-cz-pardon-rivals-2026-05-10.png"
+image: "/images/blog/crypto-cz-pardon-rivals-2026-05-10.webp"
 readingTime: "7 min read"
 ---
 

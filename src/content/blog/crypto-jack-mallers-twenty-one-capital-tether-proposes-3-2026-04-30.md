@@ -3,7 +3,7 @@ title: "Strike CEO Jack Mallers का बड़ा दांव: Tether (USDT) 
 date: "2026-04-30"
 category: "Crypto"
 excerpt: "क्रिप्टो इंडस्ट्री में सबसे बड़े मर्जर (Merger) की अटकलें तेज़ हो गई हैं। Strike के CEO Jack Mallers ने Tether, Strike और 21 Capital के बीच एक 3-way merger का प्रस्ताव रखा है। जानिए इसके मायने।"
-image: "/images/blog/tether_crypto_merger_2026.png"
+image: "/images/blog/tether_crypto_merger_2026.webp"
 readingTime: "6 min read"
 ---
 

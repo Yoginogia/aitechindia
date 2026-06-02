@@ -3,7 +3,7 @@ title: "Delhi Metro Heatwave Tech: भीषण गर्मी में भी
 date: "2026-05-27"
 category: "Software"
 excerpt: "दिल्ली में रिकॉर्ड तोड़ गर्मी और लू के बावजूद दिल्ली मेट्रो का कूलिंग सिस्टम सुचारू रूप से चल रहा है। जानिए इसके पीछे का स्मार्ट आईओटी (IoT) और एयर-कूलिंग ग्रिड सॉफ्टवेयर।"
-image: "/images/blog/metro_heatwave_tech.png"
+image: "/images/blog/metro_heatwave_tech.webp"
 trending: true
 ---
 

@@ -3,7 +3,7 @@ title: "Drishyam 3 AI VFX: अजय देवगन को यंग लुक 
 date: "2026-05-30"
 category: "AI"
 excerpt: "आगामी फिल्म Drishyam 3 में सुपरस्टार अजय देवगन को उनके पुराने लुक में वापस लाने के लिए एडवांस्ड एआई डी-एजिंग तकनीक का उपयोग किया जाएगा।"
-image: "/images/blog/drishyam_3_ai_vfx.png"
+image: "/images/blog/drishyam_3_ai_vfx.webp"
 trending: true
 ---
 

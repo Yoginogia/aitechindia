@@ -3,7 +3,7 @@ title: "Glassworm Botnet Disrupted: गूगल और क्राउडस्
 date: "2026-05-28"
 category: "Software"
 excerpt: "Google, CrowdStrike और Shadowserver ने मिलकर खतरनाक Glassworm बॉटनेट को तबाह कर दिया है जो भारतीय सॉफ्टवेयर डेवलपर्स को निशाना बना रहा था।"
-image: "/images/blog/glassworm_botnet_disrupted.png"
+image: "/images/blog/glassworm_botnet_disrupted.webp"
 trending: true
 ---
 

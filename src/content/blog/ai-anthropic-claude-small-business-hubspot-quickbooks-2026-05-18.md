@@ -3,7 +3,7 @@ title: "Anthropic ने लॉन्च किया 'Claude for Small Business
 date: "2026-05-18"
 category: "AI"
 excerpt: "Anthropic ने छोटे व्यापारियों (Small Businesses) के लिए 'Claude for Small Business' सूट लॉन्च किया है। यह HubSpot, QuickBooks, और Microsoft 365 के साथ इंटीग्रेट करता है। जानिए भारतीय दुकानदारों और SMEs के लिए इसके क्या मायने हैं।"
-image: "/images/blog/ai-uber-openai-2026-05-07.png"
+image: "/images/blog/ai-uber-openai-2026-05-07.webp"
 readingTime: "6 min read"
 ---
 

@@ -3,7 +3,7 @@ title: "OnePlus Nord CE 6 launch: भारत में 8000mAh बैटरी
 date: "2026-05-23"
 category: "Gadgets"
 excerpt: "8000mAh की विशाल बैटरी और Snapdragon 7s Gen 4 के साथ OnePlus Nord CE 6 launch हो गया है। जानिए क्या है इसकी कीमत और क्या यह स्मार्टफोन आपके लिए बेस्ट है।"
-image: "/images/blog/deals-oneplus-nord-ce6-2026-05-08.png"
+image: "/images/blog/deals-oneplus-nord-ce6-2026-05-08.webp"
 ---
 
 ## OnePlus Nord CE 6 launch: मिड-रेंज मार्केट का नया किंग!

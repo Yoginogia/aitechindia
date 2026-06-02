@@ -3,7 +3,7 @@ title: "Google Gemini 3.0 Leak: क्या यह GPT-5.5 को पीछे 
 date: "2026-05-10"
 category: "AI"
 excerpt: "Google के upcoming Gemini 3.0 model के नए features लीक हुए हैं। जानिए इस next-gen AI model में क्या नया है और यह OpenAI के GPT-5.5 को कैसे टक्कर देगा।"
-image: "/images/blog/ai-google-gemini-3-leak-2026-05-10.png"
+image: "/images/blog/ai-google-gemini-3-leak-2026-05-10.webp"
 readingTime: "6 min read"
 ---
 

@@ -3,7 +3,7 @@ title: "Flipkart Sasa Lele Summer Sale 2026: AI-Powered Deals से मिल�
 date: "2026-05-08"
 category: "AI"
 excerpt: "Flipkart की Sasa Lele Summer Sale शुरू हो गई है! इस बार AI-powered personalized recommendations, early access deals, और SBI credit card पर 10% instant discount मिल रहा है। जानिए best deals कौन सी हैं।"
-image: "/images/blog/ai-flipkart-summer-sale-2026-05-08.png"
+image: "/images/blog/ai-flipkart-summer-sale-2026-05-08.webp"
 readingTime: "6 min read"
 ---
 

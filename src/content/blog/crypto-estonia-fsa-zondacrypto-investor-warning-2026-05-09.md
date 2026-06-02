@@ -3,7 +3,7 @@ title: "Estonia FSA की Investor Warning: ZondaCrypto से रहें स
 date: "2026-05-09"
 category: "Crypto"
 excerpt: "Estonia के Financial Supervision Authority (FSA) ने crypto exchange ZondaCrypto के ख़िलाफ़ चेतावनी (warning) जारी की है। Investors के लिए ज़रूरी update।"
-image: "/images/blog/crypto-cz-pardon-rivals-2026-05-10.png"
+image: "/images/blog/crypto-cz-pardon-rivals-2026-05-10.webp"
 readingTime: "4 min read"
 ---
 

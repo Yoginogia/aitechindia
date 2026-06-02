@@ -3,7 +3,7 @@ title: "IPL 2026 Playoff Broadcast Tech: कैसे DRS और अल्ट्
 date: "2026-05-28"
 category: "Software"
 excerpt: "IPL 2026 Qualifier 2 में राजस्थान रॉयल्स बनाम सनराइजर्स हैदराबाद के मैच में DRS और हॉक-आई एआई कैमरों ने कैसे काम किया? जानिए डिजिटल ब्रॉडकास्टिंग की पूरी तकनीक।"
-image: "/images/blog/ipl_playoff_broadcast_tech.png"
+image: "/images/blog/ipl_playoff_broadcast_tech.webp"
 trending: true
 ---
 

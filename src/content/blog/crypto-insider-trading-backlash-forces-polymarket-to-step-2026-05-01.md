@@ -3,7 +3,7 @@ title: "Polymarket पर इनसाइडर ट्रेडिंग का 
 date: "2026-05-01"
 category: "Crypto"
 excerpt: "दुनिया के सबसे बड़े डिसेंट्रलाइज्ड प्रेडिक्शन मार्केट (Prediction Market) 'Polymarket' पर गंभीर इनसाइडर ट्रेडिंग (Insider Trading) के आरोप लग रहे हैं। जानिए क्या है पूरा विवाद और कैसे यह प्लेटफार्म खुद को बचाने की कोशिश कर रहा है।"
-image: "/images/blog/polymarket_insider_trading_2026.png"
+image: "/images/blog/polymarket_insider_trading_2026.webp"
 author: "AITechNews Desk"
 ---
 

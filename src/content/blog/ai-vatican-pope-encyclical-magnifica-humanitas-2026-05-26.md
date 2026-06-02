@@ -3,7 +3,7 @@ title: "Pope AI Encyclical Magnifica Humanitas: वैटिकन का एआ
 date: "2026-05-26"
 category: "AI"
 excerpt: "पॉप लियो XIV ने अपने पहले एनसाइक्लिकल 'Magnifica Humanitas' में एआई के सैन्य और युद्ध में इस्तेमाल पर पूर्ण प्रतिबंध लगाने की अपील की है।"
-image: "/images/blog/vatican_ai_ethics.png"
+image: "/images/blog/vatican_ai_ethics.webp"
 ---
 
 ## Pope AI Encyclical Magnifica Humanitas: एआई के नैतिक नियमन पर वैटिकन का संदेश!

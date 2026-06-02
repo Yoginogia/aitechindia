@@ -3,7 +3,7 @@ title: "Vivo X300 Ultra India Launch: 200MP ZEISS Camera, Snapdragon 8 Elite —
 date: "2026-05-08"
 category: "Gadgets"
 excerpt: "Vivo X300 Ultra भारत में launch हो गया है! 200MP ZEISS optics, Snapdragon 8 Elite Gen 5, 5500mAh battery — ये 2026 का सबसे powerful camera phone है। Full review और Indian pricing यहाँ।"
-image: "/images/blog/gadgets-vivo-x300-ultra-2026-05-08.png"
+image: "/images/blog/gadgets-vivo-x300-ultra-2026-05-08.webp"
 readingTime: "6 min read"
 ---
 

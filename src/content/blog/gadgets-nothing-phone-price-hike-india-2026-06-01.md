@@ -3,7 +3,7 @@ title: "Nothing Phone price hike: भारत में बढ़े दाम,
 date: "2026-06-01"
 category: "Gadgets"
 excerpt: "Nothing Phone 2 और Phone 2a की कीमतों में भारत में ₹2,000 से ₹3,000 की बढ़ोतरी हुई है। कंपनी ने इसके पीछे इम्पोर्ट ड्यूटी और कॉम्पोनेंट्स की बढ़ती कीमतों को वजह बताया है।"
-image: "/images/blog/nothing_phone_price_hike_india.png"
+image: "/images/blog/nothing_phone_price_hike_india.webp"
 trending: true
 ---
 

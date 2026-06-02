@@ -3,7 +3,7 @@ title: "AI से Cancer Detection: Indian Startup ने बनाया 99% Ac
 date: "2026-05-10"
 category: "AI"
 excerpt: "भारत के एक health-tech startup ने एक ऐसी AI technology बनाई है जो standard blood test से early-stage cancer को 99% accuracy के साथ detect कर सकती है।"
-image: "/images/blog/ai-cancer-detection-startup-2026-05-10.png"
+image: "/images/blog/ai-cancer-detection-startup-2026-05-10.webp"
 readingTime: "5 min read"
 ---
 

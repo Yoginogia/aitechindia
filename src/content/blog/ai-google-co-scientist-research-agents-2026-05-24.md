@@ -3,7 +3,7 @@ title: "Google Co Scientist AI: विज्ञान की दुनिया 
 date: "2026-05-24"
 category: "AI"
 excerpt: "Google Co-Scientist और FutureHouse के Robin एआई एजेंट्स विज्ञान के क्षेत्र में रिसर्च को कई गुना तेज़ करने के लिए डिज़ाइन किए गए हैं। जानिए ये कैसे काम करते हैं।"
-image: "/images/blog/google_co_scientist_ai.png"
+image: "/images/blog/google_co_scientist_ai.webp"
 ---
 
 ## Google Co Scientist AI: वर्चुअल साइंटिस्ट्स की नई पीढ़ी!

@@ -3,7 +3,7 @@ title: "Honda City 2026 Facelift Leaked: नई ग्रिल, प्रीम
 date: "2026-05-14"
 category: "Gadgets"
 excerpt: "आधिकारिक लॉन्च से ठीक पहले Honda City 2026 फेसलिफ्ट की तस्वीरें ऑनलाइन लीक हो गई हैं। जानिए इस नई सेडान में क्या नया और ख़ास मिलने वाला है।"
-image: "/images/blog/gadgets_honda_city_2026.png"
+image: "/images/blog/gadgets_honda_city_2026.webp"
 readingTime: "5 min read"
 ---
 

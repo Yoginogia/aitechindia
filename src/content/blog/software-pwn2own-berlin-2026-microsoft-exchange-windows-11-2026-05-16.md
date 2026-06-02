@@ -3,7 +3,7 @@ title: "Pwn2Own Berlin 2026: Windows 11 और Microsoft Exchange हैक! भ
 date: "2026-05-16"
 category: "Software"
 excerpt: "दुनिया की सबसे बड़ी हैकिंग प्रतियोगिता 'Pwn2Own Berlin 2026' के दूसरे दिन, एथिकल हैकर्स ने Windows 11 और Microsoft Exchange में गंभीर सुरक्षा खामियां (Vulnerabilities) ढूंढ निकालीं। जानिए भारतीय यूज़र्स को क्या करना चाहिए।"
-image: "/images/blog/software-ivanti-zero-day-2026-05-08.png"
+image: "/images/blog/software-ivanti-zero-day-2026-05-08.webp"
 readingTime: "6 min read"
 ---
 

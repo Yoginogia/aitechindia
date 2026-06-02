@@ -3,7 +3,7 @@ title: "Lava Bold N2 5G: ₹10,000 के बजट में सबसे श�
 date: "2026-06-02"
 category: "Best Phones"
 excerpt: "Lava Bold N2 5G जून 2026 में आ रहा है। MediaTek Dimensity 6300, 50MP Dual Camera, 5000mAh Battery, Clean Android 16 — मात्र ₹9,999 में!"
-image: "/images/blog/asus_expertbook_ultra.webp"
+image: "/images/blog/lava_bold_n2_5g.webp"
 readingTime: "4 min read"
 ---
 

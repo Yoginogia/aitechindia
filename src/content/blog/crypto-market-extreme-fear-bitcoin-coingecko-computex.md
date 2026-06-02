@@ -3,7 +3,7 @@ title: "Crypto market extreme fear index falls: Bitcoin $71,000 के नीच
 date: "2026-06-02"
 category: "Crypto"
 excerpt: "क्रिप्टो बाजार में मंदी का दौर जारी है। फियर एंड ग्रीड इंडेक्स गिरकर 23 पर पहुंच गया है, जो निवेशकों के बीच अत्यधिक डर (Extreme Fear) को दर्शाता है।"
-image: "/images/blog/crypto_market_extreme_fear.png"
+image: "/images/blog/crypto_market_extreme_fear.webp"
 trending: true
 ---
 

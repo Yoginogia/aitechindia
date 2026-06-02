@@ -3,7 +3,7 @@ title: "NVIDIA RTX Spark AI PC: भारत में लॉन्च हुआ
 date: "2026-06-01"
 category: "AI"
 excerpt: "NVIDIA ने अपनी नई RTX Spark AI GPU सीरीज पेश की है, जो पीसी पर ही बिना इंटरनेट के हैवी Agentic AI काम आसानी से कर सकती है। जानिए भारतीय मार्केट के लिए यह क्यों गेम-चेंजर है।"
-image: "/images/blog/nvidia_rtx_spark_ai_pc.png"
+image: "/images/blog/nvidia_rtx_spark_ai_pc.webp"
 trending: true
 ---
 

@@ -3,7 +3,7 @@ title: "Crypto Exchanges की US Lawmakers से बड़ी माँग: 'न
 date: "2026-05-09"
 category: "Crypto"
 excerpt: "Top Crypto exchanges US lawmakers से नए strict regulations में ढील (relaxation) की माँग कर रहे हैं। जानिए क्या है पूरा विवाद।"
-image: "/images/blog/crypto-bitcoin-stratum-v2-2026-05-10.png"
+image: "/images/blog/crypto-bitcoin-stratum-v2-2026-05-10.webp"
 readingTime: "5 min read"
 ---
 

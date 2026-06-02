@@ -3,7 +3,7 @@ title: "Snowflake ने पेश किया 'AI-Native' Data Cloud: अब D
 date: "2026-05-17"
 category: "AI"
 excerpt: "Snowflake ने अपने AI Data Cloud में नए 'AI-Native' फीचर्स और Dataiku Cobuild का इंटीग्रेशन शामिल किया है। अब बड़ी कंपनियां बिना सिक्योरिटी की चिंता किए AI Agents को अपने डेटा पर ट्रेन कर सकेंगी।"
-image: "/images/blog/ai_midjourney_v7_3d_2026.png"
+image: "/images/blog/ai_midjourney_v7_3d_2026.webp"
 readingTime: "5 min read"
 ---
 

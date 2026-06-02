@@ -3,7 +3,7 @@ title: "Canvas LMS Breach: 275 Million Student Records Leaked — Indian Univers
 date: "2026-05-08"
 category: "Software"
 excerpt: "दुनिया के सबसे popular Learning Management System Canvas में massive data breach हुआ है। ShinyHunters hacker group ने 275 million records चुराए — names, emails, student IDs सब exposed। Indian universities पर impact जानिए।"
-image: "/images/blog/software-canvas-breach-2026-05-08.png"
+image: "/images/blog/software-canvas-breach-2026-05-08.webp"
 readingTime: "5 min read"
 ---
 

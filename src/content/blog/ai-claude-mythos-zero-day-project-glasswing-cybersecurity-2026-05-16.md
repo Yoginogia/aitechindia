@@ -3,7 +3,7 @@ title: "Anthropic Claude Mythos ने खोजे हज़ारों Zero-D
 date: "2026-05-16"
 category: "AI"
 excerpt: "Anthropic के नए AI मॉडल 'Claude Mythos' ने हज़ारों Legacy Systems में Zero-Day Vulnerabilities खोज निकाली हैं। इसके बाद Microsoft, Google, और अन्य बड़ी कंपनियों ने मिलकर 'Project Glasswing' नाम का साइबर सुरक्षा कंसोर्टियम बनाया है।"
-image: "/images/blog/ai-cancer-detection-startup-2026-05-10.png"
+image: "/images/blog/ai-cancer-detection-startup-2026-05-10.webp"
 readingTime: "6 min read"
 ---
 

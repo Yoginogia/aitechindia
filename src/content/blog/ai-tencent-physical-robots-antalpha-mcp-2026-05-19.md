@@ -3,7 +3,7 @@ title: "Physical AI की दुनिया में भूचाल! Tencent
 date: "2026-05-19"
 category: "AI"
 excerpt: "मई 2026 की सबसे बड़ी AI न्यूज़: Tencent Cloud ने Vision Agents लॉन्च किए, जबकि Antalpha ने नया MCP फ्रेमवर्क पेश किया। दक्षिण कोरिया में इंसान और रोबोट मिलकर काम कर रहे हैं।"
-image: "/images/blog/ai_tencent_physical_robots_2026.png"
+image: "/images/blog/ai_tencent_physical_robots_2026.webp"
 readingTime: "6 min read"
 ---
 

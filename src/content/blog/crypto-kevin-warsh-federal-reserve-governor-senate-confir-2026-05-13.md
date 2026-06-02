@@ -3,7 +3,7 @@ title: "US Federal Reserve में Kevin Warsh की एंट्री: क�
 date: "2026-05-13"
 category: "Crypto"
 excerpt: "केविन वॉर्श (Kevin Warsh) को US Federal Reserve का नया गवर्नर नियुक्त किया जा सकता है। जानिए उनके क्रिप्टो (Bitcoin) को लेकर क्या विचार हैं।"
-image: "/images/blog/crypto_kevin_warsh_2026.png"
+image: "/images/blog/crypto_kevin_warsh_2026.webp"
 readingTime: "7 min read"
 ---
 

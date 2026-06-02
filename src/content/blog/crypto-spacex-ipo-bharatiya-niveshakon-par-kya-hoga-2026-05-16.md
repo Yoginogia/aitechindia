@@ -3,7 +3,7 @@ title: "SpaceX IPO जून 2026: Elon Musk की कंपनी Stock Market
 date: "2026-05-16"
 category: "Crypto"
 excerpt: "SpaceX का बहुप्रतीक्षित IPO जून 11 को NASDAQ पर लिस्ट होने जा रहा है। $250 बिलियन वैल्यूएशन वाली यह दुनिया की सबसे बड़ी प्राइवेट कंपनी अब पब्लिक हो रही है। जानिए भारतीय निवेशकों के लिए इसका क्या मतलब है।"
-image: "/images/blog/crypto_circle_stock_rally_2026.png"
+image: "/images/blog/crypto_circle_stock_rally_2026.webp"
 readingTime: "7 min read"
 ---
 

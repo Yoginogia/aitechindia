@@ -3,7 +3,7 @@ title: "Anthropic AI Startup की वैल्युएशन $965 Billion प
 date: "2026-05-29"
 category: "AI"
 excerpt: "$965 Billion वैल्युएशन के साथ Anthropic बना सबसे कीमती AI startup। $65 Billion की नई फंडिंग के बाद ChatGPT बनाने वाली OpenAI पर बढ़ा दबाव।"
-image: "/images/blog/anthropic_valuation_965b.png"
+image: "/images/blog/anthropic_valuation_965b.webp"
 trending: true
 ---
 

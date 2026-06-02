@@ -3,7 +3,7 @@ title: "Skoda-VW का India Plan: ICE (Petrol) गाड़ियों को EV
 date: "2026-05-10"
 category: "Gadgets"
 excerpt: "Volkswagen और Skoda भारत में अपने Electric Vehicles उतारने के लिए CMP platform को modify करके 'IMP' (India Main Platform) बना रहे हैं। जानिए इनके upcoming EVs की details।"
-image: "/images/blog/gadgets-skoda-vw-ev-2026-05-10.png"
+image: "/images/blog/gadgets-skoda-vw-ev-2026-05-10.webp"
 readingTime: "6 min read"
 ---
 

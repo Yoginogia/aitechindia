@@ -3,7 +3,7 @@ title: "Flipkart Back to Campus Deals: लैपटॉप्स और गैज
 date: "2026-05-28"
 category: "Deals"
 excerpt: "Flipkart Back to Campus सेल के आखरी दिन HP, ASUS, Apple MacBooks और एक्सेसरीज पर 45% तक का बंपर डिस्काउंट मिल रहा है। देखिए बेस्ट ऑफर्स की टेबल।"
-image: "/images/blog/flipkart_campus_deals.png"
+image: "/images/blog/flipkart_campus_deals.webp"
 trending: true
 ---
 

@@ -3,7 +3,7 @@ title: "Crypto Market Structure Bill: क्या अमेरिका का 
 date: "2026-05-12"
 category: "Crypto"
 excerpt: "अमेरिका में 'Crypto Market Structure Bill' को लेकर बहस तेज़ हो गई है। एथिक्स (Ethics) और डिसेंट्रलाइज़ेशन (Decentralization) के बीच फंसी इस लड़ाई का बाज़ार पर क्या असर होगा?"
-image: "/images/blog/crypto_market_structure_bill_2026.png"
+image: "/images/blog/crypto_market_structure_bill_2026.webp"
 readingTime: "8 min read"
 ---
 

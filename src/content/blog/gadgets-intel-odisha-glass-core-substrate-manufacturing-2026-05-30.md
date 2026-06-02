@@ -3,7 +3,7 @@ title: "Intel का ओडिशा में बड़ा धमाका: भ
 date: "2026-05-30"
 category: "Gadgets"
 excerpt: "Intel ने अमेरिका की 3DGS कंपनी के साथ साझेदारी कर ओडिशा में भारत का पहला ग्लास-कोर सबस्ट्रेट मैन्युफैक्चरिंग प्लांट लगाने के लिए MoU साइन किया है।"
-image: "/images/blog/intel_odisha_manufacturing.png"
+image: "/images/blog/intel_odisha_manufacturing.webp"
 trending: true
 ---
 

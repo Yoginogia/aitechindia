@@ -3,7 +3,7 @@ title: "Apple iOS 20 Leaks: Siri बनेगा एक 'Super Agentic AI'! 📱
 date: "2026-05-10"
 category: "AI"
 excerpt: "Apple WWDC 2026 event से पहले iOS 20 के features लीक हो गए हैं। नया update Siri को एक basic voice assistant से एक powerful 'Agentic AI' में बदल देगा।"
-image: "/images/blog/ai-apple-ios-20-siri-2026-05-10.png"
+image: "/images/blog/ai-apple-ios-20-siri-2026-05-10.webp"
 readingTime: "6 min read"
 ---
 

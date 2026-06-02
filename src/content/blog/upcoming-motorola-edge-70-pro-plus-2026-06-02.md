@@ -3,7 +3,7 @@ title: "Motorola Edge 70 Pro+: 5200 nits ब्राइटनेस और Dime
 date: "2026-06-02"
 category: "Best Phones"
 excerpt: "Motorola Edge 70 Pro+ जून 2026 में आ रहा है। Dimensity 8500 Extreme, 6.8 inch 144Hz AMOLED, 5200 nits Brightness, 50MP Triple OIS — ₹49,999 से शुरू।"
-image: "/images/blog/upcoming_samsung_s27.webp"
+image: "/images/blog/motorola_edge_70_pro_plus.webp"
 readingTime: "5 min read"
 ---
 

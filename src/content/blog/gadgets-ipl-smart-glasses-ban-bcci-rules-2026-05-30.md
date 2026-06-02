@@ -3,7 +3,7 @@ title: "IPL smart glasses ban: BCCI ने खिलाड़ियों के
 date: "2026-05-30"
 category: "Gadgets"
 excerpt: "BCCI ने IPL 2026 के नियमों में बड़ा बदलाव करते हुए प्रतिबंधित क्षेत्रों (PMOA) में स्मार्ट ग्लास पहनने पर पूर्ण प्रतिबंध लगा दिया है।"
-image: "/images/blog/ipl_smart_glasses_ban.png"
+image: "/images/blog/ipl_smart_glasses_ban.webp"
 trending: true
 ---
 

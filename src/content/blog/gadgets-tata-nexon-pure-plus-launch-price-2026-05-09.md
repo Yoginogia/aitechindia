@@ -3,7 +3,7 @@ title: "Tata Nexon 'Pure Plus' Variant Launch: कम कीमत में Pre
 date: "2026-05-09"
 category: "Gadgets"
 excerpt: "Tata Motors ने अपनी bestselling SUV Nexon का नया 'Pure Plus' variant शानदार कीमत पर launch कर दिया है। जानिए इसके features।"
-image: "/images/blog/gadgets-mahindra-hybrid-2026-05-10.png"
+image: "/images/blog/gadgets-mahindra-hybrid-2026-05-10.webp"
 readingTime: "4 min read"
 ---
 

@@ -3,7 +3,7 @@ title: "Bitcoin Mining में बड़ा बदलाव: Top Mining Pools न
 date: "2026-05-10"
 category: "Crypto"
 excerpt: "Bitcoin network के decentralization को बढ़ाने के लिए 7 बड़े mining pools ने Stratum V2 protocol को adopt किया है। जानिए इसका Indian crypto market पर क्या असर होगा।"
-image: "/images/blog/crypto-bitcoin-stratum-v2-2026-05-10.png"
+image: "/images/blog/crypto-bitcoin-stratum-v2-2026-05-10.webp"
 readingTime: "6 min read"
 ---
 

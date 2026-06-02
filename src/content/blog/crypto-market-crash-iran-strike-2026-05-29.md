@@ -3,7 +3,7 @@ title: "Crypto Market Crash से मचा हाहाकार: Bitcoin $73,
 date: "2026-05-29"
 category: "Crypto"
 excerpt: "$1 Billion के लिक्विडेशन के साथ Crypto Market Crash हो गया है। US-Iran तनातनी के बीच Bitcoin $73k और Ethereum $2,000 के नीचे फिसला।"
-image: "/images/blog/crypto_market_crash_iran.png"
+image: "/images/blog/crypto_market_crash_iran.webp"
 trending: true
 ---
 

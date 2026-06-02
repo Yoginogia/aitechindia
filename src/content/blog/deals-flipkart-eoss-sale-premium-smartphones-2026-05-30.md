@@ -3,7 +3,7 @@ title: "Flipkart EOSS Sale: Premium smartphones और TWS earbuds पर मि
 date: "2026-05-30"
 category: "Deals"
 excerpt: "Flipkart End of Season Sale (EOSS) लाइव हो चुकी है। जानिए Vivo X300 Ultra, iPhone और Laptops पर मिल रहे बैंक ऑफर्स और एक्सचेंज डील्स।"
-image: "/images/blog/flipkart_eoss_premium.png"
+image: "/images/blog/flipkart_eoss_premium.webp"
 trending: true
 ---
 

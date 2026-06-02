@@ -3,7 +3,7 @@ title: "Amazon Great Summer & Flipkart SASA LELE Sale: गैजेट्स प
 date: "2026-05-19"
 category: "Deals"
 excerpt: "मई 2026 की सबसे बड़ी टेक डील्स: Amazon Great Summer Sale और Flipkart 'Cooling Days' में स्मार्टफोन्स, लैपटॉप्स, और AC पर मिल रही है भारी छूट। जानिए बेस्ट ऑफर्स!"
-image: "/images/blog/deals-amazon-summer-sale-2026-05-08.png"
+image: "/images/blog/deals-amazon-summer-sale-2026-05-08.webp"
 readingTime: "4 min read"
 ---
 

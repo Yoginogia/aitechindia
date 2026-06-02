@@ -3,7 +3,7 @@ title: "Netrasemi A2000 AI Chip: भारत की पहली 12nm एआई
 date: "2026-05-31"
 category: "AI"
 excerpt: "भारतीय स्टार्टअप Netrasemi ने अपनी पहली 12nm एडवांस्ड AI सिस्टम-ऑन-चिप A2000 लॉन्च कर दी है, जिसे Zoho से ₹125 करोड़ की फंडिंग मिली है।"
-image: "/images/blog/netrasemi_a2000_ai_chip.png"
+image: "/images/blog/netrasemi_a2000_ai_chip.webp"
 trending: true
 ---
 

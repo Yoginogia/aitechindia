@@ -3,7 +3,7 @@ title: "Google Voice Translation Indian Languages: अब 12 भारतीय 
 date: "2026-05-28"
 category: "AI Tools"
 excerpt: "Google Cloud ने लॉन्च किया नया रीयल-टाइम वॉइस-टू-वॉइस ट्रांसलेशन टूल जो हिंदी, तमिल, बंगाली समेत 12 भारतीय भाषाओं को सपोर्ट करता है। जानिए कैसे इस्तेमाल करें।"
-image: "/images/blog/google_voice_translation.png"
+image: "/images/blog/google_voice_translation.webp"
 trending: true
 ---
 

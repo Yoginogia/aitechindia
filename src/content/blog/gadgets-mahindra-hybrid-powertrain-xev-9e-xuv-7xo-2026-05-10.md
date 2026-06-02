@@ -3,7 +3,7 @@ title: "Mahindra का Masterstroke: XEV 9e और XUV 7XO के लिए आ
 date: "2026-05-10"
 category: "Gadgets"
 excerpt: "Mahindra & Mahindra ने officially confirm किया है कि वे pure EVs के साथ-साथ अपने नए models XEV 9e और XUV 7XO के लिए Hybrid Powertrain options develop कर रहे हैं।"
-image: "/images/blog/gadgets-mahindra-hybrid-2026-05-10.png"
+image: "/images/blog/gadgets-mahindra-hybrid-2026-05-10.webp"
 readingTime: "6 min read"
 ---
 

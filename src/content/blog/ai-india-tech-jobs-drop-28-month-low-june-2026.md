@@ -3,7 +3,7 @@ title: "India tech jobs drop to 28-month low: 2026 में क्या IT क
 date: "2026-06-02"
 category: "AI"
 excerpt: "भारत के आईटी सेक्टर में सक्रिय नौकरियों की संख्या जून 2026 में घटकर 93,000 रह गई है। एआई कौशल की बढ़ती मांग और पारंपरिक कोडिंग जॉब्स में कटौती ने टेक करियर की दिशा बदल दी है।"
-image: "/images/blog/india_tech_jobs_drop.png"
+image: "/images/blog/india_tech_jobs_drop.webp"
 trending: true
 ---
 

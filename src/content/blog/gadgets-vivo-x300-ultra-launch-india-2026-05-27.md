@@ -3,7 +3,7 @@ title: "Vivo X300 Ultra Launch India: 200MP कैमरा और Snapdragon 8 
 date: "2026-05-27"
 category: "Gadgets"
 excerpt: "Vivo X300 Ultra भारत में आधिकारिक रूप से लॉन्च हो गया है। 200MP ज़ीस टेलीफोटो कैमरा और Snapdragon 8 Elite Gen 5 प्रोसेसर के साथ यह प्रीमियम सेगमेंट का नया किंग है।"
-image: "/images/blog/vivo_x300_ultra.png"
+image: "/images/blog/vivo_x300_ultra.webp"
 trending: true
 ---
 

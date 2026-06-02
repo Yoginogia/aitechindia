@@ -3,7 +3,7 @@ title: "Midjourney V7 Release: अब 2D इमेजेस नहीं, सी
 date: "2026-05-12"
 category: "AI"
 excerpt: "मशहूर AI इमेज जनरेटर Midjourney ने अपना V7 वर्शन लॉन्च कर दिया है। अब क्रिएटर्स केवल टेक्स्ट लिखकर (Prompt) सीधे 3D मॉडल्स और गेम एसेट्स बना सकते हैं।"
-image: "/images/blog/ai_midjourney_v7_3d_2026.png"
+image: "/images/blog/ai_midjourney_v7_3d_2026.webp"
 readingTime: "7 min read"
 ---
 

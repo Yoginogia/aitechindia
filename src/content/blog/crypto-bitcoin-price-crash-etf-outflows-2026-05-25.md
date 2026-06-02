@@ -3,7 +3,7 @@ title: "Bitcoin Price Crash: 7 दिनों में $1 Billion बाहर
 date: "2026-05-25"
 category: "Crypto"
 excerpt: "लगातार 7 दिनों से हो रही भारी Bitcoin ETF आउटफ्लो और $1 बिलियन से ज्यादा की निकासी के बाद Bitcoin Price Crash हुआ है, जिससे निवेशकों में डर का माहौल है।"
-image: "/images/blog/bitcoin_price_crash.png"
+image: "/images/blog/bitcoin_price_crash.webp"
 ---
 
 ## Bitcoin Price Crash: क्या यह खरीदारी का मौका है या और गिरेगा बाज़ार?

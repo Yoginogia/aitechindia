@@ -3,7 +3,7 @@ title: "Volkswagen ID Polo EV: भारत में लॉन्च से प
 date: "2026-04-30"
 category: "Gadgets"
 excerpt: "Volkswagen अपनी सबसे लोकप्रिय हैचबैक 'Polo' को इलेक्ट्रिक अवतार में वापस ला रहा है। जानिए Volkswagen ID Polo (EV) की कीमत, रेंज, बैटरी और भारत में लॉन्च डेट की पूरी जानकारी।"
-image: "/images/blog/volkswagen_id_polo_ev_2026.png"
+image: "/images/blog/volkswagen_id_polo_ev_2026.webp"
 readingTime: "6 min read"
 ---
 

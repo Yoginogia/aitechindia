@@ -3,7 +3,7 @@ title: "GitHub पर बड़ा साइबर हमला: 3,800 Repos Lea
 date: "2026-05-20"
 category: "Software"
 excerpt: "20 मई 2026 की बड़ी Cybersecurity खबरें: TeamPCP ने VS Code Extension के ज़रिए GitHub के 3,800 Internal Repos चुराए। Microsoft ने BitLocker 'YellowKey' Zero-Day का Alert जारी किया। 35,000 Users Credential Theft का शिकार।"
-image: "/images/blog/software_github_breach_bitlocker_2026.png"
+image: "/images/blog/software_github_breach_bitlocker_2026.webp"
 readingTime: "7 min read"
 ---
 

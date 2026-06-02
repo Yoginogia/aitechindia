@@ -3,7 +3,7 @@ title: "National Quantum Mission India Targets Achieved: समय से पह
 date: "2026-05-21"
 category: "AI"
 excerpt: "National Quantum Mission India Targets Achieved! केंद्रीय मंत्री जितेंद्र सिंह ने बताया कि भारत ने क्वांटम मिशन के 50% से अधिक लक्ष्यों को समय से बहुत पहले हासिल कर लिया है।"
-image: "/images/blog/ai-india-chip-launch-2026-05-11.png"
+image: "/images/blog/ai-india-chip-launch-2026-05-11.webp"
 ---
 
 ## 🇮🇳 National Quantum Mission India Targets Achieved: एक ऐतिहासिक पल

@@ -3,7 +3,7 @@ title: "Cybersecurity 'Alert Fatigue': AI कैसे कर रहा है A
 date: "2026-05-09"
 category: "Software"
 excerpt: "Security analysts रोज़ाना हज़ारों false alerts से थक जाते हैं जिसे 'Alert Fatigue' कहते हैं। जानिए AI इस समस्या को कैसे सुलझा रहा है।"
-image: "/images/blog/software-windows-11-update-2026-05-10.png"
+image: "/images/blog/software-windows-11-update-2026-05-10.webp"
 readingTime: "4 min read"
 ---
 

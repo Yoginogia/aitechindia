@@ -3,7 +3,7 @@ title: "Parliament WhatsApp Breach: सांसदों के अकाउं
 date: "2026-05-26"
 category: "Software"
 excerpt: "एक संसदीय समिति के सदस्य और स्टाफ के व्हाट्सएप अकाउंट्स एक फिशिंग अटैक के कारण हैक हो गए हैं, जिसके बाद सुरक्षा के लिए इसे प्रतिबंधित कर दिया गया है।"
-image: "/images/blog/whatsapp_hack_alert.png"
+image: "/images/blog/whatsapp_hack_alert.webp"
 ---
 
 ## Parliament WhatsApp Breach: सरकारी सुरक्षा में बड़ी सेंध!

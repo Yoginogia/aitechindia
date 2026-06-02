@@ -3,7 +3,7 @@ title: "Fingerprint AI Assistant Detection tool launched: Web scraping पर �
 date: "2026-06-02"
 category: "AI Tools"
 excerpt: "सिक्योरिटी फर्म Fingerprint ने एक नया टूल लॉन्च किया है जो वेबसाइटों पर ऑटोमेटेड एआई बॉट्स और चैटजीपीटी जैसे एजेंट्स के अनधिकृत ट्रैफिक को ब्लॉक करेगा।"
-image: "/images/blog/fingerprint_ai_assistant_detection.png"
+image: "/images/blog/fingerprint_ai_assistant_detection.webp"
 trending: true
 ---
 

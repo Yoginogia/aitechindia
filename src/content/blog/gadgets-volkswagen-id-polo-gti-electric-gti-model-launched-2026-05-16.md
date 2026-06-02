@@ -3,7 +3,7 @@ title: "Volkswagen ID Polo GTI: 424km रेंज और 150kW पावर व
 date: "2026-05-16"
 category: "Gadgets"
 excerpt: "Volkswagen ने अपना पहला इलेक्ट्रिक GTI मॉडल 'ID Polo GTI' लॉन्च कर दिया है। 52kWh बैटरी, 424km रेंज, 0-100 kmph सिर्फ 7.5 सेकंड में — जानिए पूरी डिटेल्स और भारत में कीमत।"
-image: "/images/blog/volkswagen_id_polo_ev_2026.png"
+image: "/images/blog/volkswagen_id_polo_ev_2026.webp"
 readingTime: "6 min read"
 ---
 

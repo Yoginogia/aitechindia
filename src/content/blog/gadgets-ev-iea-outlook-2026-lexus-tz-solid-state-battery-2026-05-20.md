@@ -3,7 +3,7 @@ title: "IEA Report: 2026 में 2.3 करोड़ EV Sales! Lexus TZ All-El
 date: "2026-05-20"
 category: "Gadgets"
 excerpt: "IEA Global EV Outlook 2026 के अनुसार इस साल 23 मिलियन Electric Cars बिकेंगी। Lexus का पहला Three-Row EV TZ लॉन्च हुआ, Dreame ने Solid-State Battery Car 2027 के लिए Announce की। Porsche ने Nürburgring पर नया EV Record बनाया।"
-image: "/images/blog/ev_iea_outlook_lexus_tz_ev_2026.png"
+image: "/images/blog/ev_iea_outlook_lexus_tz_ev_2026.webp"
 readingTime: "6 min read"
 ---
 

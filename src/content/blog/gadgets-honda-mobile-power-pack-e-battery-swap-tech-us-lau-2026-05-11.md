@@ -3,7 +3,7 @@ title: "Honda Mobile Power Pack e: अमेरिका में Battery Swap 
 date: "2026-05-11"
 category: "Gadgets"
 excerpt: "Honda ने ACT Expo में अपनी नई Mobile Power Pack e: बैटरी एक्सचेंज (Battery Swapping) सिस्टम को पेश किया है। जानिए इसके फीचर्स, फायदे और कीमत।"
-image: "/images/blog/gadgets_honda_mobile_power_pack_2026.png"
+image: "/images/blog/gadgets_honda_mobile_power_pack_2026.webp"
 readingTime: "8 min read"
 ---
 

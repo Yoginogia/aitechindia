@@ -3,7 +3,7 @@ title: "Amazon Great Summer Sale 2026 LIVE: Samsung S25 Ultra ₹94,999 मे�
 date: "2026-05-08"
 category: "Deals"
 excerpt: "Amazon Great Summer Sale 2026 Prime Members के लिए LIVE है! Samsung Galaxy S25 Ultra ₹94,999 effective price पर, iPhone 16 पर massive discount, HDFC instant discount — सभी best deals यहाँ।"
-image: "/images/blog/deals-amazon-summer-sale-2026-05-08.png"
+image: "/images/blog/deals-amazon-summer-sale-2026-05-08.webp"
 readingTime: "5 min read"
 ---
 

@@ -3,7 +3,7 @@ title: "Huawei Full-Stack AI Data Infrastructure: डेटा सेंटर�
 date: "2026-05-25"
 category: "AI"
 excerpt: "Huawei ने AI डेटा सेंटर्स के लिए Full-Stack AI Data Infrastructure लॉन्च किया है जो भारी टोकन और डेटा कंसम्पशन को आसानी से हैंडल करेगा।"
-image: "/images/blog/huawei_ai_infrastructure.png"
+image: "/images/blog/huawei_ai_infrastructure.webp"
 ---
 
 ## Huawei Full-Stack AI Data Infrastructure: डेटा की रफ्तार दोगुनी होगी!

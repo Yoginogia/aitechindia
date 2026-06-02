@@ -3,7 +3,7 @@ title: "Ivanti EPMM Zero-Day Alert: CISA ने जारी की Emergency Wa
 date: "2026-05-08"
 category: "Software"
 excerpt: "Ivanti Endpoint Manager Mobile (EPMM) में एक critical zero-day vulnerability CVE-2026-6973 पाई गई है जो active exploitation में है। CISA ने 10 May तक patch करने का order दिया। Indian IT companies के लिए urgent alert।"
-image: "/images/blog/software-ivanti-zero-day-2026-05-08.png"
+image: "/images/blog/software-ivanti-zero-day-2026-05-08.webp"
 readingTime: "5 min read"
 ---
 

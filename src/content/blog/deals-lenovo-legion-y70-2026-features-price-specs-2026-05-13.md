@@ -3,7 +3,7 @@ title: "Lenovo Legion Y70 (2026) Specs & Price Leaked: गेमर्स का
 date: "2026-05-13"
 category: "Gadgets"
 excerpt: "Lenovo अपने नए फ्लैगशिप गेमिंग फोन 'Legion Y70 (2026)' को लॉन्च करने जा रहा है। इसके लीक्ड फीचर्स, स्नैपड्रैगन 8 जेन 5 प्रोसेसर और भारत में कीमत के बारे में जानें।"
-image: "/images/blog/deals_lenovo_legion_y70_2026.png"
+image: "/images/blog/deals_lenovo_legion_y70_2026.webp"
 readingTime: "6 min read"
 ---
 

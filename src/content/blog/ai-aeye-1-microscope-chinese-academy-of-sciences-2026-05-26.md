@@ -3,7 +3,7 @@ title: "Aeye 1 AI Microscope: विज्ञान में क्रांत
 date: "2026-05-26"
 category: "AI"
 excerpt: "चीनी विज्ञान अकादमी ने दुनिया का पहला पूरी तरह से स्वायत्त एआई-संचालित ट्रांसमिशन इलेक्ट्रॉन माइक्रोस्कोप Aeye-1 विकसित किया है।"
-image: "/images/blog/aeye_1_microscope.png"
+image: "/images/blog/aeye_1_microscope.webp"
 ---
 
 ## Aeye 1 AI Microscope: नैनो-साइंस की दुनिया में एआई की बड़ी छलांग!

@@ -3,7 +3,7 @@ title: "CBSE का बड़ा फैसला: Indian Schools में 6th Clas
 date: "2026-05-10"
 category: "AI"
 excerpt: "CBSE और भारत सरकार ने education system में बड़ा बदलाव करते हुए 6th standard से Agentic AI, Prompt Engineering और Coding को compulsory करने का plan बनाया है।"
-image: "/images/blog/ai-education-indian-schools-cbse-2026-05-10.png"
+image: "/images/blog/ai-education-indian-schools-cbse-2026-05-10.webp"
 readingTime: "6 min read"
 ---
 

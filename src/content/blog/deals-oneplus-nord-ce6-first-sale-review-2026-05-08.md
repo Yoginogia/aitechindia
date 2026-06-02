@@ -3,7 +3,7 @@ title: "OnePlus Nord CE 6 First Sale Today: 8000mAh Battery, 144Hz AMOLED — �
 date: "2026-05-08"
 category: "Deals"
 excerpt: "OnePlus Nord CE 6 की first sale आज 8 May को शुरू हो गई है! 8000mAh massive battery, 144Hz AMOLED display, Snapdragon 7s Gen 4 — ₹24,999 starting price। जानिए ये phone कितना value for money है।"
-image: "/images/blog/deals-oneplus-nord-ce6-2026-05-08.png"
+image: "/images/blog/deals-oneplus-nord-ce6-2026-05-08.webp"
 readingTime: "5 min read"
 ---
 

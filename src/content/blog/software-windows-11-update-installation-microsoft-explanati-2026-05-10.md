@@ -3,7 +3,7 @@ title: "Windows 11 Updates Install होने में देरी क्य
 date: "2026-05-10"
 category: "Software"
 excerpt: "क्या आपका PC भी Windows 11 update install करते वक़्त अटक जाता है? Microsoft ने finally इस technical problem का कारण और इसका official solution share किया है।"
-image: "/images/blog/software-windows-11-update-2026-05-10.png"
+image: "/images/blog/software-windows-11-update-2026-05-10.webp"
 readingTime: "6 min read"
 ---
 

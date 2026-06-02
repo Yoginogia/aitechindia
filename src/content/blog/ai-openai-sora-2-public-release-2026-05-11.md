@@ -3,7 +3,7 @@ title: "OpenAI Sora 2.0 Public Release: अब हर कोई बना सक
 date: "2026-05-11"
 category: "AI"
 excerpt: "OpenAI ने आख़िरकार अपना बहुप्रतीक्षित (highly anticipated) AI Video Generator 'Sora 2.0' पब्लिक के लिए लॉन्च कर दिया है। जानिए इसके नए फीचर्स और pricing।"
-image: "/images/blog/ai-sora-2-public-2026-05-11.png"
+image: "/images/blog/ai-sora-2-public-2026-05-11.webp"
 readingTime: "6 min read"
 ---
 

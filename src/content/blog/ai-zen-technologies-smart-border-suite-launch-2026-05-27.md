@@ -3,7 +3,7 @@ title: "Zen Technologies Smart Border Suite: AI और ड्रोन्स स
 date: "2026-05-27"
 category: "AI"
 excerpt: "Zen Technologies ने अपना नया Integrated Smart Border Suite लॉन्च किया है। यह एआई-पावर्ड कैमरे और एंटी-ड्रोन तकनीक से भारत की सीमाओं को 24 घंटे सुरक्षित रखेगा।"
-image: "/images/blog/zen_border_suite.png"
+image: "/images/blog/zen_border_suite.webp"
 trending: true
 ---
 

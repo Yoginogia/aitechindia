@@ -3,7 +3,7 @@ title: "दूसरी पीढ़ी की Kia Sonet Spied: नए फीच
 date: "2026-05-12"
 category: "Gadgets"
 excerpt: "भारतीय सड़कों पर नेक्स्ट-जनरेशन (Next-Gen) Kia Sonet की टेस्टिंग शुरू हो गई है। स्पाई शॉट्स (Spy Shots) में इसके नए डिज़ाइन, इंटीरियर और एडवांस फीचर्स का खुलासा हुआ है।"
-image: "/images/blog/gadgets_kia_sonet_spied_2026.png"
+image: "/images/blog/gadgets_kia_sonet_spied_2026.webp"
 readingTime: "8 min read"
 ---
 

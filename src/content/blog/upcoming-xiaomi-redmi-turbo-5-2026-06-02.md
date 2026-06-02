@@ -3,7 +3,7 @@ title: "Xiaomi Redmi Turbo 5: 100W फ़ास्ट चार्जिंग �
 date: "2026-06-02"
 category: "Best Phones"
 excerpt: "Redmi Turbo 5 जून 2026 में लॉन्च होने जा रहा है। Snapdragon 8s Gen 4, 50MP Sony Camera, 5500mAh Battery, 100W Charging — ₹23,999 से शुरू।"
-image: "/images/blog/asus_expertbook_ultra.webp"
+image: "/images/blog/xiaomi_redmi_turbo_5.webp"
 readingTime: "4 min read"
 ---
 

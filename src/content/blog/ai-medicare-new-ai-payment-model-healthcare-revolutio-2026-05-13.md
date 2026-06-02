@@ -3,7 +3,7 @@ title: "Medicare का नया 'AI Payment Model': क्या यह हे
 date: "2026-05-13"
 category: "AI"
 excerpt: "अमेरिका के Medicare सिस्टम ने एक नया AI-पावर्ड पेमेंट मॉडल पेश किया है, जो हॉस्पिटल्स की बिलिंग और पेमेंट प्रक्रिया को पूरी तरह से बदल कर रख देगा।"
-image: "/images/blog/ai_medicare_payment_2026.png"
+image: "/images/blog/ai_medicare_payment_2026.webp"
 readingTime: "7 min read"
 ---
 

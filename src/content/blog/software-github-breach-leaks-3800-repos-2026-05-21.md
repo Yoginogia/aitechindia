@@ -3,7 +3,7 @@ title: "GitHub Security Breach Leaks 3800 Repositories: कैसे हुआ �
 date: "2026-05-21"
 category: "Software"
 excerpt: "GitHub Security Breach Leaks 3800 Repositories! एक फेक VS Code extension (Nx Console) के जरिए हैकर्स ने किया बड़ा हमला। जानिए अपने कोड को कैसे सुरक्षित रखें।"
-image: "/images/blog/software-alert-fatigue-soc-2026-05-09.png"
+image: "/images/blog/software-alert-fatigue-soc-2026-05-09.webp"
 ---
 
 ## ⚠️ GitHub Security Breach Leaks 3800 Repositories: टेक जगत में सनसनी

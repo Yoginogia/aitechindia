@@ -3,7 +3,7 @@ title: "Smartphones May 2026: 7000mAh बैटरी वाला Moto G37 Powe
 date: "2026-05-19"
 category: "Gadgets"
 excerpt: "मई 19, 2026 की सबसे बड़ी स्मार्टफोन न्यूज़: Moto G37 Power अपनी विशाल 7000mAh बैटरी के साथ लॉन्च, और Google I/O में Android के लिए 'Gemini Intelligence' का बड़ा ऐलान!"
-image: "/images/blog/gadgets_moto_g37_power_2026.png"
+image: "/images/blog/gadgets_moto_g37_power_2026.webp"
 readingTime: "5 min read"
 ---
 

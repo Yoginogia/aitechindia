@@ -3,7 +3,7 @@ title: "IBM Project Lightwell का ऐलान: Claude AI से इंस्
 date: "2026-05-29"
 category: "Software"
 excerpt: "$5 Billion के Project Lightwell का IBM ने किया ऐलान। Anthropic के Claude Mythos AI मॉडल के सिक्योर कोड रिव्यूज से प्रेरित होकर शुरू हुआ यह मिशन।"
-image: "/images/blog/ibm_project_lightwell.png"
+image: "/images/blog/ibm_project_lightwell.webp"
 trending: true
 ---
 

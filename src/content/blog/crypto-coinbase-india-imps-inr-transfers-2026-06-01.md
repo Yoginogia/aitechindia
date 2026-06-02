@@ -3,7 +3,7 @@ title: "Coinbase India IMPS INR ट्रांसफर फिर शुरू,
 date: "2026-06-01"
 category: "Crypto"
 excerpt: "Coinbase ने भारत में अपनी सर्विस दोबारा चालू करने के लिए बड़े कदम उठाए हैं। अब भारतीय क्रिप्टो निवेशक IMPS और UPI (सीमित) के जरिए सीधे बैंक अकाउंट से INR डिपॉजिट कर सकते हैं।"
-image: "/images/blog/coinbase_india_imps_inr_transfers.png"
+image: "/images/blog/coinbase_india_imps_inr_transfers.webp"
 trending: true
 ---
 

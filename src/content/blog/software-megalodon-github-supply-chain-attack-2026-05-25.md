@@ -3,7 +3,7 @@ title: "Megalodon Supply Chain Attack: 5500+ GitHub Repositories में ख�
 date: "2026-05-25"
 category: "Software"
 excerpt: "GitHub पर Megalodon नामक एक बड़े सप्लाई चेन अटैक का खुलासा हुआ है, जिसने 5,500 से अधिक रिपॉजिटरीज़ में मैलिशस कोड इंजेक्ट कर दिया है।"
-image: "/images/blog/megalodon_github_attack.png"
+image: "/images/blog/megalodon_github_attack.webp"
 ---
 
 ## Megalodon Supply Chain Attack: डेवलपर्स के लिए रेड अलर्ट!

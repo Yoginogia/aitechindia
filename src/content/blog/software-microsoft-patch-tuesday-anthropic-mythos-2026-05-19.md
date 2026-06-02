@@ -3,7 +3,7 @@ title: "Cybersecurity Update: Microsoft Patch Tuesday और Anthropic Mythos �
 date: "2026-05-19"
 category: "Software"
 excerpt: "मई 2026 के सॉफ्टवेयर और साइबर सिक्योरिटी अपडेट्स: Microsoft ने 120+ कमज़ोरियों (Vulnerabilities) को फिक्स किया, जबकि Anthropic ने अपने 'Mythos' साइबर सिक्योरिटी AI मॉडल की पॉलिसी बदल दी है।"
-image: "/images/blog/software_mythos_cybersecurity_2026.png"
+image: "/images/blog/software_mythos_cybersecurity_2026.webp"
 readingTime: "6 min read"
 ---
 

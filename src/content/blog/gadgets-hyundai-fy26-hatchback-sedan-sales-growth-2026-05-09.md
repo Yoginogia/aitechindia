@@ -3,7 +3,7 @@ title: "Hyundai India FY26 Plan: Hatchbacks और Sedans की बिक्र
 date: "2026-05-09"
 category: "Gadgets"
 excerpt: "SUVs के ज़माने में Hyundai अपने Hatchbacks (i20, Grand i10) और Sedans (Verna, Aura) की sales बढ़ाने का बड़ा plan बना रही है।"
-image: "/images/blog/gadgets-skoda-vw-ev-2026-05-10.png"
+image: "/images/blog/gadgets-skoda-vw-ev-2026-05-10.webp"
 readingTime: "4 min read"
 ---
 

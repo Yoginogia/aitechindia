@@ -3,7 +3,7 @@ title: "Honda Air Blade: भारत में पेटेंट हुआ ह
 date: "2026-05-13"
 category: "Gadgets"
 excerpt: "होंडा (Honda) ने भारत में अपने प्रीमियम मैक्सी-स्कूटर 'Air Blade' का डिज़ाइन पेटेंट करवा लिया है। स्पोर्टी लुक और दमदार इंजन के साथ यह Yamaha Aerox को सीधी टक्कर देगा।"
-image: "/images/blog/gadgets_honda_air_blade_2026.png"
+image: "/images/blog/gadgets_honda_air_blade_2026.webp"
 readingTime: "6 min read"
 ---
 

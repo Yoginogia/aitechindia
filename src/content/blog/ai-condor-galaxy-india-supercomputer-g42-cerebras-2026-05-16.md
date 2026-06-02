@@ -3,7 +3,7 @@ title: "Condor Galaxy India: भारत को मिला 8-Exaflop AI Super
 date: "2026-05-16"
 category: "AI"
 excerpt: "भारत सरकार और UAE की AI कंपनी G42 ने मिलकर 'Condor Galaxy India' AI सुपरकंप्यूटर का कमर्शियल फ्रेमवर्क तैयार किया है। Cerebras CS-3 सिस्टम पर आधारित यह 8-Exaflop क्लस्टर Genomics, Energy और Healthcare में AI R&D को बढ़ावा देगा।"
-image: "/images/blog/ai-india-chip-launch-2026-05-11.png"
+image: "/images/blog/ai-india-chip-launch-2026-05-11.webp"
 readingTime: "7 min read"
 ---
 

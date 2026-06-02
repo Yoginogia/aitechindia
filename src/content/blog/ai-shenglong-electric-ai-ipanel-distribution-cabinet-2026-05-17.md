@@ -3,7 +3,7 @@ title: "अब फैक्ट्रियों में भी AI: Shenglong 
 date: "2026-05-17"
 category: "AI"
 excerpt: "Shenglong Electric ने OPTATEC एग्जिबिशन में 'AI-iPanel' पेश किया है — दुनिया का पहला AI-Enabled Distribution Cabinet। यह स्मार्ट मैन्युफैक्चरिंग (Smart Manufacturing) और इंडस्ट्रियल AI में एक बहुत बड़ी क्रांति है।"
-image: "/images/blog/ai_autoscout_engineering_2026.png"
+image: "/images/blog/ai_autoscout_engineering_2026.webp"
 readingTime: "5 min read"
 ---
 

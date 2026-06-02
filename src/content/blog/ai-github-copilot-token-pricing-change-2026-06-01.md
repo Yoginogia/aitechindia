@@ -3,7 +3,7 @@ title: "GitHub Copilot token pricing में बड़ा बदलाव, अ
 date: "2026-06-01"
 category: "AI"
 excerpt: "GitHub ने Copilot के सब्सक्रिप्शन मॉडल को बदल दिया है। अब मंथली अनलिमिटेड यूज की जगह 'Token-based' बिलिंग सिस्टम लागू होगा। जानिए डेवलपर्स और कंपनियों के बजट पर इसका क्या असर होगा।"
-image: "/images/blog/github_copilot_token_pricing_change.png"
+image: "/images/blog/github_copilot_token_pricing_change.webp"
 trending: true
 ---
 

@@ -3,7 +3,7 @@ title: "US Senate में Crypto Bill पर Vote इस हफ्ते: Indi
 date: "2026-05-08"
 category: "Crypto"
 excerpt: "US Senate में cryptocurrency market structure bill पर इस हफ्ते key vote expected है। Indian investors के लिए ये क्यों important है, जानिए detail में।"
-image: "/images/blog/crypto-us-senate-bill-2026-05-08.png"
+image: "/images/blog/crypto-us-senate-bill-2026-05-08.webp"
 readingTime: "5 min read"
 ---
 

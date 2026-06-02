@@ -3,7 +3,7 @@ title: "Honda की नई Hybrid Sedan Prototype: 2030 में आएगी 
 date: "2026-05-16"
 category: "Gadgets"
 excerpt: "Honda ने अपनी नई जनरेशन Hybrid Sedan का प्रोटोटाइप पेश किया है जो 2030 तक प्रोडक्शन में आएगी। नए प्लेटफॉर्म, एडवांस्ड हाइब्रिड पावरट्रेन, और AI-ड्रिवन फीचर्स के साथ — यह Honda की सबसे एम्बिशियस सेडान हो सकती है।"
-image: "/images/blog/gadgets_honda_city_2026.png"
+image: "/images/blog/gadgets_honda_city_2026.webp"
 readingTime: "6 min read"
 ---
 

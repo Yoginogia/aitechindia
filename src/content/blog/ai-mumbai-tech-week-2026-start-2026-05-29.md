@@ -3,7 +3,7 @@ title: "Mumbai Tech Week 2026 शुरू: OpenAI aur Google दिखाएं
 date: "2026-05-29"
 category: "AI"
 excerpt: "29 May से Mumbai Tech Week 2026 शुरू हो चुका है। जियो वर्ल्ड कन्वेंशन सेंटर में OpenAI, Meta और Anthropic के दिग्गज AI in Action पर चर्चा करेंगे।"
-image: "/images/blog/mumbai_tech_week_2026.png"
+image: "/images/blog/mumbai_tech_week_2026.webp"
 trending: true
 ---
 

@@ -3,7 +3,7 @@ title: "US ने जब्त की $1 Billion की Crypto: 'Operation Econo
 date: "2026-05-30"
 category: "Crypto"
 excerpt: "अमेरिकी सरकार ने ईरान से जुड़ी $1 Billion की क्रिप्टोकरेंसी को सीज कर दिया है। जानिए क्या है पूरा मामला और क्रिप्टो बाजार पर इसका असर।"
-image: "/images/blog/crypto_us_iran_seizure.png"
+image: "/images/blog/crypto_us_iran_seizure.webp"
 trending: true
 ---
 

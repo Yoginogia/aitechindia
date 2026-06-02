@@ -3,7 +3,7 @@ title: "IAF और IIT Bombay की पार्टनरशिप: Sukhoi Su-3
 date: "2026-05-30"
 category: "AI"
 excerpt: "IIT Bombay और भारतीय वायु सेना (IAF) ने मिलकर Sukhoi Su-30MKI विमानों की एआई-पावर्ड प्रेडिक्टिव मेंटेनेंस तकनीक विकसित करने का फैसला लिया है।"
-image: "/images/blog/iaf_iit_bombay_ai.png"
+image: "/images/blog/iaf_iit_bombay_ai.webp"
 trending: true
 ---
 

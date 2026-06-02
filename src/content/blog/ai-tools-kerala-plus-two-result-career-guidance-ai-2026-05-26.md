@@ -3,7 +3,7 @@ title: "Kerala Plus Two Result 2026: रिजल्ट डायरेक्ट
 date: "2026-05-26"
 category: "AI Tools"
 excerpt: "Kerala Plus Two Result 2026 घोषित हो चुका है। जानिए अपना रिजल्ट सीधे कैसे चेक करें और AI टूल्स की मदद से अपने लिए बेस्ट करियर और स्ट्रीम कैसे चुनें।"
-image: "/images/blog/kerala_result_ai.png"
+image: "/images/blog/kerala_result_ai.webp"
 trending: true
 ---
 

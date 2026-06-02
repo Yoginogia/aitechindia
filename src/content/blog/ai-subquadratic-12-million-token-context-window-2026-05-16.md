@@ -3,7 +3,7 @@ title: "12 Million Token Context Window: Subquadratic का नया AI Model 
 date: "2026-05-16"
 category: "AI"
 excerpt: "AI स्टार्टअप Subquadratic ने 12 Million Token Context Window वाला AI Model लॉन्च किया है — यानी एक बार में 30+ पूरी किताबें पढ़ सकता है! जानिए यह ChatGPT, Gemini, और Claude से कैसे अलग है।"
-image: "/images/blog/ai_midjourney_v7_3d_2026.png"
+image: "/images/blog/ai_midjourney_v7_3d_2026.webp"
 readingTime: "6 min read"
 ---
 

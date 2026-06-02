@@ -3,7 +3,7 @@ title: "Bitcoin $80K पर फिसला, Fear & Greed Index 39 पर: Lever
 date: "2026-05-08"
 category: "Crypto"
 excerpt: "Bitcoin $82K की relief rally के बाद वापस $80K से नीचे गिरा है। Fear & Greed Index 39 (Fear zone) पर है और leverage ratio yearly high पर पहुंच गया है। Indian investors के लिए detailed market analysis।"
-image: "/images/blog/crypto-bitcoin-fear-leverage-2026-05-08.png"
+image: "/images/blog/crypto-bitcoin-fear-leverage-2026-05-08.webp"
 readingTime: "6 min read"
 ---
 

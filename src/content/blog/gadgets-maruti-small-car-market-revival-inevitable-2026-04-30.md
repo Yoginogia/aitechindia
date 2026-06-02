@@ -3,7 +3,7 @@ title: "छोटी कारों (Small Cars) का मार्केट �
 date: "2026-04-30"
 category: "Gadgets"
 excerpt: "भारत में SUVs की आंधी के बीच, Maruti Suzuki के चेयरमैन RC Bhargava ने दावा किया है कि छोटी कारों (Small Cars/Hatchbacks) का रिवाइवल 'अवश्यंभावी' (Inevitable) है। जानिए उन्होंने ऐसा क्यों कहा।"
-image: "/images/blog/maruti_small_car_revival_2026.png"
+image: "/images/blog/maruti_small_car_revival_2026.webp"
 readingTime: "5 min read"
 ---
 
