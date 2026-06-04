@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-t20-world-cup-broadcast-jiostar-streaming-tech-2026-06-04',
+        title: `T20 World Cup AI: क्रिकेट का नया अवतार! 🏏📺`,
+        subtitle: `JioStar ने एआई कैमराज और 360-डिग्री व्यूज के साथ मैच ब्रॉडकास्टिंग का तरीका बदल दिया।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/t20_world_cup_ai.webp',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-story-monsoon-prediction-imd-weather-forecasting-model-2026-06-04',
+        title: `Monsoon Predict AI: मानसून की सटीक भविष्यवाणी! 🌧️🇮🇳`,
+        subtitle: `मौसम विभाग (IMD) अब गूगल के GraphCast और AI मॉडल्स के साथ मानसून के सटीक आगमन की घोषणा करेगा।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/monsoon_prediction_ai.webp',
+        pages: 5,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-cbse-osm-marking-controversy-evaluation-glitch-2026-06-04',
+        title: `CBSE OSM Glitch: डिजिटल चेकिंग में भारी गड़बड़ी! 🚨🏫`,
+        subtitle: `CBSE के ऑन-स्क्रीन मार्किंग सिस्टम में तकनीकी खामी और DoS साइबर हमले की सरकारी जांच शुरू।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/cbse_osm_marking_controversy.webp',
+        pages: 5,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-nvidia-vera-rubin-platform-keynote-computex-2026',
         title: `NVIDIA Vera Rubin AI: तहलका! 🚀🇮🇳`,
         subtitle: `NVIDIA ने Computex 2026 में वेरा रुबिन प्लेटफॉर्म लॉन्च किया, जो एजेंटिक एआई को पावर देगा।`,
