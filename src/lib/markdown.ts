@@ -271,7 +271,8 @@ function injectAds(html: string): string {
         <span class="text-sm font-semibold text-muted-foreground font-mono">Google AdSense - Middle Ad 1</span>
         <span class="text-xs text-muted-foreground/60 mt-1 font-mono">Slot ID: INLINE_MID_1</span>
     </div>
-</div>\\n`;
+</div>
+`;
         paragraphs[3] = adHtml1 + paragraphs[3];
     }
 
@@ -286,7 +287,8 @@ function injectAds(html: string): string {
         <span class="text-sm font-semibold text-muted-foreground font-mono">Google AdSense - Middle Ad 2</span>
         <span class="text-xs text-muted-foreground/60 mt-1 font-mono">Slot ID: INLINE_MID_2</span>
     </div>
-</div>\\n`;
+</div>
+`;
         paragraphs[6] = adHtml2 + paragraphs[6];
     }
 
