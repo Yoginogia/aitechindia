@@ -34,9 +34,11 @@ trending: true
 
 इस नए **UPI security new rules** से रिमोट एक्सेस फ्रॉड पूरी तरह खत्म हो जाएगा, क्योंकि हैकर रिमोटली यूजर के फिंगरप्रिंट या फेस आईडी को स्कैन नहीं कर सकता। इससे भारतीय ग्रामीण इलाकों में डिजिटल बैंकिंग के प्रति भरोसा काफी मजबूत होगा।
 
+<!--
 ## AI Image Prompt
 > [!NOTE]
 > **Prompt:** Futuristic blue holographic interface representing digital payments in India. A glowing handprint fingerprint scanning icon positioned next to a smartphone showing a successful secure payment shield. Tech elements, binary codes floating in background, cyber security vibe, 16:9 aspect ratio.
+-->
 
 ## Conclusion — Aage Kya Hoga?
 

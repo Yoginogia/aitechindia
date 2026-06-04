@@ -39,9 +39,11 @@ trending: true
 
 इस ₹1,799 वाले रफ-एंड-टफ फोन से उन करोड़ों कामगारों को सीधा फायदा होगा जो एक टिकाऊ, पानी में खराब न होने वाला और तेज आवाज में कॉल करने वाला फोन चाहते हैं। इसके अलावा, एआई-नॉइज़ कैंसलेशन से भारतीय सड़कों के भारी शोर के बीच भी डिलीवरी पार्टनर्स बिना किसी रुकावट के कस्टमर्स से बात कर सकेंगे।
 
+<!--
 ## AI Image Prompt
 > [!NOTE]
 > **Prompt:** A premium futuristic smartphone submerged in clear water with glowing air bubbles, representing IP67 water resistance. Cyberpunk blue and cyan light accents, tech elements, ripples, dark background, photorealistic 3D render, 16:9 aspect ratio, no text, no logos.
+-->
 
 ## Conclusion — Aage Kya Hoga?
 

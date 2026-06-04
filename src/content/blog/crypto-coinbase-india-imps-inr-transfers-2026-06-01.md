@@ -34,9 +34,11 @@ trending: true
 
 **Coinbase India IMPS INR** सर्विस के आने से भारतीय ट्रेडर्स अब पूरी तरह वैध तरीके से, बिना किसी साइबर-फ्रॉड के डर के ट्रेडिंग कर सकेंगे। हालांकि, भारतीय निवेशकों को ध्यान रखना होगा कि भारत सरकार का 30% फ्लैट क्रिप्टो टैक्स और हर लेनदेन पर 1% टीडीएस (TDS) का नियम अभी भी पूरी तरह लागू रहेगा, और कॉइनबेस इसे ऑटो-डिटेक्ट करेगा।
 
+<!--
 ## AI Image Prompt
 > [!NOTE]
 > **Prompt:** A futuristic crypto coin featuring a glowing bitcoin and ethereum symbol on one side, and a map of India with glowing connection nodes on the other side. A smartphone displaying a bank transfer transaction with 'INR to Crypto' written in a glowing green font. Neon blue and gold color scheme, dark tech background, 16:9 aspect ratio.
+-->
 
 ## Conclusion — Aage Kya Hoga?
 

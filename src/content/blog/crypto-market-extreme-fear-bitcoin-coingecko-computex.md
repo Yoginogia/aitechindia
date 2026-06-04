@@ -36,9 +36,11 @@ trending: true
 
 भारतीय फाइनेंशियल एडवाइजर्स ने खुदरा निवेशकों (Retail Investors) को सलाह दी है कि वे पैनिक सेलिंग (घबराहट में बेचना) से बचें। भारत में अधिकतर निवेशक शॉर्ट-टर्म गेन (Short-term gains) की उम्मीद में हाई-लेवरेज ट्रेडिंग करते हैं, जो इस तरह के क्रैश के दौरान पूरे पोर्टफोलियो को साफ कर सकती है। कॉइनबेस और बाइनेंस जैसे एक्सचेंजों पर डायरेक्ट आईएनआर डिपॉजिट का विकल्प उपलब्ध होने के बावजूद, बाजार की अनिश्चितता को देखते हुए अभी नई खरीदारी से बचने की सलाह दी जा रही है।
 
+<!--
 ## AI Image Prompt
 > [!NOTE]
 > **Prompt:** Dark cinematic representation of cryptocurrency market crash. A large physical Bitcoin falling into a dark abyss with glowing neon red cracks. Graph charts showing downward trend, abstract fear elements, high-tech abstract style, 16:9 aspect ratio, no text, no logos.
+-->
 
 ## Conclusion — Aage Kya Hoga?
 

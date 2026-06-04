@@ -36,9 +36,11 @@ trending: true
 
 हालांकि, इसमें एक सकारात्मक पहलू भी है। भारत में एआई स्टार्टअप्स और आरएंडडी (R&D) सेंटर्स की संख्या तेजी से बढ़ रही है। यदि भारतीय सॉफ्टवेयर इंजीनियर्स खुद को एआई एजेंट्स डिजाइन करने, लोकल जीपीयू ऑप्टिमाइज़ेशन और एआई डेटा प्राइवेसी टूल्स में अपस्किल करते हैं, तो उनके लिए नौकरियों के नए और हाई-पेइंग रास्ते खुल रहे हैं।
 
+<!--
 ## AI Image Prompt
 > [!NOTE]
 > **Prompt:** Futuristic high-tech line graph showing a downward trend, representing a drop in technology job openings. Neon red glowing charts, abstract binary numbers floating, silhouettes of coding workspaces in a dark tech style, dark ambient lighting, 16:9 aspect ratio, no text, no logos.
+-->
 
 ## Conclusion — Aage Kya Hoga?
 

@@ -31,9 +31,11 @@ trending: true
 
 अब भारतीय खरीदार इस प्राइस सेगमेंट में उपलब्ध अन्य ऑप्शन्स जैसे *Motorola Edge 60 Pro* या *OnePlus Nord CE 6* की तरफ आकर्षित हो सकते हैं, जो समान कीमतों में अधिक फीचर्स देने का दावा करते हैं।
 
+<!--
 ## AI Image Prompt
 > [!NOTE]
 > **Prompt:** A close-up shot of a smartphone resembling Nothing's signature transparent design style, glowing red glowing outline indicating a price rise. Floating currency symbols (INR ₹) rising from the phone in a glowing red holographic line chart. Futuristic, sleek, high-tech background with dark metal grid, 16:9 aspect ratio.
+-->
 
 ## Conclusion — Aage Kya Hoga?
 

@@ -35,9 +35,11 @@ trending: true
 * **फ्रीलांसरों को फायदा:** वे डेवलपर्स जो महीने में केवल कुछ ही प्रोजेक्ट्स पर काम करते हैं, उनका मासिक बिल $10 से घटकर आधा हो जाएगा।
 * **आईटी कंपनियों पर बोझ:** इंफोसिस, टीसीएस और विप्रो जैसी दिग्गज कंपनियों के लिए कोडिंग टूल्स का खर्च बढ़ जाएगा, क्योंकि उनके डेवलपर्स दिन-रात कोडिंग करते हैं। कंपनियों को अब बजट ऑप्टिमाइज करने के लिए डेवलपर्स की टोकन लिमिट सेट करनी होगी।
 
+<!--
 ## AI Image Prompt
 > [!NOTE]
 > **Prompt:** Dark futuristic coding workspace style. A computer monitor displaying lines of code glowing in green and blue, with floating neon token icons and currency graphs surrounding it. Coding assistant logo outline. No text, no logos. 3D render, photorealistic, 16:9 aspect ratio.
+-->
 
 ## Conclusion — Aage Kya Hoga?
 

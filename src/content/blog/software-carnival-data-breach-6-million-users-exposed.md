@@ -38,9 +38,11 @@ trending: true
 
 CERT-In ने चेतावनी दी है कि भारतीय ट्रेवल सर्वर्स भी लगातार समान सोशल इंजीनियरिंग और क्रेडेंशियल स्टफिंग हमलों के निशाने पर हैं। यदि भारतीय कंपनियां अपने कर्मचारियों के लिए नियमित साइबर सुरक्षा प्रशिक्षण और **Multi-Factor Authentication (MFA)** को अनिवार्य नहीं करती हैं, तो इसी तरह का बड़ा डेटा लीक भारत में भी ग्राहकों के बैंक खातों को खाली कर सकता है।
 
+<!--
 ## AI Image Prompt
 > [!NOTE]
 > **Prompt:** A large futuristic cyber security server rack with a giant glowing padlock icon in front of it, cracked in the center representing a data breach. Binary digital rain falling, glowing red warning codes and abstract matrix background. Cyberpunk dark tech vibe, 16:9 aspect ratio, no text, no logos.
+-->
 
 ## Conclusion — Aage Kya Hoga?
 
