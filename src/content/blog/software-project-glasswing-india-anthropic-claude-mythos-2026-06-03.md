@@ -28,15 +28,19 @@ readingTime: "4 min read"
 
 भारतीय सॉफ्टवेयर सिक्योरिटी प्रोफेशनल्स के लिए भी यह एक बहुत बड़ी सीख है। भारत में सरकारी प्रणालियों (Legacy Systems) को अपडेट करना हमेशा से एक सिरदर्द रहा है। लेकिन Claude Mythos की मदद से अब सुरक्षा खामियों को ऑटोमैटिक रूप से बिना किसी इंसानी गलती के फिक्स किया जा सकेगा।
 
+<!--
 > [!NOTE]
 > **AI Image Prompt:** A cybersecurity concept showing a map of India protected by a digital glowing shield. Cyber defence, AI vulnerability scanning, digital matrix green and blue lines, dark cybernetic style, 16:9 aspect ratio.
+-->
 
+<!--
 ## Web Story Brief
 * **Slide 1:** Project Glasswing India: भारत की साइबर सुरक्षा में एआई का सबसे बड़ा कवच! 🛡️
 * **Slide 2:** भारत को मिला एंथ्रोपिक के प्रतिबंधित AI मॉडल "Claude Mythos" का एक्सेस।
 * **Slide 3:** CERT-In और भारतीय एजेंसियां अब सरकारी और वित्तीय सर्वर्स को करेंगी सुरक्षित।
 * **Slide 4:** सेकंडों में सॉफ्टवेयर कोड की खामियों (Zero-Day Bugs) को खोजेगा और पैच करेगा यह एआई।
 * **Slide 5:** विदेशी हैकर्स (चीन और उत्तर कोरिया के अटैक ग्रुप्स) के खिलाफ भारत की बड़ी डिजिटल सुरक्षा।
+-->
 
 ## Conclusion
 भारत को 'Project Glasswing' में शामिल करना भारत की बढ़ती डिजिटल और तकनीकी ताकत का एक बड़ा प्रमाण है। एंथ्रोपिक के Claude Mythos का उपयोग करके भारत अपनी डिजिटल सीमाओं को अभेद्य बनाने की दिशा में तेजी से आगे बढ़ेगा।

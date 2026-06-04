@@ -28,15 +28,19 @@ readingTime: "4 min read"
 
 लेकिन, यहाँ एक और नजरिया भी है। भारत के आईटी दिग्गजों के पास दुनिया का सबसे बड़ा स्किल्ड डेवलपर बेस है। यदि ये कंपनियां अपने वर्कफोर्स को तुरंत री-स्किल (Re-skill) करती हैं, तो एआई प्रोजेक्ट्स के इंप्लीमेंटेशन और डेटा प्राइवेसी मैनेजमेंट (AI Implementation & Data Privacy) में भारत को एक बहुत बड़ा एडवांटेज मिल सकता है।
 
+<!--
 > [!NOTE]
 > **AI Image Prompt:** A dramatic digital art style visualization of Indian IT stock charts falling down. Red neon down arrows, binary code overlays, dark tech background, TCS Wipro Infosys abstract representation, futuristic and clean style, 16:9 aspect ratio, dark theme.
+-->
 
+<!--
 ## Web Story Brief
 * **Slide 1:** IT Stocks Plunge: भारतीय आईटी बाजार में आज आई 9% तक की भारी गिरावट! 📉
 * **Slide 2:** TCS के शेयर 9% गिरे, Infosys और Wipro भी 4% तक टूटे।
 * **Slide 3:** गिरावट की मुख्य वजह - एआई (Generative AI) के कारण कोडिंग जॉब्स के खत्म होने का डर।
 * **Slide 4:** वैश्विक मंदी और क्लाइंट्स द्वारा आईटी बजट में कटौती का बड़ा असर।
 * **Slide 5:** क्या है उपाय? भारतीय सॉफ्टवेयर डेवलपर्स को तुरंत एआई स्किल्स सीखनी होंगी।
+-->
 
 ## Conclusion
 भारतीय आईटी सेक्टर के लिए यह संकट का समय जरूर है, लेकिन यह एक बड़ा अवसर भी बन सकता है। भारतीय इंजीनियर्स को अब केवल कोड लिखने से आगे बढ़कर एआई सिस्टम्स को मैनेज करने की कला सीखनी होगी।
