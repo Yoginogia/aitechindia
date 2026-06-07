@@ -47,6 +47,16 @@ const nextConfig: NextConfig = {
         destination: '/',
         permanent: true,
       },
+      {
+        source: '/author/:path*',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/web-stories/:slug((?!.*\\.html)[a-zA-Z0-9_-]+)',
+        destination: '/web-stories/:slug.html',
+        permanent: true,
+      },
     ];
   },
   async headers() {
