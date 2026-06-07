@@ -271,6 +271,7 @@ def build_amp_html(story_slug: str, title: str, subtitle: str, category: str, im
     cat_color = CATEGORY_CONFIG.get(category, {}).get("color", "#8b5cf6")
     cat_emoji = CATEGORY_CONFIG.get(category, {}).get("emoji", "📰")
     full_image = f"https://aitechnews.co.in{image_url}" if image_url.startswith("/") else image_url
+    story_url = f"https://aitechnews.co.in/web-stories/{story_slug}.html"
 
     pages_html = ""
     for i, slide in enumerate(slides):
@@ -298,7 +299,7 @@ def build_amp_html(story_slug: str, title: str, subtitle: str, category: str, im
   <meta name="viewport" content="width=device-width">
   <title>{title}</title>
   <meta name="description" content="{subtitle}">
-  <link rel="canonical" href="{article_url}">
+  <link rel="canonical" href="{story_url}">
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <script async custom-element="amp-story" src="https://cdn.ampproject.org/v0/amp-story-1.0.js"></script>
   <style amp-boilerplate>body{{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}}@-webkit-keyframes -amp-start{{from{{visibility:hidden}}to{{visibility:visible}}}}@-moz-keyframes -amp-start{{from{{visibility:hidden}}to{{visibility:visible}}}}@-ms-keyframes -amp-start{{from{{visibility:hidden}}to{{visibility:visible}}}}@keyframes -amp-start{{from{{visibility:hidden}}to{{visibility:visible}}}}</style><noscript><style amp-boilerplate>body{{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}}</style></noscript>
