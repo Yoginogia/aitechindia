@@ -44,10 +44,6 @@ export const metadata: Metadata = {
   manifest: '/manifest.json',
   alternates: {
     canonical: '/',
-    languages: {
-      'hi-IN': '/',
-      'en-IN': '/',
-    },
   },
   twitter: {
     card: 'summary_large_image',
