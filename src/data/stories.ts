@@ -11,6 +11,36 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-fifa-smart-ball-technology-imu-sensor-connected',
+        title: `FIFA Smart Ball Technology: फुटबॉल महाकुंभ में चिप वाली गेंद, हर सेकंड 500 बार डेटा ट्रांसफर! 🪙⚽`,
+        subtitle: `FIFA World Cup 2026 की ऑफिशियल मैच बॉल में 500Hz का IMU मोशन सेंसर चिप लगाया गया है, जो रीयल-टाइम डेटा भेजेगा।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/fifa_smart_ball_technology_imu_sensor_connected.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-story-fifa-automated-offside-tech-saot-ai-cameras',
+        title: `FIFA Automated Offside Tech: ऑफसाइड विवादों का अंत, 12 एआई कैमरों से लाइव ट्रैकिंग! ⚽🤖`,
+        subtitle: `फीफा वर्ल्ड कप 2026 में 12 एआई-पावर्ड ट्रैकिंग कैमरे हर खिलाड़ी के शरीर के 29 अंगों को 50 बार प्रति सेकंड ट्रैक करेंगे।`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/fifa_automated_offside_tech_saot_ai_cameras.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-fifa-cybersecurity-ticket-breach-security-warning',
+        title: `FIFA Cybersecurity Ticket Breach: अमेरिकी वर्ल्ड कप देखने जा रहे भारतीय फैंस को हैकर्स की बड़ी चेतावनी! 🛡️⚽`,
+        subtitle: `हैकर्स डिजिटल टिकटिंग सिस्टम में सेंध लगाकर डिजिटल क्यूआर कोड्स की चोरी कर रहे हैं, भारत सरकार की CERT-In ने एडवाइजरी जारी की।`,
+        category: '🛡️ Security',
+        categoryColor: '#ef4444',
+        image: '/images/blog/fifa_cybersecurity_ticket_breach_security_warning.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-anthropic-ban-safety-concerns-andy-jassy-warning',
         title: `Anthropic Ban Safety Concerns: क्यों अमेज़न सीईओ ने सरकार को चेताया था? 🤖🚫`,
         subtitle: `अमेरिकी सरकार ने एंथ्रोपिक के मॉडल्स पर लगे प्रतिबंध के पीछे अमेज़न के सीईओ एंडी जेसी की गुप्त चेतावनी भी शामिल थी।`,
