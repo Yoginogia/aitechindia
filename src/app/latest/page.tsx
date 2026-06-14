@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Clock, Sparkles, Flame, Bot, Smartphone, Code, Cpu, RefreshCcw } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/markdown';
 
@@ -70,11 +71,11 @@ export default function LatestNews() {
                     {post.image ? (
                       post.slug?.includes('best-phones-under') ? (
                         <>
-                          <img src={post.image} alt="" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
-                          <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 z-10 drop-shadow-2xl" />
+                          <Image src={post.image} alt="" fill sizes="(max-width: 768px) 100vw, 400px" className="absolute inset-0 w-full h-full object-cover opacity-60 blur-xl scale-110" />
+                          <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 400px" className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 z-10 drop-shadow-2xl" />
                         </>
                       ) : (
-                        <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                        <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 400px" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                       )
                     ) : (
                       <>

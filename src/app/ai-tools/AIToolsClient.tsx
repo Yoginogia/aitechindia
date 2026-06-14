@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Clock, Sparkles, Bot, Code, Cpu, Smartphone, ExternalLink, Filter, CheckCircle2 } from 'lucide-react';
 
 interface AIPost {
@@ -219,7 +220,7 @@ export default function AIToolsClient({ aiPosts }: { aiPosts: AIPost[] }) {
                                                     <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-contain group-hover:scale-105 transition-transform duration-500 z-10 drop-shadow-2xl" />
                                                 </>
                                             ) : (
-                                                <img src={post.image} alt={post.title} className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                                                <Image src={post.image} alt={post.title} fill sizes="(max-width: 768px) 100vw, 400px" className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
                                             )
                                         ) : (
                                             <>

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { ArrowRight, Clock, Flame, Bot, Sparkles, Smartphone, Code, Cpu, RefreshCcw, TrendingUp } from 'lucide-react';
 import { getSortedPostsData } from '@/lib/markdown';
 import DeltaAdBanner from '@/components/DeltaAdBanner';
@@ -92,9 +93,11 @@ export default function TrendingNewsPage() {
 
                     <div className={`aspect-video w-full bg-gradient-to-br ${style.gradient} flex items-center justify-center relative overflow-hidden`}>
                       {post.image ? (
-                        <img 
+                        <Image 
                           src={post.image} 
                           alt={post.title} 
+                          fill
+                          sizes="(max-width: 768px) 100vw, 400px"
                           className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
                         />
                       ) : (
