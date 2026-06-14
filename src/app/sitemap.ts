@@ -25,6 +25,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/contact',
     '/privacy-policy',
     '/disclaimer',
+    '/terms-of-service',
+    '/advertise',
+    '/best-phones',
+    '/upcoming-phones',
+    '/best-laptops',
+    '/upcoming-laptops',
+    '/compare',
+    '/tools/compress-pdf',
   ].map((route) => {
     let lastMod = defaultStaticDate
     if (route === '' || route === '/latest' || route === '/trending') {
