@@ -43,6 +43,31 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/ai-google-gemini-chrome-launch-2026-04-21',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/blog/hp-omnibook-5-oled-review',
+        destination: '/best-laptops',
+        permanent: true,
+      },
+      {
+        source: '/blog/asus-rog-zephyrus-g16-review',
+        destination: '/best-laptops',
+        permanent: true,
+      },
+      {
+        source: '/blog/apple-macbook-air-m4-review',
+        destination: '/best-laptops',
+        permanent: true,
+      },
+      {
+        source: '/blog/samsung-galaxy-book6-ultra-review',
+        destination: '/best-laptops',
+        permanent: true,
+      },
+      {
         source: '/web-stories/:slug((?!.*\\.html)[a-zA-Z0-9_-]+)',
         destination: '/web-stories/:slug.html',
         permanent: true,

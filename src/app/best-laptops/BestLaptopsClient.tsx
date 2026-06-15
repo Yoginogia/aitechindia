@@ -34,6 +34,17 @@ export interface Laptop {
 import ALL_LAPTOPS_DATA from '@/data/laptops.json';
 const ALL_LAPTOPS = ALL_LAPTOPS_DATA as Laptop[];
 
+const LAPTOPS_WITH_REVIEWS = new Set<string>([
+    'asus-vivobook-15-2026',
+    'honor-magicbook-x14-pro',
+    'lenovo-thinkpad-e14-gen6',
+    'dell-inspiron-14-plus',
+    'acer-predator-helios-neo-16',
+    'lenovo-loq-2026',
+    'apple-macbook-air-m3',
+    'asus-zenbook-14-oled-2026'
+]);
+
 export default function BestLaptopsClient() {
     const [selectedCategory, setSelectedCategory] = useState<'all' | 'student' | 'gaming' | 'office' | 'creator'>('all');
     const [selectedBudget, setSelectedBudget] = useState<number>(Infinity);
@@ -273,11 +284,13 @@ export default function BestLaptopsClient() {
                                         <span className="text-2xl font-black">₹{laptop.price.toLocaleString('en-IN')}</span>
                                         <span className="text-xs text-muted-foreground/60 line-through">₹{(laptop.price * 1.3).toLocaleString('en-IN')}</span>
                                     </div>
-                                    <div className="mb-4">
-                                        <Link href={`/blog/${laptop.id}-review`} className="w-full bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-foreground font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition-all border border-border/40">
-                                            📖 Read Detailed Review <ChevronRight className="w-4 h-4" />
-                                        </Link>
-                                    </div>
+                                    {LAPTOPS_WITH_REVIEWS.has(laptop.id) && (
+                                        <div className="mb-4">
+                                            <Link href={`/blog/${laptop.id}-review`} className="w-full bg-secondary/50 hover:bg-secondary text-muted-foreground hover:text-foreground font-bold py-3 rounded-xl flex items-center justify-center gap-2 transition-all border border-border/40">
+                                                📖 Read Detailed Review <ChevronRight className="w-4 h-4" />
+                                            </Link>
+                                        </div>
+                                    )}
                                     <div className="flex flex-col sm:flex-row gap-3">
                                         <a href={laptop.amazonUrl} target="_blank" rel="noopener noreferrer" className="flex-1 bg-[#ff9900] hover:bg-[#ff9900]/90 text-black font-bold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all shadow-md shadow-[#ff9900]/20 hover:-translate-y-0.5">
                                             Buy on Amazon
