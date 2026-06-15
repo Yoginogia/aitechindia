@@ -1,5 +1,5 @@
 ---
-title: "PwC AI Jobs Barometer 2026: AI skills wale logo ko mil rahi hai 8x fast job growth aur double salary! 📈💼"
+title: "PwC AI Jobs Barometer 2026: एआई स्किल्स वाले लोगों को मिल रही है 8 गुना तेजी से जॉब और दोगुनी सैलरी! 📈💼"
 date: "2026-06-15"
 category: "AI"
 excerpt: "PwC ke latest AI Jobs Barometer 2026 report ke mutabik, AI skills ki demand pure market mein 8 guna tezi se badh rahi hai. Janiye AI kaise professionalized aur democratized jobs mein badlav la raha hai."

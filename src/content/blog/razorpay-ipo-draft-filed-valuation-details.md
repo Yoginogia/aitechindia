@@ -1,5 +1,5 @@
 ---
-title: "Razorpay IPO Draft Filed: Bharat ka payment king lane ja raha hai $6 Billion ka dhamakedar IPO! 💳💰"
+title: "Razorpay IPO Draft Filed: पेमेंट गेटवे दिग्गज सेबी के पास गोपनीय दस्तावेज जमा करके ला रहा है $6 Billion का आईपीओ! 💳💰"
 date: "2026-06-15"
 category: "Software"
 excerpt: "Fintech startup Razorpay ne confidentially draft red herring prospectus (DRHP) file kar diya hai. IPO se 500 se 700 million dollars jutane aur 5-6 billion dollars ki valuation hasil karne ki umeed hai."

@@ -1,5 +1,5 @@
 ---
-title: "India-France Innovation Roadmap 2030: PM Modi aur Macron ka AI, Semiconductors aur Space tech par naya agreement! 🇮🇳🇫🇷"
+title: "India-France Innovation Roadmap 2030: पीएम मोदी और मैक्रॉन का एआई, सेमीकंडक्टर्स और स्पेस टेक पर नया ऐतिहासिक समझौता! 🇮🇳🇫🇷"
 date: "2026-06-15"
 category: "AI"
 excerpt: "Prime Minister Narendra Modi aur French President Emmanuel Macron ne Nice, France mein 'Bharat Innovates 2026' summit ke dauran 'India-France Innovation Roadmap 2030' ko officially adopt kiya hai. Janiye is deep-tech partnership ke baare mein sab kuch."

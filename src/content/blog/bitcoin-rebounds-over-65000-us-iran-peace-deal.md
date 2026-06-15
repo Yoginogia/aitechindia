@@ -1,5 +1,5 @@
 ---
-title: "Bitcoin Rebounds Over 65000: US-Iran peace deal se crypto market me aayi zordar tezi! 🚀📉"
+title: "Bitcoin Rebounds Over 65000: यूएस-ईरान शांति समझौते के बाद क्रिप्टो मार्केट में आई जोरदार तेजी, ईटीएफ इनफ्लो भी बढ़ा! 🚀🪙"
 date: "2026-06-15"
 category: "Crypto"
 excerpt: "US aur Iran ke beech shanti samjhauta hone se global geopolitical risks kam ho gaye hain, jiski wajah से Bitcoin ki keemat $65,500 ke par nikal gayi hai. Spot Bitcoin ETFs mein bhi bhari inflows darj."

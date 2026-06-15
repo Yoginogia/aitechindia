@@ -1,5 +1,5 @@
 ---
-title: "Tata EV Discounts June 2026: Price hike se pehle Harrier, Curvv aur Punch EV par mil raha hai ₹3.35 Lakh tak ka discount! 🚗💸"
+title: "Tata EV Discounts June 2026: 1 जुलाई को कीमतें बढ़ने से पहले हैरियर, कर्व और पंच ईवी पर ₹3.35 लाख तक की भारी बचत! 🚗💸"
 date: "2026-06-15"
 category: "Deals"
 excerpt: "Tata Motors ne 1 July 2026 se sabhi PVs aur EVs ki keemton mein 1.5% tak ki badhotari ka ailan kiya hai. Lekin isse pehle June mahine mein chal rahi hai sabse badi discount sale! Curvv EV par 3.35 lakh tak ki chhoot."
