@@ -38,21 +38,6 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/dictionary',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/dictionary/:slug*',
-        destination: '/',
-        permanent: true,
-      },
-      {
-        source: '/daily-hints',
-        destination: '/',
-        permanent: true,
-      },
-      {
         source: '/author/:path*',
         destination: '/',
         permanent: true,
