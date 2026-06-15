@@ -12,7 +12,7 @@ export interface StoryItem {
 export const STORIES: StoryItem[] = [
     {
         slug: 'ai-story-india-france-innovation-roadmap-2030-summit-news',
-        title: `India-France Innovation Roadmap 2030: PM Modi aur Macron ka AI, Semiconductors aur Space tech par naya agreement! 🇮🇳🇫🇷`,
+        title: `India-France Innovation Roadmap 2030: पीएम मोदी और मैक्रॉन का एआई, सेमीकंडक्टर्स और स्पेस टेक पर नया ऐतिहासिक समझौता! 🇮🇳🇫🇷`,
         subtitle: `Bharat Innovates 2026 Summit mein adopt kiya gaya Innovation Roadmap 2030 deep-tech partnership ko agle level par le jayega.`,
         category: '🤖 AI News',
         categoryColor: '#8b5cf6',
@@ -22,7 +22,7 @@ export const STORIES: StoryItem[] = [
     },
     {
         slug: 'ai-story-pwc-ai-jobs-barometer-2026-report-india',
-        title: `PwC AI Jobs Barometer 2026: AI skills wale logo ko mil rahi hai 8x fast job growth aur double salary! 📈💼`,
+        title: `PwC AI Jobs Barometer 2026: एआई स्किल्स वाले लोगों को मिल रही है 8 गुना तेजी से जॉब और दोगुनी सैलरी! 📈💼`,
         subtitle: `PwC report ke mutabik, AI skills wale jobs general market ke muqable 8 guna tezi se badh rahe hain.`,
         category: '🤖 AI News',
         categoryColor: '#8b5cf6',
@@ -32,7 +32,7 @@ export const STORIES: StoryItem[] = [
     },
     {
         slug: 'ev-story-ola-4680-bharat-cell-ev-deliveries-begins',
-        title: `Ola 4680 Bharat Cell EV: Ola ki pure-Indian battery se chalegi gaadi, mass delivery shuru! 🔋⚡`,
+        title: `Ola 4680 Bharat Cell EV: ओला की स्वदेशी बैटरी से चलेंगी गाड़ियां, इलेक्ट्रिक स्कूटर्स की डिलीवरी शुरू! 🔋⚡`,
         subtitle: `Ola Electric ne in-house manufactured 4680 Bharat Cell powered vehicles ki mass deliveries shuru kar di hain.`,
         category: '🚗 EV & Mobility',
         categoryColor: '#10b981',
@@ -42,7 +42,7 @@ export const STORIES: StoryItem[] = [
     },
     {
         slug: 'software-story-razorpay-ipo-draft-filed-valuation-details',
-        title: `Razorpay IPO Draft Filed: Bharat ka payment king lane ja raha hai $6 Billion ka dhamakedar IPO! 💳💰`,
+        title: `Razorpay IPO Draft Filed: पेमेंट गेटवे दिग्गज सेबी के पास गोपनीय दस्तावेज जमा करके ला रहा है $6 Billion का आईपीओ! 💳💰`,
         subtitle: `Payment gateway giant Razorpay ne confidentially Draft Prospectus (DRHP) file kiya hai.`,
         category: '💻 Tech News',
         categoryColor: '#ef4444',
@@ -52,7 +52,7 @@ export const STORIES: StoryItem[] = [
     },
     {
         slug: 'crypto-story-bitcoin-rebounds-over-65000-us-iran-peace-deal',
-        title: `Bitcoin Rebounds Over 65000: US-Iran peace deal se crypto market me aayi zordar tezi! 🚀🪙`,
+        title: `Bitcoin Rebounds Over 65000: यूएस-ईरान शांति समझौते के बाद क्रिप्टो मार्केट में आई जोरदार तेजी, ईटीएफ इनफ्लो भी बढ़ा! 🚀🪙`,
         subtitle: `US aur Iran ke shanti samjhoute ke baad geopolitical risk kam hua, Bitcoin $65,500 ke paar pahuncha.`,
         category: '🪙 Crypto',
         categoryColor: '#f59e0b',
@@ -62,7 +62,7 @@ export const STORIES: StoryItem[] = [
     },
     {
         slug: 'deals-story-tata-ev-discounts-june-2026-massive-savings',
-        title: `Tata EV Discounts June 2026: Price hike se pehle Harrier, Curvv aur Punch EV par mil raha hai ₹3.35 Lakh tak ka discount! 🚗💸`,
+        title: `Tata EV Discounts June 2026: 1 जुलाई को कीमतें बढ़ने से पहले हैरियर, कर्व और पंच ईवी पर ₹3.35 लाख तक की भारी बचत! 🚗💸`,
         subtitle: `Tata Motors ne 1 July se keemton mein 1.5% badhotari ka ailan kiya hai, par June mein de rahi hai bhari discount.`,
         category: '🛒 Hot Deals',
         categoryColor: '#ec4899',
