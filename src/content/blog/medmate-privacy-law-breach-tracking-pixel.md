@@ -2,6 +2,7 @@
 title: "Medmate Privacy Law Breach: मेडिकल डेटा लीक मामले में मेडमेट पर लगा जुर्माना, ट्रैकिंग पिक्सेल से चुराया गुप्त डेटा! 🚨🔒"
 date: "2026-06-24"
 category: "Software"
+trending: true
 excerpt: "Australia ke Privacy Commissioner ne Medmate aur Monash IVF par privacy rules breach karne ka arop lagaya hai, jinhone tracking pixels se user data leak kiya."
 image: "/images/blog/medmate-privacy-law-breach-tracking-pixel.webp"
 readingTime: "4 min read"

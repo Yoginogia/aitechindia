@@ -2,6 +2,7 @@
 title: "Meta AI Security Review: अमेरिकी सरकार ने मेटा पर बनाया दबाव, सुरक्षा जांच के दायरे में आएंगे एआई मॉडल्स! 🛡️🤖"
 date: "2026-06-24"
 category: "AI"
+trending: true
 excerpt: "US government ne Meta par dabav banaya hai ki wo apne Llama AI models ko voluntary security reviews ke liye submit kare."
 image: "/images/blog/meta-ai-security-review-government-pressure.webp"
 readingTime: "4 min read"

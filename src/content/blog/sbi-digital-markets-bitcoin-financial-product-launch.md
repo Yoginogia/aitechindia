@@ -2,6 +2,7 @@
 title: "SBI Digital Markets Bitcoin: एसबीआई डिजिटल ने लॉन्च किया पहला इंस्टीट्यूशनल बिटकॉइन प्रोडक्ट, निवेशकों में भारी उत्साह! 🪙💼"
 date: "2026-06-24"
 category: "Crypto"
+trending: true
 excerpt: "SBI Digital Markets ne Ericsenz Capital ke Bitcoin dual-currency note ko distribute kiya hai. Isse institutional crypto investments ko bada boost milega."
 image: "/images/blog/sbi-digital-markets-bitcoin-financial-product-launch.webp"
 readingTime: "4 min read"

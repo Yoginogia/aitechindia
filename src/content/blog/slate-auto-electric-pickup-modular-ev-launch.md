@@ -2,6 +2,7 @@
 title: "Slate Auto Electric Pickup: जेफ बेजोस समर्थित कंपनी ने लॉन्च किया ₹20 लाख का मॉड्यूलर ईवी ट्रक, भारत में डिजाइन पेटेंट दाखिल! 🚗⚡"
 date: "2026-06-24"
 category: "EV & Mobility"
+trending: true
 excerpt: "Amazon founder Jeff Bezos dwara funded EV startup Slate Auto ne apna compact modular electric pickup truck Slate Truck officially unveil kar diya hai."
 image: "/images/blog/slate-auto-electric-pickup-modular-ev-launch.webp"
 readingTime: "5 min read"
