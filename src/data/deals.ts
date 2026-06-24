@@ -21,6 +21,67 @@ export type Deal = {
 
 export const TOP_DEALS: Deal[] = [
     {
+        slug: "asus-expertbook-zero-trust-launch-deal",
+        title: "ASUS ExpertBook B5 Zero Trust — Secure Corporate Deal! 💼",
+        category: "Laptop",
+        description: "ASUS ने कॉर्पोरेट्स और प्रोफेशनल्स के लिए लॉन्च किया बायोमेट्रिक Zero-Trust PC! Intel Core Ultra 7, FIDO2 पासवर्डलेस ऑथेंटिकेशन और ₹6,000 का फ्लैट बैंक डिस्काउंट।",
+        price: "₹89,990",
+        discount: "Launch Offer ₹6,000 Off",
+        rating: 4.8,
+        tag: "🔥 New Launch",
+        image: "/images/blog/asus-zero-trust-pc-biometric-security-launch.webp",
+        buyLink: `https://www.amazon.in/s?k=asus+expertbook+b5&tag=${AFFILIATE_TAG}`,
+        platform: "Amazon India",
+        specs: [
+            "Intel Core Ultra 7 Processor with AI NPU",
+            "14-inch WUXGA OLED Display, 100% DCI-P3",
+            "16GB LPDDR5X RAM, 512GB PCIe Gen4 SSD",
+            "Dedicated Zero-Trust TPM Chip for hardware encryption",
+            "FIDO2 Passwordless Biometric Fingerprint & Face Login",
+            "Ultra-lightweight 1.2kg Carbon Fiber Chassis"
+        ],
+        variants: [
+            "Core Ultra 7 + 16GB RAM + 512GB SSD — ₹89,990",
+            "Core Ultra 9 + 32GB RAM + 1TB SSD — ₹1,19,990"
+        ],
+        bankOffers: [
+            "ICICI / HDFC Credit Cards — Flat ₹6,000 Instant Discount",
+            "No-Cost EMI — Up to 12 months",
+            "Business Purchase — Save up to 18% with GST Input Claim"
+        ],
+        colors: ["Star Black"],
+        content: "ASUS ExpertBook B5 Zero Trust कॉर्पोरेट्स और उन प्रोफेशनल्स के लिए डिजाइन किया गया है जो अपनी डेटा सुरक्षा से कोई समझौता नहीं करना चाहते। इसमें इंटीग्रेटेड TPM सिक्योरिटी चिप दी गई है जो बायोमेट्रिक डेटा को हार्डवेयर स्तर पर सुरक्षित रखती है। पासवर्ड भूलने की झंझट को खत्म करते हुए यह लैपटॉप पूरी तरह पासवर्ड-लेस सुरक्षा (FIDO2) को सपोर्ट करता है। लॉन्च सेल में ₹6,000 के बैंक ऑफर के साथ यह प्रोफेशनल्स के लिए एक बेहतरीन डील है!"
+    },
+    {
+        slug: "slate-auto-electric-pickup-pre-order-offer",
+        title: "Slate Truck Modular EV — Pre-Order Voucher Deal! 🚗",
+        category: "EV & Mobility",
+        description: "Jeff Bezos समर्थित Slate Auto के मॉड्यूलर इलेक्ट्रिक ट्रक की प्री-बुकिंग भारत में शुरू! ₹10,000 के वाउचर के साथ ₹1.5 लाख की एक्सेसरीज बिल्कुल मुफ्त।",
+        price: "₹10,000",
+        discount: "Free Customization Kit Worth ₹1.5L",
+        rating: 4.9,
+        tag: "⚡ EV Special",
+        image: "/images/blog/slate-auto-electric-pickup-modular-ev-launch.webp",
+        buyLink: `https://aitechnews.co.in/blog/slate-auto-electric-pickup-modular-ev-launch`,
+        platform: "Slate Auto Official",
+        specs: [
+            "Pre-booking Voucher for priority delivery in 2027",
+            "Includes Free Modular Conversion Kit (Pickup to SUV)",
+            "Priority scheduling for local CCS2 charger installation",
+            "Guaranteed price-lock against inflation adjustments",
+            "Fully refundable booking amount anytime before delivery"
+        ],
+        variants: [
+            "Standard Booking Voucher — ₹10,000"
+        ],
+        bankOffers: [
+            "Credit Card EMI — Starting at ₹880/month",
+            "100% Refundable within 90 days if cancelled"
+        ],
+        colors: ["Slate Gray", "Cyber White", "Stealth Black"],
+        content: "Slate Auto के इस क्रांतिकारी मॉड्यूलर इलेक्ट्रिक पिकअप ट्रक की भारत में भारी डिमांड को देखते हुए प्री-बुकिंग वाउचर जारी कर दिए गए हैं। ₹10,000 का यह बुकिंग अमाउंट पूरी तरह से रिफंडेबल है। इसके जरिए बुकिंग करने वाले पहले 500 ग्राहकों को ₹1.5 लाख मूल्य की कस्टमाइजेशन किट (जो पिकअप ट्रक को बंद एसयूवी में बदल देती है) पूरी तरह से मुफ्त मिलेगी। यदि आप भविष्य की क्लीन मोबिलिटी में सबसे आगे रहना चाहते हैं, तो यह डील आपके लिए ही है!"
+    },
+    {
         slug: "samsung-galaxy-s25-fe-launch",
         title: "Samsung Galaxy S25 FE — AI Flagship Killer! 🚀",
         category: "Smartphone",
