@@ -91,4 +91,4 @@ Photography lovers ke liye — **Xiaomi 17 Ultra is the one.** Leica ka magic + 
 
 👉 [Xiaomi 17 Ultra Amazon पर देखें](https://www.amazon.in/s?k=xiaomi+17+ultra&tag=aitechnews-21)
 
-👉 [Top Deals पर और offers देखें](/top-deals/xiaomi-17-ultra)
+👉 [Top Deals पर और offers देखें](/top-deals)

@@ -48,6 +48,11 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
+        source: '/blog/samsung-galaxy-s26-ultra-review',
+        destination: '/blog/samsung-s26-ultra-review',
+        permanent: true,
+      },
+      {
         source: '/blog/hp-omnibook-5-oled-review',
         destination: '/best-laptops',
         permanent: true,
@@ -68,7 +73,22 @@ const nextConfig: NextConfig = {
         permanent: true,
       },
       {
-        source: '/web-stories/:slug((?!.*\\.html)[a-zA-Z0-9_-]+)',
+        source: '/top-deals/asus-zenbook-14-core-ultra-7-series-2',
+        destination: '/top-deals',
+        permanent: true,
+      },
+      {
+        source: '/top-deals/xiaomi-17-ultra',
+        destination: '/top-deals',
+        permanent: true,
+      },
+      {
+        source: '/dictionary',
+        destination: '/',
+        permanent: true,
+      },
+      {
+        source: '/web-stories/:slug([a-zA-Z0-9_-]+)',
         destination: '/web-stories/:slug.html',
         permanent: true,
       },
