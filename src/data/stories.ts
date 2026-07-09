@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-ai-weather-prediction-delhi-monsoon-forecast-tech',
+        title: `AI Weather Prediction: दिल्ली में भारी बारिश और जलभराव, जानिए एआई का कमाल! 🌧️🤖`,
+        subtitle: `Delhi monsoon heavy rain waterlogging highlights advanced AI weather prediction models.`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/ai-weather-prediction-delhi-monsoon-forecast-tech.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-cloud-server-scaling-cbse-result-portal-traffic-management',
+        title: `Cloud Server Scaling: सीबीएसई रिजल्ट्स के दौरान नहीं क्रैश होगी वेबसाइट! 💻🚀`,
+        subtitle: `CBSE & KEAM results traffic load management via cloud auto-scaling & load balancing.`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/cloud-server-scaling-cbse-result-portal-traffic-management.webp',
+        pages: 4,
+        isTrending: false,
+    },
+    {
         slug: 'ai-story-google-cloud-gemini-india-local-hosting-sovereignty',
         title: `Google Cloud Gemini India: भारत में शुरू हुई लोकल होस्टिंग! 🤖🇮🇳`,
         subtitle: `Google Cloud ne Gemini AI models ki local hosting India ke data centers mein shuru kar di hai.`,
