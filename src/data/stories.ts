@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-google-play-store-redesign-ui-update-android',
+        title: `Google Play Store Redesign: बिल्कुल नए लुक और एआई फीचर्स के साथ आया प्ले स्टोर! 📱🚀`,
+        subtitle: `Google Play Store redesigned UI rolling out globally for Android devices.`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/google-play-store-redesign-ui-update-android.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-india-new-zealand-tech-pact-modi-auckland-visit',
+        title: `India New Zealand Tech Pact: पीएम मोदी के ऑकलैंड दौरे से मजबूत होगा डिजिटल इंफ्रास्ट्रक्चर! 🇮🇳🇳🇿`,
+        subtitle: `PM Modi's visit to Auckland initiates a tech pact covering UPI, space-tech, and agri-tech.`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/india-new-zealand-tech-pact-modi-auckland-visit.webp',
+        pages: 4,
+        isTrending: false,
+    },
+    {
         slug: 'ai-story-meta-ai-feature-pullback-instagram-privacy-scrapped',
         title: `Meta AI Feature Pullback: इंस्टाग्राम एआई फीचर बंद! 🤖🛡️`,
         subtitle: `Meta ne Instagram public accounts se AI image generator feature ko wapas le liya hai.`,
