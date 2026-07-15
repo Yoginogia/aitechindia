@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-neet-ug-ai-security-paper-leak-biometric-verification',
+        title: `NEET UG AI Security: पेपर लीक रोकने के लिए एआई सुरक्षा! 🤖✍️`,
+        subtitle: `OMR challenge window closes on July 15 as call grows to deploy AI biometric verification to prevent leaks.`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/neet-ug-ai-security-paper-leak-biometric-verification.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-strait-of-hormuz-cybersecurity-maritime-gps-spoofing-threat',
+        title: `Strait of Hormuz Cybersecurity: समुद्री जहाजों पर साइबर खतरा! 💻🛡️`,
+        subtitle: `Strait of Hormuz oil tanker attacks trigger maritime cybersecurity and GPS spoofing alerts.`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/strait-of-hormuz-cybersecurity-maritime-gps-spoofing-threat.webp',
+        pages: 4,
+        isTrending: false,
+    },
+    {
         slug: 'ai-story-tcs-nvidia-ai-lab-autonomous-engineering-bengaluru',
         title: `TCS NVIDIA AI Lab: बेंगलुरु में ऑटोनॉमस इंजीनियरिंग लैब! 🤖🏢`,
         subtitle: `TCS partners with NVIDIA to launch the 'Autonomous Engineering Lab' at Bengaluru to accelerate industrial AI.`,
