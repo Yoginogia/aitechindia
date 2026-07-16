@@ -11,6 +11,16 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-realme-narzo-100x-5g-launch-price-specs-india',
+        title: `Realme NARZO 100x 5G: 8,000mAh बैटरी के साथ लॉन्च! 📱🔋`,
+        subtitle: `Realme NARZO 100x 5G launches in India with a massive 8,000mAh silicon-carbon battery and MIL-STD protection.`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/realme-narzo-100x-5g-launch-price-specs-india.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-nvidia-physical-ai-factory-japan-robotics-fujitsu',
         title: `NVIDIA Physical AI: जापान में नेशनल एआई कारखाना! 🤖🇯🇵`,
         subtitle: `NVIDIA partners Noetra to build a physical AI factory in Japan for smart industrial robotics.`,
