@@ -55,11 +55,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
         lastModDate = parsed
       }
     }
+
+    const now = new Date()
+    const diffTime = Math.abs(now.getTime() - lastModDate.getTime())
+    const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24))
+
+    let changeFreq: 'daily' | 'weekly' | 'monthly' = 'monthly'
+    let priorityVal = 0.6
+
+    if (diffDays <= 3) {
+      changeFreq = 'daily'
+      priorityVal = 0.95
+    } else if (diffDays <= 14) {
+      changeFreq = 'weekly'
+      priorityVal = 0.8
+    } else {
+      changeFreq = 'monthly'
+      priorityVal = 0.6
+    }
+
     return {
       url: `${baseUrl}/blog/${post.slug}`,
       lastModified: lastModDate,
-      changeFrequency: 'daily' as const,
-      priority: 0.9,
+      changeFrequency: changeFreq,
+      priority: priorityVal,
     }
   })
 

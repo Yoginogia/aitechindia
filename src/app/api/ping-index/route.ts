@@ -11,13 +11,22 @@ export async function GET(request: Request) {
     try {
         console.log(`[Indexing API] GET Ping requested for URL: ${url}`);
         const sitemapUrl = 'https://aitechnews.co.in/sitemap.xml';
-        const googlePingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`;
+        const newsSitemapUrl = 'https://aitechnews.co.in/news-sitemap.xml';
         
-        await fetch(googlePingUrl);
+        // Ping Google Sitemaps & IndexNow API
+        const googlePingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`;
+        const googleNewsPingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(newsSitemapUrl)}`;
+        const indexNowUrl = `https://api.indexnow.org/indexnow?url=${encodeURIComponent(url)}&key=aitechnews2026indexnow`;
+
+        await Promise.allSettled([
+            fetch(googlePingUrl),
+            fetch(googleNewsPingUrl),
+            fetch(indexNowUrl)
+        ]);
 
         return NextResponse.json({
             success: true,
-            message: `Successfully pinged Google Sitemap Indexer for: ${url}`
+            message: `Successfully pinged Google & IndexNow indexers for: ${url}`
         });
     } catch (error: any) {
         return NextResponse.json({ error: error.message }, { status: 500 });
@@ -33,13 +42,21 @@ export async function POST(request: Request) {
 
         console.log(`[Indexing API] POST Ping requested for URL: ${url}`);
         const sitemapUrl = 'https://aitechnews.co.in/sitemap.xml';
-        const googlePingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`;
+        const newsSitemapUrl = 'https://aitechnews.co.in/news-sitemap.xml';
         
-        await fetch(googlePingUrl);
+        const googlePingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(sitemapUrl)}`;
+        const googleNewsPingUrl = `https://www.google.com/ping?sitemap=${encodeURIComponent(newsSitemapUrl)}`;
+        const indexNowUrl = `https://api.indexnow.org/indexnow?url=${encodeURIComponent(url)}&key=aitechnews2026indexnow`;
+
+        await Promise.allSettled([
+            fetch(googlePingUrl),
+            fetch(googleNewsPingUrl),
+            fetch(indexNowUrl)
+        ]);
 
         return NextResponse.json({ 
             success: true, 
-            message: `Successfully pinged Google Indexing API and Google News for URL: ${url}` 
+            message: `Successfully pinged Google Indexer, Google News & IndexNow for URL: ${url}` 
         });
     } catch (error: any) {
         return NextResponse.json({ error: error.message }, { status: 500 });
