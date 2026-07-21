@@ -32,9 +32,14 @@ export default function Footer() {
                         <h3 className="mb-4 text-sm font-semibold text-foreground uppercase tracking-wider">Categories</h3>
                         <ul className="space-y-3 text-sm text-muted-foreground">
                             <li><Link href="/latest" className="hover:text-primary transition-colors">ताज़ा खबरें</Link></li>
-                            <li><Link href="/ai-tools" className="hover:text-primary transition-colors">AI & Machine Learning</Link></li>
-                            <li><Link href="/gadgets" className="hover:text-primary transition-colors">Gadgets & Hardware</Link></li>
-                            <li><Link href="/software" className="hover:text-primary transition-colors">Software Updates</Link></li>
+                            <li><Link href="/web-stories" className="hover:text-primary transition-colors">⚡ Web Stories</Link></li>
+                            <li><Link href="/ai-tools" className="hover:text-primary transition-colors">🤖 AI & Machine Learning</Link></li>
+                            <li><Link href="/gadgets" className="hover:text-primary transition-colors">📱 Gadgets & EVs</Link></li>
+                            <li><Link href="/crypto" className="hover:text-primary transition-colors">💰 Crypto News</Link></li>
+                            <li><Link href="/top-deals" className="hover:text-primary transition-colors">🛒 Top Deals</Link></li>
+                            <li><Link href="/sitemap.xml" target="_blank" className="hover:text-primary transition-colors">📄 XML Sitemap</Link></li>
+                            <li><Link href="/news-sitemap.xml" target="_blank" className="hover:text-primary transition-colors">📰 News Sitemap</Link></li>
+                            <li><Link href="/feed.xml" target="_blank" className="hover:text-primary transition-colors">📡 RSS Feed</Link></li>
                         </ul>
                     </div>
 
