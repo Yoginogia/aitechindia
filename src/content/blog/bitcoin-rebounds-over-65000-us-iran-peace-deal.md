@@ -3,7 +3,7 @@ title: "Bitcoin Rebounds Over 65000: यूएस-ईरान शांति �
 date: "2026-06-15"
 category: "Crypto"
 excerpt: "US aur Iran ke beech shanti samjhauta hone se global geopolitical risks kam ho gaye hain, jiski wajah से Bitcoin ki keemat $65,500 ke par nikal gayi hai. Spot Bitcoin ETFs mein bhi bhari inflows darj."
-image: "/images/blog/bitcoin_rebound_peace_deal.jpg"
+image: "/images/blog/bitcoin_rebound_peace_deal.webp"
 readingTime: "5 min read"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"

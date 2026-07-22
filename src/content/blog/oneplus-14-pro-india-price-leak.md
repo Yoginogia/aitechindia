@@ -4,7 +4,7 @@ excerpt: "OnePlus के अगले फ्लैगशिप OnePlus 14 Pro �
 date: "2026-04-03"
 category: "Gadgets"
 author: "AITechNews"
-image: "/images/blog/oneplus-14-pro-leak.jpg"
+image: "/images/blog/oneplus-14-pro-leak.webp"
 readTime: 5
 ---
 

@@ -3,7 +3,7 @@ title: "Claude 3 Opus & Sonnet: क्या ये ChatGPT से बेहत�
 date: "2026-04-07"
 category: "AI Tools"
 excerpt: "Anthropic ने Claude 3 के साथ AI दुनिया में तूफ़ान ला दिया है। बहुत से tech reviewers और top coders का मानना है कि Claude 3 Opus और Sonnet 3.5, OpenAI के मॉडल्स को कई मामलों में पीछे छोड़ चुके हैं।"
-image: "/images/blog/claude-mythos-5-gpt-battle.jpg"
+image: "/images/blog/claude-mythos-5-gpt-battle.webp"
 author: "AITechNews Desk"
 ---
 Anthropic ने Claude 3 के साथ AI दुनिया में तूफ़ान ला दिया है। बहुत से tech reviewers और top coders का मानना है कि Claude 3 Opus और Sonnet 3.5, OpenAI के मॉडल्स को कई मामलों में पीछे छोड़ चुके हैं।

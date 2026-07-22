@@ -3,7 +3,7 @@ title: "Lenovo LOQ 15 (Ryzen 7) Review: Budget Gamers की पहली पस
 date: "2026-04-07"
 category: "Laptops"
 excerpt: "₹85,000 के बजट में Lenovo LOQ (Ryzen 7 + RTX 4050) IdeaPad Gaming 3 का सबसे बेस्ट successor साबित हुआ है।"
-image: "/images/laptops/lenovo-loq-2026.jpg"
+image: "/images/laptops/lenovo-loq-2026.webp"
 author: "AITechNews Desk"
 ---
 Legion सीरीज Lenovo की प्रीमियम गेमिंग सीरीज है, और LOQ (Ideapad gaming का रिप्लेसमेंट) उसकी वही Legion जैसी डिज़ाइन लैंग्वेज और फीचर्स बहुत affordable price पर लायी है।

@@ -3,7 +3,7 @@ title: "Riot Platforms की Q1 2026 रिपोर्ट: $167M Revenue, Data
 date: "2026-05-03"
 category: "Crypto"
 excerpt: "Bitcoin माइनिंग की दिग्गज कंपनी Riot Platforms ने Q1 2026 में शानदार $167M का रेवेन्यू दर्ज किया है, जिसमें उनके डेटा सेंटर बिज़नेस का अहम योगदान है।"
-image: "/images/blog/crypto-riot-platforms-q1-revenue.jpg"
+image: "/images/blog/crypto-riot-platforms-q1-revenue.webp"
 readingTime: "5 min read"
 ---
 

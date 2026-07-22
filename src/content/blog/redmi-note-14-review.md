@@ -3,7 +3,7 @@ title: "Redmi Note 14 Review: 108MP Camera और 2100 nits Display — ₹15K �
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Redmi Note 14 में 108MP camera, IP64 rating, और 2100 nits AMOLED display मिलता है। क्या ये ₹15K में photography lovers के लिए best phone है?"
-image: "/images/phones/redmi-note-14.jpg"
+image: "/images/phones/redmi-note-14.webp"
 author: "AITechNews Desk"
 ---
 Xiaomi का **Redmi Note** series हमेशा से India का best-selling smartphone series रहा है। Redmi Note 14 इसी legacy को आगे बढ़ाते हुए ₹14,999 में **108MP camera** offer कर रहा है।

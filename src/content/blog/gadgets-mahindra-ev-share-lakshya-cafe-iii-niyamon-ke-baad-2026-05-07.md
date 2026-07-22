@@ -3,7 +3,7 @@ title: "Mahindra का 17% EV Share Target: CAFE III नियमों के 
 date: "2026-05-07"
 category: "Gadgets"
 excerpt: "Mahindra ने 2027 तक अपनी total sales में EV share को 13-17% तक बढ़ाने का ambitious target रखा है। CAFE III emission norms के बाद कंपनी की EV strategy कैसी होगी, जानिए detail में।"
-image: "/images/blog/gadgets-mahindra-ev-cafe-2026-05-07.jpg"
+image: "/images/blog/gadgets-mahindra-ev-cafe-2026-05-07.webp"
 readingTime: "6 min read"
 ---
 

@@ -3,7 +3,7 @@ slug: "deals-casio-electro-green-g-shock-review-2026-05-06"
 title: "Casio G-Shock 'Electro Green' Review: रफ एंड टफ और बेहद स्टाइलिश ⌚💚"
 description: "Casio ने अपनी नई G-Shock Electro Green एडिशन लॉन्च की है। जानिए इसके फीचर्स, लुक्स और क्या आपको इसे खरीदना चाहिए।"
 category: "🛍️ Deals"
-image: "/images/blog/deals-casio-green-2026-05-06.jpg"
+image: "/images/blog/deals-casio-green-2026-05-06.webp"
 date: 2026-05-06
 ---
 

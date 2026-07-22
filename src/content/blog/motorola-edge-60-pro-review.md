@@ -3,7 +3,7 @@ title: "Motorola Edge 60 Pro Review: 144Hz pOLED + Stock Android — ₹30K क�
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Motorola Edge 60 Pro में 144Hz Curved pOLED, Triple 50MP Cameras, और Near-Stock Android — ₹28K में छिपा हुआ रत्न है। पूरी रिव्यू पढ़ें।"
-image: "/images/phones/motorola-edge-60-pro.jpg"
+image: "/images/phones/motorola-edge-60-pro.webp"
 author: "AITechNews Desk"
 ---
 Motorola के फोन्स को Indian Market में लोग अक्सर अंडरएस्टिमेट (underestimate) करते हैं। लेकिन **Edge 60 Pro** ₹27,999 में ऐसी चीज़ें ऑफर कर रहा है जो Samsung और Xiaomi इस प्राइस में नहीं देते। यह सच में एक **Hidden Gem** है।

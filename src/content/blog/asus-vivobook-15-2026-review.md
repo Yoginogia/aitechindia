@@ -3,7 +3,7 @@ title: "ASUS Vivobook 15 (2026) Indian Review: College Students के लिए
 date: "2026-04-07"
 category: "Laptops"
 excerpt: "अगर आप एक college student हैं जिसका बजट ₹40,000 से ₹45,000 के बीच है, तो ASUS Vivobook 15 (13th Gen) मार्किट में एक बहुत बड़ा नाम है।"
-image: "/images/laptops/asus-vivobook-15-2026.jpg"
+image: "/images/laptops/asus-vivobook-15-2026.webp"
 author: "AITechNews Desk"
 ---
 अगर आप एक college student हैं जिसका बजट ₹40,000 से ₹45,000 के बीच है, तो ASUS Vivobook 15 (13th Gen/2026) मार्किट में एक बहुत बड़ा नाम है। यह एक 'Thin & Light' laptop है जो बेसिक कोडिंग (coding) और presentations के लिए डिज़ाइन किया गया है।

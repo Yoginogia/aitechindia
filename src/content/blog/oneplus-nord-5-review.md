@@ -3,7 +3,7 @@ title: "OnePlus Nord 5 Review: OxygenOS + 80W Charging — ₹25K में स�
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "OnePlus Nord 5 में साफ़-सुथरा OxygenOS, 80W Charging, और Premium Design — ₹25K सेगमेंट में सबसे Refined Phone है।"
-image: "/images/phones/oneplus-nord-5.jpg"
+image: "/images/phones/oneplus-nord-5.webp"
 author: "AITechNews Desk"
 ---
 OnePlus ने हमेशा "Never Settle" फिलॉसफी फ़ॉलो की है। **Nord 5** ₹24,999 में OxygenOS की Clean Experience, 80W Charging, और Premium Build Quality ऑफर करता है।

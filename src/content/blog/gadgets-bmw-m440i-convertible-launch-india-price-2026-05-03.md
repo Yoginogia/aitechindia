@@ -3,7 +3,7 @@ title: "BMW M440i Convertible भारत में हुई लॉन्च! 
 date: "2026-05-03"
 category: "Gadgets"
 excerpt: "BMW ने अपनी नई स्पोर्ट्स कार M440i Convertible को भारतीय बाज़ार में लॉन्च कर दिया है। जानिए इस लग्ज़री ओपन-टॉप कार की कीमत और शानदार स्पेसिफिकेशन्स।"
-image: "/images/blog/gadgets-bmw-m440i-convertible-launch.jpg"
+image: "/images/blog/gadgets-bmw-m440i-convertible-launch.webp"
 readingTime: "5 min read"
 ---
 

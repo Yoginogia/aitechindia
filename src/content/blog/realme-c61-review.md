@@ -3,7 +3,7 @@ title: "Realme C61 Review: ₹9,000 में 33W Fast Charging — क्या
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Realme C61 बजट फोन में 33W SuperVOOC चार्जिंग लेकर आया है। क्या इसका Unisoc प्रोसेसर और 32MP कैमरा कीमत के लायक है?"
-image: "/images/phones/realme-c61.jpg"
+image: "/images/phones/realme-c61.webp"
 author: "AITechNews Desk"
 ---
 Budget smartphones में Realme हमेशा से aggressive pricing के लिए जाना जाता है। **Realme C61** इसी tradition को आगे बढ़ाते हुए ₹9,000 से कम में 33W fast charging offer कर रहा है — जो इस price segment में बहुत rare है।

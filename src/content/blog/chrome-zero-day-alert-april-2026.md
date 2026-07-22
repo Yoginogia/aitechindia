@@ -4,7 +4,7 @@ excerpt: "Google ने Chrome के लिए एक इमरजेंसी 
 date: "2026-04-03"
 category: "Tech"
 author: "AITechNews"
-image: "/images/blog/chrome-security-alert-2026.jpg"
+image: "/images/blog/chrome-security-alert-2026.webp"
 readTime: 4
 ---
 

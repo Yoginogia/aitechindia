@@ -3,7 +3,7 @@ slug: "crypto-michael-saylor-strategy-indian-investors-bitcoin-s-2026-05-06"
 title: "Michael Saylor की Bitcoin स्ट्रैटेजी: क्या भारतीय इन्वेस्टर्स के लिए है सही? 🇮🇳🪙"
 description: "MicroStrategy के CEO Michael Saylor की एग्रेसिव बिटकॉइन बाइंग स्ट्रैटेजी की चर्चा पूरी दुनिया में है। क्या भारत के इन्वेस्टर्स को इसे अपनाना चाहिए?"
 category: "₿ Crypto"
-image: "/images/blog/crypto-saylor-india-2026-05-06.jpg"
+image: "/images/blog/crypto-saylor-india-2026-05-06.webp"
 date: 2026-05-06
 ---
 

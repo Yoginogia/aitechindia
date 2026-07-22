@@ -3,7 +3,7 @@ slug: "ai-altara-secures-7m-to-bridge-data-gap-2026-05-06"
 title: "AI स्टार्टअप Altara को मिला $7M फंड: डेटा गैप खत्म करने की तैयारी! 🚀📊"
 description: "Altara ने हाल ही में $7 मिलियन की फंडिंग हासिल की है ताकि AI मॉडल्स के लिए हाई-क्वालिटी डेटा की कमी को दूर किया जा सके।"
 category: "🤖 AI"
-image: "/images/blog/ai-altara-7m-2026-05-06.jpg"
+image: "/images/blog/ai-altara-7m-2026-05-06.webp"
 date: 2026-05-06
 ---
 

@@ -3,7 +3,7 @@ slug: "ai-5-nations-cisa-ncsc-warning-agentic-ai-risks-2026-05-05"
 title: "Agentic AI का खतरा! 5 देशों की एजेंसियों ने जारी की ग्लोबल वार्निंग 🚨🛡️"
 description: "अमेरिका (CISA), यूके, कनाडा और ऑस्ट्रेलिया समेत 5 देशों ने Agentic AI के खतरों और 'Muddy Accountability' को लेकर सख्त गाइडलाइन्स जारी की हैं।"
 category: "🤖 AI"
-image: "/images/blog/ai-agentic-warning-2026-05-05.jpg"
+image: "/images/blog/ai-agentic-warning-2026-05-05.webp"
 date: 2026-05-05
 ---
 

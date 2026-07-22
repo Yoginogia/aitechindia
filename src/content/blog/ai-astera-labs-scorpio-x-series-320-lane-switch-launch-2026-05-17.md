@@ -3,7 +3,7 @@ title: "AI की स्पीड होगी डबल! Astera Labs ने ल
 date: "2026-05-17"
 category: "AI"
 excerpt: "Astera Labs ने Scorpio X-Series 320-Lane Smart Fabric Switch लॉन्च किया है। यह नया हार्डवेयर डेटा सेंटर्स में AI चिप्स (जैसे NVIDIA और AMD) के बीच डेटा ट्रांसफर के बॉटलनेक को खत्म करेगा।"
-image: "/images/blog/ai-meta-datacenter-2026-05-05.jpg"
+image: "/images/blog/ai-meta-datacenter-2026-05-05.webp"
 readingTime: "5 min read"
 ---
 

@@ -3,7 +3,7 @@ title: "Google Ads का दुरुपयोग: GoDaddy ManageWP Login क�
 date: "2026-05-07"
 category: "Software"
 excerpt: "Hackers Google Ads का misuse करके GoDaddy के ManageWP platform के fake login pages बना रहे हैं। WordPress website owners के credentials चोरी हो रहे हैं। जानिए कैसे बचें।"
-image: "/images/blog/software-godaddy-phishing-2026-05-07.jpg"
+image: "/images/blog/software-godaddy-phishing-2026-05-07.webp"
 readingTime: "5 min read"
 ---
 

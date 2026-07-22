@@ -3,7 +3,7 @@ slug: "crypto-story-dtcc-tokenized-securities-launch-50-defi-tradfi-gi-2026-05-0
 title: "ट्रेडिशनल फाइनेंस में क्रांति: DTCC ने लॉन्च किया Tokenized Securities 🏦🔗"
 description: "दुनिया की सबसे बड़ी डिपॉजिटरी (DTCC) ने 50 DeFi और TradFi कंपनियों के साथ मिलकर Tokenized Securities प्रोग्राम शुरू किया है।"
 category: "₿ Crypto"
-image: "/images/blog/crypto-dtcc-tokenized-2026-05-05.jpg"
+image: "/images/blog/crypto-dtcc-tokenized-2026-05-05.webp"
 date: 2026-05-05
 ---
 

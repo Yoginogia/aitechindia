@@ -3,7 +3,7 @@ title: "TrustOps Team क्या है? 2028 तक 40% सरकारें
 date: "2026-05-18"
 category: "AI"
 excerpt: "Gartner की ताज़ा रिपोर्ट के अनुसार, 2028 तक दुनिया की 40% सरकारें 'TrustOps' टीमें बनाएंगी जो Deepfakes और AI-जनित फर्जी कंटेंट से लड़ेंगी। C2PA Content Provenance प्रोटोकॉल अनिवार्य हो सकता है।"
-image: "/images/blog/ai-agentic-warning-2026-05-05.jpg"
+image: "/images/blog/ai-agentic-warning-2026-05-05.webp"
 readingTime: "6 min read"
 ---
 

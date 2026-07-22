@@ -3,7 +3,7 @@ title: "MacBook Air M3 Review: Battery और Efficiency का बाप"
 date: "2026-04-07"
 category: "Laptops"
 excerpt: "MacBook Air M3 (13-inch) इस समय productivity, कोडिंग (coding) और प्रीमियम लाइफस्टाइल का undisputed (निर्विवाद) किंग बना हुआ है।"
-image: "/images/laptops/apple-macbook-air-m3.jpg"
+image: "/images/laptops/apple-macbook-air-m3.webp"
 author: "AITechNews Desk"
 ---
 जब से Apple ने अपने खुद की चिप्स M1 निकाली थी, तबसे Windows ultra-books कम्पटीशन (competition) से थोड़ी पीछे चली गयी थी पावर/बैटरी रेशियो में। अब M3 चिप इस optimization को एक्सट्रीम (extreme) पर ले आया है।

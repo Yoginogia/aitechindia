@@ -3,7 +3,7 @@ title: "OpenAI का GPT-5.5 Instant आ गया: कम Hallucination, ज�
 date: "2026-05-07"
 category: "Deals"
 excerpt: "OpenAI ने अपना latest model GPT-5.5 Instant launch कर दिया है जो ChatGPT का नया default model बन गया है। ये GPT-5.3 से faster, accurate और कम hallucinate करता है।"
-image: "/images/blog/deals-gpt55-instant-2026-05-07.jpg"
+image: "/images/blog/deals-gpt55-instant-2026-05-07.webp"
 readingTime: "5 min read"
 ---
 

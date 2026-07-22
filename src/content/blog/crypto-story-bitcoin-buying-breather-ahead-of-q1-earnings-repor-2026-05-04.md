@@ -3,7 +3,7 @@ slug: "crypto-story-bitcoin-buying-breather-ahead-of-q1-earnings-repor-2026-05-0
 title: "Bitcoin की कीमत पर क्यों लगा है 'ब्रेक'? Q1 Earnings से पहले निवेशकों की सावधानी 📉🤔"
 description: "MicroStrategy के माइकल सैलर और बड़े निवेशकों ने Q1 अर्निंग्स रिपोर्ट से पहले बिटकॉइन की खरीदारी पर 'ब्रेक' लगा दिया है।"
 category: "₿ Crypto"
-image: "/images/blog/crypto-bitcoin-buying-breather-2026-05-04.jpg"
+image: "/images/blog/crypto-bitcoin-buying-breather-2026-05-04.webp"
 date: 2026-05-04
 ---
 

@@ -3,7 +3,7 @@ title: "Bitcoin $75,000 के करीब — June में $100K क्य�
 date: "2026-04-14"
 category: "Crypto"
 excerpt: "Bitcoin April 14 को $74,300 (₹69.4 लाख) पर trade कर रहा है — 5% single day gain। Institutional inflows, supply shock, और global sentiment — 3 strong reasons जो June 2026 में Bitcoin को $100K ले जा सकते हैं।"
-image: "/images/blog/bitcoin-75k-prediction.jpg"
+image: "/images/blog/bitcoin-75k-prediction.webp"
 author: "Priya Singh"
 authorRole: "Crypto & Blockchain Expert"
 ---

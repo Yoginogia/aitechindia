@@ -3,7 +3,7 @@ slug: "ai-ibm-think-2026-sovereign-core-agentic-enterprise-2026-05-05"
 title: "IBM का 'Think 2026': Sovereign Core और Agentic AI से मचाया तहलका! 🤖🏢"
 description: "IBM ने अपनी थिंक 2026 कांफ्रेंस में एंटरप्राइज AI के लिए Sovereign Core और Concert Platform लॉन्च किया है, जो Agentic AI को बढ़ावा देंगे।"
 category: "🤖 AI"
-image: "/images/blog/ai-ibm-think-2026-05-05.jpg"
+image: "/images/blog/ai-ibm-think-2026-05-05.webp"
 date: 2026-05-05
 ---
 

@@ -3,7 +3,7 @@ slug: "ai-meta-13-billion-gigawatt-data-center-el-paso-2026-05-05"
 title: "Meta का महा-प्लान: $13 Billion की लागत से बन रहा 1-Gigawatt का Data Center ⚡🏗️"
 description: "मार्क ज़ुकरबर्ग की कंपनी Meta (Facebook) टेक्सास के El Paso में एक विशाल AI डेटा सेंटर बना रही है, जो 2028 तक पूरा होगा।"
 category: "🤖 AI"
-image: "/images/blog/ai-meta-datacenter-2026-05-05.jpg"
+image: "/images/blog/ai-meta-datacenter-2026-05-05.webp"
 date: 2026-05-05
 ---
 

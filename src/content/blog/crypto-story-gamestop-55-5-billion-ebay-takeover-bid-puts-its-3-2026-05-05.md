@@ -3,7 +3,7 @@ slug: "crypto-story-gamestop-55-5-billion-ebay-takeover-bid-puts-its-3-2026-05-0
 title: "Crypto में भूचाल! GameStop ने eBay के लिए लगाई $55.5 Billion की बोली 🎮💰"
 description: "GameStop का ईबे (eBay) को खरीदने का $55.5 बिलियन का प्रस्ताव न सिर्फ ई-कॉमर्स बल्कि बिटकॉइन (Bitcoin) मार्केट पर भी बड़ा असर डाल सकता है।"
 category: "₿ Crypto"
-image: "/images/blog/crypto-gamestop-ebay-2026-05-05.jpg"
+image: "/images/blog/crypto-gamestop-ebay-2026-05-05.webp"
 date: 2026-05-05
 ---
 

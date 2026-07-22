@@ -4,7 +4,7 @@ excerpt: "बड़ी माइनिंग कंपनी Riot Platforms ने 
 date: "2026-04-03"
 category: "Crypto"
 author: "AITechNews"
-image: "/images/blog/bitcoin-market-fluctuation.jpg"
+image: "/images/blog/bitcoin-market-fluctuation.webp"
 readTime: 5
 ---
 

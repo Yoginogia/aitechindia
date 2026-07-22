@@ -3,7 +3,7 @@ title: "Razorpay IPO Draft Filed: पेमेंट गेटवे दिग�
 date: "2026-06-15"
 category: "Software"
 excerpt: "Fintech startup Razorpay ne confidentially draft red herring prospectus (DRHP) file kar diya hai. IPO se 500 se 700 million dollars jutane aur 5-6 billion dollars ki valuation hasil karne ki umeed hai."
-image: "/images/blog/razorpay_ipo_2026.jpg"
+image: "/images/blog/razorpay_ipo_2026.webp"
 readingTime: "5 min read"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"

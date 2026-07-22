@@ -3,7 +3,7 @@ title: "iQOO 15R Review: SD 8 Gen 4 + 120W + 144Hz — गेमर्स का
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "iQOO 15R में Snapdragon 8 Gen 4, 120W Charging, 144Hz AMOLED, और 6-Layer Vapor Cooling — ₹39K में अल्टीमेट गेमिंग मशीन।"
-image: "/images/phones/iqoo-15r.jpg"
+image: "/images/phones/iqoo-15r.webp"
 author: "AITechNews Desk"
 ---
 Gaming Phones का मतलब ₹70K+? **iQOO 15R** ने यह इक्वेशन बदल दी है। ₹38,999 में **Snapdragon 8 Gen 4 + 120W Charging + 144Hz Display** — यह प्रो-लेवल गेमिंग सेटअप है।

@@ -3,7 +3,7 @@ slug: "gadgets-story-2026-bmw-x6-m60i-review-2026-05-04"
 title: "2026 BMW X6 M60i Review: शानदार डिज़ाइन और धांसू परफॉरमेंस! 🏎️💨"
 description: "BMW ने भारत में अपनी नई X6 M60i लॉन्च कर दी है। कूपे एसयूवी का यह अवतार लग्जरी और पावर का एक बेजोड़ कॉम्बिनेशन है।"
 category: "📱 Gadgets"
-image: "/images/blog/gadgets-bmw-x6-m60i-2026-05-04.jpg"
+image: "/images/blog/gadgets-bmw-x6-m60i-2026-05-04.webp"
 date: 2026-05-04
 ---
 

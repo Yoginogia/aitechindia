@@ -3,7 +3,7 @@ title: "Redmi Note 15 Pro Review: 200MP Camera ₹23K में — फोटो
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Redmi Note 15 Pro में 200MP OIS Camera, 90W HyperCharge, और AMOLED Display — ₹23K में Camera Lovers के लिए बेस्ट फोन। पूरी रिव्यू यहाँ पढ़ें।"
-image: "/images/phones/redmi-note-15-pro.jpg"
+image: "/images/phones/redmi-note-15-pro.webp"
 author: "AITechNews Desk"
 ---
 Xiaomi का **Redmi Note** सीरीज़ हमेशा से India का सबसे ज़्यादा बिकने वाला Smartphone Series रहा है। Redmi Note 15 Pro इसी लीगेसी (legacy) को आगे बढ़ाते हुए ₹22,999 में **200MP Camera** ऑफर कर रहा है।

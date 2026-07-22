@@ -4,7 +4,7 @@ excerpt: "Elon Musk ने 2026 की सबसे बड़ी घोषणा �
 date: "2026-04-03"
 category: "AI News"
 author: "AITechNews"
-image: "/images/blog/musk-terafab-ai-chips.jpg"
+image: "/images/blog/musk-terafab-ai-chips.webp"
 readTime: 5
 ---
 

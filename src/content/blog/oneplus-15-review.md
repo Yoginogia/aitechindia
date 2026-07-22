@@ -3,7 +3,7 @@ title: "OnePlus 15 Review: 100W Charging + Hasselblad + OxygenOS — True Flagsh
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "OnePlus 15 में Snapdragon 8 Elite, 100W Charging, Hasselblad Camera, और OxygenOS — ₹65K में Flagship Experience बिना Samsung/Apple Price के।"
-image: "/images/phones/oneplus-15.jpg"
+image: "/images/phones/oneplus-15.webp"
 author: "AITechNews Desk"
 ---
 OnePlus ने 2026 में अपना Flagship Game नेक्स्ट लेवल पर ले जाया है। **OnePlus 15** ₹64,999 में Snapdragon 8 Elite, Hasselblad Camera Tuning, और 100W Charging ऑफर करता है।

@@ -3,7 +3,7 @@ slug: "deals-story-xiaomi-battery-replacement-offer-20-discount-67-de-2026-05-04
 title: "Xiaomi का धमाकेदार Offer: 67 स्मार्टफोन्स पर Battery Replacement में 20% की छूट! 🔋📱"
 description: "Xiaomi ने अपने यूज़र्स के लिए लिमिटेड टाइम बैटरी रिप्लेसमेंट प्रोग्राम शुरू किया है। जानें कौन-से फोंस हैं इस लिस्ट में।"
 category: "🛍️ Deals"
-image: "/images/blog/deals-xiaomi-battery-offer-2026-05-04.jpg"
+image: "/images/blog/deals-xiaomi-battery-offer-2026-05-04.webp"
 date: 2026-05-04
 ---
 

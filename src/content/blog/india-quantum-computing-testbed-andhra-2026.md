@@ -3,7 +3,7 @@ title: "India का पहला Quantum Testbed Launch — World Quantum Day �
 date: "2026-04-14"
 category: "Tech News"
 excerpt: "Andhra Pradesh ने आज World Quantum Day पर India का पहला indigenous Quantum Computing Testbed launch किया। National Quantum Mission के तहत यह milestone India को global tech superpower बनाने की दिशा में एक बड़ा कदम है।"
-image: "/images/blog/quantum-computing-india.jpg"
+image: "/images/blog/quantum-computing-india.webp"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"
 ---

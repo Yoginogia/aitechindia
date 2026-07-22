@@ -3,7 +3,7 @@ slug: "gadgets-mahindra-16-launches-by-2031-6-ev-10-ice-2026-05-06"
 title: "Mahindra का मेगा प्लान: 2031 तक लॉन्च होंगी 16 नई गाड़ियां (6 EV, 10 ICE) 🚙🔥"
 description: "महिंद्रा एंड महिंद्रा ने अपने भविष्य का रोडमैप शेयर किया है। 2031 तक 6 नई इलेक्ट्रिक SUV और 10 पेट्रोल/डीज़ल गाड़ियां लॉन्च की जाएंगी।"
 category: "📱 Gadgets"
-image: "/images/blog/gadgets-mahindra-16-launches-2026-05-06.jpg"
+image: "/images/blog/gadgets-mahindra-16-launches-2026-05-06.webp"
 date: 2026-05-06
 ---
 

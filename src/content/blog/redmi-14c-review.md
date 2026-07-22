@@ -3,7 +3,7 @@ title: "Redmi 14C Review: क्या ₹9,500 में मिलेगा 50M
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "Xiaomi का Redmi 14C बजट सेगमेंट में तहलका मचा रहा है। 50MP कैमरा, 5160mAh बैटरी और 90Hz डिस्प्ले — क्या ये ₹10K के अंदर सबसे बेस्ट फोन है?"
-image: "/images/phones/redmi-14c.jpg"
+image: "/images/phones/redmi-14c.webp"
 author: "AITechNews Desk"
 ---
 Xiaomi ने एक बार फिर budget segment में अपनी ताकत दिखाई है। **Redmi 14C** सिर्फ ₹9,499 में ऐसे फीचर्स दे रहा है जो कुछ साल पहले ₹20,000 वाले फोन में मिलते थे।

@@ -3,7 +3,7 @@ title: "Uber ने OpenAI का Use करके Drivers और Riders दो�
 date: "2026-05-07"
 category: "AI"
 excerpt: "Uber ने OpenAI की AI technology का इस्तेमाल करके अपने platform को पूरी तरह upgrade कर दिया है। अब drivers ज़्यादा smart तरीके से कमाई कर सकते हैं और riders को मिलेगा एक seamless booking experience।"
-image: "/images/blog/ai-uber-openai-2026-05-07.jpg"
+image: "/images/blog/ai-uber-openai-2026-05-07.webp"
 readingTime: "5 min read"
 ---
 

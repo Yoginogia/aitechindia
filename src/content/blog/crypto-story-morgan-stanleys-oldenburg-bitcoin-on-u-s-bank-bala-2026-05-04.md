@@ -3,7 +3,7 @@ slug: "crypto-story-morgan-stanleys-oldenburg-bitcoin-on-u-s-bank-bala-2026-05-0
 title: "Morgan Stanley का बड़ा बयान: Bitcoin जल्द ही अमेरिकी बैंकों की बैलेंस शीट पर होगा! 🏦📈"
 description: "Morgan Stanley के एग्जीक्यूटिव Oldenburg ने संकेत दिए हैं कि U.S. बैंक जल्द ही Bitcoin को अपनी बैलेंस शीट में शामिल कर सकते हैं।"
 category: "₿ Crypto"
-image: "/images/blog/crypto-morgan-stanley-bitcoin-2026-05-04.jpg"
+image: "/images/blog/crypto-morgan-stanley-bitcoin-2026-05-04.webp"
 date: 2026-05-04
 ---
 

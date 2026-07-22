@@ -3,7 +3,7 @@ title: "GPT-6 vs Claude 4.5: कौन जीतेगा AI की अगली
 date: "2026-04-08"
 category: "AI News"
 excerpt: "April 2026 में AGI की चर्चा सबसे ज़्यादा है। GPT-6 और Claude 4.5 के बीच का मुकाबला अब तक का सबसे बड़ा AI बैटल होने वाला है। जानिए कौन बाजी मारेगा।"
-image: "/images/blog/gpt6-vs-claude45.jpg"
+image: "/images/blog/gpt6-vs-claude45.webp"
 author: "AITechNews Desk"
 ---
 2026 शुरू होते ही AI की दुनिया में एक ऐसी जंग छिड़ गई है जिसकी कल्पना हमनें दो साल पहले भी नहीं की थी। OpenAI ने आखिरकार अपने सबसे ताकतवर मॉडल **GPT-6** को दुनिया के सामने पेश कर दिया है, तो दूसरी तरफ एंथ्रोपिक (Anthropic) ने अपने रिवॉल्यूशनरी (revolutionary) **Claude 4.5** के साथ मार्किट में खलबली मचा दी है। 

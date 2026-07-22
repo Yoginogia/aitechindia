@@ -3,7 +3,7 @@ title: "Tata EV Discounts June 2026: 1 जुलाई को कीमतें
 date: "2026-06-15"
 category: "Deals"
 excerpt: "Tata Motors ne 1 July 2026 se sabhi PVs aur EVs ki keemton mein 1.5% tak ki badhotari ka ailan kiya hai. Lekin isse pehle June mahine mein chal rahi hai sabse badi discount sale! Curvv EV par 3.35 lakh tak ki chhoot."
-image: "/images/blog/tata_ev_discounts_june_2026.jpg"
+image: "/images/blog/tata_ev_discounts_june_2026.webp"
 readingTime: "5 min read"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"

@@ -3,7 +3,7 @@ slug: "gadgets-story-honda-elevate-city-may-2026-offers-2026-05-04"
 title: "Honda Cars May 2026 Offers: Elevate और City पर ₹2.12 लाख तक की भारी छूट! 🚗💸"
 description: "मई 2026 में Honda अपनी पॉपुलर कारों Elevate SUV, City और Amaze पर शानदार डिस्काउंट और ऑफर्स दे रही है।"
 category: "📱 Gadgets"
-image: "/images/blog/gadgets-honda-offers-2026-05-04.jpg"
+image: "/images/blog/gadgets-honda-offers-2026-05-04.webp"
 date: 2026-05-04
 ---
 

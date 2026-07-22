@@ -3,7 +3,7 @@ slug: "gadgets-story-mcl-hy-gtr-track-only-mcl-hy-gtr-revealed-by-mclar-2026-05-
 title: "McLaren की नई 'Beast': ट्रैक-ओनली MCL-HY GTR का अनावरण, 730 HP की दमदार पावर! 🏎️🔥"
 description: "McLaren ने अपनी नई 730 हॉर्सपावर वाली ट्रैक-ओनली रेसिंग कार 'MCL-HY GTR' से पर्दा उठा दिया है। जानें इसकी खासियतें।"
 category: "📱 Gadgets"
-image: "/images/blog/gadgets-mcl-hy-gtr-2026-05-05.jpg"
+image: "/images/blog/gadgets-mcl-hy-gtr-2026-05-05.webp"
 date: 2026-05-05
 ---
 

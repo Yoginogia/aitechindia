@@ -3,7 +3,7 @@ title: "Bitcoin Dominance 61% पर पहुंची: क्या Altcoins �
 date: "2026-05-07"
 category: "Crypto"
 excerpt: "Bitcoin की market dominance 61% के ऊपर पहुंच गई है, जो पिछले 3 सालों का सबसे ऊंचा level है। अब सवाल ये है कि Altcoins जैसे Ethereum, Solana, और XRP का क्या होगा?"
-image: "/images/blog/crypto-bitcoin-dominance-2026-05-07.jpg"
+image: "/images/blog/crypto-bitcoin-dominance-2026-05-07.webp"
 readingTime: "5 min read"
 ---
 

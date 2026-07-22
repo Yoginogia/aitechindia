@@ -3,7 +3,7 @@ title: "PwC AI Jobs Barometer 2026: एआई स्किल्स वाले
 date: "2026-06-15"
 category: "AI"
 excerpt: "PwC ke latest AI Jobs Barometer 2026 report ke mutabik, AI skills ki demand pure market mein 8 guna tezi se badh rahi hai. Janiye AI kaise professionalized aur democratized jobs mein badlav la raha hai."
-image: "/images/blog/pwc_ai_jobs_barometer_2026.jpg"
+image: "/images/blog/pwc_ai_jobs_barometer_2026.webp"
 readingTime: "5 min read"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"

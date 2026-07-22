@@ -3,7 +3,7 @@ slug: "ai-google-deepmind-uk-workers-unionize-military-deal-2026-05-05"
 title: "Google DeepMind में बगावत: कर्मचारियों ने बनाई यूनियन, जानें क्यों? ✊🇬🇧"
 description: "Google DeepMind के UK कर्मचारियों ने यूनियन बनाने के लिए वोट किया है, जिसका मुख्य कारण हाल ही में हुई US मिलिट्री AI डील है।"
 category: "🤖 AI"
-image: "/images/blog/ai-deepmind-union-2026-05-05.jpg"
+image: "/images/blog/ai-deepmind-union-2026-05-05.webp"
 date: 2026-05-05
 ---
 

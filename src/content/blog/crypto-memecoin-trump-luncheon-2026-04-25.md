@@ -3,7 +3,7 @@ title: "मेमेकॉइन में उबाल 🚀"
 date: "2026-04-25"
 category: "Crypto"
 excerpt: "ट्रंप के लंच में शामिल होंगे मेमेकॉइन के टॉप होल्डर, जस्टिन सन की अनुपस्थिति से बढ़ी असमंजस"
-image: "/images/blog/ai-crypto-2026.jpg"
+image: "/images/blog/ai-crypto-2026.webp"
 readingTime: "5 min read"
 ---
 

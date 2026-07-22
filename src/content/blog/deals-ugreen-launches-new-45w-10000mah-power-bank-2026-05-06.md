@@ -3,7 +3,7 @@ slug: "deals-ugreen-launches-new-45w-10000mah-power-bank-2026-05-06"
 title: "Ugreen 45W 10000mAh Power Bank लॉन्च: 30 मिनट में फुल चार्ज! ⚡🔋"
 description: "Ugreen ने अपना नया 45W फास्ट चार्जिंग 10000mAh पावर बैंक लॉन्च किया है। जानिए इसके फीचर्स, कीमत और परफॉरमेंस की पूरी जानकारी।"
 category: "🛍️ Deals"
-image: "/images/blog/deals-ugreen-power-2026-05-06.jpg"
+image: "/images/blog/deals-ugreen-power-2026-05-06.webp"
 date: 2026-05-06
 ---
 

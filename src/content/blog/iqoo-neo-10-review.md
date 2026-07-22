@@ -3,7 +3,7 @@ title: "iQOO Neo 10 Review: Snapdragon 8 Gen 3 + 120W Charging — ₹30K मे
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "iQOO Neo 10 में Snapdragon 8 Gen 3, 120W FlashCharge, 6400mAh बैटरी, और 144Hz AMOLED — यह ₹30K का सबसे पावरफुल फोन है।"
-image: "/images/phones/iqoo-neo-10.jpg"
+image: "/images/phones/iqoo-neo-10.webp"
 author: "AITechNews Desk"
 ---
 ₹30,000 में **Snapdragon 8 Gen 3** प्रोसेसर मिलना — यह सिर्फ iQOO कर सकता है। **iQOO Neo 10** परफॉरमेंस और चार्जिंग स्पीड दोनों में इस प्राइस सेगमेंट का अनडिस्प्यूटेड (undisputed) किंग है।

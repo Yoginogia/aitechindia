@@ -3,7 +3,7 @@ title: "OnePlus 15R Review: 7400mAh Battery — India का सबसे लं
 date: "2026-04-08"
 category: "Gadgets"
 excerpt: "OnePlus 15R में 7400mAh बैटरी, OxygenOS, और 80W Charging — Travel Lovers और Heavy Users के लिए परफेक्ट फोन है।"
-image: "/images/phones/oneplus-15r.jpg"
+image: "/images/phones/oneplus-15r.webp"
 author: "AITechNews Desk"
 ---
 कभी सोचा है कि एक Smartphone की बैटरी 2 दिन से ज़्यादा चले? **OnePlus 15R** ने यह सपना पूरा कर दिया है **7400mAh बैटरी** के साथ।

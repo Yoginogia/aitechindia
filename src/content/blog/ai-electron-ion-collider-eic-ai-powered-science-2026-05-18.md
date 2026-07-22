@@ -3,7 +3,7 @@ title: "दुनिया का पहला AI-Powered Particle Collider! अ
 date: "2026-05-18"
 category: "AI"
 excerpt: "अमेरिका का Department of Energy दुनिया का पहला ऐसा Particle Collider बना रहा है जिसमें AI और Machine Learning सीधे Accelerator और Detector Systems में इंटीग्रेट होंगे। जानिए यह विज्ञान के लिए कितना बड़ा कदम है।"
-image: "/images/blog/ai-raven-exoplanets-2026-05-03.jpg"
+image: "/images/blog/ai-raven-exoplanets-2026-05-03.webp"
 readingTime: "6 min read"
 ---
 

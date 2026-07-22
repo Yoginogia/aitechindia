@@ -3,7 +3,7 @@ title: "AI से डर रही है दुनिया! अमेरिक
 date: "2026-05-18"
 category: "AI"
 excerpt: "ताज़ा सर्वे के अनुसार अमेरिका की बड़ी आबादी, खासकर युवा (Gen Z), का मानना है कि AI डेवलपमेंट बहुत तेज़ी से हो रहा है और इससे नौकरियां खत्म हो सकती हैं। जानिए भारत पर इसका क्या असर पड़ सकता है।"
-image: "/images/blog/ai-jobs-reality.jpg"
+image: "/images/blog/ai-jobs-reality.webp"
 readingTime: "6 min read"
 ---
 

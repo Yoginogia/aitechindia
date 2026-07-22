@@ -3,7 +3,7 @@ title: "Crypto Tax New Penalty India 2026 — April से ₹200/day Fine श�
 date: "2026-04-14"
 category: "Crypto"
 excerpt: "India में April 2026 से Crypto Tax के नए penalty rules लागू हो गए हैं। Transactions report नहीं किए तो ₹200 प्रतिदिन जुर्माना और गलत information पर ₹50,000 flat fine। सब investors ज़रूर पढ़ें।"
-image: "/images/blog/crypto-tax-penalty-india.jpg"
+image: "/images/blog/crypto-tax-penalty-india.webp"
 author: "Priya Singh"
 authorRole: "Crypto & Blockchain Expert"
 ---

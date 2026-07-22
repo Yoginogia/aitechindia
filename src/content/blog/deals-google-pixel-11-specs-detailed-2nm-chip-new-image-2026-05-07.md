@@ -3,7 +3,7 @@ title: "Google Pixel 11 Series: 2nm Chip, New Camera और भी बहुत 
 date: "2026-05-07"
 category: "Deals"
 excerpt: "Google की अगली Pixel 11 lineup के detailed specifications leak हो गए हैं। 2nm-based Tensor G6 chip, upgraded camera system, और AI-first features — जानिए सब कुछ detail में।"
-image: "/images/blog/deals-pixel-11-specs-2026-05-07.jpg"
+image: "/images/blog/deals-pixel-11-specs-2026-05-07.webp"
 readingTime: "6 min read"
 ---
 

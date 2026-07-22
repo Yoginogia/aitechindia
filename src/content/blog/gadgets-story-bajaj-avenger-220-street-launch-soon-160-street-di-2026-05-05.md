@@ -3,7 +3,7 @@ slug: "gadgets-story-bajaj-avenger-220-street-launch-soon-160-street-di-2026-05-
 title: "Bajaj Avenger 220 Street की वापसी! 160 Street हो सकती है बंद 🏍️✨"
 description: "बजाज अपनी पॉपुलर क्रूजर बाइक Avenger 220 Street को नए अवतार में लॉन्च करने वाली है, जबकि 160 Street को बंद किया जा सकता है।"
 category: "📱 Gadgets"
-image: "/images/blog/gadgets-bajaj-avenger-2026-05-05.jpg"
+image: "/images/blog/gadgets-bajaj-avenger-2026-05-05.webp"
 date: 2026-05-05
 ---
 

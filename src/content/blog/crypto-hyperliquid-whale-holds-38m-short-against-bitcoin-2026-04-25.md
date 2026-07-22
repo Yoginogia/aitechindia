@@ -3,7 +3,7 @@ title: "बिटकॉइन के खिलाफ $38M शॉर्ट पो
 date: "2026-04-25"
 category: "Crypto"
 excerpt: "एक Hyperliquid व्हेल ने **$38M** की शॉर्ट पोजीशन ली है, लेकिन क्या यह बाजार के भविष्य के परिणामों का संकेत देता है? बिटकॉइन और अल्टकॉइन्स के बाजार पर इसका क्या प्रभाव पड़ेगा?"
-image: "/images/blog/ai-crypto-2026.jpg"
+image: "/images/blog/ai-crypto-2026.webp"
 readingTime: "10 min read"
 ---
 

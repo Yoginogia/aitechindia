@@ -4,7 +4,7 @@ excerpt: "Anthropic ने Claude Mythos 5 लॉन्च कर AI की द�
 date: "2026-04-03"
 category: "AI News"
 author: "AITechNews"
-image: "/images/blog/claude-mythos-5-gpt-battle.jpg"
+image: "/images/blog/claude-mythos-5-gpt-battle.webp"
 readTime: 6
 ---
 

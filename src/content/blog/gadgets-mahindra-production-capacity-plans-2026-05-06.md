@@ -3,7 +3,7 @@ slug: "gadgets-mahindra-production-capacity-plans-2026-05-06"
 title: "Mahindra बढ़ाएगा प्रोडक्शन: SUV लवर्स के लिए बड़ी खुशखबरी 🏭🚗"
 description: "Mahindra अपनी भारी पेंडिंग डिलीवरीज़ को कम करने के लिए अपने मैन्युफैक्चरिंग प्लांट्स की प्रोडक्शन कैपेसिटी को भारी मात्रा में बढ़ाने जा रहा है।"
 category: "📱 Gadgets"
-image: "/images/blog/gadgets-mahindra-production-2026-05-06.jpg"
+image: "/images/blog/gadgets-mahindra-production-2026-05-06.webp"
 date: 2026-05-06
 ---
 

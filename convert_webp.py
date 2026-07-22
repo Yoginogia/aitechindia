@@ -3,10 +3,9 @@ from PIL import Image
 import glob
 
 def convert_to_webp(blog_img_dir, md_content_dir):
-    pattern = os.path.join(blog_img_dir, '*.png')
-    png_files = glob.glob(pattern)
+    png_files = glob.glob(os.path.join(blog_img_dir, '*.png')) + glob.glob(os.path.join(blog_img_dir, '*.jpg')) + glob.glob(os.path.join(blog_img_dir, '*.jpeg'))
     
-    print(f"Found {len(png_files)} PNG files to convert to WEBP.")
+    print(f"Found {len(png_files)} files to convert to WEBP.")
     
     # 1. Convert Images
     for filepath in png_files:
@@ -41,9 +40,14 @@ def convert_to_webp(blog_img_dir, md_content_dir):
         with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
             
-        if '.png' in content:
-            # Replace local path extensions
-            new_content = content.replace('.png', '.webp')
+        has_updates = False
+        new_content = content
+        for ext in ['.png', '.jpg', '.jpeg']:
+            if ext in new_content:
+                new_content = new_content.replace(ext, '.webp')
+                has_updates = True
+                
+        if has_updates:
             with open(filepath, 'w', encoding='utf-8') as f:
                 f.write(new_content)
             print(f"Updated references in {os.path.basename(filepath)}")

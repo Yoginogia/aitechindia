@@ -3,7 +3,7 @@ title: "🌐 Google Chrome में आ रहा है AI Mode: आपकी 
 date: "2026-04-18"
 category: "AI"
 excerpt: "Google Chrome का नया 'AI Mode' browsing के experience को पूरी तरह बदल रहा है। जानिए कैसे AI आपके time को save करेगा और research को आसान बनाएगा।"
-image: "/images/blog/new-web-experience-with-ai-mode-in-chrome-2026-04-18.jpg"
+image: "/images/blog/new-web-experience-with-ai-mode-in-chrome-2026-04-18.webp"
 readingTime: "4 min read"
 ---
 

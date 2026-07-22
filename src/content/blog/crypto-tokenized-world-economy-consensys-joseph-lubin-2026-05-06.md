@@ -3,7 +3,7 @@ slug: "crypto-tokenized-world-economy-consensys-joseph-lubin-2026-05-06"
 title: "Tokenized World Economy: Consensys के Joseph Lubin का बड़ा दावा 🌍🔗"
 description: "Consensys के CEO जोसेफ लुबिन का मानना है कि भविष्य की पूरी दुनिया की अर्थव्यवस्था ब्लॉकचेन पर 'Tokenized' हो जाएगी।"
 category: "₿ Crypto"
-image: "/images/blog/crypto-consensys-2026-05-06.jpg"
+image: "/images/blog/crypto-consensys-2026-05-06.webp"
 date: 2026-05-06
 ---
 

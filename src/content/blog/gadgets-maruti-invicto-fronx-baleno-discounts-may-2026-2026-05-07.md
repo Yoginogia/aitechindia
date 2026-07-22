@@ -3,7 +3,7 @@ title: "Maruti Invicto, Fronx, Baleno पर भारी Discount: ₹2.15 ल�
 date: "2026-05-07"
 category: "Gadgets"
 excerpt: "Maruti Suzuki ने May 2026 में अपनी Nexa lineup — Invicto, Fronx, Baleno, Grand Vitara और Jimny पर massive discounts announce किए हैं। जानिए कितनी बचत हो सकती है।"
-image: "/images/blog/gadgets-maruti-discounts-2026-05-07.jpg"
+image: "/images/blog/gadgets-maruti-discounts-2026-05-07.webp"
 readingTime: "5 min read"
 ---
 

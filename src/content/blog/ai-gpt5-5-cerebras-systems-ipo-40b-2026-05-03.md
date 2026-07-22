@@ -3,7 +3,7 @@ slug: "ai-gpt5-5-cerebras-systems-ipo-40b-2026-05-03"
 title: "AI वर्ल्ड की हलचल: GPT-5.5 का जलवा और Cerebras का $40B IPO! 💻🔥"
 description: "OpenAI का GPT-5.5 कोडिंग और बिज़नेस में छा रहा है, वहीं AI चिप मेकर Cerebras Systems अपना $40 बिलियन का IPO लाने की तैयारी कर रहा है।"
 category: "🤖 AI"
-image: "/images/blog/ai-gpt55-cerebras-2026-05-03.jpg"
+image: "/images/blog/ai-gpt55-cerebras-2026-05-03.webp"
 date: 2026-05-03
 ---
 

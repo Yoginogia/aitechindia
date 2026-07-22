@@ -3,7 +3,7 @@ slug: "ai-china-15th-five-year-plan-intelligent-robotics-2026-05-05"
 title: "चीन का नया मास्टरप्लान: 'Intelligent Robotics' से बदलेगा इकोनॉमी का गियर! 🇨🇳🦾"
 description: "चीन ने अपनी 15वीं पंचवर्षीय योजना (15th Five-Year Plan) में AI पावर्ड 'इंटेलीजेंट रोबोटिक्स' को कोर इंडस्ट्रियल स्ट्रेटजी बनाया है।"
 category: "🤖 AI"
-image: "/images/blog/ai-china-robotics-2026-05-05.jpg"
+image: "/images/blog/ai-china-robotics-2026-05-05.webp"
 date: 2026-05-05
 ---
 

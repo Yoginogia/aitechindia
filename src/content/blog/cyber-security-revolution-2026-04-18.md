@@ -3,7 +3,7 @@ title: "🛡️ OpenAI का 'Trusted Access': Cyber Security की दुन�
 date: "2026-04-18"
 category: "AI"
 excerpt: "OpenAI ने 'Trusted Access for Cyber' लॉन्च किया है जो दुनिया भर के cyber defence systems को AI के सहारे और मजबूत करेगा।"
-image: "/images/blog/cyber-security-revolution-2026-04-18.jpg"
+image: "/images/blog/cyber-security-revolution-2026-04-18.webp"
 readingTime: "4 min read"
 ---
 

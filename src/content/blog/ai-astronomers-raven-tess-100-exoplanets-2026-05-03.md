@@ -3,7 +3,7 @@ slug: "ai-astronomers-raven-tess-100-exoplanets-2026-05-03"
 title: "अंतरिक्ष में AI का कमाल: RAVEN AI ने खोजे 100 से ज्यादा नए ग्रह! 🔭🪐"
 description: "Astronomers ने 'RAVEN' नाम का एक नया AI टूल डेवलप किया है, जिसने NASA के TESS डेटा का उपयोग करके 100 से ज्यादा नए ग्रहों की पुष्टि की है।"
 category: "🤖 AI"
-image: "/images/blog/ai-raven-exoplanets-2026-05-03.jpg"
+image: "/images/blog/ai-raven-exoplanets-2026-05-03.webp"
 date: 2026-05-03
 ---
 

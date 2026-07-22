@@ -3,7 +3,7 @@ slug: "ai-meta-manus-china-deal-blocked-2026-05-03"
 title: "Meta को बड़ा झटका: चीन ने रोकी $2 Billion की 'Manus' AI डील! 🛑🇨🇳"
 description: "Mark Zuckerberg की कंपनी Meta, 'Manus' नाम के एक AI स्टार्टअप को $2 Billion में खरीदना चाहती थी, लेकिन चीन की सरकार ने इस पर रोक लगा दी है।"
 category: "🤖 AI"
-image: "/images/blog/ai-meta-manus-blocked-2026-05-03.jpg"
+image: "/images/blog/ai-meta-manus-blocked-2026-05-03.webp"
 date: 2026-05-03
 ---
 

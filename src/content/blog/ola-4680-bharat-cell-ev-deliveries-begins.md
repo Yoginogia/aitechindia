@@ -3,7 +3,7 @@ title: "Ola 4680 Bharat Cell EV: ओला की स्वदेशी बै�
 date: "2026-06-15"
 category: "EV & Mobility"
 excerpt: "Ola Electric ne apne in-house vikasit 4680 Bharat Cell se powered electric scooters ki mass deliveries shuru kar di hain. Bharat sarkar ki BIS certification ke sath ye India ka pehla swadeshi lithium-ion cell hai."
-image: "/images/blog/ola_4680_bharat_cell.jpg"
+image: "/images/blog/ola_4680_bharat_cell.webp"
 readingTime: "5 min read"
 author: "Rahul Sharma"
 authorRole: "Senior Tech Editor"

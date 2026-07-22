@@ -3,7 +3,7 @@ title: "महान रेसर और Paralympic चैंपियन Alex Z
 date: "2026-05-03"
 category: "Gadgets"
 excerpt: "पूर्व F1 ड्राइवर और पैरालंपिक गोल्ड मेडलिस्ट Alessandro 'Alex' Zanardi का निधन हो गया है। उनके जीवन ने दुनिया भर के लाखों लोगों को प्रेरित किया था।"
-image: "/images/blog/gadgets-alex-zanardi-tribute.jpg"
+image: "/images/blog/gadgets-alex-zanardi-tribute.webp"
 readingTime: "5 min read"
 ---
 
