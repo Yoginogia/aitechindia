@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'software-story-ott-platform-crackdown-india-blocked-list-it-act',
+        title: `OTT Ban India: 50 अश्लील ओटीटी प्लेटफॉर्म्स पर प्रतिबंध! 💻🚫`,
+        subtitle: `Union Government disables 50 OTT platforms in India for streaming obscene and sexually explicit content in violation of the IT Act.`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/ott-platform-crackdown-india-blocked-list-it-act.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'ai-story-tcs-physical-ai-report-manufacturing-industry-automation',
+        title: `TCS Physical AI: रोबोट संभालेंगे फैक्ट्रियों का काम! 🤖🏭`,
+        subtitle: `TCS releases its Global Study showing Physical AI transitioning into mainstream manufacturing via human-robot collaborative networks.`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/tcs-physical-ai-report-manufacturing-industry-automation.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-white-house-moonshot-ai-accusation-kimi-k3-anthropic-fable',
         title: `Moonshot AI Accusation: अमेरिका ने लगाया चोरी का आरोप! 🤖🇺🇸🇨🇳`,
         subtitle: `U.S. White House OSTP publicly accuses Chinese AI startup Moonshot AI of illegal model distillation of Anthropic's Fable.`,
