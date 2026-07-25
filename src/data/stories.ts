@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'gadgets-story-qualcomm-price-hike-smartphone-costs-increase-2026',
+        title: `Qualcomm Price Hike: स्मार्टफोन होंगे महंगे! 📱💸`,
+        subtitle: `Qualcomm announces a double-digit price hike on chipsets starting September 1, 2026.`,
+        category: '📱 Gadgets',
+        categoryColor: '#ec4899',
+        image: '/images/blog/qualcomm-price-hike-smartphone-costs-increase-2026.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'ev-story-zinc-air-battery-tech-sastra-university-india-patent',
+        title: `Zinc-Air Battery: स्वदेशी एवी बैटरी! 🚗🔋`,
+        subtitle: `India's SASTRA University secures a patent for a rechargeable fire-proof Zinc-Air battery.`,
+        category: '🚗 EV & Mobility',
+        categoryColor: '#10b981',
+        image: '/images/blog/zinc-air-battery-tech-sastra-university-india-patent.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-claude-5-opus-launch-anthropic-ai-model',
         title: `Claude 5 Opus: कोडिंग में सारे रिकॉर्ड टूटे! 🤖🔥`,
         subtitle: `Anthropic launches Claude 5 Opus, outperforming rivals on software engineering benchmarks.`,
