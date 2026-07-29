@@ -11,6 +11,26 @@ export interface StoryItem {
 
 export const STORIES: StoryItem[] = [
     {
+        slug: 'ai-story-us-humanoid-robot-ban-fcc-chinese-ai-imports',
+        title: `US Humanoid Robot Ban: चीनी रोबोट्स पर बैन! 🤖🚫`,
+        subtitle: `US FCC bans foreign and Chinese advanced AI humanoid robots to protect AI infrastructure.`,
+        category: '🤖 AI News',
+        categoryColor: '#8b5cf6',
+        image: '/images/blog/us-humanoid-robot-ban-fcc-chinese-ai-imports.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
+        slug: 'software-story-nitin-gadkari-deepfake-lawsuit-meta-google-x',
+        title: `Nitin Gadkari Lawsuit: एआई डीपफेक पर घिरे मेटा व गूगल! 📱⚖️`,
+        subtitle: `Nitin Gadkari files lawsuit in Bombay High Court against Meta, Google & X over AI deepfake videos.`,
+        category: '💻 Software',
+        categoryColor: '#3b82f6',
+        image: '/images/blog/nitin-gadkari-deepfake-lawsuit-meta-google-x.webp',
+        pages: 4,
+        isTrending: true,
+    },
+    {
         slug: 'ai-story-openai-presence-launch-enterprise-agent-platform',
         title: `OpenAI Presence: स्वायत्त एआई एजेंट! 🤖🏢`,
         subtitle: `OpenAI launches 'Presence' platform for enterprises to deploy autonomous AI agents.`,
