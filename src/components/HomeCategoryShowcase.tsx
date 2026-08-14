@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Sparkles, Smartphone, Code, ArrowRight, Clock } from 'lucide-react';
-import { getSortedPostsData } from '@/lib/markdown';
+import { getSortedPostsData, type PostData } from '@/lib/markdown';
 
 const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string }> = {
     'AI Tools': { icon: <Sparkles className="h-4 w-4" />, gradient: 'from-emerald-500/20 to-cyan-600/20' },
@@ -9,8 +9,12 @@ const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string 
     'Software': { icon: <Code className="h-4 w-4" />, gradient: 'from-orange-500/20 to-red-600/20' },
 };
 
-export default function HomeCategoryShowcase() {
-    const allPosts = getSortedPostsData();
+interface HomeCategoryShowcaseProps {
+    posts?: PostData[];
+}
+
+export default function HomeCategoryShowcase({ posts }: HomeCategoryShowcaseProps) {
+    const allPosts = posts || getSortedPostsData();
 
     // Group posts by prominent categories
     const categories = ['AI Tools', 'Gadgets', 'Software'];

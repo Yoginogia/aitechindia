@@ -102,7 +102,7 @@ export default function RootLayout({
             </main>
             <LazyFloatingWidgets />
             <Footer />
-            <Script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" strategy="afterInteractive" />
+            <Script src="https://cdn.onesignal.com/sdks/web/v16/OneSignalSDK.page.js" strategy="lazyOnload" />
         </ThemeProvider>
       </body>
     </html>

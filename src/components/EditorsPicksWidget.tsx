@@ -1,12 +1,14 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { Star, ChevronRight, Clock } from 'lucide-react';
-import { getSortedPostsData } from '@/lib/markdown';
+import { getSortedPostsData, type PostData } from '@/lib/markdown';
 
-export default function EditorsPicksWidget() {
-    // For "Editor's Picks", we'll just grab the first 4 articles that have a specific tag,
-    // or just the latest 4 if we don't have tags set up for 'featured'.
-    const allPosts = getSortedPostsData();
+interface EditorsPicksWidgetProps {
+    posts?: PostData[];
+}
+
+export default function EditorsPicksWidget({ posts }: EditorsPicksWidgetProps) {
+    const allPosts = posts || getSortedPostsData();
     
     // We can simulate editor's picks by taking articles from 2nd index onwards, 
     // but excluding Crypto posts which belong in the dedicated section.

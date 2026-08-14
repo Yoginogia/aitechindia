@@ -40,6 +40,8 @@ export default function WebStoriesGallery() {
                         <img
                             src={story.image}
                             alt={story.title}
+                            loading="lazy"
+                            decoding="async"
                             className="absolute inset-0 w-full h-full object-cover group-hover:scale-100 transition-transform duration-[3000ms] ease-out opacity-80 group-hover:opacity-100"
                         />
                         

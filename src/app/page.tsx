@@ -11,6 +11,7 @@ import TechPollWidget from '@/components/TechPollWidget';
 import SpeedTestWidget from '@/components/SpeedTestWidget';
 import DeltaAdBanner from '@/components/DeltaAdBanner';
 import { getSortedPostsData } from '@/lib/markdown';
+import { STORIES } from '@/data/stories';
 
 // Category ke hisaab se icon aur gradient
 const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string }> = {
@@ -24,10 +25,12 @@ const CATEGORY_STYLES: Record<string, { icon: React.ReactNode; gradient: string 
 const DEFAULT_STYLE = { icon: <Cpu className="h-3.5 w-3.5" />, gradient: 'from-slate-500/20 to-gray-600/20' };
 
 export default function Home() {
-  // Automatically fetch all blog posts sorted by date
+  // Automatically fetch all blog posts sorted by date once on server
   const allPosts = getSortedPostsData();
   // Filter out Crypto posts from homepage as they go to the specialized Crypto page
   const recentPosts = allPosts.filter(post => post.category !== 'Crypto').slice(0, 8);
+  // Pass only top 7 stories from server to avoid shipping 450KB stories.ts to client bundle
+  const trendingStories = STORIES.slice(0, 7);
 
   return (
     <div className="flex flex-col min-h-screen bg-grid">
@@ -90,7 +93,7 @@ export default function Home() {
             {/* Left Column: Articles — DYNAMIC from blog folder */}
             <div className="lg:col-span-8 space-y-8 min-w-0">
               <DeltaAdBanner />
-              <WebStoriesHighlights />
+              <WebStoriesHighlights stories={trendingStories} />
 
               <div className="flex items-center justify-between pb-4 mt-8">
                 <h2 className="text-2xl font-bold tracking-tight flex items-center gap-3">
@@ -164,7 +167,7 @@ export default function Home() {
               <SpeedTestWidget />
               <TechPollWidget />
               <NewsletterWidget />
-              <EditorsPicksWidget />
+              <EditorsPicksWidget posts={allPosts} />
             </div>
 
           </div>
@@ -177,7 +180,7 @@ export default function Home() {
       </div>
 
       {/* Full Width Category Showcase */}
-      <HomeCategoryShowcase />
+      <HomeCategoryShowcase posts={allPosts} />
     </div>
   );
 }

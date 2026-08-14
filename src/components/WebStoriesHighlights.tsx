@@ -2,12 +2,16 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { STORIES, StoryItem } from '@/data/stories';
+import type { StoryItem } from '@/data/stories';
 import { Instagram } from 'lucide-react';
 
-export default function WebStoriesHighlights() {
-  // Use the top 7 trending stories from our centralized data
-  const highlights: StoryItem[] = STORIES.slice(0, 7);
+interface WebStoriesHighlightsProps {
+  stories?: StoryItem[];
+}
+
+export default function WebStoriesHighlights({ stories = [] }: WebStoriesHighlightsProps) {
+  const highlights = stories.slice(0, 7);
+
   const handleShare = (e: React.MouseEvent, story: StoryItem) => {
     e.preventDefault();
     const url = `${window.location.origin}/web-stories/${story.slug}.html`;
@@ -23,6 +27,8 @@ export default function WebStoriesHighlights() {
       alert('Link copied to clipboard! Share it on Instagram.');
     }
   };
+
+  if (highlights.length === 0) return null;
 
   return (
     <div className="w-full max-w-full overflow-hidden mt-6 mb-4">
