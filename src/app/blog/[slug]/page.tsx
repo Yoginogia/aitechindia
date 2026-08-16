@@ -55,6 +55,17 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             alternates: {
                 canonical: `/blog/${resolvedParams.slug}`,
             },
+            robots: {
+                index: true,
+                follow: true,
+                googleBot: {
+                    index: true,
+                    follow: true,
+                    'max-video-preview': -1,
+                    'max-image-preview': 'large',
+                    'max-snippet': -1,
+                },
+            },
         };
     } catch {
         return {
@@ -118,11 +129,36 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         isAccessibleForFree: true,
     };
 
+    const breadcrumbJsonLd = {
+        '@context': 'https://schema.org',
+        '@type': 'BreadcrumbList',
+        itemListElement: [
+            {
+                '@type': 'ListItem',
+                position: 1,
+                name: 'Home',
+                item: baseUrl,
+            },
+            {
+                '@type': 'ListItem',
+                position: 2,
+                name: postData.category || 'Tech',
+                item: `${baseUrl}/${(postData.category || 'tech').toLowerCase().replace(/\s+/g, '-')}`,
+            },
+            {
+                '@type': 'ListItem',
+                position: 3,
+                name: postData.title,
+                item: `${baseUrl}/blog/${postData.slug}`,
+            },
+        ],
+    };
+
     return (
         <article className="container mx-auto px-4 md:px-8 max-w-4xl py-12 md:py-20">
             <script
                 type="application/ld+json"
-                dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                dangerouslySetInnerHTML={{ __html: JSON.stringify([jsonLd, breadcrumbJsonLd]) }}
             />
             <div className="mb-10">
                 <Link href="/" className="inline-flex items-center text-sm font-medium text-muted-foreground hover:text-primary transition-colors mb-8 group">

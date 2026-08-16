@@ -51,6 +51,17 @@ export const metadata: Metadata = {
     description: "Stay ahead with the latest AI updates, tech news, and gadget reviews.",
     images: ['/logo.png'],
   },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
   other: {
     'google-news-publication': 'AITechNews',
     'news_keywords': 'AI, Tech, Smartphones, 5G, Crypto, Gadgets, India',
