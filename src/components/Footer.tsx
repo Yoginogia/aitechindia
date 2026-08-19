@@ -37,9 +37,6 @@ export default function Footer() {
                             <li><Link href="/gadgets" className="hover:text-primary transition-colors">📱 Gadgets & EVs</Link></li>
                             <li><Link href="/crypto" className="hover:text-primary transition-colors">💰 Crypto News</Link></li>
                             <li><Link href="/top-deals" className="hover:text-primary transition-colors">🛒 Top Deals</Link></li>
-                            <li><Link href="/sitemap.xml" target="_blank" className="hover:text-primary transition-colors">📄 XML Sitemap</Link></li>
-                            <li><Link href="/news-sitemap.xml" target="_blank" className="hover:text-primary transition-colors">📰 News Sitemap</Link></li>
-                            <li><Link href="/feed.xml" target="_blank" className="hover:text-primary transition-colors">📡 RSS Feed</Link></li>
                         </ul>
                     </div>
 
