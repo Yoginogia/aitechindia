@@ -1,6 +1,6 @@
 ============================================================
 === AITechNews Publisher v5.0 - RELIABILITY UPDATE ===
-Run time: 2026-10-31 04:47 UTC
+Run time: 2026-11-01 05:10 UTC
 Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fallback
 ============================================================
 
@@ -11,19 +11,19 @@ Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fal
   CATEGORY: 🤖 AI (target: 5 articles)
 ============================================================
 
-  [1/5] Nvidia weighs playing the cosigner for Nscale’s AI data center in...
+  [1/5] Apple CEO says the company doesn’t ‘want to ship AI for AI’s sake...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/5] Ollie, a privacy-focused AI assistant, is shutting down...
+  [1/5] 4 days left: How TechCrunch Founder Summit helps you make more us...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/5] Intel’s stock crashes, knocking $12B from government’s stake...
+  [1/5] Judge allows NAACP lawsuit over xAI data center pollution to move...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/5] Anthropic expected to receive high ‘junk’ rating from credit agen...
+  [1/5] OpenAI reportedly lowers funding target for new round...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
@@ -59,6 +59,10 @@ Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fal
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
+  [1/5] Are Boutique AI Firms India’s Next Big Thing?...
+  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
+  Skipping - generation failed
+
   [1/5] Amazon Warns Engineers Against AI Productivity Traps in Latest Me...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
@@ -71,43 +75,39 @@ Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fal
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/5] Anthropic Makes $2.08 in Revenue for Every $1 Spent on Compute — ...
-  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
-  Skipping - generation failed
-
 ============================================================
   CATEGORY: 🛍️ Deals (target: 2 articles)
 ============================================================
+
+  [1/2] 2026 Hyundai Bayon: Which Is The Most Value For Money Variant? I ...
+  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
+  Skipping - generation failed
+
+  [1/2] Samsung Galaxy Tab S12+ Review: Closest I’ve Come To Replacing My...
+  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
+  Skipping - generation failed
+
+  [1/2] New HP OmniBook 5 AI PC : An AI-Powered Companion For Students On...
+  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
+  Skipping - generation failed
 
   [1/2] Nothing Plans More Than Twice as Many Smartphone Launches in 2027...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Four New WhatsApp Group Chat Updates Explained, From Permanent Pi...
+  [1/2] Samsung mocks iPhone Duo display defect...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Apple’s Ultra-Thin iPhone Air May Finally Get A Second Camera And...
+  [1/2] Redmi Band 4 vs Xiaomi Smart Band 11: Which Fitness Band Should Y...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Motorola’s Signature 27 Lands In November: It’s the First Non-Pix...
+  [1/2] Vivo X500 Pro Max vs Xiaomi 17 Ultra: Is Xiaomi Worth the Extra $...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Redmi K100 on first sale today with 10,000mAh battery...
-  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
-  Skipping - generation failed
-
-  [1/2] Samsung is reportedly working on a 17-inch foldable...
-  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
-  Skipping - generation failed
-
-  [1/2] OnePlus Ace 7 vs Ace 7 Pro: Should You Spend More for the Pro?...
-  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
-  Skipping - generation failed
-
-  [1/2] Bose QuietComfort Headphones drop to $169, and comfort is the rea...
+  [1/2] Xiaomi launches new smart doorbell with 150° dual cameras and six...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
@@ -115,19 +115,27 @@ Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fal
   CATEGORY: 💻 Software (target: 1 articles)
 ============================================================
 
-  [1/1] Critical Linux kernel flaw allows remote root attacks on MPTCP se...
+  [1/1] Northflank security breach leads to abuse of customers' AI API ke...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/1] Trezor warns of suspected crypto-theft implant in hardware wallet...
+  [1/1] New Android SMS of Death exploit can remotely crash unpatched pho...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/1] Malicious Claude Code extension on Cursor planted SSH backdoors...
+  [1/1] Reddit to lock content behind logins to fight scrapers...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/1] SS7 and Diameter Attacks: How Signaling Flaws Expose Your Phone...
+  [1/1] From Beginner to Bug Hunter: Learning Cybersecurity in the AI Era...
+  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
+  Skipping - generation failed
+
+  [1/1] Reddit jumps on the algorithm bandwagon with new For You feed...
+  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
+  Skipping - generation failed
+
+  [1/1] How to prevent your Discord messages appearing in Google search r...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
@@ -139,27 +147,19 @@ Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fal
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/1] Reddit will test mandatory logins as Google AI search drains its ...
+  [1/1] Activision Will Remove Seoul Crowd Crush Footage From Call of Dut...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/1] Chile has ISPs block 1,954 pirate IPTV URLs as Subtel warns of da...
+  [1/1] Google Launches Gemini 4 Carbon for Cyber Defenders First, With A...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/1] Football Manager 27 Is Free to Play on Steam Until November 3 Ahe...
+  [1/1] Google Confirms a Fix Is Coming for Pixel Watch Battery Drain Rep...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/1] OpenAI Doubles ChatGPT Pro and Business Premium Usage Limits Afte...
-  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
-  Skipping - generation failed
-
-  [1/1] Reddit Moves to a Logged-In Only Experience, With Tests in Select...
-  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
-  Skipping - generation failed
-
-  [1/1] Microsoft Confirms Edge 156 Update Broke Attachment Opening in Ne...
+  [1/1] Microsoft Fixes Windows 11 Always On VPN Failures From September ...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
@@ -167,35 +167,35 @@ Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fal
   CATEGORY: ₿ Crypto (target: 2 articles)
 ============================================================
 
-  [1/2] Binance hackers raced to move billions before it could be frozen...
+  [1/2] Binance says 90% of stolen assets replenished, targets Sunday wit...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Tether’s excess reserves nearly double to $8B as Q3 profit hits $...
+  [1/2] Bitcoin held up better than expected after Binance hack, Strive C...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Coinbase leads crypto stock selloff following $6.3B Binance hack...
+  [1/2] Here’s what happened in crypto today...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Crypto Biz: Bitcoin’s quantum threat is becoming an economic prob...
+  [1/2] Bitcoin turns 18: Has the original rebel grown up?...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] OpenAI reportedly cuts fundraising and valuation targets amid AI ...
+  [1/2] FBI confirms North Korea's role in $6 billion Binance hack, asks ...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Experts divided over Binance hack asset freezes, warn recovery is...
+  [1/2] Bitcoin's white paper turns 18, and small businesses are still pa...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Binance uncovers wider breach in $6.3 billion exploit, targets Su...
+  [1/2] A stolen iPhone, $14,000 in losses and London's crypto theft prob...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Wall Street analysts urge investors to buy crypto stocks after $6...
+  [1/2] Traders are already placing leveraged bets on Anthropic’s IPO usi...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
@@ -215,19 +215,19 @@ Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fal
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
+  [1/2] Binance Hack: Everything You Need to Know About the Biggest Crypt...
+  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
+  Skipping - generation failed
+
+  [1/2] Why AI Models Cheat: Reward Hacking, Explained...
+  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
+  Skipping - generation failed
+
   [1/2] Binance Hack Shows Why Offshore Exchanges Need US Oversight, CFTC...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
   [1/2] Intel Stock Suffers Worst Crash in 50 Years as Weak Forecast Over...
-  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
-  Skipping - generation failed
-
-  [1/2] Worried About Crypto Hacks? Buy Bitcoin Proxies in Stock Market I...
-  Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
-  Skipping - generation failed
-
-  [1/2] Reddit Stock Plunges 30% as Google's AI Search Hits Traffic and U...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
@@ -251,19 +251,19 @@ Features: Dedup + Hinglish + Web Stories + Exponential Backoff + Multi-Model Fal
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Watch New Zealand vs Fiji: FREE live streams and TV channels...
+  [1/2] This 'truly modular' keyboard can be built like a Lego set — mean...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] The latest Apple Watch update promises better treadmill workout t...
+  [1/2] Quordle hints and answers for Sunday, November 1 (game #1742)...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Someone found their lost Bose bud in a field of gravel using Chat...
+  [1/2] NYT Connections hints and answers for Sunday, November 1 (game #1...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
 
-  [1/2] Anduril wants to become a laptop maker — drone and defense giant ...
+  [1/2] NYT Strands hints and answers for Sunday, November 1 (game #973)...
   Generation error: All AI models (Gemini, OpenRouter, Groq) failed or rate-limited.
   Skipping - generation failed
   ✗ History save failed: 401
